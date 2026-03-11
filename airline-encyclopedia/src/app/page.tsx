@@ -61,38 +61,71 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-[#0f172a] via-[#1e3a5f] to-[#1e40af] text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-400 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2" />
+      <section className="relative bg-gradient-to-br from-[#0c1929] via-[#0c4a6e] to-[#0369a1] text-white overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-sky-400/10 rounded-full blur-3xl transform translate-x-1/3 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-cyan-400/10 rounded-full blur-3xl transform -translate-x-1/3 translate-y-1/2" />
+          <div className="absolute top-1/2 left-1/2 w-[300px] h-[300px] bg-sky-300/5 rounded-full blur-2xl transform -translate-x-1/2 -translate-y-1/2" />
         </div>
+
+        {/* Flight path decorations */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none" preserveAspectRatio="none" viewBox="0 0 1200 500">
+          <path d="M-50,350 Q200,300 400,320 T850,200 T1250,150" stroke="rgba(255,255,255,0.06)" strokeWidth="2" fill="none" strokeDasharray="8,16" />
+          <path d="M-30,400 Q300,350 600,380 T1250,250" stroke="rgba(255,255,255,0.04)" strokeWidth="1.5" fill="none" strokeDasharray="6,12" />
+          <path d="M1250,100 Q900,80 600,120 T-50,200" stroke="rgba(255,255,255,0.05)" strokeWidth="1.5" fill="none" strokeDasharray="4,10" />
+          {/* Small airplane icon at end of path */}
+          <g transform="translate(845,198) rotate(-15)">
+            <path d="M0,0 L8,-3 L2,0 L8,3Z" fill="rgba(255,255,255,0.15)" />
+          </g>
+          {/* Clouds */}
+          <g opacity="0.04" fill="white">
+            <ellipse cx="200" cy="80" rx="120" ry="35" />
+            <ellipse cx="240" cy="72" rx="80" ry="28" />
+            <ellipse cx="900" cy="120" rx="90" ry="25" />
+            <ellipse cx="930" cy="115" rx="60" ry="20" />
+          </g>
+        </svg>
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-            Commercial Airlines
-            <br />
-            <span className="text-blue-300">Encyclopedia</span>
-          </h1>
-          <p className="mt-6 text-lg sm:text-xl text-blue-100 max-w-2xl leading-relaxed">
-            Explore the world&apos;s major airlines. Discover their histories,
-            fleets, and global route networks through interactive maps and
-            detailed profiles.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-8 text-sm">
-            <div>
-              <div className="text-3xl font-bold">{airlines.length}</div>
-              <div className="text-blue-200">Airlines</div>
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center">
+              <svg className="w-5 h-5 text-sky-300" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
+              </svg>
             </div>
-            <div>
-              <div className="text-3xl font-bold">
+            <span className="text-sm font-medium text-sky-300/80 tracking-wider uppercase">
+              Aviation Encyclopedia
+            </span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]">
+            Discover the World&apos;s
+            <br />
+            <span className="bg-gradient-to-r from-sky-300 to-cyan-300 bg-clip-text text-transparent">
+              Airlines &amp; Fleets
+            </span>
+          </h1>
+          <p className="mt-6 text-lg sm:text-xl text-sky-100/70 max-w-2xl leading-relaxed">
+            Explore detailed profiles of major commercial airlines — their
+            histories, fleet compositions, and global route networks through
+            interactive maps.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-3">
+            <div className="stat-card">
+              <div className="text-3xl font-bold text-white">{airlines.length}</div>
+              <div className="text-sky-300/70 text-sm mt-0.5">Airlines</div>
+            </div>
+            <div className="stat-card">
+              <div className="text-3xl font-bold text-white">
                 {totalFleet.toLocaleString()}
               </div>
-              <div className="text-blue-200">Aircraft</div>
+              <div className="text-sky-300/70 text-sm mt-0.5">Aircraft</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold">
+            <div className="stat-card">
+              <div className="text-3xl font-bold text-white">
                 {totalRoutes.toLocaleString()}+
               </div>
-              <div className="text-blue-200">Routes</div>
+              <div className="text-sky-300/70 text-sm mt-0.5">Routes</div>
             </div>
           </div>
         </div>
@@ -100,19 +133,30 @@ export default function HomePage() {
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10">
-        <div className="bg-white rounded-2xl shadow-lg border border-[var(--color-border)] p-6">
+        <div className="glass-card rounded-2xl p-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-xs font-semibold text-[var(--color-muted)] uppercase tracking-wider mb-2">
                 Search Airlines
               </label>
-              <input
-                type="text"
-                placeholder="Name, country, or IATA code..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className="w-full px-4 py-2.5 border border-[var(--color-border)] rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent transition"
-              />
+              <div className="relative">
+                <svg
+                  className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--color-muted)]"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <input
+                  type="text"
+                  placeholder="Name, country, or IATA code..."
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2.5 border border-[var(--color-border)] rounded-xl text-sm bg-white/80 focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/40 focus:border-[var(--color-accent)] transition"
+                />
+              </div>
             </div>
             <div>
               <label className="block text-xs font-semibold text-[var(--color-muted)] uppercase tracking-wider mb-2">
@@ -121,7 +165,7 @@ export default function HomePage() {
               <select
                 value={alliance}
                 onChange={(e) => setAlliance(e.target.value)}
-                className="w-full px-4 py-2.5 border border-[var(--color-border)] rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent transition"
+                className="w-full px-4 py-2.5 border border-[var(--color-border)] rounded-xl text-sm bg-white/80 focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/40 focus:border-[var(--color-accent)] transition appearance-none"
               >
                 {alliances.map((a) => (
                   <option key={a} value={a}>
@@ -137,7 +181,7 @@ export default function HomePage() {
               <select
                 value={region}
                 onChange={(e) => setRegion(e.target.value)}
-                className="w-full px-4 py-2.5 border border-[var(--color-border)] rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent transition"
+                className="w-full px-4 py-2.5 border border-[var(--color-border)] rounded-xl text-sm bg-white/80 focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/40 focus:border-[var(--color-accent)] transition appearance-none"
               >
                 {regions.map((r) => (
                   <option key={r} value={r}>
@@ -163,16 +207,10 @@ export default function HomePage() {
           <div className="text-center py-16 text-[var(--color-muted)]">
             <svg
               className="w-16 h-16 mx-auto mb-4 opacity-40"
-              fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              fill="currentColor"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1.5}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
+              <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
             </svg>
             <p className="text-lg">No airlines match your filters.</p>
             <button
@@ -197,13 +235,15 @@ export default function HomePage() {
                 <Link
                   key={airline.slug}
                   href={`/airline/${airline.slug}`}
-                  className="airline-card block bg-white rounded-xl border border-[var(--color-border)] overflow-hidden shadow-sm"
+                  className="airline-card block bg-white rounded-2xl border border-[var(--color-border)] overflow-hidden shadow-sm"
                 >
                   <div
-                    className="h-2"
-                    style={{ backgroundColor: airline.logoColor }}
+                    className="h-1.5 rounded-t-2xl"
+                    style={{
+                      background: `linear-gradient(90deg, ${airline.logoColor}, ${airline.accentColor || airline.logoColor}dd)`,
+                    }}
                   />
-                  <div className="p-6">
+                  <div className="p-6 relative z-10">
                     <div className="flex items-start justify-between mb-3">
                       <div>
                         <h3 className="text-lg font-bold text-[var(--color-foreground)]">
@@ -214,9 +254,9 @@ export default function HomePage() {
                         </p>
                       </div>
                       <span
-                        className="text-xs font-bold px-2.5 py-1 rounded-md"
+                        className="text-xs font-bold px-3 py-1.5 rounded-lg"
                         style={{
-                          backgroundColor: airline.logoColor + "15",
+                          backgroundColor: airline.logoColor + "12",
                           color: airline.logoColor,
                         }}
                       >
@@ -241,18 +281,8 @@ export default function HomePage() {
                         Est. {airline.founded}
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <svg
-                          className="w-4 h-4"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                          />
+                        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
                         </svg>
                         {fleetSize} aircraft
                       </div>
@@ -275,7 +305,7 @@ export default function HomePage() {
                     </div>
                     {airline.alliance !== "None" && (
                       <div className="mt-4 pt-4 border-t border-[var(--color-border)]">
-                        <span className="inline-block text-xs font-medium px-2.5 py-1 bg-[var(--color-surface-alt)] text-[var(--color-muted)] rounded-full">
+                        <span className="inline-block text-xs font-medium px-3 py-1 bg-[var(--color-surface-alt)] text-[var(--color-muted)] rounded-full">
                           {airline.alliance}
                         </span>
                       </div>
