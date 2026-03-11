@@ -4,6 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import type { Airline, AircraftType } from "@/data/types";
+import AircraftIllustration from "@/components/AircraftIllustration";
 
 const RouteMap = dynamic(() => import("@/components/RouteMap"), {
   ssr: false,
@@ -71,14 +72,21 @@ export default function AirlinePageClient({ airline }: Props) {
     <div>
       {/* Hero Banner */}
       <section
-        className="relative text-white"
+        className="relative text-white overflow-hidden"
         style={{
           background: `linear-gradient(135deg, ${airline.logoColor} 0%, ${airline.logoColor}dd 50%, ${airline.accentColor}99 100%)`,
         }}
       >
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-[0.07]">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl transform translate-x-1/3 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-white rounded-full blur-3xl transform translate-y-1/2" />
         </div>
+        {/* Subtle airplane trail decoration */}
+        <svg className="absolute inset-0 w-full h-full opacity-[0.06] pointer-events-none" preserveAspectRatio="none">
+          <path d="M-50,120 Q200,80 400,100 T850,60" stroke="white" strokeWidth="2" fill="none" strokeDasharray="8,12" />
+          <path d="M-30,180 Q250,140 500,170 T900,110" stroke="white" strokeWidth="1.5" fill="none" strokeDasharray="6,10" />
+          <circle cx="850" cy="60" r="4" fill="white" />
+        </svg>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
           <Link
             href="/"
@@ -241,23 +249,11 @@ export default function AirlinePageClient({ airline }: Props) {
                   id={`fleet-${ac.model.replace(/\s+/g, "-").toLowerCase()}`}
                 >
                   <div className="aspect-[16/9] overflow-hidden bg-[var(--color-surface-alt)] relative">
-                    <img
-                      src={ac.imageUrl}
-                      alt={ac.imageAlt}
-                      className="fleet-card-image w-full h-full object-cover"
-                      loading="lazy"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.style.display = "none";
-                        const parent = target.parentElement;
-                        if (parent) {
-                          const placeholder = document.createElement("div");
-                          placeholder.className =
-                            "w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200";
-                          placeholder.innerHTML = `<div class="text-center text-gray-400"><svg class="w-12 h-12 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg><p class="text-sm font-medium">${ac.manufacturer} ${ac.model}</p></div>`;
-                          parent.appendChild(placeholder);
-                        }
-                      }}
+                    <AircraftIllustration
+                      model={ac.model}
+                      manufacturer={ac.manufacturer}
+                      airlineColor={airline.logoColor}
+                      airlineName={airline.name}
                     />
                     <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2.5 py-1 rounded-md">
                       {ac.count} in fleet
