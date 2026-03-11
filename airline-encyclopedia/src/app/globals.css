@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #f8fafc;
+  --color-background: #f0f4f8;
   --color-foreground: #0f172a;
-  --color-primary: #1e3a5f;
-  --color-primary-light: #2563eb;
-  --color-accent: #3b82f6;
+  --color-primary: #0c4a6e;
+  --color-primary-light: #0284c7;
+  --color-accent: #0ea5e9;
   --color-surface: #ffffff;
-  --color-surface-alt: #f1f5f9;
-  --color-border: #e2e8f0;
+  --color-surface-alt: #f0f7ff;
+  --color-border: #dde8f0;
   --color-muted: #64748b;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -28,6 +28,18 @@ body {
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 600px 200px at 20% 10%, rgba(14, 165, 233, 0.04), transparent),
+    radial-gradient(ellipse 500px 300px at 80% 80%, rgba(14, 165, 233, 0.03), transparent);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .leaflet-container {
@@ -38,18 +50,108 @@ body {
 }
 
 .fleet-card-image {
-  transition: transform 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .fleet-card:hover .fleet-card-image {
   transform: scale(1.05);
 }
 
+.fleet-card {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fleet-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 12px 28px -4px rgba(14, 165, 233, 0.12),
+    0 4px 10px -2px rgba(0, 0, 0, 0.06);
+}
+
 .airline-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+}
+
+.airline-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, transparent 60%, rgba(14, 165, 233, 0.03) 100%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .airline-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+  box-shadow:
+    0 16px 32px -4px rgba(14, 165, 233, 0.15),
+    0 6px 12px -2px rgba(0, 0, 0, 0.06);
+}
+
+@keyframes float-cloud {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(12px); }
+}
+
+@keyframes plane-fly {
+  0% { transform: translateX(-100%) translateY(0); }
+  100% { transform: translateX(calc(100vw + 100%)) translateY(-20px); }
+}
+
+.cloud-float {
+  animation: float-cloud 8s ease-in-out infinite;
+}
+
+.cloud-float-slow {
+  animation: float-cloud 12s ease-in-out infinite;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 16px 24px;
+  transition: background 0.2s ease;
+}
+
+.stat-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.04),
+    0 1px 4px rgba(0, 0, 0, 0.02);
+}
+
+.tab-btn {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.tab-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.tab-btn.active::after {
+  transform: scaleX(1);
 }

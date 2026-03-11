@@ -29,47 +29,53 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-[var(--color-border)]">
+        <header className="sticky top-0 z-50 bg-white/85 backdrop-blur-xl border-b border-[var(--color-border)]/60">
           <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-9 h-9 rounded-lg bg-[var(--color-primary)] flex items-center justify-center">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center shadow-sm shadow-sky-500/20">
                 <svg
                   className="w-5 h-5 text-white"
-                  fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
+                  fill="currentColor"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                  />
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
                 </svg>
               </div>
               <div>
-                <span className="text-xl font-bold text-[var(--color-primary)] tracking-tight">
+                <span className="text-xl font-bold bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary-light)] bg-clip-text text-transparent tracking-tight">
                   SkyAtlas
                 </span>
-                <span className="hidden sm:inline text-sm text-[var(--color-muted)] ml-2">
+                <span className="hidden sm:inline text-sm text-[var(--color-muted)] ml-2 font-medium">
                   Airlines Encyclopedia
                 </span>
               </div>
             </Link>
             <Link
               href="/"
-              className="text-sm font-medium text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors"
+              className="flex items-center gap-2 text-sm font-medium text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors px-3 py-1.5 rounded-lg hover:bg-[var(--color-surface-alt)]"
             >
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
+              </svg>
               All Airlines
             </Link>
           </nav>
         </header>
-        <main className="min-h-screen">{children}</main>
-        <footer className="border-t border-[var(--color-border)] bg-white mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-[var(--color-muted)]">
-            SkyAtlas — Commercial Airlines Encyclopedia. Data is
-            representative and may not reflect real-time fleet or route
-            information.
+        <main className="min-h-screen relative z-10">{children}</main>
+        <footer className="relative z-10 border-t border-[var(--color-border)] bg-gradient-to-b from-white to-[var(--color-surface-alt)] mt-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-[var(--color-primary)]" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
+                </svg>
+                <span className="font-bold text-[var(--color-primary)]">SkyAtlas</span>
+              </div>
+              <p className="text-sm text-[var(--color-muted)] text-center">
+                Commercial Airlines Encyclopedia. Data is representative and may
+                not reflect real-time fleet or route information.
+              </p>
+            </div>
           </div>
         </footer>
       </body>
