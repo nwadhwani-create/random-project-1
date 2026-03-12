@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { airlines } from "@/data/airlines";
+import PopularAirports from "@/components/PopularAirports";
 
 const alliances = ["All", "Star Alliance", "Oneworld", "SkyTeam", "None"];
 const regions = [
@@ -317,6 +318,9 @@ export default function HomePage() {
           </div>
         )}
       </section>
+
+      {/* Popular Airports */}
+      <PopularAirports />
     </div>
   );
 }
