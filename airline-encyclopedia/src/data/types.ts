@@ -23,6 +23,17 @@ export interface AircraftType {
   description: string;
 }
 
+export interface PopularAirport extends Airport {
+  rank: number;
+  passengers: number; // annual passengers in millions
+  region: string;
+  airlinesCount: number;
+  countriesConnected: number;
+  yearData: number; // year the data is from
+  change: number; // year-over-year change percentage
+  highlight?: string;
+}
+
 export interface Airline {
   slug: string;
   name: string;
