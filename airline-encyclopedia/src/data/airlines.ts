@@ -598,6 +598,37 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "eva-air",
+    name: "EVA Air",
+    iataCode: "BR",
+    icaoCode: "EVA",
+    country: "Taiwan",
+    founded: 1989,
+    headquarters: "Taoyuan City, Taiwan",
+    alliance: "Star Alliance",
+    logoColor: "#006341",
+    accentColor: "#F58220",
+    history: `EVA Air was founded on March 8, 1989, by Dr. Chang Yung-fa, founder of the Evergreen Group, one of the world's largest shipping companies. The airline was established with a vision of bringing the service culture and global logistics experience of Evergreen Marine into commercial aviation. EVA Air launched passenger operations on July 1, 1991, with flights from Taipei to Bangkok, Seoul, Jakarta, Singapore, and Kuala Lumpur.\n\nThroughout the 1990s and 2000s, EVA Air expanded steadily into North America and Europe, developing Taiwan Taoyuan International Airport into a major transpacific connecting hub. The airline became known for operational reliability, premium cabin service, and a modern long-haul fleet. EVA was also an early adopter of differentiated premium-economy products, helping popularize the cabin class globally.\n\nIn 2013, EVA Air joined Star Alliance, significantly increasing its global connectivity through partner carriers. The airline has continued to modernize its fleet with Boeing 787 Dreamliners and latest-generation Airbus narrowbodies while maintaining a strong cargo operation through EVA Air Cargo.\n\nToday, EVA Air is widely regarded as one of Asia's leading full-service airlines, consistently earning high rankings for safety and service quality. From its Taipei hub, the carrier operates an extensive network across Asia, Europe, North America, and Oceania.`,
+    fleet: [
+      { model: "B777-300ER", manufacturer: "Boeing", count: 33, passengers: "333-353 (3-class)", range: "7,370 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/EVA_Air_Boeing_777-35EER_B-16718_at_Vienna_Airport.jpg/1280px-EVA_Air_Boeing_777-35EER_B-16718_at_Vienna_Airport.jpg", imageAlt: "EVA Air B777-300ER", description: "Long-haul flagship used on premium transpacific and Europe services with Royal Laurel Class." },
+      { model: "B787-10", manufacturer: "Boeing", count: 9, passengers: "342 (2-class)", range: "6,430 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/EVA_Air_Boeing_787-10_%28B-17802%29_at_Taiwan_Taoyuan_International_Airport.jpg/1280px-EVA_Air_Boeing_787-10_%28B-17802%29_at_Taiwan_Taoyuan_International_Airport.jpg", imageAlt: "EVA Air B787-10", description: "High-capacity Dreamliner variant for regional and medium-haul international routes." },
+      { model: "B787-9", manufacturer: "Boeing", count: 31, passengers: "304 (2-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/EVA_Air_Boeing_787-9_%28B-17881%29.jpg/1280px-EVA_Air_Boeing_787-9_%28B-17881%29.jpg", imageAlt: "EVA Air B787-9", description: "Modern long-haul backbone supporting routes across Asia, Europe, and Oceania." },
+      { model: "B787-8", manufacturer: "Boeing", count: 4, passengers: "304 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EVA_Air_Boeing_787-8_%28B-17883%29.jpg/1280px-EVA_Air_Boeing_787-8_%28B-17883%29.jpg", imageAlt: "EVA Air B787-8", description: "Smaller Dreamliner used on thinner medium-to-long-haul markets." },
+      { model: "A330-300", manufacturer: "Airbus", count: 9, passengers: "309 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/EVA_Air_Airbus_A330-302_B-16331.jpg/1280px-EVA_Air_Airbus_A330-302_B-16331.jpg", imageAlt: "EVA Air A330-300", description: "Widebody workhorse on high-demand regional routes in Northeast and Southeast Asia." },
+      { model: "A321-200", manufacturer: "Airbus", count: 15, passengers: "184 (2-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/EVA_Air_Airbus_A321-211_%28B-16205%29.jpg/1280px-EVA_Air_Airbus_A321-211_%28B-16205%29.jpg", imageAlt: "EVA Air A321-200", description: "Narrowbody fleet member operating short-haul routes from Taiwan." },
+      { model: "B777-F", manufacturer: "Boeing", count: 9, passengers: "Cargo only", range: "4,970 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EVA_Air_Cargo_Boeing_777-F_%28B-16782%29.jpg/1280px-EVA_Air_Cargo_Boeing_777-F_%28B-16782%29.jpg", imageAlt: "EVA Air Cargo B777-F", description: "Dedicated freighter supporting EVA's large transpacific cargo network." },
+    ],
+    hubs: [a.TPE],
+    routes: [
+      route("TPE", "LAX"), route("TPE", "SFO"), route("TPE", "SEA"), route("TPE", "JFK"),
+      route("TPE", "LHR"), route("TPE", "CDG"), route("TPE", "VIE"),
+      route("TPE", "NRT"), route("TPE", "HND"), route("TPE", "ICN"), route("TPE", "PEK"), route("TPE", "PVG"),
+      route("TPE", "HKG"), route("TPE", "SIN"), route("TPE", "BKK"), route("TPE", "KUL"), route("TPE", "MNL"),
+      route("TPE", "CGK"), route("TPE", "DEL"), route("TPE", "BOM"),
+      route("TPE", "SYD"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
