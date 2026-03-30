@@ -598,6 +598,38 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "japan-airlines",
+    name: "Japan Airlines",
+    iataCode: "JL",
+    icaoCode: "JAL",
+    country: "Japan",
+    founded: 1951,
+    headquarters: "Tokyo, Japan",
+    alliance: "Oneworld",
+    logoColor: "#C8102E",
+    accentColor: "#8C8C8C",
+    history: `Japan Airlines (JAL) was established on August 1, 1951, and became Japan's flag carrier shortly after its founding. The airline began international service in 1954 with a route connecting Tokyo and San Francisco via Wake Island and Honolulu, marking Japan's postwar return to global commercial aviation.\n\nThrough the 1960s to 1980s, JAL expanded rapidly across Asia, North America, and Europe, helped by Japan's strong economic growth and increasing international travel demand. The carrier developed a reputation for high service standards and became one of the most recognized premium airlines in the Asia-Pacific region.\n\nIn 1987, JAL was fully privatized, and in 2007 it joined the Oneworld alliance to strengthen global connectivity through partner airlines. Following financial challenges after the global recession, JAL entered and exited a major restructuring process in 2010-2011, emerging leaner and more profitable.\n\nToday, Japan Airlines operates an extensive domestic and international network from Tokyo's Haneda and Narita airports. The airline is known for attentive service, strong operational reliability, and a modern fleet that includes Airbus A350 and Boeing 787 aircraft.`,
+    fleet: [
+      { model: "A350-1000", manufacturer: "Airbus", count: 13, passengers: "239 (4-class)", range: "8,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Japan_Airlines_Airbus_A350-1041_%28JA01WJ%29.jpg/1280px-Japan_Airlines_Airbus_A350-1041_%28JA01WJ%29.jpg", imageAlt: "Japan Airlines A350-1000", description: "JAL's newest flagship long-haul aircraft with updated premium cabin products." },
+      { model: "B787-9", manufacturer: "Boeing", count: 22, passengers: "239 (2-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Japan_Airlines_Boeing_787-9_%28JA873J%29.jpg/1280px-Japan_Airlines_Boeing_787-9_%28JA873J%29.jpg", imageAlt: "Japan Airlines B787-9", description: "Core long-haul aircraft on routes to North America, Europe, and Asia." },
+      { model: "B787-8", manufacturer: "Boeing", count: 24, passengers: "206 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Japan_Airlines_Boeing_787-846_%28JA824J%29.jpg/1280px-Japan_Airlines_Boeing_787-846_%28JA824J%29.jpg", imageAlt: "Japan Airlines B787-8", description: "Versatile Dreamliner used for medium-to-long-haul international services." },
+      { model: "B777-300ER", manufacturer: "Boeing", count: 11, passengers: "244 (4-class)", range: "7,370 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Japan_Airlines_Boeing_777-346ER_%28JA731J%29.jpg/1280px-Japan_Airlines_Boeing_777-346ER_%28JA731J%29.jpg", imageAlt: "Japan Airlines B777-300ER", description: "Long-haul workhorse used on high-demand intercontinental routes." },
+      { model: "A350-900", manufacturer: "Airbus", count: 20, passengers: "369 (2-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Japan_Airlines_Airbus_A350-941_%28JA01XJ%29.jpg/1280px-Japan_Airlines_Airbus_A350-941_%28JA01XJ%29.jpg", imageAlt: "Japan Airlines A350-900", description: "Modern widebody primarily used on high-demand domestic trunk routes." },
+      { model: "A350-900ULR", manufacturer: "Airbus", count: 2, passengers: "239 (3-class)", range: "9,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Japan_Airlines_A350-900_landing_at_Haneda_Airport.jpg/1280px-Japan_Airlines_A350-900_landing_at_Haneda_Airport.jpg", imageAlt: "Japan Airlines A350-900", description: "Long-range A350 variant planned for new ultra-long-haul routes." },
+      { model: "B737-800", manufacturer: "Boeing", count: 42, passengers: "165 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japan_Airlines_Boeing_737-846_%28JA306J%29.jpg/1280px-Japan_Airlines_Boeing_737-846_%28JA306J%29.jpg", imageAlt: "Japan Airlines B737-800", description: "Narrowbody workhorse for domestic and short-haul regional operations." },
+    ],
+    hubs: [a.HND, a.NRT],
+    routes: [
+      route("HND", "JFK"), route("HND", "LAX"), route("HND", "SFO"), route("HND", "ORD"), route("HND", "SEA"),
+      route("HND", "LHR"), route("HND", "CDG"), route("HND", "FRA"), route("HND", "HEL"),
+      route("HND", "SIN"), route("HND", "BKK"), route("HND", "KUL"), route("HND", "DEL"), route("HND", "BOM"),
+      route("HND", "HKG"), route("HND", "ICN"), route("HND", "TPE"), route("HND", "SYD"),
+      route("NRT", "JFK"), route("NRT", "LAX"), route("NRT", "SFO"), route("NRT", "HNL"),
+      route("NRT", "MNL"), route("NRT", "CGK"), route("NRT", "PEK"), route("NRT", "PVG"),
+      route("NRT", "DXB"), route("NRT", "DOH"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
