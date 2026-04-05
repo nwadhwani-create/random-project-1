@@ -598,6 +598,37 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "thai-airways",
+    name: "Thai Airways International",
+    iataCode: "TG",
+    icaoCode: "THA",
+    country: "Thailand",
+    founded: 1960,
+    headquarters: "Bangkok, Thailand",
+    alliance: "Star Alliance",
+    logoColor: "#4B2E83",
+    accentColor: "#C9A227",
+    history: `Thai Airways International was founded on March 29, 1960, as a joint venture between Thailand's domestic carrier Thai Airways Company and Scandinavian Airlines System (SAS). The airline launched operations on May 1, 1960, with international services from Bangkok to major Asian destinations, quickly becoming Thailand's flagship carrier and a symbol of the country's growing global connectivity.\n\nDuring the 1970s and 1980s, Thai Airways expanded beyond Asia into Europe and Australia, building Bangkok into a major Southeast Asian hub. In 1988, Thai Airways International merged with the domestic Thai Airways Company, unifying domestic and international operations under a single brand. This merger enabled broader network integration and stronger long-haul growth.\n\nThai was one of the five founding members of Star Alliance in 1997, alongside Lufthansa, United Airlines, Air Canada, and SAS. Membership helped the airline broaden its global reach through codeshares and coordinated schedules. The carrier developed a strong reputation for Thai hospitality, premium cabin service, and extensive connectivity across Southeast Asia.\n\nIn the 2020s, Thai Airways underwent a major financial restructuring while modernizing its fleet around fuel-efficient Airbus and Boeing widebody aircraft. Today, the airline continues to rebuild and expand from its Suvarnabhumi Airport base, focusing on high-demand routes across Asia, Europe, and Australia while maintaining its role as Thailand's primary long-haul carrier.`,
+    fleet: [
+      { model: "A350-900", manufacturer: "Airbus", count: 23, passengers: "321 (2-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Thai_Airways_International_Airbus_A350-941_HS-THA.jpg/1280px-Thai_Airways_International_Airbus_A350-941_HS-THA.jpg", imageAlt: "Thai Airways A350-900", description: "Modern long-haul flagship used on premium intercontinental routes." },
+      { model: "B787-9", manufacturer: "Boeing", count: 8, passengers: "298 (2-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Thai_Airways_Boeing_787-9_HS-TWA.jpg/1280px-Thai_Airways_Boeing_787-9_HS-TWA.jpg", imageAlt: "Thai Airways B787-9", description: "Efficient widebody deployed on medium and long-haul services." },
+      { model: "B787-8", manufacturer: "Boeing", count: 6, passengers: "256 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Thai_Airways_Boeing_787-8_%28HS-TQA%29.jpg/1280px-Thai_Airways_Boeing_787-8_%28HS-TQA%29.jpg", imageAlt: "Thai Airways B787-8", description: "Versatile Dreamliner variant serving regional and intercontinental routes." },
+      { model: "B777-300ER", manufacturer: "Boeing", count: 17, passengers: "348 (2-class)", range: "7,370 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Thai_Airways_International_Boeing_777-3D7ER_HS-TKU.jpg/1280px-Thai_Airways_International_Boeing_777-3D7ER_HS-TKU.jpg", imageAlt: "Thai Airways B777-300ER", description: "High-capacity long-haul workhorse on Europe and Australia services." },
+      { model: "A330-300", manufacturer: "Airbus", count: 15, passengers: "299 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Thai_Airways_International_Airbus_A330-343X_HS-TEP.jpg/1280px-Thai_Airways_International_Airbus_A330-343X_HS-TEP.jpg", imageAlt: "Thai Airways A330-300", description: "Regional and medium-haul widebody used across Asia." },
+      { model: "A320-200", manufacturer: "Airbus", count: 20, passengers: "174 (single-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Thai_Smile_Airbus_A320-232_HS-TXK.jpg/1280px-Thai_Smile_Airbus_A320-232_HS-TXK.jpg", imageAlt: "Thai Airways A320-200", description: "Narrowbody fleet used on shorter regional routes within Asia." },
+    ],
+    hubs: [a.BKK],
+    routes: [
+      route("BKK", "SIN"), route("BKK", "KUL"), route("BKK", "CGK"), route("BKK", "MNL"), route("BKK", "HKG"),
+      route("BKK", "TPE"), route("BKK", "ICN"), route("BKK", "NRT"), route("BKK", "HND"), route("BKK", "PEK"),
+      route("BKK", "PVG"), route("BKK", "DEL"), route("BKK", "BOM"),
+      route("BKK", "DXB"), route("BKK", "DOH"),
+      route("BKK", "LHR"), route("BKK", "CDG"), route("BKK", "FRA"), route("BKK", "MUC"), route("BKK", "ZRH"),
+      route("BKK", "IST"), route("BKK", "VIE"), route("BKK", "CPH"), route("BKK", "ARN"), route("BKK", "OSL"),
+      route("BKK", "SYD"), route("BKK", "MEL"), route("BKK", "PER"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
