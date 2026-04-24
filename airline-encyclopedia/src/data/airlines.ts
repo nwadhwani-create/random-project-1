@@ -598,6 +598,38 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-india",
+    name: "Air India",
+    iataCode: "AI",
+    icaoCode: "AIC",
+    country: "India",
+    founded: 1932,
+    headquarters: "Gurugram, India",
+    alliance: "Star Alliance",
+    logoColor: "#DA291C",
+    accentColor: "#FFB81C",
+    history: `Air India was founded in 1932 by J.R.D. Tata as Tata Air Services, beginning with airmail flights between Karachi, Ahmedabad, Bombay, and Madras. The airline became Tata Airlines in 1938 and, after World War II, launched international operations in 1948 as Air India International with service from Bombay to London. These early years established the carrier as one of Asia's pioneering long-haul airlines.\n\nIn 1953, the Government of India nationalized the country's airlines under the Air Corporations Act, with Air India designated for international routes while Indian Airlines focused on domestic services. Under the long leadership of J.R.D. Tata as chairman, Air India built a global reputation for hospitality and distinctive branding, including the iconic Maharajah mascot.\n\nThe airline faced sustained financial and operational challenges in the 2000s and 2010s, including the 2007 merger with Indian Airlines and rising competition from private carriers. In January 2022, Air India returned to Tata Group ownership, beginning a major transformation program that includes fleet modernization, product upgrades, digital improvements, and expanded global connectivity through India.\n\nToday, Air India is rebuilding as a full-service global network carrier with hubs in Delhi and Mumbai. Backed by one of the largest aircraft orders in aviation history, the airline is investing in new Airbus and Boeing aircraft, refreshed cabin interiors, and stronger international partnerships as it seeks to position India as a major intercontinental transit market.`,
+    fleet: [
+      { model: "B777-300ER", manufacturer: "Boeing", count: 13, passengers: "342 (3-class)", range: "7,370 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Air_India_Boeing_777-337ER_%28VT-ALN%29.jpg/1280px-Air_India_Boeing_777-337ER_%28VT-ALN%29.jpg", imageAlt: "Air India B777-300ER", description: "Long-haul flagship aircraft on key routes to North America and Europe." },
+      { model: "B787-8", manufacturer: "Boeing", count: 27, passengers: "256 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Air_India_Boeing_787-8_Dreamliner_%28VT-ANM%29.jpg/1280px-Air_India_Boeing_787-8_Dreamliner_%28VT-ANM%29.jpg", imageAlt: "Air India B787-8", description: "Core long-haul fleet type serving Europe, Asia, and medium-density North American routes." },
+      { model: "A350-900", manufacturer: "Airbus", count: 6, passengers: "316 (3-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Air_India_Airbus_A350-941_%28VT-JRH%29.jpg/1280px-Air_India_Airbus_A350-941_%28VT-JRH%29.jpg", imageAlt: "Air India A350-900", description: "Newest widebody with upgraded premium cabins and improved fuel efficiency." },
+      { model: "A321neo", manufacturer: "Airbus", count: 20, passengers: "188 (2-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Air_India_Airbus_A321-271NX_%28VT-RTD%29.jpg/1280px-Air_India_Airbus_A321-271NX_%28VT-RTD%29.jpg", imageAlt: "Air India A321neo", description: "Next-generation narrowbody used on domestic trunk and regional international routes." },
+      { model: "A320neo", manufacturer: "Airbus", count: 95, passengers: "174 (2-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Air_India_Airbus_A320-251N_%28VT-CIQ%29.jpg/1280px-Air_India_Airbus_A320-251N_%28VT-CIQ%29.jpg", imageAlt: "Air India A320neo", description: "Backbone narrowbody aircraft for high-frequency services across India and nearby markets." },
+      { model: "A319-100", manufacturer: "Airbus", count: 19, passengers: "122 (2-class)", range: "3,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Air_India_Airbus_A319-112_%28VT-SCO%29.jpg/1280px-Air_India_Airbus_A319-112_%28VT-SCO%29.jpg", imageAlt: "Air India A319-100", description: "Smaller narrowbody supporting domestic and short regional sectors." },
+    ],
+    hubs: [a.DEL, a.BOM],
+    routes: [
+      route("DEL", "BOM"), route("DEL", "SIN"), route("DEL", "BKK"), route("DEL", "HKG"), route("DEL", "ICN"),
+      route("DEL", "NRT"), route("DEL", "PVG"), route("DEL", "TPE"), route("DEL", "CGK"), route("DEL", "MNL"),
+      route("DEL", "DXB"), route("DEL", "DOH"), route("DEL", "JED"), route("DEL", "RUH"),
+      route("DEL", "LHR"), route("DEL", "CDG"), route("DEL", "FRA"), route("DEL", "AMS"), route("DEL", "FCO"),
+      route("DEL", "JFK"), route("DEL", "EWR"), route("DEL", "ORD"), route("DEL", "SFO"),
+      route("BOM", "DEL"), route("BOM", "SIN"), route("BOM", "BKK"), route("BOM", "HKG"), route("BOM", "DXB"),
+      route("BOM", "DOH"), route("BOM", "JED"), route("BOM", "LHR"), route("BOM", "CDG"), route("BOM", "FRA"),
+      route("BOM", "JFK"), route("BOM", "EWR"), route("BOM", "SFO"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
