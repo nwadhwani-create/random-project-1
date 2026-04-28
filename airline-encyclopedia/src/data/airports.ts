@@ -7,6 +7,7 @@ export const airports: Record<string, Airport> = {
   ORD: { code: "ORD", name: "O'Hare International", city: "Chicago", country: "USA", lat: 41.9742, lng: -87.9073 },
   DFW: { code: "DFW", name: "Dallas/Fort Worth International", city: "Dallas", country: "USA", lat: 32.8998, lng: -97.0403 },
   DEN: { code: "DEN", name: "Denver International", city: "Denver", country: "USA", lat: 39.8561, lng: -104.6737 },
+  STL: { code: "STL", name: "St. Louis Lambert International", city: "St. Louis", country: "USA", lat: 38.7487, lng: -90.3700 },
   SFO: { code: "SFO", name: "San Francisco International", city: "San Francisco", country: "USA", lat: 37.6213, lng: -122.3790 },
   SEA: { code: "SEA", name: "Seattle-Tacoma International", city: "Seattle", country: "USA", lat: 47.4502, lng: -122.3088 },
   MIA: { code: "MIA", name: "Miami International", city: "Miami", country: "USA", lat: 25.7959, lng: -80.2870 },
