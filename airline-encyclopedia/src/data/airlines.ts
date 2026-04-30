@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "malaysia-airlines",
+    name: "Malaysia Airlines",
+    iataCode: "MH",
+    icaoCode: "MAS",
+    country: "Malaysia",
+    founded: 1947,
+    headquarters: "Kuala Lumpur, Malaysia",
+    alliance: "Oneworld",
+    logoColor: "#00529B",
+    accentColor: "#E31B23",
+    history: `Malaysia Airlines traces its roots to Malayan Airways Limited, which operated its first commercial flight in 1947 and connected the Malayan peninsula with Singapore and regional cities. As Malaysia's aviation market developed after independence, the airline evolved through several identities, including Malaysian Airways and Malaysia-Singapore Airlines, before the separation of Malaysian Airline System in 1972 created the national carrier now known as Malaysia Airlines.\n\nThrough the late 20th century, Malaysia Airlines built Kuala Lumpur into a major Southeast Asian gateway, pairing long-haul services to Europe and Australia with dense regional links across ASEAN, North Asia, and South Asia. The opening of Kuala Lumpur International Airport in 1998 gave the carrier a modern hub designed for international connections and helped support a broader network strategy.\n\nThe airline joined the Oneworld alliance in 2013, strengthening its global partnership reach with carriers such as British Airways, Cathay Pacific, Qantas, and Japan Airlines. Malaysia Airlines also became known for premium cabin service, Malaysian hospitality, and its role in connecting smaller domestic markets in Malaysia with the wider world through Kuala Lumpur.\n\nToday, Malaysia Airlines is the flag carrier of Malaysia and part of Malaysia Aviation Group. Its fleet combines Airbus widebodies for long-haul and high-demand regional routes with Boeing 737 aircraft for short- and medium-haul services, while ongoing renewal plans focus on more efficient narrowbody and A330neo aircraft for the next phase of its network.`,
+    fleet: [
+      { model: "A350-900", manufacturer: "Airbus", count: 7, passengers: "286 (3-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Malaysia_Airlines_Airbus_A350-941_9M-MAB_%28cropped%29.jpg/1280px-Malaysia_Airlines_Airbus_A350-941_9M-MAB_%28cropped%29.jpg", imageAlt: "Malaysia Airlines A350-900", description: "Flagship long-haul aircraft used on premium intercontinental services, including Kuala Lumpur to London." },
+      { model: "A330-300", manufacturer: "Airbus", count: 15, passengers: "290 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Malaysia_Airlines_Airbus_A330-323_9M-MTK.jpg/1280px-Malaysia_Airlines_Airbus_A330-323_9M-MTK.jpg", imageAlt: "Malaysia Airlines A330-300", description: "Widebody workhorse for medium-haul Asian and Australian routes from Kuala Lumpur." },
+      { model: "A330-200", manufacturer: "Airbus", count: 6, passengers: "287 (2-class)", range: "7,250 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Malaysia_Airlines_Airbus_A330-223_9M-MTU.jpg/1280px-Malaysia_Airlines_Airbus_A330-223_9M-MTU.jpg", imageAlt: "Malaysia Airlines A330-200", description: "Longer-range A330 variant supporting regional trunk routes and selected medium-haul markets." },
+      { model: "B737-800", manufacturer: "Boeing", count: 42, passengers: "160 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Malaysia_Airlines_Boeing_737-8H6_9M-MLH.jpg/1280px-Malaysia_Airlines_Boeing_737-8H6_9M-MLH.jpg", imageAlt: "Malaysia Airlines B737-800", description: "Core narrowbody fleet type for domestic Malaysian services and short-haul regional routes." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 4, passengers: "174 (2-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Malaysia_Airlines_Boeing_737_MAX_8_9M-MVA.jpg/1280px-Malaysia_Airlines_Boeing_737_MAX_8_9M-MVA.jpg", imageAlt: "Malaysia Airlines B737 MAX 8", description: "Next-generation narrowbody aircraft supporting fleet renewal and improved fuel efficiency." },
+    ],
+    hubs: [a.KUL],
+    routes: [
+      route("KUL", "LHR"), route("KUL", "SIN"), route("KUL", "BKK"), route("KUL", "HKG"), route("KUL", "TPE"),
+      route("KUL", "NRT"), route("KUL", "HND"), route("KUL", "ICN"), route("KUL", "PEK"), route("KUL", "PVG"),
+      route("KUL", "DEL"), route("KUL", "BOM"), route("KUL", "CGK"), route("KUL", "MNL"), route("KUL", "SYD"),
+      route("KUL", "MEL"), route("KUL", "PER"), route("KUL", "AKL"), route("KUL", "DOH"), route("KUL", "DXB"),
+      route("KUL", "JED"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
