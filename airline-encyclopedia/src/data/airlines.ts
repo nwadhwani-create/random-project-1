@@ -598,6 +598,35 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "philippine-airlines",
+    name: "Philippine Airlines",
+    iataCode: "PR",
+    icaoCode: "PAL",
+    country: "Philippines",
+    founded: 1941,
+    headquarters: "Pasay, Philippines",
+    alliance: "None",
+    logoColor: "#003876",
+    accentColor: "#C8102E",
+    history: `Philippine Airlines was founded on February 26, 1941, making it Asia's first commercial airline operating under its original name. The airline's first scheduled flight, from Manila to Baguio, took place on March 15, 1941, using a Beechcraft Model 18. World War II interrupted operations soon after, but PAL resumed service in 1946 and quickly became a symbol of the Philippines' post-war reconnection with the world.\n\nIn the decades that followed, Philippine Airlines built an international network across Asia, the Pacific, and North America. The airline introduced transpacific services in the 1940s and became one of the region's early jet operators, using aircraft such as the Douglas DC-8 and later the Boeing 747 to link Manila with cities including San Francisco, Los Angeles, and Honolulu.\n\nPAL faced financial and operational challenges during periods of economic volatility, deregulation, and regional competition, including a major rehabilitation process in the late 1990s. The carrier rebuilt around its Manila hub and modernized its fleet with Airbus A330s, A321neos, A350s, and Boeing 777-300ERs, balancing long-haul routes with dense regional and domestic services.\n\nToday, Philippine Airlines remains the flag carrier of the Philippines and serves destinations across Asia, North America, Australia, and the Middle East. Its network reflects both business and leisure travel demand as well as the large Filipino diaspora, with long-haul flights connecting Manila to major gateways on the U.S. West Coast and beyond.`,
+    fleet: [
+      { model: "B777-300ER", manufacturer: "Boeing", count: 10, passengers: "370 (2-class)", range: "7,370 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Philippine_Airlines_Boeing_777-3F6ER_%28RP-C7777%29_at_London_Heathrow_Airport.jpg/1280px-Philippine_Airlines_Boeing_777-3F6ER_%28RP-C7777%29_at_London_Heathrow_Airport.jpg", imageAlt: "Philippine Airlines B777-300ER", description: "PAL's long-haul flagship, used on high-demand transpacific services from Manila." },
+      { model: "A350-900", manufacturer: "Airbus", count: 2, passengers: "295 (3-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Philippine_Airlines_Airbus_A350-941_%28RP-C3501%29_at_Hong_Kong_International_Airport.jpg/1280px-Philippine_Airlines_Airbus_A350-941_%28RP-C3501%29_at_Hong_Kong_International_Airport.jpg", imageAlt: "Philippine Airlines A350-900", description: "Efficient widebody for premium long-haul routes with PAL's newest cabin products." },
+      { model: "A330-300", manufacturer: "Airbus", count: 9, passengers: "309-363 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Philippine_Airlines_Airbus_A330-343_%28RP-C8760%29_at_Hong_Kong_International_Airport.jpg/1280px-Philippine_Airlines_Airbus_A330-343_%28RP-C8760%29_at_Hong_Kong_International_Airport.jpg", imageAlt: "Philippine Airlines A330-300", description: "Widebody workhorse for regional trunk routes, Australia, and selected Middle Eastern services." },
+      { model: "A321neo", manufacturer: "Airbus", count: 8, passengers: "168 (2-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Philippine_Airlines_Airbus_A321-271NX_%28RP-C9930%29_at_Hong_Kong_International_Airport.jpg/1280px-Philippine_Airlines_Airbus_A321-271NX_%28RP-C9930%29_at_Hong_Kong_International_Airport.jpg", imageAlt: "Philippine Airlines A321neo", description: "Long-range narrowbody supporting regional routes and thinner medium-haul markets." },
+      { model: "A321-200", manufacturer: "Airbus", count: 17, passengers: "199 (2-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Philippine_Airlines_Airbus_A321-231_%28RP-C9907%29_at_Hong_Kong_International_Airport.jpg/1280px-Philippine_Airlines_Airbus_A321-231_%28RP-C9907%29_at_Hong_Kong_International_Airport.jpg", imageAlt: "Philippine Airlines A321-200", description: "Core short-haul aircraft for domestic trunk routes and nearby Asian destinations." },
+      { model: "A320-200", manufacturer: "Airbus", count: 10, passengers: "156 (2-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Philippine_Airlines_Airbus_A320-214_%28RP-C8613%29_at_Hong_Kong_International_Airport.jpg/1280px-Philippine_Airlines_Airbus_A320-214_%28RP-C8613%29_at_Hong_Kong_International_Airport.jpg", imageAlt: "Philippine Airlines A320-200", description: "Narrowbody aircraft serving domestic and short regional sectors." },
+    ],
+    hubs: [a.MNL],
+    routes: [
+      route("MNL", "LAX"), route("MNL", "SFO"), route("MNL", "JFK"), route("MNL", "HNL"), route("MNL", "SEA"),
+      route("MNL", "NRT"), route("MNL", "HND"), route("MNL", "ICN"), route("MNL", "PEK"), route("MNL", "PVG"),
+      route("MNL", "HKG"), route("MNL", "SIN"), route("MNL", "BKK"), route("MNL", "KUL"), route("MNL", "TPE"),
+      route("MNL", "CGK"), route("MNL", "SYD"), route("MNL", "MEL"), route("MNL", "BNE"),
+      route("MNL", "DXB"), route("MNL", "RUH"), route("MNL", "JED"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
