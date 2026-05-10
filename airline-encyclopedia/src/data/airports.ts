@@ -49,6 +49,8 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  EDI: { code: "EDI", name: "Edinburgh Airport", city: "Edinburgh", country: "United Kingdom", lat: 55.9500, lng: -3.3725 },
+  MXP: { code: "MXP", name: "Milan Malpensa", city: "Milan", country: "Italy", lat: 45.6306, lng: 8.7281 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
@@ -89,6 +91,7 @@ export const airports: Record<string, Airport> = {
   JNB: { code: "JNB", name: "O.R. Tambo International", city: "Johannesburg", country: "South Africa", lat: -26.1392, lng: 28.2460 },
   CPT: { code: "CPT", name: "Cape Town International", city: "Cape Town", country: "South Africa", lat: -33.9648, lng: 18.6017 },
   CAI: { code: "CAI", name: "Cairo International", city: "Cairo", country: "Egypt", lat: 30.1219, lng: 31.4056 },
+  RAK: { code: "RAK", name: "Marrakesh Menara", city: "Marrakesh", country: "Morocco", lat: 31.6069, lng: -8.0363 },
   NBO: { code: "NBO", name: "Jomo Kenyatta International", city: "Nairobi", country: "Kenya", lat: -1.3192, lng: 36.9278 },
   ADD: { code: "ADD", name: "Addis Ababa Bole International", city: "Addis Ababa", country: "Ethiopia", lat: 8.9779, lng: 38.7993 },
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
