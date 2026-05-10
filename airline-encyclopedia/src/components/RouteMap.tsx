@@ -25,7 +25,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error CSS import
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
@@ -152,6 +152,7 @@ export default function RouteMap({
         ref={mapRef}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
+        aria-label={`${airlineName} route map`}
       />
       <div className="flex flex-wrap gap-6 mt-4 text-xs text-[var(--color-muted)]">
         <div className="flex items-center gap-2">
