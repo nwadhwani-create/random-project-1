@@ -15,6 +15,7 @@ export const airports: Record<string, Airport> = {
   MSP: { code: "MSP", name: "Minneapolis-Saint Paul International", city: "Minneapolis", country: "USA", lat: 44.8848, lng: -93.2223 },
   DTW: { code: "DTW", name: "Detroit Metropolitan Wayne County", city: "Detroit", country: "USA", lat: 42.2124, lng: -83.3534 },
   BOS: { code: "BOS", name: "Logan International", city: "Boston", country: "USA", lat: 42.3656, lng: -71.0096 },
+  LGA: { code: "LGA", name: "LaGuardia Airport", city: "New York", country: "USA", lat: 40.7769, lng: -73.8740 },
   PHX: { code: "PHX", name: "Phoenix Sky Harbor International", city: "Phoenix", country: "USA", lat: 33.4373, lng: -112.0078 },
   CLT: { code: "CLT", name: "Charlotte Douglas International", city: "Charlotte", country: "USA", lat: 35.2140, lng: -80.9431 },
   PHL: { code: "PHL", name: "Philadelphia International", city: "Philadelphia", country: "USA", lat: 39.8721, lng: -75.2411 },
