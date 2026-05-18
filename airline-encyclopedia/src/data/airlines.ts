@@ -566,6 +566,46 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "hainan-airlines",
+    name: "Hainan Airlines",
+    iataCode: "HU",
+    icaoCode: "CHH",
+    country: "China",
+    founded: 1989,
+    headquarters: "Haikou, Hainan, China",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#C9A227",
+    history: `Hainan Airlines was established in October 1989 as Hainan Province Airlines in China's southern island province of Hainan. After a restructuring in 1993, it became China's first joint-stock air transport company and began scheduled passenger services on May 2 of that year. The airline adopted the Hainan Airlines name in 1996 as it expanded beyond its provincial roots.
+
+Through the 1990s and 2000s, Hainan Airlines grew into one of mainland China's largest private-sector carriers. Backed by HNA Group, the airline built a multi-hub network linking Haikou, Beijing, Shenzhen, Xi'an, and other Chinese cities with domestic and international destinations. It became known for a service-focused brand in a market dominated by state-owned airline groups.
+
+Hainan Airlines was among the first Chinese carriers to invest heavily in long-haul service with modern widebody aircraft. Its Boeing 787 Dreamliner fleet opened routes from Beijing and other Chinese gateways to North America, Europe, and Oceania, while Airbus A330 aircraft supported high-density regional and intercontinental services. The airline also maintained a large Boeing 737 fleet for domestic and short-haul flying.
+
+After HNA Group's restructuring in the early 2020s, Hainan Airlines returned to a more focused growth strategy under new ownership. Today it remains one of China's major full-service airlines, operating a broad domestic network and rebuilding international links from Beijing Capital, Haikou, Shenzhen, and other bases across Asia, Europe, and North America.`,
+    fleet: [
+      { model: "B787-9", manufacturer: "Boeing", count: 28, passengers: "289-294 (2/3-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Hainan_Airlines_Boeing_787-9_B-1343_at_Beijing_Capital_International_Airport.jpg/1280px-Hainan_Airlines_Boeing_787-9_B-1343_at_Beijing_Capital_International_Airport.jpg", imageAlt: "Hainan Airlines B787-9", description: "Primary long-haul Dreamliner used on intercontinental services from Beijing and other Chinese gateways." },
+      { model: "B787-8", manufacturer: "Boeing", count: 10, passengers: "213 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Hainan_Airlines_Boeing_787-8_B-2722_at_Beijing_Capital_International_Airport.jpg/1280px-Hainan_Airlines_Boeing_787-8_B-2722_at_Beijing_Capital_International_Airport.jpg", imageAlt: "Hainan Airlines B787-8", description: "Original Dreamliner variant that helped Hainan open long-haul routes to Europe and North America." },
+      { model: "A330-300", manufacturer: "Airbus", count: 22, passengers: "292-303 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hainan_Airlines_Airbus_A330-343_B-5978.jpg/1280px-Hainan_Airlines_Airbus_A330-343_B-5978.jpg", imageAlt: "Hainan Airlines A330-300", description: "High-capacity widebody used on busy domestic trunk routes and regional international services." },
+      { model: "A330-200", manufacturer: "Airbus", count: 6, passengers: "214-260 (2-class)", range: "7,250 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Hainan_Airlines_Airbus_A330-243_B-6089.jpg/1280px-Hainan_Airlines_Airbus_A330-243_B-6089.jpg", imageAlt: "Hainan Airlines A330-200", description: "Versatile long-range widebody for medium-density international routes." },
+      { model: "A330-900neo", manufacturer: "Airbus", count: 1, passengers: "301 (2-class)", range: "7,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Airbus_A330-941neo_F-WWKM.jpg/1280px-Airbus_A330-941neo_F-WWKM.jpg", imageAlt: "Hainan Airlines A330-900neo", description: "Newest-generation widebody supporting Hainan's fleet renewal and long-haul efficiency goals." },
+      { model: "B737-800", manufacturer: "Boeing", count: 126, passengers: "164-189 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hainan_Airlines_Boeing_737-84P_B-1500.jpg/1280px-Hainan_Airlines_Boeing_737-84P_B-1500.jpg", imageAlt: "Hainan Airlines B737-800", description: "Backbone of the domestic and short-haul network, linking major Chinese cities with regional destinations." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 22, passengers: "176-189 (2-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hainan_Airlines_Boeing_737_MAX_8_B-207H.jpg/1280px-Hainan_Airlines_Boeing_737_MAX_8_B-207H.jpg", imageAlt: "Hainan Airlines B737 MAX 8", description: "New-generation narrowbody for fuel-efficient domestic and regional flying." },
+      { model: "A320neo", manufacturer: "Airbus", count: 10, passengers: "172 (2-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hainan_Airlines_Airbus_A320-271N_B-302X.jpg/1280px-Hainan_Airlines_Airbus_A320-271N_B-302X.jpg", imageAlt: "Hainan Airlines A320neo", description: "Modern narrowbody supporting capacity growth on domestic and short-haul routes." },
+      { model: "A321neo", manufacturer: "Airbus", count: 2, passengers: "204 (2-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hainan_Airlines_Airbus_A321-271NX_B-32G8.jpg/1280px-Hainan_Airlines_Airbus_A321-271NX_B-32G8.jpg", imageAlt: "Hainan Airlines A321neo", description: "High-capacity narrowbody for dense regional and domestic markets." },
+    ],
+    hubs: [a.PEK],
+    routes: [
+      route("PEK", "BOS"), route("PEK", "SEA"), route("PEK", "LAX"), route("PEK", "SFO"), route("PEK", "JFK"),
+      route("PEK", "LHR"), route("PEK", "CDG"), route("PEK", "FRA"), route("PEK", "MAD"), route("PEK", "FCO"),
+      route("PEK", "DUB"), route("PEK", "VIE"), route("PEK", "AMS"), route("PEK", "IST"),
+      route("PEK", "NRT"), route("PEK", "HND"), route("PEK", "ICN"), route("PEK", "PVG"), route("PEK", "HKG"),
+      route("PEK", "TPE"), route("PEK", "SIN"), route("PEK", "BKK"), route("PEK", "KUL"), route("PEK", "MNL"),
+      route("PEK", "CGK"), route("PEK", "DEL"), route("PEK", "BOM"), route("PEK", "SYD"), route("PEK", "MEL"),
+      route("PEK", "DXB"), route("PEK", "DOH"), route("PEK", "CAI"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
