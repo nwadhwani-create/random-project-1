@@ -32,10 +32,11 @@ export default function AirlinePageClient({ airline }: Props) {
   const [selectedAircraft, setSelectedAircraft] = useState<AircraftType | null>(null);
 
   const fleetSize = airline.fleet.reduce((s, f) => s + f.count, 0);
-  const uniqueDestinations = new Set<string>();
+  const hubCodes = new Set(airline.hubs.map((hub) => hub.code));
+  const destinationCodes = new Set<string>();
   airline.routes.forEach((r) => {
-    if (r.from?.code) uniqueDestinations.add(r.from.code);
-    if (r.to?.code) uniqueDestinations.add(r.to.code);
+    if (r.from?.code && !hubCodes.has(r.from.code)) destinationCodes.add(r.from.code);
+    if (r.to?.code && !hubCodes.has(r.to.code)) destinationCodes.add(r.to.code);
   });
 
   const tabs: { key: Tab; label: string; icon: React.ReactNode }[] = [
@@ -124,12 +125,14 @@ export default function AirlinePageClient({ airline }: Props) {
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Types</div>
               </div>
               <div>
-                <div className="text-2xl sm:text-3xl font-bold">{uniqueDestinations.size}</div>
+                <div className="text-2xl sm:text-3xl font-bold">{destinationCodes.size}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Destinations</div>
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-bold">{airline.hubs.length}</div>
-                <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Hubs</div>
+                <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">
+                  {airline.hubs.length === 1 ? "Hub" : "Hubs"}
+                </div>
               </div>
             </div>
           </div>
@@ -292,7 +295,7 @@ export default function AirlinePageClient({ airline }: Props) {
             <h2 className="text-2xl font-bold mb-2">Route Network</h2>
             <p className="text-sm text-[var(--color-muted)] mb-6">
               Showing {airline.routes.length} routes from {airline.hubs.length} hub
-              {airline.hubs.length > 1 ? "s" : ""} to {uniqueDestinations.size} destinations worldwide.
+              {airline.hubs.length > 1 ? "s" : ""} to {destinationCodes.size} destinations worldwide.
               Click on any airport marker for details.
             </p>
             <RouteMap
