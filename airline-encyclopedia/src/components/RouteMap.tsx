@@ -25,6 +25,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
+      // @ts-expect-error CSS imports are handled by Next/Turbopack at runtime.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
