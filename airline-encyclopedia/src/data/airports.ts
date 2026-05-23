@@ -49,6 +49,7 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  EDI: { code: "EDI", name: "Edinburgh Airport", city: "Edinburgh", country: "United Kingdom", lat: 55.95, lng: -3.3725 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
