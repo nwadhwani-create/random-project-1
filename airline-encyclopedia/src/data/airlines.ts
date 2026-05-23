@@ -598,6 +598,35 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "oman-air",
+    name: "Oman Air",
+    iataCode: "WY",
+    icaoCode: "OMA",
+    country: "Oman",
+    founded: 1993,
+    headquarters: "Muscat, Oman",
+    alliance: "Oneworld",
+    logoColor: "#006C67",
+    accentColor: "#C8A951",
+    history: `Oman Air was founded in 1993 and began operations as a regional carrier linking Muscat with Salalah and Dubai. The airline grew out of Oman's long-running push to develop civil aviation around Muscat International Airport and became the country's flag carrier in the 2000s as the government invested in a more ambitious international network.\n\nDuring the 2000s and 2010s, Oman Air expanded beyond the Gulf with long-haul services to Europe and Asia, using Muscat's position on the Arabian Sea to connect markets in the Indian subcontinent, Southeast Asia, and the Middle East. The carrier built a reputation for polished onboard service, a premium long-haul cabin, and a more boutique network than the mega-hub airlines of neighboring Gulf states.\n\nAfter the pandemic, Oman Air began a major restructuring to simplify its fleet and focus on stronger point-to-point and connecting markets from Muscat. The airline retired its Airbus A330 fleet and shifted toward an all-Boeing operation centered on Boeing 787 Dreamliners for long-haul flights and Boeing 737 aircraft for regional and medium-haul services.\n\nOman Air joined the Oneworld alliance in 2025, giving the alliance a new Gulf hub and adding stronger connectivity across Oman, the Indian subcontinent, and Southeast Asia. Today, the airline serves more than 40 destinations from Muscat and remains an important part of Oman's tourism and economic diversification strategy.`,
+    fleet: [
+      { model: "B787-9", manufacturer: "Boeing", count: 7, passengers: "264-288 (2/3-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oman_Air_Boeing_787-9_Dreamliner.jpg/1280px-Oman_Air_Boeing_787-9_Dreamliner.jpg", imageAlt: "Oman Air B787-9", description: "Long-haul flagship serving Europe and higher-demand Asian routes from Muscat." },
+      { model: "B787-8", manufacturer: "Boeing", count: 2, passengers: "249 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Oman_Air_Boeing_787-8_Dreamliner.jpg/1280px-Oman_Air_Boeing_787-8_Dreamliner.jpg", imageAlt: "Oman Air B787-8", description: "Smaller Dreamliner variant used on long-haul services during the fleet transition." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 13, passengers: "162-189 (2/1-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Oman_Air_Boeing_737_MAX_8.jpg/1280px-Oman_Air_Boeing_737_MAX_8.jpg", imageAlt: "Oman Air B737 MAX 8", description: "Core narrowbody type for Gulf, Indian subcontinent, and medium-haul regional flights." },
+      { model: "B737-900ER", manufacturer: "Boeing", count: 5, passengers: "183 (2-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oman_Air_Boeing_737-900ER.jpg/1280px-Oman_Air_Boeing_737-900ER.jpg", imageAlt: "Oman Air B737-900ER", description: "High-capacity narrowbody used on busy regional routes while the fleet is simplified." },
+      { model: "B737-800", manufacturer: "Boeing", count: 7, passengers: "162 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Oman_Air_Boeing_737-800.jpg/1280px-Oman_Air_Boeing_737-800.jpg", imageAlt: "Oman Air B737-800", description: "Workhorse short- and medium-haul aircraft serving established regional markets." },
+    ],
+    hubs: [a.MCT],
+    routes: [
+      route("MCT", "LHR"), route("MCT", "FRA"), route("MCT", "MUC"), route("MCT", "CDG"), route("MCT", "ZRH"),
+      route("MCT", "AMS"), route("MCT", "FCO"), route("MCT", "IST"), route("MCT", "CPH"),
+      route("MCT", "BKK"), route("MCT", "KUL"), route("MCT", "MNL"), route("MCT", "CGK"), route("MCT", "SIN"),
+      route("MCT", "DEL"), route("MCT", "BOM"),
+      route("MCT", "DXB"), route("MCT", "DOH"), route("MCT", "RUH"), route("MCT", "JED"),
+      route("MCT", "CAI"), route("MCT", "NBO"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
