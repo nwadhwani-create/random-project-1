@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "starlux-airlines",
+    name: "Starlux Airlines",
+    iataCode: "JX",
+    icaoCode: "SJX",
+    country: "Taiwan",
+    founded: 2018,
+    headquarters: "Taipei, Taiwan",
+    alliance: "None",
+    logoColor: "#9B6A2F",
+    accentColor: "#1F2937",
+    history: `Starlux Airlines was founded on May 2, 2018, by Chang Kuo-wei, a veteran aviation executive and pilot who set out to build a premium Taiwanese carrier from the ground up. The airline received its air operator certificate in late 2019 and began commercial flights on January 23, 2020, from Taipei Taoyuan International Airport to Macau, Da Nang, and Penang.\n\nThe airline launched just as the COVID-19 pandemic disrupted global travel, forcing Starlux to grow cautiously through one of the most difficult periods in aviation history. Despite that timing, the carrier continued taking delivery of new Airbus aircraft, refined its cabin service, and built a reputation for polished design, high-touch service, and a boutique approach to full-service flying.\n\nStarlux expanded beyond regional routes with the arrival of its Airbus A350 fleet, using the type to open long-haul services from Taipei to North America. Los Angeles became the airline's first U.S. destination in 2023, followed by San Francisco, Seattle, and Ontario, supporting Taipei's role as a connecting hub between North America and major Asian cities.\n\nToday, Starlux operates an all-Airbus fleet built around the A321neo, A330neo, A350-900, and A350-1000. The airline remains independent of the major alliances, but it has pursued partnerships that broaden its reach while preserving its own premium brand identity and Taiwan-focused network strategy.`,
+    fleet: [
+      { model: "A350-900", manufacturer: "Airbus", count: 10, passengers: "306 (4-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/STARLUX_Airlines_Airbus_A350-941_B-58501.jpg/1280px-STARLUX_Airlines_Airbus_A350-941_B-58501.jpg", imageAlt: "Starlux Airlines A350-900", description: "Long-haul flagship connecting Taipei with North America and high-demand Asian routes." },
+      { model: "A350-1000", manufacturer: "Airbus", count: 2, passengers: "350 (4-class)", range: "8,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/STARLUX_Airlines_Airbus_A350-941_B-58501.jpg/1280px-STARLUX_Airlines_Airbus_A350-941_B-58501.jpg", imageAlt: "Starlux Airlines A350-1000", description: "Largest aircraft in the fleet, supporting future growth on premium long-haul routes." },
+      { model: "A330-900neo", manufacturer: "Airbus", count: 7, passengers: "297 (2-class)", range: "7,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/STARLUX_Airlines_Airbus_A330-900neo_B-58301.jpg/1280px-STARLUX_Airlines_Airbus_A330-900neo_B-58301.jpg", imageAlt: "Starlux Airlines A330-900neo", description: "Efficient widebody used across regional Asia and medium-haul international services." },
+      { model: "A321neo", manufacturer: "Airbus", count: 13, passengers: "188 (2-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/STARLUX_Airlines_Airbus_A321neo_B-58201.jpg/1280px-STARLUX_Airlines_Airbus_A321neo_B-58201.jpg", imageAlt: "Starlux Airlines A321neo", description: "Original fleet type and regional workhorse for Northeast and Southeast Asian routes." },
+    ],
+    hubs: [a.TPE],
+    routes: [
+      route("TPE", "LAX"), route("TPE", "SFO"), route("TPE", "SEA"),
+      route("TPE", "NRT"), route("TPE", "HND"), route("TPE", "ICN"), route("TPE", "HKG"),
+      route("TPE", "SIN"), route("TPE", "BKK"), route("TPE", "KUL"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
