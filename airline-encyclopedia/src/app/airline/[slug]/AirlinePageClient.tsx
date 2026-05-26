@@ -129,7 +129,9 @@ export default function AirlinePageClient({ airline }: Props) {
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-bold">{airline.hubs.length}</div>
-                <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Hubs</div>
+                <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">
+                  {airline.hubs.length === 1 ? "Hub" : "Hubs"}
+                </div>
               </div>
             </div>
           </div>
