@@ -25,7 +25,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Leaflet's packaged CSS is loaded by Next at runtime.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
@@ -121,7 +121,7 @@ export default function RouteMap({
   }, [routes, hubs, accentColor]);
 
   return (
-    <div className="relative">
+    <div className="relative" aria-label={`${airlineName} route map`}>
       {!isLoaded && (
         <div className="absolute inset-0 flex items-center justify-center bg-[var(--color-surface-alt)] rounded-xl z-10">
           <div className="flex items-center gap-3 text-[var(--color-muted)]">
