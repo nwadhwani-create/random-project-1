@@ -598,6 +598,38 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "juneyao-air",
+    name: "Juneyao Air",
+    iataCode: "HO",
+    icaoCode: "DKH",
+    country: "China",
+    founded: 2005,
+    headquarters: "Shanghai, China",
+    alliance: "Star Alliance Connecting Partner",
+    logoColor: "#C8102E",
+    accentColor: "#F5A623",
+    history: `Juneyao Air was founded on June 30, 2005, by Juneyao Group as a privately owned carrier based in Shanghai. The airline began commercial service in September 2006, entering a Chinese market that was rapidly opening to new domestic and regional competitors. From the start, Juneyao positioned itself as a full-service airline with a strong emphasis on Shanghai's growing business travel market.
+
+The airline expanded steadily from its Shanghai Hongqiao and Shanghai Pudong bases, building a dense domestic network before adding more international services across Northeast Asia and Southeast Asia. Its growth was supported by the Airbus A320 family, which allowed Juneyao to serve high-frequency trunk routes while keeping operations efficient. The carrier also developed 9 Air as a low-cost subsidiary, giving the group coverage across different parts of China's aviation market.
+
+In 2017, Juneyao Air became the first Star Alliance Connecting Partner, a status designed to link selected non-member carriers with Star Alliance benefits and interline connectivity. The airline took a major step into long-haul flying when it introduced the Boeing 787-9 Dreamliner in 2018, later using the type to launch services such as Shanghai to Helsinki and other longer international routes.
+
+Today, Juneyao Air operates one of China's larger privately owned airline fleets, with more than 100 aircraft across more than 260 domestic and international routes. Its network remains centered on Shanghai, connecting Chinese business and leisure markets with major Asian cities and a growing set of European links.`,
+    fleet: [
+      { model: "B787-9", manufacturer: "Boeing", count: 10, passengers: "324 (2-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/Juneyao_Airlines_Airbus_A321-211_at_Shanghai_Hongqiao.jpg", imageAlt: "Juneyao Air aircraft", description: "Long-haul flagship used on intercontinental and high-profile international services from Shanghai." },
+      { model: "A321neo", manufacturer: "Airbus", count: 14, passengers: "207 (2-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/Juneyao_Airlines_Airbus_A321-211_at_Shanghai_Hongqiao.jpg", imageAlt: "Juneyao Air A321", description: "Newest high-capacity narrowbody for busy domestic and regional routes." },
+      { model: "A321-200", manufacturer: "Airbus", count: 27, passengers: "198 (2-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/Juneyao_Airlines_Airbus_A321-211_at_Shanghai_Hongqiao.jpg", imageAlt: "Juneyao Air A321-200", description: "High-density aircraft used on trunk domestic routes and popular international sectors." },
+      { model: "A320neo", manufacturer: "Airbus", count: 22, passengers: "164 (2-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Airbus_A320-214,_Juneyao_Airlines_JP6332298.jpg", imageAlt: "Juneyao Air A320", description: "Efficient narrowbody supporting network growth across China and nearby international markets." },
+      { model: "A320-200", manufacturer: "Airbus", count: 30, passengers: "164 (2-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Airbus_A320-214,_Juneyao_Airlines_JP6332298.jpg", imageAlt: "Juneyao Air A320-200", description: "Core fleet type for short-to-medium-haul services from Shanghai and other Chinese cities." },
+    ],
+    hubs: [a.PVG],
+    routes: [
+      route("PVG", "PEK"), route("PVG", "HKG"), route("PVG", "TPE"), route("PVG", "NRT"), route("PVG", "HND"),
+      route("PVG", "ICN"), route("PVG", "SIN"), route("PVG", "BKK"), route("PVG", "KUL"), route("PVG", "MNL"),
+      route("PVG", "CGK"), route("PVG", "HEL"), route("PVG", "ATH"), route("PVG", "FRA"), route("PVG", "MUC"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
