@@ -75,6 +75,8 @@ export const airports: Record<string, Airport> = {
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
   AKL: { code: "AKL", name: "Auckland Airport", city: "Auckland", country: "New Zealand", lat: -37.0082, lng: 174.7850 },
   BNE: { code: "BNE", name: "Brisbane Airport", city: "Brisbane", country: "Australia", lat: -27.3842, lng: 153.1175 },
+  ADL: { code: "ADL", name: "Adelaide Airport", city: "Adelaide", country: "Australia", lat: -34.9450, lng: 138.5306 },
+  WLG: { code: "WLG", name: "Wellington International", city: "Wellington", country: "New Zealand", lat: -41.3272, lng: 174.8053 },
   PER: { code: "PER", name: "Perth Airport", city: "Perth", country: "Australia", lat: -31.9385, lng: 115.9672 },
 
   GRU: { code: "GRU", name: "São Paulo–Guarulhos International", city: "São Paulo", country: "Brazil", lat: -23.4356, lng: -46.4731 },
