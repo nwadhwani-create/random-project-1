@@ -27,15 +27,24 @@ export default function RouteMap({
 }: RouteMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
+  const isInitializingRef = useRef(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
+    if (!mapRef.current || mapInstanceRef.current || isInitializingRef.current) return;
+
+    let isCancelled = false;
+    isInitializingRef.current = true;
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
       // @ts-expect-error Leaflet's CSS package does not ship TypeScript declarations.
       await import("leaflet/dist/leaflet.css");
+
+      if (isCancelled || !mapRef.current) {
+        isInitializingRef.current = false;
+        return;
+      }
 
       const map = L.map(mapRef.current!, {
         center: [20, 0],
@@ -118,11 +127,17 @@ export default function RouteMap({
       map.fitBounds(bounds, { padding: [40, 40] });
 
       setIsLoaded(true);
+      isInitializingRef.current = false;
     };
 
-    loadMap();
+    loadMap().catch((error) => {
+      isInitializingRef.current = false;
+      throw error;
+    });
 
     return () => {
+      isCancelled = true;
+      isInitializingRef.current = false;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
