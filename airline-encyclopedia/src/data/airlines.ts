@@ -598,6 +598,27 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "zipair-tokyo",
+    name: "ZIPAIR Tokyo",
+    iataCode: "ZG",
+    icaoCode: "TZP",
+    country: "Japan",
+    founded: 2018,
+    headquarters: "Tokyo, Japan",
+    alliance: "None",
+    logoColor: "#1F1F1F",
+    accentColor: "#8CC63F",
+    history: `ZIPAIR Tokyo was founded in July 2018 by Japan Airlines as a new long-haul, low-cost subsidiary designed to compete in leisure and visiting-friends-and-relatives markets from Tokyo Narita. The carrier was originally announced as TBL Co., Ltd. before adopting the ZIPAIR brand, with "ZIP" intended to suggest speed, efficiency, and a fresh approach to international travel.\n\nThe airline planned to begin passenger service in 2020, but the COVID-19 pandemic forced a rapid pivot before scheduled operations could fully launch. ZIPAIR first operated cargo-only flights using Boeing 787-8 aircraft, then gradually introduced passenger services as travel restrictions eased. This unusual start shaped the carrier's lean operating model and gave it experience using widebody aircraft in flexible, low-cost operations.\n\nZIPAIR differentiates itself from parent company Japan Airlines with an unbundled fare structure, paid onboard services, and a simplified cabin designed for cost-efficient medium- and long-haul flying. Its Boeing 787 fleet allows the airline to serve routes that are too distant for traditional narrowbody low-cost carriers while still offering lower base fares than full-service competitors.\n\nToday, ZIPAIR operates from Tokyo Narita to destinations across Asia and North America, including Seoul, Manila, Bangkok, Singapore, Honolulu, and Los Angeles. The airline has become an important part of the Japan Airlines Group's strategy for price-sensitive international travel, expanding Japan's low-cost long-haul presence from one of Asia's busiest aviation markets.`,
+    fleet: [
+      { model: "B787-8", manufacturer: "Boeing", count: 8, passengers: "290 (2-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Zipair%2C_Boeing_787-8%2C_JA822J%2C_NRT.jpg/1280px-Zipair%2C_Boeing_787-8%2C_JA822J%2C_NRT.jpg", imageAlt: "ZIPAIR Tokyo B787-8", description: "The airline's sole aircraft type, configured for efficient medium- and long-haul low-cost service from Tokyo Narita." },
+    ],
+    hubs: [a.NRT],
+    routes: [
+      route("NRT", "ICN"), route("NRT", "MNL"), route("NRT", "BKK"), route("NRT", "SIN"),
+      route("NRT", "HKG"), route("NRT", "HNL"), route("NRT", "LAX"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
