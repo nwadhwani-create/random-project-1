@@ -10,6 +10,15 @@ interface RouteMapProps {
   accentColor: string;
 }
 
+const fallbackTileSvg = encodeURIComponent(
+  `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+    <rect width="256" height="256" fill="#eef3f7"/>
+    <path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#d5e0e8" stroke-width="1"/>
+    <path d="M0 0H256V256H0Z" fill="none" stroke="#cbd8e1" stroke-width="1"/>
+  </svg>`
+);
+const fallbackTileUrl = `data:image/svg+xml;charset=UTF-8,${fallbackTileSvg}`;
+
 export default function RouteMap({
   routes,
   hubs,
@@ -47,6 +56,7 @@ export default function RouteMap({
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
           maxZoom: 19,
+          errorTileUrl: fallbackTileUrl,
         }
       ).addTo(map);
 
