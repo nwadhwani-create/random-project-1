@@ -148,12 +148,31 @@ export default function RouteMap({
           </div>
         </div>
       )}
-      <div
-        ref={mapRef}
-        className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
-        style={{ height: "520px" }}
-        aria-label={`${airlineName} route map`}
-      />
+      <div className="relative rounded-xl border border-[var(--color-border)] overflow-hidden bg-[#e8eef3]">
+        <svg
+          className="absolute inset-0 w-full h-full text-slate-300/70 pointer-events-none"
+          viewBox="0 0 1000 520"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <rect width="1000" height="520" fill="#e8eef3" />
+          <path d="M165 120 C225 75 315 90 350 135 C385 180 330 220 270 210 C215 200 130 180 165 120Z" fill="currentColor" />
+          <path d="M250 225 C315 205 355 245 345 305 C332 378 275 418 230 360 C195 315 195 248 250 225Z" fill="currentColor" />
+          <path d="M435 120 C500 95 610 100 660 140 C700 172 655 210 585 202 C515 195 430 175 435 120Z" fill="currentColor" />
+          <path d="M520 230 C570 205 640 225 675 285 C710 345 682 415 620 430 C560 445 515 390 525 335 C532 294 490 252 520 230Z" fill="currentColor" />
+          <path d="M675 135 C770 90 890 120 925 195 C955 260 885 300 800 272 C735 250 645 200 675 135Z" fill="currentColor" />
+          <path d="M745 318 C825 292 910 335 925 398 C940 458 845 470 780 430 C730 398 700 342 745 318Z" fill="currentColor" />
+          <path d="M485 72 C525 55 570 62 590 92 C555 105 510 108 485 72Z" fill="currentColor" />
+          <path d="M120 455 C240 482 392 490 520 470 C675 446 805 456 930 478" stroke="#cbd5e1" strokeWidth="2" fill="none" opacity="0.7" />
+          <path d="M80 290 C210 272 350 268 500 284 C635 298 780 290 940 270" stroke="#cbd5e1" strokeWidth="1.5" fill="none" opacity="0.55" />
+        </svg>
+        <div
+          ref={mapRef}
+          className="relative z-10 w-full bg-transparent"
+          style={{ height: "520px", background: "transparent" }}
+          aria-label={`${airlineName} route map`}
+        />
+      </div>
       <div className="flex flex-wrap gap-6 mt-4 text-xs text-[var(--color-muted)]">
         <div className="flex items-center gap-2">
           <span

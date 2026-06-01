@@ -154,7 +154,7 @@ export default function HomePage() {
                   placeholder="Name, country, or IATA code..."
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 border border-[var(--color-border)] rounded-xl text-sm bg-white/80 focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/40 focus:border-[var(--color-accent)] transition"
+                  className="w-full h-11 pl-10 pr-4 py-2 border border-[var(--color-border)] rounded-xl text-sm leading-5 bg-white/80 focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/40 focus:border-[var(--color-accent)] transition"
                 />
               </div>
             </div>
