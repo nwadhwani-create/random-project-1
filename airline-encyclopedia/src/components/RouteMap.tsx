@@ -148,23 +148,37 @@ export default function RouteMap({
           </div>
         </div>
       )}
-      <div className="relative rounded-xl border border-[var(--color-border)] overflow-hidden bg-[#e8eef3]">
+      <div className="relative rounded-xl border border-[var(--color-border)] overflow-hidden bg-[#dbeafe]">
         <svg
-          className="absolute inset-0 w-full h-full text-slate-300/70 pointer-events-none"
+          className="absolute inset-0 w-full h-full pointer-events-none"
           viewBox="0 0 1000 520"
           preserveAspectRatio="none"
           aria-hidden="true"
         >
-          <rect width="1000" height="520" fill="#e8eef3" />
-          <path d="M165 120 C225 75 315 90 350 135 C385 180 330 220 270 210 C215 200 130 180 165 120Z" fill="currentColor" />
-          <path d="M250 225 C315 205 355 245 345 305 C332 378 275 418 230 360 C195 315 195 248 250 225Z" fill="currentColor" />
-          <path d="M435 120 C500 95 610 100 660 140 C700 172 655 210 585 202 C515 195 430 175 435 120Z" fill="currentColor" />
-          <path d="M520 230 C570 205 640 225 675 285 C710 345 682 415 620 430 C560 445 515 390 525 335 C532 294 490 252 520 230Z" fill="currentColor" />
-          <path d="M675 135 C770 90 890 120 925 195 C955 260 885 300 800 272 C735 250 645 200 675 135Z" fill="currentColor" />
-          <path d="M745 318 C825 292 910 335 925 398 C940 458 845 470 780 430 C730 398 700 342 745 318Z" fill="currentColor" />
-          <path d="M485 72 C525 55 570 62 590 92 C555 105 510 108 485 72Z" fill="currentColor" />
-          <path d="M120 455 C240 482 392 490 520 470 C675 446 805 456 930 478" stroke="#cbd5e1" strokeWidth="2" fill="none" opacity="0.7" />
-          <path d="M80 290 C210 272 350 268 500 284 C635 298 780 290 940 270" stroke="#cbd5e1" strokeWidth="1.5" fill="none" opacity="0.55" />
+          <rect width="1000" height="520" fill="#dbeafe" />
+          {[120, 200, 280, 360, 440].map((y) => (
+            <path key={`lat-${y}`} d={`M40 ${y} H960`} stroke="#bfdbfe" strokeWidth="1" opacity="0.9" />
+          ))}
+          {[140, 260, 380, 500, 620, 740, 860].map((x) => (
+            <path key={`lng-${x}`} d={`M${x} 40 V480`} stroke="#bfdbfe" strokeWidth="1" opacity="0.9" />
+          ))}
+          <path d="M145 120 C205 70 305 85 350 132 C395 180 338 226 265 214 C205 204 108 178 145 120Z" fill="#94a3b8" opacity="0.42" />
+          <path d="M245 222 C315 198 365 248 350 318 C335 393 272 432 224 364 C188 314 192 244 245 222Z" fill="#94a3b8" opacity="0.42" />
+          <path d="M420 118 C488 92 612 98 670 138 C715 170 662 216 580 204 C502 193 415 176 420 118Z" fill="#94a3b8" opacity="0.42" />
+          <path d="M515 226 C574 198 648 225 682 290 C720 362 682 430 615 444 C548 458 506 392 520 330 C528 292 482 250 515 226Z" fill="#94a3b8" opacity="0.42" />
+          <path d="M670 132 C768 82 900 118 934 196 C966 270 888 314 798 280 C725 254 640 202 670 132Z" fill="#94a3b8" opacity="0.42" />
+          <path d="M744 318 C830 288 922 334 938 402 C954 464 846 480 776 432 C724 396 696 342 744 318Z" fill="#94a3b8" opacity="0.42" />
+          <path d="M478 70 C524 50 574 60 598 92 C560 110 510 108 478 70Z" fill="#94a3b8" opacity="0.38" />
+          <path d="M120 455 C240 482 392 490 520 470 C675 446 805 456 930 478" stroke="#93c5fd" strokeWidth="2" fill="none" opacity="0.9" />
+          <path d="M80 290 C210 272 350 268 500 284 C635 298 780 290 940 270" stroke="#93c5fd" strokeWidth="1.5" fill="none" opacity="0.75" />
+          <g fill="#64748b" fontSize="18" fontWeight="700" opacity="0.55">
+            <text x="185" y="165">NORTH AMERICA</text>
+            <text x="250" y="330">SOUTH AMERICA</text>
+            <text x="488" y="155">EUROPE</text>
+            <text x="575" y="340">AFRICA</text>
+            <text x="770" y="190">ASIA</text>
+            <text x="805" y="410">OCEANIA</text>
+          </g>
         </svg>
         <div
           ref={mapRef}
