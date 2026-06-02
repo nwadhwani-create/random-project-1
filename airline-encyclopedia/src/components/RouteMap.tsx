@@ -25,7 +25,6 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
