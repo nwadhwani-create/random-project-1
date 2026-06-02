@@ -38,6 +38,7 @@ export const airports: Record<string, Airport> = {
   MAD: { code: "MAD", name: "Adolfo Suárez Madrid–Barajas", city: "Madrid", country: "Spain", lat: 40.4983, lng: -3.5676 },
   BCN: { code: "BCN", name: "Barcelona–El Prat", city: "Barcelona", country: "Spain", lat: 41.2974, lng: 2.0833 },
   FCO: { code: "FCO", name: "Leonardo da Vinci–Fiumicino", city: "Rome", country: "Italy", lat: 41.8003, lng: 12.2389 },
+  MXP: { code: "MXP", name: "Milan Malpensa", city: "Milan", country: "Italy", lat: 45.6306, lng: 8.7281 },
   IST: { code: "IST", name: "Istanbul Airport", city: "Istanbul", country: "Turkey", lat: 41.2608, lng: 28.7418 },
   ZRH: { code: "ZRH", name: "Zurich Airport", city: "Zurich", country: "Switzerland", lat: 47.4647, lng: 8.5492 },
   CPH: { code: "CPH", name: "Copenhagen Airport", city: "Copenhagen", country: "Denmark", lat: 55.6180, lng: 12.6508 },
@@ -49,12 +50,18 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  EDI: { code: "EDI", name: "Edinburgh Airport", city: "Edinburgh", country: "United Kingdom", lat: 55.9500, lng: -3.3725 },
+  BUD: { code: "BUD", name: "Budapest Ferenc Liszt International", city: "Budapest", country: "Hungary", lat: 47.4385, lng: 19.2523 },
+  PRG: { code: "PRG", name: "Václav Havel Airport Prague", city: "Prague", country: "Czech Republic", lat: 50.1008, lng: 14.2632 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
   AUH: { code: "AUH", name: "Abu Dhabi International", city: "Abu Dhabi", country: "UAE", lat: 24.4330, lng: 54.6511 },
   RUH: { code: "RUH", name: "King Khalid International", city: "Riyadh", country: "Saudi Arabia", lat: 24.9576, lng: 46.6988 },
   JED: { code: "JED", name: "King Abdulaziz International", city: "Jeddah", country: "Saudi Arabia", lat: 21.6796, lng: 39.1565 },
+  AMM: { code: "AMM", name: "Queen Alia International", city: "Amman", country: "Jordan", lat: 31.7226, lng: 35.9932 },
+  DMM: { code: "DMM", name: "King Fahd International", city: "Dammam", country: "Saudi Arabia", lat: 26.4712, lng: 49.7979 },
+  BGW: { code: "BGW", name: "Baghdad International", city: "Baghdad", country: "Iraq", lat: 33.2625, lng: 44.2346 },
 
   NRT: { code: "NRT", name: "Narita International", city: "Tokyo", country: "Japan", lat: 35.7720, lng: 140.3929 },
   HND: { code: "HND", name: "Tokyo Haneda", city: "Tokyo", country: "Japan", lat: 35.5494, lng: 139.7798 },
@@ -70,12 +77,15 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  SGN: { code: "SGN", name: "Tan Son Nhat International", city: "Ho Chi Minh City", country: "Vietnam", lat: 10.8188, lng: 106.6519 },
+  HKT: { code: "HKT", name: "Phuket International", city: "Phuket", country: "Thailand", lat: 8.1132, lng: 98.3169 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
   AKL: { code: "AKL", name: "Auckland Airport", city: "Auckland", country: "New Zealand", lat: -37.0082, lng: 174.7850 },
   BNE: { code: "BNE", name: "Brisbane Airport", city: "Brisbane", country: "Australia", lat: -27.3842, lng: 153.1175 },
   PER: { code: "PER", name: "Perth Airport", city: "Perth", country: "Australia", lat: -31.9385, lng: 115.9672 },
+  ADL: { code: "ADL", name: "Adelaide Airport", city: "Adelaide", country: "Australia", lat: -34.9450, lng: 138.5306 },
 
   GRU: { code: "GRU", name: "São Paulo–Guarulhos International", city: "São Paulo", country: "Brazil", lat: -23.4356, lng: -46.4731 },
   EZE: { code: "EZE", name: "Ministro Pistarini International", city: "Buenos Aires", country: "Argentina", lat: -34.8222, lng: -58.5358 },
@@ -85,6 +95,8 @@ export const airports: Record<string, Airport> = {
   LIM: { code: "LIM", name: "Jorge Chávez International", city: "Lima", country: "Peru", lat: -12.0219, lng: -77.1143 },
   CUN: { code: "CUN", name: "Cancún International", city: "Cancún", country: "Mexico", lat: 21.0365, lng: -86.8771 },
   PTY: { code: "PTY", name: "Tocumen International", city: "Panama City", country: "Panama", lat: 9.0714, lng: -79.3835 },
+  CCS: { code: "CCS", name: "Simón Bolívar International", city: "Caracas", country: "Venezuela", lat: 10.6031, lng: -66.9906 },
+  YUL: { code: "YUL", name: "Montréal–Trudeau International", city: "Montreal", country: "Canada", lat: 45.4706, lng: -73.7408 },
 
   JNB: { code: "JNB", name: "O.R. Tambo International", city: "Johannesburg", country: "South Africa", lat: -26.1392, lng: 28.2460 },
   CPT: { code: "CPT", name: "Cape Town International", city: "Cape Town", country: "South Africa", lat: -33.9648, lng: 18.6017 },
@@ -94,4 +106,5 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+  TUN: { code: "TUN", name: "Tunis-Carthage International", city: "Tunis", country: "Tunisia", lat: 36.8510, lng: 10.2272 },
 };
