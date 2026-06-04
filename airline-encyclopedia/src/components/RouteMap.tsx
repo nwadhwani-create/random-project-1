@@ -25,7 +25,6 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
@@ -144,12 +143,13 @@ export default function RouteMap({
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
               />
             </svg>
-            Loading route map...
+            Loading {airlineName} route map...
           </div>
         </div>
       )}
       <div
         ref={mapRef}
+        aria-label={`${airlineName} route map`}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
       />
