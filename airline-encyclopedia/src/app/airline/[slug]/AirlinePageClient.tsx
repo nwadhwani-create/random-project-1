@@ -141,7 +141,9 @@ export default function AirlinePageClient({ airline }: Props) {
       {/* Hub Badges */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-5 relative z-10">
         <div className="bg-white rounded-xl shadow-md border border-[var(--color-border)] p-4 flex flex-wrap items-center gap-3">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)] mr-1">Hubs:</span>
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)] mr-1">
+            {airline.hubs.length === 1 ? "Hub:" : "Hubs:"}
+          </span>
           {airline.hubs.map((hub) => (
             <span
               key={hub.code}
