@@ -25,6 +25,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
+      // @ts-expect-error Next loads Leaflet's CSS at runtime, but TypeScript has no CSS module declaration here.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
