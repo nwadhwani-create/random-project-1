@@ -49,6 +49,18 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  MXP: { code: "MXP", name: "Milan Malpensa", city: "Milan", country: "Italy", lat: 45.6306, lng: 8.7281 },
+  BUD: { code: "BUD", name: "Budapest Ferenc Liszt International", city: "Budapest", country: "Hungary", lat: 47.4298, lng: 19.2611 },
+  PRG: { code: "PRG", name: "Vaclav Havel Airport Prague", city: "Prague", country: "Czech Republic", lat: 50.1008, lng: 14.2632 },
+  EDI: { code: "EDI", name: "Edinburgh Airport", city: "Edinburgh", country: "United Kingdom", lat: 55.9500, lng: -3.3725 },
+  SPU: { code: "SPU", name: "Split Airport", city: "Split", country: "Croatia", lat: 43.5389, lng: 16.2980 },
+  BRI: { code: "BRI", name: "Bari Karol Wojtyla Airport", city: "Bari", country: "Italy", lat: 41.1389, lng: 16.7606 },
+  GLA: { code: "GLA", name: "Glasgow Airport", city: "Glasgow", country: "United Kingdom", lat: 55.8719, lng: -4.4331 },
+  SCQ: { code: "SCQ", name: "Santiago-Rosalia de Castro Airport", city: "Santiago de Compostela", country: "Spain", lat: 42.8963, lng: -8.4151 },
+  FAO: { code: "FAO", name: "Faro Airport", city: "Faro", country: "Portugal", lat: 37.0144, lng: -7.9659 },
+  FNC: { code: "FNC", name: "Madeira Airport", city: "Funchal", country: "Portugal", lat: 32.6979, lng: -16.7745 },
+  PMO: { code: "PMO", name: "Falcone Borsellino Airport", city: "Palermo", country: "Italy", lat: 38.1759, lng: 13.0910 },
+  BIO: { code: "BIO", name: "Bilbao Airport", city: "Bilbao", country: "Spain", lat: 43.3011, lng: -2.9106 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
@@ -70,6 +82,8 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  UBN: { code: "UBN", name: "Chinggis Khaan International", city: "Ulaanbaatar", country: "Mongolia", lat: 47.6469, lng: 106.8198 },
+  KHH: { code: "KHH", name: "Kaohsiung International", city: "Kaohsiung", country: "Taiwan", lat: 22.5771, lng: 120.3500 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
@@ -94,4 +108,5 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+  GOH: { code: "GOH", name: "Nuuk Airport", city: "Nuuk", country: "Greenland", lat: 64.1909, lng: -51.6781 },
 };
