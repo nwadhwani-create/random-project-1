@@ -1,0 +1,44 @@
+name: Daily RAG Slack message
+
+on:
+  schedule:
+    # GitHub schedules are UTC. These two ticks cover 3pm Pacific across DST.
+    - cron: "0 22 * * *"
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send-rag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Pacific time
+        id: pacific-time
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(TZ=America/Los_Angeles date +%H)" = "15" ]; then
+            echo "should_send=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_send=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: github.event_name == 'workflow_dispatch' || steps.pacific-time.outputs.should_send == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        if: github.event_name == 'workflow_dispatch' || steps.pacific-time.outputs.should_send == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Send RAG to Slack
+        if: github.event_name == 'workflow_dispatch' || steps.pacific-time.outputs.should_send == 'true'
+        run: node scripts/send-rag-to-slack.mjs
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_RAG_CHANNEL: "#players-only-comm-west"
+          SLACK_RAG_MESSAGE: "RAG"
