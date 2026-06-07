@@ -67,6 +67,7 @@ export const airports: Record<string, Airport> = {
   KUL: { code: "KUL", name: "Kuala Lumpur International", city: "Kuala Lumpur", country: "Malaysia", lat: 2.7456, lng: 101.7099 },
   DEL: { code: "DEL", name: "Indira Gandhi International", city: "Delhi", country: "India", lat: 28.5562, lng: 77.1000 },
   BOM: { code: "BOM", name: "Chhatrapati Shivaji Maharaj International", city: "Mumbai", country: "India", lat: 19.0896, lng: 72.8656 },
+  DAC: { code: "DAC", name: "Hazrat Shahjalal International", city: "Dhaka", country: "Bangladesh", lat: 23.8433, lng: 90.3978 },
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
