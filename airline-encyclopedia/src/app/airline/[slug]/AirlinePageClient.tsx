@@ -97,7 +97,7 @@ export default function AirlinePageClient({ airline }: Props) {
             </svg>
             All Airlines
           </Link>
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div>
               <div className="flex items-center gap-3 mb-2">
                 <span className="text-sm font-bold bg-white/20 px-3 py-1 rounded-md backdrop-blur-sm">
@@ -114,20 +114,20 @@ export default function AirlinePageClient({ airline }: Props) {
                 {airline.country} &middot; Founded {airline.founded} &middot; HQ: {airline.headquarters}
               </p>
             </div>
-            <div className="flex gap-6 sm:gap-8 text-center">
-              <div>
+            <div className="flex flex-wrap justify-start lg:justify-end gap-4 sm:gap-6 lg:gap-8 text-center">
+              <div className="min-w-16">
                 <div className="text-2xl sm:text-3xl font-bold">{fleetSize}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Aircraft</div>
               </div>
-              <div>
+              <div className="min-w-16">
                 <div className="text-2xl sm:text-3xl font-bold">{airline.fleet.length}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Types</div>
               </div>
-              <div>
+              <div className="min-w-16">
                 <div className="text-2xl sm:text-3xl font-bold">{uniqueDestinations.size}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Destinations</div>
               </div>
-              <div>
+              <div className="min-w-16">
                 <div className="text-2xl sm:text-3xl font-bold">{airline.hubs.length}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Hubs</div>
               </div>
