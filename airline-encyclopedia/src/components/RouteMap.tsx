@@ -6,14 +6,12 @@ import type { Route, Airport } from "@/data/types";
 interface RouteMapProps {
   routes: Route[];
   hubs: Airport[];
-  airlineName: string;
   accentColor: string;
 }
 
 export default function RouteMap({
   routes,
   hubs,
-  airlineName,
   accentColor,
 }: RouteMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
@@ -25,7 +23,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Next.js handles this runtime CSS import for Leaflet.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
