@@ -1,0 +1,141 @@
+name: Daily RAG Slack Message
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      force_send:
+        description: "Send even when it is not 3pm Pacific"
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+jobs:
+  send-rag:
+    runs-on: ubuntu-latest
+    env:
+      LOCAL_TIMEZONE: America/Los_Angeles
+      SLACK_CHANNEL_NAME: players-only-comm-west
+      SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+
+    steps:
+      - name: Check send window
+        id: send_window
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ github.event.inputs.force_send }}" == "true" ]]; then
+            echo "should_send=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          local_hour="$(TZ="$LOCAL_TIMEZONE" date +%H)"
+          if [[ "$local_hour" == "15" ]]; then
+            echo "should_send=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_send=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping send because local hour in $LOCAL_TIMEZONE is $local_hour, not 15."
+          fi
+
+      - name: Resolve Slack channel
+        if: steps.send_window.outputs.should_send == 'true'
+        id: slack_channel
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${SLACK_BOT_TOKEN:-}" ]]; then
+            echo "::error::SLACK_BOT_TOKEN repository secret is required."
+            exit 1
+          fi
+
+          if [[ -n "${SLACK_CHANNEL_ID:-}" ]]; then
+            echo "channel_id=$SLACK_CHANNEL_ID" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          response_file="$(mktemp)"
+          curl -fsS \
+            -H "Authorization: Bearer ${SLACK_BOT_TOKEN}" \
+            --data-urlencode "limit=1000" \
+            --data-urlencode "types=public_channel,private_channel" \
+            -o "$response_file" \
+            "https://slack.com/api/conversations.list"
+
+          channel_id="$(
+            python3 - "$response_file" "$SLACK_CHANNEL_NAME" <<'PY'
+import json
+import sys
+
+response_path, channel_name = sys.argv[1], sys.argv[2]
+with open(response_path, encoding="utf-8") as response_file:
+    payload = json.load(response_file)
+
+if not payload.get("ok"):
+    print(
+        f"::error::Slack conversations.list failed: {payload.get('error', 'unknown_error')}",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+
+for channel in payload.get("channels", []):
+    if channel.get("name") == channel_name:
+        print(channel["id"])
+        sys.exit(0)
+
+print(
+    f"::error::Slack channel #{channel_name} was not found or is not visible to the bot.",
+    file=sys.stderr,
+)
+sys.exit(1)
+PY
+          )"
+
+          echo "channel_id=$channel_id" >> "$GITHUB_OUTPUT"
+
+      - name: Send Slack message
+        if: steps.send_window.outputs.should_send == 'true'
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ steps.slack_channel.outputs.channel_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          response_file="$(mktemp)"
+          curl -fsS \
+            -H "Authorization: Bearer ${SLACK_BOT_TOKEN}" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data "$(
+              python3 - <<'PY'
+import json
+import os
+
+print(json.dumps({"channel": os.environ["SLACK_CHANNEL_ID"], "text": "RAG"}))
+PY
+            )" \
+            -o "$response_file" \
+            "https://slack.com/api/chat.postMessage"
+
+          python3 - "$response_file" <<'PY'
+import json
+import sys
+
+with open(sys.argv[1], encoding="utf-8") as response_file:
+    payload = json.load(response_file)
+
+if not payload.get("ok"):
+    print(
+        f"::error::Slack chat.postMessage failed: {payload.get('error', 'unknown_error')}",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+
+print("Sent RAG to Slack.")
+PY
