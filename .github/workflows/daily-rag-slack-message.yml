@@ -81,31 +81,31 @@ jobs:
 
             page_result="$(
               python3 - "$response_file" "$SLACK_CHANNEL_NAME" <<'PY'
-import json
-import sys
+          import json
+          import sys
 
-response_path, channel_name = sys.argv[1], sys.argv[2]
-with open(response_path, encoding="utf-8") as response_file:
-    payload = json.load(response_file)
+          response_path, channel_name = sys.argv[1], sys.argv[2]
+          with open(response_path, encoding="utf-8") as response_file:
+              payload = json.load(response_file)
 
-if not payload.get("ok"):
-    print(
-        f"::error::Slack conversations.list failed: {payload.get('error', 'unknown_error')}",
-        file=sys.stderr,
-    )
-    sys.exit(1)
+          if not payload.get("ok"):
+              print(
+                  f"::error::Slack conversations.list failed: {payload.get('error', 'unknown_error')}",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
 
-for channel in payload.get("channels", []):
-    if channel.get("name") == channel_name:
-        print(f"FOUND\t{channel['id']}")
-        sys.exit(0)
+          for channel in payload.get("channels", []):
+              if channel.get("name") == channel_name:
+                  print(f"FOUND\t{channel['id']}")
+                  sys.exit(0)
 
-next_cursor = payload.get("response_metadata", {}).get("next_cursor", "")
-if next_cursor:
-    print(f"NEXT\t{next_cursor}")
-else:
-    print("MISSING\t")
-PY
+          next_cursor = payload.get("response_metadata", {}).get("next_cursor", "")
+          if next_cursor:
+              print(f"NEXT\t{next_cursor}")
+          else:
+              print("MISSING\t")
+          PY
             )"
 
             page_status="${page_result%%$'\t'*}"
@@ -145,28 +145,28 @@ PY
             -H "Content-Type: application/json; charset=utf-8" \
             --data "$(
               python3 - <<'PY'
-import json
-import os
+          import json
+          import os
 
-print(json.dumps({"channel": os.environ["SLACK_CHANNEL_ID"], "text": "RAG"}))
-PY
+          print(json.dumps({"channel": os.environ["SLACK_CHANNEL_ID"], "text": "RAG"}))
+          PY
             )" \
             -o "$response_file" \
             "https://slack.com/api/chat.postMessage"
 
           python3 - "$response_file" <<'PY'
-import json
-import sys
+          import json
+          import sys
 
-with open(sys.argv[1], encoding="utf-8") as response_file:
-    payload = json.load(response_file)
+          with open(sys.argv[1], encoding="utf-8") as response_file:
+              payload = json.load(response_file)
 
-if not payload.get("ok"):
-    print(
-        f"::error::Slack chat.postMessage failed: {payload.get('error', 'unknown_error')}",
-        file=sys.stderr,
-    )
-    sys.exit(1)
+          if not payload.get("ok"):
+              print(
+                  f"::error::Slack chat.postMessage failed: {payload.get('error', 'unknown_error')}",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
 
-print("Sent RAG to Slack.")
-PY
+          print("Sent RAG to Slack.")
+          PY
