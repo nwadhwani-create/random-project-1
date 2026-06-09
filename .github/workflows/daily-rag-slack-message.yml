@@ -60,16 +60,27 @@ jobs:
             exit 0
           fi
 
-          response_file="$(mktemp)"
-          curl -fsS \
-            -H "Authorization: Bearer ${SLACK_BOT_TOKEN}" \
-            --data-urlencode "limit=1000" \
-            --data-urlencode "types=public_channel,private_channel" \
-            -o "$response_file" \
-            "https://slack.com/api/conversations.list"
+          channel_id=""
+          cursor=""
+          while [[ -z "$channel_id" ]]; do
+            response_file="$(mktemp)"
+            curl_args=(
+              -fsS
+              -H "Authorization: Bearer ${SLACK_BOT_TOKEN}"
+              --data-urlencode "exclude_archived=true"
+              --data-urlencode "limit=1000"
+              --data-urlencode "types=public_channel,private_channel"
+              -o "$response_file"
+            )
 
-          channel_id="$(
-            python3 - "$response_file" "$SLACK_CHANNEL_NAME" <<'PY'
+            if [[ -n "$cursor" ]]; then
+              curl_args+=(--data-urlencode "cursor=$cursor")
+            fi
+
+            curl "${curl_args[@]}" "https://slack.com/api/conversations.list"
+
+            page_result="$(
+              python3 - "$response_file" "$SLACK_CHANNEL_NAME" <<'PY'
 import json
 import sys
 
@@ -86,16 +97,36 @@ if not payload.get("ok"):
 
 for channel in payload.get("channels", []):
     if channel.get("name") == channel_name:
-        print(channel["id"])
+        print(f"FOUND\t{channel['id']}")
         sys.exit(0)
 
-print(
-    f"::error::Slack channel #{channel_name} was not found or is not visible to the bot.",
-    file=sys.stderr,
-)
-sys.exit(1)
+next_cursor = payload.get("response_metadata", {}).get("next_cursor", "")
+if next_cursor:
+    print(f"NEXT\t{next_cursor}")
+else:
+    print("MISSING\t")
 PY
-          )"
+            )"
+
+            page_status="${page_result%%$'\t'*}"
+            page_value="${page_result#*$'\t'}"
+            case "$page_status" in
+              FOUND)
+                channel_id="$page_value"
+                ;;
+              NEXT)
+                cursor="$page_value"
+                ;;
+              MISSING)
+                echo "::error::Slack channel #$SLACK_CHANNEL_NAME was not found or is not visible to the bot."
+                exit 1
+                ;;
+              *)
+                echo "::error::Unexpected Slack channel lookup result: $page_result"
+                exit 1
+                ;;
+            esac
+          done
 
           echo "channel_id=$channel_id" >> "$GITHUB_OUTPUT"
 
