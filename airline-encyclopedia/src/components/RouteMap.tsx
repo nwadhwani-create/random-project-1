@@ -25,7 +25,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Leaflet ships CSS that Next handles at runtime.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
@@ -144,7 +144,7 @@ export default function RouteMap({
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
               />
             </svg>
-            Loading route map...
+            Loading {airlineName} route map...
           </div>
         </div>
       )}

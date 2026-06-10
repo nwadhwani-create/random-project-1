@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { airlines, getAirlineBySlug, getAllAirlineSlugs } from "@/data/airlines";
+import { getAirlineBySlug, getAllAirlineSlugs } from "@/data/airlines";
 import AirlinePageClient from "./AirlinePageClient";
 
 export function generateStaticParams() {
