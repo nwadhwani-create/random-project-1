@@ -102,31 +102,29 @@ export class UserController {
 
     const aim = moving ? v1.set(mx, 0, mz).normalize().clone() : v1.set(Math.cos(p.facing), 0, Math.sin(p.facing)).clone();
 
-    // ----- shooting with power gauge
-    if (p.hasBall) {
-      if (inp.justPressed('shoot')) { this.charging = true; this.shotCharge = 0; }
-      if (this.charging && inp.isDown('shoot')) {
-        this.shotCharge = Math.min(1, this.shotCharge + dt * 1.4);
-      }
-      if (this.charging && (inp.justReleased('shoot') || this.shotCharge >= 1)) {
-        this.charging = false;
+    // ----- shooting with power gauge (chargeable even before receiving the ball)
+    if (inp.justPressed('shoot')) { this.charging = true; this.shotCharge = 0; }
+    if (this.charging && inp.isDown('shoot')) {
+      this.shotCharge = Math.min(1, this.shotCharge + dt * 1.4);
+    }
+    if (this.charging && (inp.justReleased('shoot') || this.shotCharge >= 1)) {
+      this.charging = false;
+      if (p.hasBall) {
         m.shoot(p, Math.max(0.25, this.shotCharge), this.aimSide(aim));
-        this.shotCharge = 0;
+      } else if (m.ball.pos.y > 0.7 && p.pos.distanceTo(m.ball.pos) < 2.4) {
+        // volley / header attempt on an airborne ball
+        m.clearBall(p);
       }
+      this.shotCharge = 0;
+    }
+
+    if (p.hasBall) {
       if (inp.justPressed('pass')) m.pass(p, aim, false, false);
       if (inp.justPressed('lob')) m.pass(p, aim, true, false);
       if (inp.justPressed('through')) m.pass(p, aim, false, true);
     } else {
-      this.charging = false;
-      this.shotCharge = 0;
       if (inp.justPressed('pass')) m.tackle(p);
       if (inp.justPressed('slide')) m.slideTackle(p);
-      if (inp.justPressed('shoot')) {
-        // contest header / volley clearance if ball airborne nearby
-        if (m.ball.pos.y > 0.8 && p.pos.distanceTo(m.ball.pos) < 2.2) {
-          m.clearBall(p);
-        }
-      }
     }
   }
 

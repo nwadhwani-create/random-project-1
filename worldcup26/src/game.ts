@@ -50,6 +50,7 @@ export class GameSession {
   private replayIdx = 0;
   private replayTimer = 0;
   private pitchGroup: THREE.Group;
+  private ring!: THREE.Mesh;
   onEnd: ((r: MatchResult) => void) | null = null;
 
   constructor(
@@ -88,6 +89,15 @@ export class GameSession {
     }
     this.ballView = new BallView();
     this.scene.scene.add(this.ballView.mesh);
+
+    // controlled player indicator ring
+    this.ring = new THREE.Mesh(
+      new THREE.RingGeometry(0.55, 0.75, 28),
+      new THREE.MeshBasicMaterial({ color: 0xffe14d, transparent: true, opacity: 0.85, depthWrite: false }),
+    );
+    this.ring.rotation.x = -Math.PI / 2;
+    this.ring.position.y = 0.02;
+    this.scene.scene.add(this.ring);
 
     this.cam = new TVCamera(this.scene.camera);
     this.cam.snap(this.match);
@@ -169,6 +179,16 @@ export class GameSession {
 
   private render(dt: number): void {
     if (!this.replaying) this.cam.update(this.match, dt, this.time);
+    // controlled player ring
+    const ctl = this.users[0]?.controlled ?? this.users[1]?.controlled;
+    if (ctl && !this.replaying) {
+      this.ring.visible = true;
+      this.ring.position.set(ctl.pos.x, 0.02, ctl.pos.z);
+      const pulse = 1 + Math.sin(this.time * 5) * 0.07;
+      this.ring.scale.setScalar(pulse);
+    } else {
+      this.ring.visible = false;
+    }
     for (const v of this.views) v.update(dt, this.time);
     this.ballView.update(this.match.ball, dt);
     this.stadium.update(this.time, this.match.excitement);

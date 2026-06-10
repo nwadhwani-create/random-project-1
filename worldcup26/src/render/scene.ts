@@ -124,29 +124,29 @@ export function createScene(canvas: HTMLCanvasElement): SceneCtx {
       bloom.strength = 0.25;
       floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 0; });
     } else if (p === 'dusk') {
-      sun.intensity = 1.7;
-      sun.color.set(0xffb37a);
-      sun.position.set(-140, 38, 80);
-      hemi.intensity = 0.55;
-      hemi.color.set(0xc89ab0);
-      skyU.topColor.value.set('#41348f');
-      skyU.horizonColor.value.set('#ff9e63');
-      scene.fog!.color.set(0xd99a78);
-      renderer.toneMappingExposure = 0.95;
-      bloom.strength = 0.45;
-      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 900; });
+      sun.intensity = 1.5;
+      sun.color.set(0xffa45e);
+      sun.position.set(-140, 30, 80);
+      hemi.intensity = 0.42;
+      hemi.color.set(0xb08aa0);
+      skyU.topColor.value.set('#2d2566');
+      skyU.horizonColor.value.set('#e8824f');
+      scene.fog!.color.set(0x8a6a5d);
+      renderer.toneMappingExposure = 0.92;
+      bloom.strength = 0.3;
+      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 220; });
     } else {
-      sun.intensity = 0.22;
+      sun.intensity = 0.18;
       sun.color.set(0x8fa8d8);
       sun.position.set(60, 140, -40);
-      hemi.intensity = 0.34;
+      hemi.intensity = 0.3;
       hemi.color.set(0x6f86c2);
       skyU.topColor.value.set('#0a1030');
       skyU.horizonColor.value.set('#1d2c55');
       scene.fog!.color.set(0x131c38);
-      renderer.toneMappingExposure = 1.05;
-      bloom.strength = 0.6;
-      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 2600; });
+      renderer.toneMappingExposure = 1.0;
+      bloom.strength = 0.42;
+      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 1500; });
     }
   }
 
