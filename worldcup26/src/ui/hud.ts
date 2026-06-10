@@ -16,6 +16,8 @@ export class HUD {
   private ftEl: HTMLElement | null = null;
   private shootoutEl: HTMLElement;
   private bannerTimer = 0;
+  private _gaugeLinger = 0;
+  private _gaugeLast = 0;
   onQuit: (() => void) | null = null;
   onRestart: (() => void) | null = null;
 
@@ -57,12 +59,20 @@ export class HUD {
     this.scoreEl.textContent = `${m.sides[0].score} - ${m.sides[1].score}`;
     this.clockEl.textContent = m.shootout ? 'PENS' : m.clockDisplay;
 
-    // power gauge
+    // power gauge (lingers briefly after release so quick taps are visible)
     const u = this.session.users[0] ?? this.session.users[1];
-    if (u && (u.charging || u.shotCharge > 0)) {
+    if (u && u.charging) {
+      this._gaugeLinger = 0.55;
+      this._gaugeLast = u.shotCharge;
+    } else {
+      this._gaugeLinger -= dt;
+    }
+    if (this._gaugeLinger > 0) {
+      const v = u && u.charging ? u.shotCharge : this._gaugeLast;
       this.powerWrap.classList.remove('hidden');
-      this.powerBar.style.width = `${Math.round(u.shotCharge * 100)}%`;
-      this.powerBar.style.background = u.shotCharge > 0.8 ? '#ff5252' : u.shotCharge > 0.5 ? '#ffb300' : '#7cf26a';
+      this.powerBar.style.width = `${Math.round(v * 100)}%`;
+      this.powerBar.style.background = v > 0.8 ? '#ff5252' : v > 0.5 ? '#ffb300' : '#7cf26a';
+      this.powerWrap.style.opacity = u && u.charging ? '1' : '0.6';
     } else {
       this.powerWrap.classList.add('hidden');
     }

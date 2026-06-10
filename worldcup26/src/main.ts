@@ -46,6 +46,7 @@ function startMatch(home: Team, away: Team, cfg: MatchConfig, onDone: (r: { scor
   endSession();
   audio.setEnabled(settings.sound);
   session = new GameSession(freshCanvas(), home, away, cfg, input, audio, settings.lighting, uiRoot);
+  (window as any).__session = session; // debug/testing hook
   session.hud.onQuit = () => {
     const r = session && session.over ? {
       scores: [session.match.sides[0].score, session.match.sides[1].score] as [number, number],
