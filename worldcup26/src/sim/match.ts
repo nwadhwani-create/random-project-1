@@ -94,6 +94,7 @@ export class Match {
   shootoutRound = 0;
   shootoutDone = false;
   penaltyResolved: 'goal' | 'miss' | 'save' | null = null;
+  private penSave: { t: number } | null = null;
 
   /** excitement 0..1 for crowd audio */
   excitement = 0.2;
@@ -210,6 +211,7 @@ export class Match {
     this.ball.reset(x, z);
     this.lastPass = null;
     this.pendingOffside = null;
+    this.penSave = null;
     // choose taker = nearest eligible
     const side = this.sides[teamIdx];
     let taker: PlayerSim | null = null;
@@ -448,6 +450,17 @@ export class Match {
     this.emit('shot');
     this.phase = 'play';
     this.penaltyResolved = null;
+    // save resolution: scheduled at ball arrival if GK guessed right
+    this.penSave = null;
+    const onTarget = Math.abs(aimZ) < GOAL_HALF_W - 0.1 && aimY < GOAL_HEIGHT - 0.1;
+    if (correct && onTarget) {
+      const placement = Math.abs(aimZ) / GOAL_HALF_W; // 1 = right in the corner
+      const high = aimY > 1.4 ? 0.75 : 1;
+      const pSave = (0.78 - placement * 0.5 - power * 0.22) * high * (0.7 + (gk.data.attrs.diving ?? 75) / 250);
+      if (Math.random() < Math.max(0.05, pSave)) {
+        this.penSave = { t: (PENALTY_SPOT / speed) * 0.92 };
+      }
+    }
   }
 
   beginShootout(): void {
@@ -678,7 +691,7 @@ export class Match {
   /** standing tackle attempt */
   tackle(p: PlayerSim): boolean {
     if (p.cooldown > 0 || !p.controllable) return false;
-    p.cooldown = 0.5;
+    p.cooldown = 0.85;
     const carrier = this.ballOwnerPlayer();
     if (!carrier || carrier.teamIdx === p.teamIdx) return false;
     const d = p.pos.distanceTo(carrier.pos);
@@ -695,7 +708,7 @@ export class Match {
       this.ball.touch(p.teamIdx, p.idx, this.clock);
       this.emit('tackle', { player: p });
       return true;
-    } else if (Math.random() < 0.22) {
+    } else if (Math.random() < 0.09) {
       this.foul(p, carrier, false);
     }
     return false;
@@ -758,9 +771,9 @@ export class Match {
     const lastMan = slide && distGoal < 22 && this.defendersBehind(offender, victim) === 0;
     let card: 'none' | 'yellow' | 'red' = 'none';
     const r = Math.random();
-    if (lastMan || (slide && r < 0.06)) card = 'red';
-    else if (slide && r < 0.5) card = 'yellow';
-    else if (!slide && r < 0.12) card = 'yellow';
+    if (lastMan || (slide && r < 0.05)) card = 'red';
+    else if (slide && r < 0.38) card = 'yellow';
+    else if (!slide && r < 0.1) card = 'yellow';
     if (card === 'yellow') {
       offender.yellow++;
       this.sides[offender.teamIdx].stats.yellows++;
@@ -857,6 +870,21 @@ export class Match {
 
     this.stepPlayers(dt);
     this.ball.step(dt);
+
+    // scheduled penalty save: GK gets a glove to it as the ball arrives
+    if (this.penSave) {
+      this.penSave.t -= dt;
+      if (this.penSave.t <= 0) {
+        this.penSave = null;
+        const atk = this.sides[this.restartTeam];
+        const gk = this.sides[1 - this.restartTeam].players[0];
+        v1.set(-atk.attackDir * (5 + Math.random() * 4), 2 + Math.random() * 2.2, Math.sign(this.ball.pos.z || 1) * (3 + Math.random() * 5));
+        this.ball.kick(v1);
+        this.ball.touch(gk.teamIdx, gk.idx, this.clock);
+        this.emit('save', { player: gk });
+        this.excitement = Math.min(1, this.excitement + 0.4);
+      }
+    }
 
     // possession stats
     const owner = this.ballOwnerPlayer();

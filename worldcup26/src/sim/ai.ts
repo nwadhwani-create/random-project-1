@@ -77,12 +77,10 @@ export class TeamAI {
     if (carrier && carrier.teamIdx !== p.teamIdx && p.cooldown <= 0) {
       const d = p.pos.distanceTo(carrier.pos);
       if (d < 1.5) m.tackle(p);
-      else if (!isUserTeam && d < 3.4 && Math.random() < dt * (m.diff.decision * 0.7)) {
-        // occasional slide when carrier is sprinting away in dangerous area
-        const goalDist = Math.hypot(carrier.pos.x - (-HALF_L * m.sides[p.teamIdx].attackDir * -1), 0);
-        void goalDist;
-        const dangerous = m.attX(carrier.teamIdx, carrier.pos.x) > 10;
-        if (dangerous && Math.random() < 0.25) m.slideTackle(p);
+      else if (!isUserTeam && d < 3.2 && Math.random() < dt * (m.diff.decision * 0.4)) {
+        // occasional slide when carrier is breaking into a dangerous area
+        const dangerous = m.attX(carrier.teamIdx, carrier.pos.x) > 14;
+        if (dangerous && Math.random() < 0.2) m.slideTackle(p);
       }
     }
   }
@@ -136,14 +134,14 @@ export class TeamAI {
     const slot = m.slot(p);
     const ball = m.ball.pos;
     // base formation position shifted toward attack and ball
-    const attackShift = 16 + m.attX(p.teamIdx, ball.x) * 0.35;
+    const attackShift = 19 + m.attX(p.teamIdx, ball.x) * 0.4;
     let x = slot.x * HALF_L * 0.92 + attackShift;
     let z = slot.z * HALF_W * 0.85 + ball.z * 0.25;
-    x = x * 1; // in attack-normalized space
-    // forward runs for attackers when ball is advanced
-    if ((slot.role === 'ST' || slot.role === 'WG') && m.attX(p.teamIdx, ball.x) > 5) {
-      x += 9;
+    // forward runs for attackers: stay high, push the defensive line
+    if (slot.role === 'ST' || slot.role === 'WG') {
+      x += m.attX(p.teamIdx, ball.x) > 5 ? 14 : 7;
     }
+    if (slot.role === 'AM' || slot.role === 'CM') x += 4;
     // stay onside: don't go past second-last defender
     const defXs = m.activePlayers(1 - p.teamIdx).map((q) => m.attX(p.teamIdx, q.pos.x)).sort((a, b) => b - a);
     const line = defXs[1] ?? 0;
@@ -231,11 +229,11 @@ export class TeamAI {
     }
 
     // shoot?
-    const shootRange = 16 + q * 9;
+    const shootRange = 19 + q * 8;
     const inBox = Math.abs(p.pos.x - goalX) < BOX_LENGTH && Math.abs(p.pos.z) < BOX_WIDTH / 2;
     if (p.cooldown <= 0 && (distGoal < shootRange || inBox)) {
       const angleOk = Math.abs(p.pos.z) < GOAL_HALF_W + distGoal * 0.45;
-      const shootChance = (inBox ? 2.2 : 0.8) * dt * (0.4 + q) * (pressure > 0.6 ? 1.8 : 1);
+      const shootChance = (inBox ? 4.2 : 1.1) * dt * (0.5 + q) * (pressure > 0.6 ? 1.7 : 1);
       if (angleOk && Math.random() < shootChance) {
         const power = THREE.MathUtils.clamp(0.45 + distGoal / 38 + Math.random() * 0.2, 0.4, 0.95);
         m.shoot(p, power);
@@ -252,7 +250,7 @@ export class TeamAI {
 
     // pass under pressure / good option
     if (p.cooldown <= 0) {
-      const wantPass = pressure > 0.55 ? dt * 4 : dt * (0.5 + q * 0.6);
+      const wantPass = pressure > 0.55 ? dt * 3 : dt * 0.45;
       if (Math.random() < wantPass) {
         const through = Math.random() < 0.3 && m.attX(p.teamIdx, p.pos.x) > -5;
         if (m.pass(p, undefined, Math.random() < 0.18, through)) return;
@@ -366,13 +364,20 @@ export class TeamAI {
     const sp = m.ball.speed;
     m.sides[gk.teamIdx].stats.saves++;
     // big saves push wide, weak parries drop in the box
-    const strong = Math.random() < 0.6;
+    const r = Math.random();
     v1.copy(m.ball.vel);
-    if (strong) {
+    if (r < 0.4) {
+      // push wide behind for a corner
+      v1.x = -side.attackDir * Math.max(2, sp * 0.18);
+      v1.z = Math.sign(zAt || 1) * Math.max(6, sp * 0.55);
+      v1.y = Math.abs(v1.y) * 0.3 + 1.6;
+    } else if (r < 0.75) {
+      // strong parry back into play
       v1.x = side.attackDir * Math.max(4, sp * 0.3);
       v1.z = Math.sign(zAt || 1) * sp * 0.45;
       v1.y = Math.abs(v1.y) * 0.3 + 2.5;
     } else {
+      // weak spill into the box
       v1.multiplyScalar(-0.18);
       v1.y = 2.2;
       v1.x = side.attackDir * 3;
