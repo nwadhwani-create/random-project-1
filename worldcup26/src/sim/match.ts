@@ -95,6 +95,8 @@ export class Match {
   shootoutDone = false;
   penaltyResolved: 'goal' | 'miss' | 'save' | null = null;
   private penSave: { t: number } | null = null;
+  /** scheduled open-play GK save, applied when the ball reaches the keeper */
+  private pendingSave: { t: number; gkTeam: number; zAt: number } | null = null;
 
   /** excitement 0..1 for crowd audio */
   excitement = 0.2;
@@ -212,6 +214,7 @@ export class Match {
     this.lastPass = null;
     this.pendingOffside = null;
     this.penSave = null;
+    this.pendingSave = null;
     // choose taker = nearest eligible
     const side = this.sides[teamIdx];
     let taker: PlayerSim | null = null;
@@ -603,6 +606,11 @@ export class Match {
     this.excitement = Math.min(1, this.excitement + 0.35);
   }
 
+  /** AI GK decided it can reach the shot: apply the save when the ball arrives */
+  scheduleSave(gkTeam: number, arriveIn: number, zAt: number): void {
+    this.pendingSave = { t: Math.max(0.05, arriveIn), gkTeam, zAt };
+  }
+
   // ---------------------------------------------------------------- actions (shared by user & AI)
 
   pass(p: PlayerSim, dirHint?: THREE.Vector3, lofted = false, through = false): boolean {
@@ -872,6 +880,39 @@ export class Match {
     this.stepPlayers(dt);
     this.ball.step(dt);
 
+    // scheduled open-play save: GK gets a hand to the shot as it arrives
+    if (this.pendingSave) {
+      this.pendingSave.t -= dt;
+      if (this.pendingSave.t <= 0) {
+        const ps = this.pendingSave;
+        this.pendingSave = null;
+        if (!this.ball.owner) {
+          const side = this.sides[ps.gkTeam];
+          const gk = side.players[0];
+          const sp = this.ball.speed;
+          side.stats.saves++;
+          const r = Math.random();
+          if (r < 0.35) {
+            // push wide behind for a corner
+            this.ball.vel.set(-side.attackDir * Math.max(2, sp * 0.18), Math.abs(this.ball.vel.y) * 0.3 + 1.6, Math.sign(ps.zAt || 1) * Math.max(6, sp * 0.5));
+          } else if (r < 0.7) {
+            // strong parry into play
+            this.ball.vel.set(side.attackDir * Math.max(4, sp * 0.3), Math.abs(this.ball.vel.y) * 0.3 + 2.5, Math.sign(ps.zAt || 1) * sp * 0.45);
+          } else {
+            // weak spill into the box
+            this.ball.vel.multiplyScalar(-0.18);
+            this.ball.vel.y = 2.2;
+            this.ball.vel.x = side.attackDir * 3;
+          }
+          this.ball.spin.set(0, 0, 0);
+          this.ball.touch(gk.teamIdx, gk.idx, this.clock);
+          gk.ballLock = 0.5;
+          this.emit('save', { player: gk });
+          this.excitement = Math.min(1, this.excitement + 0.3);
+        }
+      }
+    }
+
     // scheduled penalty save: GK gets a glove to it as the ball arrives
     if (this.penSave) {
       this.penSave.t -= dt;
@@ -936,8 +977,28 @@ export class Match {
       }
     }
     if (!best) return;
-    // first touch quality: fast balls may bounce off poor controllers
     const sp = this.ball.speed;
+    // goalkeepers must beat a handling roll to hold fast shots — otherwise they parry
+    if (best.isGK && sp > 11) {
+      const handling = (best.data.attrs.handling ?? 70) / 100;
+      const hold = (0.25 + handling * 0.45) * (0.5 + this.diff.decision * 0.5);
+      if (Math.random() > hold) {
+        // parry: ball rebounds off the gloves
+        const side = this.sides[best.teamIdx];
+        v1.copy(this.ball.vel).multiplyScalar(-0.18);
+        v1.x += side.attackDir * (2 + Math.random() * 4);
+        v1.z += (Math.random() - 0.5) * 7;
+        v1.y = 1.5 + Math.random() * 2.2;
+        this.ball.kick(v1);
+        this.ball.touch(best.teamIdx, best.idx, this.clock);
+        best.ballLock = 0.55;
+        this.sides[best.teamIdx].stats.saves++;
+        this.emit('save', { player: best });
+        this.excitement = Math.min(1, this.excitement + 0.25);
+        return;
+      }
+    }
+    // first touch quality: fast balls may bounce off poor controllers
     const ctl = best.data.attrs.dribbling / 100;
     if (sp > 14 && Math.random() > 0.55 + ctl * 0.4) {
       v1.copy(this.ball.vel).multiplyScalar(0.32);

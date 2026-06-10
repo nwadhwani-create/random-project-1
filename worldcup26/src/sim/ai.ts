@@ -328,13 +328,13 @@ export class TeamAI {
             const reachable = Math.abs(dz) < reach * (0.65 + reflexes * 0.45) && yAt < 2.3;
             const saveP = (0.4 + reflexes * 0.45) * (0.45 + m.diff.decision * 0.55);
             if (reachable && Math.random() < saveP) {
-              this.deflect(p, zAt, yAt);
+              m.scheduleSave(p.teamIdx, t, zAt); // glove arrives with the ball, not before
             }
             return;
           }
-          // shuffle across
+          // shuffle across (no sprint: keepers can't teleport to the corner)
           p.moveTarget.set(goalX + side.attackDir * 0.6, 0, THREE.MathUtils.clamp(zAt, -GOAL_HALF_W + 0.4, GOAL_HALF_W - 0.4));
-          p.sprinting = true;
+          p.sprinting = false;
           return;
         }
       }
@@ -358,35 +358,4 @@ export class TeamAI {
     p.sprinting = false;
   }
 
-  /** GK gets a hand to the shot: deflect ball wide/over */
-  private deflect(gk: PlayerSim, zAt: number, yAt: number): void {
-    const m = this.match;
-    const side = m.sides[gk.teamIdx];
-    const sp = m.ball.speed;
-    m.sides[gk.teamIdx].stats.saves++;
-    // big saves push wide, weak parries drop in the box
-    const r = Math.random();
-    v1.copy(m.ball.vel);
-    if (r < 0.4) {
-      // push wide behind for a corner
-      v1.x = -side.attackDir * Math.max(2, sp * 0.18);
-      v1.z = Math.sign(zAt || 1) * Math.max(6, sp * 0.55);
-      v1.y = Math.abs(v1.y) * 0.3 + 1.6;
-    } else if (r < 0.75) {
-      // strong parry back into play
-      v1.x = side.attackDir * Math.max(4, sp * 0.3);
-      v1.z = Math.sign(zAt || 1) * sp * 0.45;
-      v1.y = Math.abs(v1.y) * 0.3 + 2.5;
-    } else {
-      // weak spill into the box
-      v1.multiplyScalar(-0.18);
-      v1.y = 2.2;
-      v1.x = side.attackDir * 3;
-    }
-    m.ball.kick(v1);
-    m.ball.touch(gk.teamIdx, gk.idx, m.clock);
-    m.emit('save', { player: gk });
-    m.excitement = Math.min(1, m.excitement + 0.3);
-    void yAt;
-  }
 }
