@@ -92,7 +92,8 @@ export function createScene(canvas: HTMLCanvasElement): SceneCtx {
   const floodlights = new THREE.Group();
   const floodPositions: [number, number][] = [[-75, -52], [75, -52], [-75, 52], [75, 52]];
   for (const [x, z] of floodPositions) {
-    const spot = new THREE.SpotLight(0xeef4ff, 0, 320, 0.62, 0.45, 1.1);
+    // physical inverse-square decay; intensity is set per lighting preset
+    const spot = new THREE.SpotLight(0xeef4ff, 0, 0, 0.62, 0.45, 2);
     spot.position.set(x, 46, z);
     spot.target.position.set(x * 0.2, 0, z * 0.2);
     floodlights.add(spot);
@@ -134,7 +135,7 @@ export function createScene(canvas: HTMLCanvasElement): SceneCtx {
       scene.fog!.color.set(0x8a6a5d);
       renderer.toneMappingExposure = 0.92;
       bloom.strength = 0.3;
-      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 220; });
+      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 1400; });
     } else {
       sun.intensity = 0.18;
       sun.color.set(0x8fa8d8);
@@ -146,7 +147,7 @@ export function createScene(canvas: HTMLCanvasElement): SceneCtx {
       scene.fog!.color.set(0x131c38);
       renderer.toneMappingExposure = 1.0;
       bloom.strength = 0.42;
-      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 1500; });
+      floodlights.children.forEach((c) => { if ((c as THREE.SpotLight).isSpotLight) (c as THREE.SpotLight).intensity = 9500; });
     }
   }
 

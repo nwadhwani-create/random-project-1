@@ -326,7 +326,7 @@ export class TeamAI {
             // save resolution: if reachable, deflect
             const reflexes = (p.data.attrs.reflexes ?? 75) / 100;
             const reachable = Math.abs(dz) < reach * (0.65 + reflexes * 0.45) && yAt < 2.3;
-            const saveP = (0.4 + reflexes * 0.45) * (0.55 + m.diff.decision * 0.5);
+            const saveP = (0.4 + reflexes * 0.45) * (0.45 + m.diff.decision * 0.55);
             if (reachable && Math.random() < saveP) {
               this.deflect(p, zAt, yAt);
             }
