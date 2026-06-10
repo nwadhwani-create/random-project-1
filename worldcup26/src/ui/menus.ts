@@ -173,7 +173,7 @@ export class Menus {
         return;
       }
       if (mode === 'quick') this.showLineups(picked[0], picked[1], () => this.cb.onQuickMatch(picked[0], picked[1]));
-      else if (mode === 'pens') this.cb.onPenalties(picked[0], picked[1]);
+      else if (mode === 'pens') { this.clear(); this.cb.onPenalties(picked[0], picked[1]); }
       else {
         this.tournament = new Tournament(picked[0].meta.name);
         this.tournament.save();
