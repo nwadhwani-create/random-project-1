@@ -70,11 +70,14 @@ export class TVCamera {
     this.damp(desired, target, dt, 3.2);
   }
 
-  /** orbiting replay camera around a world point */
+  /** orbiting replay camera around a world point, kept inside the stadium bowl */
   updateReplay(center: THREE.Vector3, t01: number, dt: number): void {
     this.replayOrbit += dt * 0.5;
     const r = 14 - t01 * 5;
     desired.set(center.x + Math.cos(this.replayOrbit) * r, 4.5 + t01 * 2, center.z + Math.sin(this.replayOrbit) * r);
+    desired.x = THREE.MathUtils.clamp(desired.x, -HALF_L - 4, HALF_L + 4);
+    desired.z = THREE.MathUtils.clamp(desired.z, -38, 38);
+    desired.y = Math.max(3, desired.y);
     target.copy(center).setY(1);
     this.damp(desired, target, dt, 4);
   }

@@ -140,11 +140,13 @@ export class GameSession {
       if (m.ball.justHitNet) this.audio.netRipple();
       if (m.ball.justHitPost) { this.audio.post(); this.audio.ooh(); }
 
-      // record replay frames at ~30Hz
-      this.accum += dt;
-      if (this.accum > 1 / 30) {
-        this.accum = 0;
-        this.recordSnapshot();
+      // record replay frames at ~30Hz (only live action, so replays end at the goal)
+      if (m.phase === 'play' || m.phase === 'set-piece') {
+        this.accum += dt;
+        if (this.accum > 1 / 30) {
+          this.accum = 0;
+          this.recordSnapshot();
+        }
       }
 
       // goal replay trigger
