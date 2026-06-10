@@ -27,6 +27,9 @@ export default function RouteMap({
       const L = (await import("leaflet")).default;
       // @ts-expect-error Leaflet ships CSS that Next handles at runtime.
       await import("leaflet/dist/leaflet.css");
+      const fallbackTileSvg = encodeURIComponent(
+        `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" fill="#e2e8f0"/><path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#cbd5e1" stroke-width="1"/><circle cx="128" cy="128" r="40" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 6"/></svg>`
+      );
 
       const map = L.map(mapRef.current!, {
         center: [20, 0],
@@ -47,6 +50,7 @@ export default function RouteMap({
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
           maxZoom: 19,
+          errorTileUrl: `data:image/svg+xml;charset=UTF-8,${fallbackTileSvg}`,
         }
       ).addTo(map);
 
