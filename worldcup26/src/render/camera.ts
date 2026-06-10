@@ -31,9 +31,9 @@ export class TVCamera {
     const b = match.ball.pos;
     // follow ball x, stay on one sideline; zoom out near boxes
     const x = THREE.MathUtils.clamp(b.x * 0.82, -HALF_L + 14, HALF_L - 14);
-    const depth = 46 + Math.abs(b.z) * 0.25;
-    outPos.set(x, 27 + Math.abs(b.x) * 0.045, depth);
-    outLook.set(THREE.MathUtils.clamp(b.x * 0.9, -HALF_L, HALF_L), 1.2, b.z * 0.42);
+    const depth = 42 + Math.abs(b.z) * 0.3;
+    outPos.set(x, 23 + Math.abs(b.x) * 0.04, depth);
+    outLook.set(THREE.MathUtils.clamp(b.x * 0.9, -HALF_L, HALF_L), 1.0, b.z * 0.5);
   }
 
   update(match: Match, dt: number, time: number): void {

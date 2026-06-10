@@ -653,7 +653,8 @@ export class Match {
     const distGoal = Math.hypot(goalX - p.pos.x, p.pos.z);
     // aim point in the goal mouth
     const skill = p.data.attrs.shooting / 100;
-    const noise = (1 - skill * 0.75) * (0.5 + power * 0.9) * (distGoal / 18);
+    const humanFactor = this.cfg.userTeams[p.teamIdx] ? 0.6 : 1; // aiming manually is hard enough
+    const noise = (1 - skill * 0.75) * (0.5 + power * 0.9) * (distGoal / 18) * humanFactor;
     let aimZ = THREE.MathUtils.clamp(aimSide, -1, 1) * GOAL_HALF_W * 0.82;
     if (aimSide === 0) aimZ = Math.sign(p.pos.z || Math.random() - 0.5) * -GOAL_HALF_W * 0.6; // far corner default
     aimZ += (Math.random() - 0.5) * 2 * noise * 2.6;
