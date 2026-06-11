@@ -263,7 +263,9 @@ export class GameSession {
       case 'pen-miss': a.ooh(); break;
       case 'tackle': a.bounce(); break;
     }
-    if (text) this.hud.banner(text);
+    // shootout kicks come quickly, so a GOAL!/miss banner must clear before the
+    // next taker steps up — otherwise the banner lingers over the next kick
+    if (text) this.hud.banner(text, this.match.shootout ? 1.2 : 2.6);
   }
 
   setLighting(p: LightingPreset): void {
