@@ -1,0 +1,487 @@
+{
+  "code": "ESP",
+  "name": "Spain",
+  "flagColors": [
+    "#AA151B",
+    "#F1BF00"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#AA151B",
+      "secondary": "#F1BF00"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#AA151B"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 87,
+  "players": [
+    {
+      "id": "esp-1",
+      "name": "Thomas Nielsen",
+      "number": 1,
+      "position": "GK",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      },
+      "height": 1.7932295090735233,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "esp-2",
+      "name": "Samuel Haddad",
+      "number": 2,
+      "position": "GK",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 82,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 92,
+        "diving": 97,
+        "handling": 92,
+        "kicking": 87,
+        "reflexes": 95,
+        "positioning": 92
+      },
+      "height": 1.872775334476284,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "esp-3",
+      "name": "Thomas Weber",
+      "number": 3,
+      "position": "CB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 91,
+        "passing": 94,
+        "dribbling": 93,
+        "defending": 93,
+        "physical": 94
+      },
+      "height": 1.779628468118262,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "esp-4",
+      "name": "Jean Weber",
+      "number": 4,
+      "position": "CB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 86
+      },
+      "height": 1.722118092348909,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "esp-5",
+      "name": "Ali Kim",
+      "number": 5,
+      "position": "CB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 94,
+        "passing": 93,
+        "dribbling": 90,
+        "defending": 94,
+        "physical": 92
+      },
+      "height": 1.875362471924501,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-6",
+      "name": "Pedro Weber",
+      "number": 6,
+      "position": "LB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 89,
+        "passing": 90,
+        "dribbling": 85,
+        "defending": 89,
+        "physical": 87
+      },
+      "height": 1.76612652640429,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "esp-7",
+      "name": "Carlos Weber",
+      "number": 7,
+      "position": "RB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 93,
+        "passing": 89,
+        "dribbling": 94,
+        "defending": 92,
+        "physical": 93
+      },
+      "height": 1.739761380795167,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "esp-8",
+      "name": "Ivan Garcia",
+      "number": 8,
+      "position": "CDM",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 86,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.7352580849595909,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "esp-9",
+      "name": "Carlos Tanaka",
+      "number": 9,
+      "position": "CDM",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 91,
+        "passing": 88,
+        "dribbling": 92,
+        "defending": 87,
+        "physical": 87
+      },
+      "height": 1.7343098055518322,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-10",
+      "name": "Marco Novak",
+      "number": 10,
+      "position": "CM",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 91,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 92
+      },
+      "height": 1.8323049004956193,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "esp-11",
+      "name": "Marco Garcia",
+      "number": 11,
+      "position": "CM",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 94
+      },
+      "height": 1.7845032597933925,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-12",
+      "name": "Ivan Ali",
+      "number": 12,
+      "position": "CAM",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 81,
+        "physical": 80
+      },
+      "height": 1.8404510459680585,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-13",
+      "name": "Lucas Costa",
+      "number": 13,
+      "position": "LW",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 92,
+        "passing": 94,
+        "dribbling": 94,
+        "defending": 90,
+        "physical": 90
+      },
+      "height": 1.8378725925068116,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-14",
+      "name": "Luis Patel",
+      "number": 14,
+      "position": "RW",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 81
+      },
+      "height": 1.7818606452940597,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "esp-15",
+      "name": "Lucas Haddad",
+      "number": 15,
+      "position": "ST",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 83
+      },
+      "height": 1.7538853174763596,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "esp-16",
+      "name": "Ali Sato",
+      "number": 16,
+      "position": "ST",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 91,
+        "dribbling": 91,
+        "defending": 92,
+        "physical": 91
+      },
+      "height": 1.782167220527462,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "esp-17",
+      "name": "Pierre Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 80
+      },
+      "height": 1.8495067480481293,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-18",
+      "name": "Andre Dubois",
+      "number": 18,
+      "position": "CB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 85
+      },
+      "height": 1.8841496516895941,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "esp-19",
+      "name": "Marco Garcia",
+      "number": 19,
+      "position": "LB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 85,
+        "dribbling": 88,
+        "defending": 83,
+        "physical": 87
+      },
+      "height": 1.7742631315945303,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "esp-20",
+      "name": "Mohamed Berg",
+      "number": 20,
+      "position": "RB",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 88,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 92,
+        "physical": 90
+      },
+      "height": 1.798266334085042,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-21",
+      "name": "Thomas Silva",
+      "number": 21,
+      "position": "CM",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 85,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 82
+      },
+      "height": 1.8059382986146382,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "esp-22",
+      "name": "Pedro Santos",
+      "number": 22,
+      "position": "LW",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 88,
+        "defending": 84,
+        "physical": 88
+      },
+      "height": 1.8987912684574642,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "esp-23",
+      "name": "James Okonkwo",
+      "number": 23,
+      "position": "RW",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 82,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 87,
+        "physical": 85
+      },
+      "height": 1.7668440743133835,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "esp-24",
+      "name": "Jean Tanaka",
+      "number": 24,
+      "position": "CF",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 84
+      },
+      "height": 1.8024076263349573,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "esp-25",
+      "name": "Pierre Silva",
+      "number": 25,
+      "position": "GK",
+      "club": "Spain FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      },
+      "height": 1.802829778122557,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    }
+  ]
+}

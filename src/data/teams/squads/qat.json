@@ -1,0 +1,487 @@
+{
+  "code": "QAT",
+  "name": "Qatar",
+  "flagColors": [
+    "#8D1B3D",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#8D1B3D",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#8D1B3D"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 70,
+  "players": [
+    {
+      "id": "qat-1",
+      "name": "Diego Rahman",
+      "number": 1,
+      "position": "GK",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 67,
+        "diving": 72,
+        "handling": 67,
+        "kicking": 62,
+        "reflexes": 70,
+        "positioning": 67
+      },
+      "height": 1.8081154615880133,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-2",
+      "name": "Mohamed Patel",
+      "number": 2,
+      "position": "GK",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      },
+      "height": 1.896285891948534,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "qat-3",
+      "name": "Marco Silva",
+      "number": 3,
+      "position": "CB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 66
+      },
+      "height": 1.8923902917209923,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "qat-4",
+      "name": "Andre Rossi",
+      "number": 4,
+      "position": "CB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 75
+      },
+      "height": 1.885030867490015,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "qat-5",
+      "name": "Diego Dubois",
+      "number": 5,
+      "position": "CB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 73
+      },
+      "height": 1.849195554050799,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "qat-6",
+      "name": "Diego Weber",
+      "number": 6,
+      "position": "LB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 76,
+        "physical": 78
+      },
+      "height": 1.8029702632622515,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "qat-7",
+      "name": "Pierre Ali",
+      "number": 7,
+      "position": "RB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 69,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 68,
+        "physical": 66
+      },
+      "height": 1.8932117137901594,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-8",
+      "name": "Mohamed Rossi",
+      "number": 8,
+      "position": "CDM",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 75
+      },
+      "height": 1.8701265498065636,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-9",
+      "name": "Samuel Sato",
+      "number": 9,
+      "position": "CDM",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 77,
+        "physical": 78
+      },
+      "height": 1.7295312727424608,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "qat-10",
+      "name": "James Rossi",
+      "number": 10,
+      "position": "CM",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 76
+      },
+      "height": 1.8065091685825112,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "qat-11",
+      "name": "Ivan Sato",
+      "number": 11,
+      "position": "CM",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 82
+      },
+      "height": 1.8879127144980363,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "qat-12",
+      "name": "Lucas Fernandez",
+      "number": 12,
+      "position": "CAM",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 77
+      },
+      "height": 1.7261368127596908,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "qat-13",
+      "name": "Samuel Sato",
+      "number": 13,
+      "position": "LW",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 68
+      },
+      "height": 1.853925414992427,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "qat-14",
+      "name": "Carlos Ali",
+      "number": 14,
+      "position": "RW",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 64,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 63,
+        "physical": 65
+      },
+      "height": 1.889948053574141,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "qat-15",
+      "name": "Kenji Berg",
+      "number": 15,
+      "position": "ST",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 66,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 64,
+        "physical": 64
+      },
+      "height": 1.7892828578588393,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "qat-16",
+      "name": "James Patel",
+      "number": 16,
+      "position": "ST",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 75
+      },
+      "height": 1.7335278479135854,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "qat-17",
+      "name": "Carlos Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 68,
+        "physical": 66
+      },
+      "height": 1.8995972071398024,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-18",
+      "name": "Ivan Okonkwo",
+      "number": 18,
+      "position": "CB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 65,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 63,
+        "physical": 60
+      },
+      "height": 1.8113552581065848,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "qat-19",
+      "name": "Pedro Patel",
+      "number": 19,
+      "position": "LB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 72,
+        "physical": 74
+      },
+      "height": 1.871553966711791,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "qat-20",
+      "name": "Luis Garcia",
+      "number": 20,
+      "position": "RB",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 65,
+        "physical": 64
+      },
+      "height": 1.802246796723685,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "qat-21",
+      "name": "Hassan Haddad",
+      "number": 21,
+      "position": "CM",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 76
+      },
+      "height": 1.8253698650145622,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-22",
+      "name": "Andre Silva",
+      "number": 22,
+      "position": "LW",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 74
+      },
+      "height": 1.8569051368133214,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-23",
+      "name": "Marco Garcia",
+      "number": 23,
+      "position": "RW",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 73
+      },
+      "height": 1.828509211631966,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "qat-24",
+      "name": "Hans Novak",
+      "number": 24,
+      "position": "CF",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 75
+      },
+      "height": 1.8854903192496768,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "qat-25",
+      "name": "Diego Kim",
+      "number": 25,
+      "position": "GK",
+      "club": "Qatar FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      },
+      "height": 1.8812536593817675,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    }
+  ]
+}

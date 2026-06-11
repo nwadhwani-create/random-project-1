@@ -1,0 +1,488 @@
+{
+  "code": "JOR",
+  "name": "Jordan",
+  "flagColors": [
+    "#007A3D",
+    "#FFFFFF",
+    "#000000"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#007A3D",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#007A3D"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 68,
+  "players": [
+    {
+      "id": "jor-1",
+      "name": "Hans Haddad",
+      "number": 1,
+      "position": "GK",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.8609005803436978,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "jor-2",
+      "name": "Thomas Fernandez",
+      "number": 2,
+      "position": "GK",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.837509498267909,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "jor-3",
+      "name": "Kenji Müller",
+      "number": 3,
+      "position": "CB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 70,
+        "physical": 66
+      },
+      "height": 1.7904857327979857,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "jor-4",
+      "name": "Mohamed Novak",
+      "number": 4,
+      "position": "CB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 80
+      },
+      "height": 1.747748929762979,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "jor-5",
+      "name": "James Müller",
+      "number": 5,
+      "position": "CB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 77,
+        "physical": 76
+      },
+      "height": 1.7346128486512349,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-6",
+      "name": "Mohamed Nielsen",
+      "number": 6,
+      "position": "LB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 63,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 65
+      },
+      "height": 1.8908609212011667,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-7",
+      "name": "Andre Sato",
+      "number": 7,
+      "position": "RB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.7795858814284073,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-8",
+      "name": "Luis Berg",
+      "number": 8,
+      "position": "CDM",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 67,
+        "physical": 68
+      },
+      "height": 1.80295538781486,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "jor-9",
+      "name": "Luis Okonkwo",
+      "number": 9,
+      "position": "CDM",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 66,
+        "physical": 66
+      },
+      "height": 1.8314776048077992,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-10",
+      "name": "Hans Müller",
+      "number": 10,
+      "position": "CM",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 80,
+        "physical": 77
+      },
+      "height": 1.780998498323372,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "jor-11",
+      "name": "Pierre Berg",
+      "number": 11,
+      "position": "CM",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 76
+      },
+      "height": 1.8993890778621556,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "jor-12",
+      "name": "Marco Berg",
+      "number": 12,
+      "position": "CAM",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 67,
+        "physical": 65
+      },
+      "height": 1.8319223956967912,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-13",
+      "name": "Kenji Novak",
+      "number": 13,
+      "position": "LW",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 66,
+        "physical": 67
+      },
+      "height": 1.8137933587783885,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-14",
+      "name": "Pierre Fernandez",
+      "number": 14,
+      "position": "RW",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 58,
+        "shooting": 59,
+        "passing": 62,
+        "dribbling": 59,
+        "defending": 62,
+        "physical": 58
+      },
+      "height": 1.889729532999666,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-15",
+      "name": "Ali Novak",
+      "number": 15,
+      "position": "ST",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 74,
+        "physical": 71
+      },
+      "height": 1.8807890069864588,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-16",
+      "name": "Pierre Okonkwo",
+      "number": 16,
+      "position": "ST",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 67,
+        "physical": 71
+      },
+      "height": 1.8551262794482766,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-17",
+      "name": "Hassan Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 59,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 62,
+        "physical": 63
+      },
+      "height": 1.7743710594106197,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-18",
+      "name": "Jean Costa",
+      "number": 18,
+      "position": "CB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 58,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 62,
+        "physical": 59
+      },
+      "height": 1.7233412419383798,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-19",
+      "name": "Luis Tanaka",
+      "number": 19,
+      "position": "LB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 58,
+        "passing": 62,
+        "dribbling": 58,
+        "defending": 58,
+        "physical": 60
+      },
+      "height": 1.8083268790024583,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "jor-20",
+      "name": "Andre Novak",
+      "number": 20,
+      "position": "RB",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 60,
+        "passing": 61,
+        "dribbling": 60,
+        "defending": 61,
+        "physical": 64
+      },
+      "height": 1.8822956401689868,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-21",
+      "name": "Thomas Novak",
+      "number": 21,
+      "position": "CM",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 75
+      },
+      "height": 1.8667909490566617,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "jor-22",
+      "name": "Carlos Kim",
+      "number": 22,
+      "position": "LW",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 63,
+        "physical": 63
+      },
+      "height": 1.871620465881769,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-23",
+      "name": "Hassan Haddad",
+      "number": 23,
+      "position": "RW",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 69
+      },
+      "height": 1.854346368419329,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "jor-24",
+      "name": "Ivan Fernandez",
+      "number": 24,
+      "position": "CF",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 67,
+        "physical": 69
+      },
+      "height": 1.7677835870047878,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "jor-25",
+      "name": "Omar Santos",
+      "number": 25,
+      "position": "GK",
+      "club": "Jordan FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.7751939562756511,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    }
+  ]
+}

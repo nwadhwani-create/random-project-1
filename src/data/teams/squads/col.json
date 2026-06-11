@@ -1,0 +1,488 @@
+{
+  "code": "COL",
+  "name": "Colombia",
+  "flagColors": [
+    "#FCD116",
+    "#003893",
+    "#CE1126"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FCD116",
+      "secondary": "#003893"
+    },
+    "away": {
+      "primary": "#003893",
+      "secondary": "#FCD116"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 81,
+  "players": [
+    {
+      "id": "col-1",
+      "name": "Omar Sato",
+      "number": 1,
+      "position": "GK",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      },
+      "height": 1.8676592716459737,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "col-2",
+      "name": "Kenji Dubois",
+      "number": 2,
+      "position": "GK",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      },
+      "height": 1.810328121753715,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "col-3",
+      "name": "Jean Novak",
+      "number": 3,
+      "position": "CB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 85,
+        "dribbling": 87,
+        "defending": 86,
+        "physical": 82
+      },
+      "height": 1.803437585880456,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "col-4",
+      "name": "Omar Santos",
+      "number": 4,
+      "position": "CB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 90,
+        "defending": 91,
+        "physical": 88
+      },
+      "height": 1.816681967719162,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "col-5",
+      "name": "Omar Fernandez",
+      "number": 5,
+      "position": "CB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 87,
+        "defending": 82,
+        "physical": 84
+      },
+      "height": 1.7445278825559913,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "col-6",
+      "name": "Luis Silva",
+      "number": 6,
+      "position": "LB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 87,
+        "defending": 83,
+        "physical": 87
+      },
+      "height": 1.770345210610279,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "col-7",
+      "name": "Mohamed Tanaka",
+      "number": 7,
+      "position": "RB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 91,
+        "passing": 92,
+        "dribbling": 88,
+        "defending": 91,
+        "physical": 88
+      },
+      "height": 1.787013045434852,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "col-8",
+      "name": "Luis Rahman",
+      "number": 8,
+      "position": "CDM",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 88,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.8696004089429978,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "col-9",
+      "name": "James Costa",
+      "number": 9,
+      "position": "CDM",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 88,
+        "physical": 91
+      },
+      "height": 1.8904171415887931,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "col-10",
+      "name": "Hassan Müller",
+      "number": 10,
+      "position": "CM",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 87,
+        "physical": 86
+      },
+      "height": 1.8833262410138978,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "col-11",
+      "name": "Hans Okonkwo",
+      "number": 11,
+      "position": "CM",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.7615505330651537,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "col-12",
+      "name": "Diego Kim",
+      "number": 12,
+      "position": "CAM",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 76,
+        "physical": 74
+      },
+      "height": 1.8088798801776766,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "col-13",
+      "name": "Kenji Silva",
+      "number": 13,
+      "position": "LW",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 77
+      },
+      "height": 1.7381367048510692,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "col-14",
+      "name": "Marco Ali",
+      "number": 14,
+      "position": "RW",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 76,
+        "physical": 74
+      },
+      "height": 1.78229768644301,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "col-15",
+      "name": "Mohamed Santos",
+      "number": 15,
+      "position": "ST",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 76,
+        "physical": 74
+      },
+      "height": 1.7508730193049395,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "col-16",
+      "name": "Mohamed Kim",
+      "number": 16,
+      "position": "ST",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 79
+      },
+      "height": 1.8989703576257175,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "col-17",
+      "name": "Ali Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 84
+      },
+      "height": 1.7399590433388568,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "col-18",
+      "name": "Carlos Ali",
+      "number": 18,
+      "position": "CB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 77
+      },
+      "height": 1.8801776839421853,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "col-19",
+      "name": "Hassan Novak",
+      "number": 19,
+      "position": "LB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 85
+      },
+      "height": 1.720717306929377,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "col-20",
+      "name": "Samuel Rossi",
+      "number": 20,
+      "position": "RB",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 86,
+        "defending": 85,
+        "physical": 87
+      },
+      "height": 1.8181686472782572,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "col-21",
+      "name": "Pedro Dubois",
+      "number": 21,
+      "position": "CM",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 79
+      },
+      "height": 1.7230961305304393,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "col-22",
+      "name": "Mohamed Ali",
+      "number": 22,
+      "position": "LW",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 86,
+        "physical": 85
+      },
+      "height": 1.8693606103205687,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "col-23",
+      "name": "Ivan Rossi",
+      "number": 23,
+      "position": "RW",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 83
+      },
+      "height": 1.8951697608224767,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "col-24",
+      "name": "Marco Berg",
+      "number": 24,
+      "position": "CF",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 80,
+        "physical": 81
+      },
+      "height": 1.8578210907409163,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "col-25",
+      "name": "James Rahman",
+      "number": 25,
+      "position": "GK",
+      "club": "Colombia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      },
+      "height": 1.8349491842509704,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    }
+  ]
+}

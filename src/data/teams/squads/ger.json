@@ -1,0 +1,488 @@
+{
+  "code": "GER",
+  "name": "Germany",
+  "flagColors": [
+    "#000000",
+    "#DD0000",
+    "#FFCE00"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#000000"
+    },
+    "away": {
+      "primary": "#1A472A",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 86,
+  "players": [
+    {
+      "id": "ger-1",
+      "name": "Omar Sato",
+      "number": 1,
+      "position": "GK",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      },
+      "height": 1.8676592716459737,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ger-2",
+      "name": "Kenji Dubois",
+      "number": 2,
+      "position": "GK",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      },
+      "height": 1.810328121753715,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ger-3",
+      "name": "Jean Novak",
+      "number": 3,
+      "position": "CB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 92,
+        "passing": 90,
+        "dribbling": 92,
+        "defending": 91,
+        "physical": 87
+      },
+      "height": 1.803437585880456,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ger-4",
+      "name": "Omar Santos",
+      "number": 4,
+      "position": "CB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 91,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 92,
+        "physical": 89
+      },
+      "height": 1.816681967719162,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-5",
+      "name": "Omar Fernandez",
+      "number": 5,
+      "position": "CB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 87,
+        "physical": 89
+      },
+      "height": 1.7445278825559913,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ger-6",
+      "name": "Luis Silva",
+      "number": 6,
+      "position": "LB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 88,
+        "passing": 88,
+        "dribbling": 92,
+        "defending": 88,
+        "physical": 92
+      },
+      "height": 1.770345210610279,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ger-7",
+      "name": "Mohamed Tanaka",
+      "number": 7,
+      "position": "RB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 92,
+        "passing": 93,
+        "dribbling": 89,
+        "defending": 92,
+        "physical": 89
+      },
+      "height": 1.787013045434852,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ger-8",
+      "name": "Luis Rahman",
+      "number": 8,
+      "position": "CDM",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 91,
+        "passing": 88,
+        "dribbling": 93,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.8696004089429978,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-9",
+      "name": "James Costa",
+      "number": 9,
+      "position": "CDM",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 91,
+        "passing": 89,
+        "dribbling": 94,
+        "defending": 90,
+        "physical": 93
+      },
+      "height": 1.8904171415887931,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-10",
+      "name": "Hassan Müller",
+      "number": 10,
+      "position": "CM",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 91,
+        "passing": 88,
+        "dribbling": 88,
+        "defending": 92,
+        "physical": 91
+      },
+      "height": 1.8833262410138978,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ger-11",
+      "name": "Hans Okonkwo",
+      "number": 11,
+      "position": "CM",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 89,
+        "defending": 93,
+        "physical": 93
+      },
+      "height": 1.7615505330651537,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-12",
+      "name": "Diego Kim",
+      "number": 12,
+      "position": "CAM",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 81,
+        "physical": 79
+      },
+      "height": 1.8088798801776766,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ger-13",
+      "name": "Kenji Silva",
+      "number": 13,
+      "position": "LW",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 82
+      },
+      "height": 1.7381367048510692,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-14",
+      "name": "Marco Ali",
+      "number": 14,
+      "position": "RW",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 79
+      },
+      "height": 1.78229768644301,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ger-15",
+      "name": "Mohamed Santos",
+      "number": 15,
+      "position": "ST",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 79
+      },
+      "height": 1.7508730193049395,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ger-16",
+      "name": "Mohamed Kim",
+      "number": 16,
+      "position": "ST",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 84
+      },
+      "height": 1.8989703576257175,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ger-17",
+      "name": "Ali Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 88,
+        "dribbling": 87,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.7399590433388568,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ger-18",
+      "name": "Carlos Ali",
+      "number": 18,
+      "position": "CB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 82
+      },
+      "height": 1.8801776839421853,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-19",
+      "name": "Hassan Novak",
+      "number": 19,
+      "position": "LB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 90,
+        "dribbling": 94,
+        "defending": 94,
+        "physical": 89
+      },
+      "height": 1.720717306929377,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "ger-20",
+      "name": "Samuel Rossi",
+      "number": 20,
+      "position": "RB",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 90,
+        "passing": 88,
+        "dribbling": 91,
+        "defending": 90,
+        "physical": 92
+      },
+      "height": 1.8181686472782572,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ger-21",
+      "name": "Pedro Dubois",
+      "number": 21,
+      "position": "CM",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 83,
+        "defending": 84,
+        "physical": 84
+      },
+      "height": 1.7230961305304393,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ger-22",
+      "name": "Mohamed Ali",
+      "number": 22,
+      "position": "LW",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 91,
+        "physical": 90
+      },
+      "height": 1.8693606103205687,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ger-23",
+      "name": "Ivan Rossi",
+      "number": 23,
+      "position": "RW",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 85,
+        "physical": 88
+      },
+      "height": 1.8951697608224767,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ger-24",
+      "name": "Marco Berg",
+      "number": 24,
+      "position": "CF",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 89,
+        "defending": 85,
+        "physical": 86
+      },
+      "height": 1.8578210907409163,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ger-25",
+      "name": "James Rahman",
+      "number": 25,
+      "position": "GK",
+      "club": "Germany FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      },
+      "height": 1.8349491842509704,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    }
+  ]
+}

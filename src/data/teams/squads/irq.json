@@ -1,0 +1,488 @@
+{
+  "code": "IRQ",
+  "name": "Iraq",
+  "flagColors": [
+    "#CE1126",
+    "#FFFFFF",
+    "#007A3D"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#007A3D"
+    },
+    "away": {
+      "primary": "#007A3D",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 70,
+  "players": [
+    {
+      "id": "irq-1",
+      "name": "James Nielsen",
+      "number": 1,
+      "position": "GK",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 67,
+        "diving": 72,
+        "handling": 67,
+        "kicking": 62,
+        "reflexes": 70,
+        "positioning": 67
+      },
+      "height": 1.763457604044543,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "irq-2",
+      "name": "Omar Nielsen",
+      "number": 2,
+      "position": "GK",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 58,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 68,
+        "diving": 73,
+        "handling": 68,
+        "kicking": 63,
+        "reflexes": 71,
+        "positioning": 68
+      },
+      "height": 1.825754219531784,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-3",
+      "name": "Ali Berg",
+      "number": 3,
+      "position": "CB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 67
+      },
+      "height": 1.7341048209966206,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-4",
+      "name": "Pierre Costa",
+      "number": 4,
+      "position": "CB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 79,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 80
+      },
+      "height": 1.7562925422343356,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-5",
+      "name": "Ali Rahman",
+      "number": 5,
+      "position": "CB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 73,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 73,
+        "physical": 71
+      },
+      "height": 1.7476963075880858,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "irq-6",
+      "name": "Diego Dubois",
+      "number": 6,
+      "position": "LB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 74,
+        "physical": 73
+      },
+      "height": 1.8724390527721857,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "irq-7",
+      "name": "Yuki Novak",
+      "number": 7,
+      "position": "RB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 75
+      },
+      "height": 1.7928607149728208,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "irq-8",
+      "name": "Ali Rossi",
+      "number": 8,
+      "position": "CDM",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.8255211554332833,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-9",
+      "name": "Diego Dubois",
+      "number": 9,
+      "position": "CDM",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 78
+      },
+      "height": 1.7438668711705756,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "irq-10",
+      "name": "Carlos Santos",
+      "number": 10,
+      "position": "CM",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 70,
+        "physical": 72
+      },
+      "height": 1.8838963643218356,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "irq-11",
+      "name": "Kenji Sato",
+      "number": 11,
+      "position": "CM",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 67,
+        "physical": 68
+      },
+      "height": 1.7576843504679243,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "irq-12",
+      "name": "Pedro Novak",
+      "number": 12,
+      "position": "CAM",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 69,
+        "physical": 68
+      },
+      "height": 1.8890795123009751,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "irq-13",
+      "name": "Hassan Santos",
+      "number": 13,
+      "position": "LW",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 69
+      },
+      "height": 1.8057669475355809,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "irq-14",
+      "name": "Jean Sato",
+      "number": 14,
+      "position": "RW",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 60,
+        "physical": 62
+      },
+      "height": 1.7456858288177157,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-15",
+      "name": "Luis Novak",
+      "number": 15,
+      "position": "ST",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 78
+      },
+      "height": 1.863090236795219,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-16",
+      "name": "Omar Sato",
+      "number": 16,
+      "position": "ST",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 69,
+        "physical": 72
+      },
+      "height": 1.879445965755215,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-17",
+      "name": "Thomas Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 70,
+        "physical": 68
+      },
+      "height": 1.7493258298647831,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-18",
+      "name": "Pedro Haddad",
+      "number": 18,
+      "position": "CB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.849738438771794,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "irq-19",
+      "name": "Pierre Dubois",
+      "number": 19,
+      "position": "LB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 77,
+        "physical": 73
+      },
+      "height": 1.7596814614438279,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "irq-20",
+      "name": "Marco Rossi",
+      "number": 20,
+      "position": "RB",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 79,
+        "physical": 76
+      },
+      "height": 1.7903054088077557,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "irq-21",
+      "name": "Samuel Weber",
+      "number": 21,
+      "position": "CM",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 62,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 65,
+        "physical": 61
+      },
+      "height": 1.76707516581479,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "irq-22",
+      "name": "Diego Rahman",
+      "number": 22,
+      "position": "LW",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 60,
+        "defending": 64,
+        "physical": 63
+      },
+      "height": 1.802563531661931,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "irq-23",
+      "name": "Marco Nielsen",
+      "number": 23,
+      "position": "RW",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 70,
+        "physical": 69
+      },
+      "height": 1.823513799760038,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "irq-24",
+      "name": "Pedro Silva",
+      "number": 24,
+      "position": "CF",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 67,
+        "physical": 67
+      },
+      "height": 1.8162422405893377,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "irq-25",
+      "name": "Luis Sato",
+      "number": 25,
+      "position": "GK",
+      "club": "Iraq FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 67,
+        "diving": 72,
+        "handling": 67,
+        "kicking": 62,
+        "reflexes": 70,
+        "positioning": 67
+      },
+      "height": 1.8259820156879556,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    }
+  ]
+}

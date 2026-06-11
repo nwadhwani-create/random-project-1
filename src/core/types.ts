@@ -93,8 +93,8 @@ export interface MatchState {
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export interface GameConfig {
-  homeTeam: string;
-  awayTeam: string;
+  homeTeam?: string;
+  awayTeam?: string;
   halfMinutes: number;
   difficulty: Difficulty;
   lighting: 'day' | 'dusk' | 'night';

@@ -1,0 +1,488 @@
+{
+  "code": "NED",
+  "name": "Netherlands",
+  "flagColors": [
+    "#AE1C28",
+    "#FFFFFF",
+    "#21468B"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FF6600",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#21468B",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 84,
+  "players": [
+    {
+      "id": "ned-1",
+      "name": "Diego Okonkwo",
+      "number": 1,
+      "position": "GK",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      },
+      "height": 1.8297601054047794,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-2",
+      "name": "Luis Silva",
+      "number": 2,
+      "position": "GK",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      },
+      "height": 1.89261507290659,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ned-3",
+      "name": "Marco Rahman",
+      "number": 3,
+      "position": "CB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 93,
+        "dribbling": 89,
+        "defending": 91,
+        "physical": 90
+      },
+      "height": 1.8381039683223739,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-4",
+      "name": "Pierre Tanaka",
+      "number": 4,
+      "position": "CB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 92,
+        "dribbling": 91,
+        "defending": 93,
+        "physical": 93
+      },
+      "height": 1.7568766804196654,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ned-5",
+      "name": "Luis Garcia",
+      "number": 5,
+      "position": "CB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 80
+      },
+      "height": 1.8329436700818535,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ned-6",
+      "name": "Ali Fernandez",
+      "number": 6,
+      "position": "LB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 88,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.8992982896131447,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-7",
+      "name": "Thomas Rahman",
+      "number": 7,
+      "position": "RB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 86,
+        "passing": 89,
+        "dribbling": 86,
+        "defending": 87,
+        "physical": 87
+      },
+      "height": 1.8740892107077773,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ned-8",
+      "name": "Hassan Ali",
+      "number": 8,
+      "position": "CDM",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 88,
+        "defending": 91,
+        "physical": 91
+      },
+      "height": 1.891640035697855,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-9",
+      "name": "Pierre Okonkwo",
+      "number": 9,
+      "position": "CDM",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 89,
+        "passing": 93,
+        "dribbling": 93,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.783692276714083,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "ned-10",
+      "name": "Andre Silva",
+      "number": 10,
+      "position": "CM",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 88,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 91
+      },
+      "height": 1.8830411793599289,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-11",
+      "name": "James Rossi",
+      "number": 11,
+      "position": "CM",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 94,
+        "dribbling": 90,
+        "defending": 92,
+        "physical": 91
+      },
+      "height": 1.853483624405678,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-12",
+      "name": "Hassan Weber",
+      "number": 12,
+      "position": "CAM",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 85,
+        "passing": 82,
+        "dribbling": 86,
+        "defending": 85,
+        "physical": 85
+      },
+      "height": 1.7687800641160272,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-13",
+      "name": "Ali Weber",
+      "number": 13,
+      "position": "LW",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 82,
+        "physical": 79
+      },
+      "height": 1.794321583550723,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "ned-14",
+      "name": "Pedro Garcia",
+      "number": 14,
+      "position": "RW",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 83
+      },
+      "height": 1.8906036152975667,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ned-15",
+      "name": "Ivan Müller",
+      "number": 15,
+      "position": "ST",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 80
+      },
+      "height": 1.874764410643619,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ned-16",
+      "name": "Thomas Tanaka",
+      "number": 16,
+      "position": "ST",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 85
+      },
+      "height": 1.72873255347715,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "ned-17",
+      "name": "Yuki Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 75
+      },
+      "height": 1.7352756500758935,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ned-18",
+      "name": "Andre Müller",
+      "number": 18,
+      "position": "CB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 76
+      },
+      "height": 1.895397306527381,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-19",
+      "name": "Samuel Fernandez",
+      "number": 19,
+      "position": "LB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 78
+      },
+      "height": 1.881235229755971,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "ned-20",
+      "name": "James Rossi",
+      "number": 20,
+      "position": "RB",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 78
+      },
+      "height": 1.7421002664715985,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ned-21",
+      "name": "Kenji Nielsen",
+      "number": 21,
+      "position": "CM",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 91
+      },
+      "height": 1.881106612972083,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ned-22",
+      "name": "James Haddad",
+      "number": 22,
+      "position": "LW",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 85
+      },
+      "height": 1.812759149607978,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-23",
+      "name": "Jean Tanaka",
+      "number": 23,
+      "position": "RW",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 77
+      },
+      "height": 1.750997741269877,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ned-24",
+      "name": "Kenji Dubois",
+      "number": 24,
+      "position": "CF",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 81
+      },
+      "height": 1.8786105158167057,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ned-25",
+      "name": "Thomas Dubois",
+      "number": 25,
+      "position": "GK",
+      "club": "Netherlands FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      },
+      "height": 1.839432768532478,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    }
+  ]
+}

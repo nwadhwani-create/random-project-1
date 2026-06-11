@@ -1,0 +1,487 @@
+{
+  "code": "ENG",
+  "name": "England",
+  "flagColors": [
+    "#FFFFFF",
+    "#CE1124"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#CE1124"
+    },
+    "away": {
+      "primary": "#CE1124",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 86,
+  "players": [
+    {
+      "id": "eng-1",
+      "name": "Ivan Sato",
+      "number": 1,
+      "position": "GK",
+      "club": "England FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      },
+      "height": 1.8974311766749539,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "eng-2",
+      "name": "Luis Garcia",
+      "number": 2,
+      "position": "GK",
+      "club": "England FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      },
+      "height": 1.8573492366982152,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "eng-3",
+      "name": "Hassan Silva",
+      "number": 3,
+      "position": "CB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 86,
+        "physical": 85
+      },
+      "height": 1.8489612330020975,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "eng-4",
+      "name": "Lucas Patel",
+      "number": 4,
+      "position": "CB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 87,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 92,
+        "physical": 89
+      },
+      "height": 1.7825075178337353,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "eng-5",
+      "name": "Omar Silva",
+      "number": 5,
+      "position": "CB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 89,
+        "passing": 92,
+        "dribbling": 94,
+        "defending": 90,
+        "physical": 92
+      },
+      "height": 1.8721940468924063,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "eng-6",
+      "name": "Diego Garcia",
+      "number": 6,
+      "position": "LB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 88
+      },
+      "height": 1.8440326843262023,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "eng-7",
+      "name": "Ali Fernandez",
+      "number": 7,
+      "position": "RB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 83,
+        "defending": 87,
+        "physical": 83
+      },
+      "height": 1.7339137112571985,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "eng-8",
+      "name": "Hans Okonkwo",
+      "number": 8,
+      "position": "CDM",
+      "club": "England FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 86,
+        "defending": 91,
+        "physical": 86
+      },
+      "height": 1.7793373384693054,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-9",
+      "name": "Ali Berg",
+      "number": 9,
+      "position": "CDM",
+      "club": "England FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 89,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.88086007597005,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "eng-10",
+      "name": "Pierre Berg",
+      "number": 10,
+      "position": "CM",
+      "club": "England FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 93,
+        "passing": 92,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.8317347771876815,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "eng-11",
+      "name": "Hassan Dubois",
+      "number": 11,
+      "position": "CM",
+      "club": "England FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 89,
+        "passing": 88,
+        "dribbling": 93,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.788369442390622,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "eng-12",
+      "name": "Andre Tanaka",
+      "number": 12,
+      "position": "CAM",
+      "club": "England FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 91,
+        "passing": 89,
+        "dribbling": 93,
+        "defending": 92,
+        "physical": 90
+      },
+      "height": 1.76025141384476,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-13",
+      "name": "Andre Fernandez",
+      "number": 13,
+      "position": "LW",
+      "club": "England FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 87,
+        "passing": 90,
+        "dribbling": 92,
+        "defending": 87,
+        "physical": 87
+      },
+      "height": 1.7702423498222999,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "eng-14",
+      "name": "Thomas Okonkwo",
+      "number": 14,
+      "position": "RW",
+      "club": "England FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 80
+      },
+      "height": 1.818472502919354,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-15",
+      "name": "Andre Kim",
+      "number": 15,
+      "position": "ST",
+      "club": "England FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 87,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.821668100069899,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "eng-16",
+      "name": "Pedro Kim",
+      "number": 16,
+      "position": "ST",
+      "club": "England FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 85
+      },
+      "height": 1.8016916123979647,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "eng-17",
+      "name": "Mohamed Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "England FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 83,
+        "physical": 78
+      },
+      "height": 1.840139961522203,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "eng-18",
+      "name": "Ali Kim",
+      "number": 18,
+      "position": "CB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 93,
+        "dribbling": 91,
+        "defending": 94,
+        "physical": 93
+      },
+      "height": 1.7345888967761667,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-19",
+      "name": "Carlos Costa",
+      "number": 19,
+      "position": "LB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 85,
+        "physical": 88
+      },
+      "height": 1.7352989770800797,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-20",
+      "name": "Omar Berg",
+      "number": 20,
+      "position": "RB",
+      "club": "England FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 83
+      },
+      "height": 1.8261295725555435,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "eng-21",
+      "name": "Ivan Ali",
+      "number": 21,
+      "position": "CM",
+      "club": "England FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 83,
+        "dribbling": 86,
+        "defending": 85,
+        "physical": 84
+      },
+      "height": 1.7619592633302874,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-22",
+      "name": "Samuel Tanaka",
+      "number": 22,
+      "position": "LW",
+      "club": "England FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 77,
+        "physical": 81
+      },
+      "height": 1.7855883470322829,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "eng-23",
+      "name": "Andre Berg",
+      "number": 23,
+      "position": "RW",
+      "club": "England FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 84,
+        "dribbling": 88,
+        "defending": 86,
+        "physical": 88
+      },
+      "height": 1.8385000353758223,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "eng-24",
+      "name": "Hassan Ali",
+      "number": 24,
+      "position": "CF",
+      "club": "England FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 87,
+        "physical": 86
+      },
+      "height": 1.8439864764865361,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "eng-25",
+      "name": "Pierre Garcia",
+      "number": 25,
+      "position": "GK",
+      "club": "England FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      },
+      "height": 1.8117969466855721,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    }
+  ]
+}

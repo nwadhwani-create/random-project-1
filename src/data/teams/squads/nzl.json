@@ -1,0 +1,488 @@
+{
+  "code": "NZL",
+  "name": "New Zealand",
+  "flagColors": [
+    "#00247D",
+    "#FFFFFF",
+    "#CC142B"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#000000"
+    },
+    "away": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 65,
+  "players": [
+    {
+      "id": "nzl-1",
+      "name": "Carlos Rossi",
+      "number": 1,
+      "position": "GK",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 52,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 62,
+        "diving": 67,
+        "handling": 62,
+        "kicking": 57,
+        "reflexes": 65,
+        "positioning": 62
+      },
+      "height": 1.883913794070402,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nzl-2",
+      "name": "Pedro Sato",
+      "number": 2,
+      "position": "GK",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.731711989642784,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "nzl-3",
+      "name": "Andre Weber",
+      "number": 3,
+      "position": "CB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 74
+      },
+      "height": 1.8230575268371567,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nzl-4",
+      "name": "Luis Silva",
+      "number": 4,
+      "position": "CB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 66,
+        "physical": 66
+      },
+      "height": 1.8246414420051886,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nzl-5",
+      "name": "Jean Ali",
+      "number": 5,
+      "position": "CB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 65
+      },
+      "height": 1.8523639790828936,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "nzl-6",
+      "name": "Pedro Sato",
+      "number": 6,
+      "position": "LB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 67,
+        "physical": 70
+      },
+      "height": 1.7250641053403393,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "nzl-7",
+      "name": "Mohamed Santos",
+      "number": 7,
+      "position": "RB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 75
+      },
+      "height": 1.899059383328128,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "nzl-8",
+      "name": "Hans Ali",
+      "number": 8,
+      "position": "CDM",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 69,
+        "physical": 72
+      },
+      "height": 1.8260472962968493,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "nzl-9",
+      "name": "Kenji Fernandez",
+      "number": 9,
+      "position": "CDM",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 77
+      },
+      "height": 1.762981002408062,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nzl-10",
+      "name": "Thomas Berg",
+      "number": 10,
+      "position": "CM",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 71,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 68,
+        "physical": 67
+      },
+      "height": 1.807079291890449,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nzl-11",
+      "name": "Samuel Ali",
+      "number": 11,
+      "position": "CM",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 67,
+        "physical": 67
+      },
+      "height": 1.8840465319008068,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "nzl-12",
+      "name": "Thomas Müller",
+      "number": 12,
+      "position": "CAM",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 61,
+        "passing": 57,
+        "dribbling": 60,
+        "defending": 58,
+        "physical": 62
+      },
+      "height": 1.8063364448829893,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nzl-13",
+      "name": "Andre Ali",
+      "number": 13,
+      "position": "LW",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 65
+      },
+      "height": 1.7415556575931195,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nzl-14",
+      "name": "Thomas Rahman",
+      "number": 14,
+      "position": "RW",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 69,
+        "physical": 69
+      },
+      "height": 1.8533361959488468,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nzl-15",
+      "name": "Hassan Costa",
+      "number": 15,
+      "position": "ST",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 73
+      },
+      "height": 1.7215000752652996,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "nzl-16",
+      "name": "Mohamed Sato",
+      "number": 16,
+      "position": "ST",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 56,
+        "passing": 56,
+        "dribbling": 58,
+        "defending": 59,
+        "physical": 58
+      },
+      "height": 1.8940034561269017,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nzl-17",
+      "name": "Ali Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 60,
+        "passing": 59,
+        "dribbling": 58,
+        "defending": 61,
+        "physical": 62
+      },
+      "height": 1.7289639935819097,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nzl-18",
+      "name": "Omar Müller",
+      "number": 18,
+      "position": "CB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 63,
+        "physical": 62
+      },
+      "height": 1.7809160129361934,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "nzl-19",
+      "name": "Pierre Rossi",
+      "number": 19,
+      "position": "LB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 65,
+        "physical": 69
+      },
+      "height": 1.7305181211424228,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "nzl-20",
+      "name": "Hans Garcia",
+      "number": 20,
+      "position": "RB",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 60,
+        "physical": 60
+      },
+      "height": 1.7743835582531835,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nzl-21",
+      "name": "Yuki Haddad",
+      "number": 21,
+      "position": "CM",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 70
+      },
+      "height": 1.8693489002989128,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nzl-22",
+      "name": "Samuel Dubois",
+      "number": 22,
+      "position": "LW",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 55,
+        "passing": 59,
+        "dribbling": 55,
+        "defending": 58,
+        "physical": 59
+      },
+      "height": 1.7901080581546835,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "nzl-23",
+      "name": "Carlos Ali",
+      "number": 23,
+      "position": "RW",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 65,
+        "physical": 65
+      },
+      "height": 1.7568532505695273,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "nzl-24",
+      "name": "Omar Müller",
+      "number": 24,
+      "position": "CF",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 65,
+        "physical": 61
+      },
+      "height": 1.843911469098098,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "nzl-25",
+      "name": "Diego Garcia",
+      "number": 25,
+      "position": "GK",
+      "club": "New Zealand FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.8722864908187524,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    }
+  ]
+}

@@ -24,8 +24,12 @@
         <div id="menu" class="menu-overlay">
           <h1>World Cup 2026</h1>
           <p class="subtitle">Browser Soccer</p>
-          <button id="btn-quick-match" class="menu-btn">Quick Match (M1 Demo)</button>
-          <button id="btn-tournament" class="menu-btn disabled" disabled>Tournament (Coming Soon)</button>
+          <div class="team-select">
+            <label>Home <select id="home-select"></select></label>
+            <label>Away <select id="away-select"></select></label>
+          </div>
+          <button id="btn-quick-match" class="menu-btn">Quick Match</button>
+          <button id="btn-tournament" class="menu-btn">Tournament Mode</button>
           <button id="btn-penalties" class="menu-btn disabled" disabled>Penalty Practice (Coming Soon)</button>
         </div>
       </div>

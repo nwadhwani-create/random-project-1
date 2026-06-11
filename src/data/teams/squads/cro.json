@@ -1,0 +1,488 @@
+{
+  "code": "CRO",
+  "name": "Croatia",
+  "flagColors": [
+    "#FF0000",
+    "#FFFFFF",
+    "#171796"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FF0000",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#171796",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 82,
+  "players": [
+    {
+      "id": "cro-1",
+      "name": "Luis Santos",
+      "number": 1,
+      "position": "GK",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.8230014141025035,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "cro-2",
+      "name": "Ali Weber",
+      "number": 2,
+      "position": "GK",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      },
+      "height": 1.739796449336965,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cro-3",
+      "name": "Omar Kim",
+      "number": 3,
+      "position": "CB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 84,
+        "passing": 87,
+        "dribbling": 83,
+        "defending": 87,
+        "physical": 85
+      },
+      "height": 1.8251521152399035,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cro-4",
+      "name": "Ali Dubois",
+      "number": 4,
+      "position": "CB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 94,
+        "passing": 89,
+        "dribbling": 94,
+        "defending": 94,
+        "physical": 92
+      },
+      "height": 1.8679436425473015,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "cro-5",
+      "name": "Ali Berg",
+      "number": 5,
+      "position": "CB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 83
+      },
+      "height": 1.823028636177097,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-6",
+      "name": "Luis Costa",
+      "number": 6,
+      "position": "LB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 79,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.8398140001202132,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "cro-7",
+      "name": "Ivan Garcia",
+      "number": 7,
+      "position": "RB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 83,
+        "physical": 84
+      },
+      "height": 1.8666620467013326,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cro-8",
+      "name": "Pedro Sato",
+      "number": 8,
+      "position": "CDM",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 81
+      },
+      "height": 1.8249950145697174,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "cro-9",
+      "name": "Jean Silva",
+      "number": 9,
+      "position": "CDM",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 94,
+        "passing": 91,
+        "dribbling": 94,
+        "defending": 92,
+        "physical": 90
+      },
+      "height": 1.724752739933089,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "cro-10",
+      "name": "Ivan Silva",
+      "number": 10,
+      "position": "CM",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 91,
+        "passing": 93,
+        "dribbling": 92,
+        "defending": 93,
+        "physical": 91
+      },
+      "height": 1.780713436669403,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cro-11",
+      "name": "Luis Tanaka",
+      "number": 11,
+      "position": "CM",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 93,
+        "passing": 92,
+        "dribbling": 91,
+        "defending": 89,
+        "physical": 91
+      },
+      "height": 1.8113221691188608,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-12",
+      "name": "Ivan Patel",
+      "number": 12,
+      "position": "CAM",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 87,
+        "physical": 87
+      },
+      "height": 1.791822579635142,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-13",
+      "name": "Ali Berg",
+      "number": 13,
+      "position": "LW",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 80
+      },
+      "height": 1.8699782374780423,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-14",
+      "name": "Mohamed Sato",
+      "number": 14,
+      "position": "RW",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 78
+      },
+      "height": 1.8180354617704035,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cro-15",
+      "name": "Andre Okonkwo",
+      "number": 15,
+      "position": "ST",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 89,
+        "passing": 85,
+        "dribbling": 88,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.8246803982413191,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cro-16",
+      "name": "Diego Novak",
+      "number": 16,
+      "position": "ST",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 71,
+        "defending": 76,
+        "physical": 72
+      },
+      "height": 1.864888475383528,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "cro-17",
+      "name": "Omar Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 87
+      },
+      "height": 1.7696876661476564,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cro-18",
+      "name": "James Garcia",
+      "number": 18,
+      "position": "CB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 86,
+        "passing": 87,
+        "dribbling": 90,
+        "defending": 86,
+        "physical": 86
+      },
+      "height": 1.7385608645235755,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-19",
+      "name": "Pierre Nielsen",
+      "number": 19,
+      "position": "LB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.788844801745233,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cro-20",
+      "name": "Pierre Novak",
+      "number": 20,
+      "position": "RB",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 84,
+        "physical": 83
+      },
+      "height": 1.806227259362328,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cro-21",
+      "name": "Hassan Müller",
+      "number": 21,
+      "position": "CM",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 82
+      },
+      "height": 1.8448014314144863,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cro-22",
+      "name": "James Rahman",
+      "number": 22,
+      "position": "LW",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 89,
+        "passing": 91,
+        "dribbling": 87,
+        "defending": 87,
+        "physical": 90
+      },
+      "height": 1.8150190051691784,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cro-23",
+      "name": "Kenji Fernandez",
+      "number": 23,
+      "position": "RW",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 80
+      },
+      "height": 1.8901743489505485,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-24",
+      "name": "James Weber",
+      "number": 24,
+      "position": "CF",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 74
+      },
+      "height": 1.7885730120805772,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cro-25",
+      "name": "Kenji Nielsen",
+      "number": 25,
+      "position": "GK",
+      "club": "Croatia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      },
+      "height": 1.7796775405571585,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    }
+  ]
+}

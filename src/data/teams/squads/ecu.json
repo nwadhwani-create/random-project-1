@@ -1,0 +1,488 @@
+{
+  "code": "ECU",
+  "name": "Ecuador",
+  "flagColors": [
+    "#FFD100",
+    "#0033A0",
+    "#CE1126"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFD100",
+      "secondary": "#0033A0"
+    },
+    "away": {
+      "primary": "#0033A0",
+      "secondary": "#FFD100"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 76,
+  "players": [
+    {
+      "id": "ecu-1",
+      "name": "Carlos Ali",
+      "number": 1,
+      "position": "GK",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 73,
+        "diving": 78,
+        "handling": 73,
+        "kicking": 68,
+        "reflexes": 76,
+        "positioning": 73
+      },
+      "height": 1.7851022478613092,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ecu-2",
+      "name": "James Müller",
+      "number": 2,
+      "position": "GK",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.82208340048984,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-3",
+      "name": "Ali Santos",
+      "number": 3,
+      "position": "CB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 84,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 84
+      },
+      "height": 1.8598184976818213,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-4",
+      "name": "Yuki Silva",
+      "number": 4,
+      "position": "CB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 71
+      },
+      "height": 1.8081383552478052,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ecu-5",
+      "name": "Samuel Ali",
+      "number": 5,
+      "position": "CB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 87,
+        "dribbling": 86,
+        "defending": 83,
+        "physical": 87
+      },
+      "height": 1.7314444236191404,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ecu-6",
+      "name": "Ali Berg",
+      "number": 6,
+      "position": "LB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 76
+      },
+      "height": 1.7887670790392598,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ecu-7",
+      "name": "Carlos Okonkwo",
+      "number": 7,
+      "position": "RB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 84,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 88
+      },
+      "height": 1.7737382118904388,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "ecu-8",
+      "name": "Omar Costa",
+      "number": 8,
+      "position": "CDM",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 73,
+        "physical": 74
+      },
+      "height": 1.8470346413245746,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ecu-9",
+      "name": "Ivan Haddad",
+      "number": 9,
+      "position": "CDM",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 88,
+        "passing": 85,
+        "dribbling": 89,
+        "defending": 86,
+        "physical": 87
+      },
+      "height": 1.7980278751421979,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "ecu-10",
+      "name": "Yuki Ali",
+      "number": 10,
+      "position": "CM",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 73
+      },
+      "height": 1.7804283750154342,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ecu-11",
+      "name": "Carlos Nielsen",
+      "number": 11,
+      "position": "CM",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 71
+      },
+      "height": 1.723255260375566,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "ecu-12",
+      "name": "James Ali",
+      "number": 12,
+      "position": "CAM",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 67
+      },
+      "height": 1.7517227635734927,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ecu-13",
+      "name": "Pierre Tanaka",
+      "number": 13,
+      "position": "LW",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 71,
+        "physical": 72
+      },
+      "height": 1.7461631160938769,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-14",
+      "name": "Yuki Weber",
+      "number": 14,
+      "position": "RW",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 72
+      },
+      "height": 1.7463413905411413,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ecu-15",
+      "name": "Hans Santos",
+      "number": 15,
+      "position": "ST",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 66,
+        "physical": 65
+      },
+      "height": 1.7685717894961794,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ecu-16",
+      "name": "Kenji Costa",
+      "number": 16,
+      "position": "ST",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 76,
+        "physical": 75
+      },
+      "height": 1.8746506713187794,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-17",
+      "name": "Pierre Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 71,
+        "physical": 69
+      },
+      "height": 1.7650042728846933,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "ecu-18",
+      "name": "Diego Santos",
+      "number": 18,
+      "position": "CB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 80,
+        "physical": 75
+      },
+      "height": 1.7537804871087712,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "ecu-19",
+      "name": "Kenji Patel",
+      "number": 19,
+      "position": "LB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 70,
+        "physical": 69
+      },
+      "height": 1.7693627244880075,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ecu-20",
+      "name": "Yuki Novak",
+      "number": 20,
+      "position": "RB",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 80,
+        "physical": 82
+      },
+      "height": 1.7301588785556694,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-21",
+      "name": "Pedro Fernandez",
+      "number": 21,
+      "position": "CM",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 70,
+        "physical": 69
+      },
+      "height": 1.8228119137723109,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-22",
+      "name": "Hans Nielsen",
+      "number": 22,
+      "position": "LW",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 81
+      },
+      "height": 1.7584175444565877,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ecu-23",
+      "name": "Jean Novak",
+      "number": 23,
+      "position": "RW",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 81,
+        "physical": 81
+      },
+      "height": 1.7460023293979487,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ecu-24",
+      "name": "Yuki Kim",
+      "number": 24,
+      "position": "CF",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 83,
+        "physical": 80
+      },
+      "height": 1.8093624371563666,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ecu-25",
+      "name": "Omar Rossi",
+      "number": 25,
+      "position": "GK",
+      "club": "Ecuador FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      },
+      "height": 1.7841611248386662,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    }
+  ]
+}

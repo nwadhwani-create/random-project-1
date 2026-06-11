@@ -1,0 +1,488 @@
+{
+  "code": "COD",
+  "name": "Congo DR",
+  "flagColors": [
+    "#007FFF",
+    "#F7D618",
+    "#CE1021"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#007FFF",
+      "secondary": "#F7D618"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#007FFF"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 74,
+  "players": [
+    {
+      "id": "cod-1",
+      "name": "Mohamed Novak",
+      "number": 1,
+      "position": "GK",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 71,
+        "diving": 76,
+        "handling": 71,
+        "kicking": 66,
+        "reflexes": 74,
+        "positioning": 71
+      },
+      "height": 1.747203081620115,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "cod-2",
+      "name": "Diego Rossi",
+      "number": 2,
+      "position": "GK",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      },
+      "height": 1.7243703515588962,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-3",
+      "name": "Andre Nielsen",
+      "number": 3,
+      "position": "CB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 81
+      },
+      "height": 1.894484880123739,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-4",
+      "name": "Mohamed Kim",
+      "number": 4,
+      "position": "CB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 73
+      },
+      "height": 1.748333067948309,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-5",
+      "name": "Omar Tanaka",
+      "number": 5,
+      "position": "CB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 77
+      },
+      "height": 1.8198602111450026,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-6",
+      "name": "Pedro Müller",
+      "number": 6,
+      "position": "LB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 78
+      },
+      "height": 1.7377201579583066,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "cod-7",
+      "name": "Yuki Dubois",
+      "number": 7,
+      "position": "RB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 82
+      },
+      "height": 1.860814377163364,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-8",
+      "name": "Jean Kim",
+      "number": 8,
+      "position": "CDM",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 77
+      },
+      "height": 1.8690742680794319,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-9",
+      "name": "Hassan Müller",
+      "number": 9,
+      "position": "CDM",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 80,
+        "physical": 85
+      },
+      "height": 1.8713030103513066,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-10",
+      "name": "Lucas Weber",
+      "number": 10,
+      "position": "CM",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 70,
+        "physical": 72
+      },
+      "height": 1.7801433133614653,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-11",
+      "name": "Lucas Kim",
+      "number": 11,
+      "position": "CM",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 77
+      },
+      "height": 1.8151883517160903,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "cod-12",
+      "name": "Andre Sato",
+      "number": 12,
+      "position": "CAM",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 74
+      },
+      "height": 1.8916229475956623,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cod-13",
+      "name": "Luis Santos",
+      "number": 13,
+      "position": "LW",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 68,
+        "physical": 68
+      },
+      "height": 1.8023479947935306,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cod-14",
+      "name": "Ivan Ali",
+      "number": 14,
+      "position": "RW",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 70
+      },
+      "height": 1.8546473193956978,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cod-15",
+      "name": "Samuel Garcia",
+      "number": 15,
+      "position": "ST",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 69,
+        "physical": 65
+      },
+      "height": 1.8924631808348589,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-16",
+      "name": "Lucas Kim",
+      "number": 16,
+      "position": "ST",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 76
+      },
+      "height": 1.8844128672540308,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cod-17",
+      "name": "Thomas Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 77
+      },
+      "height": 1.76032087962173,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-18",
+      "name": "Samuel Tanaka",
+      "number": 18,
+      "position": "CB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 70
+      },
+      "height": 1.769000109693967,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cod-19",
+      "name": "Hassan Kim",
+      "number": 19,
+      "position": "LB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 67
+      },
+      "height": 1.7498806472307822,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-20",
+      "name": "Luis Novak",
+      "number": 20,
+      "position": "RB",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 68
+      },
+      "height": 1.8340904978328296,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "cod-21",
+      "name": "Kenji Müller",
+      "number": 21,
+      "position": "CM",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 76
+      },
+      "height": 1.8008223961301355,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-22",
+      "name": "Pierre Costa",
+      "number": 22,
+      "position": "LW",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 77
+      },
+      "height": 1.881816083827816,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cod-23",
+      "name": "Luis Sato",
+      "number": 23,
+      "position": "RW",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 75
+      },
+      "height": 1.7818303099291681,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cod-24",
+      "name": "Ali Tanaka",
+      "number": 24,
+      "position": "CF",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.830151862232156,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cod-25",
+      "name": "Kenji Tanaka",
+      "number": 25,
+      "position": "GK",
+      "club": "Congo DR FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.7886447091201736,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    }
+  ]
+}

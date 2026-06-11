@@ -1,0 +1,487 @@
+{
+  "code": "ARG",
+  "name": "Argentina",
+  "flagColors": [
+    "#74ACDF",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#74ACDF",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#1B1B1B",
+      "secondary": "#74ACDF"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 89,
+  "players": [
+    {
+      "id": "arg-1",
+      "name": "Ivan Sato",
+      "number": 1,
+      "position": "GK",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      },
+      "height": 1.8974311766749539,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "arg-2",
+      "name": "Luis Garcia",
+      "number": 2,
+      "position": "GK",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      },
+      "height": 1.8573492366982152,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "arg-3",
+      "name": "Hassan Silva",
+      "number": 3,
+      "position": "CB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 86,
+        "defending": 89,
+        "physical": 88
+      },
+      "height": 1.8489612330020975,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "arg-4",
+      "name": "Lucas Patel",
+      "number": 4,
+      "position": "CB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 89,
+        "passing": 92,
+        "dribbling": 93,
+        "defending": 94,
+        "physical": 91
+      },
+      "height": 1.7825075178337353,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "arg-5",
+      "name": "Omar Silva",
+      "number": 5,
+      "position": "CB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 89,
+        "passing": 92,
+        "dribbling": 94,
+        "defending": 90,
+        "physical": 92
+      },
+      "height": 1.8721940468924063,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "arg-6",
+      "name": "Diego Garcia",
+      "number": 6,
+      "position": "LB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 94,
+        "defending": 94,
+        "physical": 90
+      },
+      "height": 1.8440326843262023,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "arg-7",
+      "name": "Ali Fernandez",
+      "number": 7,
+      "position": "RB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 86,
+        "defending": 90,
+        "physical": 86
+      },
+      "height": 1.7339137112571985,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "arg-8",
+      "name": "Hans Okonkwo",
+      "number": 8,
+      "position": "CDM",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 90,
+        "dribbling": 89,
+        "defending": 94,
+        "physical": 89
+      },
+      "height": 1.7793373384693054,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-9",
+      "name": "Ali Berg",
+      "number": 9,
+      "position": "CDM",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 91,
+        "physical": 92
+      },
+      "height": 1.88086007597005,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "arg-10",
+      "name": "Pierre Berg",
+      "number": 10,
+      "position": "CM",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 93,
+        "passing": 92,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.8317347771876815,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "arg-11",
+      "name": "Hassan Dubois",
+      "number": 11,
+      "position": "CM",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 94,
+        "defending": 90,
+        "physical": 90
+      },
+      "height": 1.788369442390622,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "arg-12",
+      "name": "Andre Tanaka",
+      "number": 12,
+      "position": "CAM",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 92,
+        "passing": 90,
+        "dribbling": 94,
+        "defending": 93,
+        "physical": 91
+      },
+      "height": 1.76025141384476,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-13",
+      "name": "Andre Fernandez",
+      "number": 13,
+      "position": "LW",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 89,
+        "passing": 92,
+        "dribbling": 94,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.7702423498222999,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "arg-14",
+      "name": "Thomas Okonkwo",
+      "number": 14,
+      "position": "RW",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 88,
+        "passing": 83,
+        "dribbling": 88,
+        "defending": 85,
+        "physical": 83
+      },
+      "height": 1.818472502919354,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-15",
+      "name": "Andre Kim",
+      "number": 15,
+      "position": "ST",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 90,
+        "passing": 87,
+        "dribbling": 87,
+        "defending": 92,
+        "physical": 92
+      },
+      "height": 1.821668100069899,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "arg-16",
+      "name": "Pedro Kim",
+      "number": 16,
+      "position": "ST",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.8016916123979647,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "arg-17",
+      "name": "Mohamed Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 86,
+        "physical": 81
+      },
+      "height": 1.840139961522203,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "arg-18",
+      "name": "Ali Kim",
+      "number": 18,
+      "position": "CB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 93,
+        "dribbling": 91,
+        "defending": 94,
+        "physical": 93
+      },
+      "height": 1.7345888967761667,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-19",
+      "name": "Carlos Costa",
+      "number": 19,
+      "position": "LB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 91
+      },
+      "height": 1.7352989770800797,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-20",
+      "name": "Omar Berg",
+      "number": 20,
+      "position": "RB",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 90,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 88,
+        "physical": 86
+      },
+      "height": 1.8261295725555435,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "arg-21",
+      "name": "Ivan Ali",
+      "number": 21,
+      "position": "CM",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 86,
+        "dribbling": 89,
+        "defending": 88,
+        "physical": 87
+      },
+      "height": 1.7619592633302874,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-22",
+      "name": "Samuel Tanaka",
+      "number": 22,
+      "position": "LW",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 84
+      },
+      "height": 1.7855883470322829,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "arg-23",
+      "name": "Andre Berg",
+      "number": 23,
+      "position": "RW",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 87,
+        "dribbling": 91,
+        "defending": 89,
+        "physical": 91
+      },
+      "height": 1.8385000353758223,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "arg-24",
+      "name": "Hassan Ali",
+      "number": 24,
+      "position": "CF",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 89
+      },
+      "height": 1.8439864764865361,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "arg-25",
+      "name": "Pierre Garcia",
+      "number": 25,
+      "position": "GK",
+      "club": "Argentina FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      },
+      "height": 1.8117969466855721,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "code": "UZB",
+  "name": "Uzbekistan",
+  "flagColors": [
+    "#1EB53A",
+    "#FFFFFF",
+    "#0099B5"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#1EB53A",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#1EB53A"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 70,
+  "players": [
+    {
+      "id": "uzb-1",
+      "name": "Kenji Müller",
+      "number": 1,
+      "position": "GK",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 67,
+        "diving": 72,
+        "handling": 67,
+        "kicking": 62,
+        "reflexes": 70,
+        "positioning": 67
+      },
+      "height": 1.8162427228002276,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uzb-2",
+      "name": "Pedro Sato",
+      "number": 2,
+      "position": "GK",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      },
+      "height": 1.766977825851159,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uzb-3",
+      "name": "Mohamed Fernandez",
+      "number": 3,
+      "position": "CB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 73,
+        "physical": 70
+      },
+      "height": 1.812200262157433,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uzb-4",
+      "name": "Ivan Santos",
+      "number": 4,
+      "position": "CB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 80
+      },
+      "height": 1.7990106045911187,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uzb-5",
+      "name": "Hassan Silva",
+      "number": 5,
+      "position": "CB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 76,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 71
+      },
+      "height": 1.8131136022723406,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uzb-6",
+      "name": "Mohamed Santos",
+      "number": 6,
+      "position": "LB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 78
+      },
+      "height": 1.7803297106272817,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uzb-7",
+      "name": "Pierre Tanaka",
+      "number": 7,
+      "position": "RB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 64,
+        "physical": 64
+      },
+      "height": 1.8592348826948877,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uzb-8",
+      "name": "Pedro Berg",
+      "number": 8,
+      "position": "CDM",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 79
+      },
+      "height": 1.7583499934415798,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "uzb-9",
+      "name": "Jean Haddad",
+      "number": 9,
+      "position": "CDM",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 67,
+        "physical": 68
+      },
+      "height": 1.8458132032359142,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "uzb-10",
+      "name": "Luis Silva",
+      "number": 10,
+      "position": "CM",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 72,
+        "physical": 69
+      },
+      "height": 1.8583856940626964,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "uzb-11",
+      "name": "Hans Berg",
+      "number": 11,
+      "position": "CM",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 79
+      },
+      "height": 1.7691607138320438,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uzb-12",
+      "name": "Jean Haddad",
+      "number": 12,
+      "position": "CAM",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 73
+      },
+      "height": 1.8148650951542566,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uzb-13",
+      "name": "Ali Patel",
+      "number": 13,
+      "position": "LW",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 67,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 65,
+        "physical": 65
+      },
+      "height": 1.7656348913215425,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uzb-14",
+      "name": "Pedro Rossi",
+      "number": 14,
+      "position": "RW",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 78
+      },
+      "height": 1.7454673082432406,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uzb-15",
+      "name": "Luis Dubois",
+      "number": 15,
+      "position": "ST",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 71
+      },
+      "height": 1.7745963858390192,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uzb-16",
+      "name": "James Ali",
+      "number": 16,
+      "position": "ST",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 64,
+        "physical": 64
+      },
+      "height": 1.821044397206087,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uzb-17",
+      "name": "Carlos Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 67,
+        "physical": 66
+      },
+      "height": 1.8040996822194193,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "uzb-18",
+      "name": "Ali Silva",
+      "number": 18,
+      "position": "CB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 72,
+        "physical": 75
+      },
+      "height": 1.7617244226035889,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uzb-19",
+      "name": "Diego Silva",
+      "number": 19,
+      "position": "LB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 65,
+        "physical": 66
+      },
+      "height": 1.876454373818314,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uzb-20",
+      "name": "Kenji Costa",
+      "number": 20,
+      "position": "RB",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 77
+      },
+      "height": 1.8703542522530576,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uzb-21",
+      "name": "Yuki Costa",
+      "number": 21,
+      "position": "CM",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 63,
+        "physical": 63
+      },
+      "height": 1.8084962498568895,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uzb-22",
+      "name": "James Costa",
+      "number": 22,
+      "position": "LW",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 71,
+        "physical": 70
+      },
+      "height": 1.8172788607303787,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uzb-23",
+      "name": "Hassan Dubois",
+      "number": 23,
+      "position": "RW",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 65,
+        "physical": 67
+      },
+      "height": 1.849350956547401,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uzb-24",
+      "name": "Marco Ali",
+      "number": 24,
+      "position": "CF",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 65,
+        "physical": 63
+      },
+      "height": 1.8785355084282676,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uzb-25",
+      "name": "Hans Dubois",
+      "number": 25,
+      "position": "GK",
+      "club": "Uzbekistan FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.8999223126656584,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    }
+  ]
+}

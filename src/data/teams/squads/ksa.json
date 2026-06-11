@@ -1,0 +1,487 @@
+{
+  "code": "KSA",
+  "name": "Saudi Arabia",
+  "flagColors": [
+    "#006C35",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#006C35",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#006C35"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 72,
+  "players": [
+    {
+      "id": "ksa-1",
+      "name": "Andre Okonkwo",
+      "number": 1,
+      "position": "GK",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.770216295346819,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "ksa-2",
+      "name": "Marco Okonkwo",
+      "number": 2,
+      "position": "GK",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      },
+      "height": 1.79857284301759,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "ksa-3",
+      "name": "Hans Garcia",
+      "number": 3,
+      "position": "CB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 73
+      },
+      "height": 1.747056674079091,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ksa-4",
+      "name": "Luis Berg",
+      "number": 4,
+      "position": "CB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 77
+      },
+      "height": 1.8252255801905184,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ksa-5",
+      "name": "Luis Santos",
+      "number": 5,
+      "position": "CB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 67,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 67,
+        "physical": 67
+      },
+      "height": 1.7576113414928423,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ksa-6",
+      "name": "Mohamed Okonkwo",
+      "number": 6,
+      "position": "LB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 84,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 79
+      },
+      "height": 1.7519233421812983,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ksa-7",
+      "name": "Omar Rossi",
+      "number": 7,
+      "position": "RB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 79
+      },
+      "height": 1.8002878789792656,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ksa-8",
+      "name": "Ali Fernandez",
+      "number": 8,
+      "position": "CDM",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 82
+      },
+      "height": 1.8921661765614208,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ksa-9",
+      "name": "Andre Santos",
+      "number": 9,
+      "position": "CDM",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 75,
+        "physical": 75
+      },
+      "height": 1.8028064079515695,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ksa-10",
+      "name": "Ali Santos",
+      "number": 10,
+      "position": "CM",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 80
+      },
+      "height": 1.8062241069285423,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ksa-11",
+      "name": "Ali Fernandez",
+      "number": 11,
+      "position": "CM",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 70
+      },
+      "height": 1.7998458057547415,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ksa-12",
+      "name": "Thomas Nielsen",
+      "number": 12,
+      "position": "CAM",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 69,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 66,
+        "physical": 65
+      },
+      "height": 1.8660369967818604,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ksa-13",
+      "name": "Hassan Haddad",
+      "number": 13,
+      "position": "LW",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.7301102936082615,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ksa-14",
+      "name": "Andre Müller",
+      "number": 14,
+      "position": "RW",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 70,
+        "physical": 67
+      },
+      "height": 1.8182539823448787,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ksa-15",
+      "name": "Andre Nielsen",
+      "number": 15,
+      "position": "ST",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 66,
+        "physical": 69
+      },
+      "height": 1.7331742491136997,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ksa-16",
+      "name": "Samuel Tanaka",
+      "number": 16,
+      "position": "ST",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 70
+      },
+      "height": 1.7432900438488368,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ksa-17",
+      "name": "Ivan Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 79
+      },
+      "height": 1.894913813876839,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "ksa-18",
+      "name": "Hans Fernandez",
+      "number": 18,
+      "position": "CB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 80
+      },
+      "height": 1.8265748806917805,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "ksa-19",
+      "name": "Samuel Müller",
+      "number": 19,
+      "position": "LB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 77
+      },
+      "height": 1.8520718894545658,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "ksa-20",
+      "name": "Thomas Garcia",
+      "number": 20,
+      "position": "RB",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 69,
+        "physical": 70
+      },
+      "height": 1.7261784159170261,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ksa-21",
+      "name": "Pedro Garcia",
+      "number": 21,
+      "position": "CM",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 71
+      },
+      "height": 1.8033803473723868,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "ksa-22",
+      "name": "Diego Haddad",
+      "number": 22,
+      "position": "LW",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.8003036761007305,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "ksa-23",
+      "name": "Thomas Garcia",
+      "number": 23,
+      "position": "RW",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 72,
+        "physical": 72
+      },
+      "height": 1.8643371921631853,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ksa-24",
+      "name": "Andre Costa",
+      "number": 24,
+      "position": "CF",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 70,
+        "physical": 67
+      },
+      "height": 1.726279744241647,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "ksa-25",
+      "name": "Jean Patel",
+      "number": 25,
+      "position": "GK",
+      "club": "Saudi Arabia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 67,
+        "diving": 72,
+        "handling": 67,
+        "kicking": 62,
+        "reflexes": 70,
+        "positioning": 67
+      },
+      "height": 1.8857372436632749,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    }
+  ]
+}

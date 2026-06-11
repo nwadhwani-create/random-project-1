@@ -30,7 +30,7 @@ npm run preview  # Preview production build
 
 ## Milestones
 
-### ✅ Milestone 1 — Playable Core (Current)
+### ✅ Milestone 1 — Playable Core
 - FIFA-standard pitch with procedural grass, mowing stripes, line markings
 - Goals with nets, corner flags, ad boards
 - Tiered stadium stands with instanced animated crowd (800 billboards)
@@ -42,16 +42,22 @@ npm run preview  # Preview production build
 - Power gauge shooting, passing, sprinting, tackling
 - Basic 11v11 AI movement, goals, scoreboard, replay camera
 
-### 🔜 Milestone 2 — Full Match
-- Complete referee logic (fouls, offside, set pieces, cards)
-- Team AI formations, defensive shape, offside trap
-- Goalkeeper control, slide tackles, headers
-- Adjustable difficulty
+### ✅ Milestone 2 — Full Match (Current)
+- Referee: fouls, offside, throw-ins, goal kicks, yellow cards
+- Formation-based team AI with difficulty settings
+- Match engine: halves, clock, set pieces, goal replays
+- Synthesized audio: crowd ambience, kicks, whistle, goals
+- Power gauge shooting, passing, sprinting, tackling
 
-### 🔜 Milestone 3 — Tournament
-- All 48 qualified teams with real squad data (JSON)
-- World Cup 2026 format (12 groups → Round of 32 → Final)
-- Quick Match, Tournament, Penalty Practice modes
+### 🔄 Milestone 3 — Tournament (In Progress)
+- All 48 qualified teams with metadata and generated squads (JSON)
+- Team picker for Quick Match (any of 48 nations)
+- Tournament simulation scaffold (group stage)
+- Full bracket UI and real squad data enrichment coming next
+
+```bash
+npm run generate-squads  # Regenerate 48 team squad JSON files
+```
 
 ### 🔜 Milestone 4 — Polish
 - Skeletal player animations (Mixamo-style)

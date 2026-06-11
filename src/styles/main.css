@@ -121,6 +121,30 @@ html, body, #app {
   cursor: not-allowed;
 }
 
+.team-select {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  pointer-events: auto;
+}
+
+.team-select label {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.team-select select {
+  display: block;
+  margin-top: 6px;
+  padding: 8px 12px;
+  width: 180px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
 .power-meter {
   position: absolute;
   bottom: 80px;

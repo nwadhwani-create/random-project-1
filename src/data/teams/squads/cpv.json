@@ -1,0 +1,488 @@
+{
+  "code": "CPV",
+  "name": "Cabo Verde",
+  "flagColors": [
+    "#003893",
+    "#FFFFFF",
+    "#CF2027"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#003893",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#CF2027"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 68,
+  "players": [
+    {
+      "id": "cpv-1",
+      "name": "Pedro Garcia",
+      "number": 1,
+      "position": "GK",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.8757865328581877,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-2",
+      "name": "Lucas Santos",
+      "number": 2,
+      "position": "GK",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      },
+      "height": 1.861020055740159,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-3",
+      "name": "Hassan Santos",
+      "number": 3,
+      "position": "CB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 73
+      },
+      "height": 1.7232475563168967,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cpv-4",
+      "name": "Hassan Kim",
+      "number": 4,
+      "position": "CB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 69,
+        "defending": 66,
+        "physical": 64
+      },
+      "height": 1.7306617048202657,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cpv-5",
+      "name": "Thomas Dubois",
+      "number": 5,
+      "position": "CB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 70
+      },
+      "height": 1.888445930861352,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-6",
+      "name": "Ali Rossi",
+      "number": 6,
+      "position": "LB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 70,
+        "physical": 74
+      },
+      "height": 1.7477046579753093,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-7",
+      "name": "Mohamed Dubois",
+      "number": 7,
+      "position": "RB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.7530362143395806,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cpv-8",
+      "name": "Samuel Weber",
+      "number": 8,
+      "position": "CDM",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 72
+      },
+      "height": 1.7578238525780139,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cpv-9",
+      "name": "Marco Rahman",
+      "number": 9,
+      "position": "CDM",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 68
+      },
+      "height": 1.8266990719984277,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-10",
+      "name": "Hassan Dubois",
+      "number": 10,
+      "position": "CM",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 62,
+        "physical": 67
+      },
+      "height": 1.7552027664102638,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cpv-11",
+      "name": "Lucas Patel",
+      "number": 11,
+      "position": "CM",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 73
+      },
+      "height": 1.8227985324829803,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cpv-12",
+      "name": "Pierre Müller",
+      "number": 12,
+      "position": "CAM",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 62,
+        "physical": 63
+      },
+      "height": 1.8976081625722425,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "cpv-13",
+      "name": "James Okonkwo",
+      "number": 13,
+      "position": "LW",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 62,
+        "passing": 59,
+        "dribbling": 59,
+        "defending": 59,
+        "physical": 61
+      },
+      "height": 1.829846181264004,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cpv-14",
+      "name": "Hans Rossi",
+      "number": 14,
+      "position": "RW",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 58,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 62,
+        "physical": 58
+      },
+      "height": 1.8178169411959284,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cpv-15",
+      "name": "Marco Fernandez",
+      "number": 15,
+      "position": "ST",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 65,
+        "physical": 69
+      },
+      "height": 1.7361865472851195,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-16",
+      "name": "Mohamed Ali",
+      "number": 16,
+      "position": "ST",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 72
+      },
+      "height": 1.8064869068344,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-17",
+      "name": "Ali Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 64,
+        "physical": 66
+      },
+      "height": 1.8244615185022928,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "cpv-18",
+      "name": "Lucas Berg",
+      "number": 18,
+      "position": "CB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 73
+      },
+      "height": 1.8305468484391894,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cpv-19",
+      "name": "Omar Berg",
+      "number": 19,
+      "position": "LB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 64,
+        "physical": 64
+      },
+      "height": 1.7256177140359,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "cpv-20",
+      "name": "Lucas Patel",
+      "number": 20,
+      "position": "RB",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 67,
+        "physical": 71
+      },
+      "height": 1.88627610280763,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "cpv-21",
+      "name": "Thomas Patel",
+      "number": 21,
+      "position": "CM",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 69
+      },
+      "height": 1.8862225154565857,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "cpv-22",
+      "name": "Ali Costa",
+      "number": 22,
+      "position": "LW",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 64,
+        "physical": 67
+      },
+      "height": 1.8297343342376262,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cpv-23",
+      "name": "Pierre Kim",
+      "number": 23,
+      "position": "RW",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 62,
+        "passing": 61,
+        "dribbling": 60,
+        "defending": 63,
+        "physical": 64
+      },
+      "height": 1.7360115056540923,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-24",
+      "name": "Ali Dubois",
+      "number": 24,
+      "position": "CF",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 60,
+        "physical": 62
+      },
+      "height": 1.8508662799195073,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cpv-25",
+      "name": "Pedro Tanaka",
+      "number": 25,
+      "position": "GK",
+      "club": "Cabo Verde FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 50,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 60,
+        "diving": 65,
+        "handling": 60,
+        "kicking": 55,
+        "reflexes": 63,
+        "positioning": 60
+      },
+      "height": 1.8536178375348615,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    }
+  ]
+}

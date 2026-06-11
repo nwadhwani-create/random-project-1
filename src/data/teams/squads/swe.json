@@ -1,0 +1,487 @@
+{
+  "code": "SWE",
+  "name": "Sweden",
+  "flagColors": [
+    "#006AA7",
+    "#FECC00"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#006AA7",
+      "secondary": "#FECC00"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#006AA7"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 76,
+  "players": [
+    {
+      "id": "swe-1",
+      "name": "Yuki Haddad",
+      "number": 1,
+      "position": "GK",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 73,
+        "diving": 78,
+        "handling": 73,
+        "kicking": 68,
+        "reflexes": 76,
+        "positioning": 73
+      },
+      "height": 1.8311286753147176,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "swe-2",
+      "name": "Omar Rossi",
+      "number": 2,
+      "position": "GK",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      },
+      "height": 1.790488383323409,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-3",
+      "name": "Luis Rahman",
+      "number": 3,
+      "position": "CB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 82
+      },
+      "height": 1.7449620856763441,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "swe-4",
+      "name": "Lucas Sato",
+      "number": 4,
+      "position": "CB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 76
+      },
+      "height": 1.7819233796484055,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "swe-5",
+      "name": "Carlos Sato",
+      "number": 5,
+      "position": "CB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 77,
+        "physical": 77
+      },
+      "height": 1.7869466843986386,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "swe-6",
+      "name": "Ali Santos",
+      "number": 6,
+      "position": "LB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 77
+      },
+      "height": 1.8171734474852435,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "swe-7",
+      "name": "Ivan Berg",
+      "number": 7,
+      "position": "RB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 73,
+        "physical": 76
+      },
+      "height": 1.832685215606061,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-8",
+      "name": "Carlos Dubois",
+      "number": 8,
+      "position": "CDM",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 73
+      },
+      "height": 1.8932184582885525,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "swe-9",
+      "name": "Omar Weber",
+      "number": 9,
+      "position": "CDM",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 82
+      },
+      "height": 1.8410346704265426,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-10",
+      "name": "Pedro Sato",
+      "number": 10,
+      "position": "CM",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 80
+      },
+      "height": 1.8325899621495882,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-11",
+      "name": "Omar Kim",
+      "number": 11,
+      "position": "CM",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 84,
+        "defending": 86,
+        "physical": 83
+      },
+      "height": 1.8725701685366873,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-12",
+      "name": "Andre Patel",
+      "number": 12,
+      "position": "CAM",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 76
+      },
+      "height": 1.8805508620297078,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-13",
+      "name": "Carlos Silva",
+      "number": 13,
+      "position": "LW",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 81
+      },
+      "height": 1.7816877138071578,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "swe-14",
+      "name": "Kenji Müller",
+      "number": 14,
+      "position": "RW",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 69,
+        "physical": 70
+      },
+      "height": 1.853554716523322,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "swe-15",
+      "name": "Hassan Rahman",
+      "number": 15,
+      "position": "ST",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 74,
+        "physical": 69
+      },
+      "height": 1.809993926221499,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-16",
+      "name": "Andre Okonkwo",
+      "number": 16,
+      "position": "ST",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 76,
+        "physical": 77
+      },
+      "height": 1.7724050245922105,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-17",
+      "name": "Omar Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 75
+      },
+      "height": 1.8541901413110924,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-18",
+      "name": "Mohamed Novak",
+      "number": 18,
+      "position": "CB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 77
+      },
+      "height": 1.8689300291043986,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-19",
+      "name": "Samuel Kim",
+      "number": 19,
+      "position": "LB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 77
+      },
+      "height": 1.7937452088517558,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-20",
+      "name": "Hassan Berg",
+      "number": 20,
+      "position": "RB",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 74
+      },
+      "height": 1.8743347148917007,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-21",
+      "name": "Samuel Berg",
+      "number": 21,
+      "position": "CM",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 79
+      },
+      "height": 1.8279278162568136,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "swe-22",
+      "name": "Kenji Novak",
+      "number": 22,
+      "position": "LW",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 79
+      },
+      "height": 1.775392729086236,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "swe-23",
+      "name": "Hans Tanaka",
+      "number": 23,
+      "position": "RW",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 81,
+        "physical": 78
+      },
+      "height": 1.7310160937821641,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "swe-24",
+      "name": "Samuel Kim",
+      "number": 24,
+      "position": "CF",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 79,
+        "physical": 77
+      },
+      "height": 1.781618201259168,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "swe-25",
+      "name": "Andre Ali",
+      "number": 25,
+      "position": "GK",
+      "club": "Sweden FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      },
+      "height": 1.7983461938410497,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    }
+  ]
+}

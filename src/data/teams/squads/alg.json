@@ -1,0 +1,488 @@
+{
+  "code": "ALG",
+  "name": "Algeria",
+  "flagColors": [
+    "#006233",
+    "#FFFFFF",
+    "#D21034"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#006233"
+    },
+    "away": {
+      "primary": "#006233",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 76,
+  "players": [
+    {
+      "id": "alg-1",
+      "name": "Pierre Kim",
+      "number": 1,
+      "position": "GK",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 73,
+        "diving": 78,
+        "handling": 73,
+        "kicking": 68,
+        "reflexes": 76,
+        "positioning": 73
+      },
+      "height": 1.762089034134605,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-2",
+      "name": "Hans Silva",
+      "number": 2,
+      "position": "GK",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 78,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 88,
+        "diving": 93,
+        "handling": 88,
+        "kicking": 83,
+        "reflexes": 91,
+        "positioning": 88
+      },
+      "height": 1.747880909031146,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "alg-3",
+      "name": "Lucas Berg",
+      "number": 3,
+      "position": "CB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 73
+      },
+      "height": 1.8272467036426503,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-4",
+      "name": "Hassan Fernandez",
+      "number": 4,
+      "position": "CB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 81
+      },
+      "height": 1.7312458430055955,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-5",
+      "name": "Kenji Müller",
+      "number": 5,
+      "position": "CB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 72
+      },
+      "height": 1.7936932932713006,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-6",
+      "name": "Diego Müller",
+      "number": 6,
+      "position": "LB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 83
+      },
+      "height": 1.774563894816268,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "alg-7",
+      "name": "Omar Costa",
+      "number": 7,
+      "position": "RB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 86,
+        "physical": 84
+      },
+      "height": 1.834264710074537,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-8",
+      "name": "Diego Okonkwo",
+      "number": 8,
+      "position": "CDM",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 84,
+        "physical": 83
+      },
+      "height": 1.8239427328425857,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "alg-9",
+      "name": "Hans Tanaka",
+      "number": 9,
+      "position": "CDM",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 73,
+        "physical": 73
+      },
+      "height": 1.8665244775419352,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-10",
+      "name": "Jean Haddad",
+      "number": 10,
+      "position": "CM",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 80
+      },
+      "height": 1.7543475814483571,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "alg-11",
+      "name": "Thomas Weber",
+      "number": 11,
+      "position": "CM",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 76
+      },
+      "height": 1.738597806336915,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "alg-12",
+      "name": "Pierre Nielsen",
+      "number": 12,
+      "position": "CAM",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.7773087143872945,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-13",
+      "name": "Diego Müller",
+      "number": 13,
+      "position": "LW",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 80
+      },
+      "height": 1.818400817279146,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-14",
+      "name": "Ali Sato",
+      "number": 14,
+      "position": "RW",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 74
+      },
+      "height": 1.7827347275919605,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-15",
+      "name": "Carlos Silva",
+      "number": 15,
+      "position": "ST",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 81
+      },
+      "height": 1.7478607211335195,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "alg-16",
+      "name": "Samuel Fernandez",
+      "number": 16,
+      "position": "ST",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 78
+      },
+      "height": 1.8357734946401543,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-17",
+      "name": "Ivan Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 69,
+        "physical": 66
+      },
+      "height": 1.810411338713403,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-18",
+      "name": "Jean Garcia",
+      "number": 18,
+      "position": "CB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 69,
+        "physical": 69
+      },
+      "height": 1.8762057161947765,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-19",
+      "name": "Jean Santos",
+      "number": 19,
+      "position": "LB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 73
+      },
+      "height": 1.847171482348043,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "alg-20",
+      "name": "Jean Patel",
+      "number": 20,
+      "position": "RB",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 78
+      },
+      "height": 1.8380709604714727,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "alg-21",
+      "name": "Kenji Novak",
+      "number": 21,
+      "position": "CM",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 72,
+        "physical": 71
+      },
+      "height": 1.8202539625300598,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "alg-22",
+      "name": "Hassan Novak",
+      "number": 22,
+      "position": "LW",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 83
+      },
+      "height": 1.8399299521836732,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "alg-23",
+      "name": "Andre Santos",
+      "number": 23,
+      "position": "RW",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 83
+      },
+      "height": 1.8434954472477505,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-24",
+      "name": "Pierre Fernandez",
+      "number": 24,
+      "position": "CF",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 85
+      },
+      "height": 1.7332345550630563,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "alg-25",
+      "name": "Lucas Haddad",
+      "number": 25,
+      "position": "GK",
+      "club": "Algeria FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.867068590379384,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    }
+  ]
+}

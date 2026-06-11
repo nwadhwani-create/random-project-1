@@ -1,0 +1,488 @@
+{
+  "code": "PAN",
+  "name": "Panama",
+  "flagColors": [
+    "#DA121A",
+    "#072357",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#DA121A",
+      "secondary": "#072357"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#DA121A"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 68,
+  "players": [
+    {
+      "id": "pan-1",
+      "name": "Andre Okonkwo",
+      "number": 1,
+      "position": "GK",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.770216295346819,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "pan-2",
+      "name": "Marco Okonkwo",
+      "number": 2,
+      "position": "GK",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      },
+      "height": 1.79857284301759,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "pan-3",
+      "name": "Hans Garcia",
+      "number": 3,
+      "position": "CB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 66,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 69
+      },
+      "height": 1.747056674079091,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "pan-4",
+      "name": "Luis Berg",
+      "number": 4,
+      "position": "CB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 73
+      },
+      "height": 1.8252255801905184,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "pan-5",
+      "name": "Luis Santos",
+      "number": 5,
+      "position": "CB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 63,
+        "physical": 63
+      },
+      "height": 1.7576113414928423,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "pan-6",
+      "name": "Mohamed Okonkwo",
+      "number": 6,
+      "position": "LB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 75
+      },
+      "height": 1.7519233421812983,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "pan-7",
+      "name": "Omar Rossi",
+      "number": 7,
+      "position": "RB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 75
+      },
+      "height": 1.8002878789792656,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "pan-8",
+      "name": "Ali Fernandez",
+      "number": 8,
+      "position": "CDM",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 78
+      },
+      "height": 1.8921661765614208,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "pan-9",
+      "name": "Andre Santos",
+      "number": 9,
+      "position": "CDM",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 71,
+        "physical": 71
+      },
+      "height": 1.8028064079515695,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "pan-10",
+      "name": "Ali Santos",
+      "number": 10,
+      "position": "CM",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 76
+      },
+      "height": 1.8062241069285423,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "pan-11",
+      "name": "Ali Fernandez",
+      "number": 11,
+      "position": "CM",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 67,
+        "physical": 66
+      },
+      "height": 1.7998458057547415,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "pan-12",
+      "name": "Thomas Nielsen",
+      "number": 12,
+      "position": "CAM",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 62,
+        "physical": 61
+      },
+      "height": 1.8660369967818604,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "pan-13",
+      "name": "Hassan Haddad",
+      "number": 13,
+      "position": "LW",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 70,
+        "physical": 70
+      },
+      "height": 1.7301102936082615,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "pan-14",
+      "name": "Andre Müller",
+      "number": 14,
+      "position": "RW",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 64,
+        "passing": 66,
+        "dribbling": 62,
+        "defending": 66,
+        "physical": 63
+      },
+      "height": 1.8182539823448787,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "pan-15",
+      "name": "Andre Nielsen",
+      "number": 15,
+      "position": "ST",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 64,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 62,
+        "physical": 65
+      },
+      "height": 1.7331742491136997,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "pan-16",
+      "name": "Samuel Tanaka",
+      "number": 16,
+      "position": "ST",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 62,
+        "physical": 66
+      },
+      "height": 1.7432900438488368,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "pan-17",
+      "name": "Ivan Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 75
+      },
+      "height": 1.894913813876839,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "pan-18",
+      "name": "Hans Fernandez",
+      "number": 18,
+      "position": "CB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 76
+      },
+      "height": 1.8265748806917805,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "pan-19",
+      "name": "Samuel Müller",
+      "number": 19,
+      "position": "LB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 71,
+        "physical": 73
+      },
+      "height": 1.8520718894545658,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "pan-20",
+      "name": "Thomas Garcia",
+      "number": 20,
+      "position": "RB",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 67,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 65,
+        "physical": 66
+      },
+      "height": 1.7261784159170261,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "pan-21",
+      "name": "Pedro Garcia",
+      "number": 21,
+      "position": "CM",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 65,
+        "physical": 67
+      },
+      "height": 1.8033803473723868,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "pan-22",
+      "name": "Diego Haddad",
+      "number": 22,
+      "position": "LW",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 67,
+        "physical": 70
+      },
+      "height": 1.8003036761007305,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "pan-23",
+      "name": "Thomas Garcia",
+      "number": 23,
+      "position": "RW",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 68
+      },
+      "height": 1.8643371921631853,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "pan-24",
+      "name": "Andre Costa",
+      "number": 24,
+      "position": "CF",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 66,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 66,
+        "physical": 63
+      },
+      "height": 1.726279744241647,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "pan-25",
+      "name": "Jean Patel",
+      "number": 25,
+      "position": "GK",
+      "club": "Panama FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 53,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 63,
+        "diving": 68,
+        "handling": 63,
+        "kicking": 58,
+        "reflexes": 66,
+        "positioning": 63
+      },
+      "height": 1.8857372436632749,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    }
+  ]
+}

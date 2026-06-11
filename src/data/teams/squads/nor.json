@@ -1,0 +1,488 @@
+{
+  "code": "NOR",
+  "name": "Norway",
+  "flagColors": [
+    "#BA0C2F",
+    "#00205B",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#BA0C2F",
+      "secondary": "#00205B"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#BA0C2F"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 82,
+  "players": [
+    {
+      "id": "nor-1",
+      "name": "Yuki Haddad",
+      "number": 1,
+      "position": "GK",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.8311286753147176,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "nor-2",
+      "name": "Omar Rossi",
+      "number": 2,
+      "position": "GK",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      },
+      "height": 1.790488383323409,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-3",
+      "name": "Luis Rahman",
+      "number": 3,
+      "position": "CB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 89,
+        "passing": 88,
+        "dribbling": 87,
+        "defending": 90,
+        "physical": 88
+      },
+      "height": 1.7449620856763441,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "nor-4",
+      "name": "Lucas Sato",
+      "number": 4,
+      "position": "CB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 84,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 82
+      },
+      "height": 1.7819233796484055,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nor-5",
+      "name": "Carlos Sato",
+      "number": 5,
+      "position": "CB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 84,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.7869466843986386,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nor-6",
+      "name": "Ali Santos",
+      "number": 6,
+      "position": "LB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.8171734474852435,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nor-7",
+      "name": "Ivan Berg",
+      "number": 7,
+      "position": "RB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 82
+      },
+      "height": 1.832685215606061,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-8",
+      "name": "Carlos Dubois",
+      "number": 8,
+      "position": "CDM",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 79
+      },
+      "height": 1.8932184582885525,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nor-9",
+      "name": "Omar Weber",
+      "number": 9,
+      "position": "CDM",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 89,
+        "passing": 86,
+        "dribbling": 89,
+        "defending": 86,
+        "physical": 88
+      },
+      "height": 1.8410346704265426,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-10",
+      "name": "Pedro Sato",
+      "number": 10,
+      "position": "CM",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 87,
+        "physical": 86
+      },
+      "height": 1.8325899621495882,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-11",
+      "name": "Omar Kim",
+      "number": 11,
+      "position": "CM",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 88,
+        "passing": 92,
+        "dribbling": 90,
+        "defending": 92,
+        "physical": 89
+      },
+      "height": 1.8725701685366873,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-12",
+      "name": "Andre Patel",
+      "number": 12,
+      "position": "CAM",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 82
+      },
+      "height": 1.8805508620297078,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-13",
+      "name": "Carlos Silva",
+      "number": 13,
+      "position": "LW",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 86,
+        "passing": 88,
+        "dribbling": 87,
+        "defending": 86,
+        "physical": 87
+      },
+      "height": 1.7816877138071578,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nor-14",
+      "name": "Kenji Müller",
+      "number": 14,
+      "position": "RW",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 75,
+        "physical": 76
+      },
+      "height": 1.853554716523322,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "nor-15",
+      "name": "Hassan Rahman",
+      "number": 15,
+      "position": "ST",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 80,
+        "dribbling": 76,
+        "defending": 80,
+        "physical": 75
+      },
+      "height": 1.809993926221499,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-16",
+      "name": "Andre Okonkwo",
+      "number": 16,
+      "position": "ST",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.7724050245922105,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-17",
+      "name": "Omar Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 81,
+        "physical": 81
+      },
+      "height": 1.8541901413110924,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-18",
+      "name": "Mohamed Novak",
+      "number": 18,
+      "position": "CB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 83
+      },
+      "height": 1.8689300291043986,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-19",
+      "name": "Samuel Kim",
+      "number": 19,
+      "position": "LB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.7937452088517558,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-20",
+      "name": "Hassan Berg",
+      "number": 20,
+      "position": "RB",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 80
+      },
+      "height": 1.8743347148917007,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-21",
+      "name": "Samuel Berg",
+      "number": 21,
+      "position": "CM",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 85
+      },
+      "height": 1.8279278162568136,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "nor-22",
+      "name": "Kenji Novak",
+      "number": 22,
+      "position": "LW",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 85
+      },
+      "height": 1.775392729086236,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "nor-23",
+      "name": "Hans Tanaka",
+      "number": 23,
+      "position": "RW",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 89,
+        "dribbling": 84,
+        "defending": 87,
+        "physical": 84
+      },
+      "height": 1.7310160937821641,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "nor-24",
+      "name": "Samuel Kim",
+      "number": 24,
+      "position": "CF",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 85,
+        "physical": 83
+      },
+      "height": 1.781618201259168,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "nor-25",
+      "name": "Andre Ali",
+      "number": 25,
+      "position": "GK",
+      "club": "Norway FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      },
+      "height": 1.7983461938410497,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    }
+  ]
+}

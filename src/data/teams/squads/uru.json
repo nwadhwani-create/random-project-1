@@ -1,0 +1,487 @@
+{
+  "code": "URU",
+  "name": "Uruguay",
+  "flagColors": [
+    "#0038A8",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#75AADB",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#75AADB"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 82,
+  "players": [
+    {
+      "id": "uru-1",
+      "name": "Mohamed Tanaka",
+      "number": 1,
+      "position": "GK",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.8243699840124417,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uru-2",
+      "name": "Carlos Kim",
+      "number": 2,
+      "position": "GK",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 82,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 92,
+        "diving": 97,
+        "handling": 92,
+        "kicking": 87,
+        "reflexes": 95,
+        "positioning": 92
+      },
+      "height": 1.817669759837603,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "uru-3",
+      "name": "Jean Patel",
+      "number": 3,
+      "position": "CB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 87,
+        "physical": 85
+      },
+      "height": 1.7320102325938738,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-4",
+      "name": "Carlos Müller",
+      "number": 4,
+      "position": "CB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 83,
+        "physical": 81
+      },
+      "height": 1.8929903417760416,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uru-5",
+      "name": "Jean Kim",
+      "number": 5,
+      "position": "CB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 82,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 82
+      },
+      "height": 1.7770316504938823,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "uru-6",
+      "name": "Luis Fernandez",
+      "number": 6,
+      "position": "LB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 92,
+        "defending": 88,
+        "physical": 90
+      },
+      "height": 1.757689157992312,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uru-7",
+      "name": "Pierre Dubois",
+      "number": 7,
+      "position": "RB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 89,
+        "passing": 91,
+        "dribbling": 92,
+        "defending": 91,
+        "physical": 89
+      },
+      "height": 1.8252580515996162,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "uru-8",
+      "name": "Carlos Fernandez",
+      "number": 8,
+      "position": "CDM",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 89,
+        "dribbling": 89,
+        "defending": 92,
+        "physical": 94
+      },
+      "height": 1.826573437160415,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-9",
+      "name": "Lucas Okonkwo",
+      "number": 9,
+      "position": "CDM",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 91,
+        "passing": 92,
+        "dribbling": 93,
+        "defending": 93,
+        "physical": 92
+      },
+      "height": 1.7820951336455486,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "uru-10",
+      "name": "Hans Sato",
+      "number": 10,
+      "position": "CM",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 94,
+        "passing": 93,
+        "dribbling": 91,
+        "defending": 94,
+        "physical": 91
+      },
+      "height": 1.7302622194590627,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uru-11",
+      "name": "Lucas Santos",
+      "number": 11,
+      "position": "CM",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.8304087132498703,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "uru-12",
+      "name": "Samuel Haddad",
+      "number": 12,
+      "position": "CAM",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 89,
+        "defending": 90,
+        "physical": 87
+      },
+      "height": 1.7235933774650034,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uru-13",
+      "name": "Carlos Sato",
+      "number": 13,
+      "position": "LW",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 86,
+        "passing": 89,
+        "dribbling": 90,
+        "defending": 86,
+        "physical": 90
+      },
+      "height": 1.8573443677344772,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uru-14",
+      "name": "Lucas Rahman",
+      "number": 14,
+      "position": "RW",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 85,
+        "dribbling": 86,
+        "defending": 83,
+        "physical": 88
+      },
+      "height": 1.780986562996159,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-15",
+      "name": "Omar Kim",
+      "number": 15,
+      "position": "ST",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 87,
+        "defending": 85,
+        "physical": 85
+      },
+      "height": 1.7599099138191994,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uru-16",
+      "name": "Carlos Rahman",
+      "number": 16,
+      "position": "ST",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.7285609464147695,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uru-17",
+      "name": "James Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 73
+      },
+      "height": 1.8886021573828553,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-18",
+      "name": "Jean Fernandez",
+      "number": 18,
+      "position": "CB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 79
+      },
+      "height": 1.892093587184412,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-19",
+      "name": "Pierre Weber",
+      "number": 19,
+      "position": "LB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 80
+      },
+      "height": 1.8813547809248368,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uru-20",
+      "name": "Yuki Rahman",
+      "number": 20,
+      "position": "RB",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 87
+      },
+      "height": 1.7584617076986113,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "uru-21",
+      "name": "Andre Nielsen",
+      "number": 21,
+      "position": "CM",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 77
+      },
+      "height": 1.7916226346992166,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "uru-22",
+      "name": "Kenji Weber",
+      "number": 22,
+      "position": "LW",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 77
+      },
+      "height": 1.7776525846474363,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "uru-23",
+      "name": "Ali Fernandez",
+      "number": 23,
+      "position": "RW",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.8701927014628357,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-24",
+      "name": "Ali Patel",
+      "number": 24,
+      "position": "CF",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 84
+      },
+      "height": 1.8715806976068585,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "uru-25",
+      "name": "Thomas Okonkwo",
+      "number": 25,
+      "position": "GK",
+      "club": "Uruguay FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      },
+      "height": 1.7385909658657301,
+      "skinTone": 15376478,
+      "hairColor": 0
+    }
+  ]
+}
