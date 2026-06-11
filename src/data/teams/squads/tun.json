@@ -1,0 +1,487 @@
+{
+  "code": "TUN",
+  "name": "Tunisia",
+  "flagColors": [
+    "#E70013",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#E70013",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#E70013"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 72,
+  "players": [
+    {
+      "id": "tun-1",
+      "name": "Samuel Fernandez",
+      "number": 1,
+      "position": "GK",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.7715848652567574,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-2",
+      "name": "Ivan Rahman",
+      "number": 2,
+      "position": "GK",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      },
+      "height": 1.876446153518228,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "tun-3",
+      "name": "Thomas Müller",
+      "number": 3,
+      "position": "CB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 73
+      },
+      "height": 1.8339147915168803,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "tun-4",
+      "name": "Diego Dubois",
+      "number": 4,
+      "position": "CB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 67,
+        "physical": 71
+      },
+      "height": 1.8502722794192585,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-5",
+      "name": "Carlos Costa",
+      "number": 5,
+      "position": "CB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 74,
+        "physical": 72
+      },
+      "height": 1.8916143558934464,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "tun-6",
+      "name": "Mohamed Kim",
+      "number": 6,
+      "position": "LB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 75
+      },
+      "height": 1.849798500137216,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "tun-7",
+      "name": "Yuki Garcia",
+      "number": 7,
+      "position": "RB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 73,
+        "physical": 77
+      },
+      "height": 1.7588838838775491,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "tun-8",
+      "name": "Omar Okonkwo",
+      "number": 8,
+      "position": "CDM",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 73
+      },
+      "height": 1.8937445991521185,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-9",
+      "name": "Ivan Sato",
+      "number": 9,
+      "position": "CDM",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 76
+      },
+      "height": 1.860148801664029,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "tun-10",
+      "name": "James Ali",
+      "number": 10,
+      "position": "CM",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 83
+      },
+      "height": 1.755772889718202,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-11",
+      "name": "Luis Okonkwo",
+      "number": 11,
+      "position": "CM",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 68
+      },
+      "height": 1.8189323498857508,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "tun-12",
+      "name": "Diego Novak",
+      "number": 12,
+      "position": "CAM",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 69,
+        "physical": 71
+      },
+      "height": 1.797807794611722,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-13",
+      "name": "Pierre Rahman",
+      "number": 13,
+      "position": "LW",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 65,
+        "physical": 63
+      },
+      "height": 1.8974764239485156,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "tun-14",
+      "name": "Marco Müller",
+      "number": 14,
+      "position": "RW",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 78
+      },
+      "height": 1.7812050835706341,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "tun-15",
+      "name": "Omar Silva",
+      "number": 15,
+      "position": "ST",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 69,
+        "physical": 65
+      },
+      "height": 1.8484037647753988,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-16",
+      "name": "Omar Berg",
+      "number": 16,
+      "position": "ST",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 61,
+        "physical": 64
+      },
+      "height": 1.7869625149638975,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "tun-17",
+      "name": "Thomas Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 71
+      },
+      "height": 1.8338283050282191,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "tun-18",
+      "name": "Kenji Kim",
+      "number": 18,
+      "position": "CB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 66,
+        "physical": 68
+      },
+      "height": 1.8001076032687982,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "tun-19",
+      "name": "Thomas Novak",
+      "number": 19,
+      "position": "LB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 69,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 67
+      },
+      "height": 1.7645818685503507,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "tun-20",
+      "name": "Mohamed Patel",
+      "number": 20,
+      "position": "RB",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 75
+      },
+      "height": 1.8584128643371285,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "tun-21",
+      "name": "Marco Patel",
+      "number": 21,
+      "position": "CM",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 67,
+        "physical": 66
+      },
+      "height": 1.7502015506571174,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-22",
+      "name": "Hans Sato",
+      "number": 22,
+      "position": "LW",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 76
+      },
+      "height": 1.7629372555789884,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "tun-23",
+      "name": "Hassan Müller",
+      "number": 23,
+      "position": "RW",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 66,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 61,
+        "physical": 65
+      },
+      "height": 1.8443555446754727,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-24",
+      "name": "James Santos",
+      "number": 24,
+      "position": "CF",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 73
+      },
+      "height": 1.8092874297679284,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "tun-25",
+      "name": "Pedro Nielsen",
+      "number": 25,
+      "position": "GK",
+      "club": "Tunisia FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      },
+      "height": 1.8446506689718465,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    }
+  ]
+}

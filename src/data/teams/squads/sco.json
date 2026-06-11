@@ -1,0 +1,487 @@
+{
+  "code": "SCO",
+  "name": "Scotland",
+  "flagColors": [
+    "#005EB8",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#005EB8",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#005EB8"
+    }
+  },
+  "formation": "3-5-2",
+  "strength": 74,
+  "players": [
+    {
+      "id": "sco-1",
+      "name": "Mohamed Silva",
+      "number": 1,
+      "position": "GK",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 71,
+        "diving": 76,
+        "handling": 71,
+        "kicking": 66,
+        "reflexes": 74,
+        "positioning": 71
+      },
+      "height": 1.7255584378033488,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "sco-2",
+      "name": "Samuel Haddad",
+      "number": 2,
+      "position": "GK",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      },
+      "height": 1.72804117060084,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-3",
+      "name": "Andre Fernandez",
+      "number": 3,
+      "position": "CB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 76
+      },
+      "height": 1.7687712034385383,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "sco-4",
+      "name": "Thomas Müller",
+      "number": 4,
+      "position": "CB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 82
+      },
+      "height": 1.8764872550186582,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "sco-5",
+      "name": "Thomas Kim",
+      "number": 5,
+      "position": "CB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 83
+      },
+      "height": 1.836112095113948,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "sco-6",
+      "name": "Mohamed Tanaka",
+      "number": 6,
+      "position": "LB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 76
+      },
+      "height": 1.8213921316912325,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-7",
+      "name": "Ali Silva",
+      "number": 7,
+      "position": "RB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 70,
+        "physical": 75
+      },
+      "height": 1.879936880245746,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-8",
+      "name": "Marco Haddad",
+      "number": 8,
+      "position": "CDM",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 77
+      },
+      "height": 1.8475607821881406,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "sco-9",
+      "name": "Mohamed Rossi",
+      "number": 9,
+      "position": "CDM",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.8171420063796844,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "sco-10",
+      "name": "Jean Patel",
+      "number": 10,
+      "position": "CM",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 77
+      },
+      "height": 1.8836113026678667,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "sco-11",
+      "name": "Jean Haddad",
+      "number": 11,
+      "position": "CM",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 74
+      },
+      "height": 1.8496174418084486,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-12",
+      "name": "Hans Tanaka",
+      "number": 12,
+      "position": "CAM",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 79,
+        "physical": 80
+      },
+      "height": 1.848979696239326,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "sco-13",
+      "name": "Pedro Müller",
+      "number": 13,
+      "position": "LW",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 71
+      },
+      "height": 1.8619518262352346,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-14",
+      "name": "Carlos Weber",
+      "number": 14,
+      "position": "RW",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 66
+      },
+      "height": 1.8539917576722724,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "sco-15",
+      "name": "Thomas Okonkwo",
+      "number": 15,
+      "position": "ST",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 63,
+        "physical": 63
+      },
+      "height": 1.8069816280500792,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "sco-16",
+      "name": "Ivan Ali",
+      "number": 16,
+      "position": "ST",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 79
+      },
+      "height": 1.8892081616904663,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "sco-17",
+      "name": "Mohamed Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 64,
+        "physical": 66
+      },
+      "height": 1.7446424366018198,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-18",
+      "name": "Pierre Rahman",
+      "number": 18,
+      "position": "CB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 73
+      },
+      "height": 1.8649580613569896,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "sco-19",
+      "name": "Kenji Rahman",
+      "number": 19,
+      "position": "LB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 82,
+        "physical": 78
+      },
+      "height": 1.7401993841866026,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-20",
+      "name": "Hans Rossi",
+      "number": 20,
+      "position": "RB",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 69,
+        "physical": 68
+      },
+      "height": 1.8942370280849161,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "sco-21",
+      "name": "Hassan Rossi",
+      "number": 21,
+      "position": "CM",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 74
+      },
+      "height": 1.7450856481726147,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "sco-22",
+      "name": "Lucas Rossi",
+      "number": 22,
+      "position": "LW",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 80
+      },
+      "height": 1.7459620709493402,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "sco-23",
+      "name": "Thomas Nielsen",
+      "number": 23,
+      "position": "RW",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 69,
+        "physical": 64
+      },
+      "height": 1.859341780291257,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "sco-24",
+      "name": "Luis Santos",
+      "number": 24,
+      "position": "CF",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 78
+      },
+      "height": 1.837031665665127,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "sco-25",
+      "name": "Thomas Sato",
+      "number": 25,
+      "position": "GK",
+      "club": "Scotland FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      },
+      "height": 1.830465599969463,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    }
+  ]
+}

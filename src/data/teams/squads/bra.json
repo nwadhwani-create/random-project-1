@@ -1,0 +1,488 @@
+{
+  "code": "BRA",
+  "name": "Brazil",
+  "flagColors": [
+    "#009C3B",
+    "#FFDF00",
+    "#002776"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFDF00",
+      "secondary": "#009C3B"
+    },
+    "away": {
+      "primary": "#002776",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 88,
+  "players": [
+    {
+      "id": "bra-1",
+      "name": "James Costa",
+      "number": 1,
+      "position": "GK",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      },
+      "height": 1.8446460579192694,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "bra-2",
+      "name": "Hassan Novak",
+      "number": 2,
+      "position": "GK",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      },
+      "height": 1.736125630295021,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "bra-3",
+      "name": "Omar Costa",
+      "number": 3,
+      "position": "CB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 91,
+        "passing": 93,
+        "dribbling": 94,
+        "defending": 92,
+        "physical": 93
+      },
+      "height": 1.7708657918412851,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "bra-4",
+      "name": "Andre Costa",
+      "number": 4,
+      "position": "CB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 88,
+        "passing": 86,
+        "dribbling": 88,
+        "defending": 87,
+        "physical": 90
+      },
+      "height": 1.7397894554769522,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "bra-5",
+      "name": "Samuel Rahman",
+      "number": 5,
+      "position": "CB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 89,
+        "passing": 93,
+        "dribbling": 92,
+        "defending": 90,
+        "physical": 94
+      },
+      "height": 1.8067767522081515,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "bra-6",
+      "name": "Samuel Fernandez",
+      "number": 6,
+      "position": "LB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 84,
+        "passing": 87,
+        "dribbling": 86,
+        "defending": 86,
+        "physical": 86
+      },
+      "height": 1.7561420263872873,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "bra-7",
+      "name": "Andre Weber",
+      "number": 7,
+      "position": "RB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 94,
+        "passing": 94,
+        "dribbling": 89,
+        "defending": 90,
+        "physical": 93
+      },
+      "height": 1.8475395436189506,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "bra-8",
+      "name": "Carlos Nielsen",
+      "number": 8,
+      "position": "CDM",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 86,
+        "physical": 83
+      },
+      "height": 1.846508500461009,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "bra-9",
+      "name": "Omar Rahman",
+      "number": 9,
+      "position": "CDM",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 93,
+        "passing": 92,
+        "dribbling": 94,
+        "defending": 90,
+        "physical": 93
+      },
+      "height": 1.7789137439047114,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "bra-10",
+      "name": "Luis Sato",
+      "number": 10,
+      "position": "CM",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 91,
+        "dribbling": 91,
+        "defending": 92,
+        "physical": 90
+      },
+      "height": 1.8572454474468207,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "bra-11",
+      "name": "Marco Silva",
+      "number": 11,
+      "position": "CM",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 91,
+        "dribbling": 89,
+        "defending": 93,
+        "physical": 89
+      },
+      "height": 1.7768930790265025,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "bra-12",
+      "name": "Mohamed Berg",
+      "number": 12,
+      "position": "CAM",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 84,
+        "physical": 87
+      },
+      "height": 1.8344658309914785,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "bra-13",
+      "name": "Mohamed Novak",
+      "number": 13,
+      "position": "LW",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 77
+      },
+      "height": 1.8103744060363383,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "bra-14",
+      "name": "Kenji Dubois",
+      "number": 14,
+      "position": "RW",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 88,
+        "defending": 84,
+        "physical": 89
+      },
+      "height": 1.8186910234938292,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "bra-15",
+      "name": "Diego Silva",
+      "number": 15,
+      "position": "ST",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 91,
+        "passing": 89,
+        "dribbling": 93,
+        "defending": 91,
+        "physical": 94
+      },
+      "height": 1.7301619509422796,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "bra-16",
+      "name": "Jean Costa",
+      "number": 16,
+      "position": "ST",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 94,
+        "passing": 92,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 89
+      },
+      "height": 1.8600931809470924,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "bra-17",
+      "name": "Pedro Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 88
+      },
+      "height": 1.7853661091675666,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "bra-18",
+      "name": "Ivan Rahman",
+      "number": 18,
+      "position": "CB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 94,
+        "passing": 91,
+        "dribbling": 92,
+        "defending": 93,
+        "physical": 92
+      },
+      "height": 1.8226029129443717,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "bra-19",
+      "name": "Kenji Sato",
+      "number": 19,
+      "position": "LB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 87
+      },
+      "height": 1.7985260647894126,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "bra-20",
+      "name": "Pierre Ali",
+      "number": 20,
+      "position": "RB",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 90,
+        "passing": 85,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.7460807291102416,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "bra-21",
+      "name": "Kenji Costa",
+      "number": 21,
+      "position": "CM",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 88,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 90
+      },
+      "height": 1.7205381792881882,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "bra-22",
+      "name": "Kenji Santos",
+      "number": 22,
+      "position": "LW",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 93,
+        "dribbling": 93,
+        "defending": 89,
+        "physical": 93
+      },
+      "height": 1.770873017963835,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "bra-23",
+      "name": "Lucas Silva",
+      "number": 23,
+      "position": "RW",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 93,
+        "passing": 93,
+        "dribbling": 90,
+        "defending": 93,
+        "physical": 92
+      },
+      "height": 1.8126628785884593,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "bra-24",
+      "name": "Jean Silva",
+      "number": 24,
+      "position": "CF",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 91,
+        "passing": 90,
+        "dribbling": 89,
+        "defending": 92,
+        "physical": 92
+      },
+      "height": 1.781693208647606,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "bra-25",
+      "name": "Luis Ali",
+      "number": 25,
+      "position": "GK",
+      "club": "Brazil FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      },
+      "height": 1.7378566497078693,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    }
+  ]
+}

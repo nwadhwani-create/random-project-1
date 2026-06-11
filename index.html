@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Cup 2026 Soccer</title>
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas"></canvas>
+      <div id="hud">
+        <div id="scoreboard" class="hud-panel hidden">
+          <span id="home-team">HOME</span>
+          <span id="score">0 - 0</span>
+          <span id="away-team">AWAY</span>
+          <span id="clock">00:00</span>
+        </div>
+        <div id="controls-hint" class="hud-panel">
+          <p><strong>Milestone 1</strong> — Pitch + Ball Physics + Player Control</p>
+          <p>WASD / Left Stick: Move | Shift / RT: Sprint | Space / A: Shoot | E / X: Pass</p>
+          <p>Q / LB: Switch Player | C: Camera | Enter: Start Match</p>
+        </div>
+        <div id="menu" class="menu-overlay">
+          <h1>World Cup 2026</h1>
+          <p class="subtitle">Browser Soccer</p>
+          <div class="team-select">
+            <label>Home <select id="home-select"></select></label>
+            <label>Away <select id="away-select"></select></label>
+          </div>
+          <button id="btn-quick-match" class="menu-btn">Quick Match</button>
+          <button id="btn-tournament" class="menu-btn">Tournament Mode</button>
+          <button id="btn-penalties" class="menu-btn disabled" disabled>Penalty Practice (Coming Soon)</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

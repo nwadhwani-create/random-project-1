@@ -1,0 +1,487 @@
+{
+  "code": "MAR",
+  "name": "Morocco",
+  "flagColors": [
+    "#C1272D",
+    "#006233"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#C1272D",
+      "secondary": "#006233"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#C1272D"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 82,
+  "players": [
+    {
+      "id": "mar-1",
+      "name": "Samuel Santos",
+      "number": 1,
+      "position": "GK",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.8527733191314835,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mar-2",
+      "name": "Carlos Kim",
+      "number": 2,
+      "position": "GK",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      },
+      "height": 1.786817564281465,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-3",
+      "name": "Luis Berg",
+      "number": 3,
+      "position": "CB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.8706757623615449,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mar-4",
+      "name": "Kenji Rahman",
+      "number": 4,
+      "position": "CB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 89
+      },
+      "height": 1.833769192661875,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mar-5",
+      "name": "Ali Costa",
+      "number": 5,
+      "position": "CB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 89,
+        "defending": 87,
+        "physical": 92
+      },
+      "height": 1.7706948004296932,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mar-6",
+      "name": "Diego Ali",
+      "number": 6,
+      "position": "LB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 80,
+        "physical": 79
+      },
+      "height": 1.7335014737523173,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mar-7",
+      "name": "Andre Santos",
+      "number": 7,
+      "position": "RB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 89,
+        "passing": 88,
+        "dribbling": 86,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.8135627125236788,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mar-8",
+      "name": "Thomas Tanaka",
+      "number": 8,
+      "position": "CDM",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 80
+      },
+      "height": 1.734731944096025,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-9",
+      "name": "Pedro Fernandez",
+      "number": 9,
+      "position": "CDM",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 88,
+        "passing": 85,
+        "dribbling": 88,
+        "defending": 83,
+        "physical": 84
+      },
+      "height": 1.8951956743981648,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mar-10",
+      "name": "Hans Tanaka",
+      "number": 10,
+      "position": "CM",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 82
+      },
+      "height": 1.7291219728431868,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mar-11",
+      "name": "Pedro Rahman",
+      "number": 11,
+      "position": "CM",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 87,
+        "passing": 90,
+        "dribbling": 88,
+        "defending": 90,
+        "physical": 92
+      },
+      "height": 1.838141078444329,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-12",
+      "name": "Kenji Berg",
+      "number": 12,
+      "position": "CAM",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 82,
+        "physical": 77
+      },
+      "height": 1.7431941133022253,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mar-13",
+      "name": "Yuki Kim",
+      "number": 13,
+      "position": "LW",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 81,
+        "physical": 84
+      },
+      "height": 1.7220838823654538,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mar-14",
+      "name": "Diego Patel",
+      "number": 14,
+      "position": "RW",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 80
+      },
+      "height": 1.8542102782467476,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "mar-15",
+      "name": "Thomas Rossi",
+      "number": 15,
+      "position": "ST",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 78
+      },
+      "height": 1.8954754790062787,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "mar-16",
+      "name": "Jean Novak",
+      "number": 16,
+      "position": "ST",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 79
+      },
+      "height": 1.767609730155775,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "mar-17",
+      "name": "Hassan Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 76
+      },
+      "height": 1.8698685843310026,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-18",
+      "name": "Kenji Nielsen",
+      "number": 18,
+      "position": "CB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 80
+      },
+      "height": 1.7729720774413757,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "mar-19",
+      "name": "Marco Haddad",
+      "number": 19,
+      "position": "LB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 85,
+        "physical": 82
+      },
+      "height": 1.8034264718959354,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-20",
+      "name": "Pedro Dubois",
+      "number": 20,
+      "position": "RB",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 80
+      },
+      "height": 1.8141881846396142,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "mar-21",
+      "name": "Pedro Santos",
+      "number": 21,
+      "position": "CM",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 83,
+        "physical": 87
+      },
+      "height": 1.8836645642143344,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-22",
+      "name": "Yuki Patel",
+      "number": 22,
+      "position": "LW",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 82
+      },
+      "height": 1.7312467418808926,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mar-23",
+      "name": "Marco Rahman",
+      "number": 23,
+      "position": "RW",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 76,
+        "physical": 79
+      },
+      "height": 1.833504623503894,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mar-24",
+      "name": "Diego Nielsen",
+      "number": 24,
+      "position": "CF",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 74
+      },
+      "height": 1.774738397826197,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "mar-25",
+      "name": "Hassan Fernandez",
+      "number": 25,
+      "position": "GK",
+      "club": "Morocco FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 64,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 74,
+        "diving": 79,
+        "handling": 74,
+        "kicking": 69,
+        "reflexes": 77,
+        "positioning": 74
+      },
+      "height": 1.7565253029917602,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    }
+  ]
+}

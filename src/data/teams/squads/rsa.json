@@ -1,0 +1,488 @@
+{
+  "code": "RSA",
+  "name": "South Africa",
+  "flagColors": [
+    "#007A4D",
+    "#FFB612",
+    "#DE3831"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#007A4D",
+      "secondary": "#FFB612"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#007A4D"
+    }
+  },
+  "formation": "4-2-3-1",
+  "strength": 68,
+  "players": [
+    {
+      "id": "rsa-1",
+      "name": "Diego Rahman",
+      "number": 1,
+      "position": "GK",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 65,
+        "diving": 70,
+        "handling": 65,
+        "kicking": 60,
+        "reflexes": 68,
+        "positioning": 65
+      },
+      "height": 1.8081154615880133,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-2",
+      "name": "Mohamed Patel",
+      "number": 2,
+      "position": "GK",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      },
+      "height": 1.896285891948534,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "rsa-3",
+      "name": "Marco Silva",
+      "number": 3,
+      "position": "CB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 67,
+        "physical": 64
+      },
+      "height": 1.8923902917209923,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "rsa-4",
+      "name": "Andre Rossi",
+      "number": 4,
+      "position": "CB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 72,
+        "physical": 73
+      },
+      "height": 1.885030867490015,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "rsa-5",
+      "name": "Diego Dubois",
+      "number": 5,
+      "position": "CB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 71
+      },
+      "height": 1.849195554050799,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "rsa-6",
+      "name": "Diego Weber",
+      "number": 6,
+      "position": "LB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 76
+      },
+      "height": 1.8029702632622515,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "rsa-7",
+      "name": "Pierre Ali",
+      "number": 7,
+      "position": "RB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 64
+      },
+      "height": 1.8932117137901594,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-8",
+      "name": "Mohamed Rossi",
+      "number": 8,
+      "position": "CDM",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 73
+      },
+      "height": 1.8701265498065636,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-9",
+      "name": "Samuel Sato",
+      "number": 9,
+      "position": "CDM",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 76
+      },
+      "height": 1.7295312727424608,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "rsa-10",
+      "name": "James Rossi",
+      "number": 10,
+      "position": "CM",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 79,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 74
+      },
+      "height": 1.8065091685825112,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "rsa-11",
+      "name": "Ivan Sato",
+      "number": 11,
+      "position": "CM",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 80
+      },
+      "height": 1.8879127144980363,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "rsa-12",
+      "name": "Lucas Fernandez",
+      "number": 12,
+      "position": "CAM",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 75
+      },
+      "height": 1.7261368127596908,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "rsa-13",
+      "name": "Samuel Sato",
+      "number": 13,
+      "position": "LW",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 66
+      },
+      "height": 1.853925414992427,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "rsa-14",
+      "name": "Carlos Ali",
+      "number": 14,
+      "position": "RW",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 61,
+        "physical": 63
+      },
+      "height": 1.889948053574141,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "rsa-15",
+      "name": "Kenji Berg",
+      "number": 15,
+      "position": "ST",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 62,
+        "physical": 62
+      },
+      "height": 1.7892828578588393,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "rsa-16",
+      "name": "James Patel",
+      "number": 16,
+      "position": "ST",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 73
+      },
+      "height": 1.7335278479135854,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "rsa-17",
+      "name": "Carlos Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 63,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 64
+      },
+      "height": 1.8995972071398024,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-18",
+      "name": "Ivan Okonkwo",
+      "number": 18,
+      "position": "CB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 58,
+        "shooting": 63,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 61,
+        "physical": 58
+      },
+      "height": 1.8113552581065848,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "rsa-19",
+      "name": "Pedro Patel",
+      "number": 19,
+      "position": "LB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 70,
+        "physical": 72
+      },
+      "height": 1.871553966711791,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "rsa-20",
+      "name": "Luis Garcia",
+      "number": 20,
+      "position": "RB",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 62,
+        "passing": 61,
+        "dribbling": 63,
+        "defending": 63,
+        "physical": 62
+      },
+      "height": 1.802246796723685,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "rsa-21",
+      "name": "Hassan Haddad",
+      "number": 21,
+      "position": "CM",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.8253698650145622,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-22",
+      "name": "Andre Silva",
+      "number": 22,
+      "position": "LW",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 71,
+        "physical": 72
+      },
+      "height": 1.8569051368133214,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-23",
+      "name": "Marco Garcia",
+      "number": 23,
+      "position": "RW",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 71
+      },
+      "height": 1.828509211631966,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "rsa-24",
+      "name": "Hans Novak",
+      "number": 24,
+      "position": "CF",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 73
+      },
+      "height": 1.8854903192496768,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "rsa-25",
+      "name": "Diego Kim",
+      "number": 25,
+      "position": "GK",
+      "club": "South Africa FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 70,
+        "diving": 75,
+        "handling": 70,
+        "kicking": 65,
+        "reflexes": 73,
+        "positioning": 70
+      },
+      "height": 1.8812536593817675,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    }
+  ]
+}

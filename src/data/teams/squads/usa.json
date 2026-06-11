@@ -1,0 +1,488 @@
+{
+  "code": "USA",
+  "name": "United States",
+  "flagColors": [
+    "#BF0A30",
+    "#FFFFFF",
+    "#002868"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#BF0A30",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#002868",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 78,
+  "players": [
+    {
+      "id": "usa-1",
+      "name": "Pedro Garcia",
+      "number": 1,
+      "position": "GK",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      },
+      "height": 1.8757865328581877,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-2",
+      "name": "Lucas Santos",
+      "number": 2,
+      "position": "GK",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      },
+      "height": 1.861020055740159,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-3",
+      "name": "Hassan Santos",
+      "number": 3,
+      "position": "CB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 83
+      },
+      "height": 1.7232475563168967,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "usa-4",
+      "name": "Hassan Kim",
+      "number": 4,
+      "position": "CB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 76,
+        "physical": 74
+      },
+      "height": 1.7306617048202657,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "usa-5",
+      "name": "Thomas Dubois",
+      "number": 5,
+      "position": "CB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 80
+      },
+      "height": 1.888445930861352,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-6",
+      "name": "Ali Rossi",
+      "number": 6,
+      "position": "LB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 84
+      },
+      "height": 1.7477046579753093,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-7",
+      "name": "Mohamed Dubois",
+      "number": 7,
+      "position": "RB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 89,
+        "defending": 84,
+        "physical": 84
+      },
+      "height": 1.7530362143395806,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "usa-8",
+      "name": "Samuel Weber",
+      "number": 8,
+      "position": "CDM",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 82
+      },
+      "height": 1.7578238525780139,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "usa-9",
+      "name": "Marco Rahman",
+      "number": 9,
+      "position": "CDM",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 79,
+        "passing": 76,
+        "dribbling": 81,
+        "defending": 76,
+        "physical": 78
+      },
+      "height": 1.8266990719984277,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-10",
+      "name": "Hassan Dubois",
+      "number": 10,
+      "position": "CM",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 77
+      },
+      "height": 1.7552027664102638,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "usa-11",
+      "name": "Lucas Patel",
+      "number": 11,
+      "position": "CM",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.8227985324829803,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "usa-12",
+      "name": "Pierre Müller",
+      "number": 12,
+      "position": "CAM",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 72,
+        "physical": 73
+      },
+      "height": 1.8976081625722425,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "usa-13",
+      "name": "James Okonkwo",
+      "number": 13,
+      "position": "LW",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 71
+      },
+      "height": 1.829846181264004,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "usa-14",
+      "name": "Hans Rossi",
+      "number": 14,
+      "position": "RW",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 68
+      },
+      "height": 1.8178169411959284,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "usa-15",
+      "name": "Marco Fernandez",
+      "number": 15,
+      "position": "ST",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 79
+      },
+      "height": 1.7361865472851195,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-16",
+      "name": "Mohamed Ali",
+      "number": 16,
+      "position": "ST",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 82
+      },
+      "height": 1.8064869068344,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-17",
+      "name": "Ali Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 74,
+        "physical": 76
+      },
+      "height": 1.8244615185022928,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "usa-18",
+      "name": "Lucas Berg",
+      "number": 18,
+      "position": "CB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.8305468484391894,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "usa-19",
+      "name": "Omar Berg",
+      "number": 19,
+      "position": "LB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.7256177140359,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "usa-20",
+      "name": "Lucas Patel",
+      "number": 20,
+      "position": "RB",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 81
+      },
+      "height": 1.88627610280763,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "usa-21",
+      "name": "Thomas Patel",
+      "number": 21,
+      "position": "CM",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 76,
+        "physical": 79
+      },
+      "height": 1.8862225154565857,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "usa-22",
+      "name": "Ali Costa",
+      "number": 22,
+      "position": "LW",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 77
+      },
+      "height": 1.8297343342376262,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "usa-23",
+      "name": "Pierre Kim",
+      "number": 23,
+      "position": "RW",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 74
+      },
+      "height": 1.7360115056540923,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-24",
+      "name": "Ali Dubois",
+      "number": 24,
+      "position": "CF",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 70,
+        "physical": 72
+      },
+      "height": 1.8508662799195073,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "usa-25",
+      "name": "Pedro Tanaka",
+      "number": 25,
+      "position": "GK",
+      "club": "United States FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 70,
+        "diving": 75,
+        "handling": 70,
+        "kicking": 65,
+        "reflexes": 73,
+        "positioning": 70
+      },
+      "height": 1.8536178375348615,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "code": "HAI",
+  "name": "Haiti",
+  "flagColors": [
+    "#00209F",
+    "#D21034"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#00209F",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#D21034"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 62,
+  "players": [
+    {
+      "id": "hai-1",
+      "name": "Pedro Novak",
+      "number": 1,
+      "position": "GK",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 49,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 59,
+        "diving": 64,
+        "handling": 59,
+        "kicking": 54,
+        "reflexes": 62,
+        "positioning": 59
+      },
+      "height": 1.7769749866490951,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "hai-2",
+      "name": "Hassan Novak",
+      "number": 2,
+      "position": "GK",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 73,
+        "diving": 78,
+        "handling": 73,
+        "kicking": 68,
+        "reflexes": 76,
+        "positioning": 73
+      },
+      "height": 1.771391466503396,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "hai-3",
+      "name": "James Novak",
+      "number": 3,
+      "position": "CB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 67,
+        "physical": 67
+      },
+      "height": 1.7600085271615613,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "hai-4",
+      "name": "Carlos Müller",
+      "number": 4,
+      "position": "CB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 68
+      },
+      "height": 1.8941586181467014,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "hai-5",
+      "name": "Omar Dubois",
+      "number": 5,
+      "position": "CB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 73
+      },
+      "height": 1.7675263753975987,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "hai-6",
+      "name": "Luis Kim",
+      "number": 6,
+      "position": "LB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 65,
+        "passing": 61,
+        "dribbling": 65,
+        "defending": 64,
+        "physical": 62
+      },
+      "height": 1.8114076316742298,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "hai-7",
+      "name": "Carlos Silva",
+      "number": 7,
+      "position": "RB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 75,
+        "physical": 76
+      },
+      "height": 1.8077150429857103,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "hai-8",
+      "name": "Kenji Dubois",
+      "number": 8,
+      "position": "CDM",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 59,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 61,
+        "physical": 63
+      },
+      "height": 1.7788111976057395,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "hai-9",
+      "name": "Andre Sato",
+      "number": 9,
+      "position": "CDM",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 64,
+        "physical": 66
+      },
+      "height": 1.8617459447325635,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "hai-10",
+      "name": "Yuki Santos",
+      "number": 10,
+      "position": "CM",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 65,
+        "physical": 65
+      },
+      "height": 1.728551849535249,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "hai-11",
+      "name": "Jean Haddad",
+      "number": 11,
+      "position": "CM",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 59,
+        "dribbling": 61,
+        "defending": 59,
+        "physical": 60
+      },
+      "height": 1.8420072610415585,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "hai-12",
+      "name": "Marco Ali",
+      "number": 12,
+      "position": "CAM",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 55,
+        "shooting": 55,
+        "passing": 52,
+        "dribbling": 55,
+        "defending": 52,
+        "physical": 57
+      },
+      "height": 1.8429944812627457,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "hai-13",
+      "name": "Hassan Costa",
+      "number": 13,
+      "position": "LW",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 65,
+        "physical": 61
+      },
+      "height": 1.8344536397647613,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "hai-14",
+      "name": "Jean Okonkwo",
+      "number": 14,
+      "position": "RW",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 61,
+        "dribbling": 63,
+        "defending": 61,
+        "physical": 60
+      },
+      "height": 1.8908221358720418,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "hai-15",
+      "name": "Ivan Ali",
+      "number": 15,
+      "position": "ST",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 60,
+        "physical": 64
+      },
+      "height": 1.7832582615159995,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "hai-16",
+      "name": "Kenji Müller",
+      "number": 16,
+      "position": "ST",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 66,
+        "physical": 71
+      },
+      "height": 1.7871341220262777,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "hai-17",
+      "name": "Pierre Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 62,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 58,
+        "physical": 61
+      },
+      "height": 1.8605017978050762,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "hai-18",
+      "name": "Lucas Novak",
+      "number": 18,
+      "position": "CB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 56,
+        "passing": 52,
+        "dribbling": 56,
+        "defending": 57,
+        "physical": 53
+      },
+      "height": 1.8034113226117672,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "hai-19",
+      "name": "Carlos Tanaka",
+      "number": 19,
+      "position": "LB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 68,
+        "physical": 63
+      },
+      "height": 1.7644623173814846,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "hai-20",
+      "name": "Ivan Dubois",
+      "number": 20,
+      "position": "RB",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 55,
+        "shooting": 57,
+        "passing": 53,
+        "dribbling": 53,
+        "defending": 54,
+        "physical": 54
+      },
+      "height": 1.8420514231101157,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "hai-21",
+      "name": "Ali Santos",
+      "number": 21,
+      "position": "CM",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 66,
+        "physical": 68
+      },
+      "height": 1.8396855289299838,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "hai-22",
+      "name": "Diego Tanaka",
+      "number": 22,
+      "position": "LW",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 54,
+        "shooting": 53,
+        "passing": 54,
+        "dribbling": 56,
+        "defending": 54,
+        "physical": 56
+      },
+      "height": 1.7980438205395302,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "hai-23",
+      "name": "Pedro Weber",
+      "number": 23,
+      "position": "RW",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 57,
+        "passing": 61,
+        "dribbling": 58,
+        "defending": 62,
+        "physical": 57
+      },
+      "height": 1.725160584482514,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "hai-24",
+      "name": "Luis Weber",
+      "number": 24,
+      "position": "CF",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 61,
+        "physical": 63
+      },
+      "height": 1.8163172479777758,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "hai-25",
+      "name": "Pedro Sato",
+      "number": 25,
+      "position": "GK",
+      "club": "Haiti FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 46,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 56,
+        "diving": 61,
+        "handling": 56,
+        "kicking": 51,
+        "reflexes": 59,
+        "positioning": 56
+      },
+      "height": 1.7654924715547753,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "code": "PAR",
+  "name": "Paraguay",
+  "flagColors": [
+    "#D52B1E",
+    "#FFFFFF",
+    "#0038A8"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#D52B1E"
+    },
+    "away": {
+      "primary": "#0038A8",
+      "secondary": "#FFFFFF"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 72,
+  "players": [
+    {
+      "id": "par-1",
+      "name": "Pierre Berg",
+      "number": 1,
+      "position": "GK",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.740444390317839,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "par-2",
+      "name": "Mohamed Patel",
+      "number": 2,
+      "position": "GK",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.7515517280730901,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "par-3",
+      "name": "Lucas Rahman",
+      "number": 3,
+      "position": "CB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 80,
+        "physical": 76
+      },
+      "height": 1.8815330270412685,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "par-4",
+      "name": "James Haddad",
+      "number": 4,
+      "position": "CB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 70
+      },
+      "height": 1.859400030075945,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "par-5",
+      "name": "James Weber",
+      "number": 5,
+      "position": "CB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 75
+      },
+      "height": 1.8099451772402462,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "par-6",
+      "name": "Ali Tanaka",
+      "number": 6,
+      "position": "LB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 82,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.858235868549194,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "par-7",
+      "name": "Hassan Müller",
+      "number": 7,
+      "position": "RB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 71,
+        "physical": 73
+      },
+      "height": 1.8533872131569191,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "par-8",
+      "name": "Jean Costa",
+      "number": 8,
+      "position": "CDM",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 85
+      },
+      "height": 1.8024292469512944,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "par-9",
+      "name": "Thomas Novak",
+      "number": 9,
+      "position": "CDM",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 72
+      },
+      "height": 1.8123634735703127,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "par-10",
+      "name": "Samuel Weber",
+      "number": 10,
+      "position": "CM",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 75
+      },
+      "height": 1.8578155707547586,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "par-11",
+      "name": "Mohamed Santos",
+      "number": 11,
+      "position": "CM",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 72,
+        "physical": 76
+      },
+      "height": 1.7730268964292732,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "par-12",
+      "name": "Samuel Garcia",
+      "number": 12,
+      "position": "CAM",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 76
+      },
+      "height": 1.734665463030958,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "par-13",
+      "name": "Hans Ali",
+      "number": 13,
+      "position": "LW",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 65,
+        "physical": 64
+      },
+      "height": 1.87800464872085,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "par-14",
+      "name": "Lucas Fernandez",
+      "number": 14,
+      "position": "RW",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 69,
+        "physical": 66
+      },
+      "height": 1.7820791658685349,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "par-15",
+      "name": "Mohamed Tanaka",
+      "number": 15,
+      "position": "ST",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 75
+      },
+      "height": 1.842379168432559,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "par-16",
+      "name": "Hans Tanaka",
+      "number": 16,
+      "position": "ST",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 66,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 66,
+        "physical": 62
+      },
+      "height": 1.8405687890765898,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "par-17",
+      "name": "Andre Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 67
+      },
+      "height": 1.794732895693493,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "par-18",
+      "name": "Omar Rossi",
+      "number": 18,
+      "position": "CB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 68,
+        "physical": 69
+      },
+      "height": 1.7921636677739803,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "par-19",
+      "name": "Luis Weber",
+      "number": 19,
+      "position": "LB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 69,
+        "physical": 69
+      },
+      "height": 1.8374902193038634,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "par-20",
+      "name": "Ali Costa",
+      "number": 20,
+      "position": "RB",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.8982174907235592,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "par-21",
+      "name": "Hassan Costa",
+      "number": 21,
+      "position": "CM",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 68,
+        "physical": 66
+      },
+      "height": 1.7645172145725387,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "par-22",
+      "name": "Pierre Müller",
+      "number": 22,
+      "position": "LW",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 62,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 62,
+        "physical": 66
+      },
+      "height": 1.8840759393890163,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "par-23",
+      "name": "Pierre Costa",
+      "number": 23,
+      "position": "RW",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 72
+      },
+      "height": 1.7410069175260205,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "par-24",
+      "name": "Carlos Okonkwo",
+      "number": 24,
+      "position": "CF",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 67
+      },
+      "height": 1.7401143584960275,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "par-25",
+      "name": "Hans Weber",
+      "number": 25,
+      "position": "GK",
+      "club": "Paraguay FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.7288894811448543,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    }
+  ]
+}

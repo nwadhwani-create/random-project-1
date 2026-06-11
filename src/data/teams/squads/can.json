@@ -1,0 +1,487 @@
+{
+  "code": "CAN",
+  "name": "Canada",
+  "flagColors": [
+    "#FF0000",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FF0000",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#FF0000"
+    }
+  },
+  "formation": "4-4-2",
+  "strength": 75,
+  "players": [
+    {
+      "id": "can-1",
+      "name": "Pedro Novak",
+      "number": 1,
+      "position": "GK",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      },
+      "height": 1.7769749866490951,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "can-2",
+      "name": "Hassan Novak",
+      "number": 2,
+      "position": "GK",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      },
+      "height": 1.771391466503396,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "can-3",
+      "name": "James Novak",
+      "number": 3,
+      "position": "CB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 80
+      },
+      "height": 1.7600085271615613,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "can-4",
+      "name": "Carlos Müller",
+      "number": 4,
+      "position": "CB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 81
+      },
+      "height": 1.8941586181467014,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "can-5",
+      "name": "Omar Dubois",
+      "number": 5,
+      "position": "CB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 84,
+        "physical": 86
+      },
+      "height": 1.7675263753975987,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "can-6",
+      "name": "Luis Kim",
+      "number": 6,
+      "position": "LB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 75
+      },
+      "height": 1.8114076316742298,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "can-7",
+      "name": "Carlos Silva",
+      "number": 7,
+      "position": "RB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 86,
+        "passing": 89,
+        "dribbling": 85,
+        "defending": 88,
+        "physical": 89
+      },
+      "height": 1.8077150429857103,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "can-8",
+      "name": "Kenji Dubois",
+      "number": 8,
+      "position": "CDM",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 76
+      },
+      "height": 1.7788111976057395,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "can-9",
+      "name": "Andre Sato",
+      "number": 9,
+      "position": "CDM",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 79
+      },
+      "height": 1.8617459447325635,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "can-10",
+      "name": "Yuki Santos",
+      "number": 10,
+      "position": "CM",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 78
+      },
+      "height": 1.728551849535249,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "can-11",
+      "name": "Jean Haddad",
+      "number": 11,
+      "position": "CM",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 73
+      },
+      "height": 1.8420072610415585,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "can-12",
+      "name": "Marco Ali",
+      "number": 12,
+      "position": "CAM",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 65,
+        "physical": 70
+      },
+      "height": 1.8429944812627457,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "can-13",
+      "name": "Hassan Costa",
+      "number": 13,
+      "position": "LW",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 74
+      },
+      "height": 1.8344536397647613,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "can-14",
+      "name": "Jean Okonkwo",
+      "number": 14,
+      "position": "RW",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 73
+      },
+      "height": 1.8908221358720418,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "can-15",
+      "name": "Ivan Ali",
+      "number": 15,
+      "position": "ST",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 77
+      },
+      "height": 1.7832582615159995,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "can-16",
+      "name": "Kenji Müller",
+      "number": 16,
+      "position": "ST",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 84
+      },
+      "height": 1.7871341220262777,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "can-17",
+      "name": "Pierre Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 71,
+        "physical": 74
+      },
+      "height": 1.8605017978050762,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "can-18",
+      "name": "Lucas Novak",
+      "number": 18,
+      "position": "CB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 66
+      },
+      "height": 1.8034113226117672,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "can-19",
+      "name": "Carlos Tanaka",
+      "number": 19,
+      "position": "LB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 76
+      },
+      "height": 1.7644623173814846,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "can-20",
+      "name": "Ivan Dubois",
+      "number": 20,
+      "position": "RB",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 70,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 67,
+        "physical": 67
+      },
+      "height": 1.8420514231101157,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "can-21",
+      "name": "Ali Santos",
+      "number": 21,
+      "position": "CM",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 81
+      },
+      "height": 1.8396855289299838,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "can-22",
+      "name": "Diego Tanaka",
+      "number": 22,
+      "position": "LW",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 67,
+        "physical": 69
+      },
+      "height": 1.7980438205395302,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "can-23",
+      "name": "Pedro Weber",
+      "number": 23,
+      "position": "RW",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 70
+      },
+      "height": 1.725160584482514,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "can-24",
+      "name": "Luis Weber",
+      "number": 24,
+      "position": "CF",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 76
+      },
+      "height": 1.8163172479777758,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "can-25",
+      "name": "Pedro Sato",
+      "number": 25,
+      "position": "GK",
+      "club": "Canada FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 69,
+        "diving": 74,
+        "handling": 69,
+        "kicking": 64,
+        "reflexes": 72,
+        "positioning": 69
+      },
+      "height": 1.7654924715547753,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    }
+  ]
+}

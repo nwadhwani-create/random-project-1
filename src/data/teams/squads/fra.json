@@ -1,0 +1,488 @@
+{
+  "code": "FRA",
+  "name": "France",
+  "flagColors": [
+    "#002395",
+    "#FFFFFF",
+    "#ED2939"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#002395",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#ED2939"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 90,
+  "players": [
+    {
+      "id": "fra-1",
+      "name": "Thomas Ali",
+      "number": 1,
+      "position": "GK",
+      "club": "France FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      },
+      "height": 1.8148741528902894,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "fra-2",
+      "name": "Andre Tanaka",
+      "number": 2,
+      "position": "GK",
+      "club": "France FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      },
+      "height": 1.8691045154343402,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "fra-3",
+      "name": "Thomas Haddad",
+      "number": 3,
+      "position": "CB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 94,
+        "dribbling": 92,
+        "defending": 93,
+        "physical": 90
+      },
+      "height": 1.7253421447196435,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "fra-4",
+      "name": "Marco Ali",
+      "number": 4,
+      "position": "CB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 91,
+        "shooting": 94,
+        "passing": 94,
+        "dribbling": 90,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.7739639053623788,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "fra-5",
+      "name": "Samuel Rossi",
+      "number": 5,
+      "position": "CB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 88,
+        "passing": 89,
+        "dribbling": 91,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.8591105879555554,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "fra-6",
+      "name": "Mohamed Haddad",
+      "number": 6,
+      "position": "LB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 87,
+        "passing": 90,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 91
+      },
+      "height": 1.862454552755183,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "fra-7",
+      "name": "Ivan Novak",
+      "number": 7,
+      "position": "RB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 88,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.7206388777127852,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "fra-8",
+      "name": "Mohamed Fernandez",
+      "number": 8,
+      "position": "CDM",
+      "club": "France FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 91,
+        "passing": 90,
+        "dribbling": 87,
+        "defending": 91,
+        "physical": 87
+      },
+      "height": 1.7567715708508822,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "fra-9",
+      "name": "Samuel Kim",
+      "number": 9,
+      "position": "CDM",
+      "club": "France FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 93,
+        "passing": 91,
+        "dribbling": 94,
+        "defending": 93,
+        "physical": 92
+      },
+      "height": 1.7884708095234547,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "fra-10",
+      "name": "Ivan Rossi",
+      "number": 10,
+      "position": "CM",
+      "club": "France FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 91,
+        "passing": 89,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 90
+      },
+      "height": 1.728836911189218,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "fra-11",
+      "name": "Kenji Novak",
+      "number": 11,
+      "position": "CM",
+      "club": "France FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 91,
+        "dribbling": 91,
+        "defending": 90,
+        "physical": 92
+      },
+      "height": 1.7500741697010342,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "fra-12",
+      "name": "Carlos Santos",
+      "number": 12,
+      "position": "CAM",
+      "club": "France FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 94,
+        "dribbling": 93,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.8830942973243951,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "fra-13",
+      "name": "Samuel Garcia",
+      "number": 13,
+      "position": "LW",
+      "club": "France FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 92,
+        "passing": 88,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 90
+      },
+      "height": 1.7782687610651076,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "fra-14",
+      "name": "Hassan Nielsen",
+      "number": 14,
+      "position": "RW",
+      "club": "France FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 89,
+        "passing": 88,
+        "dribbling": 89,
+        "defending": 85,
+        "physical": 89
+      },
+      "height": 1.7825162070174851,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "fra-15",
+      "name": "Mohamed Kim",
+      "number": 15,
+      "position": "ST",
+      "club": "France FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 91,
+        "passing": 87,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.839366870261139,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "fra-16",
+      "name": "Diego Costa",
+      "number": 16,
+      "position": "ST",
+      "club": "France FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 90
+      },
+      "height": 1.7773719260910263,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "fra-17",
+      "name": "Omar Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "France FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 92,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 93,
+        "physical": 91
+      },
+      "height": 1.8651851910680395,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "fra-18",
+      "name": "Luis Berg",
+      "number": 18,
+      "position": "CB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 85
+      },
+      "height": 1.7881917000265715,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "fra-19",
+      "name": "Omar Okonkwo",
+      "number": 19,
+      "position": "LB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 91,
+        "defending": 94,
+        "physical": 89
+      },
+      "height": 1.7839443946387101,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "fra-20",
+      "name": "Mohamed Dubois",
+      "number": 20,
+      "position": "RB",
+      "club": "France FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 94,
+        "passing": 89,
+        "dribbling": 90,
+        "defending": 94,
+        "physical": 92
+      },
+      "height": 1.7381198038329555,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "fra-21",
+      "name": "Ivan Rahman",
+      "number": 21,
+      "position": "CM",
+      "club": "France FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 88,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 84,
+        "physical": 87
+      },
+      "height": 1.861675046572159,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "fra-22",
+      "name": "Andre Dubois",
+      "number": 22,
+      "position": "LW",
+      "club": "France FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 88,
+        "physical": 87
+      },
+      "height": 1.8546452812521208,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "fra-23",
+      "name": "Thomas Dubois",
+      "number": 23,
+      "position": "RW",
+      "club": "France FC",
+      "ratings": {
+        "pace": 93,
+        "shooting": 90,
+        "passing": 92,
+        "dribbling": 89,
+        "defending": 93,
+        "physical": 92
+      },
+      "height": 1.8693326040351135,
+      "skinTone": 14061650,
+      "hairColor": 13935988
+    },
+    {
+      "id": "fra-24",
+      "name": "Pedro Haddad",
+      "number": 24,
+      "position": "CF",
+      "club": "France FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 91,
+        "passing": 91,
+        "dribbling": 92,
+        "defending": 91,
+        "physical": 92
+      },
+      "height": 1.7955278229019864,
+      "skinTone": 12746822,
+      "hairColor": 13935988
+    },
+    {
+      "id": "fra-25",
+      "name": "Carlos Novak",
+      "number": 25,
+      "position": "GK",
+      "club": "France FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 81,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 91,
+        "diving": 96,
+        "handling": 91,
+        "kicking": 86,
+        "reflexes": 94,
+        "positioning": 91
+      },
+      "height": 1.7610088872732677,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    }
+  ]
+}

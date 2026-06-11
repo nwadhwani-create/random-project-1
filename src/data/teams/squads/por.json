@@ -1,0 +1,487 @@
+{
+  "code": "POR",
+  "name": "Portugal",
+  "flagColors": [
+    "#006600",
+    "#FF0000"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#CE1126",
+      "secondary": "#006600"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#CE1126"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 87,
+  "players": [
+    {
+      "id": "por-1",
+      "name": "Kenji Müller",
+      "number": 1,
+      "position": "GK",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      },
+      "height": 1.8162427228002276,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "por-2",
+      "name": "Pedro Sato",
+      "number": 2,
+      "position": "GK",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 79,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 89,
+        "diving": 94,
+        "handling": 89,
+        "kicking": 84,
+        "reflexes": 92,
+        "positioning": 89
+      },
+      "height": 1.766977825851159,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "por-3",
+      "name": "Mohamed Fernandez",
+      "number": 3,
+      "position": "CB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 90,
+        "passing": 88,
+        "dribbling": 89,
+        "defending": 90,
+        "physical": 87
+      },
+      "height": 1.812200262157433,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "por-4",
+      "name": "Ivan Santos",
+      "number": 4,
+      "position": "CB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 94,
+        "shooting": 89,
+        "passing": 92,
+        "dribbling": 90,
+        "defending": 94,
+        "physical": 91
+      },
+      "height": 1.7990106045911187,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "por-5",
+      "name": "Hassan Silva",
+      "number": 5,
+      "position": "CB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 93,
+        "passing": 88,
+        "dribbling": 91,
+        "defending": 92,
+        "physical": 88
+      },
+      "height": 1.8131136022723406,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "por-6",
+      "name": "Mohamed Santos",
+      "number": 6,
+      "position": "LB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 89,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 92
+      },
+      "height": 1.7803297106272817,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "por-7",
+      "name": "Pierre Tanaka",
+      "number": 7,
+      "position": "RB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 86,
+        "dribbling": 85,
+        "defending": 81,
+        "physical": 81
+      },
+      "height": 1.8592348826948877,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "por-8",
+      "name": "Pedro Berg",
+      "number": 8,
+      "position": "CDM",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 94,
+        "dribbling": 93,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.7583499934415798,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "por-9",
+      "name": "Jean Haddad",
+      "number": 9,
+      "position": "CDM",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 86,
+        "passing": 88,
+        "dribbling": 89,
+        "defending": 84,
+        "physical": 85
+      },
+      "height": 1.8458132032359142,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "por-10",
+      "name": "Luis Silva",
+      "number": 10,
+      "position": "CM",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 85,
+        "dribbling": 87,
+        "defending": 89,
+        "physical": 86
+      },
+      "height": 1.8583856940626964,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "por-11",
+      "name": "Hans Berg",
+      "number": 11,
+      "position": "CM",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 91,
+        "dribbling": 92,
+        "defending": 93,
+        "physical": 92
+      },
+      "height": 1.7691607138320438,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "por-12",
+      "name": "Jean Haddad",
+      "number": 12,
+      "position": "CAM",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 94,
+        "dribbling": 91,
+        "defending": 89,
+        "physical": 89
+      },
+      "height": 1.8148650951542566,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "por-13",
+      "name": "Ali Patel",
+      "number": 13,
+      "position": "LW",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 84,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 82
+      },
+      "height": 1.7656348913215425,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "por-14",
+      "name": "Pedro Rossi",
+      "number": 14,
+      "position": "RW",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 93,
+        "defending": 93,
+        "physical": 93
+      },
+      "height": 1.7454673082432406,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "por-15",
+      "name": "Luis Dubois",
+      "number": 15,
+      "position": "ST",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 88,
+        "defending": 88,
+        "physical": 88
+      },
+      "height": 1.7745963858390192,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "por-16",
+      "name": "James Ali",
+      "number": 16,
+      "position": "ST",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 81
+      },
+      "height": 1.821044397206087,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "por-17",
+      "name": "Carlos Santos",
+      "number": 17,
+      "position": "ST",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 84,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 84,
+        "physical": 83
+      },
+      "height": 1.8040996822194193,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "por-18",
+      "name": "Ali Silva",
+      "number": 18,
+      "position": "CB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 92
+      },
+      "height": 1.7617244226035889,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "por-19",
+      "name": "Diego Silva",
+      "number": 19,
+      "position": "LB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.876454373818314,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "por-20",
+      "name": "Kenji Costa",
+      "number": 20,
+      "position": "RB",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 90,
+        "shooting": 93,
+        "passing": 92,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 92
+      },
+      "height": 1.8703542522530576,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "por-21",
+      "name": "Yuki Costa",
+      "number": 21,
+      "position": "CM",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 80
+      },
+      "height": 1.8084962498568895,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "por-22",
+      "name": "James Costa",
+      "number": 22,
+      "position": "LW",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 87,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 88,
+        "physical": 87
+      },
+      "height": 1.8172788607303787,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "por-23",
+      "name": "Hassan Dubois",
+      "number": 23,
+      "position": "RW",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 84
+      },
+      "height": 1.849350956547401,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "por-24",
+      "name": "Marco Ali",
+      "number": 24,
+      "position": "CF",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 80
+      },
+      "height": 1.8785355084282676,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "por-25",
+      "name": "Hans Dubois",
+      "number": 25,
+      "position": "GK",
+      "club": "Portugal FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      },
+      "height": 1.8999223126656584,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    }
+  ]
+}

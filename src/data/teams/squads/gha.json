@@ -1,0 +1,488 @@
+{
+  "code": "GHA",
+  "name": "Ghana",
+  "flagColors": [
+    "#CE1126",
+    "#FCD116",
+    "#006B3F"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#FFFFFF",
+      "secondary": "#CE1126"
+    },
+    "away": {
+      "primary": "#006B3F",
+      "secondary": "#FCD116"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 74,
+  "players": [
+    {
+      "id": "gha-1",
+      "name": "Marco Kim",
+      "number": 1,
+      "position": "GK",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 71,
+        "diving": 76,
+        "handling": 71,
+        "kicking": 66,
+        "reflexes": 74,
+        "positioning": 71
+      },
+      "height": 1.7918609391635851,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "gha-2",
+      "name": "Omar Santos",
+      "number": 2,
+      "position": "GK",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      },
+      "height": 1.7949020239756461,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-3",
+      "name": "Hans Dubois",
+      "number": 3,
+      "position": "CB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 85
+      },
+      "height": 1.8727703507642917,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "gha-4",
+      "name": "Thomas Haddad",
+      "number": 4,
+      "position": "CB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 70
+      },
+      "height": 1.877071393203988,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "gha-5",
+      "name": "Ivan Berg",
+      "number": 5,
+      "position": "CB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 78
+      },
+      "height": 1.7413594575238966,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-6",
+      "name": "Pedro Kim",
+      "number": 6,
+      "position": "LB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 83
+      },
+      "height": 1.8482513685321913,
+      "skinTone": 12089408,
+      "hairColor": 9127187
+    },
+    {
+      "id": "gha-7",
+      "name": "Pierre Müller",
+      "number": 7,
+      "position": "RB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 72
+      },
+      "height": 1.7811653758968835,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-8",
+      "name": "Omar Kim",
+      "number": 8,
+      "position": "CDM",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 80
+      },
+      "height": 1.7336796623688933,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-9",
+      "name": "Kenji Silva",
+      "number": 9,
+      "position": "CDM",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 77,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 80
+      },
+      "height": 1.8569674119231918,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-10",
+      "name": "Carlos Ali",
+      "number": 10,
+      "position": "CM",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 83
+      },
+      "height": 1.88275611770596,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-11",
+      "name": "Mohamed Patel",
+      "number": 11,
+      "position": "CM",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 75
+      },
+      "height": 1.7654167156623832,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-12",
+      "name": "Hans Fernandez",
+      "number": 12,
+      "position": "CAM",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 80,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 77
+      },
+      "height": 1.728680248054378,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "gha-13",
+      "name": "Pierre Sato",
+      "number": 13,
+      "position": "LW",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 67
+      },
+      "height": 1.8505064622503764,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-14",
+      "name": "Hans Patel",
+      "number": 14,
+      "position": "RW",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.8189095440683043,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-15",
+      "name": "Diego Costa",
+      "number": 15,
+      "position": "ST",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 68,
+        "physical": 73
+      },
+      "height": 1.8186558018984793,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "gha-16",
+      "name": "Luis Fernandez",
+      "number": 16,
+      "position": "ST",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 68
+      },
+      "height": 1.7384947494124012,
+      "skinTone": 15376478,
+      "hairColor": 13935988
+    },
+    {
+      "id": "gha-17",
+      "name": "Carlos Silva",
+      "number": 17,
+      "position": "ST",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 76
+      },
+      "height": 1.7305922568129304,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "gha-18",
+      "name": "Thomas Nielsen",
+      "number": 18,
+      "position": "CB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 79
+      },
+      "height": 1.7306169290287579,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "gha-19",
+      "name": "Andre Berg",
+      "number": 19,
+      "position": "LB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 64,
+        "physical": 69
+      },
+      "height": 1.8617531524987454,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-20",
+      "name": "Hassan Rossi",
+      "number": 20,
+      "position": "RB",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 73
+      },
+      "height": 1.8460318857487588,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "gha-21",
+      "name": "Ali Dubois",
+      "number": 21,
+      "position": "CM",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 76,
+        "physical": 75
+      },
+      "height": 1.8591170953299079,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-22",
+      "name": "Hans Müller",
+      "number": 22,
+      "position": "LW",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 72
+      },
+      "height": 1.7561576888953874,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-23",
+      "name": "Luis Okonkwo",
+      "number": 23,
+      "position": "RW",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 80
+      },
+      "height": 1.7868257218010963,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-24",
+      "name": "Carlos Garcia",
+      "number": 24,
+      "position": "CF",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 82,
+        "physical": 77
+      },
+      "height": 1.899399940892495,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "gha-25",
+      "name": "James Weber",
+      "number": 25,
+      "position": "GK",
+      "club": "Ghana FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      },
+      "height": 1.8439163528139855,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    }
+  ]
+}

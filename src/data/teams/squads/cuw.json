@@ -1,0 +1,488 @@
+{
+  "code": "CUW",
+  "name": "Curaçao",
+  "flagColors": [
+    "#002B7F",
+    "#F9E814",
+    "#FFFFFF"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#002B7F",
+      "secondary": "#F9E814"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#002B7F"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 60,
+  "players": [
+    {
+      "id": "cuw-1",
+      "name": "Yuki Haddad",
+      "number": 1,
+      "position": "GK",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 47,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 57,
+        "diving": 62,
+        "handling": 57,
+        "kicking": 52,
+        "reflexes": 60,
+        "positioning": 57
+      },
+      "height": 1.8311286753147176,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cuw-2",
+      "name": "Omar Rossi",
+      "number": 2,
+      "position": "GK",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 50,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 60,
+        "diving": 65,
+        "handling": 60,
+        "kicking": 55,
+        "reflexes": 63,
+        "positioning": 60
+      },
+      "height": 1.790488383323409,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-3",
+      "name": "Luis Rahman",
+      "number": 3,
+      "position": "CB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 67,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 66
+      },
+      "height": 1.7449620856763441,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cuw-4",
+      "name": "Lucas Sato",
+      "number": 4,
+      "position": "CB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 62,
+        "shooting": 62,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 60,
+        "physical": 60
+      },
+      "height": 1.7819233796484055,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cuw-5",
+      "name": "Carlos Sato",
+      "number": 5,
+      "position": "CB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 62,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 61,
+        "physical": 61
+      },
+      "height": 1.7869466843986386,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cuw-6",
+      "name": "Ali Santos",
+      "number": 6,
+      "position": "LB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 57,
+        "shooting": 57,
+        "passing": 57,
+        "dribbling": 60,
+        "defending": 60,
+        "physical": 61
+      },
+      "height": 1.8171734474852435,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cuw-7",
+      "name": "Ivan Berg",
+      "number": 7,
+      "position": "RB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 59,
+        "passing": 58,
+        "dribbling": 61,
+        "defending": 57,
+        "physical": 60
+      },
+      "height": 1.832685215606061,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-8",
+      "name": "Carlos Dubois",
+      "number": 8,
+      "position": "CDM",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 60,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 62,
+        "physical": 57
+      },
+      "height": 1.8932184582885525,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cuw-9",
+      "name": "Omar Weber",
+      "number": 9,
+      "position": "CDM",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 64,
+        "shooting": 67,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 64,
+        "physical": 66
+      },
+      "height": 1.8410346704265426,
+      "skinTone": 12746822,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-10",
+      "name": "Pedro Sato",
+      "number": 10,
+      "position": "CM",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 61,
+        "shooting": 63,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 65,
+        "physical": 64
+      },
+      "height": 1.8325899621495882,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-11",
+      "name": "Omar Kim",
+      "number": 11,
+      "position": "CM",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 65,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 70,
+        "physical": 67
+      },
+      "height": 1.8725701685366873,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-12",
+      "name": "Andre Patel",
+      "number": 12,
+      "position": "CAM",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 63,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 63,
+        "physical": 60
+      },
+      "height": 1.8805508620297078,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-13",
+      "name": "Carlos Silva",
+      "number": 13,
+      "position": "LW",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 64,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 64,
+        "physical": 65
+      },
+      "height": 1.7816877138071578,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cuw-14",
+      "name": "Kenji Müller",
+      "number": 14,
+      "position": "RW",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 57,
+        "passing": 52,
+        "dribbling": 53,
+        "defending": 56,
+        "physical": 57
+      },
+      "height": 1.853554716523322,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cuw-15",
+      "name": "Hassan Rahman",
+      "number": 15,
+      "position": "ST",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 56,
+        "passing": 58,
+        "dribbling": 54,
+        "defending": 58,
+        "physical": 53
+      },
+      "height": 1.809993926221499,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-16",
+      "name": "Andre Okonkwo",
+      "number": 16,
+      "position": "ST",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 58,
+        "passing": 60,
+        "dribbling": 56,
+        "defending": 60,
+        "physical": 61
+      },
+      "height": 1.7724050245922105,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-17",
+      "name": "Omar Rahman",
+      "number": 17,
+      "position": "ST",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 57,
+        "shooting": 59,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 59,
+        "physical": 59
+      },
+      "height": 1.8541901413110924,
+      "skinTone": 14061650,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-18",
+      "name": "Mohamed Novak",
+      "number": 18,
+      "position": "CB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 58,
+        "shooting": 59,
+        "passing": 58,
+        "dribbling": 58,
+        "defending": 57,
+        "physical": 61
+      },
+      "height": 1.8689300291043986,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-19",
+      "name": "Samuel Kim",
+      "number": 19,
+      "position": "LB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 56,
+        "shooting": 58,
+        "passing": 61,
+        "dribbling": 60,
+        "defending": 61,
+        "physical": 61
+      },
+      "height": 1.7937452088517558,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-20",
+      "name": "Hassan Berg",
+      "number": 20,
+      "position": "RB",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 55,
+        "passing": 57,
+        "dribbling": 58,
+        "defending": 56,
+        "physical": 58
+      },
+      "height": 1.8743347148917007,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-21",
+      "name": "Samuel Berg",
+      "number": 21,
+      "position": "CM",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 61,
+        "physical": 63
+      },
+      "height": 1.8279278162568136,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "cuw-22",
+      "name": "Kenji Novak",
+      "number": 22,
+      "position": "LW",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 59,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 62,
+        "physical": 63
+      },
+      "height": 1.775392729086236,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "cuw-23",
+      "name": "Hans Tanaka",
+      "number": 23,
+      "position": "RW",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 66,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 65,
+        "physical": 62
+      },
+      "height": 1.7310160937821641,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "cuw-24",
+      "name": "Samuel Kim",
+      "number": 24,
+      "position": "CF",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 60,
+        "shooting": 58,
+        "passing": 58,
+        "dribbling": 60,
+        "defending": 63,
+        "physical": 61
+      },
+      "height": 1.781618201259168,
+      "skinTone": 13404236,
+      "hairColor": 0
+    },
+    {
+      "id": "cuw-25",
+      "name": "Andre Ali",
+      "number": 25,
+      "position": "GK",
+      "club": "Curaçao FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 52,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 62,
+        "diving": 67,
+        "handling": 62,
+        "kicking": 57,
+        "reflexes": 65,
+        "positioning": 62
+      },
+      "height": 1.7983461938410497,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    }
+  ]
+}

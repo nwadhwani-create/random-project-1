@@ -1,0 +1,488 @@
+{
+  "code": "CIV",
+  "name": "Côte d'Ivoire",
+  "flagColors": [
+    "#F77F00",
+    "#FFFFFF",
+    "#009E60"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#F77F00",
+      "secondary": "#009E60"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#F77F00"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 78,
+  "players": [
+    {
+      "id": "civ-1",
+      "name": "Kenji Rahman",
+      "number": 1,
+      "position": "GK",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      },
+      "height": 1.8378873666169935,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "civ-2",
+      "name": "Yuki Berg",
+      "number": 2,
+      "position": "GK",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      },
+      "height": 1.7633070068092151,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "civ-3",
+      "name": "Mohamed Rossi",
+      "number": 3,
+      "position": "CB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 88,
+        "shooting": 84,
+        "passing": 88,
+        "dribbling": 88,
+        "defending": 88,
+        "physical": 87
+      },
+      "height": 1.7579139387588145,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "civ-4",
+      "name": "Diego Nielsen",
+      "number": 4,
+      "position": "CB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 77,
+        "physical": 79
+      },
+      "height": 1.8508564176045883,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "civ-5",
+      "name": "Diego Patel",
+      "number": 5,
+      "position": "CB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 92,
+        "shooting": 92,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 87,
+        "physical": 88
+      },
+      "height": 1.7968617183033953,
+      "skinTone": 14719064,
+      "hairColor": 0
+    },
+    {
+      "id": "civ-6",
+      "name": "Pedro Ali",
+      "number": 6,
+      "position": "LB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 87,
+        "dribbling": 86,
+        "defending": 82,
+        "physical": 83
+      },
+      "height": 1.8766577369781747,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "civ-7",
+      "name": "Thomas Kim",
+      "number": 7,
+      "position": "RB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 79
+      },
+      "height": 1.8401123796125058,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "civ-8",
+      "name": "Carlos Garcia",
+      "number": 8,
+      "position": "CDM",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 81
+      },
+      "height": 1.7798634793328711,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "civ-9",
+      "name": "Omar Nielsen",
+      "number": 9,
+      "position": "CDM",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 79
+      },
+      "height": 1.8999742072075365,
+      "skinTone": 14061650,
+      "hairColor": 2889744
+    },
+    {
+      "id": "civ-10",
+      "name": "Andre Sato",
+      "number": 10,
+      "position": "CM",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 79
+      },
+      "height": 1.754917704756295,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "civ-11",
+      "name": "Andre Müller",
+      "number": 11,
+      "position": "CM",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 89,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 85,
+        "physical": 85
+      },
+      "height": 1.7347316237396855,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "civ-12",
+      "name": "Omar Weber",
+      "number": 12,
+      "position": "CAM",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 81
+      },
+      "height": 1.857508346510593,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "civ-13",
+      "name": "Mohamed Rossi",
+      "number": 13,
+      "position": "LW",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 87,
+        "shooting": 83,
+        "passing": 85,
+        "dribbling": 87,
+        "defending": 84,
+        "physical": 86
+      },
+      "height": 1.8860310599636576,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "civ-14",
+      "name": "Omar Okonkwo",
+      "number": 14,
+      "position": "RW",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 72,
+        "physical": 75
+      },
+      "height": 1.746122869966666,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "civ-15",
+      "name": "Hans Tanaka",
+      "number": 15,
+      "position": "ST",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 82
+      },
+      "height": 1.8600779386237989,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "civ-16",
+      "name": "Hassan Kim",
+      "number": 16,
+      "position": "ST",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 69
+      },
+      "height": 1.8162491027696515,
+      "skinTone": 15376478,
+      "hairColor": 0
+    },
+    {
+      "id": "civ-17",
+      "name": "Yuki Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 86,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 85
+      },
+      "height": 1.8197781252393295,
+      "skinTone": 14061650,
+      "hairColor": 1710618
+    },
+    {
+      "id": "civ-18",
+      "name": "Marco Sato",
+      "number": 18,
+      "position": "CB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 83,
+        "physical": 79
+      },
+      "height": 1.845766471024385,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "civ-19",
+      "name": "Mohamed Tanaka",
+      "number": 19,
+      "position": "LB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 75
+      },
+      "height": 1.8861356368624937,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    },
+    {
+      "id": "civ-20",
+      "name": "Kenji Patel",
+      "number": 20,
+      "position": "RB",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 86,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 86
+      },
+      "height": 1.8102077220009711,
+      "skinTone": 15376478,
+      "hairColor": 2889744
+    },
+    {
+      "id": "civ-21",
+      "name": "Hassan Sato",
+      "number": 21,
+      "position": "CM",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 70,
+        "physical": 72
+      },
+      "height": 1.8642329978144103,
+      "skinTone": 13404236,
+      "hairColor": 1710618
+    },
+    {
+      "id": "civ-22",
+      "name": "Kenji Okonkwo",
+      "number": 22,
+      "position": "LW",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 74
+      },
+      "height": 1.7731328735250353,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "civ-23",
+      "name": "James Patel",
+      "number": 23,
+      "position": "RW",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 83,
+        "physical": 81
+      },
+      "height": 1.7718394861853117,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "civ-24",
+      "name": "Mohamed Müller",
+      "number": 24,
+      "position": "CF",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 78
+      },
+      "height": 1.8716557049952967,
+      "skinTone": 13404236,
+      "hairColor": 2889744
+    },
+    {
+      "id": "civ-25",
+      "name": "Lucas Okonkwo",
+      "number": 25,
+      "position": "GK",
+      "club": "Côte d'Ivoire FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      },
+      "height": 1.858101421816369,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    }
+  ]
+}

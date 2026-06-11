@@ -1,0 +1,488 @@
+{
+  "code": "MEX",
+  "name": "Mexico",
+  "flagColors": [
+    "#006847",
+    "#FFFFFF",
+    "#CE1126"
+  ],
+  "kit": {
+    "home": {
+      "primary": "#006847",
+      "secondary": "#FFFFFF"
+    },
+    "away": {
+      "primary": "#FFFFFF",
+      "secondary": "#006847"
+    }
+  },
+  "formation": "4-3-3",
+  "strength": 78,
+  "players": [
+    {
+      "id": "mex-1",
+      "name": "Ali Dubois",
+      "number": 1,
+      "position": "GK",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      },
+      "height": 1.7783435565590333,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mex-2",
+      "name": "Pierre Ali",
+      "number": 2,
+      "position": "GK",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      },
+      "height": 1.849264777004034,
+      "skinTone": 14719064,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-3",
+      "name": "Pedro Novak",
+      "number": 3,
+      "position": "CB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 83
+      },
+      "height": 1.8468666445993507,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "mex-4",
+      "name": "Marco Tanaka",
+      "number": 4,
+      "position": "CB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 72
+      },
+      "height": 1.7392053172916224,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "mex-5",
+      "name": "Diego Okonkwo",
+      "number": 5,
+      "position": "CB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 72
+      },
+      "height": 1.721529389714384,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mex-6",
+      "name": "Luis Dubois",
+      "number": 6,
+      "position": "LB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 85,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 86,
+        "physical": 85
+      },
+      "height": 1.7292827895463283,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mex-7",
+      "name": "Omar Rahman",
+      "number": 7,
+      "position": "RB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 88,
+        "defending": 86,
+        "physical": 84
+      },
+      "height": 1.766311047883994,
+      "skinTone": 12089408,
+      "hairColor": 0
+    },
+    {
+      "id": "mex-8",
+      "name": "Omar Sato",
+      "number": 8,
+      "position": "CDM",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 86,
+        "defending": 89,
+        "physical": 86
+      },
+      "height": 1.780389620196437,
+      "skinTone": 14719064,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mex-9",
+      "name": "Ivan Müller",
+      "number": 9,
+      "position": "CDM",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 77
+      },
+      "height": 1.739088338361204,
+      "skinTone": 12746822,
+      "hairColor": 0
+    },
+    {
+      "id": "mex-10",
+      "name": "Kenji Ali",
+      "number": 10,
+      "position": "CM",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 79
+      },
+      "height": 1.8581006324087275,
+      "skinTone": 14719064,
+      "hairColor": 13935988
+    },
+    {
+      "id": "mex-11",
+      "name": "James Rossi",
+      "number": 11,
+      "position": "CM",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 73
+      },
+      "height": 1.861093805172568,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-12",
+      "name": "Mohamed Nielsen",
+      "number": 12,
+      "position": "CAM",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 73
+      },
+      "height": 1.7747652790926074,
+      "skinTone": 14061650,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-13",
+      "name": "Pierre Garcia",
+      "number": 13,
+      "position": "LW",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 71
+      },
+      "height": 1.8218197700211962,
+      "skinTone": 12089408,
+      "hairColor": 13935988
+    },
+    {
+      "id": "mex-14",
+      "name": "Pierre Okonkwo",
+      "number": 14,
+      "position": "RW",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 69,
+        "physical": 71
+      },
+      "height": 1.8537732370977973,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mex-15",
+      "name": "Hassan Fernandez",
+      "number": 15,
+      "position": "ST",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 79,
+        "physical": 77
+      },
+      "height": 1.8984877771776987,
+      "skinTone": 14719064,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mex-16",
+      "name": "Samuel Patel",
+      "number": 16,
+      "position": "ST",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 78,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 81
+      },
+      "height": 1.8308065931413384,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-17",
+      "name": "Ivan Berg",
+      "number": 17,
+      "position": "ST",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 79
+      },
+      "height": 1.7994162889564562,
+      "skinTone": 12746822,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mex-18",
+      "name": "Luis Patel",
+      "number": 18,
+      "position": "CB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 78
+      },
+      "height": 1.7769440451887846,
+      "skinTone": 15376478,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mex-19",
+      "name": "Mohamed Ali",
+      "number": 19,
+      "position": "LB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 75
+      },
+      "height": 1.8569722965610886,
+      "skinTone": 13404236,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-20",
+      "name": "Diego Costa",
+      "number": 20,
+      "position": "RB",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 77,
+        "physical": 74
+      },
+      "height": 1.794285871446399,
+      "skinTone": 12746822,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-21",
+      "name": "Thomas Tanaka",
+      "number": 21,
+      "position": "CM",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 80
+      },
+      "height": 1.7865067322147141,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-22",
+      "name": "Hans Berg",
+      "number": 22,
+      "position": "LW",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 75
+      },
+      "height": 1.760677400017788,
+      "skinTone": 12089408,
+      "hairColor": 1710618
+    },
+    {
+      "id": "mex-23",
+      "name": "Kenji Weber",
+      "number": 23,
+      "position": "RW",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 83,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 83,
+        "physical": 82
+      },
+      "height": 1.8851789370786203,
+      "skinTone": 12089408,
+      "hairColor": 2889744
+    },
+    {
+      "id": "mex-24",
+      "name": "Kenji Patel",
+      "number": 24,
+      "position": "CF",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 80,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 83
+      },
+      "height": 1.899324933504057,
+      "skinTone": 15376478,
+      "hairColor": 9127187
+    },
+    {
+      "id": "mex-25",
+      "name": "Yuki Weber",
+      "number": 25,
+      "position": "GK",
+      "club": "Mexico FC",
+      "ratings": {
+        "pace": 40,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 35,
+        "defending": 40,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      },
+      "height": 1.7244058968633469,
+      "skinTone": 13404236,
+      "hairColor": 13935988
+    }
+  ]
+}
