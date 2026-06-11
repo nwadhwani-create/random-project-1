@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import type { GameConfig, MatchState } from '@/core/types';
+import type { GameConfig, MatchState, TeamData } from '@/core/types';
 import { InputManager } from '@/input/InputManager';
 import { Ball } from '@/entities/Ball';
 import { Player } from '@/entities/Player';
@@ -8,7 +8,12 @@ import { Stadium } from '@/rendering/Stadium';
 import { LightingSystem } from '@/rendering/Lighting';
 import { CameraController } from '@/rendering/CameraController';
 import { DEMO_HOME, DEMO_AWAY, hexToNumber } from '@/data/demoTeams';
+import { loadTeam } from '@/data/teamLoader';
+import { TeamAI } from '@/ai/TeamAI';
+import { AudioManager } from '@/audio/AudioManager';
 import { getFormationPositions } from './Formation';
+import { MatchEngine } from './MatchEngine';
+import { Referee } from './Referee';
 
 export class Game {
   private renderer: THREE.WebGLRenderer;
@@ -25,18 +30,20 @@ export class Game {
   private running = false;
   private shootPower = 0;
   private shootCharging = false;
+  private matchEngine: MatchEngine | null = null;
+  private referee = new Referee();
+  private homeAI = new TeamAI();
+  private awayAI = new TeamAI();
+  private audio = new AudioManager();
+  private homeTeam: TeamData = DEMO_HOME;
+  private awayTeam: TeamData = DEMO_AWAY;
 
-  matchState: MatchState = {
-    phase: 'menu',
-    homeScore: 0,
-    awayScore: 0,
-    clock: 0,
-    half: 1,
-    halfDuration: 300,
-    possession: 'home',
-    setPiece: null,
-    offside: false,
-  };
+  get matchState(): MatchState {
+    return this.matchEngine?.state ?? {
+      phase: 'menu', homeScore: 0, awayScore: 0, clock: 0,
+      half: 1, halfDuration: 300, possession: 'home', setPiece: null, offside: false,
+    };
+  }
 
   constructor(canvas: HTMLCanvasElement) {
     this.renderer = new THREE.WebGLRenderer({
@@ -75,27 +82,32 @@ export class Game {
     pmrem.dispose();
 
     window.addEventListener('resize', () => this.onResize());
+    this.audio.init();
   }
 
-  startMatch(config?: Partial<GameConfig>): void {
+  async startMatch(config?: Partial<GameConfig>): Promise<void> {
     const lighting = config?.lighting ?? 'day';
+    const difficulty = config?.difficulty ?? 'medium';
     this.lighting.applyPreset(lighting);
     this.updateSkyForLighting(lighting);
+
+    this.homeTeam = await loadTeam(config?.homeTeam ?? 'USA');
+    this.awayTeam = await loadTeam(config?.awayTeam ?? 'MEX');
+
+    this.homeAI.setDifficulty(difficulty);
+    this.awayAI.setDifficulty(difficulty);
+    this.audio.resume();
+
+    this.matchEngine = new MatchEngine({
+      halfMinutes: config?.halfMinutes ?? 5,
+      difficulty,
+      isKnockout: false,
+    });
+    this.matchEngine.resumePlay();
 
     this.clearPlayers();
     this.spawnTeams();
     this.ball.reset(0, 0);
-    this.matchState = {
-      phase: 'play',
-      homeScore: 0,
-      awayScore: 0,
-      clock: 0,
-      half: 1,
-      halfDuration: (config?.halfMinutes ?? 5) * 60,
-      possession: 'home',
-      setPiece: 'kickoff',
-      offside: false,
-    };
 
     this.controlledPlayer = this.players.find((p) => p.teamId === 'home') ?? null;
     if (this.controlledPlayer) {
@@ -106,11 +118,12 @@ export class Game {
     this.hideMenu();
     this.showScoreboard();
     this.updateScoreboard();
+    this.audio.playWhistle();
   }
 
   private spawnTeams(): void {
-    this.spawnTeam(DEMO_HOME, 'home');
-    this.spawnTeam(DEMO_AWAY, 'away');
+    this.spawnTeam(this.homeTeam, 'home');
+    this.spawnTeam(this.awayTeam, 'away');
   }
 
   private spawnTeam(team: typeof DEMO_HOME, side: 'home' | 'away'): void {
@@ -145,14 +158,19 @@ export class Game {
       this.camera.toggleMode();
     }
 
-    this.updateMatchClock(dt);
+    if (this.matchEngine) {
+      this.matchEngine.update(dt);
+    }
+
     this.updateControlledPlayer(dt);
     this.updateAIPlayers(dt);
     this.updateBall(dt);
-    this.checkGoals();
     this.checkBallPlayerCollision();
+    this.processReferee(dt);
 
-    this.stadium.update(dt, this.getExcitement());
+    const excitement = this.getExcitement();
+    this.stadium.update(dt, excitement);
+    this.audio.setExcitement(excitement);
     this.camera.update(
       dt,
       this.ball.position,
@@ -163,13 +181,8 @@ export class Game {
     this.renderer.render(this.scene, this.camera.camera);
   }
 
-  private updateMatchClock(dt: number): void {
-    if (this.matchState.phase !== 'play') return;
-    this.matchState.clock += dt;
-    this.updateScoreboard();
-  }
-
   private updateControlledPlayer(dt: number): void {
+    if (this.matchState.phase === 'replay' || this.matchState.phase === 'setpiece') return;
     const cp = this.controlledPlayer;
     if (!cp) return;
 
@@ -188,6 +201,8 @@ export class Game {
         ? { x: target.position.x - this.ball.position.x, y: 0, z: target.position.z - this.ball.position.z }
         : { x: Math.sin(cp.physics.rotation), y: 0, z: Math.cos(cp.physics.rotation) };
       this.ball.kick(dir, 12 + cp.data.ratings.passing * 0.05);
+      this.audio.playKick();
+      this.referee.recordTouch(cp.teamId);
     }
 
     // Shoot with power gauge
@@ -203,6 +218,8 @@ export class Game {
       };
       const power = 15 + this.shootPower * 20 + cp.data.ratings.shooting * 0.1;
       this.ball.kick(dir, power, this.shootPower * 0.5);
+      this.audio.playKick();
+      this.referee.recordTouch(cp.teamId);
       this.shootCharging = false;
       this.shootPower = 0;
       this.hidePowerMeter();
@@ -215,28 +232,14 @@ export class Game {
   }
 
   private updateAIPlayers(dt: number): void {
-    for (const player of this.players) {
-      if (player === this.controlledPlayer) continue;
+    if (this.matchState.phase === 'replay') return;
 
-      const ballPos = this.ball.position;
-      const toBall = {
-        x: ballPos.x - player.position.x,
-        z: ballPos.z - player.position.z,
-      };
-      const dist = Math.hypot(toBall.x, toBall.z);
+    const ballPos = this.ball.position;
+    const ballVel = this.ball.physics.state.velocity;
+    const aiPlayers = this.players.filter((p) => p !== this.controlledPlayer);
 
-      // Simple AI: move toward ball if on same team and close, else hold formation
-      const sameTeam = player.teamId === 'home';
-      const isAttacking = sameTeam;
-
-      let mx = 0, mz = 0;
-      if (dist < 25 && isAttacking) {
-        mx = toBall.x / (dist || 1);
-        mz = toBall.z / (dist || 1);
-      }
-
-      player.update(dt, mx, mz, dist < 8 && dist > 2);
-    }
+    this.homeAI.update(dt, aiPlayers, ballPos, ballVel, this.homeTeam.formation, 'home');
+    this.awayAI.update(dt, aiPlayers, ballPos, ballVel, this.awayTeam.formation, 'away');
   }
 
   private updateBall(dt: number): void {
@@ -262,33 +265,46 @@ export class Game {
     }
   }
 
-  private checkGoals(): void {
-    if (this.ball.physics.isInGoal('home')) {
-      this.matchState.awayScore++;
-      this.onGoal('away');
-    } else if (this.ball.physics.isInGoal('away')) {
-      this.matchState.homeScore++;
-      this.onGoal('home');
+  private processReferee(dt: number): void {
+    if (!this.matchEngine || this.matchState.phase === 'replay') return;
+
+    const decision = this.referee.update(dt, this.ball.physics.state, this.players);
+    if (!decision) return;
+
+    this.showStatusMessage(decision.message);
+
+    if (decision.type === 'goal' && decision.team) {
+      this.matchEngine.scoreGoal(decision.team);
+      this.onGoal(decision.team);
+    } else if (decision.setPiece && decision.team) {
+      this.matchEngine.setSetPiece(decision.setPiece, decision.team);
+      if (decision.type === 'foul') this.audio.playWhistle();
+      setTimeout(() => this.resumeFromSetPiece(), 2000);
     }
   }
 
   private onGoal(_scorer: 'home' | 'away'): void {
     this.updateScoreboard();
-    this.matchState.phase = 'replay';
     this.camera.setMode('replay');
-    this.stadium.update(0, 1);
+    this.audio.playGoal();
+    this.audio.playNet();
 
     setTimeout(() => {
       this.ball.reset(0, 0);
-      this.matchState.phase = 'play';
+      this.matchEngine?.resumePlay();
       this.camera.setMode('broadcast');
       this.resetPositions();
+      this.audio.playWhistle();
     }, 3000);
   }
 
+  private resumeFromSetPiece(): void {
+    this.matchEngine?.resumePlay();
+  }
+
   private resetPositions(): void {
-    const homePositions = getFormationPositions(DEMO_HOME.formation, 'home');
-    const awayPositions = getFormationPositions(DEMO_AWAY.formation, 'away');
+    const homePositions = getFormationPositions(this.homeTeam.formation, 'home');
+    const awayPositions = getFormationPositions(this.awayTeam.formation, 'away');
 
     this.players.filter((p) => p.teamId === 'home').forEach((p, i) => {
       const pos = homePositions[i] ?? { x: 0, z: 0 };
@@ -370,8 +386,8 @@ export class Game {
 
   private showScoreboard(): void {
     document.getElementById('scoreboard')?.classList.remove('hidden');
-    document.getElementById('home-team')!.textContent = DEMO_HOME.code;
-    document.getElementById('away-team')!.textContent = DEMO_AWAY.code;
+    document.getElementById('home-team')!.textContent = this.homeTeam.code;
+    document.getElementById('away-team')!.textContent = this.awayTeam.code;
   }
 
   private updateScoreboard(): void {
@@ -379,8 +395,22 @@ export class Game {
     const secs = Math.floor(this.matchState.clock % 60);
     document.getElementById('score')!.textContent =
       `${this.matchState.homeScore} - ${this.matchState.awayScore}`;
-    document.getElementById('clock')!.textContent =
+    const clock = this.matchEngine?.formatClock() ??
       `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    document.getElementById('clock')!.textContent = clock;
+  }
+
+  private showStatusMessage(msg: string): void {
+    let el = document.getElementById('status-msg');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'status-msg';
+      el.className = 'hud-panel';
+      el.style.cssText = 'top:60px;left:50%;transform:translateX(-50%);font-size:16px;';
+      document.getElementById('hud')?.appendChild(el);
+    }
+    el.textContent = msg;
+    setTimeout(() => { if (el) el.textContent = ''; }, 2500);
   }
 
   private showPowerMeter(power: number): void {
