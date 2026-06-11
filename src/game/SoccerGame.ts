@@ -1,4 +1,4 @@
-import { Clock, MathUtils, Vector3 } from "three";
+import { MathUtils, Vector3 } from "three";
 import { AudioEngine } from "./AudioEngine";
 import { BallPhysics, pitchDimensions } from "./BallPhysics";
 import { InputController } from "./InputController";
@@ -17,7 +17,6 @@ export class SoccerGame {
   private readonly parts: SceneParts;
   private readonly input: InputController;
   private readonly physics = new BallPhysics();
-  private readonly clock = new Clock();
   private readonly audio = new AudioEngine();
   private readonly score: MatchScore = { home: 0, away: 0 };
   private readonly playerVelocity = new Vector3();
@@ -31,6 +30,7 @@ export class SoccerGame {
   private shotCharge = 0;
   private tackleTimer = 0;
   private lastGoalAt = -10;
+  private lastFrame = performance.now();
 
   constructor(canvas: HTMLCanvasElement, hud: HudElements) {
     this.parts = createScene(canvas);
@@ -47,12 +47,14 @@ export class SoccerGame {
   }
 
   start(): void {
-    this.clock.start();
+    this.lastFrame = performance.now();
     this.parts.renderer.setAnimationLoop(() => this.frame());
   }
 
   private frame(): void {
-    const delta = Math.min(this.clock.getDelta(), 1 / 30);
+    const now = performance.now();
+    const delta = Math.min((now - this.lastFrame) / 1000, 1 / 30);
+    this.lastFrame = now;
     this.elapsed += delta;
     const state = this.input.read();
     this.updatePlayer(state, delta);
