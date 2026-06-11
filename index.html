@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Cup 2026 Soccer Web Prototype</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas"></canvas>
+      <div class="broadcast-shell">
+        <section class="scorebug" aria-label="Match scoreboard">
+          <div class="score-team" id="home-team">USA</div>
+          <div class="score-value" id="home-score">0</div>
+          <div class="score-clock" id="match-clock">00:00</div>
+          <div class="score-value" id="away-score">0</div>
+          <div class="score-team" id="away-team">MEX</div>
+        </section>
+        <section class="lineup-panel">
+          <p class="eyebrow">Milestone 1 playable prototype</p>
+          <h1>2026 World Cup 3D Soccer</h1>
+          <p>
+            Move, sprint, dribble, charge shots, pass, toggle lighting presets, and test
+            early Gamepad API support in a fully client-side Three.js stadium.
+          </p>
+        </section>
+        <section class="controls-panel">
+          <h2>Controls</h2>
+          <ul>
+            <li><strong>WASD / Left stick</strong> Move player</li>
+            <li><strong>Shift / RT</strong> Sprint</li>
+            <li><strong>Space / A</strong> Pass</li>
+            <li><strong>Hold J / X</strong> Charge shot</li>
+            <li><strong>K / B</strong> Tackle animation</li>
+            <li><strong>L</strong> Cycle day, dusk, night</li>
+          </ul>
+          <p id="input-status">Keyboard ready. Connect a controller for gamepad input.</p>
+        </section>
+        <section class="match-toast" id="match-toast">Kickoff: take the ball toward goal.</section>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
