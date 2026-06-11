@@ -13,6 +13,7 @@ const game = new SoccerGame(getElement<HTMLCanvasElement>("game-canvas"), {
   clock: getElement("match-clock"),
   homeScore: getElement("home-score"),
   awayScore: getElement("away-score"),
+  lightingStatus: getElement("lighting-status"),
 });
 
 game.start();

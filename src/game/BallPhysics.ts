@@ -8,7 +8,7 @@ const BALL_RADIUS = 0.38;
 
 export class BallPhysics {
   readonly state: BallState = {
-    position: new Vector3(0, BALL_RADIUS, -5),
+    position: new Vector3(0, BALL_RADIUS, 6.45),
     velocity: new Vector3(),
     spin: new Vector3(),
   };
@@ -58,7 +58,7 @@ export class BallPhysics {
   }
 
   reset(towardAwayGoal = true): void {
-    this.state.position.set(0, BALL_RADIUS, towardAwayGoal ? -5 : 5);
+    this.state.position.set(0, BALL_RADIUS, towardAwayGoal ? 6.45 : -6.45);
     this.state.velocity.set(0, 0, 0);
     this.state.spin.set(0, 0, 0);
   }

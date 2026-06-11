@@ -25,6 +25,7 @@ export class SoccerGame {
   private readonly clockElement: HTMLElement;
   private readonly homeScoreElement: HTMLElement;
   private readonly awayScoreElement: HTMLElement;
+  private readonly lightingStatusElement: HTMLElement;
   private lightingIndex = 0;
   private elapsed = 0;
   private shotCharge = 0;
@@ -39,7 +40,9 @@ export class SoccerGame {
     this.clockElement = hud.clock;
     this.homeScoreElement = hud.homeScore;
     this.awayScoreElement = hud.awayScore;
+    this.lightingStatusElement = hud.lightingStatus;
     applyLighting(this.parts, lightingCycle[this.lightingIndex]);
+    this.updateLightingStatus();
 
     window.addEventListener("resize", () => this.resize());
     window.addEventListener("pointerdown", () => void this.audio.ensureStarted(), { once: true });
@@ -69,6 +72,7 @@ export class SoccerGame {
     if (state.cycleLighting) {
       this.lightingIndex = (this.lightingIndex + 1) % lightingCycle.length;
       applyLighting(this.parts, lightingCycle[this.lightingIndex]);
+      this.updateLightingStatus();
       this.showToast(`Lighting preset: ${lightingCycle[this.lightingIndex]}`);
     }
 
@@ -183,6 +187,10 @@ export class SoccerGame {
     this.toastElement.textContent = message;
   }
 
+  private updateLightingStatus(): void {
+    this.lightingStatusElement.textContent = `Lighting: ${lightingCycle[this.lightingIndex]}`;
+  }
+
   private resize(): void {
     this.parts.camera.aspect = window.innerWidth / window.innerHeight;
     this.parts.camera.updateProjectionMatrix();
@@ -196,6 +204,7 @@ interface HudElements {
   clock: HTMLElement;
   homeScore: HTMLElement;
   awayScore: HTMLElement;
+  lightingStatus: HTMLElement;
 }
 
 function lerpAngle(current: number, target: number, alpha: number): number {
