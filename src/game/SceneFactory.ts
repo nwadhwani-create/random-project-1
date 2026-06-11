@@ -1,12 +1,10 @@
 import {
-  AmbientLight,
   BoxGeometry,
   BufferGeometry,
   CanvasTexture,
   CapsuleGeometry,
   CircleGeometry,
   Color,
-  ConeGeometry,
   CylinderGeometry,
   DirectionalLight,
   DynamicDrawUsage,
@@ -284,7 +282,6 @@ function createCrowd(scene: Scene): { mesh: InstancedMesh; offsets: Float32Array
   const count = 760;
   const crowd = new InstancedMesh(geometry, material, count);
   crowd.instanceMatrix.setUsage(DynamicDrawUsage);
-  const matrix = new Matrix4();
   const object = new Object3D();
   const offsets = new Float32Array(count);
   const colors = ["#e11d48", "#f8fafc", "#0f766e", "#2563eb", "#facc15", "#171717"];

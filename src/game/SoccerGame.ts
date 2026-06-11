@@ -87,7 +87,7 @@ export class SoccerGame {
 
     if (this.playerVelocity.lengthSq() > 0.1) {
       const heading = Math.atan2(this.playerVelocity.x, this.playerVelocity.z);
-      this.parts.player.root.rotation.y = MathUtils.lerpAngle(this.parts.player.root.rotation.y, heading, 0.18);
+      this.parts.player.root.rotation.y = lerpAngle(this.parts.player.root.rotation.y, heading, 0.18);
     }
 
     if (state.tackle) {
@@ -194,4 +194,9 @@ interface HudElements {
   clock: HTMLElement;
   homeScore: HTMLElement;
   awayScore: HTMLElement;
+}
+
+function lerpAngle(current: number, target: number, alpha: number): number {
+  const delta = MathUtils.euclideanModulo(target - current + Math.PI, Math.PI * 2) - Math.PI;
+  return current + delta * alpha;
 }
