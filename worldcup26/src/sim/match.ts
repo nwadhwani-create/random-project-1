@@ -102,6 +102,10 @@ export class Match {
   excitement = 0.2;
 
   lastPass: PassSnapshot | null = null;
+  /** monotonic sim clock (never resets) for recency checks */
+  private elapsed = 0;
+  /** last genuine shot, used to credit deflected goals to the shooter not the keeper */
+  private lastShot: { teamIdx: number; playerIdx: number; at: number } | null = null;
   pendingOffside: { player: PlayerSim; teamIdx: number } | null = null;
   advantage: { teamIdx: number; pos: THREE.Vector3; t: number } | null = null;
 
@@ -604,6 +608,7 @@ export class Match {
   registerShot(p: PlayerSim): void {
     this.sides[p.teamIdx].stats.shots++;
     this.excitement = Math.min(1, this.excitement + 0.35);
+    this.lastShot = { teamIdx: p.teamIdx, playerIdx: p.idx, at: this.elapsed };
   }
 
   /** AI GK decided it can reach the shot: apply the save when the ball arrives */
@@ -816,6 +821,7 @@ export class Match {
 
   step(dt: number): void {
     this.phaseTime += dt;
+    this.elapsed += dt;
     this.excitement = Math.max(0.15, this.excitement - dt * 0.06);
 
     switch (this.phase) {
@@ -1015,6 +1021,8 @@ export class Match {
     best.hasBall = true;
     this.ball.touch(best.teamIdx, best.idx, this.clock);
     this.ball.spin.set(0, 0, 0);
+    // a clean possession consumes any pending shot credit
+    this.lastShot = null;
     if (best.isGK && this.shootout) { /* GK save in shootout resolved by bounds check */ }
   }
 
@@ -1113,22 +1121,31 @@ export class Match {
     side.score++;
     side.stats.onTarget++;
     const lt = this.ball.lastTouch;
-    let scorerName = 'Unknown';
-    if (lt) {
-      const sp = this.sides[lt.teamIdx].players[lt.playerIdx];
-      scorerName = lt.teamIdx === scoringTeam ? sp.data.name : `${sp.data.name} (o.g.)`;
-      if (lt.teamIdx === scoringTeam) {
-        sp.setState('celebrate');
-      }
+    // resolve who gets credited
+    let scorer: PlayerSim | null = null;
+    let isOwnGoal = false;
+    if (lt && lt.teamIdx === scoringTeam) {
+      // direct goal: last touch was an attacker
+      scorer = this.sides[lt.teamIdx].players[lt.playerIdx];
+    } else if (this.lastShot && this.lastShot.teamIdx === scoringTeam && this.elapsed - this.lastShot.at < 5) {
+      // last touch was a defender/keeper deflection, but a recent shot from the
+      // scoring team carried it in — credit the shooter, not an own goal
+      scorer = this.sides[this.lastShot.teamIdx].players[this.lastShot.playerIdx];
+    } else if (lt) {
+      // genuine own goal (defender redirected with no recent shot behind it)
+      scorer = this.sides[lt.teamIdx].players[lt.playerIdx];
+      isOwnGoal = true;
     }
+    const scorerName = scorer ? (isOwnGoal ? `${scorer.data.name} (o.g.)` : scorer.data.name) : 'Unknown';
+    this.lastShot = null;
     this.scorers.push({ name: scorerName, minute: this.minute, team: scoringTeam });
     this.excitement = 1;
     this.emit('goal', { team: scoringTeam, text: `GOAL! ${side.team.meta.name}` });
     this.phase = 'goal';
     this.phaseTime = 0;
-    // celebration: scorer + nearby teammates celebrate
-    if (lt && lt.teamIdx === scoringTeam) {
-      const scorer = this.sides[lt.teamIdx].players[lt.playerIdx];
+    // celebration: scorer + nearby teammates celebrate (not on own goals)
+    if (scorer && !isOwnGoal) {
+      scorer.setState('celebrate');
       for (const p of this.activePlayers(scoringTeam)) {
         if (p !== scorer && p.pos.distanceTo(scorer.pos) < 18) p.setState('celebrate');
       }
