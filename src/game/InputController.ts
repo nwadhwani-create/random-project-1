@@ -14,13 +14,22 @@ const emptyState = (): InputState => ({
 export class InputController {
   private readonly keys = new Set<string>();
   private previousShoot = false;
-  private previousLighting = false;
-  private previousPass = false;
-  private previousTackle = false;
+  private previousGamepadPass = false;
+  private previousGamepadTackle = false;
+  private queuedPass = false;
+  private queuedTackle = false;
+  private queuedLighting = false;
   private gamepadName = "";
 
   constructor(private readonly statusElement: HTMLElement) {
-    window.addEventListener("keydown", (event) => this.keys.add(event.code));
+    window.addEventListener("keydown", (event) => {
+      if (this.isGameplayKey(event.code)) event.preventDefault();
+      this.keys.add(event.code);
+      if (event.repeat) return;
+      if (event.code === "Space") this.queuedPass = true;
+      if (event.code === "KeyK") this.queuedTackle = true;
+      if (event.code === "KeyL") this.queuedLighting = true;
+    });
     window.addEventListener("keyup", (event) => this.keys.delete(event.code));
     window.addEventListener("gamepadconnected", (event) => {
       this.gamepadName = event.gamepad.id;
@@ -42,18 +51,23 @@ export class InputController {
     if (this.keys.has("KeyS")) state.moveZ += 1;
 
     state.sprint = this.keys.has("ShiftLeft") || this.keys.has("ShiftRight");
-    state.pass = this.keys.has("Space");
+    state.pass = this.queuedPass;
     state.shootHeld = this.keys.has("KeyJ");
-    state.tackle = this.keys.has("KeyK");
-    state.cycleLighting = this.keys.has("KeyL");
+    state.tackle = this.queuedTackle;
+    state.cycleLighting = this.queuedLighting;
+
+    let gamepadPass = false;
+    let gamepadTackle = false;
 
     if (gamepad) {
       state.moveX += this.deadzone(gamepad.axes[0] ?? 0);
       state.moveZ += this.deadzone(gamepad.axes[1] ?? 0);
       state.sprint ||= (gamepad.buttons[7]?.value ?? 0) > 0.25;
-      state.pass ||= Boolean(gamepad.buttons[0]?.pressed);
+      gamepadPass = Boolean(gamepad.buttons[0]?.pressed);
+      state.pass ||= gamepadPass && !this.previousGamepadPass;
       state.shootHeld ||= Boolean(gamepad.buttons[2]?.pressed);
-      state.tackle ||= Boolean(gamepad.buttons[1]?.pressed);
+      gamepadTackle = Boolean(gamepad.buttons[1]?.pressed);
+      state.tackle ||= gamepadTackle && !this.previousGamepadTackle;
       this.statusElement.textContent = `Gamepad active: ${this.gamepadName || gamepad.id}`;
     }
 
@@ -64,19 +78,24 @@ export class InputController {
     }
 
     state.shootReleased = this.previousShoot && !state.shootHeld;
-    state.pass = state.pass && !this.previousPass;
-    state.tackle = state.tackle && !this.previousTackle;
-    state.cycleLighting = state.cycleLighting && !this.previousLighting;
 
     this.previousShoot = state.shootHeld;
-    this.previousPass = state.pass || this.keys.has("Space") || Boolean(gamepad?.buttons[0]?.pressed);
-    this.previousTackle = state.tackle || this.keys.has("KeyK") || Boolean(gamepad?.buttons[1]?.pressed);
-    this.previousLighting = state.cycleLighting || this.keys.has("KeyL");
+    this.previousGamepadPass = gamepadPass;
+    this.previousGamepadTackle = gamepadTackle;
+    this.queuedPass = false;
+    this.queuedTackle = false;
+    this.queuedLighting = false;
 
     return state;
   }
 
   private deadzone(value: number): number {
     return Math.abs(value) < 0.16 ? 0 : value;
+  }
+
+  private isGameplayKey(code: string): boolean {
+    return ["Space", "KeyJ", "KeyK", "KeyL", "KeyW", "KeyA", "KeyS", "KeyD", "ShiftLeft", "ShiftRight"].includes(
+      code,
+    );
   }
 }
