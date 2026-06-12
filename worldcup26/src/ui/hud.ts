@@ -96,12 +96,6 @@ export class HUD {
 
     // shootout board
     if (m.shootout && !m.shootoutDone) {
-      // when a fresh kick is being set up, drop any lingering goal/miss banner
-      const taken = m.shootoutScores[0].length + m.shootoutScores[1].length;
-      if (m.phase === 'set-piece' && taken !== this._penTaken) {
-        this._penTaken = taken;
-        this.bannerTimer = Math.min(this.bannerTimer, 0.35);
-      }
       this.shootoutEl.classList.remove('hidden');
       const fmt = (arr: number[], n: number) => {
         let s = '';
@@ -117,12 +111,16 @@ export class HUD {
   }
 
   private _breakShown = false;
-  private _penTaken = -1;
 
   banner(text: string, dur = 2.6): void {
     this.bannerEl.textContent = text;
     this.bannerEl.classList.remove('hidden');
     this.bannerTimer = dur;
+  }
+
+  hideBanner(): void {
+    this.bannerTimer = 0;
+    this.bannerEl.classList.add('hidden');
   }
 
   setReplay(on: boolean): void {

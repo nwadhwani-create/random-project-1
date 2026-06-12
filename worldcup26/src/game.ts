@@ -254,7 +254,12 @@ export class GameSession {
       case 'whistle': a.whistle(); break;
       case 'halftime': case 'fulltime': a.whistle(true); break;
       case 'kick': case 'cross': a.kick(0.5); break;
-      case 'shot': a.kick(0.9); break;
+      case 'shot':
+        a.kick(0.9);
+        // a new penalty has been struck — drop any lingering GOAL!/miss banner
+        // from the previous kick so it never overlaps the next one
+        if (this.match.shootout) this.hud.hideBanner();
+        break;
       case 'goal': case 'pen-goal': a.goalRoar(); break;
       case 'save': a.ooh(); break;
       case 'foul': a.whistle(); break;
@@ -263,9 +268,9 @@ export class GameSession {
       case 'pen-miss': a.ooh(); break;
       case 'tackle': a.bounce(); break;
     }
-    // shootout kicks come quickly, so a GOAL!/miss banner must clear before the
-    // next taker steps up — otherwise the banner lingers over the next kick
-    if (text) this.hud.banner(text, this.match.shootout ? 1.2 : 2.6);
+    // shootout kicks come quickly (the next taker auto-steps up ~2.2s later), so a
+    // GOAL!/miss banner uses a shorter hold to clear before the next kick
+    if (text) this.hud.banner(text, this.match.shootout ? 1.3 : 2.6);
   }
 
   setLighting(p: LightingPreset): void {
