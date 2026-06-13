@@ -1,0 +1,108 @@
+name: Daily RAG Slack Message
+
+on:
+  schedule:
+    # GitHub Actions schedules are UTC. These cover 3:00 PM
+    # America/Los_Angeles in daylight and standard time.
+    - cron: "0 22 * * *"
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  post-rag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post RAG to Slack
+        env:
+          # Requires chat:write plus channel read scopes, and bot access to the channel.
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_NAME: players-only-comm-west
+        run: |
+          set -euo pipefail
+
+          if [ "${GITHUB_EVENT_NAME:-}" = "schedule" ]; then
+            local_hour="$(TZ=America/Los_Angeles date +%H)"
+            if [ "$local_hour" != "15" ]; then
+              echo "Skipping because America/Los_Angeles hour is $local_hour, not 15."
+              exit 0
+            fi
+          fi
+
+          if [ -z "${SLACK_BOT_TOKEN:-}" ]; then
+            echo "SLACK_BOT_TOKEN secret is required." >&2
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.parse
+          import urllib.request
+
+          token = os.environ["SLACK_BOT_TOKEN"]
+          channel_name = os.environ["SLACK_CHANNEL_NAME"].lstrip("#")
+
+          def slack_get(method, params):
+              url = f"https://slack.com/api/{method}?{urllib.parse.urlencode(params)}"
+              request = urllib.request.Request(
+                  url,
+                  headers={"Authorization": f"Bearer {token}"},
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  payload = json.loads(response.read().decode("utf-8"))
+              if not payload.get("ok"):
+                  error = payload.get("error", "unknown_error")
+                  raise RuntimeError(f"Slack API {method} failed: {error}")
+              return payload
+
+          def slack_post(method, payload):
+              request = urllib.request.Request(
+                  f"https://slack.com/api/{method}",
+                  data=json.dumps(payload).encode("utf-8"),
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Content-Type": "application/json; charset=utf-8",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  result = json.loads(response.read().decode("utf-8"))
+              if not result.get("ok"):
+                  error = result.get("error", "unknown_error")
+                  raise RuntimeError(f"Slack API {method} failed: {error}")
+              return result
+
+          def resolve_channel_id():
+              cursor = ""
+              while True:
+                  params = {
+                      "exclude_archived": "true",
+                      "limit": "1000",
+                      "types": "public_channel,private_channel",
+                  }
+                  if cursor:
+                      params["cursor"] = cursor
+
+                  payload = slack_get("conversations.list", params)
+                  for channel in payload.get("channels", []):
+                      if channel.get("name") == channel_name:
+                          return channel["id"]
+
+                  cursor = payload.get("response_metadata", {}).get("next_cursor", "")
+                  if not cursor:
+                      break
+
+              raise RuntimeError(f"Could not find Slack channel #{channel_name}")
+
+          try:
+              channel_id = resolve_channel_id()
+              result = slack_post("chat.postMessage", {"channel": channel_id, "text": "RAG"})
+          except Exception as error:
+              print(error, file=sys.stderr)
+              sys.exit(1)
+
+          print(f"Posted RAG to #{channel_name} at ts={result.get('ts')}")
+          PY
