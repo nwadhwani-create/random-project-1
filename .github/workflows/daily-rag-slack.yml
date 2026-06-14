@@ -1,0 +1,34 @@
+name: Daily RAG Slack message
+
+on:
+  schedule:
+    # 3pm in America/Los_Angeles is 22:00 UTC during daylight saving time
+    # and 23:00 UTC during standard time. The script below posts only when
+    # the local hour is exactly 15, so one scheduled run exits without sending.
+    - cron: "0 22 * * *"
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  post-rag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Post RAG to Slack
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_NAME: players-only-comm-west
+          SLACK_MESSAGE: RAG
+          SLACK_TARGET_HOUR: "15"
+          SLACK_TIME_ZONE: America/Los_Angeles
+        run: node .github/scripts/post-rag-to-slack.mjs
