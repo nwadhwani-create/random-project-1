@@ -22,13 +22,16 @@ export default function RouteMap({
 
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
+    let isCancelled = false;
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error CSS import is handled by Next.js.
       await import("leaflet/dist/leaflet.css");
 
-      const map = L.map(mapRef.current!, {
+      if (isCancelled || !mapRef.current || mapInstanceRef.current) return;
+
+      const map = L.map(mapRef.current, {
         center: [20, 0],
         zoom: 2,
         minZoom: 2,
@@ -105,14 +108,17 @@ export default function RouteMap({
       const bounds = L.latLngBounds(
         Array.from(allAirports.values()).map((a) => [a.lat, a.lng])
       );
-      map.fitBounds(bounds, { padding: [40, 40] });
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [40, 40] });
+      }
 
       setIsLoaded(true);
     };
 
-    loadMap();
+    void loadMap();
 
     return () => {
+      isCancelled = true;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
@@ -150,6 +156,7 @@ export default function RouteMap({
       )}
       <div
         ref={mapRef}
+        aria-label={`${airlineName} route map`}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
       />

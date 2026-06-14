@@ -566,6 +566,27 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "air-premia",
+    name: "Air Premia",
+    iataCode: "YP",
+    icaoCode: "APZ",
+    country: "South Korea",
+    founded: 2017,
+    headquarters: "Seoul, South Korea",
+    alliance: "None",
+    logoColor: "#163A70",
+    accentColor: "#C79A3B",
+    history: `Air Premia was founded in 2017 in South Korea with the goal of building a hybrid carrier positioned between full-service airlines and low-cost operators. The airline received its air operator certificate in 2021 and began service from Seoul Incheon with Boeing 787-9 Dreamliners, giving it long-haul capability from the start.\n\nThe carrier's strategy centers on a simplified widebody fleet and a two-class cabin that offers more space than many low-cost competitors while keeping fares competitive. Air Premia first built regional links in Asia before expanding across the Pacific, using Incheon's strong connecting market and Seoul's large origin-and-destination demand.\n\nAir Premia has grown into one of South Korea's most distinctive independent airlines, adding routes to North America and popular leisure markets across Asia. Its focus on the 787 allows the airline to serve long, thinner routes that would be difficult for smaller aircraft while maintaining lower operating costs than older widebody fleets.`,
+    fleet: [
+      { model: "B787-9", manufacturer: "Boeing", count: 5, passengers: "309 (2-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/202403_HL8389_of_Air_Premia_at_ICN_T1.jpg/1280px-202403_HL8389_of_Air_Premia_at_ICN_T1.jpg", imageAlt: "Air Premia B787-9", description: "The airline's sole aircraft type, enabling both regional Asian services and long-haul transpacific routes from Seoul." },
+    ],
+    hubs: [a.ICN],
+    routes: [
+      route("ICN", "LAX"), route("ICN", "SFO"), route("ICN", "EWR"), route("ICN", "HNL"),
+      route("ICN", "NRT"), route("ICN", "BKK"), route("ICN", "HKG"), route("ICN", "TPE"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
