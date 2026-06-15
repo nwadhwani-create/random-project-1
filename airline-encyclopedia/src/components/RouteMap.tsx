@@ -10,6 +10,15 @@ interface RouteMapProps {
   accentColor: string;
 }
 
+const fallbackTileUrl = `data:image/svg+xml,${encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#eef2f7"/>
+  <path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#d8dee8" stroke-width="1"/>
+  <path d="M20 82C58 48 93 51 124 74C154 96 184 97 232 62" fill="none" stroke="#cbd5e1" stroke-width="2" opacity="0.75"/>
+  <path d="M24 188C67 162 104 166 134 184C164 202 199 205 232 182" fill="none" stroke="#cbd5e1" stroke-width="2" opacity="0.75"/>
+</svg>
+`)}`;
+
 export default function RouteMap({
   routes,
   hubs,
@@ -23,10 +32,14 @@ export default function RouteMap({
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
 
+    let isCancelled = false;
+
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Leaflet ships CSS without TypeScript declarations.
       await import("leaflet/dist/leaflet.css");
+
+      if (isCancelled || !mapRef.current || mapInstanceRef.current) return;
 
       const map = L.map(mapRef.current!, {
         center: [20, 0],
@@ -46,6 +59,7 @@ export default function RouteMap({
           attribution:
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
+          errorTileUrl: fallbackTileUrl,
           maxZoom: 19,
         }
       ).addTo(map);
@@ -113,6 +127,7 @@ export default function RouteMap({
     loadMap();
 
     return () => {
+      isCancelled = true;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
@@ -150,6 +165,7 @@ export default function RouteMap({
       )}
       <div
         ref={mapRef}
+        aria-label={`${airlineName} route map`}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
       />
