@@ -49,6 +49,12 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  EDI: { code: "EDI", name: "Edinburgh Airport", city: "Edinburgh", country: "United Kingdom", lat: 55.9500, lng: -3.3725 },
+  GLA: { code: "GLA", name: "Glasgow Airport", city: "Glasgow", country: "United Kingdom", lat: 55.8719, lng: -4.4331 },
+  SPU: { code: "SPU", name: "Split Airport", city: "Split", country: "Croatia", lat: 43.5389, lng: 16.2980 },
+  BRI: { code: "BRI", name: "Bari Karol Wojtyla", city: "Bari", country: "Italy", lat: 41.1389, lng: 16.7606 },
+  SCQ: { code: "SCQ", name: "Santiago de Compostela", city: "Santiago de Compostela", country: "Spain", lat: 42.8963, lng: -8.4151 },
+  KEF: { code: "KEF", name: "Keflavik International", city: "Reykjavik", country: "Iceland", lat: 63.9850, lng: -22.6056 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
