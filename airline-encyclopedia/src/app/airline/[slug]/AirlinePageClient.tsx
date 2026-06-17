@@ -298,7 +298,6 @@ export default function AirlinePageClient({ airline }: Props) {
             <RouteMap
               routes={airline.routes}
               hubs={airline.hubs}
-              airlineName={airline.name}
               accentColor={airline.accentColor}
             />
 
