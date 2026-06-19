@@ -12,6 +12,7 @@ export const airports: Record<string, Airport> = {
   MIA: { code: "MIA", name: "Miami International", city: "Miami", country: "USA", lat: 25.7959, lng: -80.2870 },
   IAH: { code: "IAH", name: "George Bush Intercontinental", city: "Houston", country: "USA", lat: 29.9902, lng: -95.3368 },
   EWR: { code: "EWR", name: "Newark Liberty International", city: "Newark", country: "USA", lat: 40.6895, lng: -74.1745 },
+  STL: { code: "STL", name: "St. Louis Lambert International", city: "St. Louis", country: "USA", lat: 38.7487, lng: -90.3700 },
   MSP: { code: "MSP", name: "Minneapolis-Saint Paul International", city: "Minneapolis", country: "USA", lat: 44.8848, lng: -93.2223 },
   DTW: { code: "DTW", name: "Detroit Metropolitan Wayne County", city: "Detroit", country: "USA", lat: 42.2124, lng: -83.3534 },
   BOS: { code: "BOS", name: "Logan International", city: "Boston", country: "USA", lat: 42.3656, lng: -71.0096 },
@@ -49,6 +50,10 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  BUD: { code: "BUD", name: "Budapest Ferenc Liszt International", city: "Budapest", country: "Hungary", lat: 47.4298, lng: 19.2611 },
+  PRG: { code: "PRG", name: "Vaclav Havel Prague", city: "Prague", country: "Czech Republic", lat: 50.1008, lng: 14.2632 },
+  MLA: { code: "MLA", name: "Malta International", city: "Luqa", country: "Malta", lat: 35.8575, lng: 14.4775 },
+  LYS: { code: "LYS", name: "Lyon-Saint Exupery", city: "Lyon", country: "France", lat: 45.7256, lng: 5.0811 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
@@ -94,4 +99,5 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+  MRU: { code: "MRU", name: "Sir Seewoosagur Ramgoolam International", city: "Plaine Magnien", country: "Mauritius", lat: -20.4302, lng: 57.6836 },
 };
