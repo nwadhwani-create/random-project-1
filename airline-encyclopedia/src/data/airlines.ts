@@ -326,6 +326,28 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "jetstar-japan",
+    name: "Jetstar Japan",
+    iataCode: "GK",
+    icaoCode: "JJP",
+    country: "Japan",
+    founded: 2011,
+    headquarters: "Narita, Chiba Prefecture, Japan",
+    alliance: "None",
+    logoColor: "#FF5E00",
+    accentColor: "#111111",
+    history: `Jetstar Japan was established in 2011 as a low-cost carrier joint venture between Qantas, Japan Airlines, and Japanese investment partners. The airline began commercial service on July 3, 2012, with domestic flights from Tokyo Narita to Osaka, Sapporo, Fukuoka, and Okinawa, bringing the Jetstar brand into one of Asia's largest aviation markets.\n\nThe carrier grew during a period when Japan's domestic aviation market was opening to more low-cost competition. By operating from Narita rather than Tokyo's more congested Haneda Airport, Jetstar Japan positioned itself as an affordable alternative for leisure travelers and price-sensitive domestic passengers. Its orange-star branding and single-class Airbus cabins mirrored the wider Jetstar Group model while adapting to Japanese service expectations.\n\nJetstar Japan later expanded beyond domestic routes into nearby Asian markets, adding international services to destinations such as Taipei, Manila, and Hong Kong. The airline also developed secondary bases at Osaka Kansai and Nagoya Chubu Centrair, broadening its reach across Japan while continuing to use Narita as its primary operating base.\n\nToday, Jetstar Japan remains one of Japan's largest low-cost carriers, operating an Airbus A320-family fleet across domestic and short-haul international routes. With Japan Airlines as a major shareholder and Qantas planning to transition out of its stake, the airline is entering a new phase focused on Japanese-led ownership while continuing to serve budget-conscious travelers across the Asia-Pacific region.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 19, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Jetstar_Japan_Airbus_A320-232_JA01JJ_at_Narita_International_Airport.jpg/1280px-Jetstar_Japan_Airbus_A320-232_JA01JJ_at_Narita_International_Airport.jpg", imageAlt: "Jetstar Japan A320-200", description: "Core narrowbody aircraft for Jetstar Japan's domestic trunk routes and regional international flights." },
+      { model: "A321LR", manufacturer: "Airbus", count: 3, passengers: "232 (1-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jetstar_Japan_Airbus_A321-251NXLR_JA26LR_at_Narita_International_Airport.jpg/1280px-Jetstar_Japan_Airbus_A321-251NXLR_JA26LR_at_Narita_International_Airport.jpg", imageAlt: "Jetstar Japan A321LR", description: "Higher-capacity, longer-range aircraft used to grow busy domestic and short-haul international services." },
+    ],
+    hubs: [a.NRT],
+    routes: [
+      route("NRT", "HKG"), route("NRT", "TPE"), route("NRT", "MNL"), route("NRT", "PVG"), route("NRT", "PEK"),
+      route("NRT", "ICN"), route("NRT", "SIN"), route("NRT", "BKK"), route("NRT", "KUL"), route("NRT", "CGK"),
+    ],
+  },
+  {
     slug: "qantas",
     name: "Qantas",
     iataCode: "QF",
