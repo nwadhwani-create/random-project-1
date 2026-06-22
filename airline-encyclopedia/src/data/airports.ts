@@ -58,6 +58,7 @@ export const airports: Record<string, Airport> = {
 
   NRT: { code: "NRT", name: "Narita International", city: "Tokyo", country: "Japan", lat: 35.7720, lng: 140.3929 },
   HND: { code: "HND", name: "Tokyo Haneda", city: "Tokyo", country: "Japan", lat: 35.5494, lng: 139.7798 },
+  KIX: { code: "KIX", name: "Kansai International", city: "Osaka", country: "Japan", lat: 34.4273, lng: 135.2440 },
   ICN: { code: "ICN", name: "Incheon International", city: "Seoul", country: "South Korea", lat: 37.4602, lng: 126.4407 },
   PEK: { code: "PEK", name: "Beijing Capital International", city: "Beijing", country: "China", lat: 40.0799, lng: 116.6031 },
   PVG: { code: "PVG", name: "Shanghai Pudong International", city: "Shanghai", country: "China", lat: 31.1443, lng: 121.8083 },
