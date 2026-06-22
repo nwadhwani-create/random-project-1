@@ -1,0 +1,537 @@
+{
+  "id": "tur",
+  "name": "Turkey",
+  "code": "TUR",
+  "flagColors": [
+    "#E30A17",
+    "#FFFFFF",
+    "#E30A17"
+  ],
+  "kitHome": {
+    "primary": "#E30A17",
+    "secondary": "#FFFFFF",
+    "accent": "#E30A17",
+    "shorts": "#FFFFFF",
+    "socks": "#E30A17"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#E30A17",
+    "accent": "#000000",
+    "shorts": "#E30A17",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 76,
+  "squad": [
+    {
+      "id": "tur-p1",
+      "name": "Leroy Neymar",
+      "number": 1,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Turkey",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "tur-p2",
+      "name": "Bruno Musah",
+      "number": 2,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Turkey",
+      "height": 177,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "tur-p3",
+      "name": "Jonathan Rodriguez",
+      "number": 3,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "Turkey",
+      "height": 192,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "tur-p4",
+      "name": "Daniel Donnarumma",
+      "number": 4,
+      "position": "CB",
+      "club": "Napoli",
+      "nationality": "Turkey",
+      "height": 170,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "tur-p5",
+      "name": "Alex Musiala",
+      "number": 5,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Turkey",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "tur-p6",
+      "name": "Diego Felix",
+      "number": 6,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Turkey",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "tur-p7",
+      "name": "Daniel Dybala",
+      "number": 7,
+      "position": "LB",
+      "club": "FC Barcelona",
+      "nationality": "Turkey",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 87,
+        "physical": 83
+      }
+    },
+    {
+      "id": "tur-p8",
+      "name": "Marco Martinez",
+      "number": 8,
+      "position": "RB",
+      "club": "FC Barcelona",
+      "nationality": "Turkey",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 81,
+        "defending": 85,
+        "physical": 85
+      }
+    },
+    {
+      "id": "tur-p9",
+      "name": "Rafael Chukwueze",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Milan",
+      "nationality": "Turkey",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 82,
+        "dribbling": 86,
+        "defending": 88,
+        "physical": 89
+      }
+    },
+    {
+      "id": "tur-p10",
+      "name": "Sadio Felix",
+      "number": 10,
+      "position": "CDM",
+      "club": "PSG",
+      "nationality": "Turkey",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "tur-p11",
+      "name": "Vinicius Smith",
+      "number": 11,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Turkey",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 76
+      }
+    },
+    {
+      "id": "tur-p12",
+      "name": "Kaoru Giroud",
+      "number": 12,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Turkey",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 70,
+        "physical": 73
+      }
+    },
+    {
+      "id": "tur-p13",
+      "name": "Joao Musah",
+      "number": 13,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Turkey",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "tur-p14",
+      "name": "Mathew Davies",
+      "number": 14,
+      "position": "CAM",
+      "club": "Manchester City",
+      "nationality": "Turkey",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 77
+      }
+    },
+    {
+      "id": "tur-p15",
+      "name": "Alphonso Gnabry",
+      "number": 15,
+      "position": "LM",
+      "club": "Real Madrid",
+      "nationality": "Turkey",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 74
+      }
+    },
+    {
+      "id": "tur-p16",
+      "name": "Dusan Ronaldo",
+      "number": 16,
+      "position": "RM",
+      "club": "Napoli",
+      "nationality": "Turkey",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 78
+      }
+    },
+    {
+      "id": "tur-p17",
+      "name": "Federico Mbappe",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Miami",
+      "nationality": "Turkey",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 69
+      }
+    },
+    {
+      "id": "tur-p18",
+      "name": "Emiliano Perisic",
+      "number": 18,
+      "position": "RW",
+      "club": "Inter Milan",
+      "nationality": "Turkey",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 71,
+        "physical": 73
+      }
+    },
+    {
+      "id": "tur-p19",
+      "name": "Takefusa Davies",
+      "number": 19,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Turkey",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 73,
+        "physical": 73
+      }
+    },
+    {
+      "id": "tur-p20",
+      "name": "Milan Kovacic",
+      "number": 20,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Turkey",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 81,
+        "physical": 82
+      }
+    },
+    {
+      "id": "tur-p21",
+      "name": "Cristiano Kimmich",
+      "number": 21,
+      "position": "CF",
+      "club": "Inter Milan",
+      "nationality": "Turkey",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 70,
+        "dribbling": 77,
+        "defending": 71,
+        "physical": 71
+      }
+    },
+    {
+      "id": "tur-p22",
+      "name": "Carlos Souza",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Turkey",
+      "height": 183,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "tur-p23",
+      "name": "Rafael Chiesa",
+      "number": 23,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "Turkey",
+      "height": 192,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 80,
+        "physical": 82
+      }
+    },
+    {
+      "id": "tur-p24",
+      "name": "Carlos Valverde",
+      "number": 24,
+      "position": "RB",
+      "club": "LAFC",
+      "nationality": "Turkey",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 75,
+        "physical": 76
+      }
+    },
+    {
+      "id": "tur-p25",
+      "name": "Rodrigo Bastoni",
+      "number": 25,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Turkey",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 74
+      }
+    },
+    {
+      "id": "tur-p26",
+      "name": "Pedro Modric",
+      "number": 26,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Turkey",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 73
+      }
+    }
+  ]
+}

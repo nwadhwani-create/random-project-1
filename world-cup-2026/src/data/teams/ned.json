@@ -1,0 +1,537 @@
+{
+  "id": "ned",
+  "name": "Netherlands",
+  "code": "NED",
+  "flagColors": [
+    "#AE1C28",
+    "#FFFFFF",
+    "#21468B"
+  ],
+  "kitHome": {
+    "primary": "#FF6600",
+    "secondary": "#FFFFFF",
+    "accent": "#21468B",
+    "shorts": "#000000",
+    "socks": "#FF6600"
+  },
+  "kitAway": {
+    "primary": "#21468B",
+    "secondary": "#FF6600",
+    "accent": "#FFFFFF",
+    "shorts": "#21468B",
+    "socks": "#FF6600"
+  },
+  "formation": "4-3-3",
+  "overallRating": 83,
+  "squad": [
+    {
+      "id": "ned-p1",
+      "name": "Andre Davies",
+      "number": 1,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Netherlands",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 30,
+        "passing": 81,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 91,
+        "diving": 96,
+        "handling": 91,
+        "kicking": 86,
+        "reflexes": 94,
+        "positioning": 91
+      }
+    },
+    {
+      "id": "ned-p2",
+      "name": "Leroy Davis",
+      "number": 2,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Netherlands",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 30,
+        "passing": 78,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 88,
+        "diving": 93,
+        "handling": 88,
+        "kicking": 83,
+        "reflexes": 91,
+        "positioning": 88
+      }
+    },
+    {
+      "id": "ned-p3",
+      "name": "Dusan Mitrovic",
+      "number": 3,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Netherlands",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 30,
+        "passing": 82,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 92,
+        "diving": 97,
+        "handling": 92,
+        "kicking": 87,
+        "reflexes": 95,
+        "positioning": 92
+      }
+    },
+    {
+      "id": "ned-p4",
+      "name": "Gianluigi Taylor",
+      "number": 4,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Netherlands",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 89,
+        "defending": 88,
+        "physical": 87
+      }
+    },
+    {
+      "id": "ned-p5",
+      "name": "Mathew Musiala",
+      "number": 5,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Netherlands",
+      "height": 181,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 88,
+        "physical": 85
+      }
+    },
+    {
+      "id": "ned-p6",
+      "name": "Hakim Vinicius",
+      "number": 6,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Netherlands",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 88,
+        "shooting": 86,
+        "passing": 89,
+        "dribbling": 83,
+        "defending": 86,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ned-p7",
+      "name": "Victor Williams",
+      "number": 7,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Netherlands",
+      "height": 180,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 92,
+        "shooting": 90,
+        "passing": 93,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 91
+      }
+    },
+    {
+      "id": "ned-p8",
+      "name": "Richarlison Lopez",
+      "number": 8,
+      "position": "RB",
+      "club": "Inter Miami",
+      "nationality": "Netherlands",
+      "height": 194,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 84,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 83,
+        "physical": 84
+      }
+    },
+    {
+      "id": "ned-p9",
+      "name": "Martin Garcia",
+      "number": 9,
+      "position": "CDM",
+      "club": "AC Milan",
+      "nationality": "Netherlands",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 89,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 88
+      }
+    },
+    {
+      "id": "ned-p10",
+      "name": "Jack Son",
+      "number": 10,
+      "position": "CDM",
+      "club": "Arsenal",
+      "nationality": "Netherlands",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 89,
+        "shooting": 83,
+        "passing": 89,
+        "dribbling": 87,
+        "defending": 84,
+        "physical": 86
+      }
+    },
+    {
+      "id": "ned-p11",
+      "name": "Jackson Ziyech",
+      "number": 11,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Netherlands",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 85,
+        "shooting": 91,
+        "passing": 90,
+        "dribbling": 93,
+        "defending": 89,
+        "physical": 90
+      }
+    },
+    {
+      "id": "ned-p12",
+      "name": "Kaoru Ziyech",
+      "number": 12,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Netherlands",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 88,
+        "defending": 81,
+        "physical": 81
+      }
+    },
+    {
+      "id": "ned-p13",
+      "name": "Gianluigi Richarlison",
+      "number": 13,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Netherlands",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 78
+      }
+    },
+    {
+      "id": "ned-p14",
+      "name": "Ryan Ziyech",
+      "number": 14,
+      "position": "CAM",
+      "club": "Atletico Madrid",
+      "nationality": "Netherlands",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 87,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ned-p15",
+      "name": "Bruno Ryan",
+      "number": 15,
+      "position": "LM",
+      "club": "Liverpool",
+      "nationality": "Netherlands",
+      "height": 175,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ned-p16",
+      "name": "Endrick Silva",
+      "number": 16,
+      "position": "RM",
+      "club": "FC Barcelona",
+      "nationality": "Netherlands",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ned-p17",
+      "name": "Mathew Garcia",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Milan",
+      "nationality": "Netherlands",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 88,
+        "dribbling": 83,
+        "defending": 88,
+        "physical": 90
+      }
+    },
+    {
+      "id": "ned-p18",
+      "name": "Mateo Silva",
+      "number": 18,
+      "position": "RW",
+      "club": "AC Milan",
+      "nationality": "Netherlands",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 78,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ned-p19",
+      "name": "Pedro Hakimi",
+      "number": 19,
+      "position": "ST",
+      "club": "FC Barcelona",
+      "nationality": "Netherlands",
+      "height": 187,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ned-p20",
+      "name": "Olivier Valverde",
+      "number": 20,
+      "position": "ST",
+      "club": "Bayern Munich",
+      "nationality": "Netherlands",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 81
+      }
+    },
+    {
+      "id": "ned-p21",
+      "name": "Lorenzo Williams",
+      "number": 21,
+      "position": "CF",
+      "club": "AC Milan",
+      "nationality": "Netherlands",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ned-p22",
+      "name": "Emiliano Perisic",
+      "number": 22,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Netherlands",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 89,
+        "shooting": 86,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 86,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ned-p23",
+      "name": "Luka Fernandez",
+      "number": 23,
+      "position": "LB",
+      "club": "FC Barcelona",
+      "nationality": "Netherlands",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 81,
+        "physical": 80
+      }
+    },
+    {
+      "id": "ned-p24",
+      "name": "Jonathan Mane",
+      "number": 24,
+      "position": "RB",
+      "club": "Arsenal",
+      "nationality": "Netherlands",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 87,
+        "shooting": 85,
+        "passing": 87,
+        "dribbling": 90,
+        "defending": 89,
+        "physical": 91
+      }
+    },
+    {
+      "id": "ned-p25",
+      "name": "Alessandro Hakimi",
+      "number": 25,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Netherlands",
+      "height": 181,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ned-p26",
+      "name": "Alex Neymar",
+      "number": 26,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Netherlands",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 87
+      }
+    }
+  ]
+}

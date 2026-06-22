@@ -1,0 +1,537 @@
+{
+  "id": "ita",
+  "name": "Italy",
+  "code": "ITA",
+  "flagColors": [
+    "#009246",
+    "#FFFFFF",
+    "#CE2B37"
+  ],
+  "kitHome": {
+    "primary": "#003399",
+    "secondary": "#FFFFFF",
+    "accent": "#009246",
+    "shorts": "#FFFFFF",
+    "socks": "#003399"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#003399",
+    "accent": "#CE2B37",
+    "shorts": "#003399",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 83,
+  "squad": [
+    {
+      "id": "ita-p1",
+      "name": "Nicolo Kante",
+      "number": 1,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "Italy",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "ita-p2",
+      "name": "Kaoru Sane",
+      "number": 2,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Italy",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "ita-p3",
+      "name": "Alessandro Perisic",
+      "number": 3,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Italy",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "ita-p4",
+      "name": "Takefusa Hakimi",
+      "number": 4,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Italy",
+      "height": 174,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 93,
+        "shooting": 89,
+        "passing": 91,
+        "dribbling": 87,
+        "defending": 89,
+        "physical": 88
+      }
+    },
+    {
+      "id": "ita-p5",
+      "name": "Sergio Mbappe",
+      "number": 5,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "Italy",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 86,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 90
+      }
+    },
+    {
+      "id": "ita-p6",
+      "name": "Richarlison Neymar",
+      "number": 6,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Italy",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ita-p7",
+      "name": "Gianluigi Pulisic",
+      "number": 7,
+      "position": "LB",
+      "club": "Juventus",
+      "nationality": "Italy",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 94,
+        "passing": 90,
+        "dribbling": 93,
+        "defending": 94,
+        "physical": 88
+      }
+    },
+    {
+      "id": "ita-p8",
+      "name": "Bruno Reyna",
+      "number": 8,
+      "position": "RB",
+      "club": "Real Madrid",
+      "nationality": "Italy",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 93,
+        "shooting": 87,
+        "passing": 90,
+        "dribbling": 88,
+        "defending": 86,
+        "physical": 91
+      }
+    },
+    {
+      "id": "ita-p9",
+      "name": "Enzo Chiesa",
+      "number": 9,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Italy",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 86,
+        "shooting": 83,
+        "passing": 89,
+        "dribbling": 87,
+        "defending": 88,
+        "physical": 85
+      }
+    },
+    {
+      "id": "ita-p10",
+      "name": "Martin David",
+      "number": 10,
+      "position": "CDM",
+      "club": "Manchester City",
+      "nationality": "Italy",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 87,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 95
+      }
+    },
+    {
+      "id": "ita-p11",
+      "name": "Alphonso Musiala",
+      "number": 11,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Italy",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 86,
+        "defending": 86,
+        "physical": 85
+      }
+    },
+    {
+      "id": "ita-p12",
+      "name": "Alphonso Donnarumma",
+      "number": 12,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Italy",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ita-p13",
+      "name": "Victor Vinicius",
+      "number": 13,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Italy",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 88,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 86
+      }
+    },
+    {
+      "id": "ita-p14",
+      "name": "Julian Davies",
+      "number": 14,
+      "position": "CAM",
+      "club": "Tottenham",
+      "nationality": "Italy",
+      "height": 194,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 87
+      }
+    },
+    {
+      "id": "ita-p15",
+      "name": "Ederson Donnarumma",
+      "number": 15,
+      "position": "LM",
+      "club": "Chelsea",
+      "nationality": "Italy",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ita-p16",
+      "name": "Jonathan Pulisic",
+      "number": 16,
+      "position": "RM",
+      "club": "Bayern Munich",
+      "nationality": "Italy",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 80,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ita-p17",
+      "name": "Ederson Martinez",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Milan",
+      "nationality": "Italy",
+      "height": 188,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 88,
+        "shooting": 87,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 88
+      }
+    },
+    {
+      "id": "ita-p18",
+      "name": "Enzo Brown",
+      "number": 18,
+      "position": "RW",
+      "club": "Real Madrid",
+      "nationality": "Italy",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 86,
+        "shooting": 84,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 80
+      }
+    },
+    {
+      "id": "ita-p19",
+      "name": "Sergej Oliveira",
+      "number": 19,
+      "position": "ST",
+      "club": "Chelsea",
+      "nationality": "Italy",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 86,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ita-p20",
+      "name": "Milan Taylor",
+      "number": 20,
+      "position": "ST",
+      "club": "Chelsea",
+      "nationality": "Italy",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 80,
+        "physical": 86
+      }
+    },
+    {
+      "id": "ita-p21",
+      "name": "Victor Donnarumma",
+      "number": 21,
+      "position": "CF",
+      "club": "AC Milan",
+      "nationality": "Italy",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 85
+      }
+    },
+    {
+      "id": "ita-p22",
+      "name": "Marcus Odegaard",
+      "number": 22,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Italy",
+      "height": 182,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 88,
+        "passing": 85,
+        "dribbling": 89,
+        "defending": 86,
+        "physical": 88
+      }
+    },
+    {
+      "id": "ita-p23",
+      "name": "Martin Miller",
+      "number": 23,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Italy",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 88,
+        "shooting": 82,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 80,
+        "physical": 87
+      }
+    },
+    {
+      "id": "ita-p24",
+      "name": "Kaoru Brown",
+      "number": 24,
+      "position": "RB",
+      "club": "LAFC",
+      "nationality": "Italy",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 78,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "ita-p25",
+      "name": "Daniel Martinez",
+      "number": 25,
+      "position": "CM",
+      "club": "Inter Milan",
+      "nationality": "Italy",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ita-p26",
+      "name": "Milan Larin",
+      "number": 26,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Italy",
+      "height": 190,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 79
+      }
+    }
+  ]
+}

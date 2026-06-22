@@ -1,0 +1,537 @@
+{
+  "id": "bel",
+  "name": "Belgium",
+  "code": "BEL",
+  "flagColors": [
+    "#000000",
+    "#FAE042",
+    "#ED2939"
+  ],
+  "kitHome": {
+    "primary": "#FF0000",
+    "secondary": "#000000",
+    "accent": "#FAE042",
+    "shorts": "#000000",
+    "socks": "#FF0000"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF0000",
+    "accent": "#000000",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF"
+  },
+  "formation": "3-5-2",
+  "overallRating": 82,
+  "squad": [
+    {
+      "id": "bel-p1",
+      "name": "Fernando Jones",
+      "number": 1,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Belgium",
+      "height": 171,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 67,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      }
+    },
+    {
+      "id": "bel-p2",
+      "name": "Ivan Kimmich",
+      "number": 2,
+      "position": "GK",
+      "club": "LAFC",
+      "nationality": "Belgium",
+      "height": 194,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "bel-p3",
+      "name": "Ryan Donnarumma",
+      "number": 3,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Belgium",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 69,
+        "shooting": 30,
+        "passing": 79,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 89,
+        "diving": 94,
+        "handling": 89,
+        "kicking": 84,
+        "reflexes": 92,
+        "positioning": 89
+      }
+    },
+    {
+      "id": "bel-p4",
+      "name": "Jamal Chiesa",
+      "number": 4,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Belgium",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 84,
+        "physical": 88
+      }
+    },
+    {
+      "id": "bel-p5",
+      "name": "Achraf Davis",
+      "number": 5,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Belgium",
+      "height": 179,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 87,
+        "shooting": 93,
+        "passing": 94,
+        "dribbling": 92,
+        "defending": 94,
+        "physical": 88
+      }
+    },
+    {
+      "id": "bel-p6",
+      "name": "Ousmane Neymar",
+      "number": 6,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Belgium",
+      "height": 175,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 90,
+        "shooting": 91,
+        "passing": 90,
+        "dribbling": 90,
+        "defending": 87,
+        "physical": 89
+      }
+    },
+    {
+      "id": "bel-p7",
+      "name": "Endrick Perisic",
+      "number": 7,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Belgium",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 79
+      }
+    },
+    {
+      "id": "bel-p8",
+      "name": "Wilfred Williams",
+      "number": 8,
+      "position": "RB",
+      "club": "Tottenham",
+      "nationality": "Belgium",
+      "height": 181,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 86,
+        "passing": 85,
+        "dribbling": 88,
+        "defending": 86,
+        "physical": 83
+      }
+    },
+    {
+      "id": "bel-p9",
+      "name": "Sergej Chukwueze",
+      "number": 9,
+      "position": "CDM",
+      "club": "Atletico Madrid",
+      "nationality": "Belgium",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 93,
+        "shooting": 90,
+        "passing": 86,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 88
+      }
+    },
+    {
+      "id": "bel-p10",
+      "name": "Ivan Anderson",
+      "number": 10,
+      "position": "CDM",
+      "club": "Atletico Madrid",
+      "nationality": "Belgium",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 82
+      }
+    },
+    {
+      "id": "bel-p11",
+      "name": "Rafael Ryan",
+      "number": 11,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Belgium",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "bel-p12",
+      "name": "Lucas Odegaard",
+      "number": 12,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Belgium",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 90,
+        "dribbling": 88,
+        "defending": 85,
+        "physical": 89
+      }
+    },
+    {
+      "id": "bel-p13",
+      "name": "Daniel Kubo",
+      "number": 13,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Belgium",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 76,
+        "physical": 76
+      }
+    },
+    {
+      "id": "bel-p14",
+      "name": "Leroy Modric",
+      "number": 14,
+      "position": "CAM",
+      "club": "Tottenham",
+      "nationality": "Belgium",
+      "height": 188,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 86,
+        "physical": 84
+      }
+    },
+    {
+      "id": "bel-p15",
+      "name": "Cristiano Musiala",
+      "number": 15,
+      "position": "LM",
+      "club": "Liverpool",
+      "nationality": "Belgium",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 85,
+        "shooting": 84,
+        "passing": 86,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 87
+      }
+    },
+    {
+      "id": "bel-p16",
+      "name": "Victor Miller",
+      "number": 16,
+      "position": "RM",
+      "club": "Club America",
+      "nationality": "Belgium",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 84,
+        "physical": 82
+      }
+    },
+    {
+      "id": "bel-p17",
+      "name": "Marco Mitrovic",
+      "number": 17,
+      "position": "LW",
+      "club": "Liverpool",
+      "nationality": "Belgium",
+      "height": 186,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 81
+      }
+    },
+    {
+      "id": "bel-p18",
+      "name": "Alphonso Martinez",
+      "number": 18,
+      "position": "RW",
+      "club": "Liverpool",
+      "nationality": "Belgium",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 78,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "bel-p19",
+      "name": "Alphonso Johnson",
+      "number": 19,
+      "position": "ST",
+      "club": "LAFC",
+      "nationality": "Belgium",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 87,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 86
+      }
+    },
+    {
+      "id": "bel-p20",
+      "name": "Lautaro Felix",
+      "number": 20,
+      "position": "ST",
+      "club": "Bayern Munich",
+      "nationality": "Belgium",
+      "height": 194,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 78
+      }
+    },
+    {
+      "id": "bel-p21",
+      "name": "Takefusa Ronaldo",
+      "number": 21,
+      "position": "CF",
+      "club": "Borussia Dortmund",
+      "nationality": "Belgium",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 80
+      }
+    },
+    {
+      "id": "bel-p22",
+      "name": "Olivier Martinez",
+      "number": 22,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Belgium",
+      "height": 177,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 86,
+        "physical": 81
+      }
+    },
+    {
+      "id": "bel-p23",
+      "name": "Ivan Odegaard",
+      "number": 23,
+      "position": "LB",
+      "club": "AC Milan",
+      "nationality": "Belgium",
+      "height": 179,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 86,
+        "physical": 83
+      }
+    },
+    {
+      "id": "bel-p24",
+      "name": "Marcus Martinez",
+      "number": 24,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "Belgium",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 80,
+        "defending": 84,
+        "physical": 83
+      }
+    },
+    {
+      "id": "bel-p25",
+      "name": "Cristiano Havertz",
+      "number": 25,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Belgium",
+      "height": 175,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 75
+      }
+    },
+    {
+      "id": "bel-p26",
+      "name": "Kai Kubo",
+      "number": 26,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Belgium",
+      "height": 173,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 75,
+        "physical": 72
+      }
+    }
+  ]
+}

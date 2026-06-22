@@ -1,0 +1,537 @@
+{
+  "id": "kor",
+  "name": "South Korea",
+  "code": "KOR",
+  "flagColors": [
+    "#FFFFFF",
+    "#CD2E3A",
+    "#0047A0"
+  ],
+  "kitHome": {
+    "primary": "#CD2E3A",
+    "secondary": "#FFFFFF",
+    "accent": "#0047A0",
+    "shorts": "#0047A0",
+    "socks": "#CD2E3A"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#CD2E3A",
+    "accent": "#0047A0",
+    "shorts": "#CD2E3A",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 77,
+  "squad": [
+    {
+      "id": "kor-p1",
+      "name": "Vinicius Lopez",
+      "number": 1,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "South Korea",
+      "height": 177,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "kor-p2",
+      "name": "Cristiano Neymar",
+      "number": 2,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "South Korea",
+      "height": 192,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "kor-p3",
+      "name": "Jack Martinez",
+      "number": 3,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "South Korea",
+      "height": 187,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "kor-p4",
+      "name": "Bernardo Mitoma",
+      "number": 4,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "South Korea",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 90,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 86,
+        "defending": 84,
+        "physical": 83
+      }
+    },
+    {
+      "id": "kor-p5",
+      "name": "Pedro Mitoma",
+      "number": 5,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "South Korea",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 82,
+        "physical": 82
+      }
+    },
+    {
+      "id": "kor-p6",
+      "name": "Alessandro Musah",
+      "number": 6,
+      "position": "CB",
+      "club": "Club America",
+      "nationality": "South Korea",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 86,
+        "passing": 89,
+        "dribbling": 87,
+        "defending": 89,
+        "physical": 83
+      }
+    },
+    {
+      "id": "kor-p7",
+      "name": "Cristiano Ederson",
+      "number": 7,
+      "position": "LB",
+      "club": "AC Milan",
+      "nationality": "South Korea",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 79,
+        "physical": 80
+      }
+    },
+    {
+      "id": "kor-p8",
+      "name": "Wilfred Rodriguez",
+      "number": 8,
+      "position": "RB",
+      "club": "Bayern Munich",
+      "nationality": "South Korea",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 88,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 89,
+        "physical": 84
+      }
+    },
+    {
+      "id": "kor-p9",
+      "name": "Nicolas Giroud",
+      "number": 9,
+      "position": "CDM",
+      "club": "Manchester City",
+      "nationality": "South Korea",
+      "height": 180,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 90,
+        "physical": 83
+      }
+    },
+    {
+      "id": "kor-p10",
+      "name": "Nicolas Reyna",
+      "number": 10,
+      "position": "CDM",
+      "club": "Chelsea",
+      "nationality": "South Korea",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 82,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "kor-p11",
+      "name": "Sergej Odegaard",
+      "number": 11,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "South Korea",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 83,
+        "passing": 88,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 90
+      }
+    },
+    {
+      "id": "kor-p12",
+      "name": "Takefusa Taylor",
+      "number": 12,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "South Korea",
+      "height": 177,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "kor-p13",
+      "name": "Marcus Musiala",
+      "number": 13,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "South Korea",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "kor-p14",
+      "name": "Gianluigi Musah",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Milan",
+      "nationality": "South Korea",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 72
+      }
+    },
+    {
+      "id": "kor-p15",
+      "name": "Son Anderson",
+      "number": 15,
+      "position": "LM",
+      "club": "Inter Miami",
+      "nationality": "South Korea",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "kor-p16",
+      "name": "Lucas Anderson",
+      "number": 16,
+      "position": "RM",
+      "club": "Inter Miami",
+      "nationality": "South Korea",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "kor-p17",
+      "name": "Rafael Son",
+      "number": 17,
+      "position": "LW",
+      "club": "Club America",
+      "nationality": "South Korea",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "kor-p18",
+      "name": "Federico Mitoma",
+      "number": 18,
+      "position": "RW",
+      "club": "Napoli",
+      "nationality": "South Korea",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 81,
+        "physical": 82
+      }
+    },
+    {
+      "id": "kor-p19",
+      "name": "Alisson Gonzalez",
+      "number": 19,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "South Korea",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 75
+      }
+    },
+    {
+      "id": "kor-p20",
+      "name": "Mathew Brown",
+      "number": 20,
+      "position": "ST",
+      "club": "FC Barcelona",
+      "nationality": "South Korea",
+      "height": 191,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "kor-p21",
+      "name": "Antoine Modric",
+      "number": 21,
+      "position": "CF",
+      "club": "Napoli",
+      "nationality": "South Korea",
+      "height": 174,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 77,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 77
+      }
+    },
+    {
+      "id": "kor-p22",
+      "name": "Antoine Vinicius",
+      "number": 22,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "South Korea",
+      "height": 178,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "kor-p23",
+      "name": "Rafael Garcia",
+      "number": 23,
+      "position": "LB",
+      "club": "Club America",
+      "nationality": "South Korea",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 78
+      }
+    },
+    {
+      "id": "kor-p24",
+      "name": "Harry Alvarez",
+      "number": 24,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "South Korea",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 77
+      }
+    },
+    {
+      "id": "kor-p25",
+      "name": "Thomas Oliveira",
+      "number": 25,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "South Korea",
+      "height": 190,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 71
+      }
+    },
+    {
+      "id": "kor-p26",
+      "name": "Vinicius Vinicius",
+      "number": 26,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "South Korea",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 71
+      }
+    }
+  ]
+}

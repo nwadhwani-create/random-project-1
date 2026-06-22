@@ -1,0 +1,537 @@
+{
+  "id": "ecu",
+  "name": "Ecuador",
+  "code": "ECU",
+  "flagColors": [
+    "#FFD100",
+    "#0033A0",
+    "#CE1126"
+  ],
+  "kitHome": {
+    "primary": "#FFD100",
+    "secondary": "#0033A0",
+    "accent": "#CE1126",
+    "shorts": "#0033A0",
+    "socks": "#FFD100"
+  },
+  "kitAway": {
+    "primary": "#0033A0",
+    "secondary": "#FFD100",
+    "accent": "#CE1126",
+    "shorts": "#0033A0",
+    "socks": "#FFD100"
+  },
+  "formation": "4-3-3",
+  "overallRating": 77,
+  "squad": [
+    {
+      "id": "ecu-p1",
+      "name": "Nolo Dybala",
+      "number": 1,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Ecuador",
+      "height": 185,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 59,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 79,
+        "diving": 84,
+        "handling": 79,
+        "kicking": 74,
+        "reflexes": 82,
+        "positioning": 79
+      }
+    },
+    {
+      "id": "ecu-p2",
+      "name": "Gabriel Larin",
+      "number": 2,
+      "position": "GK",
+      "club": "Chelsea",
+      "nationality": "Ecuador",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "ecu-p3",
+      "name": "Nicolas Kimmich",
+      "number": 3,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Ecuador",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "ecu-p4",
+      "name": "Son Souza",
+      "number": 4,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Ecuador",
+      "height": 188,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 78,
+        "physical": 72
+      }
+    },
+    {
+      "id": "ecu-p5",
+      "name": "Antonio Williams",
+      "number": 5,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Ecuador",
+      "height": 176,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 80,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ecu-p6",
+      "name": "Jack Ederson",
+      "number": 6,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Ecuador",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ecu-p7",
+      "name": "Ederson Giroud",
+      "number": 7,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Ecuador",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 86
+      }
+    },
+    {
+      "id": "ecu-p8",
+      "name": "Gabriel Davis",
+      "number": 8,
+      "position": "RB",
+      "club": "Club America",
+      "nationality": "Ecuador",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ecu-p9",
+      "name": "Miguel Garcia",
+      "number": 9,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Ecuador",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 88,
+        "shooting": 90,
+        "passing": 86,
+        "dribbling": 85,
+        "defending": 88,
+        "physical": 85
+      }
+    },
+    {
+      "id": "ecu-p10",
+      "name": "Hakim Souza",
+      "number": 10,
+      "position": "CDM",
+      "club": "Bayern Munich",
+      "nationality": "Ecuador",
+      "height": 179,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 84
+      }
+    },
+    {
+      "id": "ecu-p11",
+      "name": "Leroy Kubo",
+      "number": 11,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Ecuador",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ecu-p12",
+      "name": "Ousmane Miller",
+      "number": 12,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Ecuador",
+      "height": 179,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 73,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ecu-p13",
+      "name": "Hakim Kimmich",
+      "number": 13,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Ecuador",
+      "height": 188,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 79,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ecu-p14",
+      "name": "Thomas Modric",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Miami",
+      "nationality": "Ecuador",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 73
+      }
+    },
+    {
+      "id": "ecu-p15",
+      "name": "Antoine Ronaldo",
+      "number": 15,
+      "position": "LM",
+      "club": "Borussia Dortmund",
+      "nationality": "Ecuador",
+      "height": 182,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ecu-p16",
+      "name": "Pierre Gnabry",
+      "number": 16,
+      "position": "RM",
+      "club": "LAFC",
+      "nationality": "Ecuador",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ecu-p17",
+      "name": "Victor Kante",
+      "number": 17,
+      "position": "LW",
+      "club": "Liverpool",
+      "nationality": "Ecuador",
+      "height": 174,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 74
+      }
+    },
+    {
+      "id": "ecu-p18",
+      "name": "Alessandro Silva",
+      "number": 18,
+      "position": "RW",
+      "club": "AC Milan",
+      "nationality": "Ecuador",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 76,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ecu-p19",
+      "name": "David Ronaldo",
+      "number": 19,
+      "position": "ST",
+      "club": "FC Barcelona",
+      "nationality": "Ecuador",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 77,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 74,
+        "defending": 81,
+        "physical": 78
+      }
+    },
+    {
+      "id": "ecu-p20",
+      "name": "Rodrigo Mitoma",
+      "number": 20,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Ecuador",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 74
+      }
+    },
+    {
+      "id": "ecu-p21",
+      "name": "Mohamed Barella",
+      "number": 21,
+      "position": "CF",
+      "club": "Arsenal",
+      "nationality": "Ecuador",
+      "height": 190,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 70,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ecu-p22",
+      "name": "Lucas Modric",
+      "number": 22,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Ecuador",
+      "height": 170,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ecu-p23",
+      "name": "Kaoru Barella",
+      "number": 23,
+      "position": "LB",
+      "club": "PSG",
+      "nationality": "Ecuador",
+      "height": 177,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 73,
+        "defending": 67,
+        "physical": 72
+      }
+    },
+    {
+      "id": "ecu-p24",
+      "name": "Gabriel Mane",
+      "number": 24,
+      "position": "RB",
+      "club": "Inter Miami",
+      "nationality": "Ecuador",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ecu-p25",
+      "name": "Fernando Ronaldo",
+      "number": 25,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Ecuador",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 70
+      }
+    },
+    {
+      "id": "ecu-p26",
+      "name": "Victor Gonzalez",
+      "number": 26,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Ecuador",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 82
+      }
+    }
+  ]
+}

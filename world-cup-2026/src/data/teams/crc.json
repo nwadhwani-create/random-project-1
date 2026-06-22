@@ -1,0 +1,537 @@
+{
+  "id": "crc",
+  "name": "Costa Rica",
+  "code": "CRC",
+  "flagColors": [
+    "#002B7F",
+    "#FFFFFF",
+    "#CE1126"
+  ],
+  "kitHome": {
+    "primary": "#CE1126",
+    "secondary": "#002B7F",
+    "accent": "#FFFFFF",
+    "shorts": "#002B7F",
+    "socks": "#CE1126"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#CE1126",
+    "accent": "#002B7F",
+    "shorts": "#CE1126",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 74,
+  "squad": [
+    {
+      "id": "crc-p1",
+      "name": "Ousmane Musiala",
+      "number": 1,
+      "position": "GK",
+      "club": "AC Milan",
+      "nationality": "Costa Rica",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "crc-p2",
+      "name": "Wilfred Garcia",
+      "number": 2,
+      "position": "GK",
+      "club": "Juventus",
+      "nationality": "Costa Rica",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 53,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 73,
+        "diving": 78,
+        "handling": 73,
+        "kicking": 68,
+        "reflexes": 76,
+        "positioning": 73
+      }
+    },
+    {
+      "id": "crc-p3",
+      "name": "Leroy Johnson",
+      "number": 3,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Costa Rica",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "crc-p4",
+      "name": "Jackson Miller",
+      "number": 4,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Costa Rica",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 78
+      }
+    },
+    {
+      "id": "crc-p5",
+      "name": "Kylian Gnabry",
+      "number": 5,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "Costa Rica",
+      "height": 190,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 74,
+        "physical": 70
+      }
+    },
+    {
+      "id": "crc-p6",
+      "name": "Achraf Martinez",
+      "number": 6,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Costa Rica",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 84,
+        "physical": 79
+      }
+    },
+    {
+      "id": "crc-p7",
+      "name": "Mateo Vlahovic",
+      "number": 7,
+      "position": "LB",
+      "club": "Atletico Madrid",
+      "nationality": "Costa Rica",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "crc-p8",
+      "name": "Ousmane Neymar",
+      "number": 8,
+      "position": "RB",
+      "club": "Real Madrid",
+      "nationality": "Costa Rica",
+      "height": 191,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 80
+      }
+    },
+    {
+      "id": "crc-p9",
+      "name": "Harry Valverde",
+      "number": 9,
+      "position": "CDM",
+      "club": "FC Barcelona",
+      "nationality": "Costa Rica",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 81
+      }
+    },
+    {
+      "id": "crc-p10",
+      "name": "Jamal Neymar",
+      "number": 10,
+      "position": "CDM",
+      "club": "PSG",
+      "nationality": "Costa Rica",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 79,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "crc-p11",
+      "name": "Takefusa Pulisic",
+      "number": 11,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Costa Rica",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 71,
+        "physical": 70
+      }
+    },
+    {
+      "id": "crc-p12",
+      "name": "Ruben Modric",
+      "number": 12,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "Costa Rica",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 65,
+        "physical": 71
+      }
+    },
+    {
+      "id": "crc-p13",
+      "name": "Marco Ronaldo",
+      "number": 13,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Costa Rica",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 70,
+        "physical": 67
+      }
+    },
+    {
+      "id": "crc-p14",
+      "name": "Rafael Gonzalez",
+      "number": 14,
+      "position": "CAM",
+      "club": "Napoli",
+      "nationality": "Costa Rica",
+      "height": 188,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 68,
+        "physical": 67
+      }
+    },
+    {
+      "id": "crc-p15",
+      "name": "Bruno Kimmich",
+      "number": 15,
+      "position": "LM",
+      "club": "PSG",
+      "nationality": "Costa Rica",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "crc-p16",
+      "name": "Daniel Kimmich",
+      "number": 16,
+      "position": "RM",
+      "club": "PSG",
+      "nationality": "Costa Rica",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "crc-p17",
+      "name": "Hakim Kante",
+      "number": 17,
+      "position": "LW",
+      "club": "Liverpool",
+      "nationality": "Costa Rica",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 76,
+        "physical": 77
+      }
+    },
+    {
+      "id": "crc-p18",
+      "name": "Luis Taylor",
+      "number": 18,
+      "position": "RW",
+      "club": "Tottenham",
+      "nationality": "Costa Rica",
+      "height": 175,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 68,
+        "physical": 65
+      }
+    },
+    {
+      "id": "crc-p19",
+      "name": "Endrick Musiala",
+      "number": 19,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Costa Rica",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 73
+      }
+    },
+    {
+      "id": "crc-p20",
+      "name": "Bruno Fernandez",
+      "number": 20,
+      "position": "ST",
+      "club": "FC Barcelona",
+      "nationality": "Costa Rica",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 77
+      }
+    },
+    {
+      "id": "crc-p21",
+      "name": "Richarlison Pulisic",
+      "number": 21,
+      "position": "CF",
+      "club": "Liverpool",
+      "nationality": "Costa Rica",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 72,
+        "physical": 74
+      }
+    },
+    {
+      "id": "crc-p22",
+      "name": "Gianluigi Donnarumma",
+      "number": 22,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Costa Rica",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 76,
+        "physical": 70
+      }
+    },
+    {
+      "id": "crc-p23",
+      "name": "Hakim Taylor",
+      "number": 23,
+      "position": "LB",
+      "club": "Arsenal",
+      "nationality": "Costa Rica",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 75,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 77
+      }
+    },
+    {
+      "id": "crc-p24",
+      "name": "Hakim Souza",
+      "number": 24,
+      "position": "RB",
+      "club": "Juventus",
+      "nationality": "Costa Rica",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 69,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 66,
+        "physical": 66
+      }
+    },
+    {
+      "id": "crc-p25",
+      "name": "Alisson Williams",
+      "number": 25,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Costa Rica",
+      "height": 185,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 70
+      }
+    },
+    {
+      "id": "crc-p26",
+      "name": "Leroy Miller",
+      "number": 26,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Costa Rica",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 72,
+        "physical": 73
+      }
+    }
+  ]
+}

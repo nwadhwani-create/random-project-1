@@ -1,0 +1,537 @@
+{
+  "id": "mar",
+  "name": "Morocco",
+  "code": "MAR",
+  "flagColors": [
+    "#C1272D",
+    "#006233",
+    "#C1272D"
+  ],
+  "kitHome": {
+    "primary": "#C1272D",
+    "secondary": "#006233",
+    "accent": "#FFFFFF",
+    "shorts": "#006233",
+    "socks": "#C1272D"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#C1272D",
+    "accent": "#006233",
+    "shorts": "#C1272D",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 80,
+  "squad": [
+    {
+      "id": "mar-p1",
+      "name": "Joao Anderson",
+      "number": 1,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Morocco",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "mar-p2",
+      "name": "Martin Chukwueze",
+      "number": 2,
+      "position": "GK",
+      "club": "Napoli",
+      "nationality": "Morocco",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 70,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      }
+    },
+    {
+      "id": "mar-p3",
+      "name": "Kylian Pulisic",
+      "number": 3,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Morocco",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 61,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      }
+    },
+    {
+      "id": "mar-p4",
+      "name": "Daniel Jones",
+      "number": 4,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Morocco",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 93,
+        "shooting": 93,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 92,
+        "physical": 91
+      }
+    },
+    {
+      "id": "mar-p5",
+      "name": "Miguel Modric",
+      "number": 5,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Morocco",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 87,
+        "defending": 80,
+        "physical": 85
+      }
+    },
+    {
+      "id": "mar-p6",
+      "name": "Enzo Gonzalez",
+      "number": 6,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Morocco",
+      "height": 183,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 93,
+        "shooting": 86,
+        "passing": 92,
+        "dribbling": 91,
+        "defending": 91,
+        "physical": 90
+      }
+    },
+    {
+      "id": "mar-p7",
+      "name": "Olivier Barella",
+      "number": 7,
+      "position": "LB",
+      "club": "Tottenham",
+      "nationality": "Morocco",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 87,
+        "shooting": 90,
+        "passing": 90,
+        "dribbling": 90,
+        "defending": 86,
+        "physical": 86
+      }
+    },
+    {
+      "id": "mar-p8",
+      "name": "Jack Miller",
+      "number": 8,
+      "position": "RB",
+      "club": "Borussia Dortmund",
+      "nationality": "Morocco",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 86,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 84
+      }
+    },
+    {
+      "id": "mar-p9",
+      "name": "Hakim Courtois",
+      "number": 9,
+      "position": "CDM",
+      "club": "Real Madrid",
+      "nationality": "Morocco",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 85,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 80
+      }
+    },
+    {
+      "id": "mar-p10",
+      "name": "Jonathan Osimhen",
+      "number": 10,
+      "position": "CDM",
+      "club": "Tottenham",
+      "nationality": "Morocco",
+      "height": 187,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 87,
+        "shooting": 89,
+        "passing": 91,
+        "dribbling": 88,
+        "defending": 91,
+        "physical": 87
+      }
+    },
+    {
+      "id": "mar-p11",
+      "name": "Sergej Dybala",
+      "number": 11,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Morocco",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 81
+      }
+    },
+    {
+      "id": "mar-p12",
+      "name": "Son Sane",
+      "number": 12,
+      "position": "CM",
+      "club": "Inter Milan",
+      "nationality": "Morocco",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "mar-p13",
+      "name": "Alessandro Musah",
+      "number": 13,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Morocco",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 72
+      }
+    },
+    {
+      "id": "mar-p14",
+      "name": "Joao Barella",
+      "number": 14,
+      "position": "CAM",
+      "club": "Borussia Dortmund",
+      "nationality": "Morocco",
+      "height": 184,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 72,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "mar-p15",
+      "name": "Sergej Ziyech",
+      "number": 15,
+      "position": "LM",
+      "club": "Chelsea",
+      "nationality": "Morocco",
+      "height": 183,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "mar-p16",
+      "name": "Alphonso Mbappe",
+      "number": 16,
+      "position": "RM",
+      "club": "Manchester City",
+      "nationality": "Morocco",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "mar-p17",
+      "name": "Kylian Musiala",
+      "number": 17,
+      "position": "LW",
+      "club": "Bayern Munich",
+      "nationality": "Morocco",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 81,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "mar-p18",
+      "name": "Riyad Bastoni",
+      "number": 18,
+      "position": "RW",
+      "club": "Manchester City",
+      "nationality": "Morocco",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 74
+      }
+    },
+    {
+      "id": "mar-p19",
+      "name": "Kylian Martinez",
+      "number": 19,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Morocco",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 76
+      }
+    },
+    {
+      "id": "mar-p20",
+      "name": "Nolo Souza",
+      "number": 20,
+      "position": "ST",
+      "club": "Real Madrid",
+      "nationality": "Morocco",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 78,
+        "physical": 74
+      }
+    },
+    {
+      "id": "mar-p21",
+      "name": "Carlos Modric",
+      "number": 21,
+      "position": "CF",
+      "club": "FC Barcelona",
+      "nationality": "Morocco",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "mar-p22",
+      "name": "Joshua Miller",
+      "number": 22,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Morocco",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 86,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 81
+      }
+    },
+    {
+      "id": "mar-p23",
+      "name": "Rafael David",
+      "number": 23,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "Morocco",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "mar-p24",
+      "name": "Richarlison Gonzalez",
+      "number": 24,
+      "position": "RB",
+      "club": "FC Barcelona",
+      "nationality": "Morocco",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 86,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 84,
+        "physical": 81
+      }
+    },
+    {
+      "id": "mar-p25",
+      "name": "Diego Mbappe",
+      "number": 25,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Morocco",
+      "height": 186,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 86
+      }
+    },
+    {
+      "id": "mar-p26",
+      "name": "Sadio Ziyech",
+      "number": 26,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Morocco",
+      "height": 179,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 78,
+        "physical": 73
+      }
+    }
+  ]
+}

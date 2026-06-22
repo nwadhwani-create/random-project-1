@@ -1,0 +1,537 @@
+{
+  "id": "can",
+  "name": "Canada",
+  "code": "CAN",
+  "flagColors": [
+    "#FF0000",
+    "#FFFFFF",
+    "#FF0000"
+  ],
+  "kitHome": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "accent": "#FF0000",
+    "shorts": "#FFFFFF",
+    "socks": "#FF0000"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF0000",
+    "accent": "#000000",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 76,
+  "squad": [
+    {
+      "id": "can-p1",
+      "name": "Takefusa Vlahovic",
+      "number": 1,
+      "position": "GK",
+      "club": "Chelsea",
+      "nationality": "Canada",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "can-p2",
+      "name": "Florian Hakimi",
+      "number": 2,
+      "position": "GK",
+      "club": "Napoli",
+      "nationality": "Canada",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "can-p3",
+      "name": "Lautaro Kante",
+      "number": 3,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Canada",
+      "height": 187,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "can-p4",
+      "name": "Jackson Lopez",
+      "number": 4,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Canada",
+      "height": 194,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 84,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 84,
+        "physical": 81
+      }
+    },
+    {
+      "id": "can-p5",
+      "name": "Julian Martinez",
+      "number": 5,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Canada",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 73,
+        "shooting": 80,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 81,
+        "physical": 74
+      }
+    },
+    {
+      "id": "can-p6",
+      "name": "Endrick Courtois",
+      "number": 6,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Canada",
+      "height": 176,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "can-p7",
+      "name": "Son Santos",
+      "number": 7,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "Canada",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 80
+      }
+    },
+    {
+      "id": "can-p8",
+      "name": "Sergej Kubo",
+      "number": 8,
+      "position": "RB",
+      "club": "Real Madrid",
+      "nationality": "Canada",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "can-p9",
+      "name": "Youssef Odegaard",
+      "number": 9,
+      "position": "CDM",
+      "club": "Juventus",
+      "nationality": "Canada",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 84
+      }
+    },
+    {
+      "id": "can-p10",
+      "name": "Nicolas Gnabry",
+      "number": 10,
+      "position": "CDM",
+      "club": "Inter Milan",
+      "nationality": "Canada",
+      "height": 187,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 85,
+        "physical": 79
+      }
+    },
+    {
+      "id": "can-p11",
+      "name": "Jack Gnabry",
+      "number": 11,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Canada",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 79,
+        "physical": 80
+      }
+    },
+    {
+      "id": "can-p12",
+      "name": "Cristiano Odegaard",
+      "number": 12,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Canada",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "can-p13",
+      "name": "Achraf Koulibaly",
+      "number": 13,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Canada",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 74
+      }
+    },
+    {
+      "id": "can-p14",
+      "name": "Victor Ederson",
+      "number": 14,
+      "position": "CAM",
+      "club": "Bayern Munich",
+      "nationality": "Canada",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 70,
+        "physical": 72
+      }
+    },
+    {
+      "id": "can-p15",
+      "name": "Fernando Fernandes",
+      "number": 15,
+      "position": "LM",
+      "club": "Club America",
+      "nationality": "Canada",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 77
+      }
+    },
+    {
+      "id": "can-p16",
+      "name": "Mateo Brown",
+      "number": 16,
+      "position": "RM",
+      "club": "Borussia Dortmund",
+      "nationality": "Canada",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 77,
+        "physical": 84
+      }
+    },
+    {
+      "id": "can-p17",
+      "name": "Ryan Musiala",
+      "number": 17,
+      "position": "LW",
+      "club": "PSG",
+      "nationality": "Canada",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 69
+      }
+    },
+    {
+      "id": "can-p18",
+      "name": "Mathew Perisic",
+      "number": 18,
+      "position": "RW",
+      "club": "Manchester City",
+      "nationality": "Canada",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 84
+      }
+    },
+    {
+      "id": "can-p19",
+      "name": "Pierre Rodriguez",
+      "number": 19,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Canada",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 76,
+        "physical": 75
+      }
+    },
+    {
+      "id": "can-p20",
+      "name": "Vinicius Modric",
+      "number": 20,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Canada",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 69,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 76
+      }
+    },
+    {
+      "id": "can-p21",
+      "name": "Roberto Vlahovic",
+      "number": 21,
+      "position": "CF",
+      "club": "AC Milan",
+      "nationality": "Canada",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 73
+      }
+    },
+    {
+      "id": "can-p22",
+      "name": "Kai Perisic",
+      "number": 22,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "Canada",
+      "height": 189,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 70
+      }
+    },
+    {
+      "id": "can-p23",
+      "name": "Joao Valverde",
+      "number": 23,
+      "position": "LB",
+      "club": "Inter Milan",
+      "nationality": "Canada",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 74,
+        "physical": 71
+      }
+    },
+    {
+      "id": "can-p24",
+      "name": "Kylian Musiala",
+      "number": 24,
+      "position": "RB",
+      "club": "Inter Milan",
+      "nationality": "Canada",
+      "height": 180,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 76,
+        "physical": 81
+      }
+    },
+    {
+      "id": "can-p25",
+      "name": "Mateo Kovacic",
+      "number": 25,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Canada",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 66,
+        "physical": 72
+      }
+    },
+    {
+      "id": "can-p26",
+      "name": "Carlos Pulisic",
+      "number": 26,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Canada",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 71
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": "aus",
+  "name": "Australia",
+  "code": "AUS",
+  "flagColors": [
+    "#00008B",
+    "#FFFFFF",
+    "#FF0000"
+  ],
+  "kitHome": {
+    "primary": "#FFCC00",
+    "secondary": "#00843D",
+    "accent": "#00008B",
+    "shorts": "#00843D",
+    "socks": "#FFCC00"
+  },
+  "kitAway": {
+    "primary": "#00843D",
+    "secondary": "#FFCC00",
+    "accent": "#00008B",
+    "shorts": "#00843D",
+    "socks": "#FFCC00"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 76,
+  "squad": [
+    {
+      "id": "aus-p1",
+      "name": "Fernando Pulisic",
+      "number": 1,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Australia",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "aus-p2",
+      "name": "Rodrigo Richarlison",
+      "number": 2,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Australia",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "aus-p3",
+      "name": "Bernardo Souza",
+      "number": 3,
+      "position": "GK",
+      "club": "Tottenham",
+      "nationality": "Australia",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "aus-p4",
+      "name": "Pierre Oliveira",
+      "number": 4,
+      "position": "CB",
+      "club": "Club America",
+      "nationality": "Australia",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 74
+      }
+    },
+    {
+      "id": "aus-p5",
+      "name": "Alessandro Brown",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Australia",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 74,
+        "physical": 76
+      }
+    },
+    {
+      "id": "aus-p6",
+      "name": "Andre Kovacic",
+      "number": 6,
+      "position": "CB",
+      "club": "AC Milan",
+      "nationality": "Australia",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 83
+      }
+    },
+    {
+      "id": "aus-p7",
+      "name": "Miguel Chiesa",
+      "number": 7,
+      "position": "LB",
+      "club": "Chelsea",
+      "nationality": "Australia",
+      "height": 187,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 73,
+        "physical": 77
+      }
+    },
+    {
+      "id": "aus-p8",
+      "name": "Pierre Mbappe",
+      "number": 8,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Australia",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 72,
+        "physical": 77
+      }
+    },
+    {
+      "id": "aus-p9",
+      "name": "Ousmane Chiesa",
+      "number": 9,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Australia",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "aus-p10",
+      "name": "James Donnarumma",
+      "number": 10,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "Australia",
+      "height": 184,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 84
+      }
+    },
+    {
+      "id": "aus-p11",
+      "name": "Rodrigo Smith",
+      "number": 11,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Australia",
+      "height": 191,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 78,
+        "defending": 72,
+        "physical": 71
+      }
+    },
+    {
+      "id": "aus-p12",
+      "name": "Sergej Ryan",
+      "number": 12,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Australia",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 74
+      }
+    },
+    {
+      "id": "aus-p13",
+      "name": "Pedro Modric",
+      "number": 13,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Australia",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 69
+      }
+    },
+    {
+      "id": "aus-p14",
+      "name": "Fernando Silva",
+      "number": 14,
+      "position": "CAM",
+      "club": "LAFC",
+      "nationality": "Australia",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 68
+      }
+    },
+    {
+      "id": "aus-p15",
+      "name": "Sergio Dybala",
+      "number": 15,
+      "position": "LM",
+      "club": "Inter Miami",
+      "nationality": "Australia",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 80
+      }
+    },
+    {
+      "id": "aus-p16",
+      "name": "Kaoru Ryan",
+      "number": 16,
+      "position": "RM",
+      "club": "Inter Milan",
+      "nationality": "Australia",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 83
+      }
+    },
+    {
+      "id": "aus-p17",
+      "name": "David Giroud",
+      "number": 17,
+      "position": "LW",
+      "club": "Tottenham",
+      "nationality": "Australia",
+      "height": 189,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 72,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 76
+      }
+    },
+    {
+      "id": "aus-p18",
+      "name": "Fernando Kovacic",
+      "number": 18,
+      "position": "RW",
+      "club": "Real Madrid",
+      "nationality": "Australia",
+      "height": 175,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 80,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 75
+      }
+    },
+    {
+      "id": "aus-p19",
+      "name": "Riyad Ederson",
+      "number": 19,
+      "position": "ST",
+      "club": "Chelsea",
+      "nationality": "Australia",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 73
+      }
+    },
+    {
+      "id": "aus-p20",
+      "name": "Jackson Martinez",
+      "number": 20,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "Australia",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 78,
+        "physical": 74
+      }
+    },
+    {
+      "id": "aus-p21",
+      "name": "Martin Ederson",
+      "number": 21,
+      "position": "CF",
+      "club": "Arsenal",
+      "nationality": "Australia",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 76
+      }
+    },
+    {
+      "id": "aus-p22",
+      "name": "Mohamed Gonzalez",
+      "number": 22,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Australia",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 70,
+        "physical": 71
+      }
+    },
+    {
+      "id": "aus-p23",
+      "name": "Alphonso Gnabry",
+      "number": 23,
+      "position": "LB",
+      "club": "LAFC",
+      "nationality": "Australia",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "aus-p24",
+      "name": "Luis Ryan",
+      "number": 24,
+      "position": "RB",
+      "club": "Inter Miami",
+      "nationality": "Australia",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 70
+      }
+    },
+    {
+      "id": "aus-p25",
+      "name": "Mohamed Dybala",
+      "number": 25,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Australia",
+      "height": 170,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 70,
+        "physical": 74
+      }
+    },
+    {
+      "id": "aus-p26",
+      "name": "Riyad Brown",
+      "number": 26,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Australia",
+      "height": 183,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 79,
+        "physical": 74
+      }
+    }
+  ]
+}

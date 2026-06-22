@@ -1,0 +1,537 @@
+{
+  "id": "pol",
+  "name": "Poland",
+  "code": "POL",
+  "flagColors": [
+    "#FFFFFF",
+    "#DC143C",
+    "#FFFFFF"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#DC143C",
+    "accent": "#FFFFFF",
+    "shorts": "#DC143C",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#DC143C",
+    "secondary": "#FFFFFF",
+    "accent": "#DC143C",
+    "shorts": "#DC143C",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 78,
+  "squad": [
+    {
+      "id": "pol-p1",
+      "name": "Bernardo Courtois",
+      "number": 1,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Poland",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "pol-p2",
+      "name": "Rafael Larin",
+      "number": 2,
+      "position": "GK",
+      "club": "Chelsea",
+      "nationality": "Poland",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "pol-p3",
+      "name": "Nolo Musah",
+      "number": 3,
+      "position": "GK",
+      "club": "Tottenham",
+      "nationality": "Poland",
+      "height": 180,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "pol-p4",
+      "name": "Victor Bastoni",
+      "number": 4,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Poland",
+      "height": 180,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 85,
+        "defending": 89,
+        "physical": 91
+      }
+    },
+    {
+      "id": "pol-p5",
+      "name": "Nicolo Rodriguez",
+      "number": 5,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Poland",
+      "height": 171,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 81
+      }
+    },
+    {
+      "id": "pol-p6",
+      "name": "Son Wilson",
+      "number": 6,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "Poland",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 75,
+        "physical": 77
+      }
+    },
+    {
+      "id": "pol-p7",
+      "name": "Kai Davies",
+      "number": 7,
+      "position": "LB",
+      "club": "AC Milan",
+      "nationality": "Poland",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 77
+      }
+    },
+    {
+      "id": "pol-p8",
+      "name": "Antoine Kovacic",
+      "number": 8,
+      "position": "RB",
+      "club": "Club America",
+      "nationality": "Poland",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 77
+      }
+    },
+    {
+      "id": "pol-p9",
+      "name": "Leroy Jones",
+      "number": 9,
+      "position": "CDM",
+      "club": "Tottenham",
+      "nationality": "Poland",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "pol-p10",
+      "name": "Alex Martinez",
+      "number": 10,
+      "position": "CDM",
+      "club": "PSG",
+      "nationality": "Poland",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 88,
+        "dribbling": 85,
+        "defending": 88,
+        "physical": 87
+      }
+    },
+    {
+      "id": "pol-p11",
+      "name": "Miguel Barella",
+      "number": 11,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "Poland",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "pol-p12",
+      "name": "Youssef Sane",
+      "number": 12,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Poland",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 82,
+        "defending": 77,
+        "physical": 82
+      }
+    },
+    {
+      "id": "pol-p13",
+      "name": "Cristiano Hakimi",
+      "number": 13,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Poland",
+      "height": 192,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 80
+      }
+    },
+    {
+      "id": "pol-p14",
+      "name": "Cyle Rodriguez",
+      "number": 14,
+      "position": "CAM",
+      "club": "Liverpool",
+      "nationality": "Poland",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 80
+      }
+    },
+    {
+      "id": "pol-p15",
+      "name": "Kalidou Kante",
+      "number": 15,
+      "position": "LM",
+      "club": "Manchester City",
+      "nationality": "Poland",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "pol-p16",
+      "name": "Youssef Santos",
+      "number": 16,
+      "position": "RM",
+      "club": "PSG",
+      "nationality": "Poland",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 80,
+        "physical": 74
+      }
+    },
+    {
+      "id": "pol-p17",
+      "name": "Nicolo Giroud",
+      "number": 17,
+      "position": "LW",
+      "club": "Chelsea",
+      "nationality": "Poland",
+      "height": 194,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "pol-p18",
+      "name": "Bruno Mitrovic",
+      "number": 18,
+      "position": "RW",
+      "club": "Club America",
+      "nationality": "Poland",
+      "height": 175,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 72
+      }
+    },
+    {
+      "id": "pol-p19",
+      "name": "Jonathan Osimhen",
+      "number": 19,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "Poland",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 86,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "pol-p20",
+      "name": "Mateo Perisic",
+      "number": 20,
+      "position": "ST",
+      "club": "Borussia Dortmund",
+      "nationality": "Poland",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 86,
+        "defending": 81,
+        "physical": 80
+      }
+    },
+    {
+      "id": "pol-p21",
+      "name": "Olivier Silva",
+      "number": 21,
+      "position": "CF",
+      "club": "Chelsea",
+      "nationality": "Poland",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 68,
+        "physical": 71
+      }
+    },
+    {
+      "id": "pol-p22",
+      "name": "Andre Kubo",
+      "number": 22,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Poland",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "pol-p23",
+      "name": "Takefusa Barella",
+      "number": 23,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Poland",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 84,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "pol-p24",
+      "name": "Ruben Osimhen",
+      "number": 24,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Poland",
+      "height": 179,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 77,
+        "physical": 78
+      }
+    },
+    {
+      "id": "pol-p25",
+      "name": "Riyad Rodriguez",
+      "number": 25,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Poland",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "pol-p26",
+      "name": "Harry Kovacic",
+      "number": 26,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Poland",
+      "height": 180,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 84
+      }
+    }
+  ]
+}

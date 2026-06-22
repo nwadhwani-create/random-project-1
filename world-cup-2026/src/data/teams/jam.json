@@ -1,0 +1,537 @@
+{
+  "id": "jam",
+  "name": "Jamaica",
+  "code": "JAM",
+  "flagColors": [
+    "#009B3A",
+    "#FED100",
+    "#000000"
+  ],
+  "kitHome": {
+    "primary": "#FED100",
+    "secondary": "#009B3A",
+    "accent": "#000000",
+    "shorts": "#009B3A",
+    "socks": "#FED100"
+  },
+  "kitAway": {
+    "primary": "#009B3A",
+    "secondary": "#FED100",
+    "accent": "#000000",
+    "shorts": "#009B3A",
+    "socks": "#FED100"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 72,
+  "squad": [
+    {
+      "id": "jam-p1",
+      "name": "Victor Felix",
+      "number": 1,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Jamaica",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "jam-p2",
+      "name": "Federico Ziyech",
+      "number": 2,
+      "position": "GK",
+      "club": "LAFC",
+      "nationality": "Jamaica",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "jam-p3",
+      "name": "Nicolo Mane",
+      "number": 3,
+      "position": "GK",
+      "club": "Tottenham",
+      "nationality": "Jamaica",
+      "height": 194,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "jam-p4",
+      "name": "Lorenzo Richarlison",
+      "number": 4,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Jamaica",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "jam-p5",
+      "name": "Rafael Ederson",
+      "number": 5,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Jamaica",
+      "height": 193,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "jam-p6",
+      "name": "Kalidou Miller",
+      "number": 6,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Jamaica",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 69,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 77
+      }
+    },
+    {
+      "id": "jam-p7",
+      "name": "Takefusa Perisic",
+      "number": 7,
+      "position": "LB",
+      "club": "Tottenham",
+      "nationality": "Jamaica",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 70
+      }
+    },
+    {
+      "id": "jam-p8",
+      "name": "Nicolo Kovacic",
+      "number": 8,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Jamaica",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "jam-p9",
+      "name": "Julian Smith",
+      "number": 9,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Jamaica",
+      "height": 174,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 69,
+        "physical": 74
+      }
+    },
+    {
+      "id": "jam-p10",
+      "name": "Ousmane Havertz",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "Jamaica",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 70,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "jam-p11",
+      "name": "Roberto Wilson",
+      "number": 11,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Jamaica",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 77,
+        "dribbling": 84,
+        "defending": 79,
+        "physical": 83
+      }
+    },
+    {
+      "id": "jam-p12",
+      "name": "Marcus Fernandez",
+      "number": 12,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Jamaica",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 69,
+        "physical": 64
+      }
+    },
+    {
+      "id": "jam-p13",
+      "name": "Alessandro Alvarez",
+      "number": 13,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Jamaica",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 79,
+        "physical": 75
+      }
+    },
+    {
+      "id": "jam-p14",
+      "name": "Ederson Reyna",
+      "number": 14,
+      "position": "CAM",
+      "club": "AC Milan",
+      "nationality": "Jamaica",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 69
+      }
+    },
+    {
+      "id": "jam-p15",
+      "name": "Alphonso Garcia",
+      "number": 15,
+      "position": "LM",
+      "club": "FC Barcelona",
+      "nationality": "Jamaica",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 72,
+        "physical": 68
+      }
+    },
+    {
+      "id": "jam-p16",
+      "name": "Sadio Brown",
+      "number": 16,
+      "position": "RM",
+      "club": "AC Milan",
+      "nationality": "Jamaica",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 63,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 70,
+        "physical": 64
+      }
+    },
+    {
+      "id": "jam-p17",
+      "name": "Lautaro Reyna",
+      "number": 17,
+      "position": "LW",
+      "club": "Liverpool",
+      "nationality": "Jamaica",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 79
+      }
+    },
+    {
+      "id": "jam-p18",
+      "name": "Emiliano Barella",
+      "number": 18,
+      "position": "RW",
+      "club": "Bayern Munich",
+      "nationality": "Jamaica",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 65,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 65,
+        "physical": 72
+      }
+    },
+    {
+      "id": "jam-p19",
+      "name": "Riyad Valverde",
+      "number": 19,
+      "position": "ST",
+      "club": "Tottenham",
+      "nationality": "Jamaica",
+      "height": 188,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 65,
+        "physical": 71
+      }
+    },
+    {
+      "id": "jam-p20",
+      "name": "Sergej Musiala",
+      "number": 20,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "Jamaica",
+      "height": 187,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 78,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "jam-p21",
+      "name": "Son Kubo",
+      "number": 21,
+      "position": "CF",
+      "club": "Club America",
+      "nationality": "Jamaica",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 62,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 65,
+        "physical": 67
+      }
+    },
+    {
+      "id": "jam-p22",
+      "name": "Endrick Richarlison",
+      "number": 22,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Jamaica",
+      "height": 181,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 69,
+        "physical": 66
+      }
+    },
+    {
+      "id": "jam-p23",
+      "name": "Riyad Vinicius",
+      "number": 23,
+      "position": "LB",
+      "club": "Club America",
+      "nationality": "Jamaica",
+      "height": 188,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 63,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 62,
+        "physical": 69
+      }
+    },
+    {
+      "id": "jam-p24",
+      "name": "Sergio Donnarumma",
+      "number": 24,
+      "position": "RB",
+      "club": "Club America",
+      "nationality": "Jamaica",
+      "height": 194,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 67,
+        "physical": 66
+      }
+    },
+    {
+      "id": "jam-p25",
+      "name": "Nicolo Fernandez",
+      "number": 25,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Jamaica",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 74
+      }
+    },
+    {
+      "id": "jam-p26",
+      "name": "Antoine Felix",
+      "number": 26,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Jamaica",
+      "height": 192,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 72,
+        "physical": 67
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": "rsa",
+  "name": "South Africa",
+  "code": "RSA",
+  "flagColors": [
+    "#007A4D",
+    "#FFB612",
+    "#DE3831"
+  ],
+  "kitHome": {
+    "primary": "#FFB612",
+    "secondary": "#007A4D",
+    "accent": "#DE3831",
+    "shorts": "#007A4D",
+    "socks": "#FFB612"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#007A4D",
+    "accent": "#DE3831",
+    "shorts": "#007A4D",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 73,
+  "squad": [
+    {
+      "id": "rsa-p1",
+      "name": "Luis Hakimi",
+      "number": 1,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "South Africa",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "rsa-p2",
+      "name": "Youssef Reyna",
+      "number": 2,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "South Africa",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 54,
+        "shooting": 30,
+        "passing": 64,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 74,
+        "diving": 79,
+        "handling": 74,
+        "kicking": 69,
+        "reflexes": 77,
+        "positioning": 74
+      }
+    },
+    {
+      "id": "rsa-p3",
+      "name": "Sergej Kimmich",
+      "number": 3,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "South Africa",
+      "height": 175,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "rsa-p4",
+      "name": "Richarlison Chiesa",
+      "number": 4,
+      "position": "CB",
+      "club": "AC Milan",
+      "nationality": "South Africa",
+      "height": 190,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 80
+      }
+    },
+    {
+      "id": "rsa-p5",
+      "name": "Gabriel Vinicius",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "South Africa",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 71
+      }
+    },
+    {
+      "id": "rsa-p6",
+      "name": "Joao Gnabry",
+      "number": 6,
+      "position": "CB",
+      "club": "Napoli",
+      "nationality": "South Africa",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "rsa-p7",
+      "name": "Jonathan Mitrovic",
+      "number": 7,
+      "position": "LB",
+      "club": "Juventus",
+      "nationality": "South Africa",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 84
+      }
+    },
+    {
+      "id": "rsa-p8",
+      "name": "Kai Chukwueze",
+      "number": 8,
+      "position": "RB",
+      "club": "FC Barcelona",
+      "nationality": "South Africa",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 80
+      }
+    },
+    {
+      "id": "rsa-p9",
+      "name": "Bernardo Kimmich",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "South Africa",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 85,
+        "passing": 79,
+        "dribbling": 86,
+        "defending": 84,
+        "physical": 83
+      }
+    },
+    {
+      "id": "rsa-p10",
+      "name": "Ryan Ryan",
+      "number": 10,
+      "position": "CDM",
+      "club": "Manchester City",
+      "nationality": "South Africa",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 77,
+        "physical": 77
+      }
+    },
+    {
+      "id": "rsa-p11",
+      "name": "Vinicius Vinicius",
+      "number": 11,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "South Africa",
+      "height": 194,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "rsa-p12",
+      "name": "Daniel Fernandes",
+      "number": 12,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "South Africa",
+      "height": 175,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 69,
+        "physical": 73
+      }
+    },
+    {
+      "id": "rsa-p13",
+      "name": "Federico Rodriguez",
+      "number": 13,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "South Africa",
+      "height": 192,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 76,
+        "physical": 73
+      }
+    },
+    {
+      "id": "rsa-p14",
+      "name": "Youssef Ederson",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Milan",
+      "nationality": "South Africa",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 73,
+        "physical": 72
+      }
+    },
+    {
+      "id": "rsa-p15",
+      "name": "Mateo Williams",
+      "number": 15,
+      "position": "LM",
+      "club": "Atletico Madrid",
+      "nationality": "South Africa",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 67,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "rsa-p16",
+      "name": "Cyle Gnabry",
+      "number": 16,
+      "position": "RM",
+      "club": "Atletico Madrid",
+      "nationality": "South Africa",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 67,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 71
+      }
+    },
+    {
+      "id": "rsa-p17",
+      "name": "Andre Dybala",
+      "number": 17,
+      "position": "LW",
+      "club": "Manchester City",
+      "nationality": "South Africa",
+      "height": 177,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 75
+      }
+    },
+    {
+      "id": "rsa-p18",
+      "name": "Son Davies",
+      "number": 18,
+      "position": "RW",
+      "club": "Club America",
+      "nationality": "South Africa",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "rsa-p19",
+      "name": "Antoine Musah",
+      "number": 19,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "South Africa",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 68,
+        "physical": 66
+      }
+    },
+    {
+      "id": "rsa-p20",
+      "name": "Kylian Martinez",
+      "number": 20,
+      "position": "ST",
+      "club": "Juventus",
+      "nationality": "South Africa",
+      "height": 194,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 66
+      }
+    },
+    {
+      "id": "rsa-p21",
+      "name": "Cyle Kubo",
+      "number": 21,
+      "position": "CF",
+      "club": "Inter Milan",
+      "nationality": "South Africa",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 74,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 81,
+        "physical": 78
+      }
+    },
+    {
+      "id": "rsa-p22",
+      "name": "Ryan Havertz",
+      "number": 22,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "South Africa",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 75,
+        "physical": 80
+      }
+    },
+    {
+      "id": "rsa-p23",
+      "name": "Enzo Felix",
+      "number": 23,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "South Africa",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 67,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 70,
+        "physical": 66
+      }
+    },
+    {
+      "id": "rsa-p24",
+      "name": "Vinicius Taylor",
+      "number": 24,
+      "position": "RB",
+      "club": "FC Barcelona",
+      "nationality": "South Africa",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 78,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 75
+      }
+    },
+    {
+      "id": "rsa-p25",
+      "name": "Mathew Chiesa",
+      "number": 25,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "South Africa",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "rsa-p26",
+      "name": "Endrick Dybala",
+      "number": 26,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "South Africa",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 73
+      }
+    }
+  ]
+}

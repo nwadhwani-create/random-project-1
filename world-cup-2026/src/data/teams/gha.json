@@ -1,0 +1,537 @@
+{
+  "id": "gha",
+  "name": "Ghana",
+  "code": "GHA",
+  "flagColors": [
+    "#CE1126",
+    "#FCD116",
+    "#006B3F"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#CE1126",
+    "accent": "#FCD116",
+    "shorts": "#000000",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#CE1126",
+    "secondary": "#FFFFFF",
+    "accent": "#FCD116",
+    "shorts": "#CE1126",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 75,
+  "squad": [
+    {
+      "id": "gha-p1",
+      "name": "Florian Kante",
+      "number": 1,
+      "position": "GK",
+      "club": "PSG",
+      "nationality": "Ghana",
+      "height": 170,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "gha-p2",
+      "name": "David Perisic",
+      "number": 2,
+      "position": "GK",
+      "club": "Napoli",
+      "nationality": "Ghana",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "gha-p3",
+      "name": "Jamal Martinez",
+      "number": 3,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Ghana",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "gha-p4",
+      "name": "Alphonso Alvarez",
+      "number": 4,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Ghana",
+      "height": 188,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 79
+      }
+    },
+    {
+      "id": "gha-p5",
+      "name": "Marco Osimhen",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Ghana",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 72
+      }
+    },
+    {
+      "id": "gha-p6",
+      "name": "Nicolo Musiala",
+      "number": 6,
+      "position": "CB",
+      "club": "Napoli",
+      "nationality": "Ghana",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 82
+      }
+    },
+    {
+      "id": "gha-p7",
+      "name": "Son Ryan",
+      "number": 7,
+      "position": "LB",
+      "club": "Bayern Munich",
+      "nationality": "Ghana",
+      "height": 191,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 81
+      }
+    },
+    {
+      "id": "gha-p8",
+      "name": "Lorenzo Courtois",
+      "number": 8,
+      "position": "RB",
+      "club": "Bayern Munich",
+      "nationality": "Ghana",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "gha-p9",
+      "name": "Kaoru Kimmich",
+      "number": 9,
+      "position": "CDM",
+      "club": "Bayern Munich",
+      "nationality": "Ghana",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 75
+      }
+    },
+    {
+      "id": "gha-p10",
+      "name": "Alex Davis",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "Ghana",
+      "height": 190,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 76,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "gha-p11",
+      "name": "Joao Mane",
+      "number": 11,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Ghana",
+      "height": 172,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 81
+      }
+    },
+    {
+      "id": "gha-p12",
+      "name": "Martin Taylor",
+      "number": 12,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Ghana",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 82
+      }
+    },
+    {
+      "id": "gha-p13",
+      "name": "Bruno Hakimi",
+      "number": 13,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Ghana",
+      "height": 184,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 72,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 72,
+        "physical": 65
+      }
+    },
+    {
+      "id": "gha-p14",
+      "name": "Luka Mbappe",
+      "number": 14,
+      "position": "CAM",
+      "club": "Napoli",
+      "nationality": "Ghana",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 68,
+        "physical": 70
+      }
+    },
+    {
+      "id": "gha-p15",
+      "name": "Kylian Musiala",
+      "number": 15,
+      "position": "LM",
+      "club": "Napoli",
+      "nationality": "Ghana",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 73,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 73,
+        "physical": 68
+      }
+    },
+    {
+      "id": "gha-p16",
+      "name": "Jack Brown",
+      "number": 16,
+      "position": "RM",
+      "club": "Borussia Dortmund",
+      "nationality": "Ghana",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "gha-p17",
+      "name": "Joao Giroud",
+      "number": 17,
+      "position": "LW",
+      "club": "Liverpool",
+      "nationality": "Ghana",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 67,
+        "physical": 65
+      }
+    },
+    {
+      "id": "gha-p18",
+      "name": "Bruno Kante",
+      "number": 18,
+      "position": "RW",
+      "club": "Borussia Dortmund",
+      "nationality": "Ghana",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "gha-p19",
+      "name": "Pierre David",
+      "number": 19,
+      "position": "ST",
+      "club": "Club America",
+      "nationality": "Ghana",
+      "height": 171,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 75,
+        "passing": 82,
+        "dribbling": 76,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "gha-p20",
+      "name": "Nicolas Pulisic",
+      "number": 20,
+      "position": "ST",
+      "club": "Real Madrid",
+      "nationality": "Ghana",
+      "height": 191,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "gha-p21",
+      "name": "Jack Davies",
+      "number": 21,
+      "position": "CF",
+      "club": "Chelsea",
+      "nationality": "Ghana",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 66,
+        "defending": 68,
+        "physical": 69
+      }
+    },
+    {
+      "id": "gha-p22",
+      "name": "Hakim Martinez",
+      "number": 22,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "Ghana",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 77
+      }
+    },
+    {
+      "id": "gha-p23",
+      "name": "Sergio Souza",
+      "number": 23,
+      "position": "LB",
+      "club": "Atletico Madrid",
+      "nationality": "Ghana",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 78
+      }
+    },
+    {
+      "id": "gha-p24",
+      "name": "Julian David",
+      "number": 24,
+      "position": "RB",
+      "club": "Liverpool",
+      "nationality": "Ghana",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 72,
+        "physical": 70
+      }
+    },
+    {
+      "id": "gha-p25",
+      "name": "Rafael Dybala",
+      "number": 25,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Ghana",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 73
+      }
+    },
+    {
+      "id": "gha-p26",
+      "name": "Alisson Barella",
+      "number": 26,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Ghana",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 72
+      }
+    }
+  ]
+}

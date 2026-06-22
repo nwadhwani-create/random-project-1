@@ -1,0 +1,537 @@
+{
+  "id": "chi",
+  "name": "Chile",
+  "code": "CHI",
+  "flagColors": [
+    "#D52B1E",
+    "#FFFFFF",
+    "#0039A6"
+  ],
+  "kitHome": {
+    "primary": "#D52B1E",
+    "secondary": "#FFFFFF",
+    "accent": "#0039A6",
+    "shorts": "#0039A6",
+    "socks": "#D52B1E"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#D52B1E",
+    "accent": "#0039A6",
+    "shorts": "#D52B1E",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 76,
+  "squad": [
+    {
+      "id": "chi-p1",
+      "name": "Miguel Koulibaly",
+      "number": 1,
+      "position": "GK",
+      "club": "LAFC",
+      "nationality": "Chile",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "chi-p2",
+      "name": "Ederson Martinez",
+      "number": 2,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Chile",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "chi-p3",
+      "name": "Diego David",
+      "number": 3,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Chile",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "chi-p4",
+      "name": "Marco Hakimi",
+      "number": 4,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Chile",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 83
+      }
+    },
+    {
+      "id": "chi-p5",
+      "name": "Alphonso Jones",
+      "number": 5,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Chile",
+      "height": 176,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 79,
+        "defending": 85,
+        "physical": 78
+      }
+    },
+    {
+      "id": "chi-p6",
+      "name": "Gianluigi Davis",
+      "number": 6,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Chile",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "chi-p7",
+      "name": "Fernando Mitoma",
+      "number": 7,
+      "position": "LB",
+      "club": "Manchester City",
+      "nationality": "Chile",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "chi-p8",
+      "name": "Emiliano Odegaard",
+      "number": 8,
+      "position": "RB",
+      "club": "Juventus",
+      "nationality": "Chile",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 82,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 79
+      }
+    },
+    {
+      "id": "chi-p9",
+      "name": "Harry Kimmich",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Milan",
+      "nationality": "Chile",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 82,
+        "physical": 80
+      }
+    },
+    {
+      "id": "chi-p10",
+      "name": "James Musah",
+      "number": 10,
+      "position": "CDM",
+      "club": "Borussia Dortmund",
+      "nationality": "Chile",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "chi-p11",
+      "name": "Lorenzo Havertz",
+      "number": 11,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Chile",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 80
+      }
+    },
+    {
+      "id": "chi-p12",
+      "name": "Jamal Garcia",
+      "number": 12,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Chile",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 72
+      }
+    },
+    {
+      "id": "chi-p13",
+      "name": "Antonio Griezmann",
+      "number": 13,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Chile",
+      "height": 188,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 71
+      }
+    },
+    {
+      "id": "chi-p14",
+      "name": "Kai Davies",
+      "number": 14,
+      "position": "CAM",
+      "club": "Real Madrid",
+      "nationality": "Chile",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "chi-p15",
+      "name": "Miguel Mitrovic",
+      "number": 15,
+      "position": "LM",
+      "club": "AC Milan",
+      "nationality": "Chile",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 73,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 70,
+        "physical": 71
+      }
+    },
+    {
+      "id": "chi-p16",
+      "name": "James Martinez",
+      "number": 16,
+      "position": "RM",
+      "club": "Napoli",
+      "nationality": "Chile",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 72
+      }
+    },
+    {
+      "id": "chi-p17",
+      "name": "Dusan Rodriguez",
+      "number": 17,
+      "position": "LW",
+      "club": "Tottenham",
+      "nationality": "Chile",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 75
+      }
+    },
+    {
+      "id": "chi-p18",
+      "name": "Ousmane Mbappe",
+      "number": 18,
+      "position": "RW",
+      "club": "LAFC",
+      "nationality": "Chile",
+      "height": 177,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 76
+      }
+    },
+    {
+      "id": "chi-p19",
+      "name": "Diego Wilson",
+      "number": 19,
+      "position": "ST",
+      "club": "Chelsea",
+      "nationality": "Chile",
+      "height": 182,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 73,
+        "physical": 71
+      }
+    },
+    {
+      "id": "chi-p20",
+      "name": "Takefusa Giroud",
+      "number": 20,
+      "position": "ST",
+      "club": "Club America",
+      "nationality": "Chile",
+      "height": 173,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 69
+      }
+    },
+    {
+      "id": "chi-p21",
+      "name": "Antoine Kante",
+      "number": 21,
+      "position": "CF",
+      "club": "Inter Miami",
+      "nationality": "Chile",
+      "height": 190,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "chi-p22",
+      "name": "Luis Gnabry",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Chile",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 80
+      }
+    },
+    {
+      "id": "chi-p23",
+      "name": "Daniel Chukwueze",
+      "number": 23,
+      "position": "LB",
+      "club": "Borussia Dortmund",
+      "nationality": "Chile",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 67,
+        "physical": 71
+      }
+    },
+    {
+      "id": "chi-p24",
+      "name": "Florian Wilson",
+      "number": 24,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Chile",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "chi-p25",
+      "name": "Pedro David",
+      "number": 25,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Chile",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 70,
+        "physical": 72
+      }
+    },
+    {
+      "id": "chi-p26",
+      "name": "Endrick Larin",
+      "number": 26,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Chile",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 72
+      }
+    }
+  ]
+}

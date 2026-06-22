@@ -1,0 +1,537 @@
+{
+  "id": "ksa",
+  "name": "Saudi Arabia",
+  "code": "KSA",
+  "flagColors": [
+    "#006C35",
+    "#FFFFFF",
+    "#006C35"
+  ],
+  "kitHome": {
+    "primary": "#006C35",
+    "secondary": "#FFFFFF",
+    "accent": "#006C35",
+    "shorts": "#FFFFFF",
+    "socks": "#006C35"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#006C35",
+    "accent": "#006C35",
+    "shorts": "#006C35",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 74,
+  "squad": [
+    {
+      "id": "ksa-p1",
+      "name": "Jack Vlahovic",
+      "number": 1,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Saudi Arabia",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "ksa-p2",
+      "name": "Luka Kovacic",
+      "number": 2,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Saudi Arabia",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "ksa-p3",
+      "name": "Alex Donnarumma",
+      "number": 3,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Saudi Arabia",
+      "height": 193,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "ksa-p4",
+      "name": "Joao Santos",
+      "number": 4,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Saudi Arabia",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ksa-p5",
+      "name": "Gianluigi Musiala",
+      "number": 5,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Saudi Arabia",
+      "height": 192,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ksa-p6",
+      "name": "Endrick Reyna",
+      "number": 6,
+      "position": "CB",
+      "club": "Arsenal",
+      "nationality": "Saudi Arabia",
+      "height": 190,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 84,
+        "shooting": 84,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 84,
+        "physical": 84
+      }
+    },
+    {
+      "id": "ksa-p7",
+      "name": "Milan David",
+      "number": 7,
+      "position": "LB",
+      "club": "PSG",
+      "nationality": "Saudi Arabia",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 81
+      }
+    },
+    {
+      "id": "ksa-p8",
+      "name": "Alessandro Barella",
+      "number": 8,
+      "position": "RB",
+      "club": "Chelsea",
+      "nationality": "Saudi Arabia",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ksa-p9",
+      "name": "Victor Richarlison",
+      "number": 9,
+      "position": "CDM",
+      "club": "Chelsea",
+      "nationality": "Saudi Arabia",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 70,
+        "shooting": 78,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 71,
+        "physical": 72
+      }
+    },
+    {
+      "id": "ksa-p10",
+      "name": "Kai Osimhen",
+      "number": 10,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "Saudi Arabia",
+      "height": 180,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 75
+      }
+    },
+    {
+      "id": "ksa-p11",
+      "name": "Hakim Jones",
+      "number": 11,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Saudi Arabia",
+      "height": 183,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ksa-p12",
+      "name": "Diego Smith",
+      "number": 12,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Saudi Arabia",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 67,
+        "physical": 69
+      }
+    },
+    {
+      "id": "ksa-p13",
+      "name": "Ousmane Ederson",
+      "number": 13,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Saudi Arabia",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 71
+      }
+    },
+    {
+      "id": "ksa-p14",
+      "name": "Alphonso Ryan",
+      "number": 14,
+      "position": "CAM",
+      "club": "LAFC",
+      "nationality": "Saudi Arabia",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 78,
+        "physical": 78
+      }
+    },
+    {
+      "id": "ksa-p15",
+      "name": "Enzo Pulisic",
+      "number": 15,
+      "position": "LM",
+      "club": "FC Barcelona",
+      "nationality": "Saudi Arabia",
+      "height": 170,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 66,
+        "physical": 67
+      }
+    },
+    {
+      "id": "ksa-p16",
+      "name": "Diego Kimmich",
+      "number": 16,
+      "position": "RM",
+      "club": "PSG",
+      "nationality": "Saudi Arabia",
+      "height": 190,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 74
+      }
+    },
+    {
+      "id": "ksa-p17",
+      "name": "Bruno Kimmich",
+      "number": 17,
+      "position": "LW",
+      "club": "Arsenal",
+      "nationality": "Saudi Arabia",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "ksa-p18",
+      "name": "Cristiano Gnabry",
+      "number": 18,
+      "position": "RW",
+      "club": "LAFC",
+      "nationality": "Saudi Arabia",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 69,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 66
+      }
+    },
+    {
+      "id": "ksa-p19",
+      "name": "Milan Sane",
+      "number": 19,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "Saudi Arabia",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "ksa-p20",
+      "name": "Kylian Mbappe",
+      "number": 20,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "Saudi Arabia",
+      "height": 170,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 67,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 64
+      }
+    },
+    {
+      "id": "ksa-p21",
+      "name": "Ederson Williams",
+      "number": 21,
+      "position": "CF",
+      "club": "Tottenham",
+      "nationality": "Saudi Arabia",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 76,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ksa-p22",
+      "name": "Cristiano David",
+      "number": 22,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Saudi Arabia",
+      "height": 174,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 65,
+        "physical": 66
+      }
+    },
+    {
+      "id": "ksa-p23",
+      "name": "Joshua Donnarumma",
+      "number": 23,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Saudi Arabia",
+      "height": 187,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 77,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ksa-p24",
+      "name": "Vinicius Souza",
+      "number": 24,
+      "position": "RB",
+      "club": "Borussia Dortmund",
+      "nationality": "Saudi Arabia",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 73,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ksa-p25",
+      "name": "Youssef Anderson",
+      "number": 25,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Saudi Arabia",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 69,
+        "physical": 75
+      }
+    },
+    {
+      "id": "ksa-p26",
+      "name": "Martin Chukwueze",
+      "number": 26,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Saudi Arabia",
+      "height": 183,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 68,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 68,
+        "physical": 69
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": "mex",
+  "name": "Mexico",
+  "code": "MEX",
+  "flagColors": [
+    "#006847",
+    "#FFFFFF",
+    "#CE1126"
+  ],
+  "kitHome": {
+    "primary": "#006847",
+    "secondary": "#FFFFFF",
+    "accent": "#CE1126",
+    "shorts": "#FFFFFF",
+    "socks": "#006847"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#006847",
+    "accent": "#CE1126",
+    "shorts": "#CE1126",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 79,
+  "squad": [
+    {
+      "id": "mex-p1",
+      "name": "Joshua Silva",
+      "number": 1,
+      "position": "GK",
+      "club": "Juventus",
+      "nationality": "Mexico",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "mex-p2",
+      "name": "Cyle Modric",
+      "number": 2,
+      "position": "GK",
+      "club": "Chelsea",
+      "nationality": "Mexico",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "mex-p3",
+      "name": "Florian Courtois",
+      "number": 3,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Mexico",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "mex-p4",
+      "name": "Lautaro Taylor",
+      "number": 4,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "Mexico",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 81
+      }
+    },
+    {
+      "id": "mex-p5",
+      "name": "Luka Sane",
+      "number": 5,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "Mexico",
+      "height": 175,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 86,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 87,
+        "physical": 83
+      }
+    },
+    {
+      "id": "mex-p6",
+      "name": "Alex Richarlison",
+      "number": 6,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Mexico",
+      "height": 190,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 83,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 78
+      }
+    },
+    {
+      "id": "mex-p7",
+      "name": "Youssef Larin",
+      "number": 7,
+      "position": "LB",
+      "club": "Inter Milan",
+      "nationality": "Mexico",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 75
+      }
+    },
+    {
+      "id": "mex-p8",
+      "name": "Kylian Musah",
+      "number": 8,
+      "position": "RB",
+      "club": "Napoli",
+      "nationality": "Mexico",
+      "height": 194,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 80,
+        "shooting": 86,
+        "passing": 88,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 86
+      }
+    },
+    {
+      "id": "mex-p9",
+      "name": "Ederson Mahrez",
+      "number": 9,
+      "position": "CDM",
+      "club": "Borussia Dortmund",
+      "nationality": "Mexico",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 76,
+        "physical": 76
+      }
+    },
+    {
+      "id": "mex-p10",
+      "name": "Alex Williams",
+      "number": 10,
+      "position": "CDM",
+      "club": "Arsenal",
+      "nationality": "Mexico",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 77,
+        "physical": 77
+      }
+    },
+    {
+      "id": "mex-p11",
+      "name": "Antonio Chiesa",
+      "number": 11,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Mexico",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 85,
+        "passing": 88,
+        "dribbling": 83,
+        "defending": 87,
+        "physical": 86
+      }
+    },
+    {
+      "id": "mex-p12",
+      "name": "Kylian Havertz",
+      "number": 12,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Mexico",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 75
+      }
+    },
+    {
+      "id": "mex-p13",
+      "name": "Rafael Chiesa",
+      "number": 13,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Mexico",
+      "height": 182,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 82,
+        "physical": 79
+      }
+    },
+    {
+      "id": "mex-p14",
+      "name": "Nicolas Ziyech",
+      "number": 14,
+      "position": "CAM",
+      "club": "Club America",
+      "nationality": "Mexico",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 76,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 77,
+        "physical": 82
+      }
+    },
+    {
+      "id": "mex-p15",
+      "name": "Vinicius Havertz",
+      "number": 15,
+      "position": "LM",
+      "club": "Manchester City",
+      "nationality": "Mexico",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "mex-p16",
+      "name": "Cyle Richarlison",
+      "number": 16,
+      "position": "RM",
+      "club": "Liverpool",
+      "nationality": "Mexico",
+      "height": 178,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 79,
+        "physical": 74
+      }
+    },
+    {
+      "id": "mex-p17",
+      "name": "Heung-min Richarlison",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Milan",
+      "nationality": "Mexico",
+      "height": 184,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 85
+      }
+    },
+    {
+      "id": "mex-p18",
+      "name": "Kylian Kubo",
+      "number": 18,
+      "position": "RW",
+      "club": "Liverpool",
+      "nationality": "Mexico",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 75
+      }
+    },
+    {
+      "id": "mex-p19",
+      "name": "Hakim Kubo",
+      "number": 19,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Mexico",
+      "height": 184,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 80,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 81,
+        "physical": 84
+      }
+    },
+    {
+      "id": "mex-p20",
+      "name": "Gianluigi Kante",
+      "number": 20,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Mexico",
+      "height": 190,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "mex-p21",
+      "name": "David Ryan",
+      "number": 21,
+      "position": "CF",
+      "club": "Atletico Madrid",
+      "nationality": "Mexico",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 77,
+        "physical": 73
+      }
+    },
+    {
+      "id": "mex-p22",
+      "name": "Daniel Martinez",
+      "number": 22,
+      "position": "CB",
+      "club": "Arsenal",
+      "nationality": "Mexico",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "mex-p23",
+      "name": "Nolo Garcia",
+      "number": 23,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Mexico",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 80,
+        "physical": 78
+      }
+    },
+    {
+      "id": "mex-p24",
+      "name": "Richarlison Fernandez",
+      "number": 24,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Mexico",
+      "height": 177,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 84
+      }
+    },
+    {
+      "id": "mex-p25",
+      "name": "Nicolo Musiala",
+      "number": 25,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Mexico",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 77,
+        "physical": 81
+      }
+    },
+    {
+      "id": "mex-p26",
+      "name": "Emiliano Kimmich",
+      "number": 26,
+      "position": "CM",
+      "club": "Inter Milan",
+      "nationality": "Mexico",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 76,
+        "physical": 74
+      }
+    }
+  ]
+}

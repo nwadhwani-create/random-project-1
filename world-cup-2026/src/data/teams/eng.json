@@ -1,0 +1,537 @@
+{
+  "id": "eng",
+  "name": "England",
+  "code": "ENG",
+  "flagColors": [
+    "#FFFFFF",
+    "#CE1124",
+    "#FFFFFF"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#CE1124",
+    "accent": "#00247D",
+    "shorts": "#00247D",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#CE1124",
+    "secondary": "#FFFFFF",
+    "accent": "#00247D",
+    "shorts": "#CE1124",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 85,
+  "squad": [
+    {
+      "id": "eng-p1",
+      "name": "Alphonso Fernandez",
+      "number": 1,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "England",
+      "height": 191,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "eng-p2",
+      "name": "Fernando Mitrovic",
+      "number": 2,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "England",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 30,
+        "passing": 82,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 92,
+        "diving": 97,
+        "handling": 92,
+        "kicking": 87,
+        "reflexes": 95,
+        "positioning": 92
+      }
+    },
+    {
+      "id": "eng-p3",
+      "name": "Hakim Johnson",
+      "number": 3,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "England",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 30,
+        "passing": 81,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 91,
+        "diving": 96,
+        "handling": 91,
+        "kicking": 86,
+        "reflexes": 94,
+        "positioning": 91
+      }
+    },
+    {
+      "id": "eng-p4",
+      "name": "Richarlison Hakimi",
+      "number": 4,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "England",
+      "height": 194,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 93,
+        "shooting": 90,
+        "passing": 93,
+        "dribbling": 93,
+        "defending": 94,
+        "physical": 95
+      }
+    },
+    {
+      "id": "eng-p5",
+      "name": "Thomas Havertz",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "England",
+      "height": 177,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 91,
+        "shooting": 86,
+        "passing": 90,
+        "dribbling": 86,
+        "defending": 83,
+        "physical": 88
+      }
+    },
+    {
+      "id": "eng-p6",
+      "name": "Leroy David",
+      "number": 6,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "England",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 89,
+        "shooting": 93,
+        "passing": 94,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 91
+      }
+    },
+    {
+      "id": "eng-p7",
+      "name": "Nicolo Modric",
+      "number": 7,
+      "position": "LB",
+      "club": "Atletico Madrid",
+      "nationality": "England",
+      "height": 191,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 86,
+        "dribbling": 80,
+        "defending": 85,
+        "physical": 85
+      }
+    },
+    {
+      "id": "eng-p8",
+      "name": "Alessandro Donnarumma",
+      "number": 8,
+      "position": "RB",
+      "club": "Juventus",
+      "nationality": "England",
+      "height": 185,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 91,
+        "shooting": 92,
+        "passing": 92,
+        "dribbling": 90,
+        "defending": 93,
+        "physical": 89
+      }
+    },
+    {
+      "id": "eng-p9",
+      "name": "Alex Havertz",
+      "number": 9,
+      "position": "CDM",
+      "club": "PSG",
+      "nationality": "England",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 88,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 85
+      }
+    },
+    {
+      "id": "eng-p10",
+      "name": "Bernardo Osimhen",
+      "number": 10,
+      "position": "CDM",
+      "club": "LAFC",
+      "nationality": "England",
+      "height": 192,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 91,
+        "dribbling": 92,
+        "defending": 86,
+        "physical": 90
+      }
+    },
+    {
+      "id": "eng-p11",
+      "name": "Federico Johnson",
+      "number": 11,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "England",
+      "height": 181,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 94,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 91,
+        "defending": 88,
+        "physical": 95
+      }
+    },
+    {
+      "id": "eng-p12",
+      "name": "Alex Giroud",
+      "number": 12,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "England",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 89,
+        "shooting": 88,
+        "passing": 89,
+        "dribbling": 86,
+        "defending": 87,
+        "physical": 88
+      }
+    },
+    {
+      "id": "eng-p13",
+      "name": "Fernando Williams",
+      "number": 13,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "England",
+      "height": 175,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 82,
+        "physical": 81
+      }
+    },
+    {
+      "id": "eng-p14",
+      "name": "Antonio Sane",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Milan",
+      "nationality": "England",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 81
+      }
+    },
+    {
+      "id": "eng-p15",
+      "name": "Jamal Davies",
+      "number": 15,
+      "position": "LM",
+      "club": "Juventus",
+      "nationality": "England",
+      "height": 193,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 79
+      }
+    },
+    {
+      "id": "eng-p16",
+      "name": "Kaoru Vinicius",
+      "number": 16,
+      "position": "RM",
+      "club": "Napoli",
+      "nationality": "England",
+      "height": 176,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 86,
+        "passing": 88,
+        "dribbling": 85,
+        "defending": 87,
+        "physical": 82
+      }
+    },
+    {
+      "id": "eng-p17",
+      "name": "Jack Ryan",
+      "number": 17,
+      "position": "LW",
+      "club": "Manchester City",
+      "nationality": "England",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 85,
+        "shooting": 89,
+        "passing": 86,
+        "dribbling": 89,
+        "defending": 85,
+        "physical": 87
+      }
+    },
+    {
+      "id": "eng-p18",
+      "name": "Roberto Davies",
+      "number": 18,
+      "position": "RW",
+      "club": "Club America",
+      "nationality": "England",
+      "height": 175,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 77,
+        "physical": 82
+      }
+    },
+    {
+      "id": "eng-p19",
+      "name": "Jack Chiesa",
+      "number": 19,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "England",
+      "height": 183,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 90,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 89,
+        "defending": 85,
+        "physical": 88
+      }
+    },
+    {
+      "id": "eng-p20",
+      "name": "Federico Sane",
+      "number": 20,
+      "position": "ST",
+      "club": "Club America",
+      "nationality": "England",
+      "height": 184,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 88,
+        "shooting": 88,
+        "passing": 88,
+        "dribbling": 86,
+        "defending": 84,
+        "physical": 88
+      }
+    },
+    {
+      "id": "eng-p21",
+      "name": "Youssef Bastoni",
+      "number": 21,
+      "position": "CF",
+      "club": "Manchester City",
+      "nationality": "England",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 87,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 85
+      }
+    },
+    {
+      "id": "eng-p22",
+      "name": "Heung-min Fernandez",
+      "number": 22,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "England",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 80,
+        "dribbling": 84,
+        "defending": 86,
+        "physical": 81
+      }
+    },
+    {
+      "id": "eng-p23",
+      "name": "Thomas Jones",
+      "number": 23,
+      "position": "LB",
+      "club": "PSG",
+      "nationality": "England",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 87,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 85,
+        "physical": 87
+      }
+    },
+    {
+      "id": "eng-p24",
+      "name": "Jack Mahrez",
+      "number": 24,
+      "position": "RB",
+      "club": "Real Madrid",
+      "nationality": "England",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 87,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "eng-p25",
+      "name": "Olivier Chiesa",
+      "number": 25,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "England",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 87,
+        "dribbling": 91,
+        "defending": 89,
+        "physical": 86
+      }
+    },
+    {
+      "id": "eng-p26",
+      "name": "Kai Sane",
+      "number": 26,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "England",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 84,
+        "shooting": 89,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 85,
+        "physical": 84
+      }
+    }
+  ]
+}

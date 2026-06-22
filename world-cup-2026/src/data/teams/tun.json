@@ -1,0 +1,537 @@
+{
+  "id": "tun",
+  "name": "Tunisia",
+  "code": "TUN",
+  "flagColors": [
+    "#E70013",
+    "#FFFFFF",
+    "#E70013"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#E70013",
+    "accent": "#000000",
+    "shorts": "#E70013",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#E70013",
+    "secondary": "#FFFFFF",
+    "accent": "#000000",
+    "shorts": "#E70013",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 74,
+  "squad": [
+    {
+      "id": "tun-p1",
+      "name": "Youssef Martinez",
+      "number": 1,
+      "position": "GK",
+      "club": "AC Milan",
+      "nationality": "Tunisia",
+      "height": 173,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "tun-p2",
+      "name": "Enzo Gonzalez",
+      "number": 2,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Tunisia",
+      "height": 185,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "tun-p3",
+      "name": "Enzo Odegaard",
+      "number": 3,
+      "position": "GK",
+      "club": "PSG",
+      "nationality": "Tunisia",
+      "height": 184,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "tun-p4",
+      "name": "Rodrigo Felix",
+      "number": 4,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Tunisia",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "tun-p5",
+      "name": "Antonio Musah",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Tunisia",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 87,
+        "physical": 81
+      }
+    },
+    {
+      "id": "tun-p6",
+      "name": "Alphonso Mahrez",
+      "number": 6,
+      "position": "CB",
+      "club": "Club America",
+      "nationality": "Tunisia",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 78
+      }
+    },
+    {
+      "id": "tun-p7",
+      "name": "Kalidou Martinez",
+      "number": 7,
+      "position": "LB",
+      "club": "Manchester City",
+      "nationality": "Tunisia",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 79,
+        "physical": 77
+      }
+    },
+    {
+      "id": "tun-p8",
+      "name": "Cyle Gnabry",
+      "number": 8,
+      "position": "RB",
+      "club": "Liverpool",
+      "nationality": "Tunisia",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 74
+      }
+    },
+    {
+      "id": "tun-p9",
+      "name": "Bernardo Havertz",
+      "number": 9,
+      "position": "CDM",
+      "club": "Borussia Dortmund",
+      "nationality": "Tunisia",
+      "height": 175,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 74
+      }
+    },
+    {
+      "id": "tun-p10",
+      "name": "Lorenzo Ziyech",
+      "number": 10,
+      "position": "CDM",
+      "club": "Manchester City",
+      "nationality": "Tunisia",
+      "height": 172,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 85,
+        "physical": 82
+      }
+    },
+    {
+      "id": "tun-p11",
+      "name": "Enzo Donnarumma",
+      "number": 11,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Tunisia",
+      "height": 183,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 81,
+        "physical": 86
+      }
+    },
+    {
+      "id": "tun-p12",
+      "name": "Kalidou Sane",
+      "number": 12,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Tunisia",
+      "height": 173,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 70,
+        "physical": 69
+      }
+    },
+    {
+      "id": "tun-p13",
+      "name": "Marco Griezmann",
+      "number": 13,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Tunisia",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 69,
+        "physical": 74
+      }
+    },
+    {
+      "id": "tun-p14",
+      "name": "Carlos Kubo",
+      "number": 14,
+      "position": "CAM",
+      "club": "Atletico Madrid",
+      "nationality": "Tunisia",
+      "height": 190,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 75
+      }
+    },
+    {
+      "id": "tun-p15",
+      "name": "Milan Kubo",
+      "number": 15,
+      "position": "LM",
+      "club": "Napoli",
+      "nationality": "Tunisia",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 77
+      }
+    },
+    {
+      "id": "tun-p16",
+      "name": "Joshua Vlahovic",
+      "number": 16,
+      "position": "RM",
+      "club": "Bayern Munich",
+      "nationality": "Tunisia",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 79,
+        "physical": 73
+      }
+    },
+    {
+      "id": "tun-p17",
+      "name": "Joao Taylor",
+      "number": 17,
+      "position": "LW",
+      "club": "Bayern Munich",
+      "nationality": "Tunisia",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 74,
+        "physical": 71
+      }
+    },
+    {
+      "id": "tun-p18",
+      "name": "Rodrigo Mitrovic",
+      "number": 18,
+      "position": "RW",
+      "club": "Arsenal",
+      "nationality": "Tunisia",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "tun-p19",
+      "name": "Miguel Taylor",
+      "number": 19,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "Tunisia",
+      "height": 190,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 64,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 66,
+        "physical": 66
+      }
+    },
+    {
+      "id": "tun-p20",
+      "name": "Joao Mane",
+      "number": 20,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Tunisia",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 73,
+        "physical": 73
+      }
+    },
+    {
+      "id": "tun-p21",
+      "name": "Andre Donnarumma",
+      "number": 21,
+      "position": "CF",
+      "club": "FC Barcelona",
+      "nationality": "Tunisia",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 76,
+        "physical": 69
+      }
+    },
+    {
+      "id": "tun-p22",
+      "name": "Kylian Richarlison",
+      "number": 22,
+      "position": "CB",
+      "club": "Arsenal",
+      "nationality": "Tunisia",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "tun-p23",
+      "name": "Lautaro Richarlison",
+      "number": 23,
+      "position": "LB",
+      "club": "Inter Milan",
+      "nationality": "Tunisia",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 70
+      }
+    },
+    {
+      "id": "tun-p24",
+      "name": "Gabriel Davis",
+      "number": 24,
+      "position": "RB",
+      "club": "Real Madrid",
+      "nationality": "Tunisia",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 75,
+        "physical": 72
+      }
+    },
+    {
+      "id": "tun-p25",
+      "name": "Andre Dybala",
+      "number": 25,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Tunisia",
+      "height": 173,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 70,
+        "physical": 70
+      }
+    },
+    {
+      "id": "tun-p26",
+      "name": "Antoine Havertz",
+      "number": 26,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Tunisia",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 71
+      }
+    }
+  ]
+}

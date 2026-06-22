@@ -1,0 +1,537 @@
+{
+  "id": "ger",
+  "name": "Germany",
+  "code": "GER",
+  "flagColors": [
+    "#000000",
+    "#DD0000",
+    "#FFCE00"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "accent": "#DD0000",
+    "shorts": "#000000",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#1B1B1B",
+    "secondary": "#DD0000",
+    "accent": "#FFCE00",
+    "shorts": "#1B1B1B",
+    "socks": "#DD0000"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 84,
+  "squad": [
+    {
+      "id": "ger-p1",
+      "name": "Olivier Pulisic",
+      "number": 1,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Germany",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "ger-p2",
+      "name": "Milan Smith",
+      "number": 2,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Germany",
+      "height": 190,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "ger-p3",
+      "name": "Dusan Davies",
+      "number": 3,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Germany",
+      "height": 190,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 30,
+        "passing": 82,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 92,
+        "diving": 97,
+        "handling": 92,
+        "kicking": 87,
+        "reflexes": 95,
+        "positioning": 92
+      }
+    },
+    {
+      "id": "ger-p4",
+      "name": "Nolo Larin",
+      "number": 4,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "Germany",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 87,
+        "shooting": 89,
+        "passing": 90,
+        "dribbling": 86,
+        "defending": 91,
+        "physical": 91
+      }
+    },
+    {
+      "id": "ger-p5",
+      "name": "James Martinez",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Germany",
+      "height": 174,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 90,
+        "shooting": 84,
+        "passing": 91,
+        "dribbling": 84,
+        "defending": 90,
+        "physical": 85
+      }
+    },
+    {
+      "id": "ger-p6",
+      "name": "Andre Ederson",
+      "number": 6,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Germany",
+      "height": 171,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 91,
+        "shooting": 93,
+        "passing": 91,
+        "dribbling": 87,
+        "defending": 88,
+        "physical": 92
+      }
+    },
+    {
+      "id": "ger-p7",
+      "name": "Victor Dybala",
+      "number": 7,
+      "position": "LB",
+      "club": "Inter Milan",
+      "nationality": "Germany",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 89,
+        "shooting": 90,
+        "passing": 91,
+        "dribbling": 86,
+        "defending": 86,
+        "physical": 89
+      }
+    },
+    {
+      "id": "ger-p8",
+      "name": "Ederson Garcia",
+      "number": 8,
+      "position": "RB",
+      "club": "Inter Milan",
+      "nationality": "Germany",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 91,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 91,
+        "physical": 91
+      }
+    },
+    {
+      "id": "ger-p9",
+      "name": "Marcus Mitrovic",
+      "number": 9,
+      "position": "CDM",
+      "club": "FC Barcelona",
+      "nationality": "Germany",
+      "height": 180,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 88,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 81
+      }
+    },
+    {
+      "id": "ger-p10",
+      "name": "James Lopez",
+      "number": 10,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Germany",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 89,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ger-p11",
+      "name": "Julian Ederson",
+      "number": 11,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Germany",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 87,
+        "physical": 86
+      }
+    },
+    {
+      "id": "ger-p12",
+      "name": "James Musah",
+      "number": 12,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Germany",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "ger-p13",
+      "name": "Carlos Vinicius",
+      "number": 13,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Germany",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 87,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ger-p14",
+      "name": "Cyle Reyna",
+      "number": 14,
+      "position": "CAM",
+      "club": "Bayern Munich",
+      "nationality": "Germany",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 86,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 87,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ger-p15",
+      "name": "Luka Gonzalez",
+      "number": 15,
+      "position": "LM",
+      "club": "Tottenham",
+      "nationality": "Germany",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ger-p16",
+      "name": "Marcus Bastoni",
+      "number": 16,
+      "position": "RM",
+      "club": "Arsenal",
+      "nationality": "Germany",
+      "height": 188,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 87,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ger-p17",
+      "name": "Federico Ronaldo",
+      "number": 17,
+      "position": "LW",
+      "club": "PSG",
+      "nationality": "Germany",
+      "height": 183,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 79,
+        "passing": 86,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "ger-p18",
+      "name": "Mathew Felix",
+      "number": 18,
+      "position": "RW",
+      "club": "Liverpool",
+      "nationality": "Germany",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 82,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ger-p19",
+      "name": "Kaoru Silva",
+      "number": 19,
+      "position": "ST",
+      "club": "Real Madrid",
+      "nationality": "Germany",
+      "height": 188,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 91,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 87,
+        "defending": 92,
+        "physical": 88
+      }
+    },
+    {
+      "id": "ger-p20",
+      "name": "Sadio Havertz",
+      "number": 20,
+      "position": "ST",
+      "club": "Tottenham",
+      "nationality": "Germany",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ger-p21",
+      "name": "Jonathan Reyna",
+      "number": 21,
+      "position": "CF",
+      "club": "Club America",
+      "nationality": "Germany",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 88,
+        "defending": 87,
+        "physical": 87
+      }
+    },
+    {
+      "id": "ger-p22",
+      "name": "Gianluigi Johnson",
+      "number": 22,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Germany",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 85,
+        "shooting": 87,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 87,
+        "physical": 84
+      }
+    },
+    {
+      "id": "ger-p23",
+      "name": "Enzo Kimmich",
+      "number": 23,
+      "position": "LB",
+      "club": "Borussia Dortmund",
+      "nationality": "Germany",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 86,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 86,
+        "physical": 81
+      }
+    },
+    {
+      "id": "ger-p24",
+      "name": "Ousmane Santos",
+      "number": 24,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "Germany",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 87,
+        "defending": 85,
+        "physical": 82
+      }
+    },
+    {
+      "id": "ger-p25",
+      "name": "David Martinez",
+      "number": 25,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Germany",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ger-p26",
+      "name": "Nicolo Donnarumma",
+      "number": 26,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Germany",
+      "height": 183,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 87,
+        "defending": 85,
+        "physical": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": "qat",
+  "name": "Qatar",
+  "code": "QAT",
+  "flagColors": [
+    "#8D1B3D",
+    "#FFFFFF",
+    "#8D1B3D"
+  ],
+  "kitHome": {
+    "primary": "#8D1B3D",
+    "secondary": "#FFFFFF",
+    "accent": "#8D1B3D",
+    "shorts": "#FFFFFF",
+    "socks": "#8D1B3D"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#8D1B3D",
+    "accent": "#000000",
+    "shorts": "#8D1B3D",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 73,
+  "squad": [
+    {
+      "id": "qat-p1",
+      "name": "Thomas Mitoma",
+      "number": 1,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Qatar",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "qat-p2",
+      "name": "Mathew Lopez",
+      "number": 2,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Qatar",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "qat-p3",
+      "name": "James Courtois",
+      "number": 3,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Qatar",
+      "height": 176,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "qat-p4",
+      "name": "Alex Ryan",
+      "number": 4,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Qatar",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 76
+      }
+    },
+    {
+      "id": "qat-p5",
+      "name": "Ousmane Felix",
+      "number": 5,
+      "position": "CB",
+      "club": "Club America",
+      "nationality": "Qatar",
+      "height": 177,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 76,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "qat-p6",
+      "name": "Kylian David",
+      "number": 6,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Qatar",
+      "height": 175,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "qat-p7",
+      "name": "Mohamed Kubo",
+      "number": 7,
+      "position": "LB",
+      "club": "AC Milan",
+      "nationality": "Qatar",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 74,
+        "physical": 73
+      }
+    },
+    {
+      "id": "qat-p8",
+      "name": "Joshua Vlahovic",
+      "number": 8,
+      "position": "RB",
+      "club": "Chelsea",
+      "nationality": "Qatar",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 68,
+        "physical": 70
+      }
+    },
+    {
+      "id": "qat-p9",
+      "name": "Kai Gnabry",
+      "number": 9,
+      "position": "CDM",
+      "club": "Chelsea",
+      "nationality": "Qatar",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 79
+      }
+    },
+    {
+      "id": "qat-p10",
+      "name": "Diego Gnabry",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "Qatar",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 78
+      }
+    },
+    {
+      "id": "qat-p11",
+      "name": "Thomas Kimmich",
+      "number": 11,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Qatar",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 82,
+        "physical": 77
+      }
+    },
+    {
+      "id": "qat-p12",
+      "name": "Kalidou Alvarez",
+      "number": 12,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Qatar",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 70,
+        "physical": 74
+      }
+    },
+    {
+      "id": "qat-p13",
+      "name": "Emiliano Smith",
+      "number": 13,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Qatar",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 64,
+        "physical": 65
+      }
+    },
+    {
+      "id": "qat-p14",
+      "name": "Daniel Ronaldo",
+      "number": 14,
+      "position": "CAM",
+      "club": "Bayern Munich",
+      "nationality": "Qatar",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 80
+      }
+    },
+    {
+      "id": "qat-p15",
+      "name": "Martin Souza",
+      "number": 15,
+      "position": "LM",
+      "club": "Chelsea",
+      "nationality": "Qatar",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 68
+      }
+    },
+    {
+      "id": "qat-p16",
+      "name": "Mohamed Vinicius",
+      "number": 16,
+      "position": "RM",
+      "club": "FC Barcelona",
+      "nationality": "Qatar",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 64,
+        "physical": 66
+      }
+    },
+    {
+      "id": "qat-p17",
+      "name": "Federico Gonzalez",
+      "number": 17,
+      "position": "LW",
+      "club": "AC Milan",
+      "nationality": "Qatar",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 68,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 69
+      }
+    },
+    {
+      "id": "qat-p18",
+      "name": "Mathew Martinez",
+      "number": 18,
+      "position": "RW",
+      "club": "Borussia Dortmund",
+      "nationality": "Qatar",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 77,
+        "physical": 77
+      }
+    },
+    {
+      "id": "qat-p19",
+      "name": "Antoine Sane",
+      "number": 19,
+      "position": "ST",
+      "club": "Manchester City",
+      "nationality": "Qatar",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 67,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 65,
+        "physical": 66
+      }
+    },
+    {
+      "id": "qat-p20",
+      "name": "Jamal Donnarumma",
+      "number": 20,
+      "position": "ST",
+      "club": "Borussia Dortmund",
+      "nationality": "Qatar",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 64,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 66,
+        "physical": 68
+      }
+    },
+    {
+      "id": "qat-p21",
+      "name": "James Osimhen",
+      "number": 21,
+      "position": "CF",
+      "club": "PSG",
+      "nationality": "Qatar",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 73,
+        "physical": 73
+      }
+    },
+    {
+      "id": "qat-p22",
+      "name": "Luka Ederson",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Qatar",
+      "height": 188,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 74,
+        "physical": 73
+      }
+    },
+    {
+      "id": "qat-p23",
+      "name": "Jonathan Fernandez",
+      "number": 23,
+      "position": "LB",
+      "club": "Borussia Dortmund",
+      "nationality": "Qatar",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 69,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 68,
+        "physical": 69
+      }
+    },
+    {
+      "id": "qat-p24",
+      "name": "Luis Lopez",
+      "number": 24,
+      "position": "RB",
+      "club": "Napoli",
+      "nationality": "Qatar",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 72,
+        "physical": 76
+      }
+    },
+    {
+      "id": "qat-p25",
+      "name": "Olivier Kubo",
+      "number": 25,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "Qatar",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 70,
+        "physical": 68
+      }
+    },
+    {
+      "id": "qat-p26",
+      "name": "Andre Gonzalez",
+      "number": 26,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Qatar",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 74
+      }
+    }
+  ]
+}

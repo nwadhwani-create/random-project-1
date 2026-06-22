@@ -1,0 +1,537 @@
+{
+  "id": "col",
+  "name": "Colombia",
+  "code": "COL",
+  "flagColors": [
+    "#FCD116",
+    "#003893",
+    "#CE1126"
+  ],
+  "kitHome": {
+    "primary": "#FCD116",
+    "secondary": "#003893",
+    "accent": "#CE1126",
+    "shorts": "#003893",
+    "socks": "#FCD116"
+  },
+  "kitAway": {
+    "primary": "#003893",
+    "secondary": "#FCD116",
+    "accent": "#CE1126",
+    "shorts": "#003893",
+    "socks": "#FCD116"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 80,
+  "squad": [
+    {
+      "id": "col-p1",
+      "name": "Joao Alvarez",
+      "number": 1,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Colombia",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 68,
+        "shooting": 30,
+        "passing": 78,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 88,
+        "diving": 93,
+        "handling": 88,
+        "kicking": 83,
+        "reflexes": 91,
+        "positioning": 88
+      }
+    },
+    {
+      "id": "col-p2",
+      "name": "Lucas Hakimi",
+      "number": 2,
+      "position": "GK",
+      "club": "Napoli",
+      "nationality": "Colombia",
+      "height": 190,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "col-p3",
+      "name": "Carlos Jones",
+      "number": 3,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Colombia",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 69,
+        "shooting": 30,
+        "passing": 79,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 89,
+        "diving": 94,
+        "handling": 89,
+        "kicking": 84,
+        "reflexes": 92,
+        "positioning": 89
+      }
+    },
+    {
+      "id": "col-p4",
+      "name": "Hakim David",
+      "number": 4,
+      "position": "CB",
+      "club": "AC Milan",
+      "nationality": "Colombia",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 83,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 80
+      }
+    },
+    {
+      "id": "col-p5",
+      "name": "Roberto Osimhen",
+      "number": 5,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Colombia",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "col-p6",
+      "name": "Harry Pulisic",
+      "number": 6,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Colombia",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 84,
+        "shooting": 88,
+        "passing": 90,
+        "dribbling": 90,
+        "defending": 87,
+        "physical": 91
+      }
+    },
+    {
+      "id": "col-p7",
+      "name": "Mateo Davies",
+      "number": 7,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Colombia",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 84,
+        "shooting": 84,
+        "passing": 87,
+        "dribbling": 91,
+        "defending": 88,
+        "physical": 86
+      }
+    },
+    {
+      "id": "col-p8",
+      "name": "Pierre Sane",
+      "number": 8,
+      "position": "RB",
+      "club": "Liverpool",
+      "nationality": "Colombia",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 76,
+        "physical": 81
+      }
+    },
+    {
+      "id": "col-p9",
+      "name": "Julian Giroud",
+      "number": 9,
+      "position": "CDM",
+      "club": "Arsenal",
+      "nationality": "Colombia",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 89,
+        "shooting": 87,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 85
+      }
+    },
+    {
+      "id": "col-p10",
+      "name": "David Mitoma",
+      "number": 10,
+      "position": "CDM",
+      "club": "Atletico Madrid",
+      "nationality": "Colombia",
+      "height": 179,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 83
+      }
+    },
+    {
+      "id": "col-p11",
+      "name": "Vinicius Brown",
+      "number": 11,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Colombia",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 82,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 90,
+        "physical": 84
+      }
+    },
+    {
+      "id": "col-p12",
+      "name": "Dusan Osimhen",
+      "number": 12,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Colombia",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 80,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 86
+      }
+    },
+    {
+      "id": "col-p13",
+      "name": "Leroy Martinez",
+      "number": 13,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Colombia",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "col-p14",
+      "name": "Sadio Giroud",
+      "number": 14,
+      "position": "CAM",
+      "club": "Napoli",
+      "nationality": "Colombia",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 81
+      }
+    },
+    {
+      "id": "col-p15",
+      "name": "Marcus Souza",
+      "number": 15,
+      "position": "LM",
+      "club": "FC Barcelona",
+      "nationality": "Colombia",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 81,
+        "physical": 75
+      }
+    },
+    {
+      "id": "col-p16",
+      "name": "Lorenzo Havertz",
+      "number": 16,
+      "position": "RM",
+      "club": "Tottenham",
+      "nationality": "Colombia",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 74,
+        "physical": 76
+      }
+    },
+    {
+      "id": "col-p17",
+      "name": "Wilfred Reyna",
+      "number": 17,
+      "position": "LW",
+      "club": "PSG",
+      "nationality": "Colombia",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 80
+      }
+    },
+    {
+      "id": "col-p18",
+      "name": "Kai Martinez",
+      "number": 18,
+      "position": "RW",
+      "club": "Chelsea",
+      "nationality": "Colombia",
+      "height": 180,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "col-p19",
+      "name": "Thomas Neymar",
+      "number": 19,
+      "position": "ST",
+      "club": "Juventus",
+      "nationality": "Colombia",
+      "height": 177,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 81,
+        "physical": 87
+      }
+    },
+    {
+      "id": "col-p20",
+      "name": "Nolo Oliveira",
+      "number": 20,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Colombia",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 73
+      }
+    },
+    {
+      "id": "col-p21",
+      "name": "Dusan Richarlison",
+      "number": 21,
+      "position": "CF",
+      "club": "Arsenal",
+      "nationality": "Colombia",
+      "height": 178,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 86,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 80
+      }
+    },
+    {
+      "id": "col-p22",
+      "name": "Son Jones",
+      "number": 22,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Colombia",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 86,
+        "shooting": 83,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "col-p23",
+      "name": "Kaoru Miller",
+      "number": 23,
+      "position": "LB",
+      "club": "Inter Miami",
+      "nationality": "Colombia",
+      "height": 191,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 80
+      }
+    },
+    {
+      "id": "col-p24",
+      "name": "Ryan Brown",
+      "number": 24,
+      "position": "RB",
+      "club": "Bayern Munich",
+      "nationality": "Colombia",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "col-p25",
+      "name": "Jack Modric",
+      "number": 25,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Colombia",
+      "height": 189,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 84,
+        "physical": 82
+      }
+    },
+    {
+      "id": "col-p26",
+      "name": "Kalidou Alvarez",
+      "number": 26,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Colombia",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 81,
+        "physical": 84
+      }
+    }
+  ]
+}

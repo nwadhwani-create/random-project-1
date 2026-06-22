@@ -1,0 +1,537 @@
+{
+  "id": "ukr",
+  "name": "Ukraine",
+  "code": "UKR",
+  "flagColors": [
+    "#005BBB",
+    "#FFD500",
+    "#005BBB"
+  ],
+  "kitHome": {
+    "primary": "#FFD500",
+    "secondary": "#005BBB",
+    "accent": "#FFD500",
+    "shorts": "#005BBB",
+    "socks": "#FFD500"
+  },
+  "kitAway": {
+    "primary": "#005BBB",
+    "secondary": "#FFD500",
+    "accent": "#005BBB",
+    "shorts": "#005BBB",
+    "socks": "#FFD500"
+  },
+  "formation": "4-3-3",
+  "overallRating": 76,
+  "squad": [
+    {
+      "id": "ukr-p1",
+      "name": "Milan Sane",
+      "number": 1,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Ukraine",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "ukr-p2",
+      "name": "Daniel Kimmich",
+      "number": 2,
+      "position": "GK",
+      "club": "Napoli",
+      "nationality": "Ukraine",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "ukr-p3",
+      "name": "Federico Barella",
+      "number": 3,
+      "position": "GK",
+      "club": "Napoli",
+      "nationality": "Ukraine",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "ukr-p4",
+      "name": "Nicolo Donnarumma",
+      "number": 4,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "Ukraine",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 86,
+        "shooting": 81,
+        "passing": 87,
+        "dribbling": 83,
+        "defending": 87,
+        "physical": 87
+      }
+    },
+    {
+      "id": "ukr-p5",
+      "name": "Jonathan Brown",
+      "number": 5,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Ukraine",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 84,
+        "physical": 84
+      }
+    },
+    {
+      "id": "ukr-p6",
+      "name": "Carlos Martinez",
+      "number": 6,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Ukraine",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "ukr-p7",
+      "name": "Luis Williams",
+      "number": 7,
+      "position": "LB",
+      "club": "Borussia Dortmund",
+      "nationality": "Ukraine",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 71,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 74
+      }
+    },
+    {
+      "id": "ukr-p8",
+      "name": "Son Perisic",
+      "number": 8,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Ukraine",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 82,
+        "physical": 75
+      }
+    },
+    {
+      "id": "ukr-p9",
+      "name": "Bruno Barella",
+      "number": 9,
+      "position": "CDM",
+      "club": "AC Milan",
+      "nationality": "Ukraine",
+      "height": 179,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 89,
+        "shooting": 82,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 88,
+        "physical": 86
+      }
+    },
+    {
+      "id": "ukr-p10",
+      "name": "Martin Miller",
+      "number": 10,
+      "position": "CDM",
+      "club": "Inter Milan",
+      "nationality": "Ukraine",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ukr-p11",
+      "name": "Alisson Donnarumma",
+      "number": 11,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Ukraine",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 78,
+        "physical": 81
+      }
+    },
+    {
+      "id": "ukr-p12",
+      "name": "Julian Martinez",
+      "number": 12,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Ukraine",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ukr-p13",
+      "name": "Kalidou Mitrovic",
+      "number": 13,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Ukraine",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 72,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ukr-p14",
+      "name": "Sadio Donnarumma",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Miami",
+      "nationality": "Ukraine",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 74
+      }
+    },
+    {
+      "id": "ukr-p15",
+      "name": "Pierre Perisic",
+      "number": 15,
+      "position": "LM",
+      "club": "Manchester City",
+      "nationality": "Ukraine",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 66,
+        "physical": 73
+      }
+    },
+    {
+      "id": "ukr-p16",
+      "name": "James Modric",
+      "number": 16,
+      "position": "RM",
+      "club": "Tottenham",
+      "nationality": "Ukraine",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "ukr-p17",
+      "name": "Pierre Oliveira",
+      "number": 17,
+      "position": "LW",
+      "club": "Atletico Madrid",
+      "nationality": "Ukraine",
+      "height": 194,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 77,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ukr-p18",
+      "name": "Endrick Mane",
+      "number": 18,
+      "position": "RW",
+      "club": "AC Milan",
+      "nationality": "Ukraine",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "ukr-p19",
+      "name": "Daniel Fernandez",
+      "number": 19,
+      "position": "ST",
+      "club": "FC Barcelona",
+      "nationality": "Ukraine",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 79
+      }
+    },
+    {
+      "id": "ukr-p20",
+      "name": "Jonathan Smith",
+      "number": 20,
+      "position": "ST",
+      "club": "LAFC",
+      "nationality": "Ukraine",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 74,
+        "physical": 76
+      }
+    },
+    {
+      "id": "ukr-p21",
+      "name": "Dusan Garcia",
+      "number": 21,
+      "position": "CF",
+      "club": "Inter Milan",
+      "nationality": "Ukraine",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 65,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 66,
+        "physical": 67
+      }
+    },
+    {
+      "id": "ukr-p22",
+      "name": "Joshua Jones",
+      "number": 22,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Ukraine",
+      "height": 183,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 77,
+        "physical": 72
+      }
+    },
+    {
+      "id": "ukr-p23",
+      "name": "Gianluigi Davis",
+      "number": 23,
+      "position": "LB",
+      "club": "Tottenham",
+      "nationality": "Ukraine",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 70,
+        "physical": 74
+      }
+    },
+    {
+      "id": "ukr-p24",
+      "name": "Ederson Giroud",
+      "number": 24,
+      "position": "RB",
+      "club": "Bayern Munich",
+      "nationality": "Ukraine",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 71,
+        "physical": 67
+      }
+    },
+    {
+      "id": "ukr-p25",
+      "name": "Jackson Gonzalez",
+      "number": 25,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Ukraine",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 81,
+        "physical": 77
+      }
+    },
+    {
+      "id": "ukr-p26",
+      "name": "Bernardo Gonzalez",
+      "number": 26,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "Ukraine",
+      "height": 191,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 75,
+        "physical": 76
+      }
+    }
+  ]
+}
