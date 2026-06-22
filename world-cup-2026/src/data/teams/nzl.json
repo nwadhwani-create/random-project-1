@@ -1,0 +1,537 @@
+{
+  "id": "nzl",
+  "name": "New Zealand",
+  "code": "NZL",
+  "flagColors": [
+    "#00247D",
+    "#FFFFFF",
+    "#CC142B"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#000000",
+    "accent": "#CC142B",
+    "shorts": "#000000",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "accent": "#CC142B",
+    "shorts": "#000000",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 69,
+  "squad": [
+    {
+      "id": "nzl-p1",
+      "name": "Ousmane Souza",
+      "number": 1,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "New Zealand",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "nzl-p2",
+      "name": "Marco Courtois",
+      "number": 2,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "New Zealand",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "nzl-p3",
+      "name": "Gianluigi Neymar",
+      "number": 3,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "New Zealand",
+      "height": 192,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 53,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 73,
+        "diving": 78,
+        "handling": 73,
+        "kicking": 68,
+        "reflexes": 76,
+        "positioning": 73
+      }
+    },
+    {
+      "id": "nzl-p4",
+      "name": "James Lopez",
+      "number": 4,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "New Zealand",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "nzl-p5",
+      "name": "Joshua Modric",
+      "number": 5,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "New Zealand",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 76
+      }
+    },
+    {
+      "id": "nzl-p6",
+      "name": "Dusan Koulibaly",
+      "number": 6,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "New Zealand",
+      "height": 183,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 71
+      }
+    },
+    {
+      "id": "nzl-p7",
+      "name": "Luis Martinez",
+      "number": 7,
+      "position": "LB",
+      "club": "PSG",
+      "nationality": "New Zealand",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 68,
+        "physical": 71
+      }
+    },
+    {
+      "id": "nzl-p8",
+      "name": "Nicolas Sane",
+      "number": 8,
+      "position": "RB",
+      "club": "Manchester City",
+      "nationality": "New Zealand",
+      "height": 187,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "nzl-p9",
+      "name": "Nicolo Griezmann",
+      "number": 9,
+      "position": "CDM",
+      "club": "Borussia Dortmund",
+      "nationality": "New Zealand",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 70,
+        "physical": 71
+      }
+    },
+    {
+      "id": "nzl-p10",
+      "name": "Milan Larin",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "New Zealand",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 81,
+        "physical": 81
+      }
+    },
+    {
+      "id": "nzl-p11",
+      "name": "Cristiano Richarlison",
+      "number": 11,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "New Zealand",
+      "height": 175,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 77
+      }
+    },
+    {
+      "id": "nzl-p12",
+      "name": "Alex Brown",
+      "number": 12,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "New Zealand",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 76,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 73,
+        "physical": 72
+      }
+    },
+    {
+      "id": "nzl-p13",
+      "name": "Marcus Ziyech",
+      "number": 13,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "New Zealand",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 65,
+        "physical": 68
+      }
+    },
+    {
+      "id": "nzl-p14",
+      "name": "Nicolas Santos",
+      "number": 14,
+      "position": "CAM",
+      "club": "FC Barcelona",
+      "nationality": "New Zealand",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 73,
+        "physical": 74
+      }
+    },
+    {
+      "id": "nzl-p15",
+      "name": "Mohamed Musah",
+      "number": 15,
+      "position": "LM",
+      "club": "Juventus",
+      "nationality": "New Zealand",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 67,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 64,
+        "physical": 62
+      }
+    },
+    {
+      "id": "nzl-p16",
+      "name": "Julian Williams",
+      "number": 16,
+      "position": "RM",
+      "club": "Napoli",
+      "nationality": "New Zealand",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 64,
+        "shooting": 70,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 69,
+        "physical": 71
+      }
+    },
+    {
+      "id": "nzl-p17",
+      "name": "Thomas Williams",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Milan",
+      "nationality": "New Zealand",
+      "height": 187,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "nzl-p18",
+      "name": "Antonio Oliveira",
+      "number": 18,
+      "position": "RW",
+      "club": "Tottenham",
+      "nationality": "New Zealand",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 74,
+        "physical": 74
+      }
+    },
+    {
+      "id": "nzl-p19",
+      "name": "Sadio Kubo",
+      "number": 19,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "New Zealand",
+      "height": 193,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 65
+      }
+    },
+    {
+      "id": "nzl-p20",
+      "name": "Cristiano Souza",
+      "number": 20,
+      "position": "ST",
+      "club": "FC Barcelona",
+      "nationality": "New Zealand",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 68,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 70,
+        "physical": 66
+      }
+    },
+    {
+      "id": "nzl-p21",
+      "name": "David Valverde",
+      "number": 21,
+      "position": "CF",
+      "club": "Club America",
+      "nationality": "New Zealand",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 63,
+        "physical": 64
+      }
+    },
+    {
+      "id": "nzl-p22",
+      "name": "Jonathan Havertz",
+      "number": 22,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "New Zealand",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 63,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 68,
+        "physical": 65
+      }
+    },
+    {
+      "id": "nzl-p23",
+      "name": "Richarlison Alvarez",
+      "number": 23,
+      "position": "LB",
+      "club": "Inter Milan",
+      "nationality": "New Zealand",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 65,
+        "shooting": 62,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 67,
+        "physical": 68
+      }
+    },
+    {
+      "id": "nzl-p24",
+      "name": "Daniel Koulibaly",
+      "number": 24,
+      "position": "RB",
+      "club": "Napoli",
+      "nationality": "New Zealand",
+      "height": 172,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 71,
+        "physical": 73
+      }
+    },
+    {
+      "id": "nzl-p25",
+      "name": "Roberto Garcia",
+      "number": 25,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "New Zealand",
+      "height": 176,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 65,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 65,
+        "physical": 70
+      }
+    },
+    {
+      "id": "nzl-p26",
+      "name": "Joao Souza",
+      "number": 26,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "New Zealand",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 65,
+        "physical": 63
+      }
+    }
+  ]
+}

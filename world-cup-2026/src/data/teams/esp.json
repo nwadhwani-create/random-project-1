@@ -1,0 +1,537 @@
+{
+  "id": "esp",
+  "name": "Spain",
+  "code": "ESP",
+  "flagColors": [
+    "#AA151B",
+    "#F1BF00",
+    "#AA151B"
+  ],
+  "kitHome": {
+    "primary": "#AA151B",
+    "secondary": "#F1BF00",
+    "accent": "#00247D",
+    "shorts": "#00247D",
+    "socks": "#AA151B"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#AA151B",
+    "accent": "#F1BF00",
+    "shorts": "#AA151B",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 86,
+  "squad": [
+    {
+      "id": "esp-p1",
+      "name": "Enzo Gnabry",
+      "number": 1,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "Spain",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 72,
+        "shooting": 30,
+        "passing": 82,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 92,
+        "diving": 97,
+        "handling": 92,
+        "kicking": 87,
+        "reflexes": 95,
+        "positioning": 92
+      }
+    },
+    {
+      "id": "esp-p2",
+      "name": "Kylian Havertz",
+      "number": 2,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Spain",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 76,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 86,
+        "diving": 91,
+        "handling": 86,
+        "kicking": 81,
+        "reflexes": 89,
+        "positioning": 86
+      }
+    },
+    {
+      "id": "esp-p3",
+      "name": "Luis Fernandez",
+      "number": 3,
+      "position": "GK",
+      "club": "FC Barcelona",
+      "nationality": "Spain",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 67,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      }
+    },
+    {
+      "id": "esp-p4",
+      "name": "Wilfred Musiala",
+      "number": 4,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Spain",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 86,
+        "shooting": 88,
+        "passing": 85,
+        "dribbling": 90,
+        "defending": 86,
+        "physical": 85
+      }
+    },
+    {
+      "id": "esp-p5",
+      "name": "Lautaro Fernandez",
+      "number": 5,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Spain",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 88,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 87,
+        "defending": 87,
+        "physical": 87
+      }
+    },
+    {
+      "id": "esp-p6",
+      "name": "Lorenzo Modric",
+      "number": 6,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Spain",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 89,
+        "shooting": 93,
+        "passing": 91,
+        "dribbling": 93,
+        "defending": 93,
+        "physical": 89
+      }
+    },
+    {
+      "id": "esp-p7",
+      "name": "Milan Miller",
+      "number": 7,
+      "position": "LB",
+      "club": "LAFC",
+      "nationality": "Spain",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 90,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 93,
+        "physical": 86
+      }
+    },
+    {
+      "id": "esp-p8",
+      "name": "Federico Vinicius",
+      "number": 8,
+      "position": "RB",
+      "club": "Borussia Dortmund",
+      "nationality": "Spain",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 91,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 90
+      }
+    },
+    {
+      "id": "esp-p9",
+      "name": "Sergej Martinez",
+      "number": 9,
+      "position": "CDM",
+      "club": "LAFC",
+      "nationality": "Spain",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 93,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 91,
+        "defending": 86,
+        "physical": 86
+      }
+    },
+    {
+      "id": "esp-p10",
+      "name": "Hakim David",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "Spain",
+      "height": 175,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 94,
+        "shooting": 93,
+        "passing": 93,
+        "dribbling": 95,
+        "defending": 88,
+        "physical": 93
+      }
+    },
+    {
+      "id": "esp-p11",
+      "name": "Riyad Taylor",
+      "number": 11,
+      "position": "CM",
+      "club": "Inter Milan",
+      "nationality": "Spain",
+      "height": 181,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 88,
+        "shooting": 95,
+        "passing": 94,
+        "dribbling": 93,
+        "defending": 90,
+        "physical": 94
+      }
+    },
+    {
+      "id": "esp-p12",
+      "name": "Rafael Oliveira",
+      "number": 12,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Spain",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 87,
+        "passing": 88,
+        "dribbling": 82,
+        "defending": 86,
+        "physical": 82
+      }
+    },
+    {
+      "id": "esp-p13",
+      "name": "Rafael Kubo",
+      "number": 13,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Spain",
+      "height": 171,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 85,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "esp-p14",
+      "name": "Alessandro Larin",
+      "number": 14,
+      "position": "CAM",
+      "club": "FC Barcelona",
+      "nationality": "Spain",
+      "height": 183,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 90,
+        "dribbling": 87,
+        "defending": 86,
+        "physical": 86
+      }
+    },
+    {
+      "id": "esp-p15",
+      "name": "Cristiano Kovacic",
+      "number": 15,
+      "position": "LM",
+      "club": "Liverpool",
+      "nationality": "Spain",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 85,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 84
+      }
+    },
+    {
+      "id": "esp-p16",
+      "name": "Cristiano Richarlison",
+      "number": 16,
+      "position": "RM",
+      "club": "Real Madrid",
+      "nationality": "Spain",
+      "height": 171,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 93,
+        "shooting": 91,
+        "passing": 86,
+        "dribbling": 89,
+        "defending": 87,
+        "physical": 90
+      }
+    },
+    {
+      "id": "esp-p17",
+      "name": "Nicolas Mitrovic",
+      "number": 17,
+      "position": "LW",
+      "club": "Napoli",
+      "nationality": "Spain",
+      "height": 171,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 80,
+        "physical": 84
+      }
+    },
+    {
+      "id": "esp-p18",
+      "name": "Daniel Jones",
+      "number": 18,
+      "position": "RW",
+      "club": "FC Barcelona",
+      "nationality": "Spain",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "esp-p19",
+      "name": "Daniel Wilson",
+      "number": 19,
+      "position": "ST",
+      "club": "Liverpool",
+      "nationality": "Spain",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 93,
+        "shooting": 90,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 87,
+        "physical": 88
+      }
+    },
+    {
+      "id": "esp-p20",
+      "name": "Marcus Martinez",
+      "number": 20,
+      "position": "ST",
+      "club": "Real Madrid",
+      "nationality": "Spain",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 87,
+        "dribbling": 88,
+        "defending": 89,
+        "physical": 89
+      }
+    },
+    {
+      "id": "esp-p21",
+      "name": "Mohamed Griezmann",
+      "number": 21,
+      "position": "CF",
+      "club": "Club America",
+      "nationality": "Spain",
+      "height": 190,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 84,
+        "physical": 80
+      }
+    },
+    {
+      "id": "esp-p22",
+      "name": "Bruno Vlahovic",
+      "number": 22,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Spain",
+      "height": 175,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 94,
+        "shooting": 88,
+        "passing": 91,
+        "dribbling": 87,
+        "defending": 90,
+        "physical": 91
+      }
+    },
+    {
+      "id": "esp-p23",
+      "name": "Pedro Kimmich",
+      "number": 23,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "Spain",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 77
+      }
+    },
+    {
+      "id": "esp-p24",
+      "name": "Sergio Smith",
+      "number": 24,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Spain",
+      "height": 191,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 88,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 87,
+        "physical": 90
+      }
+    },
+    {
+      "id": "esp-p25",
+      "name": "Jack Fernandez",
+      "number": 25,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Spain",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 92,
+        "shooting": 88,
+        "passing": 94,
+        "dribbling": 92,
+        "defending": 91,
+        "physical": 88
+      }
+    },
+    {
+      "id": "esp-p26",
+      "name": "Wilfred Johnson",
+      "number": 26,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Spain",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 94,
+        "dribbling": 91,
+        "defending": 87,
+        "physical": 92
+      }
+    }
+  ]
+}

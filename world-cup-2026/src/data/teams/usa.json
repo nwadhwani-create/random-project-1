@@ -1,0 +1,537 @@
+{
+  "id": "usa",
+  "name": "United States",
+  "code": "USA",
+  "flagColors": [
+    "#BF0A30",
+    "#FFFFFF",
+    "#002868"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#BF0A30",
+    "accent": "#002868",
+    "shorts": "#002868",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#002868",
+    "secondary": "#BF0A30",
+    "accent": "#FFFFFF",
+    "shorts": "#002868",
+    "socks": "#BF0A30"
+  },
+  "formation": "4-3-3",
+  "overallRating": 78,
+  "squad": [
+    {
+      "id": "usa-p1",
+      "name": "Sergej Barella",
+      "number": 1,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "United States",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "usa-p2",
+      "name": "Gabriel Santos",
+      "number": 2,
+      "position": "GK",
+      "club": "Juventus",
+      "nationality": "United States",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 67,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      }
+    },
+    {
+      "id": "usa-p3",
+      "name": "Ederson Lopez",
+      "number": 3,
+      "position": "GK",
+      "club": "PSG",
+      "nationality": "United States",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "usa-p4",
+      "name": "Kalidou Osimhen",
+      "number": 4,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "United States",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "usa-p5",
+      "name": "Gabriel Modric",
+      "number": 5,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "United States",
+      "height": 172,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 88,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 89,
+        "physical": 88
+      }
+    },
+    {
+      "id": "usa-p6",
+      "name": "Ousmane Koulibaly",
+      "number": 6,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "United States",
+      "height": 186,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "usa-p7",
+      "name": "Kai Griezmann",
+      "number": 7,
+      "position": "LB",
+      "club": "Inter Miami",
+      "nationality": "United States",
+      "height": 191,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 88,
+        "shooting": 81,
+        "passing": 87,
+        "dribbling": 82,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "usa-p8",
+      "name": "Diego Neymar",
+      "number": 8,
+      "position": "RB",
+      "club": "Tottenham",
+      "nationality": "United States",
+      "height": 182,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 91,
+        "shooting": 89,
+        "passing": 85,
+        "dribbling": 86,
+        "defending": 88,
+        "physical": 84
+      }
+    },
+    {
+      "id": "usa-p9",
+      "name": "Kalidou Mane",
+      "number": 9,
+      "position": "CDM",
+      "club": "FC Barcelona",
+      "nationality": "United States",
+      "height": 185,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 73,
+        "physical": 75
+      }
+    },
+    {
+      "id": "usa-p10",
+      "name": "Wilfred Perisic",
+      "number": 10,
+      "position": "CDM",
+      "club": "Tottenham",
+      "nationality": "United States",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 82
+      }
+    },
+    {
+      "id": "usa-p11",
+      "name": "Nolo Vlahovic",
+      "number": 11,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "United States",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 90,
+        "passing": 86,
+        "dribbling": 90,
+        "defending": 85,
+        "physical": 91
+      }
+    },
+    {
+      "id": "usa-p12",
+      "name": "Antoine Taylor",
+      "number": 12,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "United States",
+      "height": 184,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 84,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 79
+      }
+    },
+    {
+      "id": "usa-p13",
+      "name": "Kai Ronaldo",
+      "number": 13,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "United States",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "usa-p14",
+      "name": "Ederson Chiesa",
+      "number": 14,
+      "position": "CAM",
+      "club": "Club America",
+      "nationality": "United States",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 84
+      }
+    },
+    {
+      "id": "usa-p15",
+      "name": "Kai Donnarumma",
+      "number": 15,
+      "position": "LM",
+      "club": "Real Madrid",
+      "nationality": "United States",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 77
+      }
+    },
+    {
+      "id": "usa-p16",
+      "name": "Lautaro Giroud",
+      "number": 16,
+      "position": "RM",
+      "club": "Chelsea",
+      "nationality": "United States",
+      "height": 189,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "usa-p17",
+      "name": "Carlos Pulisic",
+      "number": 17,
+      "position": "LW",
+      "club": "FC Barcelona",
+      "nationality": "United States",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 82,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 78
+      }
+    },
+    {
+      "id": "usa-p18",
+      "name": "Rafael Son",
+      "number": 18,
+      "position": "RW",
+      "club": "Chelsea",
+      "nationality": "United States",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "usa-p19",
+      "name": "Miguel Ryan",
+      "number": 19,
+      "position": "ST",
+      "club": "Real Madrid",
+      "nationality": "United States",
+      "height": 183,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 73,
+        "physical": 70
+      }
+    },
+    {
+      "id": "usa-p20",
+      "name": "Mateo Ronaldo",
+      "number": 20,
+      "position": "ST",
+      "club": "Tottenham",
+      "nationality": "United States",
+      "height": 194,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 75,
+        "physical": 74
+      }
+    },
+    {
+      "id": "usa-p21",
+      "name": "Antonio Mbappe",
+      "number": 21,
+      "position": "CF",
+      "club": "Real Madrid",
+      "nationality": "United States",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "usa-p22",
+      "name": "Thomas Williams",
+      "number": 22,
+      "position": "CB",
+      "club": "AC Milan",
+      "nationality": "United States",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 77
+      }
+    },
+    {
+      "id": "usa-p23",
+      "name": "Jonathan Giroud",
+      "number": 23,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "United States",
+      "height": 184,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 81
+      }
+    },
+    {
+      "id": "usa-p24",
+      "name": "Cristiano Chukwueze",
+      "number": 24,
+      "position": "RB",
+      "club": "Inter Miami",
+      "nationality": "United States",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 73
+      }
+    },
+    {
+      "id": "usa-p25",
+      "name": "Son Sane",
+      "number": 25,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "United States",
+      "height": 183,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 84,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "usa-p26",
+      "name": "Mathew Odegaard",
+      "number": 26,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "United States",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 75,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 73,
+        "physical": 68
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": "srb",
+  "name": "Serbia",
+  "code": "SRB",
+  "flagColors": [
+    "#C6363C",
+    "#0C4076",
+    "#FFFFFF"
+  ],
+  "kitHome": {
+    "primary": "#C6363C",
+    "secondary": "#0C4076",
+    "accent": "#FFFFFF",
+    "shorts": "#0C4076",
+    "socks": "#C6363C"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#C6363C",
+    "accent": "#0C4076",
+    "shorts": "#C6363C",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 77,
+  "squad": [
+    {
+      "id": "srb-p1",
+      "name": "Vinicius Barella",
+      "number": 1,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Serbia",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "srb-p2",
+      "name": "Ederson Oliveira",
+      "number": 2,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Serbia",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 67,
+        "shooting": 30,
+        "passing": 77,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 87,
+        "diving": 92,
+        "handling": 87,
+        "kicking": 82,
+        "reflexes": 90,
+        "positioning": 87
+      }
+    },
+    {
+      "id": "srb-p3",
+      "name": "Bruno Vlahovic",
+      "number": 3,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Serbia",
+      "height": 185,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "srb-p4",
+      "name": "Nicolas Koulibaly",
+      "number": 4,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Serbia",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 84,
+        "physical": 81
+      }
+    },
+    {
+      "id": "srb-p5",
+      "name": "Richarlison Miller",
+      "number": 5,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Serbia",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 79
+      }
+    },
+    {
+      "id": "srb-p6",
+      "name": "Dusan Ryan",
+      "number": 6,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Serbia",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 85,
+        "passing": 78,
+        "dribbling": 84,
+        "defending": 82,
+        "physical": 80
+      }
+    },
+    {
+      "id": "srb-p7",
+      "name": "Sergej Vlahovic",
+      "number": 7,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Serbia",
+      "height": 188,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 89,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 89,
+        "physical": 86
+      }
+    },
+    {
+      "id": "srb-p8",
+      "name": "Florian Kubo",
+      "number": 8,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Serbia",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 86,
+        "shooting": 86,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 85
+      }
+    },
+    {
+      "id": "srb-p9",
+      "name": "Cyle Alvarez",
+      "number": 9,
+      "position": "CDM",
+      "club": "FC Barcelona",
+      "nationality": "Serbia",
+      "height": 184,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "srb-p10",
+      "name": "James Mane",
+      "number": 10,
+      "position": "CDM",
+      "club": "PSG",
+      "nationality": "Serbia",
+      "height": 191,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 87,
+        "defending": 87,
+        "physical": 81
+      }
+    },
+    {
+      "id": "srb-p11",
+      "name": "Mathew Kubo",
+      "number": 11,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Serbia",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 83,
+        "physical": 77
+      }
+    },
+    {
+      "id": "srb-p12",
+      "name": "Takefusa Martinez",
+      "number": 12,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Serbia",
+      "height": 177,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 74,
+        "physical": 72
+      }
+    },
+    {
+      "id": "srb-p13",
+      "name": "James Mahrez",
+      "number": 13,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Serbia",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 84,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "srb-p14",
+      "name": "Florian Anderson",
+      "number": 14,
+      "position": "CAM",
+      "club": "Borussia Dortmund",
+      "nationality": "Serbia",
+      "height": 176,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 72
+      }
+    },
+    {
+      "id": "srb-p15",
+      "name": "Milan Vlahovic",
+      "number": 15,
+      "position": "LM",
+      "club": "Borussia Dortmund",
+      "nationality": "Serbia",
+      "height": 187,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 72
+      }
+    },
+    {
+      "id": "srb-p16",
+      "name": "Mathew Neymar",
+      "number": 16,
+      "position": "RM",
+      "club": "Inter Miami",
+      "nationality": "Serbia",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 83,
+        "physical": 80
+      }
+    },
+    {
+      "id": "srb-p17",
+      "name": "Gianluigi Donnarumma",
+      "number": 17,
+      "position": "LW",
+      "club": "Liverpool",
+      "nationality": "Serbia",
+      "height": 170,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 78
+      }
+    },
+    {
+      "id": "srb-p18",
+      "name": "Antonio Larin",
+      "number": 18,
+      "position": "RW",
+      "club": "Arsenal",
+      "nationality": "Serbia",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 74,
+        "physical": 79
+      }
+    },
+    {
+      "id": "srb-p19",
+      "name": "Nolo Gnabry",
+      "number": 19,
+      "position": "ST",
+      "club": "Club America",
+      "nationality": "Serbia",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 78
+      }
+    },
+    {
+      "id": "srb-p20",
+      "name": "Jack Gonzalez",
+      "number": 20,
+      "position": "ST",
+      "club": "Club America",
+      "nationality": "Serbia",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "srb-p21",
+      "name": "Alex Mbappe",
+      "number": 21,
+      "position": "CF",
+      "club": "Chelsea",
+      "nationality": "Serbia",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 70
+      }
+    },
+    {
+      "id": "srb-p22",
+      "name": "Ruben Anderson",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Serbia",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 75,
+        "physical": 80
+      }
+    },
+    {
+      "id": "srb-p23",
+      "name": "Jamal Souza",
+      "number": 23,
+      "position": "LB",
+      "club": "Bayern Munich",
+      "nationality": "Serbia",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 81,
+        "defending": 77,
+        "physical": 79
+      }
+    },
+    {
+      "id": "srb-p24",
+      "name": "Carlos Fernandez",
+      "number": 24,
+      "position": "RB",
+      "club": "Arsenal",
+      "nationality": "Serbia",
+      "height": 188,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 69,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 72
+      }
+    },
+    {
+      "id": "srb-p25",
+      "name": "Ousmane Brown",
+      "number": 25,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Serbia",
+      "height": 172,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 78,
+        "physical": 71
+      }
+    },
+    {
+      "id": "srb-p26",
+      "name": "Achraf Mitoma",
+      "number": 26,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Serbia",
+      "height": 180,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 76,
+        "physical": 83
+      }
+    }
+  ]
+}

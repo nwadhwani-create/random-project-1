@@ -1,0 +1,537 @@
+{
+  "id": "cro",
+  "name": "Croatia",
+  "code": "CRO",
+  "flagColors": [
+    "#FF0000",
+    "#FFFFFF",
+    "#003399"
+  ],
+  "kitHome": {
+    "primary": "#FF0000",
+    "secondary": "#FFFFFF",
+    "accent": "#003399",
+    "shorts": "#003399",
+    "socks": "#FF0000"
+  },
+  "kitAway": {
+    "primary": "#003399",
+    "secondary": "#FF0000",
+    "accent": "#FFFFFF",
+    "shorts": "#003399",
+    "socks": "#FF0000"
+  },
+  "formation": "4-3-3",
+  "overallRating": 81,
+  "squad": [
+    {
+      "id": "cro-p1",
+      "name": "Richarlison Smith",
+      "number": 1,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Croatia",
+      "height": 170,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 30,
+        "passing": 78,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 88,
+        "diving": 93,
+        "handling": 88,
+        "kicking": 83,
+        "reflexes": 91,
+        "positioning": 88
+      }
+    },
+    {
+      "id": "cro-p2",
+      "name": "Roberto Felix",
+      "number": 2,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Croatia",
+      "height": 171,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 61,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      }
+    },
+    {
+      "id": "cro-p3",
+      "name": "Gianluigi Felix",
+      "number": 3,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "Croatia",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 70,
+        "shooting": 30,
+        "passing": 80,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 90,
+        "diving": 95,
+        "handling": 90,
+        "kicking": 85,
+        "reflexes": 93,
+        "positioning": 90
+      }
+    },
+    {
+      "id": "cro-p4",
+      "name": "Enzo Taylor",
+      "number": 4,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "Croatia",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 84,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 85
+      }
+    },
+    {
+      "id": "cro-p5",
+      "name": "Nicolas Neymar",
+      "number": 5,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Croatia",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 89,
+        "dribbling": 88,
+        "defending": 90,
+        "physical": 87
+      }
+    },
+    {
+      "id": "cro-p6",
+      "name": "David Vinicius",
+      "number": 6,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Croatia",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cro-p7",
+      "name": "Lucas Mitrovic",
+      "number": 7,
+      "position": "LB",
+      "club": "Inter Milan",
+      "nationality": "Croatia",
+      "height": 170,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 83,
+        "passing": 85,
+        "dribbling": 80,
+        "defending": 84,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cro-p8",
+      "name": "Kalidou Donnarumma",
+      "number": 8,
+      "position": "RB",
+      "club": "Real Madrid",
+      "nationality": "Croatia",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 89,
+        "shooting": 94,
+        "passing": 92,
+        "dribbling": 93,
+        "defending": 94,
+        "physical": 92
+      }
+    },
+    {
+      "id": "cro-p9",
+      "name": "Alisson Dybala",
+      "number": 9,
+      "position": "CDM",
+      "club": "Tottenham",
+      "nationality": "Croatia",
+      "height": 190,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "cro-p10",
+      "name": "Achraf Richarlison",
+      "number": 10,
+      "position": "CDM",
+      "club": "Juventus",
+      "nationality": "Croatia",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 86,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "cro-p11",
+      "name": "Federico Souza",
+      "number": 11,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Croatia",
+      "height": 171,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 82,
+        "physical": 82
+      }
+    },
+    {
+      "id": "cro-p12",
+      "name": "Harry Brown",
+      "number": 12,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Croatia",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 77
+      }
+    },
+    {
+      "id": "cro-p13",
+      "name": "Kaoru Osimhen",
+      "number": 13,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Croatia",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 71,
+        "physical": 72
+      }
+    },
+    {
+      "id": "cro-p14",
+      "name": "Lucas Son",
+      "number": 14,
+      "position": "CAM",
+      "club": "Club America",
+      "nationality": "Croatia",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 72
+      }
+    },
+    {
+      "id": "cro-p15",
+      "name": "Endrick Sane",
+      "number": 15,
+      "position": "LM",
+      "club": "Chelsea",
+      "nationality": "Croatia",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 80,
+        "physical": 84
+      }
+    },
+    {
+      "id": "cro-p16",
+      "name": "Lucas Valverde",
+      "number": 16,
+      "position": "RM",
+      "club": "Chelsea",
+      "nationality": "Croatia",
+      "height": 183,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 80
+      }
+    },
+    {
+      "id": "cro-p17",
+      "name": "Daniel Williams",
+      "number": 17,
+      "position": "LW",
+      "club": "Chelsea",
+      "nationality": "Croatia",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 84
+      }
+    },
+    {
+      "id": "cro-p18",
+      "name": "Sadio Anderson",
+      "number": 18,
+      "position": "RW",
+      "club": "Napoli",
+      "nationality": "Croatia",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cro-p19",
+      "name": "Federico Jones",
+      "number": 19,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Croatia",
+      "height": 170,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 83,
+        "shooting": 76,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "cro-p20",
+      "name": "Ivan Vlahovic",
+      "number": 20,
+      "position": "ST",
+      "club": "Manchester City",
+      "nationality": "Croatia",
+      "height": 173,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "cro-p21",
+      "name": "Diego Martinez",
+      "number": 21,
+      "position": "CF",
+      "club": "Borussia Dortmund",
+      "nationality": "Croatia",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 73,
+        "physical": 77
+      }
+    },
+    {
+      "id": "cro-p22",
+      "name": "Ivan Mitoma",
+      "number": 22,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Croatia",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 84
+      }
+    },
+    {
+      "id": "cro-p23",
+      "name": "Dusan Donnarumma",
+      "number": 23,
+      "position": "LB",
+      "club": "Borussia Dortmund",
+      "nationality": "Croatia",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 85
+      }
+    },
+    {
+      "id": "cro-p24",
+      "name": "Diego Reyna",
+      "number": 24,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Croatia",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 79,
+        "shooting": 85,
+        "passing": 78,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cro-p25",
+      "name": "Alex Larin",
+      "number": 25,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Croatia",
+      "height": 176,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cro-p26",
+      "name": "Cristiano Ryan",
+      "number": 26,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Croatia",
+      "height": 188,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 86,
+        "passing": 86,
+        "dribbling": 81,
+        "defending": 86,
+        "physical": 80
+      }
+    }
+  ]
+}

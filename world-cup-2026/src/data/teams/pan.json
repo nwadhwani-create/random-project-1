@@ -1,0 +1,537 @@
+{
+  "id": "pan",
+  "name": "Panama",
+  "code": "PAN",
+  "flagColors": [
+    "#FFFFFF",
+    "#DA121A",
+    "#072357"
+  ],
+  "kitHome": {
+    "primary": "#DA121A",
+    "secondary": "#FFFFFF",
+    "accent": "#072357",
+    "shorts": "#072357",
+    "socks": "#DA121A"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#DA121A",
+    "accent": "#072357",
+    "shorts": "#DA121A",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 71,
+  "squad": [
+    {
+      "id": "pan-p1",
+      "name": "Milan Courtois",
+      "number": 1,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Panama",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "pan-p2",
+      "name": "Bernardo Sane",
+      "number": 2,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Panama",
+      "height": 180,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 51,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 71,
+        "diving": 76,
+        "handling": 71,
+        "kicking": 66,
+        "reflexes": 74,
+        "positioning": 71
+      }
+    },
+    {
+      "id": "pan-p3",
+      "name": "Rodrigo Fernandes",
+      "number": 3,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Panama",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 52,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      }
+    },
+    {
+      "id": "pan-p4",
+      "name": "David Sane",
+      "number": 4,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Panama",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "pan-p5",
+      "name": "Achraf Musiala",
+      "number": 5,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Panama",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 70
+      }
+    },
+    {
+      "id": "pan-p6",
+      "name": "Olivier Mitrovic",
+      "number": 6,
+      "position": "CB",
+      "club": "Arsenal",
+      "nationality": "Panama",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "pan-p7",
+      "name": "Ousmane Oliveira",
+      "number": 7,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Panama",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 73,
+        "physical": 73
+      }
+    },
+    {
+      "id": "pan-p8",
+      "name": "Diego Martinez",
+      "number": 8,
+      "position": "RB",
+      "club": "FC Barcelona",
+      "nationality": "Panama",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 73,
+        "physical": 66
+      }
+    },
+    {
+      "id": "pan-p9",
+      "name": "Nicolas Mitoma",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "Panama",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 67
+      }
+    },
+    {
+      "id": "pan-p10",
+      "name": "Mohamed Donnarumma",
+      "number": 10,
+      "position": "CDM",
+      "club": "AC Milan",
+      "nationality": "Panama",
+      "height": 180,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 74
+      }
+    },
+    {
+      "id": "pan-p11",
+      "name": "Mohamed Souza",
+      "number": 11,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Panama",
+      "height": 189,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 76,
+        "physical": 80
+      }
+    },
+    {
+      "id": "pan-p12",
+      "name": "Cyle Kante",
+      "number": 12,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Panama",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 73,
+        "defending": 71,
+        "physical": 73
+      }
+    },
+    {
+      "id": "pan-p13",
+      "name": "Ruben Garcia",
+      "number": 13,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Panama",
+      "height": 190,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 70
+      }
+    },
+    {
+      "id": "pan-p14",
+      "name": "Ruben Ziyech",
+      "number": 14,
+      "position": "CAM",
+      "club": "Napoli",
+      "nationality": "Panama",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 70
+      }
+    },
+    {
+      "id": "pan-p15",
+      "name": "Heung-min Hakimi",
+      "number": 15,
+      "position": "LM",
+      "club": "Tottenham",
+      "nationality": "Panama",
+      "height": 184,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 64,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 70,
+        "physical": 65
+      }
+    },
+    {
+      "id": "pan-p16",
+      "name": "Miguel Mane",
+      "number": 16,
+      "position": "RM",
+      "club": "PSG",
+      "nationality": "Panama",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 70
+      }
+    },
+    {
+      "id": "pan-p17",
+      "name": "David Fernandez",
+      "number": 17,
+      "position": "LW",
+      "club": "FC Barcelona",
+      "nationality": "Panama",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "pan-p18",
+      "name": "Alex Chukwueze",
+      "number": 18,
+      "position": "RW",
+      "club": "Bayern Munich",
+      "nationality": "Panama",
+      "height": 174,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 71,
+        "physical": 71
+      }
+    },
+    {
+      "id": "pan-p19",
+      "name": "Sergio Mane",
+      "number": 19,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "Panama",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 71,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 71,
+        "physical": 65
+      }
+    },
+    {
+      "id": "pan-p20",
+      "name": "Hakim Mane",
+      "number": 20,
+      "position": "ST",
+      "club": "Atletico Madrid",
+      "nationality": "Panama",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 66,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 73
+      }
+    },
+    {
+      "id": "pan-p21",
+      "name": "Pedro Gonzalez",
+      "number": 21,
+      "position": "CF",
+      "club": "Inter Miami",
+      "nationality": "Panama",
+      "height": 183,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 67,
+        "physical": 61
+      }
+    },
+    {
+      "id": "pan-p22",
+      "name": "Emiliano Musah",
+      "number": 22,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Panama",
+      "height": 187,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 66,
+        "shooting": 65,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 67,
+        "physical": 72
+      }
+    },
+    {
+      "id": "pan-p23",
+      "name": "Alisson Musiala",
+      "number": 23,
+      "position": "LB",
+      "club": "Club America",
+      "nationality": "Panama",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 69,
+        "physical": 69
+      }
+    },
+    {
+      "id": "pan-p24",
+      "name": "Gabriel Martinez",
+      "number": 24,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Panama",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 74,
+        "physical": 73
+      }
+    },
+    {
+      "id": "pan-p25",
+      "name": "Cristiano Alvarez",
+      "number": 25,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Panama",
+      "height": 189,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 67,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 69,
+        "physical": 67
+      }
+    },
+    {
+      "id": "pan-p26",
+      "name": "Alphonso Sane",
+      "number": 26,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Panama",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 61,
+        "shooting": 62,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 63,
+        "physical": 62
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": "uru",
+  "name": "Uruguay",
+  "code": "URU",
+  "flagColors": [
+    "#FFFFFF",
+    "#0038A8",
+    "#FFFFFF"
+  ],
+  "kitHome": {
+    "primary": "#75AADB",
+    "secondary": "#FFFFFF",
+    "accent": "#000000",
+    "shorts": "#000000",
+    "socks": "#75AADB"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#75AADB",
+    "accent": "#000000",
+    "shorts": "#75AADB",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 82,
+  "squad": [
+    {
+      "id": "uru-p1",
+      "name": "Wilfred Mahrez",
+      "number": 1,
+      "position": "GK",
+      "club": "Borussia Dortmund",
+      "nationality": "Uruguay",
+      "height": 188,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "uru-p2",
+      "name": "Youssef Alvarez",
+      "number": 2,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Uruguay",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 30,
+        "passing": 81,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 91,
+        "diving": 96,
+        "handling": 91,
+        "kicking": 86,
+        "reflexes": 94,
+        "positioning": 91
+      }
+    },
+    {
+      "id": "uru-p3",
+      "name": "Ousmane Ronaldo",
+      "number": 3,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Uruguay",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "uru-p4",
+      "name": "Ousmane Gonzalez",
+      "number": 4,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Uruguay",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 93,
+        "shooting": 88,
+        "passing": 91,
+        "dribbling": 90,
+        "defending": 92,
+        "physical": 92
+      }
+    },
+    {
+      "id": "uru-p5",
+      "name": "Enzo Miller",
+      "number": 5,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Uruguay",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 83,
+        "passing": 89,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 82
+      }
+    },
+    {
+      "id": "uru-p6",
+      "name": "Nicolas Dybala",
+      "number": 6,
+      "position": "CB",
+      "club": "Arsenal",
+      "nationality": "Uruguay",
+      "height": 190,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 90,
+        "shooting": 84,
+        "passing": 87,
+        "dribbling": 90,
+        "defending": 84,
+        "physical": 85
+      }
+    },
+    {
+      "id": "uru-p7",
+      "name": "David Williams",
+      "number": 7,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Uruguay",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 88,
+        "shooting": 92,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 92,
+        "physical": 89
+      }
+    },
+    {
+      "id": "uru-p8",
+      "name": "Federico Chiesa",
+      "number": 8,
+      "position": "RB",
+      "club": "Bayern Munich",
+      "nationality": "Uruguay",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 85
+      }
+    },
+    {
+      "id": "uru-p9",
+      "name": "Endrick Lopez",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Milan",
+      "nationality": "Uruguay",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 91,
+        "shooting": 92,
+        "passing": 88,
+        "dribbling": 88,
+        "defending": 90,
+        "physical": 92
+      }
+    },
+    {
+      "id": "uru-p10",
+      "name": "Ousmane Sane",
+      "number": 10,
+      "position": "CDM",
+      "club": "LAFC",
+      "nationality": "Uruguay",
+      "height": 190,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 87,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 89,
+        "defending": 87,
+        "physical": 83
+      }
+    },
+    {
+      "id": "uru-p11",
+      "name": "Vinicius Fernandez",
+      "number": 11,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Uruguay",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 86,
+        "shooting": 87,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 86,
+        "physical": 85
+      }
+    },
+    {
+      "id": "uru-p12",
+      "name": "Alisson Kovacic",
+      "number": 12,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Uruguay",
+      "height": 183,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 84,
+        "defending": 85,
+        "physical": 82
+      }
+    },
+    {
+      "id": "uru-p13",
+      "name": "Ousmane Felix",
+      "number": 13,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Uruguay",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 85,
+        "passing": 88,
+        "dribbling": 84,
+        "defending": 83,
+        "physical": 86
+      }
+    },
+    {
+      "id": "uru-p14",
+      "name": "Lucas Santos",
+      "number": 14,
+      "position": "CAM",
+      "club": "FC Barcelona",
+      "nationality": "Uruguay",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 90,
+        "shooting": 87,
+        "passing": 85,
+        "dribbling": 90,
+        "defending": 88,
+        "physical": 85
+      }
+    },
+    {
+      "id": "uru-p15",
+      "name": "Marco Musah",
+      "number": 15,
+      "position": "LM",
+      "club": "Juventus",
+      "nationality": "Uruguay",
+      "height": 186,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 89,
+        "shooting": 84,
+        "passing": 86,
+        "dribbling": 86,
+        "defending": 87,
+        "physical": 89
+      }
+    },
+    {
+      "id": "uru-p16",
+      "name": "Ederson Richarlison",
+      "number": 16,
+      "position": "RM",
+      "club": "PSG",
+      "nationality": "Uruguay",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 80,
+        "physical": 76
+      }
+    },
+    {
+      "id": "uru-p17",
+      "name": "Alex Hakimi",
+      "number": 17,
+      "position": "LW",
+      "club": "Chelsea",
+      "nationality": "Uruguay",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 83
+      }
+    },
+    {
+      "id": "uru-p18",
+      "name": "Joshua Kimmich",
+      "number": 18,
+      "position": "RW",
+      "club": "Juventus",
+      "nationality": "Uruguay",
+      "height": 186,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 83,
+        "physical": 78
+      }
+    },
+    {
+      "id": "uru-p19",
+      "name": "Miguel Perisic",
+      "number": 19,
+      "position": "ST",
+      "club": "Club America",
+      "nationality": "Uruguay",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "uru-p20",
+      "name": "Jackson Mahrez",
+      "number": 20,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "Uruguay",
+      "height": 191,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 75
+      }
+    },
+    {
+      "id": "uru-p21",
+      "name": "Leroy Williams",
+      "number": 21,
+      "position": "CF",
+      "club": "LAFC",
+      "nationality": "Uruguay",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 73,
+        "defending": 79,
+        "physical": 77
+      }
+    },
+    {
+      "id": "uru-p22",
+      "name": "Takefusa Odegaard",
+      "number": 22,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Uruguay",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "uru-p23",
+      "name": "Antoine Sane",
+      "number": 23,
+      "position": "LB",
+      "club": "AC Milan",
+      "nationality": "Uruguay",
+      "height": 188,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 85,
+        "physical": 81
+      }
+    },
+    {
+      "id": "uru-p24",
+      "name": "Marco Rodriguez",
+      "number": 24,
+      "position": "RB",
+      "club": "Club America",
+      "nationality": "Uruguay",
+      "height": 179,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 86,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 82
+      }
+    },
+    {
+      "id": "uru-p25",
+      "name": "Mateo Koulibaly",
+      "number": 25,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Uruguay",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 91,
+        "shooting": 88,
+        "passing": 90,
+        "dribbling": 83,
+        "defending": 90,
+        "physical": 88
+      }
+    },
+    {
+      "id": "uru-p26",
+      "name": "Kai Son",
+      "number": 26,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "Uruguay",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 73
+      }
+    }
+  ]
+}

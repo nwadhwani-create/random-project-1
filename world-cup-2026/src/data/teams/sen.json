@@ -1,0 +1,537 @@
+{
+  "id": "sen",
+  "name": "Senegal",
+  "code": "SEN",
+  "flagColors": [
+    "#00853F",
+    "#FDEF42",
+    "#E31B23"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#00853F",
+    "accent": "#E31B23",
+    "shorts": "#00853F",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#00853F",
+    "secondary": "#FFFFFF",
+    "accent": "#E31B23",
+    "shorts": "#00853F",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 78,
+  "squad": [
+    {
+      "id": "sen-p1",
+      "name": "Thomas Souza",
+      "number": 1,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Senegal",
+      "height": 175,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "sen-p2",
+      "name": "Enzo Vinicius",
+      "number": 2,
+      "position": "GK",
+      "club": "Tottenham",
+      "nationality": "Senegal",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "sen-p3",
+      "name": "Olivier Jones",
+      "number": 3,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Senegal",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "sen-p4",
+      "name": "Cristiano Fernandes",
+      "number": 4,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Senegal",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "sen-p5",
+      "name": "Joao Gonzalez",
+      "number": 5,
+      "position": "CB",
+      "club": "LAFC",
+      "nationality": "Senegal",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 83,
+        "passing": 82,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 78
+      }
+    },
+    {
+      "id": "sen-p6",
+      "name": "Mohamed Son",
+      "number": 6,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Senegal",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 91,
+        "shooting": 90,
+        "passing": 85,
+        "dribbling": 88,
+        "defending": 86,
+        "physical": 86
+      }
+    },
+    {
+      "id": "sen-p7",
+      "name": "Andre Smith",
+      "number": 7,
+      "position": "LB",
+      "club": "Inter Miami",
+      "nationality": "Senegal",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "sen-p8",
+      "name": "Miguel Brown",
+      "number": 8,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Senegal",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 92,
+        "shooting": 86,
+        "passing": 89,
+        "dribbling": 89,
+        "defending": 85,
+        "physical": 85
+      }
+    },
+    {
+      "id": "sen-p9",
+      "name": "Lucas Sane",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "Senegal",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 88,
+        "shooting": 82,
+        "passing": 89,
+        "dribbling": 87,
+        "defending": 88,
+        "physical": 85
+      }
+    },
+    {
+      "id": "sen-p10",
+      "name": "Miguel Anderson",
+      "number": 10,
+      "position": "CDM",
+      "club": "AC Milan",
+      "nationality": "Senegal",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 89,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 87,
+        "physical": 83
+      }
+    },
+    {
+      "id": "sen-p11",
+      "name": "Luka Modric",
+      "number": 11,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Senegal",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "sen-p12",
+      "name": "Joshua Kubo",
+      "number": 12,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Senegal",
+      "height": 171,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 81
+      }
+    },
+    {
+      "id": "sen-p13",
+      "name": "Son Gnabry",
+      "number": 13,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Senegal",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "sen-p14",
+      "name": "Jonathan Lopez",
+      "number": 14,
+      "position": "CAM",
+      "club": "Club America",
+      "nationality": "Senegal",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 75
+      }
+    },
+    {
+      "id": "sen-p15",
+      "name": "Marcus Silva",
+      "number": 15,
+      "position": "LM",
+      "club": "LAFC",
+      "nationality": "Senegal",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 77,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "sen-p16",
+      "name": "Carlos Martinez",
+      "number": 16,
+      "position": "RM",
+      "club": "Juventus",
+      "nationality": "Senegal",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 75,
+        "physical": 72
+      }
+    },
+    {
+      "id": "sen-p17",
+      "name": "James Mitoma",
+      "number": 17,
+      "position": "LW",
+      "club": "LAFC",
+      "nationality": "Senegal",
+      "height": 175,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 80,
+        "physical": 84
+      }
+    },
+    {
+      "id": "sen-p18",
+      "name": "Milan Davis",
+      "number": 18,
+      "position": "RW",
+      "club": "Juventus",
+      "nationality": "Senegal",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 78,
+        "physical": 78
+      }
+    },
+    {
+      "id": "sen-p19",
+      "name": "Alisson Richarlison",
+      "number": 19,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Senegal",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 71
+      }
+    },
+    {
+      "id": "sen-p20",
+      "name": "Cristiano Jones",
+      "number": 20,
+      "position": "ST",
+      "club": "Borussia Dortmund",
+      "nationality": "Senegal",
+      "height": 192,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 86,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 84,
+        "physical": 82
+      }
+    },
+    {
+      "id": "sen-p21",
+      "name": "Heung-min Anderson",
+      "number": 21,
+      "position": "CF",
+      "club": "LAFC",
+      "nationality": "Senegal",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 76,
+        "defending": 75,
+        "physical": 81
+      }
+    },
+    {
+      "id": "sen-p22",
+      "name": "Endrick Barella",
+      "number": 22,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Senegal",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 79,
+        "physical": 78
+      }
+    },
+    {
+      "id": "sen-p23",
+      "name": "Leroy Courtois",
+      "number": 23,
+      "position": "LB",
+      "club": "FC Barcelona",
+      "nationality": "Senegal",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 78,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 86,
+        "physical": 79
+      }
+    },
+    {
+      "id": "sen-p24",
+      "name": "Marco Mitoma",
+      "number": 24,
+      "position": "RB",
+      "club": "Club America",
+      "nationality": "Senegal",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 79,
+        "defending": 73,
+        "physical": 80
+      }
+    },
+    {
+      "id": "sen-p25",
+      "name": "Federico Jones",
+      "number": 25,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Senegal",
+      "height": 182,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 78,
+        "dribbling": 84,
+        "defending": 78,
+        "physical": 79
+      }
+    },
+    {
+      "id": "sen-p26",
+      "name": "Nolo Ronaldo",
+      "number": 26,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Senegal",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 82
+      }
+    }
+  ]
+}

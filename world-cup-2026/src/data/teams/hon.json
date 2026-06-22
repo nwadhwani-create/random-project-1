@@ -1,0 +1,537 @@
+{
+  "id": "hon",
+  "name": "Honduras",
+  "code": "HON",
+  "flagColors": [
+    "#0073CF",
+    "#FFFFFF",
+    "#0073CF"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#0073CF",
+    "accent": "#FFFFFF",
+    "shorts": "#0073CF",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#0073CF",
+    "secondary": "#FFFFFF",
+    "accent": "#0073CF",
+    "shorts": "#0073CF",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 70,
+  "squad": [
+    {
+      "id": "hon-p1",
+      "name": "Nicolas Mane",
+      "number": 1,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Honduras",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "hon-p2",
+      "name": "Kaoru Ederson",
+      "number": 2,
+      "position": "GK",
+      "club": "PSG",
+      "nationality": "Honduras",
+      "height": 189,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "hon-p3",
+      "name": "Kai Gonzalez",
+      "number": 3,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Honduras",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 52,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      }
+    },
+    {
+      "id": "hon-p4",
+      "name": "Jonathan Mane",
+      "number": 4,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Honduras",
+      "height": 193,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 67,
+        "physical": 72
+      }
+    },
+    {
+      "id": "hon-p5",
+      "name": "Sergej Felix",
+      "number": 5,
+      "position": "CB",
+      "club": "FC Barcelona",
+      "nationality": "Honduras",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 73,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 74,
+        "physical": 68
+      }
+    },
+    {
+      "id": "hon-p6",
+      "name": "Youssef Gonzalez",
+      "number": 6,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Honduras",
+      "height": 193,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 76,
+        "dribbling": 71,
+        "defending": 76,
+        "physical": 76
+      }
+    },
+    {
+      "id": "hon-p7",
+      "name": "Mohamed Oliveira",
+      "number": 7,
+      "position": "LB",
+      "club": "Bayern Munich",
+      "nationality": "Honduras",
+      "height": 182,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 69,
+        "physical": 65
+      }
+    },
+    {
+      "id": "hon-p8",
+      "name": "Endrick Silva",
+      "number": 8,
+      "position": "RB",
+      "club": "Juventus",
+      "nationality": "Honduras",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 79,
+        "physical": 76
+      }
+    },
+    {
+      "id": "hon-p9",
+      "name": "Jamal Brown",
+      "number": 9,
+      "position": "CDM",
+      "club": "LAFC",
+      "nationality": "Honduras",
+      "height": 171,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 69,
+        "physical": 74
+      }
+    },
+    {
+      "id": "hon-p10",
+      "name": "Vinicius Neymar",
+      "number": 10,
+      "position": "CDM",
+      "club": "FC Barcelona",
+      "nationality": "Honduras",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 74
+      }
+    },
+    {
+      "id": "hon-p11",
+      "name": "James Gnabry",
+      "number": 11,
+      "position": "CM",
+      "club": "PSG",
+      "nationality": "Honduras",
+      "height": 189,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 76
+      }
+    },
+    {
+      "id": "hon-p12",
+      "name": "Jackson Silva",
+      "number": 12,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Honduras",
+      "height": 190,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 76,
+        "physical": 74
+      }
+    },
+    {
+      "id": "hon-p13",
+      "name": "David Santos",
+      "number": 13,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Honduras",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 67,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 61,
+        "physical": 67
+      }
+    },
+    {
+      "id": "hon-p14",
+      "name": "Vinicius Barella",
+      "number": 14,
+      "position": "CAM",
+      "club": "Real Madrid",
+      "nationality": "Honduras",
+      "height": 174,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 66,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 69,
+        "physical": 67
+      }
+    },
+    {
+      "id": "hon-p15",
+      "name": "Kylian Dybala",
+      "number": 15,
+      "position": "LM",
+      "club": "Juventus",
+      "nationality": "Honduras",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 63,
+        "physical": 65
+      }
+    },
+    {
+      "id": "hon-p16",
+      "name": "Pierre Reyna",
+      "number": 16,
+      "position": "RM",
+      "club": "Chelsea",
+      "nationality": "Honduras",
+      "height": 179,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 64,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 63,
+        "physical": 63
+      }
+    },
+    {
+      "id": "hon-p17",
+      "name": "Gianluigi Havertz",
+      "number": 17,
+      "position": "LW",
+      "club": "Club America",
+      "nationality": "Honduras",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 62,
+        "shooting": 66,
+        "passing": 61,
+        "dribbling": 65,
+        "defending": 66,
+        "physical": 64
+      }
+    },
+    {
+      "id": "hon-p18",
+      "name": "Cristiano Koulibaly",
+      "number": 18,
+      "position": "RW",
+      "club": "Juventus",
+      "nationality": "Honduras",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 65,
+        "shooting": 63,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 67,
+        "physical": 66
+      }
+    },
+    {
+      "id": "hon-p19",
+      "name": "Mateo Giroud",
+      "number": 19,
+      "position": "ST",
+      "club": "Chelsea",
+      "nationality": "Honduras",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 68,
+        "shooting": 63,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 60,
+        "physical": 62
+      }
+    },
+    {
+      "id": "hon-p20",
+      "name": "Nolo Modric",
+      "number": 20,
+      "position": "ST",
+      "club": "Bayern Munich",
+      "nationality": "Honduras",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 67
+      }
+    },
+    {
+      "id": "hon-p21",
+      "name": "Antonio Vinicius",
+      "number": 21,
+      "position": "CF",
+      "club": "LAFC",
+      "nationality": "Honduras",
+      "height": 188,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 61,
+        "physical": 62
+      }
+    },
+    {
+      "id": "hon-p22",
+      "name": "Martin Perisic",
+      "number": 22,
+      "position": "CB",
+      "club": "Club America",
+      "nationality": "Honduras",
+      "height": 189,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 64,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 67,
+        "physical": 64
+      }
+    },
+    {
+      "id": "hon-p23",
+      "name": "Riyad Giroud",
+      "number": 23,
+      "position": "LB",
+      "club": "Manchester City",
+      "nationality": "Honduras",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 64,
+        "physical": 68
+      }
+    },
+    {
+      "id": "hon-p24",
+      "name": "Cristiano Silva",
+      "number": 24,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Honduras",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 65
+      }
+    },
+    {
+      "id": "hon-p25",
+      "name": "Gianluigi Mitoma",
+      "number": 25,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Honduras",
+      "height": 194,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 73,
+        "physical": 72
+      }
+    },
+    {
+      "id": "hon-p26",
+      "name": "Milan Chukwueze",
+      "number": 26,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Honduras",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 76
+      }
+    }
+  ]
+}

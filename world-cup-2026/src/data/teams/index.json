@@ -1,0 +1,290 @@
+[
+  {
+    "id": "usa",
+    "name": "United States",
+    "code": "USA",
+    "file": "usa.json"
+  },
+  {
+    "id": "mex",
+    "name": "Mexico",
+    "code": "MEX",
+    "file": "mex.json"
+  },
+  {
+    "id": "can",
+    "name": "Canada",
+    "code": "CAN",
+    "file": "can.json"
+  },
+  {
+    "id": "bra",
+    "name": "Brazil",
+    "code": "BRA",
+    "file": "bra.json"
+  },
+  {
+    "id": "arg",
+    "name": "Argentina",
+    "code": "ARG",
+    "file": "arg.json"
+  },
+  {
+    "id": "fra",
+    "name": "France",
+    "code": "FRA",
+    "file": "fra.json"
+  },
+  {
+    "id": "eng",
+    "name": "England",
+    "code": "ENG",
+    "file": "eng.json"
+  },
+  {
+    "id": "ger",
+    "name": "Germany",
+    "code": "GER",
+    "file": "ger.json"
+  },
+  {
+    "id": "esp",
+    "name": "Spain",
+    "code": "ESP",
+    "file": "esp.json"
+  },
+  {
+    "id": "por",
+    "name": "Portugal",
+    "code": "POR",
+    "file": "por.json"
+  },
+  {
+    "id": "ned",
+    "name": "Netherlands",
+    "code": "NED",
+    "file": "ned.json"
+  },
+  {
+    "id": "bel",
+    "name": "Belgium",
+    "code": "BEL",
+    "file": "bel.json"
+  },
+  {
+    "id": "ita",
+    "name": "Italy",
+    "code": "ITA",
+    "file": "ita.json"
+  },
+  {
+    "id": "cro",
+    "name": "Croatia",
+    "code": "CRO",
+    "file": "cro.json"
+  },
+  {
+    "id": "uru",
+    "name": "Uruguay",
+    "code": "URU",
+    "file": "uru.json"
+  },
+  {
+    "id": "col",
+    "name": "Colombia",
+    "code": "COL",
+    "file": "col.json"
+  },
+  {
+    "id": "jpn",
+    "name": "Japan",
+    "code": "JPN",
+    "file": "jpn.json"
+  },
+  {
+    "id": "kor",
+    "name": "South Korea",
+    "code": "KOR",
+    "file": "kor.json"
+  },
+  {
+    "id": "aus",
+    "name": "Australia",
+    "code": "AUS",
+    "file": "aus.json"
+  },
+  {
+    "id": "mar",
+    "name": "Morocco",
+    "code": "MAR",
+    "file": "mar.json"
+  },
+  {
+    "id": "sen",
+    "name": "Senegal",
+    "code": "SEN",
+    "file": "sen.json"
+  },
+  {
+    "id": "nga",
+    "name": "Nigeria",
+    "code": "NGA",
+    "file": "nga.json"
+  },
+  {
+    "id": "gha",
+    "name": "Ghana",
+    "code": "GHA",
+    "file": "gha.json"
+  },
+  {
+    "id": "cmr",
+    "name": "Cameroon",
+    "code": "CMR",
+    "file": "cmr.json"
+  },
+  {
+    "id": "egy",
+    "name": "Egypt",
+    "code": "EGY",
+    "file": "egy.json"
+  },
+  {
+    "id": "rsa",
+    "name": "South Africa",
+    "code": "RSA",
+    "file": "rsa.json"
+  },
+  {
+    "id": "alg",
+    "name": "Algeria",
+    "code": "ALG",
+    "file": "alg.json"
+  },
+  {
+    "id": "tun",
+    "name": "Tunisia",
+    "code": "TUN",
+    "file": "tun.json"
+  },
+  {
+    "id": "crc",
+    "name": "Costa Rica",
+    "code": "CRC",
+    "file": "crc.json"
+  },
+  {
+    "id": "ecu",
+    "name": "Ecuador",
+    "code": "ECU",
+    "file": "ecu.json"
+  },
+  {
+    "id": "per",
+    "name": "Peru",
+    "code": "PER",
+    "file": "per.json"
+  },
+  {
+    "id": "chi",
+    "name": "Chile",
+    "code": "CHI",
+    "file": "chi.json"
+  },
+  {
+    "id": "par",
+    "name": "Paraguay",
+    "code": "PAR",
+    "file": "par.json"
+  },
+  {
+    "id": "jam",
+    "name": "Jamaica",
+    "code": "JAM",
+    "file": "jam.json"
+  },
+  {
+    "id": "pan",
+    "name": "Panama",
+    "code": "PAN",
+    "file": "pan.json"
+  },
+  {
+    "id": "hon",
+    "name": "Honduras",
+    "code": "HON",
+    "file": "hon.json"
+  },
+  {
+    "id": "qat",
+    "name": "Qatar",
+    "code": "QAT",
+    "file": "qat.json"
+  },
+  {
+    "id": "ksa",
+    "name": "Saudi Arabia",
+    "code": "KSA",
+    "file": "ksa.json"
+  },
+  {
+    "id": "irn",
+    "name": "Iran",
+    "code": "IRN",
+    "file": "irn.json"
+  },
+  {
+    "id": "uzb",
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "file": "uzb.json"
+  },
+  {
+    "id": "jor",
+    "name": "Jordan",
+    "code": "JOR",
+    "file": "jor.json"
+  },
+  {
+    "id": "nzl",
+    "name": "New Zealand",
+    "code": "NZL",
+    "file": "nzl.json"
+  },
+  {
+    "id": "sui",
+    "name": "Switzerland",
+    "code": "SUI",
+    "file": "sui.json"
+  },
+  {
+    "id": "den",
+    "name": "Denmark",
+    "code": "DEN",
+    "file": "den.json"
+  },
+  {
+    "id": "pol",
+    "name": "Poland",
+    "code": "POL",
+    "file": "pol.json"
+  },
+  {
+    "id": "srb",
+    "name": "Serbia",
+    "code": "SRB",
+    "file": "srb.json"
+  },
+  {
+    "id": "ukr",
+    "name": "Ukraine",
+    "code": "UKR",
+    "file": "ukr.json"
+  },
+  {
+    "id": "tur",
+    "name": "Turkey",
+    "code": "TUR",
+    "file": "tur.json"
+  }
+]

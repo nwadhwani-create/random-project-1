@@ -1,0 +1,537 @@
+{
+  "id": "per",
+  "name": "Peru",
+  "code": "PER",
+  "flagColors": [
+    "#D91023",
+    "#FFFFFF",
+    "#D91023"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#D91023",
+    "accent": "#FFFFFF",
+    "shorts": "#D91023",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#D91023",
+    "secondary": "#FFFFFF",
+    "accent": "#D91023",
+    "shorts": "#D91023",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 75,
+  "squad": [
+    {
+      "id": "per-p1",
+      "name": "Lucas Reyna",
+      "number": 1,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Peru",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "per-p2",
+      "name": "Jack Neymar",
+      "number": 2,
+      "position": "GK",
+      "club": "AC Milan",
+      "nationality": "Peru",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 54,
+        "shooting": 30,
+        "passing": 64,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 74,
+        "diving": 79,
+        "handling": 74,
+        "kicking": 69,
+        "reflexes": 77,
+        "positioning": 74
+      }
+    },
+    {
+      "id": "per-p3",
+      "name": "Roberto Garcia",
+      "number": 3,
+      "position": "GK",
+      "club": "Juventus",
+      "nationality": "Peru",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 58,
+        "shooting": 30,
+        "passing": 68,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 78,
+        "diving": 83,
+        "handling": 78,
+        "kicking": 73,
+        "reflexes": 81,
+        "positioning": 78
+      }
+    },
+    {
+      "id": "per-p4",
+      "name": "Cristiano Gnabry",
+      "number": 4,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Peru",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 86,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 78
+      }
+    },
+    {
+      "id": "per-p5",
+      "name": "Hakim Rodriguez",
+      "number": 5,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Peru",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 80,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 76,
+        "physical": 83
+      }
+    },
+    {
+      "id": "per-p6",
+      "name": "Federico Garcia",
+      "number": 6,
+      "position": "CB",
+      "club": "Napoli",
+      "nationality": "Peru",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 76,
+        "physical": 71
+      }
+    },
+    {
+      "id": "per-p7",
+      "name": "Florian Dybala",
+      "number": 7,
+      "position": "LB",
+      "club": "Liverpool",
+      "nationality": "Peru",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "per-p8",
+      "name": "Ruben Souza",
+      "number": 8,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Peru",
+      "height": 175,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "per-p9",
+      "name": "Rafael Donnarumma",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "Peru",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 85,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "per-p10",
+      "name": "Bruno Martinez",
+      "number": 10,
+      "position": "CDM",
+      "club": "Club America",
+      "nationality": "Peru",
+      "height": 183,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 86,
+        "defending": 82,
+        "physical": 86
+      }
+    },
+    {
+      "id": "per-p11",
+      "name": "Antonio Giroud",
+      "number": 11,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Peru",
+      "height": 191,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 74
+      }
+    },
+    {
+      "id": "per-p12",
+      "name": "Diego Mbappe",
+      "number": 12,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Peru",
+      "height": 180,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 72,
+        "defending": 77,
+        "physical": 78
+      }
+    },
+    {
+      "id": "per-p13",
+      "name": "Pierre Fernandes",
+      "number": 13,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Peru",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 68,
+        "physical": 69
+      }
+    },
+    {
+      "id": "per-p14",
+      "name": "Thomas Valverde",
+      "number": 14,
+      "position": "CAM",
+      "club": "Atletico Madrid",
+      "nationality": "Peru",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "per-p15",
+      "name": "Takefusa Perisic",
+      "number": 15,
+      "position": "LM",
+      "club": "Bayern Munich",
+      "nationality": "Peru",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 72,
+        "physical": 69
+      }
+    },
+    {
+      "id": "per-p16",
+      "name": "Marco Vinicius",
+      "number": 16,
+      "position": "RM",
+      "club": "Arsenal",
+      "nationality": "Peru",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "per-p17",
+      "name": "Hakim Johnson",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Milan",
+      "nationality": "Peru",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "per-p18",
+      "name": "Gabriel Perisic",
+      "number": 18,
+      "position": "RW",
+      "club": "Juventus",
+      "nationality": "Peru",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 67,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 69
+      }
+    },
+    {
+      "id": "per-p19",
+      "name": "Mateo Modric",
+      "number": 19,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "Peru",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 74,
+        "shooting": 68,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 67,
+        "physical": 71
+      }
+    },
+    {
+      "id": "per-p20",
+      "name": "David Neymar",
+      "number": 20,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Peru",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 73
+      }
+    },
+    {
+      "id": "per-p21",
+      "name": "Roberto Giroud",
+      "number": 21,
+      "position": "CF",
+      "club": "Atletico Madrid",
+      "nationality": "Peru",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 77
+      }
+    },
+    {
+      "id": "per-p22",
+      "name": "James Mbappe",
+      "number": 22,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Peru",
+      "height": 175,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 65,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 66,
+        "physical": 73
+      }
+    },
+    {
+      "id": "per-p23",
+      "name": "Wilfred Mitrovic",
+      "number": 23,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Peru",
+      "height": 189,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 75
+      }
+    },
+    {
+      "id": "per-p24",
+      "name": "Kylian Ronaldo",
+      "number": 24,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "Peru",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "per-p25",
+      "name": "Enzo Kubo",
+      "number": 25,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Peru",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 68,
+        "physical": 69
+      }
+    },
+    {
+      "id": "per-p26",
+      "name": "Victor Brown",
+      "number": 26,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Peru",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 66,
+        "shooting": 68,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 72,
+        "physical": 71
+      }
+    }
+  ]
+}

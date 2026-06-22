@@ -1,0 +1,537 @@
+{
+  "id": "cmr",
+  "name": "Cameroon",
+  "code": "CMR",
+  "flagColors": [
+    "#007A5E",
+    "#CE1126",
+    "#FCD116"
+  ],
+  "kitHome": {
+    "primary": "#007A5E",
+    "secondary": "#FCD116",
+    "accent": "#CE1126",
+    "shorts": "#CE1126",
+    "socks": "#007A5E"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#007A5E",
+    "accent": "#CE1126",
+    "shorts": "#007A5E",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 76,
+  "squad": [
+    {
+      "id": "cmr-p1",
+      "name": "Wilfred Vlahovic",
+      "number": 1,
+      "position": "GK",
+      "club": "Inter Milan",
+      "nationality": "Cameroon",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "cmr-p2",
+      "name": "Rodrigo Brown",
+      "number": 2,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Cameroon",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "cmr-p3",
+      "name": "Ousmane Kubo",
+      "number": 3,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Cameroon",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "cmr-p4",
+      "name": "Luka Brown",
+      "number": 4,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Cameroon",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 86,
+        "physical": 85
+      }
+    },
+    {
+      "id": "cmr-p5",
+      "name": "Mathew Larin",
+      "number": 5,
+      "position": "CB",
+      "club": "Chelsea",
+      "nationality": "Cameroon",
+      "height": 184,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 84,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 87,
+        "defending": 83,
+        "physical": 85
+      }
+    },
+    {
+      "id": "cmr-p6",
+      "name": "Alisson Son",
+      "number": 6,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Cameroon",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 84
+      }
+    },
+    {
+      "id": "cmr-p7",
+      "name": "Roberto Odegaard",
+      "number": 7,
+      "position": "LB",
+      "club": "Juventus",
+      "nationality": "Cameroon",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 76
+      }
+    },
+    {
+      "id": "cmr-p8",
+      "name": "Vinicius Vinicius",
+      "number": 8,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Cameroon",
+      "height": 192,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 82,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cmr-p9",
+      "name": "Lorenzo Donnarumma",
+      "number": 9,
+      "position": "CDM",
+      "club": "Inter Miami",
+      "nationality": "Cameroon",
+      "height": 182,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 85,
+        "defending": 87,
+        "physical": 81
+      }
+    },
+    {
+      "id": "cmr-p10",
+      "name": "Daniel Fernandes",
+      "number": 10,
+      "position": "CDM",
+      "club": "LAFC",
+      "nationality": "Cameroon",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 81,
+        "physical": 78
+      }
+    },
+    {
+      "id": "cmr-p11",
+      "name": "Son Courtois",
+      "number": 11,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Cameroon",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 83,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 84,
+        "physical": 81
+      }
+    },
+    {
+      "id": "cmr-p12",
+      "name": "Daniel Osimhen",
+      "number": 12,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Cameroon",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 83,
+        "dribbling": 80,
+        "defending": 80,
+        "physical": 81
+      }
+    },
+    {
+      "id": "cmr-p13",
+      "name": "Riyad Souza",
+      "number": 13,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Cameroon",
+      "height": 179,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 76
+      }
+    },
+    {
+      "id": "cmr-p14",
+      "name": "Rodrigo Odegaard",
+      "number": 14,
+      "position": "CAM",
+      "club": "FC Barcelona",
+      "nationality": "Cameroon",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 65,
+        "shooting": 73,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 67,
+        "physical": 67
+      }
+    },
+    {
+      "id": "cmr-p15",
+      "name": "Youssef Lopez",
+      "number": 15,
+      "position": "LM",
+      "club": "Liverpool",
+      "nationality": "Cameroon",
+      "height": 185,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 68,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 74,
+        "physical": 70
+      }
+    },
+    {
+      "id": "cmr-p16",
+      "name": "Hakim Koulibaly",
+      "number": 16,
+      "position": "RM",
+      "club": "Inter Milan",
+      "nationality": "Cameroon",
+      "height": 170,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 72,
+        "physical": 74
+      }
+    },
+    {
+      "id": "cmr-p17",
+      "name": "Diego Rodriguez",
+      "number": 17,
+      "position": "LW",
+      "club": "Arsenal",
+      "nationality": "Cameroon",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "cmr-p18",
+      "name": "Lorenzo Mane",
+      "number": 18,
+      "position": "RW",
+      "club": "Bayern Munich",
+      "nationality": "Cameroon",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 68,
+        "physical": 75
+      }
+    },
+    {
+      "id": "cmr-p19",
+      "name": "Milan Vinicius",
+      "number": 19,
+      "position": "ST",
+      "club": "PSG",
+      "nationality": "Cameroon",
+      "height": 178,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 71,
+        "physical": 71
+      }
+    },
+    {
+      "id": "cmr-p20",
+      "name": "Ruben Kovacic",
+      "number": 20,
+      "position": "ST",
+      "club": "Tottenham",
+      "nationality": "Cameroon",
+      "height": 175,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 75
+      }
+    },
+    {
+      "id": "cmr-p21",
+      "name": "Kaoru Musah",
+      "number": 21,
+      "position": "CF",
+      "club": "Arsenal",
+      "nationality": "Cameroon",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 73,
+        "physical": 71
+      }
+    },
+    {
+      "id": "cmr-p22",
+      "name": "Mohamed Hakimi",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Cameroon",
+      "height": 185,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 71
+      }
+    },
+    {
+      "id": "cmr-p23",
+      "name": "Dusan Ederson",
+      "number": 23,
+      "position": "LB",
+      "club": "Manchester City",
+      "nationality": "Cameroon",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 72,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 79
+      }
+    },
+    {
+      "id": "cmr-p24",
+      "name": "Diego Pulisic",
+      "number": 24,
+      "position": "RB",
+      "club": "LAFC",
+      "nationality": "Cameroon",
+      "height": 170,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 79,
+        "physical": 73
+      }
+    },
+    {
+      "id": "cmr-p25",
+      "name": "Alisson Miller",
+      "number": 25,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Cameroon",
+      "height": 170,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 82,
+        "passing": 80,
+        "dribbling": 75,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "cmr-p26",
+      "name": "Diego Valverde",
+      "number": 26,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Cameroon",
+      "height": 184,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 67,
+        "physical": 74
+      }
+    }
+  ]
+}

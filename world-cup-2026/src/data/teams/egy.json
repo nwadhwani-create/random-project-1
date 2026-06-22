@@ -1,0 +1,537 @@
+{
+  "id": "egy",
+  "name": "Egypt",
+  "code": "EGY",
+  "flagColors": [
+    "#CE1126",
+    "#FFFFFF",
+    "#000000"
+  ],
+  "kitHome": {
+    "primary": "#CE1126",
+    "secondary": "#FFFFFF",
+    "accent": "#000000",
+    "shorts": "#FFFFFF",
+    "socks": "#CE1126"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#CE1126",
+    "accent": "#000000",
+    "shorts": "#CE1126",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 77,
+  "squad": [
+    {
+      "id": "egy-p1",
+      "name": "Youssef Taylor",
+      "number": 1,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Egypt",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "egy-p2",
+      "name": "Ederson Hakimi",
+      "number": 2,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Egypt",
+      "height": 193,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "egy-p3",
+      "name": "Harry David",
+      "number": 3,
+      "position": "GK",
+      "club": "Chelsea",
+      "nationality": "Egypt",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 61,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      }
+    },
+    {
+      "id": "egy-p4",
+      "name": "Antoine Souza",
+      "number": 4,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Egypt",
+      "height": 179,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 87,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 81,
+        "physical": 85
+      }
+    },
+    {
+      "id": "egy-p5",
+      "name": "Wilfred Fernandez",
+      "number": 5,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Egypt",
+      "height": 189,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 78
+      }
+    },
+    {
+      "id": "egy-p6",
+      "name": "Miguel Jones",
+      "number": 6,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Egypt",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 75
+      }
+    },
+    {
+      "id": "egy-p7",
+      "name": "Ederson Taylor",
+      "number": 7,
+      "position": "LB",
+      "club": "Atletico Madrid",
+      "nationality": "Egypt",
+      "height": 170,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 79,
+        "physical": 76
+      }
+    },
+    {
+      "id": "egy-p8",
+      "name": "David Martinez",
+      "number": 8,
+      "position": "RB",
+      "club": "Inter Miami",
+      "nationality": "Egypt",
+      "height": 185,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 79,
+        "physical": 76
+      }
+    },
+    {
+      "id": "egy-p9",
+      "name": "Ruben Dybala",
+      "number": 9,
+      "position": "CDM",
+      "club": "Juventus",
+      "nationality": "Egypt",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 85,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 86,
+        "physical": 83
+      }
+    },
+    {
+      "id": "egy-p10",
+      "name": "Bruno Alvarez",
+      "number": 10,
+      "position": "CDM",
+      "club": "FC Barcelona",
+      "nationality": "Egypt",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "egy-p11",
+      "name": "Mathew Son",
+      "number": 11,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Egypt",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 89,
+        "passing": 86,
+        "dribbling": 90,
+        "defending": 90,
+        "physical": 85
+      }
+    },
+    {
+      "id": "egy-p12",
+      "name": "Ryan Giroud",
+      "number": 12,
+      "position": "CM",
+      "club": "AC Milan",
+      "nationality": "Egypt",
+      "height": 185,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 70
+      }
+    },
+    {
+      "id": "egy-p13",
+      "name": "Alisson Odegaard",
+      "number": 13,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Egypt",
+      "height": 181,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 67,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 70
+      }
+    },
+    {
+      "id": "egy-p14",
+      "name": "Alessandro Martinez",
+      "number": 14,
+      "position": "CAM",
+      "club": "Club America",
+      "nationality": "Egypt",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "egy-p15",
+      "name": "Emiliano Alvarez",
+      "number": 15,
+      "position": "LM",
+      "club": "Tottenham",
+      "nationality": "Egypt",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 70,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 68,
+        "physical": 72
+      }
+    },
+    {
+      "id": "egy-p16",
+      "name": "Martin Ziyech",
+      "number": 16,
+      "position": "RM",
+      "club": "AC Milan",
+      "nationality": "Egypt",
+      "height": 170,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 71,
+        "physical": 69
+      }
+    },
+    {
+      "id": "egy-p17",
+      "name": "Sadio Griezmann",
+      "number": 17,
+      "position": "LW",
+      "club": "Tottenham",
+      "nationality": "Egypt",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 72
+      }
+    },
+    {
+      "id": "egy-p18",
+      "name": "Luka Richarlison",
+      "number": 18,
+      "position": "RW",
+      "club": "Inter Milan",
+      "nationality": "Egypt",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 77,
+        "physical": 80
+      }
+    },
+    {
+      "id": "egy-p19",
+      "name": "Jonathan Vinicius",
+      "number": 19,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Egypt",
+      "height": 178,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 77,
+        "physical": 73
+      }
+    },
+    {
+      "id": "egy-p20",
+      "name": "Gabriel Silva",
+      "number": 20,
+      "position": "ST",
+      "club": "Tottenham",
+      "nationality": "Egypt",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 70,
+        "physical": 70
+      }
+    },
+    {
+      "id": "egy-p21",
+      "name": "Endrick Felix",
+      "number": 21,
+      "position": "CF",
+      "club": "Arsenal",
+      "nationality": "Egypt",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 83,
+        "shooting": 84,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 79,
+        "physical": 81
+      }
+    },
+    {
+      "id": "egy-p22",
+      "name": "Enzo Griezmann",
+      "number": 22,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Egypt",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 74,
+        "physical": 73
+      }
+    },
+    {
+      "id": "egy-p23",
+      "name": "Antonio Davies",
+      "number": 23,
+      "position": "LB",
+      "club": "Club America",
+      "nationality": "Egypt",
+      "height": 175,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 76,
+        "physical": 75
+      }
+    },
+    {
+      "id": "egy-p24",
+      "name": "Luka Neymar",
+      "number": 24,
+      "position": "RB",
+      "club": "Liverpool",
+      "nationality": "Egypt",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 86,
+        "shooting": 84,
+        "passing": 78,
+        "dribbling": 81,
+        "defending": 85,
+        "physical": 83
+      }
+    },
+    {
+      "id": "egy-p25",
+      "name": "Miguel Mahrez",
+      "number": 25,
+      "position": "CM",
+      "club": "Real Madrid",
+      "nationality": "Egypt",
+      "height": 171,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 76,
+        "physical": 81
+      }
+    },
+    {
+      "id": "egy-p26",
+      "name": "Bernardo Richarlison",
+      "number": 26,
+      "position": "CM",
+      "club": "Napoli",
+      "nationality": "Egypt",
+      "height": 182,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 79,
+        "physical": 74
+      }
+    }
+  ]
+}

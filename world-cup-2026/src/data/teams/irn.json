@@ -1,0 +1,537 @@
+{
+  "id": "irn",
+  "name": "Iran",
+  "code": "IRN",
+  "flagColors": [
+    "#239F40",
+    "#FFFFFF",
+    "#DA0000"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#239F40",
+    "accent": "#DA0000",
+    "shorts": "#239F40",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#239F40",
+    "secondary": "#FFFFFF",
+    "accent": "#DA0000",
+    "shorts": "#239F40",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 75,
+  "squad": [
+    {
+      "id": "irn-p1",
+      "name": "Andre Ronaldo",
+      "number": 1,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Iran",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "irn-p2",
+      "name": "Olivier Courtois",
+      "number": 2,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Iran",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 84,
+        "diving": 89,
+        "handling": 84,
+        "kicking": 79,
+        "reflexes": 87,
+        "positioning": 84
+      }
+    },
+    {
+      "id": "irn-p3",
+      "name": "Roberto David",
+      "number": 3,
+      "position": "GK",
+      "club": "Bayern Munich",
+      "nationality": "Iran",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "irn-p4",
+      "name": "Joshua David",
+      "number": 4,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Iran",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 74,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "irn-p5",
+      "name": "Marcus Havertz",
+      "number": 5,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Iran",
+      "height": 185,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 83,
+        "physical": 77
+      }
+    },
+    {
+      "id": "irn-p6",
+      "name": "Achraf Davis",
+      "number": 6,
+      "position": "CB",
+      "club": "Atletico Madrid",
+      "nationality": "Iran",
+      "height": 187,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 78
+      }
+    },
+    {
+      "id": "irn-p7",
+      "name": "Heung-min Wilson",
+      "number": 7,
+      "position": "LB",
+      "club": "Manchester City",
+      "nationality": "Iran",
+      "height": 190,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 87,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 82,
+        "physical": 85
+      }
+    },
+    {
+      "id": "irn-p8",
+      "name": "Nolo Kimmich",
+      "number": 8,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Iran",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 81,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 86,
+        "physical": 80
+      }
+    },
+    {
+      "id": "irn-p9",
+      "name": "James Koulibaly",
+      "number": 9,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Iran",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 82,
+        "physical": 84
+      }
+    },
+    {
+      "id": "irn-p10",
+      "name": "Ryan Gnabry",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "Iran",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 87,
+        "passing": 86,
+        "dribbling": 83,
+        "defending": 85,
+        "physical": 81
+      }
+    },
+    {
+      "id": "irn-p11",
+      "name": "Bruno Donnarumma",
+      "number": 11,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Iran",
+      "height": 178,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 70,
+        "physical": 77
+      }
+    },
+    {
+      "id": "irn-p12",
+      "name": "Rodrigo Jones",
+      "number": 12,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Iran",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "irn-p13",
+      "name": "Olivier Oliveira",
+      "number": 13,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Iran",
+      "height": 170,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 68,
+        "physical": 68
+      }
+    },
+    {
+      "id": "irn-p14",
+      "name": "Heung-min Martinez",
+      "number": 14,
+      "position": "CAM",
+      "club": "AC Milan",
+      "nationality": "Iran",
+      "height": 184,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 69,
+        "physical": 74
+      }
+    },
+    {
+      "id": "irn-p15",
+      "name": "Alex Lopez",
+      "number": 15,
+      "position": "LM",
+      "club": "Arsenal",
+      "nationality": "Iran",
+      "height": 183,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 77
+      }
+    },
+    {
+      "id": "irn-p16",
+      "name": "Sadio Williams",
+      "number": 16,
+      "position": "RM",
+      "club": "PSG",
+      "nationality": "Iran",
+      "height": 181,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 75
+      }
+    },
+    {
+      "id": "irn-p17",
+      "name": "Emiliano Santos",
+      "number": 17,
+      "position": "LW",
+      "club": "Atletico Madrid",
+      "nationality": "Iran",
+      "height": 179,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 71,
+        "physical": 76
+      }
+    },
+    {
+      "id": "irn-p18",
+      "name": "Mohamed Fernandez",
+      "number": 18,
+      "position": "RW",
+      "club": "FC Barcelona",
+      "nationality": "Iran",
+      "height": 179,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 70,
+        "physical": 68
+      }
+    },
+    {
+      "id": "irn-p19",
+      "name": "Thomas Anderson",
+      "number": 19,
+      "position": "ST",
+      "club": "Bayern Munich",
+      "nationality": "Iran",
+      "height": 186,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 83,
+        "physical": 77
+      }
+    },
+    {
+      "id": "irn-p20",
+      "name": "Olivier Gnabry",
+      "number": 20,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Iran",
+      "height": 182,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 69,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 67,
+        "physical": 73
+      }
+    },
+    {
+      "id": "irn-p21",
+      "name": "Son Vlahovic",
+      "number": 21,
+      "position": "CF",
+      "club": "Tottenham",
+      "nationality": "Iran",
+      "height": 194,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 77,
+        "physical": 76
+      }
+    },
+    {
+      "id": "irn-p22",
+      "name": "Ousmane Taylor",
+      "number": 22,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Iran",
+      "height": 186,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 73,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 72,
+        "physical": 70
+      }
+    },
+    {
+      "id": "irn-p23",
+      "name": "Ruben Davis",
+      "number": 23,
+      "position": "LB",
+      "club": "Napoli",
+      "nationality": "Iran",
+      "height": 187,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 77
+      }
+    },
+    {
+      "id": "irn-p24",
+      "name": "Hakim Valverde",
+      "number": 24,
+      "position": "RB",
+      "club": "Inter Miami",
+      "nationality": "Iran",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 66,
+        "physical": 69
+      }
+    },
+    {
+      "id": "irn-p25",
+      "name": "Cyle Anderson",
+      "number": 25,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Iran",
+      "height": 180,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 76,
+        "defending": 75,
+        "physical": 72
+      }
+    },
+    {
+      "id": "irn-p26",
+      "name": "Kalidou Souza",
+      "number": 26,
+      "position": "CM",
+      "club": "Inter Miami",
+      "nationality": "Iran",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 83,
+        "physical": 79
+      }
+    }
+  ]
+}

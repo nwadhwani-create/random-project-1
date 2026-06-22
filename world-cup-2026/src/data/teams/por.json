@@ -1,0 +1,537 @@
+{
+  "id": "por",
+  "name": "Portugal",
+  "code": "POR",
+  "flagColors": [
+    "#006600",
+    "#FF0000",
+    "#FF0000"
+  ],
+  "kitHome": {
+    "primary": "#FF0000",
+    "secondary": "#006600",
+    "accent": "#FFD700",
+    "shorts": "#006600",
+    "socks": "#FF0000"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF0000",
+    "accent": "#006600",
+    "shorts": "#FF0000",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 84,
+  "squad": [
+    {
+      "id": "por-p1",
+      "name": "Florian Chukwueze",
+      "number": 1,
+      "position": "GK",
+      "club": "Atletico Madrid",
+      "nationality": "Portugal",
+      "height": 170,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 71,
+        "shooting": 30,
+        "passing": 81,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 91,
+        "diving": 96,
+        "handling": 91,
+        "kicking": 86,
+        "reflexes": 94,
+        "positioning": 91
+      }
+    },
+    {
+      "id": "por-p2",
+      "name": "Endrick Alvarez",
+      "number": 2,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Portugal",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 69,
+        "shooting": 30,
+        "passing": 79,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 89,
+        "diving": 94,
+        "handling": 89,
+        "kicking": 84,
+        "reflexes": 92,
+        "positioning": 89
+      }
+    },
+    {
+      "id": "por-p3",
+      "name": "Youssef Musiala",
+      "number": 3,
+      "position": "GK",
+      "club": "LAFC",
+      "nationality": "Portugal",
+      "height": 175,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 73,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 83,
+        "diving": 88,
+        "handling": 83,
+        "kicking": 78,
+        "reflexes": 86,
+        "positioning": 83
+      }
+    },
+    {
+      "id": "por-p4",
+      "name": "Ousmane Fernandes",
+      "number": 4,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Portugal",
+      "height": 170,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 90,
+        "defending": 87,
+        "physical": 88
+      }
+    },
+    {
+      "id": "por-p5",
+      "name": "Jack Ziyech",
+      "number": 5,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Portugal",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 88,
+        "shooting": 88,
+        "passing": 87,
+        "dribbling": 89,
+        "defending": 89,
+        "physical": 92
+      }
+    },
+    {
+      "id": "por-p6",
+      "name": "Diego Dybala",
+      "number": 6,
+      "position": "CB",
+      "club": "Manchester City",
+      "nationality": "Portugal",
+      "height": 182,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 89,
+        "shooting": 91,
+        "passing": 95,
+        "dribbling": 90,
+        "defending": 92,
+        "physical": 93
+      }
+    },
+    {
+      "id": "por-p7",
+      "name": "Gianluigi Gnabry",
+      "number": 7,
+      "position": "LB",
+      "club": "Atletico Madrid",
+      "nationality": "Portugal",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 90,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 89,
+        "defending": 83,
+        "physical": 89
+      }
+    },
+    {
+      "id": "por-p8",
+      "name": "Cristiano Hakimi",
+      "number": 8,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "Portugal",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 87,
+        "physical": 80
+      }
+    },
+    {
+      "id": "por-p9",
+      "name": "Joshua Silva",
+      "number": 9,
+      "position": "CDM",
+      "club": "PSG",
+      "nationality": "Portugal",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 86,
+        "defending": 82,
+        "physical": 87
+      }
+    },
+    {
+      "id": "por-p10",
+      "name": "Rodrigo Souza",
+      "number": 10,
+      "position": "CDM",
+      "club": "Borussia Dortmund",
+      "nationality": "Portugal",
+      "height": 187,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 91,
+        "shooting": 89,
+        "passing": 89,
+        "dribbling": 86,
+        "defending": 92,
+        "physical": 86
+      }
+    },
+    {
+      "id": "por-p11",
+      "name": "Alessandro Richarlison",
+      "number": 11,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Portugal",
+      "height": 193,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 95,
+        "shooting": 89,
+        "passing": 95,
+        "dribbling": 91,
+        "defending": 93,
+        "physical": 92
+      }
+    },
+    {
+      "id": "por-p12",
+      "name": "Kylian Vlahovic",
+      "number": 12,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Portugal",
+      "height": 187,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 79,
+        "physical": 79
+      }
+    },
+    {
+      "id": "por-p13",
+      "name": "Sadio Neymar",
+      "number": 13,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Portugal",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 81,
+        "defending": 78,
+        "physical": 74
+      }
+    },
+    {
+      "id": "por-p14",
+      "name": "Youssef Musah",
+      "number": 14,
+      "position": "CAM",
+      "club": "FC Barcelona",
+      "nationality": "Portugal",
+      "height": 183,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 83,
+        "shooting": 80,
+        "passing": 84,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 86
+      }
+    },
+    {
+      "id": "por-p15",
+      "name": "Martin Giroud",
+      "number": 15,
+      "position": "LM",
+      "club": "Inter Milan",
+      "nationality": "Portugal",
+      "height": 187,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 79,
+        "physical": 83
+      }
+    },
+    {
+      "id": "por-p16",
+      "name": "Antoine Miller",
+      "number": 16,
+      "position": "RM",
+      "club": "Atletico Madrid",
+      "nationality": "Portugal",
+      "height": 180,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 91,
+        "shooting": 85,
+        "passing": 90,
+        "dribbling": 89,
+        "defending": 85,
+        "physical": 92
+      }
+    },
+    {
+      "id": "por-p17",
+      "name": "Riyad Vlahovic",
+      "number": 17,
+      "position": "LW",
+      "club": "Juventus",
+      "nationality": "Portugal",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 87,
+        "dribbling": 86,
+        "defending": 80,
+        "physical": 87
+      }
+    },
+    {
+      "id": "por-p18",
+      "name": "Nicolo Jones",
+      "number": 18,
+      "position": "RW",
+      "club": "Real Madrid",
+      "nationality": "Portugal",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 81,
+        "physical": 76
+      }
+    },
+    {
+      "id": "por-p19",
+      "name": "Rafael Courtois",
+      "number": 19,
+      "position": "ST",
+      "club": "Bayern Munich",
+      "nationality": "Portugal",
+      "height": 192,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 81,
+        "physical": 77
+      }
+    },
+    {
+      "id": "por-p20",
+      "name": "Rodrigo Gonzalez",
+      "number": 20,
+      "position": "ST",
+      "club": "Arsenal",
+      "nationality": "Portugal",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 80
+      }
+    },
+    {
+      "id": "por-p21",
+      "name": "Ryan Modric",
+      "number": 21,
+      "position": "CF",
+      "club": "Inter Miami",
+      "nationality": "Portugal",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 91,
+        "shooting": 90,
+        "passing": 90,
+        "dribbling": 87,
+        "defending": 89,
+        "physical": 86
+      }
+    },
+    {
+      "id": "por-p22",
+      "name": "Ryan Osimhen",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Portugal",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 78,
+        "physical": 80
+      }
+    },
+    {
+      "id": "por-p23",
+      "name": "Lorenzo Dybala",
+      "number": 23,
+      "position": "LB",
+      "club": "Inter Miami",
+      "nationality": "Portugal",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 80,
+        "shooting": 87,
+        "passing": 87,
+        "dribbling": 82,
+        "defending": 87,
+        "physical": 88
+      }
+    },
+    {
+      "id": "por-p24",
+      "name": "Rodrigo Ziyech",
+      "number": 24,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Portugal",
+      "height": 192,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "por-p25",
+      "name": "Antonio Musiala",
+      "number": 25,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Portugal",
+      "height": 182,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 79,
+        "shooting": 74,
+        "passing": 80,
+        "dribbling": 74,
+        "defending": 77,
+        "physical": 81
+      }
+    },
+    {
+      "id": "por-p26",
+      "name": "Olivier Lopez",
+      "number": 26,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Portugal",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 81,
+        "defending": 75,
+        "physical": 79
+      }
+    }
+  ]
+}

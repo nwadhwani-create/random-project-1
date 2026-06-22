@@ -1,0 +1,537 @@
+{
+  "id": "jor",
+  "name": "Jordan",
+  "code": "JOR",
+  "flagColors": [
+    "#000000",
+    "#FFFFFF",
+    "#007A3D"
+  ],
+  "kitHome": {
+    "primary": "#CE1126",
+    "secondary": "#FFFFFF",
+    "accent": "#000000",
+    "shorts": "#000000",
+    "socks": "#CE1126"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#CE1126",
+    "accent": "#000000",
+    "shorts": "#CE1126",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 71,
+  "squad": [
+    {
+      "id": "jor-p1",
+      "name": "Jonathan Modric",
+      "number": 1,
+      "position": "GK",
+      "club": "Real Madrid",
+      "nationality": "Jordan",
+      "height": 186,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 52,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      }
+    },
+    {
+      "id": "jor-p2",
+      "name": "Carlos Oliveira",
+      "number": 2,
+      "position": "GK",
+      "club": "Arsenal",
+      "nationality": "Jordan",
+      "height": 183,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 75,
+        "diving": 80,
+        "handling": 75,
+        "kicking": 70,
+        "reflexes": 78,
+        "positioning": 75
+      }
+    },
+    {
+      "id": "jor-p3",
+      "name": "Sergej Hakimi",
+      "number": 3,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Jordan",
+      "height": 175,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 61,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      }
+    },
+    {
+      "id": "jor-p4",
+      "name": "Nicolo Havertz",
+      "number": 4,
+      "position": "CB",
+      "club": "Inter Milan",
+      "nationality": "Jordan",
+      "height": 176,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 74
+      }
+    },
+    {
+      "id": "jor-p5",
+      "name": "Andre Mbappe",
+      "number": 5,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Jordan",
+      "height": 172,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 65,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 69,
+        "physical": 69
+      }
+    },
+    {
+      "id": "jor-p6",
+      "name": "Endrick Gonzalez",
+      "number": 6,
+      "position": "CB",
+      "club": "Napoli",
+      "nationality": "Jordan",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 78,
+        "physical": 82
+      }
+    },
+    {
+      "id": "jor-p7",
+      "name": "Jamal Davies",
+      "number": 7,
+      "position": "LB",
+      "club": "Tottenham",
+      "nationality": "Jordan",
+      "height": 183,
+      "skinTone": 5,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 75
+      }
+    },
+    {
+      "id": "jor-p8",
+      "name": "Endrick Mane",
+      "number": 8,
+      "position": "RB",
+      "club": "Atletico Madrid",
+      "nationality": "Jordan",
+      "height": 187,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 73,
+        "physical": 70
+      }
+    },
+    {
+      "id": "jor-p9",
+      "name": "Rafael Lopez",
+      "number": 9,
+      "position": "CDM",
+      "club": "Liverpool",
+      "nationality": "Jordan",
+      "height": 178,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 73,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "jor-p10",
+      "name": "Alessandro Vlahovic",
+      "number": 10,
+      "position": "CDM",
+      "club": "Napoli",
+      "nationality": "Jordan",
+      "height": 186,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 67,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 68,
+        "physical": 74
+      }
+    },
+    {
+      "id": "jor-p11",
+      "name": "Bruno Kubo",
+      "number": 11,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Jordan",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 80,
+        "physical": 78
+      }
+    },
+    {
+      "id": "jor-p12",
+      "name": "Pierre Giroud",
+      "number": 12,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Jordan",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 67,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 67
+      }
+    },
+    {
+      "id": "jor-p13",
+      "name": "Cyle Martinez",
+      "number": 13,
+      "position": "CM",
+      "club": "Atletico Madrid",
+      "nationality": "Jordan",
+      "height": 181,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 65
+      }
+    },
+    {
+      "id": "jor-p14",
+      "name": "Lucas Reyna",
+      "number": 14,
+      "position": "CAM",
+      "club": "Borussia Dortmund",
+      "nationality": "Jordan",
+      "height": 184,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 64,
+        "defending": 68,
+        "physical": 68
+      }
+    },
+    {
+      "id": "jor-p15",
+      "name": "Milan Koulibaly",
+      "number": 15,
+      "position": "LM",
+      "club": "Bayern Munich",
+      "nationality": "Jordan",
+      "height": 186,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 69,
+        "physical": 73
+      }
+    },
+    {
+      "id": "jor-p16",
+      "name": "Rafael David",
+      "number": 16,
+      "position": "RM",
+      "club": "Juventus",
+      "nationality": "Jordan",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 71,
+        "physical": 72
+      }
+    },
+    {
+      "id": "jor-p17",
+      "name": "Takefusa Giroud",
+      "number": 17,
+      "position": "LW",
+      "club": "Chelsea",
+      "nationality": "Jordan",
+      "height": 178,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 72,
+        "physical": 68
+      }
+    },
+    {
+      "id": "jor-p18",
+      "name": "Gianluigi Garcia",
+      "number": 18,
+      "position": "RW",
+      "club": "Bayern Munich",
+      "nationality": "Jordan",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 76,
+        "physical": 72
+      }
+    },
+    {
+      "id": "jor-p19",
+      "name": "Roberto Martinez",
+      "number": 19,
+      "position": "ST",
+      "club": "Tottenham",
+      "nationality": "Jordan",
+      "height": 172,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 66,
+        "physical": 68
+      }
+    },
+    {
+      "id": "jor-p20",
+      "name": "Rafael Mitoma",
+      "number": 20,
+      "position": "ST",
+      "club": "Borussia Dortmund",
+      "nationality": "Jordan",
+      "height": 174,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 68,
+        "shooting": 67,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 73,
+        "physical": 67
+      }
+    },
+    {
+      "id": "jor-p21",
+      "name": "Vinicius Mahrez",
+      "number": 21,
+      "position": "CF",
+      "club": "Arsenal",
+      "nationality": "Jordan",
+      "height": 188,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 68,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 65,
+        "physical": 65
+      }
+    },
+    {
+      "id": "jor-p22",
+      "name": "Antoine Kimmich",
+      "number": 22,
+      "position": "CB",
+      "club": "Inter Miami",
+      "nationality": "Jordan",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 64,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 72,
+        "physical": 71
+      }
+    },
+    {
+      "id": "jor-p23",
+      "name": "Pierre Vlahovic",
+      "number": 23,
+      "position": "LB",
+      "club": "Borussia Dortmund",
+      "nationality": "Jordan",
+      "height": 191,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 65,
+        "physical": 64
+      }
+    },
+    {
+      "id": "jor-p24",
+      "name": "Rodrigo Felix",
+      "number": 24,
+      "position": "RB",
+      "club": "Borussia Dortmund",
+      "nationality": "Jordan",
+      "height": 181,
+      "skinTone": 0,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 75,
+        "physical": 68
+      }
+    },
+    {
+      "id": "jor-p25",
+      "name": "Thomas Son",
+      "number": 25,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Jordan",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 72,
+        "physical": 70
+      }
+    },
+    {
+      "id": "jor-p26",
+      "name": "Thomas Kimmich",
+      "number": 26,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Jordan",
+      "height": 187,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 68,
+        "physical": 65
+      }
+    }
+  ]
+}

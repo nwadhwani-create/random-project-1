@@ -1,0 +1,537 @@
+{
+  "id": "par",
+  "name": "Paraguay",
+  "code": "PAR",
+  "flagColors": [
+    "#D52B1E",
+    "#FFFFFF",
+    "#0038A8"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#D52B1E",
+    "accent": "#0038A8",
+    "shorts": "#0038A8",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#0038A8",
+    "secondary": "#FFFFFF",
+    "accent": "#D52B1E",
+    "shorts": "#0038A8",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-4-2",
+  "overallRating": 74,
+  "squad": [
+    {
+      "id": "par-p1",
+      "name": "Nicolo Donnarumma",
+      "number": 1,
+      "position": "GK",
+      "club": "Liverpool",
+      "nationality": "Paraguay",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 57,
+        "shooting": 30,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 77,
+        "diving": 82,
+        "handling": 77,
+        "kicking": 72,
+        "reflexes": 80,
+        "positioning": 77
+      }
+    },
+    {
+      "id": "par-p2",
+      "name": "Antonio Alvarez",
+      "number": 2,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Paraguay",
+      "height": 193,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 54,
+        "shooting": 30,
+        "passing": 64,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 74,
+        "diving": 79,
+        "handling": 74,
+        "kicking": 69,
+        "reflexes": 77,
+        "positioning": 74
+      }
+    },
+    {
+      "id": "par-p3",
+      "name": "Alessandro Havertz",
+      "number": 3,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Paraguay",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 76,
+        "diving": 81,
+        "handling": 76,
+        "kicking": 71,
+        "reflexes": 79,
+        "positioning": 76
+      }
+    },
+    {
+      "id": "par-p4",
+      "name": "Kaoru Vlahovic",
+      "number": 4,
+      "position": "CB",
+      "club": "AC Milan",
+      "nationality": "Paraguay",
+      "height": 180,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 74,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 75,
+        "physical": 77
+      }
+    },
+    {
+      "id": "par-p5",
+      "name": "Riyad Barella",
+      "number": 5,
+      "position": "CB",
+      "club": "Arsenal",
+      "nationality": "Paraguay",
+      "height": 174,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 76,
+        "physical": 80
+      }
+    },
+    {
+      "id": "par-p6",
+      "name": "Takefusa Valverde",
+      "number": 6,
+      "position": "CB",
+      "club": "Bayern Munich",
+      "nationality": "Paraguay",
+      "height": 180,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 79,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 83,
+        "physical": 83
+      }
+    },
+    {
+      "id": "par-p7",
+      "name": "Alex Courtois",
+      "number": 7,
+      "position": "LB",
+      "club": "Manchester City",
+      "nationality": "Paraguay",
+      "height": 170,
+      "skinTone": 3,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 74,
+        "physical": 72
+      }
+    },
+    {
+      "id": "par-p8",
+      "name": "Mohamed Vlahovic",
+      "number": 8,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "Paraguay",
+      "height": 173,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "par-p9",
+      "name": "Vinicius Anderson",
+      "number": 9,
+      "position": "CDM",
+      "club": "Chelsea",
+      "nationality": "Paraguay",
+      "height": 177,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "par-p10",
+      "name": "Sergej Martinez",
+      "number": 10,
+      "position": "CDM",
+      "club": "Atletico Madrid",
+      "nationality": "Paraguay",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 77,
+        "physical": 84
+      }
+    },
+    {
+      "id": "par-p11",
+      "name": "Dusan Reyna",
+      "number": 11,
+      "position": "CM",
+      "club": "FC Barcelona",
+      "nationality": "Paraguay",
+      "height": 188,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 80,
+        "shooting": 79,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 77,
+        "physical": 76
+      }
+    },
+    {
+      "id": "par-p12",
+      "name": "Miguel Brown",
+      "number": 12,
+      "position": "CM",
+      "club": "Club America",
+      "nationality": "Paraguay",
+      "height": 187,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 72,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 73,
+        "defending": 79,
+        "physical": 77
+      }
+    },
+    {
+      "id": "par-p13",
+      "name": "Ousmane Taylor",
+      "number": 13,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Paraguay",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 82,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "par-p14",
+      "name": "Harry Miller",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Milan",
+      "nationality": "Paraguay",
+      "height": 172,
+      "skinTone": 4,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 73,
+        "physical": 75
+      }
+    },
+    {
+      "id": "par-p15",
+      "name": "Olivier Davies",
+      "number": 15,
+      "position": "LM",
+      "club": "Liverpool",
+      "nationality": "Paraguay",
+      "height": 191,
+      "skinTone": 5,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 79,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 73,
+        "physical": 77
+      }
+    },
+    {
+      "id": "par-p16",
+      "name": "Federico Alvarez",
+      "number": 16,
+      "position": "RM",
+      "club": "LAFC",
+      "nationality": "Paraguay",
+      "height": 194,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 75,
+        "shooting": 80,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "par-p17",
+      "name": "Richarlison Pulisic",
+      "number": 17,
+      "position": "LW",
+      "club": "Arsenal",
+      "nationality": "Paraguay",
+      "height": 176,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 66,
+        "physical": 72
+      }
+    },
+    {
+      "id": "par-p18",
+      "name": "Ryan Reyna",
+      "number": 18,
+      "position": "RW",
+      "club": "Bayern Munich",
+      "nationality": "Paraguay",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 77
+      }
+    },
+    {
+      "id": "par-p19",
+      "name": "Kai Neymar",
+      "number": 19,
+      "position": "ST",
+      "club": "Atletico Madrid",
+      "nationality": "Paraguay",
+      "height": 185,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 67,
+        "physical": 71
+      }
+    },
+    {
+      "id": "par-p20",
+      "name": "Gabriel Musiala",
+      "number": 20,
+      "position": "ST",
+      "club": "LAFC",
+      "nationality": "Paraguay",
+      "height": 190,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 65,
+        "shooting": 71,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 66,
+        "physical": 69
+      }
+    },
+    {
+      "id": "par-p21",
+      "name": "Bruno Wilson",
+      "number": 21,
+      "position": "CF",
+      "club": "Manchester City",
+      "nationality": "Paraguay",
+      "height": 188,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 79,
+        "physical": 78
+      }
+    },
+    {
+      "id": "par-p22",
+      "name": "Thomas Taylor",
+      "number": 22,
+      "position": "CB",
+      "club": "Real Madrid",
+      "nationality": "Paraguay",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 77,
+        "physical": 75
+      }
+    },
+    {
+      "id": "par-p23",
+      "name": "Miguel Barella",
+      "number": 23,
+      "position": "LB",
+      "club": "Chelsea",
+      "nationality": "Paraguay",
+      "height": 191,
+      "skinTone": 2,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 82,
+        "physical": 81
+      }
+    },
+    {
+      "id": "par-p24",
+      "name": "Marcus Hakimi",
+      "number": 24,
+      "position": "RB",
+      "club": "PSG",
+      "nationality": "Paraguay",
+      "height": 173,
+      "skinTone": 1,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 70,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 71,
+        "physical": 75
+      }
+    },
+    {
+      "id": "par-p25",
+      "name": "Dusan Mbappe",
+      "number": 25,
+      "position": "CM",
+      "club": "Inter Milan",
+      "nationality": "Paraguay",
+      "height": 175,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 77
+      }
+    },
+    {
+      "id": "par-p26",
+      "name": "Antonio Kimmich",
+      "number": 26,
+      "position": "CM",
+      "club": "Tottenham",
+      "nationality": "Paraguay",
+      "height": 183,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 75,
+        "physical": 76
+      }
+    }
+  ]
+}

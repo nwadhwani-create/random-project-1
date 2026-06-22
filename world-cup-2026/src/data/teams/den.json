@@ -1,0 +1,537 @@
+{
+  "id": "den",
+  "name": "Denmark",
+  "code": "DEN",
+  "flagColors": [
+    "#C60C30",
+    "#FFFFFF",
+    "#C60C30"
+  ],
+  "kitHome": {
+    "primary": "#C60C30",
+    "secondary": "#FFFFFF",
+    "accent": "#C60C30",
+    "shorts": "#FFFFFF",
+    "socks": "#C60C30"
+  },
+  "kitAway": {
+    "primary": "#FFFFFF",
+    "secondary": "#C60C30",
+    "accent": "#000000",
+    "shorts": "#C60C30",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-3-3",
+  "overallRating": 79,
+  "squad": [
+    {
+      "id": "den-p1",
+      "name": "Jamal Silva",
+      "number": 1,
+      "position": "GK",
+      "club": "Chelsea",
+      "nationality": "Denmark",
+      "height": 190,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 80,
+        "diving": 85,
+        "handling": 80,
+        "kicking": 75,
+        "reflexes": 83,
+        "positioning": 80
+      }
+    },
+    {
+      "id": "den-p2",
+      "name": "Son Mitrovic",
+      "number": 2,
+      "position": "GK",
+      "club": "Club America",
+      "nationality": "Denmark",
+      "height": 192,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 85,
+        "diving": 90,
+        "handling": 85,
+        "kicking": 80,
+        "reflexes": 88,
+        "positioning": 85
+      }
+    },
+    {
+      "id": "den-p3",
+      "name": "David Musah",
+      "number": 3,
+      "position": "GK",
+      "club": "Inter Miami",
+      "nationality": "Denmark",
+      "height": 192,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 61,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      }
+    },
+    {
+      "id": "den-p4",
+      "name": "Antoine Valverde",
+      "number": 4,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Denmark",
+      "height": 173,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 81,
+        "shooting": 79,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 80,
+        "physical": 77
+      }
+    },
+    {
+      "id": "den-p5",
+      "name": "Thomas Brown",
+      "number": 5,
+      "position": "CB",
+      "club": "Borussia Dortmund",
+      "nationality": "Denmark",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 85,
+        "shooting": 84,
+        "passing": 82,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 86
+      }
+    },
+    {
+      "id": "den-p6",
+      "name": "Cyle Brown",
+      "number": 6,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Denmark",
+      "height": 173,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 85,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 84,
+        "physical": 80
+      }
+    },
+    {
+      "id": "den-p7",
+      "name": "Gianluigi Mane",
+      "number": 7,
+      "position": "LB",
+      "club": "Juventus",
+      "nationality": "Denmark",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 75,
+        "physical": 81
+      }
+    },
+    {
+      "id": "den-p8",
+      "name": "Alisson Bastoni",
+      "number": 8,
+      "position": "RB",
+      "club": "Juventus",
+      "nationality": "Denmark",
+      "height": 178,
+      "skinTone": 4,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 87,
+        "physical": 82
+      }
+    },
+    {
+      "id": "den-p9",
+      "name": "Rafael Musiala",
+      "number": 9,
+      "position": "CDM",
+      "club": "AC Milan",
+      "nationality": "Denmark",
+      "height": 179,
+      "skinTone": 3,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 85,
+        "passing": 84,
+        "dribbling": 85,
+        "defending": 82,
+        "physical": 83
+      }
+    },
+    {
+      "id": "den-p10",
+      "name": "Milan Rodriguez",
+      "number": 10,
+      "position": "CDM",
+      "club": "Chelsea",
+      "nationality": "Denmark",
+      "height": 184,
+      "skinTone": 1,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 90,
+        "shooting": 85,
+        "passing": 88,
+        "dribbling": 89,
+        "defending": 86,
+        "physical": 85
+      }
+    },
+    {
+      "id": "den-p11",
+      "name": "Wilfred Gonzalez",
+      "number": 11,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Denmark",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 79,
+        "physical": 82
+      }
+    },
+    {
+      "id": "den-p12",
+      "name": "Daniel Musiala",
+      "number": 12,
+      "position": "CM",
+      "club": "Liverpool",
+      "nationality": "Denmark",
+      "height": 173,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 78,
+        "defending": 77,
+        "physical": 84
+      }
+    },
+    {
+      "id": "den-p13",
+      "name": "Alisson Davies",
+      "number": 13,
+      "position": "CM",
+      "club": "LAFC",
+      "nationality": "Denmark",
+      "height": 185,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 81,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 75,
+        "physical": 80
+      }
+    },
+    {
+      "id": "den-p14",
+      "name": "Kalidou Santos",
+      "number": 14,
+      "position": "CAM",
+      "club": "LAFC",
+      "nationality": "Denmark",
+      "height": 170,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "den-p15",
+      "name": "Julian Anderson",
+      "number": 15,
+      "position": "LM",
+      "club": "FC Barcelona",
+      "nationality": "Denmark",
+      "height": 176,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 76,
+        "dribbling": 71,
+        "defending": 71,
+        "physical": 78
+      }
+    },
+    {
+      "id": "den-p16",
+      "name": "Emiliano Pulisic",
+      "number": 16,
+      "position": "RM",
+      "club": "Tottenham",
+      "nationality": "Denmark",
+      "height": 182,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 74,
+        "physical": 78
+      }
+    },
+    {
+      "id": "den-p17",
+      "name": "Kai Santos",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Miami",
+      "nationality": "Denmark",
+      "height": 173,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 81,
+        "physical": 79
+      }
+    },
+    {
+      "id": "den-p18",
+      "name": "Youssef Williams",
+      "number": 18,
+      "position": "RW",
+      "club": "Chelsea",
+      "nationality": "Denmark",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 76,
+        "physical": 72
+      }
+    },
+    {
+      "id": "den-p19",
+      "name": "Nicolo Donnarumma",
+      "number": 19,
+      "position": "ST",
+      "club": "Borussia Dortmund",
+      "nationality": "Denmark",
+      "height": 188,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 79,
+        "defending": 86,
+        "physical": 83
+      }
+    },
+    {
+      "id": "den-p20",
+      "name": "Marcus Johnson",
+      "number": 20,
+      "position": "ST",
+      "club": "AC Milan",
+      "nationality": "Denmark",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 81,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 83,
+        "physical": 79
+      }
+    },
+    {
+      "id": "den-p21",
+      "name": "Julian Brown",
+      "number": 21,
+      "position": "CF",
+      "club": "FC Barcelona",
+      "nationality": "Denmark",
+      "height": 183,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 85,
+        "dribbling": 79,
+        "defending": 83,
+        "physical": 81
+      }
+    },
+    {
+      "id": "den-p22",
+      "name": "Son Kante",
+      "number": 22,
+      "position": "CB",
+      "club": "PSG",
+      "nationality": "Denmark",
+      "height": 181,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 76,
+        "physical": 69
+      }
+    },
+    {
+      "id": "den-p23",
+      "name": "Ousmane Giroud",
+      "number": 23,
+      "position": "LB",
+      "club": "Juventus",
+      "nationality": "Denmark",
+      "height": 178,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 74,
+        "physical": 75
+      }
+    },
+    {
+      "id": "den-p24",
+      "name": "Bernardo Modric",
+      "number": 24,
+      "position": "RB",
+      "club": "AC Milan",
+      "nationality": "Denmark",
+      "height": 173,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 78,
+        "physical": 72
+      }
+    },
+    {
+      "id": "den-p25",
+      "name": "Ryan Kante",
+      "number": 25,
+      "position": "CM",
+      "club": "Bayern Munich",
+      "nationality": "Denmark",
+      "height": 192,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "den-p26",
+      "name": "Miguel Ederson",
+      "number": 26,
+      "position": "CM",
+      "club": "Borussia Dortmund",
+      "nationality": "Denmark",
+      "height": 189,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 87,
+        "shooting": 83,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 86,
+        "physical": 80
+      }
+    }
+  ]
+}

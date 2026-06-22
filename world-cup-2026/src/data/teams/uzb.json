@@ -1,0 +1,537 @@
+{
+  "id": "uzb",
+  "name": "Uzbekistan",
+  "code": "UZB",
+  "flagColors": [
+    "#1EB53A",
+    "#FFFFFF",
+    "#0099B5"
+  ],
+  "kitHome": {
+    "primary": "#FFFFFF",
+    "secondary": "#1EB53A",
+    "accent": "#0099B5",
+    "shorts": "#1EB53A",
+    "socks": "#FFFFFF"
+  },
+  "kitAway": {
+    "primary": "#0099B5",
+    "secondary": "#FFFFFF",
+    "accent": "#1EB53A",
+    "shorts": "#0099B5",
+    "socks": "#FFFFFF"
+  },
+  "formation": "4-2-3-1",
+  "overallRating": 72,
+  "squad": [
+    {
+      "id": "uzb-p1",
+      "name": "Nicolas Kimmich",
+      "number": 1,
+      "position": "GK",
+      "club": "Juventus",
+      "nationality": "Uzbekistan",
+      "height": 176,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 61,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 81,
+        "diving": 86,
+        "handling": 81,
+        "kicking": 76,
+        "reflexes": 84,
+        "positioning": 81
+      }
+    },
+    {
+      "id": "uzb-p2",
+      "name": "Ousmane Martinez",
+      "number": 2,
+      "position": "GK",
+      "club": "LAFC",
+      "nationality": "Uzbekistan",
+      "height": 192,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 52,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 72,
+        "diving": 77,
+        "handling": 72,
+        "kicking": 67,
+        "reflexes": 75,
+        "positioning": 72
+      }
+    },
+    {
+      "id": "uzb-p3",
+      "name": "Roberto Mane",
+      "number": 3,
+      "position": "GK",
+      "club": "Manchester City",
+      "nationality": "Uzbekistan",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 62,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 40,
+        "defending": 50,
+        "physical": 82,
+        "diving": 87,
+        "handling": 82,
+        "kicking": 77,
+        "reflexes": 85,
+        "positioning": 82
+      }
+    },
+    {
+      "id": "uzb-p4",
+      "name": "Youssef Griezmann",
+      "number": 4,
+      "position": "CB",
+      "club": "Tottenham",
+      "nationality": "Uzbekistan",
+      "height": 187,
+      "skinTone": 3,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 78,
+        "physical": 81
+      }
+    },
+    {
+      "id": "uzb-p5",
+      "name": "Julian Smith",
+      "number": 5,
+      "position": "CB",
+      "club": "AC Milan",
+      "nationality": "Uzbekistan",
+      "height": 179,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 80,
+        "physical": 83
+      }
+    },
+    {
+      "id": "uzb-p6",
+      "name": "Richarlison David",
+      "number": 6,
+      "position": "CB",
+      "club": "Juventus",
+      "nationality": "Uzbekistan",
+      "height": 171,
+      "skinTone": 1,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 71,
+        "physical": 68
+      }
+    },
+    {
+      "id": "uzb-p7",
+      "name": "Mateo Dybala",
+      "number": 7,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "Uzbekistan",
+      "height": 189,
+      "skinTone": 2,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 84,
+        "physical": 83
+      }
+    },
+    {
+      "id": "uzb-p8",
+      "name": "Antoine Donnarumma",
+      "number": 8,
+      "position": "RB",
+      "club": "Chelsea",
+      "nationality": "Uzbekistan",
+      "height": 194,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 75,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 72,
+        "physical": 73
+      }
+    },
+    {
+      "id": "uzb-p9",
+      "name": "Cristiano Havertz",
+      "number": 9,
+      "position": "CDM",
+      "club": "Bayern Munich",
+      "nationality": "Uzbekistan",
+      "height": 175,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 68,
+        "dribbling": 75,
+        "defending": 75,
+        "physical": 72
+      }
+    },
+    {
+      "id": "uzb-p10",
+      "name": "Lautaro Souza",
+      "number": 10,
+      "position": "CDM",
+      "club": "AC Milan",
+      "nationality": "Uzbekistan",
+      "height": 184,
+      "skinTone": 4,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 78,
+        "physical": 76
+      }
+    },
+    {
+      "id": "uzb-p11",
+      "name": "Lorenzo Fernandes",
+      "number": 11,
+      "position": "CM",
+      "club": "Manchester City",
+      "nationality": "Uzbekistan",
+      "height": 186,
+      "skinTone": 3,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 81
+      }
+    },
+    {
+      "id": "uzb-p12",
+      "name": "Joao Martinez",
+      "number": 12,
+      "position": "CM",
+      "club": "Arsenal",
+      "nationality": "Uzbekistan",
+      "height": 181,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 72,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 73,
+        "physical": 76
+      }
+    },
+    {
+      "id": "uzb-p13",
+      "name": "Lucas Williams",
+      "number": 13,
+      "position": "CM",
+      "club": "Inter Milan",
+      "nationality": "Uzbekistan",
+      "height": 184,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 76,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 68,
+        "physical": 70
+      }
+    },
+    {
+      "id": "uzb-p14",
+      "name": "Enzo Kante",
+      "number": 14,
+      "position": "CAM",
+      "club": "Inter Milan",
+      "nationality": "Uzbekistan",
+      "height": 185,
+      "skinTone": 1,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 78,
+        "physical": 75
+      }
+    },
+    {
+      "id": "uzb-p15",
+      "name": "Miguel Giroud",
+      "number": 15,
+      "position": "LM",
+      "club": "Club America",
+      "nationality": "Uzbekistan",
+      "height": 177,
+      "skinTone": 0,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 69,
+        "physical": 67
+      }
+    },
+    {
+      "id": "uzb-p16",
+      "name": "Daniel Perisic",
+      "number": 16,
+      "position": "RM",
+      "club": "Bayern Munich",
+      "nationality": "Uzbekistan",
+      "height": 171,
+      "skinTone": 0,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 71,
+        "physical": 75
+      }
+    },
+    {
+      "id": "uzb-p17",
+      "name": "Ederson Osimhen",
+      "number": 17,
+      "position": "LW",
+      "club": "Inter Miami",
+      "nationality": "Uzbekistan",
+      "height": 174,
+      "skinTone": 2,
+      "hairStyle": 1,
+      "ratings": {
+        "pace": 68,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 69,
+        "physical": 67
+      }
+    },
+    {
+      "id": "uzb-p18",
+      "name": "Rodrigo Mane",
+      "number": 18,
+      "position": "RW",
+      "club": "LAFC",
+      "nationality": "Uzbekistan",
+      "height": 171,
+      "skinTone": 2,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 67,
+        "physical": 70
+      }
+    },
+    {
+      "id": "uzb-p19",
+      "name": "Leroy Smith",
+      "number": 19,
+      "position": "ST",
+      "club": "Napoli",
+      "nationality": "Uzbekistan",
+      "height": 187,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 65,
+        "physical": 63
+      }
+    },
+    {
+      "id": "uzb-p20",
+      "name": "Jackson Davis",
+      "number": 20,
+      "position": "ST",
+      "club": "Real Madrid",
+      "nationality": "Uzbekistan",
+      "height": 172,
+      "skinTone": 5,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 66,
+        "physical": 68
+      }
+    },
+    {
+      "id": "uzb-p21",
+      "name": "Marcus Anderson",
+      "number": 21,
+      "position": "CF",
+      "club": "AC Milan",
+      "nationality": "Uzbekistan",
+      "height": 191,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 75,
+        "physical": 69
+      }
+    },
+    {
+      "id": "uzb-p22",
+      "name": "Achraf Davies",
+      "number": 22,
+      "position": "CB",
+      "club": "Liverpool",
+      "nationality": "Uzbekistan",
+      "height": 177,
+      "skinTone": 4,
+      "hairStyle": 2,
+      "ratings": {
+        "pace": 71,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 71,
+        "physical": 75
+      }
+    },
+    {
+      "id": "uzb-p23",
+      "name": "Antonio Garcia",
+      "number": 23,
+      "position": "LB",
+      "club": "Real Madrid",
+      "nationality": "Uzbekistan",
+      "height": 181,
+      "skinTone": 3,
+      "hairStyle": 3,
+      "ratings": {
+        "pace": 62,
+        "shooting": 67,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 66,
+        "physical": 69
+      }
+    },
+    {
+      "id": "uzb-p24",
+      "name": "Emiliano Musah",
+      "number": 24,
+      "position": "RB",
+      "club": "Napoli",
+      "nationality": "Uzbekistan",
+      "height": 172,
+      "skinTone": 0,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 79,
+        "dribbling": 74,
+        "defending": 76,
+        "physical": 78
+      }
+    },
+    {
+      "id": "uzb-p25",
+      "name": "Emiliano Larin",
+      "number": 25,
+      "position": "CM",
+      "club": "Chelsea",
+      "nationality": "Uzbekistan",
+      "height": 193,
+      "skinTone": 5,
+      "hairStyle": 0,
+      "ratings": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 75,
+        "physical": 71
+      }
+    },
+    {
+      "id": "uzb-p26",
+      "name": "Kaoru Johnson",
+      "number": 26,
+      "position": "CM",
+      "club": "Juventus",
+      "nationality": "Uzbekistan",
+      "height": 179,
+      "skinTone": 1,
+      "hairStyle": 4,
+      "ratings": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 66,
+        "physical": 69
+      }
+    }
+  ]
+}
