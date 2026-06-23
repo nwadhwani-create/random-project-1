@@ -114,7 +114,7 @@ export default function AirlinePageClient({ airline }: Props) {
                 {airline.country} &middot; Founded {airline.founded} &middot; HQ: {airline.headquarters}
               </p>
             </div>
-            <div className="flex gap-6 sm:gap-8 text-center">
+            <div className="flex flex-wrap justify-start sm:justify-end gap-x-6 gap-y-4 sm:gap-x-8 text-center max-w-full">
               <div>
                 <div className="text-2xl sm:text-3xl font-bold">{fleetSize}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Aircraft</div>
