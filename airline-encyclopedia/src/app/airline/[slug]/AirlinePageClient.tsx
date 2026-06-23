@@ -193,9 +193,9 @@ export default function AirlinePageClient({ airline }: Props) {
 
         {activeTab === "fleet" && (
           <div>
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-6">
               <h2 className="text-2xl font-bold">Fleet Overview</h2>
-              <p className="text-sm text-[var(--color-muted)]">
+              <p className="text-sm text-[var(--color-muted)] sm:text-right">
                 {airline.fleet.length} aircraft types &middot; {fleetSize} total aircraft
               </p>
             </div>
