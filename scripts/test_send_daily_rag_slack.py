@@ -40,9 +40,13 @@ class SendDailyRagSlackTest(unittest.TestCase):
         host, port = server.server_address
         return server, f"http://{host}:{port}/api/chat.postMessage"
 
+    def stop_server(self, server: HTTPServer) -> None:
+        server.shutdown()
+        server.server_close()
+
     def test_posts_rag_to_players_only_comm_west(self) -> None:
         server, api_url = self.run_server()
-        self.addCleanup(server.shutdown)
+        self.addCleanup(self.stop_server, server)
 
         result = send_daily_rag_slack.post_rag_message(
             token="xoxb-test-token",
@@ -66,7 +70,7 @@ class SendDailyRagSlackTest(unittest.TestCase):
     def test_raises_when_slack_rejects_message(self) -> None:
         SlackApiHandler.response = {"ok": False, "error": "channel_not_found"}
         server, api_url = self.run_server()
-        self.addCleanup(server.shutdown)
+        self.addCleanup(self.stop_server, server)
 
         with self.assertRaisesRegex(RuntimeError, "channel_not_found"):
             send_daily_rag_slack.post_rag_message(
