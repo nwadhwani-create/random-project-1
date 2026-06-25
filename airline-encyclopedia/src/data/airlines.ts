@@ -501,6 +501,40 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "el-al",
+    name: "El Al",
+    iataCode: "LY",
+    icaoCode: "ELY",
+    country: "Israel",
+    founded: 1948,
+    headquarters: "Ben Gurion Airport, Israel",
+    alliance: "None",
+    logoColor: "#003C7D",
+    accentColor: "#00A3E0",
+    history: `El Al was incorporated on November 15, 1948, shortly after the establishment of the State of Israel. The airline's first aircraft were Douglas DC-4s acquired from American Airlines, and its first scheduled international flight departed Tel Aviv for Paris via Rome on July 31, 1949. The name "El Al" is commonly translated as "to the skies," and the carrier quickly became one of Israel's most visible national institutions.
+
+For much of its early history, El Al connected Israel with Europe, North America, and Jewish diaspora communities around the world. Its location at Lod Airport, later renamed Ben Gurion Airport, made the airline a strategic bridge between the eastern Mediterranean and major global cities. The carrier became known for unusually stringent aviation security procedures, many of which influenced international airline security practices.
+
+El Al entered the jet age with Boeing aircraft and has remained an all-Boeing operator. The airline modernized its long-haul product with the Boeing 787 Dreamliner, introducing updated premium cabins and more efficient nonstop service from Tel Aviv to destinations in North America, Europe, Africa, and Asia. Its narrowbody fleet of Boeing 737s continues to support dense short- and medium-haul routes across Europe and the Middle East.
+
+Today, El Al is Israel's flag carrier and operates from a single primary hub at Ben Gurion Airport near Tel Aviv. Although it is not a member of a global airline alliance, El Al maintains codeshare and frequent flyer partnerships with several international carriers. The airline has continued to adapt its network around regional geopolitical conditions while preserving its role as Israel's principal long-haul airline.`,
+    fleet: [
+      { model: "B787-9", manufacturer: "Boeing", count: 13, passengers: "271 (3-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/El_Al_Boeing_787-9_Dreamliner_%284X-EDB%29.jpg/1280px-El_Al_Boeing_787-9_Dreamliner_%284X-EDB%29.jpg", imageAlt: "El Al B787-9", description: "Flagship Dreamliner used on long-haul routes to North America, Europe, and Asia." },
+      { model: "B787-8", manufacturer: "Boeing", count: 4, passengers: "238 (3-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/El_Al_Boeing_787-8_Dreamliner_%284X-ERB%29.jpg/1280px-El_Al_Boeing_787-8_Dreamliner_%284X-ERB%29.jpg", imageAlt: "El Al B787-8", description: "Smaller Dreamliner variant for thinner long-haul routes from Tel Aviv." },
+      { model: "B777-200ER", manufacturer: "Boeing", count: 5, passengers: "279 (3-class)", range: "7,725 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/El_Al_Boeing_777-258ER_%284X-ECE%29.jpg/1280px-El_Al_Boeing_777-258ER_%284X-ECE%29.jpg", imageAlt: "El Al B777-200ER", description: "Legacy widebody aircraft retained for high-demand long-haul services." },
+      { model: "B737-900ER", manufacturer: "Boeing", count: 8, passengers: "172 (2-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/El_Al_Boeing_737-900ER_%284X-EHA%29.jpg/1280px-El_Al_Boeing_737-900ER_%284X-EHA%29.jpg", imageAlt: "El Al B737-900ER", description: "High-capacity narrowbody for busy European and regional routes." },
+      { model: "B737-800", manufacturer: "Boeing", count: 14, passengers: "166-189 (various)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/El_Al_Boeing_737-800_%284X-EKS%29.jpg/1280px-El_Al_Boeing_737-800_%284X-EKS%29.jpg", imageAlt: "El Al B737-800", description: "Short- and medium-haul workhorse serving the core Tel Aviv network." },
+    ],
+    hubs: [a.TLV],
+    routes: [
+      route("TLV", "JFK"), route("TLV", "EWR"), route("TLV", "LAX"), route("TLV", "BOS"), route("TLV", "MIA"),
+      route("TLV", "LHR"), route("TLV", "CDG"), route("TLV", "AMS"), route("TLV", "FRA"), route("TLV", "MUC"),
+      route("TLV", "VIE"), route("TLV", "ZRH"), route("TLV", "MAD"), route("TLV", "BCN"), route("TLV", "FCO"),
+      route("TLV", "ATH"), route("TLV", "DXB"), route("TLV", "BKK"), route("TLV", "HKG"), route("TLV", "DEL"),
+      route("TLV", "BOM"), route("TLV", "JNB"),
+    ],
+  },
+  {
     slug: "southwest-airlines",
     name: "Southwest Airlines",
     iataCode: "WN",
