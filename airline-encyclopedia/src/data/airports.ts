@@ -49,6 +49,12 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  OPO: { code: "OPO", name: "Francisco Sa Carneiro", city: "Porto", country: "Portugal", lat: 41.2481, lng: -8.6814 },
+  OLB: { code: "OLB", name: "Olbia Costa Smeralda", city: "Olbia", country: "Italy", lat: 40.8987, lng: 9.5176 },
+  NCE: { code: "NCE", name: "Nice Cote d'Azur", city: "Nice", country: "France", lat: 43.6653, lng: 7.2150 },
+  MLA: { code: "MLA", name: "Malta International", city: "Luqa", country: "Malta", lat: 35.8575, lng: 14.4775 },
+  PRG: { code: "PRG", name: "Vaclav Havel Airport Prague", city: "Prague", country: "Czechia", lat: 50.1008, lng: 14.2632 },
+  BUD: { code: "BUD", name: "Budapest Ferenc Liszt International", city: "Budapest", country: "Hungary", lat: 47.4394, lng: 19.2611 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
@@ -84,6 +90,7 @@ export const airports: Record<string, Airport> = {
   SCL: { code: "SCL", name: "Arturo Merino Benítez International", city: "Santiago", country: "Chile", lat: -33.3930, lng: -70.7858 },
   LIM: { code: "LIM", name: "Jorge Chávez International", city: "Lima", country: "Peru", lat: -12.0219, lng: -77.1143 },
   CUN: { code: "CUN", name: "Cancún International", city: "Cancún", country: "Mexico", lat: 21.0365, lng: -86.8771 },
+  CCS: { code: "CCS", name: "Simon Bolivar International", city: "Caracas", country: "Venezuela", lat: 10.6031, lng: -66.9906 },
   PTY: { code: "PTY", name: "Tocumen International", city: "Panama City", country: "Panama", lat: 9.0714, lng: -79.3835 },
 
   JNB: { code: "JNB", name: "O.R. Tambo International", city: "Johannesburg", country: "South Africa", lat: -26.1392, lng: 28.2460 },
