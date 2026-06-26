@@ -32,10 +32,11 @@ export default function AirlinePageClient({ airline }: Props) {
   const [selectedAircraft, setSelectedAircraft] = useState<AircraftType | null>(null);
 
   const fleetSize = airline.fleet.reduce((s, f) => s + f.count, 0);
+  const hubCodes = new Set(airline.hubs.map((h) => h.code));
   const uniqueDestinations = new Set<string>();
   airline.routes.forEach((r) => {
-    if (r.from?.code) uniqueDestinations.add(r.from.code);
-    if (r.to?.code) uniqueDestinations.add(r.to.code);
+    if (r.from?.code && !hubCodes.has(r.from.code)) uniqueDestinations.add(r.from.code);
+    if (r.to?.code && !hubCodes.has(r.to.code)) uniqueDestinations.add(r.to.code);
   });
 
   const tabs: { key: Tab; label: string; icon: React.ReactNode }[] = [
