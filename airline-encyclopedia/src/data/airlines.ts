@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "batik-air",
+    name: "Batik Air",
+    iataCode: "ID",
+    icaoCode: "BTK",
+    country: "Indonesia",
+    founded: 2012,
+    headquarters: "Jakarta, Indonesia",
+    alliance: "None",
+    logoColor: "#3B2416",
+    accentColor: "#D7A33D",
+    history: `Batik Air was established in 2012 as the full-service arm of Indonesia's Lion Air Group, created to compete in the country's premium scheduled airline market. The carrier began operations on May 3, 2013, initially flying Boeing 737-900ER aircraft from Jakarta with two-class cabins, complimentary meals, checked baggage allowances, and in-seat entertainment that distinguished it from Lion Air's low-cost model.\n\nThrough the 2010s, Batik Air expanded quickly across Indonesia's dense domestic market while adding international links around Southeast Asia. Its network became anchored at Jakarta's Soekarno-Hatta International Airport, with services connecting major Indonesian business and leisure destinations to Singapore, Kuala Lumpur, Bangkok, Perth, and other regional markets.\n\nThe airline broadened its fleet beyond Boeing 737s by adding Airbus A320-family aircraft and, in 2019, its first Airbus A330-300 for higher-capacity regional and pilgrimage services. Batik Air's brand also gained a wider regional profile after sister carrier Malindo Air rebranded as Batik Air Malaysia in 2022, creating a coordinated full-service identity within the Lion Air Group.\n\nToday, Batik Air operates as one of Indonesia's most visible full-service carriers, balancing a large domestic schedule with selective international routes. Its role within the Lion Air Group is to provide a more premium product while leveraging the group's scale across aircraft operations, distribution, and Southeast Asian connectivity.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 47, passengers: "150-164 (2-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Batik_Air_Airbus_A320-214_PK-LAF_KUL_2015.jpg/1280px-Batik_Air_Airbus_A320-214_PK-LAF_KUL_2015.jpg", imageAlt: "Batik Air A320-200", description: "Core narrowbody aircraft for domestic Indonesian routes and short international services." },
+      { model: "B737-800", manufacturer: "Boeing", count: 13, passengers: "162 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Batik_Air_Boeing_737-8GP_PK-LBS_CGK_2015.jpg/1280px-Batik_Air_Boeing_737-8GP_PK-LBS_CGK_2015.jpg", imageAlt: "Batik Air B737-800", description: "Two-class Boeing narrowbody used on trunk domestic and regional routes." },
+      { model: "A320neo", manufacturer: "Airbus", count: 1, passengers: "156 (2-class)", range: "3,500 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Batik_Air_Airbus_A320-271N_PK-BDF.jpg/1280px-Batik_Air_Airbus_A320-271N_PK-BDF.jpg", imageAlt: "Batik Air A320neo", description: "New-generation Airbus narrowbody supporting fleet renewal and improved fuel efficiency." },
+      { model: "A330-300", manufacturer: "Airbus", count: 1, passengers: "392 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Batik_Air_Airbus_A330-343_PK-LEL.jpg/1280px-Batik_Air_Airbus_A330-343_PK-LEL.jpg", imageAlt: "Batik Air A330-300", description: "Widebody aircraft used for higher-capacity regional flying and pilgrimage operations." },
+    ],
+    hubs: [a.CGK],
+    routes: [
+      route("CGK", "SIN"), route("CGK", "KUL"), route("CGK", "BKK"), route("CGK", "PER"),
+      route("CGK", "MEL"), route("CGK", "SYD"), route("CGK", "JED"), route("CGK", "DEL"),
+      route("CGK", "BOM"), route("CGK", "HKG"), route("CGK", "TPE"), route("CGK", "NRT"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
