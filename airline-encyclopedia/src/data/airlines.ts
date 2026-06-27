@@ -566,6 +566,27 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "greater-bay-airlines",
+    name: "Greater Bay Airlines",
+    iataCode: "HB",
+    icaoCode: "HGB",
+    country: "Hong Kong",
+    founded: 2020,
+    headquarters: "Hong Kong",
+    alliance: "None",
+    logoColor: "#0A3F8F",
+    accentColor: "#E31B23",
+    history: `Greater Bay Airlines is a Hong Kong-based carrier created to serve leisure and regional business markets from Hong Kong International Airport. The airline took shape during a period of major change for Hong Kong aviation, receiving its air operator's certificate in 2021 and launching commercial passenger service in 2022.\n\nThe carrier was developed with a focused narrowbody model, using Boeing 737 aircraft to connect Hong Kong with popular destinations across Northeast and Southeast Asia. Its name references the Guangdong-Hong Kong-Macao Greater Bay Area, one of Asia's largest urban and economic regions, and the airline positions itself as a nimble challenger linking Hong Kong with high-demand short- and medium-haul markets.\n\nGreater Bay Airlines began with regional leisure routes and gradually expanded to major cities in Japan, South Korea, Taiwan, Thailand, and the Philippines. The airline's growth has coincided with the post-pandemic recovery of outbound travel from Hong Kong and renewed demand for affordable nonstop services around Asia.\n\nToday, Greater Bay Airlines remains a young carrier with a compact fleet and a simple service proposition. Its strategy centers on point-to-point flying from Hong Kong, efficient aircraft utilization, and selective expansion into routes where Hong Kong retains strong tourism, family, and business travel ties.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 8, passengers: "189 (single-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Greater_Bay_Airlines_Boeing_737-8JP_B-KJA.jpg/1280px-Greater_Bay_Airlines_Boeing_737-8JP_B-KJA.jpg", imageAlt: "Greater Bay Airlines B737-800", description: "The backbone of Greater Bay Airlines' fleet, used across short- and medium-haul routes from Hong Kong." },
+    ],
+    hubs: [a.HKG],
+    routes: [
+      route("HKG", "BKK"), route("HKG", "NRT"), route("HKG", "ICN"), route("HKG", "TPE"), route("HKG", "MNL"),
+      route("HKG", "SIN"), route("HKG", "KUL"), route("HKG", "CGK"), route("HKG", "PVG"), route("HKG", "PEK"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
