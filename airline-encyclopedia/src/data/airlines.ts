@@ -328,7 +328,7 @@ export const airlines: Airline[] = [
       route("DOH", "SIN"), route("DOH", "BKK"), route("DOH", "KUL"), route("DOH", "DEL"), route("DOH", "BOM"),
       route("DOH", "CGK"), route("DOH", "MNL"), route("DOH", "TPE"),
       route("DOH", "SYD"), route("DOH", "MEL"), route("DOH", "AKL"), route("DOH", "PER"),
-      route("DOH", "GRU"), route("DOH", "EZE"), route("DOH", "BOG"), route("BOG", "CCS"), route("DOH", "JNB"), route("DOH", "CPT"), route("DOH", "NBO"),
+      route("DOH", "GRU"), route("DOH", "EZE"), route("DOH", "BOG"), route("DOH", "CCS"), route("DOH", "JNB"), route("DOH", "CPT"), route("DOH", "NBO"),
       route("DOH", "ADD"), route("DOH", "CAI"), route("DOH", "CMN"), route("DOH", "LOS"), route("DOH", "ACC"),
     ],
   },
