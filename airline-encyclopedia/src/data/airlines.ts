@@ -566,6 +566,26 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "air-seoul",
+    name: "Air Seoul",
+    iataCode: "RS",
+    icaoCode: "ASV",
+    country: "South Korea",
+    founded: 2015,
+    headquarters: "Seoul, South Korea",
+    alliance: "None",
+    logoColor: "#00A99D",
+    accentColor: "#3A3A3A",
+    history: `Air Seoul was established on April 7, 2015, as a low-cost subsidiary of Asiana Airlines. The carrier was created to give the Asiana group a dedicated international budget brand from the Seoul market, complementing Air Busan's more southern Korean focus.\n\nAfter receiving its air operator's certificate in July 2016, Air Seoul began with domestic trial services before moving into scheduled international flights later that year. Its early network focused on leisure and regional destinations in Japan, China, and Southeast Asia, using transferred Airbus narrowbodies from Asiana.\n\nThe airline built its identity around a streamlined single-aisle operation, high-density seating, and a bright turquoise brand that differentiated it from its full-service parent. Incheon International Airport became the center of its network, allowing Air Seoul to tap into Seoul's large outbound leisure market and Asiana's broader customer base.\n\nFollowing Korean Air's acquisition of Asiana Airlines, Air Seoul is expected to be folded into the enlarged Jin Air low-cost platform as part of the Korean aviation group's post-merger restructuring. Until that integration is complete, Air Seoul remains a compact international LCC linking Seoul with nearby Asian markets.`,
+    fleet: [
+      { model: "A321-200", manufacturer: "Airbus", count: 6, passengers: "195-220 (1-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Air_Seoul_A321-231_%28HL8255%29_taxiing_at_Shizuoka_Airport_in_2017.jpg/1280px-Air_Seoul_A321-231_%28HL8255%29_taxiing_at_Shizuoka_Airport_in_2017.jpg", imageAlt: "Air Seoul A321-200", description: "Air Seoul's all-Airbus narrowbody fleet supports short- and medium-haul leisure routes from Incheon." },
+    ],
+    hubs: [a.ICN],
+    routes: [
+      route("ICN", "NRT"), route("ICN", "HKG"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
