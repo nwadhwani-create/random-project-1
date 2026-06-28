@@ -49,6 +49,14 @@ export const airports: Record<string, Airport> = {
   VIE: { code: "VIE", name: "Vienna International", city: "Vienna", country: "Austria", lat: 48.1103, lng: 16.5697 },
   WAW: { code: "WAW", name: "Warsaw Chopin", city: "Warsaw", country: "Poland", lat: 52.1657, lng: 20.9671 },
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
+  BUD: { code: "BUD", name: "Budapest Ferenc Liszt International", city: "Budapest", country: "Hungary", lat: 47.4394, lng: 19.2619 },
+  PRG: { code: "PRG", name: "Václav Havel Airport Prague", city: "Prague", country: "Czech Republic", lat: 50.1008, lng: 14.2600 },
+  NCE: { code: "NCE", name: "Nice Côte d'Azur", city: "Nice", country: "France", lat: 43.6653, lng: 7.2150 },
+  OLB: { code: "OLB", name: "Olbia Costa Smeralda", city: "Olbia", country: "Italy", lat: 40.8987, lng: 9.5176 },
+  OPO: { code: "OPO", name: "Porto Francisco Sá Carneiro", city: "Porto", country: "Portugal", lat: 41.2481, lng: -8.6814 },
+  MXP: { code: "MXP", name: "Milan Malpensa", city: "Milan", country: "Italy", lat: 45.6306, lng: 8.7281 },
+  EDI: { code: "EDI", name: "Edinburgh Airport", city: "Edinburgh", country: "United Kingdom", lat: 55.9500, lng: -3.3725 },
+  MLA: { code: "MLA", name: "Malta International", city: "Luqa", country: "Malta", lat: 35.8575, lng: 14.4775 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
@@ -70,6 +78,7 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  CMB: { code: "CMB", name: "Bandaranaike International", city: "Colombo", country: "Sri Lanka", lat: 7.1808, lng: 79.8841 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
@@ -85,6 +94,9 @@ export const airports: Record<string, Airport> = {
   LIM: { code: "LIM", name: "Jorge Chávez International", city: "Lima", country: "Peru", lat: -12.0219, lng: -77.1143 },
   CUN: { code: "CUN", name: "Cancún International", city: "Cancún", country: "Mexico", lat: 21.0365, lng: -86.8771 },
   PTY: { code: "PTY", name: "Tocumen International", city: "Panama City", country: "Panama", lat: 9.0714, lng: -79.3835 },
+  CCS: { code: "CCS", name: "Simón Bolívar International", city: "Caracas", country: "Venezuela", lat: 10.6012, lng: -66.9912 },
+  MAR: { code: "MAR", name: "La Chinita International", city: "Maracaibo", country: "Venezuela", lat: 10.5582, lng: -71.7279 },
+  CAP: { code: "CAP", name: "Cap-Haitien International", city: "Cap-Haitien", country: "Haiti", lat: 19.7330, lng: -72.1947 },
 
   JNB: { code: "JNB", name: "O.R. Tambo International", city: "Johannesburg", country: "South Africa", lat: -26.1392, lng: 28.2460 },
   CPT: { code: "CPT", name: "Cape Town International", city: "Cape Town", country: "South Africa", lat: -33.9648, lng: 18.6017 },
