@@ -3,6 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 import type { Route, Airport } from "@/data/types";
 
+const fallbackTileUrl = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(
+  `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+    <rect width="256" height="256" fill="#e0f2fe"/>
+    <path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#bae6fd" stroke-width="1"/>
+    <path d="M32 96C70 70 104 76 140 102S212 134 244 104M12 180C54 154 96 162 132 188S210 220 256 190" fill="none" stroke="#7dd3fc" stroke-width="2" opacity="0.45"/>
+  </svg>`
+)}`;
+
 interface RouteMapProps {
   routes: Route[];
   hubs: Airport[];
@@ -47,6 +55,7 @@ export default function RouteMap({
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
           maxZoom: 19,
+          errorTileUrl: fallbackTileUrl,
         }
       ).addTo(map);
 
