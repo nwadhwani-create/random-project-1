@@ -23,10 +23,14 @@ export default function RouteMap({
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
 
+    let isCancelled = false;
+
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error CSS import
       await import("leaflet/dist/leaflet.css");
+
+      if (isCancelled || !mapRef.current || mapInstanceRef.current) return;
 
       const map = L.map(mapRef.current!, {
         center: [20, 0],
@@ -47,6 +51,7 @@ export default function RouteMap({
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
           maxZoom: 19,
+          errorTileUrl: "/map-tile-fallback.svg",
         }
       ).addTo(map);
 
@@ -113,6 +118,7 @@ export default function RouteMap({
     loadMap();
 
     return () => {
+      isCancelled = true;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
@@ -150,6 +156,7 @@ export default function RouteMap({
       )}
       <div
         ref={mapRef}
+        aria-label={`${airlineName} route map`}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
       />

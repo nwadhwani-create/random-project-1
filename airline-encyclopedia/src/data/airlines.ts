@@ -462,6 +462,26 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "airjapan",
+    name: "AirJapan",
+    iataCode: "NQ",
+    icaoCode: "AJX",
+    country: "Japan",
+    founded: 1990,
+    headquarters: "Tokyo, Japan",
+    alliance: "None",
+    logoColor: "#1B5A7A",
+    accentColor: "#B8D8E8",
+    history: `AirJapan was established in 1990 as World Air Network, a charter airline within the ANA Group. The company was renamed Air Japan in 2001 and for many years operated international services on behalf of All Nippon Airways, using ANA aircraft and crews to support leisure and regional routes from Japan.\n\nIn 2022, ANA Holdings announced that AirJapan would become a distinct medium-haul brand positioned between full-service ANA and low-cost Peach Aviation. The new concept was designed around simple fares, a single economy cabin, and Boeing 787 aircraft configured for efficient service on high-demand Asian leisure routes.\n\nAirJapan launched scheduled passenger service under its own brand in February 2024, beginning with Tokyo Narita to Bangkok and quickly adding Seoul Incheon and Singapore. The airline uses Narita as its base, giving ANA Group a dedicated platform for price-sensitive travelers while still benefiting from the group's operational expertise.\n\nToday, AirJapan remains a young but notable part of Japan's airline market. Its all-Dreamliner operation gives it widebody comfort on medium-haul routes, while its focused network connects Tokyo with major Asian gateways that are well suited to both leisure demand and connecting traffic across the region.`,
+    fleet: [
+      { model: "B787-8", manufacturer: "Boeing", count: 6, passengers: "324 (1-class)", range: "7,355 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/All_Nippon_Airways_Boeing_787-8_Dreamliner_%28JA804A%29_at_Tokyo_Haneda_Airport.jpg/1280px-All_Nippon_Airways_Boeing_787-8_Dreamliner_%28JA804A%29_at_Tokyo_Haneda_Airport.jpg", imageAlt: "AirJapan B787-8", description: "AirJapan's single aircraft type, configured in an all-economy layout for medium-haul services from Tokyo Narita." },
+    ],
+    hubs: [a.NRT],
+    routes: [
+      route("NRT", "BKK"), route("NRT", "ICN"), route("NRT", "SIN"),
+    ],
+  },
+  {
     slug: "turkish-airlines",
     name: "Turkish Airlines",
     iataCode: "TK",
