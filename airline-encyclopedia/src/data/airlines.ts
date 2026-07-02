@@ -566,6 +566,27 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "akasa-air",
+    name: "Akasa Air",
+    iataCode: "QP",
+    icaoCode: "AKJ",
+    country: "India",
+    founded: 2021,
+    headquarters: "Mumbai, Maharashtra",
+    alliance: "None",
+    logoColor: "#4B145F",
+    accentColor: "#FF6B00",
+    history: `Akasa Air is one of India's newest scheduled carriers, founded in 2021 by aviation executives including Vinay Dube and Aditya Ghosh, with backing from investor Rakesh Jhunjhunwala. The airline was established as SNV Aviation and launched with the brand promise "It's Your Sky," positioning itself as a low-cost carrier focused on affordability, reliability, and a young fleet.\n\nThe airline received its air operator certificate from India's Directorate General of Civil Aviation in July 2022 and began commercial service on August 7, 2022, with an inaugural Mumbai-Ahmedabad flight. Akasa expanded quickly across Indian domestic markets, using Mumbai and Bengaluru as important operating bases and connecting metro cities with fast-growing regional destinations.\n\nAkasa's growth strategy has centered on the Boeing 737 MAX family. The airline placed large aircraft orders before and after launch, giving it one of the youngest fleets in India and the scale to compete in a busy low-cost market. The uniform narrowbody fleet supports efficient turnarounds, dense seating, and steadily expanding medium-haul routes.\n\nIn March 2024, Akasa began international service with flights from Mumbai to Doha, becoming the first Indian airline to go overseas within roughly 19 months of launch. It has since added Gulf and nearby international markets while continuing to grow domestically, making it a notable new challenger in Indian aviation.`,
+    fleet: [
+      { model: "B737 MAX 8 / MAX 200", manufacturer: "Boeing", count: 39, passengers: "185-197 (1-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Akasa_Air_VT-YAO_Chennai_Jul25_A7CR_06029.jpg/1280px-Akasa_Air_VT-YAO_Chennai_Jul25_A7CR_06029.jpg", imageAlt: "Akasa Air Boeing 737 MAX", description: "All-economy 737 MAX family aircraft forming Akasa's young, efficient low-cost fleet for domestic India and short international routes." },
+    ],
+    hubs: [a.BOM],
+    routes: [
+      route("BOM", "DEL"), route("BOM", "DOH"), route("BOM", "AUH"), route("BOM", "RUH"), route("BOM", "JED"),
+      route("DEL", "BOM"), route("DEL", "DOH"), route("DEL", "AUH"), route("DEL", "RUH"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
