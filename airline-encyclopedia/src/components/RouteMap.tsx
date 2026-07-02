@@ -10,6 +10,15 @@ interface RouteMapProps {
   accentColor: string;
 }
 
+const fallbackTileUrl = `data:image/svg+xml;utf8,${encodeURIComponent(
+  `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+    <rect width="256" height="256" fill="#f8fafc"/>
+    <path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#e2e8f0" stroke-width="1"/>
+    <path d="M18 158C52 128 84 146 110 120C140 90 174 110 236 72" fill="none" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+    <path d="M24 176C66 154 92 180 132 150C164 126 196 148 238 130" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+  </svg>`
+)}`;
+
 export default function RouteMap({
   routes,
   hubs,
@@ -21,13 +30,16 @@ export default function RouteMap({
 
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
+    let isCancelled = false;
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
       // @ts-expect-error CSS import
       await import("leaflet/dist/leaflet.css");
 
-      const map = L.map(mapRef.current!, {
+      if (isCancelled || !mapRef.current || mapInstanceRef.current) return;
+
+      const map = L.map(mapRef.current, {
         center: [20, 0],
         zoom: 2,
         minZoom: 2,
@@ -46,6 +58,7 @@ export default function RouteMap({
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
           maxZoom: 19,
+          errorTileUrl: fallbackTileUrl,
         }
       ).addTo(map);
 
@@ -112,6 +125,7 @@ export default function RouteMap({
     loadMap();
 
     return () => {
+      isCancelled = true;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
