@@ -34,7 +34,6 @@ export default function AirlinePageClient({ airline }: Props) {
   const fleetSize = airline.fleet.reduce((s, f) => s + f.count, 0);
   const uniqueDestinations = new Set<string>();
   airline.routes.forEach((r) => {
-    if (r.from?.code) uniqueDestinations.add(r.from.code);
     if (r.to?.code) uniqueDestinations.add(r.to.code);
   });
 
@@ -114,7 +113,7 @@ export default function AirlinePageClient({ airline }: Props) {
                 {airline.country} &middot; Founded {airline.founded} &middot; HQ: {airline.headquarters}
               </p>
             </div>
-            <div className="flex gap-6 sm:gap-8 text-center">
+            <div className="flex flex-wrap justify-start sm:justify-end gap-6 sm:gap-8 text-center">
               <div>
                 <div className="text-2xl sm:text-3xl font-bold">{fleetSize}</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Aircraft</div>
@@ -129,7 +128,9 @@ export default function AirlinePageClient({ airline }: Props) {
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-bold">{airline.hubs.length}</div>
-                <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">Hubs</div>
+                <div className="text-xs text-white/60 uppercase tracking-wider mt-0.5">
+                  {airline.hubs.length === 1 ? "Hub" : "Hubs"}
+                </div>
               </div>
             </div>
           </div>
