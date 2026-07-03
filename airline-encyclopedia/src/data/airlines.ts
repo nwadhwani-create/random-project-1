@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "sichuan-airlines",
+    name: "Sichuan Airlines",
+    iataCode: "3U",
+    icaoCode: "CSC",
+    country: "China",
+    founded: 1986,
+    headquarters: "Chengdu, Sichuan, China",
+    alliance: "None",
+    logoColor: "#D71920",
+    accentColor: "#005BAA",
+    history: `Sichuan Airlines was founded on September 19, 1986, by the Sichuan provincial government and began commercial operations in 1988. From its base in Chengdu, the carrier grew alongside western China's economic development, first connecting Sichuan with major domestic cities before expanding across Asia and beyond.\n\nThe airline built its reputation around Chengdu, a city that became one of China's most important inland aviation hubs. As Chengdu's airport infrastructure expanded from Shuangliu to the newer Tianfu International Airport, Sichuan Airlines gained room to build a larger connecting network serving western China, coastal business centers, and international leisure markets.\n\nSichuan Airlines is also known for its all-Airbus mainline fleet and its distinctive panda-themed aircraft, including an Airbus A350 used to promote Chengdu and Sichuan tourism. The airline has used widebody aircraft to open intercontinental routes while keeping a dense narrowbody operation across China and East Asia.\n\nToday, Sichuan Airlines is one of China's largest regional carriers, serving a broad domestic network from Chengdu and Chongqing with international flights to destinations in Europe, Oceania, Southeast Asia, Northeast Asia, and the Middle East. Its growth reflects Chengdu's emergence as a major aviation gateway for western China.`,
+    fleet: [
+      { model: "A350-900", manufacturer: "Airbus", count: 4, passengers: "303 (3-class)", range: "8,100 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/201908%20B-306N%20Panda%20Route%20Livery%20at%20CTU.jpg", imageAlt: "Sichuan Airlines A350-900", description: "Long-haul flagship, including the airline's panda-themed aircraft promoting Chengdu and Sichuan tourism." },
+      { model: "A330-300", manufacturer: "Airbus", count: 16, passengers: "301 (2-class)", range: "6,350 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan%20Airlines%20Airbus%20A330-343.jpg", imageAlt: "Sichuan Airlines A330-300", description: "Widebody workhorse for high-demand domestic trunk routes and medium-to-long-haul international services." },
+      { model: "A330-200", manufacturer: "Airbus", count: 6, passengers: "274 (2-class)", range: "7,250 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan%20Airlines%20Airbus%20A330-243.jpg", imageAlt: "Sichuan Airlines A330-200", description: "Long-range widebody suited to thinner international routes from western China." },
+      { model: "A321neo", manufacturer: "Airbus", count: 18, passengers: "194 (2-class)", range: "4,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan%20Airlines%20Airbus%20A321neo.jpg", imageAlt: "Sichuan Airlines A321neo", description: "Efficient narrowbody for longer domestic and regional routes from Chengdu." },
+      { model: "A320neo", manufacturer: "Airbus", count: 30, passengers: "180 (2-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan%20Airlines%20Airbus%20A320neo.jpg", imageAlt: "Sichuan Airlines A320neo", description: "Modern short-to-medium-haul aircraft supporting the airline's dense domestic schedule." },
+      { model: "A320-200", manufacturer: "Airbus", count: 70, passengers: "180 (2-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sichuan%20Airlines%20Airbus%20A320-200.jpg", imageAlt: "Sichuan Airlines A320-200", description: "Core fleet member linking Chengdu with cities across China and nearby Asian markets." },
+    ],
+    hubs: [a.TFU],
+    routes: [
+      route("TFU", "PEK"), route("TFU", "PVG"), route("TFU", "HKG"), route("TFU", "TPE"), route("TFU", "MNL"),
+      route("TFU", "SIN"), route("TFU", "BKK"), route("TFU", "KUL"), route("TFU", "CGK"), route("TFU", "DEL"),
+      route("TFU", "NRT"), route("TFU", "HND"), route("TFU", "ICN"), route("TFU", "DXB"), route("TFU", "DOH"),
+      route("TFU", "LHR"), route("TFU", "FCO"), route("TFU", "IST"), route("TFU", "SYD"), route("TFU", "MEL"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
