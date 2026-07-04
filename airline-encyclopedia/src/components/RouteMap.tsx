@@ -25,7 +25,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Leaflet ships CSS that Next can load client-side.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
@@ -96,7 +96,7 @@ export default function RouteMap({
             `<div style="font-size:12px;color:#475569">${airport.name}</div>` +
             `<div style="font-size:12px;color:#64748b">${airport.city}, ${airport.country}</div>` +
             (isHub
-              ? `<div style="margin-top:6px;font-size:11px;font-weight:600;color:${accentColor}">HUB</div>`
+              ? `<div style="margin-top:6px;font-size:11px;font-weight:600;color:${accentColor}">${airlineName} HUB</div>`
               : "") +
             `</div>`
         );
@@ -118,7 +118,7 @@ export default function RouteMap({
         mapInstanceRef.current = null;
       }
     };
-  }, [routes, hubs, accentColor]);
+  }, [routes, hubs, accentColor, airlineName]);
 
   return (
     <div className="relative">
