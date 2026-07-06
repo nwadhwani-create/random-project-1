@@ -56,6 +56,10 @@ export const airports: Record<string, Airport> = {
   RUH: { code: "RUH", name: "King Khalid International", city: "Riyadh", country: "Saudi Arabia", lat: 24.9576, lng: 46.6988 },
   JED: { code: "JED", name: "King Abdulaziz International", city: "Jeddah", country: "Saudi Arabia", lat: 21.6796, lng: 39.1565 },
 
+  KHI: { code: "KHI", name: "Jinnah International", city: "Karachi", country: "Pakistan", lat: 24.9065, lng: 67.1608 },
+  LHE: { code: "LHE", name: "Allama Iqbal International", city: "Lahore", country: "Pakistan", lat: 31.5216, lng: 74.4036 },
+  ISB: { code: "ISB", name: "Islamabad International", city: "Islamabad", country: "Pakistan", lat: 33.5607, lng: 72.8516 },
+
   NRT: { code: "NRT", name: "Narita International", city: "Tokyo", country: "Japan", lat: 35.7720, lng: 140.3929 },
   HND: { code: "HND", name: "Tokyo Haneda", city: "Tokyo", country: "Japan", lat: 35.5494, lng: 139.7798 },
   ICN: { code: "ICN", name: "Incheon International", city: "Seoul", country: "South Korea", lat: 37.4602, lng: 126.4407 },
