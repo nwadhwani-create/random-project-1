@@ -24,6 +24,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
+      // @ts-expect-error Leaflet CSS is loaded dynamically for the client-only map.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
