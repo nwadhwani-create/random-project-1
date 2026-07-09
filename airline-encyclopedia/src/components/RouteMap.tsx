@@ -3,6 +3,11 @@
 import { useEffect, useRef, useState } from "react";
 import type { Route, Airport } from "@/data/types";
 
+const fallbackTileSvg = encodeURIComponent(
+  `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#dbeafe"/></linearGradient></defs><rect width="256" height="256" fill="url(#g)"/><path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#bfdbfe" stroke-width="1" opacity="0.55"/><path d="M38 88C64 70 94 72 116 92C141 114 172 103 214 80M24 170C56 146 87 151 114 174C145 201 179 190 231 159" fill="none" stroke="#93c5fd" stroke-width="3" opacity="0.35"/></svg>`
+);
+const fallbackTileUrl = `data:image/svg+xml;charset=UTF-8,${fallbackTileSvg}`;
+
 interface RouteMapProps {
   routes: Route[];
   hubs: Airport[];
@@ -25,7 +30,7 @@ export default function RouteMap({
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Leaflet ships its CSS as a side-effect import.
       await import("leaflet/dist/leaflet.css");
 
       const map = L.map(mapRef.current!, {
@@ -47,6 +52,7 @@ export default function RouteMap({
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
           subdomains: "abcd",
           maxZoom: 19,
+          errorTileUrl: fallbackTileUrl,
         }
       ).addTo(map);
 
@@ -150,6 +156,8 @@ export default function RouteMap({
       )}
       <div
         ref={mapRef}
+        role="img"
+        aria-label={`${airlineName} route map`}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
       />
