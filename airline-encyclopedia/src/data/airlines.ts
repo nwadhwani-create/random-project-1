@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "philippines-airasia",
+    name: "Philippines AirAsia",
+    iataCode: "Z2",
+    icaoCode: "APG",
+    country: "Philippines",
+    founded: 2010,
+    headquarters: "Pasay, Philippines",
+    alliance: "None",
+    logoColor: "#ED1B2F",
+    accentColor: "#FFFFFF",
+    history: `Philippines AirAsia was founded in 2010 as the Philippine affiliate of the AirAsia Group, bringing the Southeast Asian low-cost carrier model to one of the region's most dynamic island markets. The airline received its air operator certificate in 2012 and launched service from Clark International Airport before shifting more of its network toward Manila's Ninoy Aquino International Airport.\n\nThe carrier expanded quickly through its relationship with Zest Air, which was rebranded as AirAsia Zest and later integrated into Philippines AirAsia. This gave the airline a broader domestic footprint and helped it compete in the Philippines' busy leisure and visiting-friends-and-relatives markets, where low fares and frequent service are central to demand.\n\nPhilippines AirAsia built its brand around simple fares, dense Airbus A320 operations, and connections into the wider AirAsia network. From Manila, the airline links travelers to major regional gateways such as Kuala Lumpur, Bangkok, Taipei, Hong Kong, Seoul, and Tokyo, while domestic flying connects popular tourism centers across the archipelago.\n\nAfter the severe disruption caused by the COVID-19 pandemic, Philippines AirAsia rebuilt around a leaner fleet and high-demand leisure routes. Today, it remains one of the country's key low-cost airlines and an important part of AirAsia's pan-Asian network strategy, connecting the Philippines with neighboring economies across East and Southeast Asia.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 18, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/AirAsia_Airbus_A320-216_RP-C8972.jpg/1280px-AirAsia_Airbus_A320-216_RP-C8972.jpg", imageAlt: "Philippines AirAsia A320-200", description: "Core narrowbody aircraft for domestic Philippine routes and short-haul international services." },
+      { model: "A320neo", manufacturer: "Airbus", count: 3, passengers: "186 (1-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/AirAsia_Airbus_A320neo_%289M-AGB%29_at_Taipei_Songshan_Airport.jpg/1280px-AirAsia_Airbus_A320neo_%289M-AGB%29_at_Taipei_Songshan_Airport.jpg", imageAlt: "AirAsia A320neo", description: "New-generation A320 family aircraft offering lower fuel burn for dense regional routes." },
+    ],
+    hubs: [a.MNL],
+    routes: [
+      route("MNL", "HKG"), route("MNL", "SIN"), route("MNL", "BKK"), route("MNL", "KUL"), route("MNL", "TPE"),
+      route("MNL", "ICN"), route("MNL", "NRT"), route("MNL", "CGK"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
