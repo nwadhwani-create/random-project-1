@@ -598,6 +598,32 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-india-express",
+    name: "Air India Express",
+    iataCode: "IX",
+    icaoCode: "AXB",
+    country: "India",
+    founded: 2005,
+    headquarters: "Gurugram, Haryana",
+    alliance: "None",
+    logoColor: "#FF5F00",
+    accentColor: "#00A3A3",
+    history: `Air India Express was launched in 2005 as Air India's low-cost international subsidiary, initially focused on connecting Indian cities with the Middle East and Southeast Asia. The carrier built its early identity around point-to-point service, high aircraft utilization, and affordable fares for price-sensitive leisure, visiting-friends-and-relatives, and labor traffic.\n\nFor much of its first two decades, Air India Express operated a relatively compact Boeing 737 fleet, linking Indian metro and secondary cities with Gulf markets such as Dubai, Abu Dhabi, Riyadh, and Jeddah. Its network complemented Air India's full-service long-haul operation while giving the group a dedicated platform for short- and medium-haul low-cost flying.\n\nAfter Tata Sons acquired Air India in 2021, Air India Express became part of a wider group transformation. The airline was integrated with AIX Connect, formerly AirAsia India, and the combined carrier adopted a refreshed brand identity with a new orange, turquoise, and patterned-tail livery. The merger expanded Air India Express from a primarily international narrowbody operator into a larger domestic and regional airline.\n\nToday, Air India Express is positioned as the Air India Group's low-cost arm, with major operations at Delhi, Mumbai, and Bengaluru and a growing mix of Boeing 737 MAX and Airbus A320-family aircraft. The airline continues to focus on value-oriented travel across India, the Gulf, and Southeast Asia while feeding the broader Air India network.`,
+    fleet: [
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 53, passengers: "189 (1-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Air_India_Express_Boeing_737_MAX_8.jpg/1280px-Air_India_Express_Boeing_737_MAX_8.jpg", imageAlt: "Air India Express B737 MAX 8", description: "New-generation narrowbody driving the airline's post-merger growth across domestic and regional markets." },
+      { model: "B737-800", manufacturer: "Boeing", count: 26, passengers: "189 (1-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Air_India_Express_Boeing_737-800.jpg/1280px-Air_India_Express_Boeing_737-800.jpg", imageAlt: "Air India Express B737-800", description: "Long-serving workhorse for Gulf, domestic, and leisure routes." },
+      { model: "A320neo", manufacturer: "Airbus", count: 12, passengers: "186 (1-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Air_India_Express_Airbus_A320neo.jpg/1280px-Air_India_Express_Airbus_A320neo.jpg", imageAlt: "Air India Express A320neo", description: "Fuel-efficient Airbus narrowbody inherited through the AIX Connect integration." },
+      { model: "A321neo", manufacturer: "Airbus", count: 4, passengers: "192 (1-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Air_India_Express_Airbus_A321neo.jpg/1280px-Air_India_Express_Airbus_A321neo.jpg", imageAlt: "Air India Express A321neo", description: "Higher-capacity narrowbody suited to dense domestic and short-haul international routes." },
+    ],
+    hubs: [a.DEL, a.BOM],
+    routes: [
+      route("DEL", "DXB"), route("DEL", "AUH"), route("DEL", "RUH"), route("DEL", "JED"), route("DEL", "SIN"),
+      route("DEL", "BKK"), route("DEL", "KUL"), route("DEL", "MNL"), route("DEL", "BOM"), route("DEL", "CGK"),
+      route("BOM", "DXB"), route("BOM", "AUH"), route("BOM", "RUH"), route("BOM", "JED"), route("BOM", "SIN"),
+      route("BOM", "BKK"), route("BOM", "KUL"), route("BOM", "MNL"), route("BOM", "DEL"), route("BOM", "CGK"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
