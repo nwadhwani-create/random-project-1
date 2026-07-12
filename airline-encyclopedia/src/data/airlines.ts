@@ -566,6 +566,28 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "eastar-jet",
+    name: "Eastar Jet",
+    iataCode: "ZE",
+    icaoCode: "ESR",
+    country: "South Korea",
+    founded: 2007,
+    headquarters: "Seoul, South Korea",
+    alliance: "None",
+    logoColor: "#E30613",
+    accentColor: "#FDB913",
+    history: `Eastar Jet was established in October 2007 as a South Korean low-cost carrier and received its air operator's certificate in 2008. The airline launched commercial service in January 2009 with a Boeing 737 flight between Seoul Gimpo and Jeju, entering one of the world's busiest domestic air corridors with a simple fare structure and high-density cabin configuration.\n\nThe carrier expanded quickly during its first decade, adding domestic routes from Seoul, Jeju, and regional Korean airports while building a short-haul international network across Japan, China, Taiwan, Hong Kong, Southeast Asia, and other leisure markets. Its all-Boeing 737 fleet gave Eastar Jet a common aircraft platform suited to both high-frequency domestic operations and medium-haul regional flights from Korea.\n\nEastar Jet faced a major crisis during the COVID-19 pandemic, when international travel restrictions and a failed acquisition attempt by Jeju Air led to a prolonged suspension and restructuring. After new ownership and recapitalization, the airline resumed operations in 2023 with a much smaller fleet and began rebuilding around domestic trunk routes and selected international services.\n\nToday, Eastar Jet is again growing as a focused Korean low-cost carrier. The airline has been modernizing its fleet with Boeing 737 MAX 8 aircraft while restoring regional links from Seoul Incheon to destinations such as Tokyo, Taipei, Shanghai, Hong Kong, and Bangkok, positioning itself as a revived competitor in Korea's busy leisure travel market.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 10, passengers: "189 (1-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Eastar_Jet_Boeing_737-8SH_HL8269.jpg/1280px-Eastar_Jet_Boeing_737-8SH_HL8269.jpg", imageAlt: "Eastar Jet B737-800", description: "Core narrowbody aircraft used across Eastar Jet's domestic Korean and regional Asian network." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 10, passengers: "189 (1-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Eastar_Jet_Boeing_737_MAX_8_HL8340.jpg/1280px-Eastar_Jet_Boeing_737_MAX_8_HL8340.jpg", imageAlt: "Eastar Jet B737 MAX 8", description: "New-generation 737 supporting the airline's post-restructuring fleet renewal and lower-fuel-burn regional services." },
+    ],
+    hubs: [a.ICN],
+    routes: [
+      route("ICN", "NRT"), route("ICN", "PVG"), route("ICN", "HKG"), route("ICN", "TPE"), route("ICN", "BKK"),
+      route("ICN", "SIN"), route("ICN", "KUL"), route("ICN", "MNL"), route("ICN", "CGK"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",

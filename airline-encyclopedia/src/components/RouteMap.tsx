@@ -13,7 +13,6 @@ interface RouteMapProps {
 export default function RouteMap({
   routes,
   hubs,
-  airlineName,
   accentColor,
 }: RouteMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
@@ -22,11 +21,14 @@ export default function RouteMap({
 
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
+    let cancelled = false;
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Next bundles Leaflet's CSS side-effect import, but TypeScript has no declaration for it.
       await import("leaflet/dist/leaflet.css");
+
+      if (cancelled || !mapRef.current || mapInstanceRef.current) return;
 
       const map = L.map(mapRef.current!, {
         center: [20, 0],
@@ -113,6 +115,7 @@ export default function RouteMap({
     loadMap();
 
     return () => {
+      cancelled = true;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
