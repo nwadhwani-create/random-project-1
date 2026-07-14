@@ -22,11 +22,14 @@ export default function RouteMap({
 
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
+    let cancelled = false;
 
     const loadMap = async () => {
       const L = (await import("leaflet")).default;
-      // @ts-ignore CSS import
+      // @ts-expect-error Leaflet's CSS package has no TypeScript declaration.
       await import("leaflet/dist/leaflet.css");
+
+      if (cancelled || !mapRef.current || mapInstanceRef.current) return;
 
       const map = L.map(mapRef.current!, {
         center: [20, 0],
@@ -113,6 +116,7 @@ export default function RouteMap({
     loadMap();
 
     return () => {
+      cancelled = true;
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
@@ -150,6 +154,7 @@ export default function RouteMap({
       )}
       <div
         ref={mapRef}
+        aria-label={`${airlineName} route map`}
         className="w-full rounded-xl border border-[var(--color-border)] overflow-hidden"
         style={{ height: "520px" }}
       />
