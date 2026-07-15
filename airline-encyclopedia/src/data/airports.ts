@@ -62,6 +62,7 @@ export const airports: Record<string, Airport> = {
   PEK: { code: "PEK", name: "Beijing Capital International", city: "Beijing", country: "China", lat: 40.0799, lng: 116.6031 },
   PVG: { code: "PVG", name: "Shanghai Pudong International", city: "Shanghai", country: "China", lat: 31.1443, lng: 121.8083 },
   HKG: { code: "HKG", name: "Hong Kong International", city: "Hong Kong", country: "China", lat: 22.3080, lng: 113.9185 },
+  SZX: { code: "SZX", name: "Shenzhen Bao'an International", city: "Shenzhen", country: "China", lat: 22.6393, lng: 113.8107 },
   SIN: { code: "SIN", name: "Singapore Changi", city: "Singapore", country: "Singapore", lat: 1.3644, lng: 103.9915 },
   BKK: { code: "BKK", name: "Suvarnabhumi Airport", city: "Bangkok", country: "Thailand", lat: 13.6900, lng: 100.7501 },
   KUL: { code: "KUL", name: "Kuala Lumpur International", city: "Kuala Lumpur", country: "Malaysia", lat: 2.7456, lng: 101.7099 },

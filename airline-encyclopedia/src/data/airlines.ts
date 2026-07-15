@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "shenzhen-airlines",
+    name: "Shenzhen Airlines",
+    iataCode: "ZH",
+    icaoCode: "CSZ",
+    country: "China",
+    founded: 1992,
+    headquarters: "Shenzhen, Guangdong, China",
+    alliance: "Star Alliance",
+    logoColor: "#C8102E",
+    accentColor: "#F2B134",
+    history: `Shenzhen Airlines was founded in November 1992 as one of China's new generation of locally backed commercial carriers. It began operations on September 17, 1993, flying from Shenzhen with a small Boeing 737 fleet at a time when the Pearl River Delta was emerging as one of the country's most important economic regions.\n\nThe airline expanded alongside Shenzhen, building a broad domestic network from Shenzhen Bao'an International Airport and establishing additional bases across China. Its network now links the Greater Bay Area with most major Chinese cities while extending throughout East and Southeast Asia and to selected long-haul destinations.\n\nAir China acquired a controlling 51 percent stake in Shenzhen Airlines in 2010, bringing the carrier into the Air China group while preserving its own brand and Shenzhen-centered network. On November 29, 2012, Shenzhen Airlines joined Star Alliance, becoming the alliance's second member airline from mainland China.\n\nToday, Shenzhen Airlines operates more than 250 domestic and international routes and carries nearly 40 million passengers annually. Its fleet is dominated by Airbus A320-family and Boeing 737 aircraft, supported by Airbus widebodies on longer services such as Shenzhen to London. The airline remains a key aviation link for southern China and an important part of Air China's wider network.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 76, passengers: "152 (2-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/B-6358%20at%20SZX%2020190331.jpg", imageAlt: "Shenzhen Airlines A320-200", description: "The largest subfleet, serving high-frequency domestic and regional routes from Shenzhen." },
+      { model: "A320neo", manufacturer: "Airbus", count: 30, passengers: "152-168 (2-class)", range: "3,500 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shenzhen%20Airlines%20Airbus%20A320neo.jpg", imageAlt: "Shenzhen Airlines A320neo", description: "Fuel-efficient narrowbody that is progressively modernizing the airline's short-haul fleet." },
+      { model: "A321neo", manufacturer: "Airbus", count: 6, passengers: "184 (3-class)", range: "4,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shenzhen%20Airlines%20Airbus%20A321neo.jpg", imageAlt: "Shenzhen Airlines A321neo", description: "High-capacity narrowbody with lie-flat business-class seating for longer regional services." },
+      { model: "A330-300", manufacturer: "Airbus", count: 6, passengers: "309 (3-class)", range: "6,350 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shenzhen%20Airlines%20Airbus%20A330-300.jpg", imageAlt: "Shenzhen Airlines A330-300", description: "Widebody used on the carrier's longest and highest-demand international routes." },
+      { model: "A350-900", manufacturer: "Airbus", count: 1, passengers: "312 (3-class)", range: "8,100 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shenzhen%20Airlines%20Airbus%20A350-900.jpg", imageAlt: "Shenzhen Airlines A350-900", description: "Next-generation widebody introduced to support long-haul growth and fleet modernization." },
+      { model: "B737-800", manufacturer: "Boeing", count: 71, passengers: "162 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shenzhen%20Airlines%20Boeing%20737-800.jpg", imageAlt: "Shenzhen Airlines B737-800", description: "Long-serving domestic workhorse connecting Shenzhen and secondary bases across China." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 15, passengers: "162 (2-class)", range: "3,550 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shenzhen%20Airlines%20Boeing%20737%20MAX%208.jpg", imageAlt: "Shenzhen Airlines B737 MAX 8", description: "New-generation Boeing narrowbody for domestic trunk routes and regional international services." },
+    ],
+    hubs: [a.SZX],
+    routes: [
+      route("SZX", "PEK"), route("SZX", "PVG"), route("SZX", "NRT"), route("SZX", "ICN"),
+      route("SZX", "SIN"), route("SZX", "BKK"), route("SZX", "KUL"), route("SZX", "MNL"),
+      route("SZX", "TPE"), route("SZX", "LHR"), route("SZX", "BCN"), route("SZX", "DOH"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
