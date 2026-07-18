@@ -598,6 +598,32 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "drukair",
+    name: "Drukair",
+    iataCode: "KB",
+    icaoCode: "DRK",
+    country: "Bhutan",
+    founded: 1981,
+    headquarters: "Paro, Bhutan",
+    alliance: "None",
+    logoColor: "#D85B16",
+    accentColor: "#F2B705",
+    history: `Drukair — Royal Bhutan Airlines was founded on April 5, 1981, by royal proclamation of Bhutan's fourth king, Jigme Singye Wangchuck. The national carrier began commercial operations on February 11, 1983, flying an 18-seat Dornier 228 between Paro and Kolkata. The service gave the landlocked Himalayan kingdom its first scheduled air link to the outside world.\n\nDrukair introduced the BAe 146 in November 1988, gaining the performance needed to expand from Paro's high-altitude runway in a narrow mountain valley. The jet enabled new services across South and Southeast Asia and remained central to the airline until Airbus A319s began replacing it in 2004. Operations at Paro require specially trained pilots because approaches wind between surrounding peaks and are conducted in visual conditions.\n\nThe carrier broadened its network and fleet during the following decades. An ATR 42-600 joined in 2019 to serve shorter domestic and regional routes, followed by Drukair's first Airbus A320neo in 2020. A Pilatus PC-24 light jet supports charter and specialist missions. Royal Bhutan Helicopter Services was amalgamated with Drukair in November 2022, bringing Bhutan's fixed-wing and state helicopter operations together.\n\nToday, Drukair operates scheduled services from Paro to 10 international and three domestic destinations. Its network connects Bhutan with Bangladesh, India, Nepal, Singapore, Thailand, and the United Arab Emirates, while domestic flights link remote communities across the kingdom. The airline remains a vital part of Bhutan's tourism, trade, and national connectivity.`,
+    fleet: [
+      { model: "A319-100", manufacturer: "Airbus", count: 3, passengers: "118 (2-class)", range: "3,740 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A319-112%2C_Druk_Air_-_Royal_Bhutan_Airlines_JP7534594.jpg", imageAlt: "Drukair Airbus A319-100", description: "The backbone of Drukair's international fleet, selected for its performance on Paro's demanding high-altitude approaches." },
+      { model: "A320neo", manufacturer: "Airbus", count: 1, passengers: "140 (2-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A319-112%2C_Druk_Air_-_Royal_Bhutan_Airlines_JP7534594.jpg", imageAlt: "Drukair Airbus A320neo", description: "The airline's largest aircraft, combining additional capacity with lower fuel consumption on high-demand international services." },
+      { model: "ATR 42-600", manufacturer: "ATR", count: 1, passengers: "40 (2-class)", range: "726 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Drukair_ATR_at_Paro.jpg", imageAlt: "Drukair ATR 42-600", description: "A short-field turboprop used for domestic links and shorter regional routes from Bhutan." },
+      { model: "PC-24", manufacturer: "Pilatus", count: 1, passengers: "7", range: "2,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A319-112%2C_Druk_Air_-_Royal_Bhutan_Airlines_JP7534594.jpg", imageAlt: "Drukair Pilatus PC-24", description: "A versatile light jet used for charter, medical evacuation, and other specialist missions." },
+    ],
+    hubs: [a.PBH],
+    routes: [
+      route("PBH", "BKK"), route("PBH", "DEL"), route("PBH", "KTM"), route("PBH", "SIN"),
+      route("PBH", "DXB"), route("PBH", "DAC"), route("PBH", "CCU"), route("PBH", "GAU"),
+      route("PBH", "IXB"), route("PBH", "GAY"), route("PBH", "BUT"), route("PBH", "YON"),
+      route("PBH", "GLU"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
