@@ -566,6 +566,35 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "myanmar-airways-international",
+    name: "Myanmar Airways International",
+    iataCode: "8M",
+    icaoCode: "MMA",
+    country: "Myanmar",
+    founded: 1993,
+    headquarters: "Yangon, Myanmar",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#F6C344",
+    history: `Myanmar Airways International (MAI) was founded in 1993 as a joint venture between state-owned Myanma Airways and Singapore-based Highsonic Enterprise. The new carrier took responsibility for international services while Myanma Airways focused on domestic flying. MAI operated its inaugural service from Yangon to Singapore in August 1993 using a Boeing 757-200ER.
+
+The airline's ownership and fleet evolved considerably over the following decades. After periods under several investors, Kanbawza Bank acquired a controlling stake in 2010 and supported a shift toward an Airbus narrowbody fleet. In 2019, MAI and sister carrier Mingalar, formerly Air KBZ, came under the ownership of the 24 Hour Group of Companies.
+
+Today, MAI operates from its primary hubs at Yangon and Mandalay with Airbus A319 and A320 aircraft, Embraer E190 regional jets, and ATR 72 turboprops. Its network connects Myanmar with destinations across Southeast and East Asia, India, and the Middle East, while cooperation with sister carrier Mingalar extends its domestic reach.`,
+    fleet: [
+      { model: "A319-100", manufacturer: "Airbus", count: 6, passengers: "113-144", range: "3,700 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/XY-AGR%20%2821424306604%29.jpg", imageAlt: "Myanmar Airways International A319-100", description: "The core of MAI's fleet, serving domestic sectors and international routes across Asia." },
+      { model: "A320-200", manufacturer: "Airbus", count: 2, passengers: "170-180", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/British_Airways_Airbus_A320-232_%28G-EUYU%29_at_London_Heathrow_Airport.jpg/1280px-British_Airways_Airbus_A320-232_%28G-EUYU%29_at_London_Heathrow_Airport.jpg", imageAlt: "Airbus A320-200", description: "Higher-capacity narrowbody used on busy regional services from Yangon and Mandalay." },
+      { model: "E190", manufacturer: "Embraer", count: 2, passengers: "98", range: "2,450 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Embraer%20190%20House%20Colors.jpg", imageAlt: "Embraer E190", description: "Regional jet that gives MAI the flexibility to serve thinner domestic and international routes." },
+      { model: "ATR 72-600", manufacturer: "ATR", count: 1, passengers: "68", range: "825 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:Redirect/file/ATR%2072-600%20F-WWEY.jpg", imageAlt: "ATR 72-600", description: "Turboprop suited to short domestic sectors and airports across Myanmar." },
+    ],
+    hubs: [a.RGN, a.MDL],
+    routes: [
+      route("RGN", "MDL"), route("RGN", "BKK"), route("RGN", "SIN"), route("RGN", "KUL"),
+      route("RGN", "DEL"), route("RGN", "ICN"), route("RGN", "PEK"), route("RGN", "TPE"),
+      route("MDL", "BKK"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
