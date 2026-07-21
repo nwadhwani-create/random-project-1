@@ -598,6 +598,30 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-arabia",
+    name: "Air Arabia",
+    iataCode: "G9",
+    icaoCode: "ABY",
+    country: "United Arab Emirates",
+    founded: 2003,
+    headquarters: "Sharjah, United Arab Emirates",
+    alliance: "None",
+    logoColor: "#D71920",
+    accentColor: "#FFFFFF",
+    history: `Air Arabia was established in 2003 as the first low-cost carrier in the Middle East and North Africa. It began operations from Sharjah International Airport on October 28, 2003, with two aircraft serving five routes, introducing a no-frills model designed to make air travel more accessible across the region.\n\nThe airline expanded quickly by combining a single-family Airbus fleet with high aircraft utilization and a growing network across the Middle East, North Africa, South Asia, and Europe. In 2007, Air Arabia became the region's first publicly listed airline when its shares began trading on the Dubai Financial Market.\n\nAir Arabia later developed into a multi-brand aviation group with operating companies and hubs in the United Arab Emirates, Morocco, Egypt, and Pakistan. Sharjah remains the home of the original Air Arabia operation and the center of a broad network linking the UAE with major cities across the Indian subcontinent, Central Asia, the Middle East, and Europe.\n\nIn 2019, the group placed an order for 120 Airbus A320-family aircraft, including A320neo, A321neo, and A321XLR variants. Deliveries began in 2025 as Air Arabia continued to modernize its all-Airbus narrowbody fleet and extend its network, while retaining the value-focused model that has defined the airline since its launch.`,
+    fleet: [
+      { model: "A320 family", manufacturer: "Airbus", count: 83, passengers: "Up to 174 (1-class)", range: "Up to 3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Air_Arabia%2C_A6-AOE%2C_Airbus_A320-214.jpg/960px-Air_Arabia%2C_A6-AOE%2C_Airbus_A320-214.jpg", imageAlt: "Air Arabia Airbus A320", description: "The core of Air Arabia's fleet, combining the proven A320ceo with new-generation A320neo aircraft for short- and medium-haul routes." },
+      { model: "A321 family", manufacturer: "Airbus", count: 9, passengers: "Up to 215 (1-class)", range: "Up to 4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Air_Arabia_A6-ATA_Airbus_A321-251NX_%2849345140198%29.jpg/960px-Air_Arabia_A6-ATA_Airbus_A321-251NX_%2849345140198%29.jpg", imageAlt: "Air Arabia Airbus A321neo LR", description: "Higher-capacity A321 aircraft, including the long-range A321neo LR, extend the low-cost network to destinations such as London." },
+    ],
+    hubs: [a.SHJ],
+    routes: [
+      route("SHJ", "LGW"), route("SHJ", "FCO"), route("SHJ", "MUC"), route("SHJ", "ATH"),
+      route("SHJ", "IST"), route("SHJ", "CAI"), route("SHJ", "DOH"), route("SHJ", "RUH"),
+      route("SHJ", "JED"), route("SHJ", "DEL"), route("SHJ", "BOM"), route("SHJ", "BKK"),
+      route("SHJ", "KUL"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
