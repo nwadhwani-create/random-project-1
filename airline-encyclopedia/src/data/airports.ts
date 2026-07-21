@@ -51,6 +51,7 @@ export const airports: Record<string, Airport> = {
   ATH: { code: "ATH", name: "Athens International", city: "Athens", country: "Greece", lat: 37.9364, lng: 23.9445 },
 
   DXB: { code: "DXB", name: "Dubai International", city: "Dubai", country: "UAE", lat: 25.2532, lng: 55.3657 },
+  SHJ: { code: "SHJ", name: "Sharjah International", city: "Sharjah", country: "UAE", lat: 25.3286, lng: 55.5172 },
   DOH: { code: "DOH", name: "Hamad International", city: "Doha", country: "Qatar", lat: 25.2609, lng: 51.6138 },
   AUH: { code: "AUH", name: "Abu Dhabi International", city: "Abu Dhabi", country: "UAE", lat: 24.4330, lng: 54.6511 },
   RUH: { code: "RUH", name: "King Khalid International", city: "Riyadh", country: "Saudi Arabia", lat: 24.9576, lng: 46.6988 },
