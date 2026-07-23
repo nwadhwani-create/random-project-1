@@ -566,6 +566,27 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "bhutan-airlines",
+    name: "Bhutan Airlines",
+    iataCode: "B3",
+    icaoCode: "BTN",
+    country: "Bhutan",
+    founded: 2011,
+    headquarters: "Thimphu, Bhutan",
+    alliance: "None",
+    logoColor: "#D71920",
+    accentColor: "#F4B223",
+    history: `Bhutan Airlines is the trading name of Tashi Air Private Limited, which was established by the Tashi Group after winning Bhutan's first private-airline license. The carrier welcomed its first aircraft, an eight-seat Pilatus PC-12, on December 4, 2011 and began by serving domestic communities within the Himalayan kingdom.\n\nThe airline entered the international market on October 10, 2013 with a Paro–Bangkok service. Daily scheduled flights to Kolkata followed on December 16 that year, initially using a leased Airbus A320. These links offered travelers an alternative way into Bhutan while supporting a tourism industry central to the country's economy.\n\nBhutan Airlines subsequently standardized its fleet around the Airbus A319, an aircraft well suited to the demanding high-altitude approach into Paro. Its two A319s each accommodate 126 passengers, with 12 business-class and 114 economy-class seats. The airline remains independent of the global airline alliances.\n\nToday, Bhutan Airlines connects Paro with Bangkok, Kolkata, Kathmandu, and Delhi. Its schedule links Bangkok through Kolkata and Delhi through Kathmandu, combining the four destinations into a compact regional network spanning Bhutan, India, Nepal, and Thailand.`,
+    fleet: [
+      { model: "A319-100", manufacturer: "Airbus", count: 2, passengers: "126 (2-class)", range: "3,750 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bhutan_Airlines_Airbus_A319.jpg", imageAlt: "Bhutan Airlines A319-100", description: "The airline's sole aircraft type, configured with 12 business-class and 114 economy-class seats for regional services from Paro." },
+    ],
+    hubs: [a.PBH],
+    routes: [
+      route("PBH", "CCU"), route("CCU", "BKK"),
+      route("PBH", "KTM"), route("KTM", "DEL"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
