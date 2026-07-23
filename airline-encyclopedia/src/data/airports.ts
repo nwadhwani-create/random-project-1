@@ -199,6 +199,7 @@ export const airports: Record<string, Airport> = {
   BOG: { code: "BOG", name: "El Dorado International", city: "Bogotá", country: "Colombia", lat: 4.7016, lng: -74.1469 },
   SCL: { code: "SCL", name: "Arturo Merino Benítez International", city: "Santiago", country: "Chile", lat: -33.3930, lng: -70.7858 },
   LIM: { code: "LIM", name: "Jorge Chávez International", city: "Lima", country: "Peru", lat: -12.0219, lng: -77.1143 },
+  PTP: { code: "PTP", name: "Pointe-a-Pitre International", city: "Pointe-a-Pitre", country: "Guadeloupe", lat: 16.2653, lng: -61.5318 },
   CUN: { code: "CUN", name: "Cancún International", city: "Cancún", country: "Mexico", lat: 21.0365, lng: -86.8771 },
   SJD: { code: "SJD", name: "Los Cabos International", city: "San Jose del Cabo", country: "Mexico", lat: 23.1518, lng: -109.7210 },
   PTY: { code: "PTY", name: "Tocumen International", city: "Panama City", country: "Panama", lat: 9.0714, lng: -79.3835 },
