@@ -188,6 +188,7 @@ export const airports: Record<string, Airport> = {
   BNE: { code: "BNE", name: "Brisbane Airport", city: "Brisbane", country: "Australia", lat: -27.3842, lng: 153.1175 },
   PER: { code: "PER", name: "Perth Airport", city: "Perth", country: "Australia", lat: -31.9385, lng: 115.9672 },
   ADL: { code: "ADL", name: "Adelaide Airport", city: "Adelaide", country: "Australia", lat: -34.9450, lng: 138.5306 },
+  CBR: { code: "CBR", name: "Canberra Airport", city: "Canberra", country: "Australia", lat: -35.3069, lng: 149.1950 },
   CHC: { code: "CHC", name: "Christchurch International", city: "Christchurch", country: "New Zealand", lat: -43.4894, lng: 172.5322 },
 
   GRU: { code: "GRU", name: "São Paulo–Guarulhos International", city: "São Paulo", country: "Brazil", lat: -23.4356, lng: -46.4731 },
@@ -234,6 +235,7 @@ export const airports: Record<string, Airport> = {
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
   CMB: { code: "CMB", name: "Bandaranaike International", city: "Colombo", country: "Sri Lanka", lat: 7.1808, lng: 79.8841 },
+  MLE: { code: "MLE", name: "Velana International", city: "Malé", country: "Maldives", lat: 4.1918, lng: 73.5291 },
   MRU: { code: "MRU", name: "Sir Seewoosagur Ramgoolam International", city: "Port Louis", country: "Mauritius", lat: -20.4300, lng: 57.6830 },
   GOH: { code: "GOH", name: "Nuuk Airport", city: "Nuuk", country: "Greenland", lat: 64.1909, lng: -51.6781 },
 };
