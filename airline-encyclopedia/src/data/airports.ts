@@ -70,6 +70,13 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  MLE: { code: "MLE", name: "Velana International", city: "Malé", country: "Maldives", lat: 4.1918, lng: 73.5291 },
+  GAN: { code: "GAN", name: "Gan International", city: "Addu City", country: "Maldives", lat: -0.6933, lng: 73.1556 },
+  HAQ: { code: "HAQ", name: "Hanimaadhoo International", city: "Hanimaadhoo", country: "Maldives", lat: 6.7442, lng: 73.1705 },
+  DAC: { code: "DAC", name: "Hazrat Shahjalal International", city: "Dhaka", country: "Bangladesh", lat: 23.8433, lng: 90.3978 },
+  TRV: { code: "TRV", name: "Thiruvananthapuram International", city: "Thiruvananthapuram", country: "India", lat: 8.4821, lng: 76.9201 },
+  COK: { code: "COK", name: "Cochin International", city: "Kochi", country: "India", lat: 10.1520, lng: 76.4019 },
+  TFU: { code: "TFU", name: "Chengdu Tianfu International", city: "Chengdu", country: "China", lat: 30.3125, lng: 104.4413 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
