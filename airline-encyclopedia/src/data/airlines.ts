@@ -566,6 +566,27 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "nok-air",
+    name: "Nok Air",
+    iataCode: "DD",
+    icaoCode: "NOK",
+    country: "Thailand",
+    founded: 2004,
+    headquarters: "Bangkok, Thailand",
+    alliance: "None",
+    logoColor: "#6B2D8B",
+    accentColor: "#C5D92C",
+    history: `Nok Air was founded on February 10, 2004, as Sky Asia Co. Ltd. and began operations on July 23, 2004, bringing a colorful low-cost brand—named for the Thai word nok, meaning “bird”—to Thailand’s domestic market. From its primary base at Bangkok’s Don Mueang International Airport, the airline built a dense network of leisure and secondary-city routes that complement Thailand’s tourism trunk lines.\n\nThai Airways International has long held a minority stake, and Nok Air listed on the Stock Exchange of Thailand before later being delisted in early 2025. The carrier expanded beyond pure domestic flying with international services beginning in 2007, including early flights to Bangalore, and later experimented with links into neighboring Asian markets, though its core strength has remained Thailand’s point-to-point leisure network.\n\nNok Air’s identity is closely tied to its vivid aircraft liveries and bird-themed branding. After years of operating a mixed fleet that included ATR turboprops and Bombardier Q400s alongside Boeing jets, the airline streamlined around the Boeing 737-800 for high-frequency domestic sectors, with Boeing 737 MAX 8 aircraft on order for future renewal.\n\nToday Nok Air remains one of Don Mueang’s major low-cost operators, flying roughly a dozen Boeing 737-800s to about 18 destinations across Thailand from Bangkok and secondary bases such as Chiang Mai and Phuket. Its purple-and-lime identity and focus on secondary Thai cities make it a distinctive player in Southeast Asia’s ultra-competitive short-haul market.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 10, passengers: "189 (1-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B3%B0%E5%9C%8B%E9%A3%9B%E9%B3%A5%E8%88%AA%E7%A9%BA_(28478895816).jpg", imageAlt: "Nok Air B737-800", description: "Single-aisle workhorse for Nok Air’s dense domestic Thai network from Don Mueang, Chiang Mai, and Phuket." },
+    ],
+    hubs: [a.DMK, a.CNX, a.HKT],
+    routes: [
+      route("DMK", "CNX"), route("DMK", "HKT"), route("DMK", "HDY"), route("DMK", "KBV"), route("DMK", "CEI"),
+      route("DMK", "UTH"), route("DMK", "UBP"), route("DMK", "URT"), route("DMK", "NST"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
