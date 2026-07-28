@@ -207,6 +207,8 @@ export const airlines: Airline[] = [
       route("DXB", "HEL"),
       route("DXB", "SZX"), route("DXB", "DAD"),
       route("DXB", "HGH"), route("DXB", "MCO"),
+      route("DXB", "GLA"), route("DXB", "EDI"), route("DXB", "MAN"), route("DXB", "PRG"),
+      route("DXB", "KIX"), route("DXB", "HAN"), route("DXB", "SGN"),
     ],
   },
   {
@@ -324,6 +326,7 @@ export const airlines: Airline[] = [
       route("SIN", "MNL"), route("SIN", "DEL"), route("SIN", "BOM"),
       route("SIN", "SYD"), route("SIN", "MEL"), route("SIN", "AKL"), route("SIN", "BNE"), route("SIN", "PER"),
       route("SIN", "DXB"), route("SIN", "RUH"), route("SIN", "JNB"), route("SIN", "CPT"),
+      route("SIN", "MAN"),
     ],
   },
   {
