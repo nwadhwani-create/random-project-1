@@ -70,6 +70,12 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  KKJ: { code: "KKJ", name: "Kitakyushu Airport", city: "Kitakyushu", country: "Japan", lat: 33.8459, lng: 131.0347 },
+  FUK: { code: "FUK", name: "Fukuoka Airport", city: "Fukuoka", country: "Japan", lat: 33.5902, lng: 130.4467 },
+  KIX: { code: "KIX", name: "Kansai International", city: "Osaka", country: "Japan", lat: 34.4273, lng: 135.2440 },
+  UBJ: { code: "UBJ", name: "Yamaguchi Ube Airport", city: "Ube", country: "Japan", lat: 33.9300, lng: 131.2786 },
+  NGO: { code: "NGO", name: "Chubu Centrair International", city: "Nagoya", country: "Japan", lat: 34.8584, lng: 136.8054 },
+  SDJ: { code: "SDJ", name: "Sendai Airport", city: "Sendai", country: "Japan", lat: 38.1397, lng: 140.9169 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },

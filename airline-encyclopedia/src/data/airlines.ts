@@ -566,6 +566,28 @@ export const airlines: Airline[] = [
     ],
   },
   {
+    slug: "starflyer",
+    name: "StarFlyer",
+    iataCode: "7G",
+    icaoCode: "SFJ",
+    country: "Japan",
+    founded: 2002,
+    headquarters: "Kitakyushu, Japan",
+    alliance: "None",
+    logoColor: "#1A1A1A",
+    accentColor: "#C9A84C",
+    history: `StarFlyer was founded on December 17, 2002, as Kobe Airlines with the intention of basing itself at the then-new Kobe Airport. The company renamed itself StarFlyer in May 2003 and soon relocated to Kitakyushu in Fukuoka Prefecture, positioning the carrier as the home airline of Kitakyushu Airport when that facility opened. Commercial operations began on March 16, 2006, with Kitakyushu–Haneda service, and the airline quickly became known for its distinctive all-black Airbus A320 livery—designed under a “21st Century Modern” theme by Tatsuya Matsui—and a cabin product that aimed higher than typical low-cost carriers.\n\nStarFlyer markets itself as a hybrid airline: lower unit costs than Japan’s legacy majors, but with leather seats, complimentary meals or snacks on many flights, and a quiet, lounge-like cabin atmosphere. A close commercial partnership with All Nippon Airways provides codeshare placement, ground handling support at several airports, and access to ANA’s domestic feed, while StarFlyer remains independently listed on the Tokyo Stock Exchange.\n\nThe carrier’s network is anchored by Tokyo Haneda and Kitakyushu, with additional flying on Haneda–Fukuoka, Haneda–Kansai, Haneda–Yamaguchi Ube, Nagoya–Fukuoka, and Fukuoka–Sendai. International service to Taipei has been operated intermittently, with further Kitakyushu–Taipei flying planned as the airline rebuilds overseas routes.\n\nToday StarFlyer operates an all-Airbus A320 family fleet of A320-200 and A320neo aircraft from its headquarters at Kitakyushu Airport. It continues to emphasize design-led branding, high customer-satisfaction scores on Japanese domestic surveys, and a compact network connecting Kyushu and western Japan with Tokyo and other major cities.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 7, passengers: "150 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A320-214,_StarFlyer_AN1775946.jpg", imageAlt: "StarFlyer A320-200", description: "Signature black-liveried narrowbody forming the core of StarFlyer’s Japanese domestic network from Kitakyushu and Haneda." },
+      { model: "A320neo", manufacturer: "Airbus", count: 4, passengers: "150–162 (1-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/JA22MC_(30274426375).jpg", imageAlt: "StarFlyer A320neo", description: "Next-generation A320neo deliveries replacing older A320ceo aircraft, offering improved fuel efficiency and cabin Wi-Fi on selected frames." },
+    ],
+    hubs: [a.KKJ, a.HND],
+    routes: [
+      route("HND", "KKJ"), route("HND", "FUK"), route("HND", "KIX"), route("HND", "UBJ"),
+      route("NGO", "FUK"), route("FUK", "SDJ"), route("KKJ", "TPE"),
+    ],
+  },
+  {
     slug: "ethiopian-airlines",
     name: "Ethiopian Airlines",
     iataCode: "ET",
