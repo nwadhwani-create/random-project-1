@@ -175,6 +175,7 @@ export const airports: Record<string, Airport> = {
   SZX: { code: "SZX", name: "Shenzhen Bao'an International", city: "Shenzhen", country: "China", lat: 22.6393, lng: 113.8107 },
   SIN: { code: "SIN", name: "Singapore Changi", city: "Singapore", country: "Singapore", lat: 1.3644, lng: 103.9915 },
   BKK: { code: "BKK", name: "Suvarnabhumi Airport", city: "Bangkok", country: "Thailand", lat: 13.6900, lng: 100.7501 },
+  PNH: { code: "PNH", name: "Phnom Penh International", city: "Phnom Penh", country: "Cambodia", lat: 11.5466, lng: 104.8441 },
   DAD: { code: "DAD", name: "Da Nang International", city: "Da Nang", country: "Vietnam", lat: 16.0439, lng: 108.1990 },
   HAN: { code: "HAN", name: "Noi Bai International", city: "Hanoi", country: "Vietnam", lat: 21.2212, lng: 105.8072 },
   SGN: { code: "SGN", name: "Tan Son Nhat International", city: "Ho Chi Minh City", country: "Vietnam", lat: 10.8188, lng: 106.6520 },
