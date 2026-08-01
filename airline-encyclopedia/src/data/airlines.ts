@@ -598,6 +598,36 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "fuji-dream-airlines",
+    name: "Fuji Dream Airlines",
+    iataCode: "JH",
+    icaoCode: "FDA",
+    country: "Japan",
+    founded: 2008,
+    headquarters: "Shizuoka, Japan",
+    alliance: "None",
+    logoColor: "#E60012",
+    accentColor: "#FFB800",
+    history: `Fuji Dream Airlines (FDA) was established on June 24, 2008, as the aviation arm of Shizuoka-based logistics conglomerate Suzuyo & Co., Ltd. Embraer had already signed a launch-order agreement with Suzuyo in late 2007 for E170 regional jets; FDA took delivery of its first E170 in February 2009 and commenced scheduled operations on July 23, 2009, from its home base at Shizuoka Airport to Komatsu, Kumamoto, and Kagoshima.\n\nThe carrier quickly carved out a niche connecting secondary Japanese cities that the major airlines under-served. In 2010 it took over Japan Airlines’ Matsumoto–Fukuoka and Matsumoto–Sapporo services under a new codeshare, then built a second hub at Nagoya Airfield (Komaki) with links to Fukuoka, Kumamoto, Aomori, Hanamaki, and beyond. Further expansion added Kobe, Kochi, Yamagata, Izumo, and Okadama, turning FDA into a true nationwide regional network anchored by Shizuoka, Komaki, Fukuoka, and Kobe.\n\nFDA is famous for painting each Embraer a different solid color—red, green, violet, gold, silver, and more—while retaining a Mount Fuji sunrise logo on the tail. The all-Embraer fleet of E170s and E175s is configured in a single economy cabin with complimentary refreshments and the Dream 3776 in-flight magazine (named for Mount Fuji’s 3,776-meter elevation).\n\nToday Fuji Dream Airlines remains a wholly owned Suzuyo subsidiary and a Japan Airlines codeshare partner, operating roughly two dozen domestic routes across about 17 airports. With a fleet of 15 E-Jets and additional E175s on order, FDA continues to specialize in point-to-point regional flying that stitches Japan’s regional cities together without forcing passengers through Tokyo.`,
+    fleet: [
+      { model: "E175", manufacturer: "Embraer", count: 13, passengers: "84 (1-class)", range: "2,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/FDA_No_13.jpg", imageAlt: "Fuji Dream Airlines Embraer E175", description: "Primary regional jet for FDA’s domestic network, each aircraft painted in a unique solid color scheme." },
+      { model: "E170", manufacturer: "Embraer", count: 2, passengers: "76 (1-class)", range: "2,150 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/6_COLORS_Fuji_Dream_Airlines_Embraer_170%E3%80%81175_NKM_(16651148451).jpg", imageAlt: "Fuji Dream Airlines Embraer E170", description: "Compact E-Jet used on thinner regional routes; FDA was Embraer’s second Japanese customer for the type." },
+    ],
+    hubs: [a.FSZ, a.NKM, a.FUK, a.UKB],
+    routes: [
+      route("NKM", "FUK"), route("NKM", "AOJ"), route("NKM", "HNA"), route("NKM", "GAJ"),
+      route("NKM", "KIJ"), route("NKM", "IZO"), route("NKM", "KCZ"), route("NKM", "KMJ"),
+      route("NKM", "OKD"),
+      route("FSZ", "CTS"), route("FSZ", "OKD"), route("FSZ", "FUK"), route("FSZ", "KOJ"),
+      route("FSZ", "KMJ"), route("FSZ", "IZO"),
+      route("MMJ", "FUK"), route("MMJ", "CTS"), route("MMJ", "UKB"), route("MMJ", "OKD"),
+      route("UKB", "AOJ"), route("UKB", "HNA"), route("UKB", "KCZ"),
+      route("FUK", "HNA"), route("FUK", "SDJ"), route("FUK", "KIJ"), route("FUK", "CTS"),
+      route("CTS", "GAJ"), route("CTS", "KIJ"),
+      route("NGO", "KMJ"), route("NGO", "KCZ"), route("NGO", "IZO"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
