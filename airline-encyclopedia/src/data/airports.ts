@@ -250,5 +250,9 @@ export const airports: Record<string, Airport> = {
   CMB: { code: "CMB", name: "Bandaranaike International", city: "Colombo", country: "Sri Lanka", lat: 7.1808, lng: 79.8841 },
   MLE: { code: "MLE", name: "Velana International", city: "Malé", country: "Maldives", lat: 4.1918, lng: 73.5291 },
   MRU: { code: "MRU", name: "Sir Seewoosagur Ramgoolam International", city: "Port Louis", country: "Mauritius", lat: -20.4300, lng: 57.6830 },
+  SEZ: { code: "SEZ", name: "Seychelles International", city: "Victoria", country: "Seychelles", lat: -4.6743, lng: 55.5218 },
+  EVN: { code: "EVN", name: "Zvartnots International", city: "Yerevan", country: "Armenia", lat: 40.1473, lng: 44.3959 },
+  TIA: { code: "TIA", name: "Tirana International Nene Tereza", city: "Tirana", country: "Albania", lat: 41.4147, lng: 19.7206 },
+  TSR: { code: "TSR", name: "Timisoara Traian Vuia International", city: "Timisoara", country: "Romania", lat: 45.8099, lng: 21.3379 },
   GOH: { code: "GOH", name: "Nuuk Airport", city: "Nuuk", country: "Greenland", lat: 64.1909, lng: -51.6781 },
 };
