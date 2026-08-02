@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "jazeera-airways",
+    name: "Jazeera Airways",
+    iataCode: "J9",
+    icaoCode: "JZR",
+    country: "Kuwait",
+    founded: 2004,
+    headquarters: "Kuwait City, Kuwait",
+    alliance: "None",
+    logoColor: "#E31C23",
+    accentColor: "#1A1A1A",
+    history: `Jazeera Airways was founded in 2004 as Kuwait’s first privately owned airline and the country’s pioneering low-cost carrier. Backed by the Boodai Group, it began scheduled flying from Kuwait International Airport with an Airbus A320 fleet aimed at affordable point-to-point travel across the Gulf and the wider Middle East. Within a few years it had become Kuwait’s second national airline and one of the busiest operators at its home airport.\n\nThe carrier’s early growth focused on high-demand leisure, business, and visiting-friends-and-relatives markets linking Kuwait with destinations in the Levant, the Indian subcontinent, and nearby Gulf states. After a period of restructuring, Jazeera returned to sustained profitability in the early 2020s by tightening costs, renegotiating leases, and expanding the network while keeping a lean A320-family operation. A defining infrastructure move was the opening of the dedicated Jazeera Terminal (T5) at Kuwait International Airport, giving the airline its own passenger facilities and turnaround advantage.\n\nFleet renewal has centered on the Airbus A320neo, which is gradually replacing older A320ceo aircraft and supporting longer thin routes into Central and South Asia as well as seasonal European leisure cities. The airline has also ordered A321neo aircraft to raise capacity on denser sectors while remaining a single-aisle specialist.\n\nToday Jazeera Airways operates from Kuwait City to roughly 60 destinations spanning the Middle East, South and Central Asia, North Africa, and Europe. With its exclusive Terminal 5 hub, an all-Airbus narrowbody fleet, and a hybrid low-cost product that includes a small premium cabin on many aircraft, Jazeera remains Kuwait’s leading privately owned airline and a major independent competitor in Gulf short- and medium-haul flying.`,
+    fleet: [
+      { model: "A320neo", manufacturer: "Airbus", count: 11, passengers: "162 (2-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jazeera_Airways%2C_9K-CBC%2C_Airbus_A320-251N_%2849585240223%29.jpg", imageAlt: "Jazeera Airways A320neo", description: "Next-generation narrowbody forming the core of Jazeera’s fleet renewal, used on longer regional and South Asian routes." },
+      { model: "A320-200", manufacturer: "Airbus", count: 13, passengers: "159-165 (2-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jazeera_Airways%2C_9K-CAJ%2C_Airbus_A320-214_%2839243847214%29.jpg", imageAlt: "Jazeera Airways A320-200", description: "Original A320ceo workhorse connecting Kuwait with Gulf, Levant, Egyptian, and short-haul leisure destinations." },
+    ],
+    hubs: [a.KWI],
+    routes: [
+      route("KWI", "DXB"), route("KWI", "DOH"), route("KWI", "AUH"), route("KWI", "BAH"), route("KWI", "MCT"),
+      route("KWI", "RUH"), route("KWI", "JED"), route("KWI", "DMM"), route("KWI", "MED"),
+      route("KWI", "AMM"), route("KWI", "BEY"), route("KWI", "CAI"), route("KWI", "IST"), route("KWI", "SAW"),
+      route("KWI", "DEL"), route("KWI", "BOM"), route("KWI", "BLR"), route("KWI", "CMB"), route("KWI", "DAC"),
+      route("KWI", "KTM"), route("KWI", "ATH"), route("KWI", "PRG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
