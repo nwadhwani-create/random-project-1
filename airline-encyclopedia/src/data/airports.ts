@@ -255,4 +255,6 @@ export const airports: Record<string, Airport> = {
   TIA: { code: "TIA", name: "Tirana International Nene Tereza", city: "Tirana", country: "Albania", lat: 41.4147, lng: 19.7206 },
   TSR: { code: "TSR", name: "Timisoara Traian Vuia International", city: "Timisoara", country: "Romania", lat: 45.8099, lng: 21.3379 },
   GOH: { code: "GOH", name: "Nuuk Airport", city: "Nuuk", country: "Greenland", lat: 64.1909, lng: -51.6781 },
+  TLV: { code: "TLV", name: "Ben Gurion International", city: "Tel Aviv", country: "Israel", lat: 32.0114, lng: 34.8867 },
+  CTA: { code: "CTA", name: "Catania-Fontanarossa Airport", city: "Catania", country: "Italy", lat: 37.4668, lng: 15.0664 },
 };
