@@ -62,6 +62,10 @@ export const airlines: Airline[] = [
       route("SEA", "ABQ"), route("SEA", "PVR"), route("LGA", "VPS"), route("LGA", "NAS"),
       route("LAX", "MNL"),
       route("ATL", "RAK"),
+      route("BOS", "BCN"), route("BOS", "ATH"), route("BOS", "EDI"), route("BOS", "MXP"), route("BOS", "LIS"), route("BOS", "FCO"),
+      route("JFK", "CTA"), route("JFK", "KEF"), route("JFK", "PRG"), route("JFK", "MXP"), route("JFK", "NCE"),
+      route("JFK", "EDI"), route("JFK", "LIS"), route("JFK", "MAD"), route("JFK", "ZRH"), route("JFK", "FRA"),
+      route("JFK", "ARN"), route("JFK", "CPH"), route("JFK", "ACC"),
     ],
   },
   {
@@ -117,6 +121,7 @@ export const airlines: Airline[] = [
       route("ORD", "CMI"), route("ORD", "AZO"), route("ORD", "LAN"), route("ORD", "LSE"), route("ORD", "BMI"),
       route("IAD", "SJD"), route("IAH", "SDQ"),
       route("EWR", "CHO"), route("EWR", "TYS"), route("EWR", "XNA"), route("EWR", "OMA"),
+      route("EWR", "TLV"),
     ],
   },
   {
@@ -281,11 +286,11 @@ export const airlines: Airline[] = [
       { model: "A350-900", manufacturer: "Airbus", count: 31, passengers: "293 (3-class)", range: "8,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Lufthansa_Airbus_A350-941_%28D-AIXM%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A350-941_%28D-AIXM%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A350-900", description: "Modern widebody featuring the new Allegris cabin, replacing the A340 fleet." },
       { model: "A340-600", manufacturer: "Airbus", count: 4, passengers: "297 (3-class)", range: "7,900 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Lufthansa_Airbus_A340-642_%28D-AIHI%29_at_Frankfurt_Airport.jpg/1280px-Lufthansa_Airbus_A340-642_%28D-AIHI%29_at_Frankfurt_Airport.jpg", imageAlt: "Lufthansa A340-600", description: "Long-range four-engine widebody, being gradually phased out." },
       { model: "A340-300", manufacturer: "Airbus", count: 12, passengers: "279 (3-class)", range: "7,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Lufthansa_Airbus_A340-313X_%28D-AIGS%29_at_Frankfurt_Airport.jpg/1280px-Lufthansa_Airbus_A340-313X_%28D-AIGS%29_at_Frankfurt_Airport.jpg", imageAlt: "Lufthansa A340-300", description: "Veteran long-haul aircraft nearing the end of its service life." },
-      { model: "B787-9", manufacturer: "Boeing", count: 23, passengers: "294 (3-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lufthansa_Boeing_787-9_Dreamliner_%28D-ABPA%29_at_Frankfurt_Airport.jpg/1280px-Lufthansa_Boeing_787-9_Dreamliner_%28D-ABPA%29_at_Frankfurt_Airport.jpg", imageAlt: "Lufthansa B787-9", description: "Newest widebody addition featuring the Allegris cabin concept." },
+      { model: "B787-9", manufacturer: "Boeing", count: 18, passengers: "294 (3-class)", range: "7,530 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lufthansa_Boeing_787-9_Dreamliner_%28D-ABPA%29_at_Frankfurt_Airport.jpg/1280px-Lufthansa_Boeing_787-9_Dreamliner_%28D-ABPA%29_at_Frankfurt_Airport.jpg", imageAlt: "Lufthansa B787-9", description: "Newest widebody addition featuring the Allegris cabin concept." },
       { model: "A330-300", manufacturer: "Airbus", count: 6, passengers: "255 (2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Lufthansa_Airbus_A330-343_%28D-AIKF%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A330-343_%28D-AIKF%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A330-300", description: "Medium-haul widebody used on routes to North America and Asia." },
       { model: "A321neo", manufacturer: "Airbus", count: 19, passengers: "215 (2-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Lufthansa_Airbus_A321-271NX_%28D-AIEA%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A321-271NX_%28D-AIEA%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A321neo", description: "Latest-generation narrowbody for European routes." },
-      { model: "A320neo", manufacturer: "Airbus", count: 41, passengers: "180 (2-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Lufthansa_Airbus_A320-271N_%28D-AINU%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A320-271N_%28D-AINU%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A320neo", description: "Fuel-efficient narrowbody for short-to-medium-haul European routes." },
-      { model: "A319-100", manufacturer: "Airbus", count: 39, passengers: "138 (2-class)", range: "3,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lufthansa_Airbus_A319-112_%28D-AIBH%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A319-112_%28D-AIBH%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A319-100", description: "Smaller narrowbody for shorter European routes and thinner markets." },
+      { model: "A320neo", manufacturer: "Airbus", count: 30, passengers: "180 (2-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Lufthansa_Airbus_A320-271N_%28D-AINU%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A320-271N_%28D-AINU%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A320neo", description: "Fuel-efficient narrowbody for short-to-medium-haul European routes." },
+      { model: "A319-100", manufacturer: "Airbus", count: 22, passengers: "138 (2-class)", range: "3,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lufthansa_Airbus_A319-112_%28D-AIBH%29_at_Munich_Airport.jpg/1280px-Lufthansa_Airbus_A319-112_%28D-AIBH%29_at_Munich_Airport.jpg", imageAlt: "Lufthansa A319-100", description: "Smaller narrowbody for shorter European routes and thinner markets." },
     ],
     hubs: [a.FRA, a.MUC],
     routes: [
