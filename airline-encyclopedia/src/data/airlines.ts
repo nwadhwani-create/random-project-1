@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "flyadeal",
+    name: "flyadeal",
+    iataCode: "F3",
+    icaoCode: "FAD",
+    country: "Saudi Arabia",
+    founded: 2016,
+    headquarters: "Jeddah, Saudi Arabia",
+    alliance: "None",
+    logoColor: "#00A19A",
+    accentColor: "#F15A29",
+    history: `flyadeal was created on 17 April 2016 as the low-cost arm of Saudia Group, Saudi Arabia’s flag-carrier family. The airline was launched under Saudia’s SV 2020 transformation strategy to bring affordable point-to-point flying to a domestic market that was opening to new competition and preparing for Vision 2030 tourism growth. Scheduled operations began on 23 September 2017 with a Jeddah–Riyadh service, establishing King Abdulaziz International Airport as the carrier’s primary base.\n\nFrom that launch, flyadeal built a dense Saudi network linking Riyadh, Jeddah, Dammam, and Medina with secondary cities such as Abha, Jazan, and Tabuk. The airline’s early identity was domestic and pilgrimage-focused, feeding Hajj and Umrah traffic while offering lower fares on trunk routes long dominated by full-service carriers. International flying followed, first into nearby leisure and visiting-friends-and-relatives markets in Egypt and the Gulf, and later into the Levant, Turkey, and South Asia.\n\nFleet strategy has stayed tightly focused on the Airbus A320 family. An initial A320ceo fleet was joined by A320neo aircraft transferred and ordered through Saudia Group, giving flyadeal one of the region’s youngest single-aisle fleets. Looking ahead, A321neo deliveries and a future A330neo order are intended to raise capacity on dense short-haul sectors and open longer leisure and pilgrimage markets as the airline targets a much larger network by 2030.\n\nToday flyadeal is among Saudi Arabia’s fastest-growing airlines, operating from multiple Kingdom bases with a teal-liveried A320 fleet of roughly forty aircraft. Its mix of domestic trunk flying, Umrah-oriented services through Jeddah and Medina, and expanding international routes across the Middle East, North Africa, Europe, and South Asia makes it a central low-cost competitor in the Kingdom’s rapidly changing aviation market.`,
+    fleet: [
+      { model: "A320neo", manufacturer: "Airbus", count: 30, passengers: "186 (1-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Flyadeal_A320_(HZ-FAB)_parked_at_Jeddah_Airport.jpg", imageAlt: "flyadeal A320neo", description: "Fuel-efficient neo-generation narrowbody forming the bulk of flyadeal’s fleet on domestic Saudi routes and regional international services." },
+      { model: "A320-200", manufacturer: "Airbus", count: 11, passengers: "186 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Flyadeal_A320_(HZ-FAB)_parked_at_Jeddah_Airport.jpg", imageAlt: "flyadeal A320-200", description: "Original A320ceo workhorse that launched the airline’s network from Jeddah and still serves busy domestic and short-haul regional routes." },
+    ],
+    hubs: [a.JED, a.RUH, a.DMM, a.MED],
+    routes: [
+      route("JED", "RUH"), route("JED", "DMM"), route("JED", "MED"), route("JED", "AHB"), route("JED", "GIZ"),
+      route("RUH", "DMM"), route("RUH", "MED"), route("RUH", "AHB"), route("RUH", "TUU"), route("RUH", "GIZ"),
+      route("DMM", "MED"), route("MED", "AHB"), route("MED", "TUU"),
+      route("JED", "DXB"), route("JED", "AUH"), route("JED", "BAH"), route("JED", "CAI"), route("JED", "AMM"),
+      route("RUH", "DXB"), route("RUH", "CAI"), route("RUH", "AMM"), route("RUH", "BAH"),
+      route("DMM", "CAI"), route("MED", "SAW"), route("JED", "SAW"),
+      route("RUH", "LHE"), route("JED", "KHI"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
