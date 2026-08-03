@@ -257,4 +257,8 @@ export const airports: Record<string, Airport> = {
   GOH: { code: "GOH", name: "Nuuk Airport", city: "Nuuk", country: "Greenland", lat: 64.1909, lng: -51.6781 },
   TLV: { code: "TLV", name: "Ben Gurion International", city: "Tel Aviv", country: "Israel", lat: 32.0114, lng: 34.8867 },
   CTA: { code: "CTA", name: "Catania-Fontanarossa Airport", city: "Catania", country: "Italy", lat: 37.4668, lng: 15.0664 },
+  VCE: { code: "VCE", name: "Venice Marco Polo Airport", city: "Venice", country: "Italy", lat: 45.5053, lng: 12.3519 },
+  BER: { code: "BER", name: "Berlin Brandenburg Airport", city: "Berlin", country: "Germany", lat: 52.3667, lng: 13.5033 },
+  NAP: { code: "NAP", name: "Naples International Airport", city: "Naples", country: "Italy", lat: 40.8860, lng: 14.2908 },
+  BRU: { code: "BRU", name: "Brussels Airport", city: "Brussels", country: "Belgium", lat: 50.9014, lng: 4.4844 },
 };

@@ -66,6 +66,11 @@ export const airlines: Airline[] = [
       route("JFK", "CTA"), route("JFK", "KEF"), route("JFK", "PRG"), route("JFK", "MXP"), route("JFK", "NCE"),
       route("JFK", "EDI"), route("JFK", "LIS"), route("JFK", "MAD"), route("JFK", "ZRH"), route("JFK", "FRA"),
       route("JFK", "ARN"), route("JFK", "CPH"), route("JFK", "ACC"),
+      route("ATL", "BCN"), route("ATL", "MUC"), route("ATL", "MXP"), route("ATL", "NCE"),
+      route("ATL", "VCE"), route("ATL", "ZRH"), route("ATL", "EDI"), route("ATL", "DUB"),
+      route("ATL", "ATH"), route("ATL", "FRA"), route("ATL", "MAD"), route("ATL", "BRU"),
+      route("ATL", "NAP"), route("JFK", "VCE"), route("JFK", "BER"), route("JFK", "NAP"),
+      route("JFK", "DUB"), route("JFK", "HNL"), route("DTW", "MUC"),
     ],
   },
   {
@@ -173,6 +178,7 @@ export const airlines: Airline[] = [
       route("LAX", "CLE"), route("LAX", "IAD"), route("ORD", "ABE"), route("ORD", "CAE"), route("ORD", "OGG"),
       route("BOS", "LAX"), route("JFK", "SFO"),
       route("DFW", "BNE"), route("DFW", "AKL"),
+      route("DFW", "EZE"),
     ],
   },
   {
