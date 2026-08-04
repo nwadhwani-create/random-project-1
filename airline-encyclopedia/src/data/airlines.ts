@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "shandong-airlines",
+    name: "Shandong Airlines",
+    iataCode: "SC",
+    icaoCode: "CDG",
+    country: "China",
+    founded: 1994,
+    headquarters: "Jinan, Shandong, China",
+    alliance: "None",
+    logoColor: "#0057B8",
+    accentColor: "#E31C23",
+    history: `Shandong Airlines was established on 12 March 1994 and began operations that September from Jinan, the capital of Shandong province. Nicknamed SDA or Shanhang, the carrier started with a single Xi'an Y-7 before quickly adopting Boeing 737s, a family that would come to define its all-narrowbody identity. Early growth was closely tied to Shandong’s coastal economy, with secondary bases emerging in Qingdao and Yantai alongside the Jinan hub.\n\nThrough the late 1990s and early 2000s the airline expanded across China and experimented with regional types such as the Bombardier CRJ before consolidating around the Boeing 737. International flying began in June 2004 with a Jinan–Singapore service via Shenzhen, and the network later reached Japan, South Korea, Southeast Asia, Hong Kong, and Taiwan. Strategic ties with Air China deepened over the same period; Air China became the majority shareholder while Shandong Aviation Group remained a major local partner.\n\nFleet strategy stayed tightly focused. The Boeing 737-800 grew into one of China’s largest single-type fleets, later joined by 737 MAX 8 aircraft for denser domestic trunk routes and short-haul Asian services. After Qingdao’s airport moved from Liuting to the new Jiaodong International Airport in 2021, Shandong Airlines continued to treat Qingdao as a co-equal hub with Jinan, while Yantai Penglai remained an important coastal focus city.\n\nToday Shandong Airlines is among China’s larger provincial carriers, operating a roughly 130-plus Boeing 737 fleet on hundreds of domestic sectors and a compact portfolio of regional international routes. Its blue-liveried aircraft remain a familiar sight linking Shandong’s industrial and tourism cities with Beijing, Shanghai, the Pearl River Delta, and nearby Asian capitals.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 118, passengers: "168-186 (1/2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/B-5537_-_Shandong_Airlines_-_Boeing_737-8AL(WL)_-_TAO_(13033475533).jpg", imageAlt: "Shandong Airlines B737-800", description: "Core fleet workhorse operating the bulk of Shandong’s dense domestic network and short-haul Asian routes." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 15, passengers: "174 (2-class)", range: "3,550 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/TAO_CDG_Boeing_737_MAX_8_B-1271_2023-09-06.jpg", imageAlt: "Shandong Airlines B737 MAX 8", description: "New-generation narrowbody improving fuel efficiency on trunk domestic and regional international services." },
+      { model: "B737-700", manufacturer: "Boeing", count: 3, passengers: "128 (2-class)", range: "3,010 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Boeing_737-75N,_Shandong_Airlines_JP6264457.jpg", imageAlt: "Shandong Airlines B737-700", description: "Smaller 737 variant retained for thinner domestic sectors as the airline continues consolidating around the 737-800 and MAX." },
+    ],
+    hubs: [a.TNA, a.TAO, a.YNT],
+    routes: [
+      route("TNA", "PEK"), route("TNA", "PVG"), route("TNA", "SHA"), route("TNA", "CAN"), route("TNA", "SZX"),
+      route("TNA", "CKG"), route("TNA", "XMN"), route("TNA", "BKK"), route("TNA", "HKG"),
+      route("TAO", "PEK"), route("TAO", "PVG"), route("TAO", "CAN"), route("TAO", "SZX"), route("TAO", "XMN"),
+      route("TAO", "CKG"), route("TAO", "HKG"), route("TAO", "ICN"), route("TAO", "KIX"), route("TAO", "BKK"),
+      route("YNT", "PEK"), route("YNT", "SHA"), route("YNT", "PVG"), route("YNT", "CAN"), route("YNT", "SZX"),
+      route("TNA", "ICN"), route("TAO", "TPE"), route("TAO", "SIN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
