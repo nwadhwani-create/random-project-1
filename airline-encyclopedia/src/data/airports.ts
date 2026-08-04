@@ -261,4 +261,5 @@ export const airports: Record<string, Airport> = {
   BER: { code: "BER", name: "Berlin Brandenburg Airport", city: "Berlin", country: "Germany", lat: 52.3667, lng: 13.5033 },
   NAP: { code: "NAP", name: "Naples International Airport", city: "Naples", country: "Italy", lat: 40.8860, lng: 14.2908 },
   BRU: { code: "BRU", name: "Brussels Airport", city: "Brussels", country: "Belgium", lat: 50.9014, lng: 4.4844 },
+  EYW: { code: "EYW", name: "Key West International Airport", city: "Key West", country: "USA", lat: 24.5561, lng: -81.7596 },
 };
