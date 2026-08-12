@@ -55,6 +55,12 @@ export const airports: Record<string, Airport> = {
   AUH: { code: "AUH", name: "Abu Dhabi International", city: "Abu Dhabi", country: "UAE", lat: 24.4330, lng: 54.6511 },
   RUH: { code: "RUH", name: "King Khalid International", city: "Riyadh", country: "Saudi Arabia", lat: 24.9576, lng: 46.6988 },
   JED: { code: "JED", name: "King Abdulaziz International", city: "Jeddah", country: "Saudi Arabia", lat: 21.6796, lng: 39.1565 },
+  IKA: { code: "IKA", name: "Imam Khomeini International", city: "Tehran", country: "Iran", lat: 35.4161, lng: 51.1522 },
+  THR: { code: "THR", name: "Mehrabad International", city: "Tehran", country: "Iran", lat: 35.6892, lng: 51.3134 },
+  MHD: { code: "MHD", name: "Mashhad Shahid Hasheminejad International", city: "Mashhad", country: "Iran", lat: 36.2352, lng: 59.6410 },
+  SYZ: { code: "SYZ", name: "Shiraz Shahid Dastgheib International", city: "Shiraz", country: "Iran", lat: 29.5392, lng: 52.5898 },
+  IFN: { code: "IFN", name: "Isfahan Shahid Beheshti International", city: "Isfahan", country: "Iran", lat: 32.7508, lng: 51.8613 },
+  TBZ: { code: "TBZ", name: "Tabriz International", city: "Tabriz", country: "Iran", lat: 38.1339, lng: 46.2350 },
 
   NRT: { code: "NRT", name: "Narita International", city: "Tokyo", country: "Japan", lat: 35.7720, lng: 140.3929 },
   HND: { code: "HND", name: "Tokyo Haneda", city: "Tokyo", country: "Japan", lat: 35.5494, lng: 139.7798 },
