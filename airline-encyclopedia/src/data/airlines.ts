@@ -598,6 +598,37 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-blue",
+    name: "Airblue",
+    iataCode: "PA",
+    icaoCode: "ABQ",
+    country: "Pakistan",
+    founded: 2003,
+    headquarters: "Islamabad, Pakistan",
+    alliance: "None",
+    logoColor: "#00A3E0",
+    accentColor: "#003D7A",
+    history: `Airblue was founded in 2003 by Pakistani-American entrepreneur Tariq Chaudhary and began scheduled operations on June 18, 2004, with three leased Airbus A320-200s linking Karachi with Lahore and Islamabad. Inaugurated by Prime Minister Zafarullah Khan Jamali, the new private carrier quickly drew passengers from Pakistan International Airlines and other domestic operators, carrying more than 400,000 travelers in its first year at load factors above 90 percent. Early expansion added Peshawar and Quetta, and on August 14, 2005, Airblue opened its first international route from Karachi to Dubai.\n\nGrowth in the late 2000s brought Airbus A321s and a Manchester service that initially required technical stops in Turkey before the airline briefly operated Airbus A340-300s for nonstop United Kingdom flying. In June 2012 it adopted the IATA code PA, previously associated with Pan American World Airways. A defining tragedy came on July 28, 2010, when Airblue Flight 202, an A321 approaching Islamabad in poor weather, crashed in the Margalla Hills with the loss of all 152 people on board. Widebody leases were later dropped, and UK services ended in 2014 as the airline refocused on a single-aisle network.\n\nAirblue rebuilt around an all-Airbus A320-family fleet and a Gulf-oriented international map. It was the first Pakistani airline to introduce e-ticketing, wireless check-in, and self-service kiosks, and it operates the Blue Miles frequent-flyer program. In July 2022 it became the second Pakistani carrier to serve Skardu International Airport. In October 2024 it took delivery of its first Airbus A321neo, becoming Pakistan's first operator of a next-generation Airbus narrowbody, and in November 2025 it launched Islamabad–Dammam.\n\nToday Airblue is Pakistan's largest private airline, flying an all-economy A320, A321, and A321neo fleet of 12 aircraft from bases at Islamabad, Karachi, and Lahore, with additional operating bases in Dubai, Abu Dhabi, and Jeddah. The network covers Pakistan's main cities plus the United Arab Emirates and Saudi Arabia, including pilgrim and labor-market routes to Jeddah, Riyadh, Dammam, Medina, Dubai, Abu Dhabi, and Sharjah. The airline is not a member of a global alliance and has clearance for future United Kingdom flying, though those services have not yet restarted.`,
+    fleet: [
+      { model: "A321neo", manufacturer: "Airbus", count: 2, passengers: "235 (1-class)", range: "4,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Airblue_Airbus_A321neo.jpg", imageAlt: "Airblue A321neo", description: "Pakistan's first next-generation Airbus narrowbody, used on high-demand domestic trunk and Gulf routes." },
+      { model: "A321-200", manufacturer: "Airbus", count: 5, passengers: "220 (1-class)", range: "3,200 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/AirBlue,_AP-BMN,_Airbus_A321-211_(49570659901).jpg", imageAlt: "Airblue A321-200", description: "High-capacity workhorse for busy Karachi–Lahore–Islamabad sectors and Hajj/Umrah flying to Saudi Arabia." },
+      { model: "A320-200", manufacturer: "Airbus", count: 5, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Airblue_P1050431.jpg", imageAlt: "Airblue A320-200", description: "Original Airblue type, still the flexible backbone of thinner domestic and UAE services." },
+    ],
+    hubs: [a.ISB, a.KHI, a.LHE],
+    routes: [
+      route("KHI", "ISB"), route("KHI", "LHE"), route("LHE", "ISB"),
+      route("KHI", "PEW"), route("LHE", "PEW"), route("ISB", "MUX"), route("LHE", "MUX"), route("KHI", "MUX"),
+      route("ISB", "KDU"), route("LHE", "KDU"),
+      route("ISB", "DXB"), route("KHI", "DXB"), route("LHE", "DXB"), route("MUX", "DXB"), route("PEW", "DXB"),
+      route("ISB", "AUH"), route("LHE", "AUH"), route("KHI", "AUH"),
+      route("ISB", "SHJ"), route("LHE", "SHJ"), route("MUX", "SHJ"), route("PEW", "SHJ"),
+      route("ISB", "JED"), route("KHI", "JED"), route("LHE", "JED"), route("MUX", "JED"), route("PEW", "JED"),
+      route("ISB", "RUH"), route("LHE", "RUH"), route("KHI", "RUH"),
+      route("ISB", "DMM"), route("LHE", "DMM"),
+      route("MUX", "MED"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {

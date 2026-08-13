@@ -55,6 +55,9 @@ export const airports: Record<string, Airport> = {
   AUH: { code: "AUH", name: "Abu Dhabi International", city: "Abu Dhabi", country: "UAE", lat: 24.4330, lng: 54.6511 },
   RUH: { code: "RUH", name: "King Khalid International", city: "Riyadh", country: "Saudi Arabia", lat: 24.9576, lng: 46.6988 },
   JED: { code: "JED", name: "King Abdulaziz International", city: "Jeddah", country: "Saudi Arabia", lat: 21.6796, lng: 39.1565 },
+  DMM: { code: "DMM", name: "King Fahd International", city: "Dammam", country: "Saudi Arabia", lat: 26.4712, lng: 49.7979 },
+  MED: { code: "MED", name: "Prince Mohammad bin Abdulaziz International", city: "Medina", country: "Saudi Arabia", lat: 24.5534, lng: 39.7051 },
+  SHJ: { code: "SHJ", name: "Sharjah International", city: "Sharjah", country: "UAE", lat: 25.3286, lng: 55.5172 },
 
   NRT: { code: "NRT", name: "Narita International", city: "Tokyo", country: "Japan", lat: 35.7720, lng: 140.3929 },
   HND: { code: "HND", name: "Tokyo Haneda", city: "Tokyo", country: "Japan", lat: 35.5494, lng: 139.7798 },
@@ -70,6 +73,12 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  KHI: { code: "KHI", name: "Jinnah International", city: "Karachi", country: "Pakistan", lat: 24.9065, lng: 67.1608 },
+  LHE: { code: "LHE", name: "Allama Iqbal International", city: "Lahore", country: "Pakistan", lat: 31.5216, lng: 74.4036 },
+  ISB: { code: "ISB", name: "Islamabad International", city: "Islamabad", country: "Pakistan", lat: 33.5607, lng: 72.8516 },
+  PEW: { code: "PEW", name: "Bacha Khan International", city: "Peshawar", country: "Pakistan", lat: 33.9939, lng: 71.5146 },
+  MUX: { code: "MUX", name: "Multan International", city: "Multan", country: "Pakistan", lat: 30.2032, lng: 71.4191 },
+  KDU: { code: "KDU", name: "Skardu International", city: "Skardu", country: "Pakistan", lat: 35.3355, lng: 75.5360 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
