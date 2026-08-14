@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "pelita-air",
+    name: "Pelita Air",
+    iataCode: "IP",
+    icaoCode: "PAS",
+    country: "Indonesia",
+    founded: 1963,
+    headquarters: "Jakarta, Indonesia",
+    alliance: "None",
+    logoColor: "#006CB7",
+    accentColor: "#ED1B2F",
+    history: `Pelita Air began in 1963 as Pertamina Air Service, an in-house air transport division created to move employees of Indonesia's state oil company. On January 24, 1970, the operation was spun out as PT Pelita Air Service, and for decades it specialized in charter, offshore, and oil-and-gas flying with a mixed fleet of helicopters and regional airliners. Headquarters remain at Pondok Cabe Airport in South Tangerang, while scheduled passenger operations are based at Jakarta's Soekarno-Hatta International Airport.\n\nThe company briefly offered scheduled flights as Pelita AirVenture around 2000, then withdrew from that market in 2005 amid intense domestic competition. It later added airport management for Pertamina fields and general cargo work. In late 2021, as flag carrier Garuda Indonesia struggled with debt, the Ministry of State-Owned Enterprises backed a return to scheduled flying. Pelita leased Airbus A320s, applied for a commercial AOC, and unveiled a new "Ribbon" livery in Pertamina red, blue, and green.\n\nScheduled passenger service relaunched on April 28, 2022, with Jakarta–Denpasar, followed weeks later by Yogyakarta. Minister Erick Thohir initially framed the carrier as a domestic-focused alternative in Indonesia's large home market. The network then spread across Java, Sumatra, Kalimantan, Sulawesi, and the Lesser Sundas, and on August 18, 2025, Pelita opened its first international route from Jakarta to Singapore, ending its domestic-only chapter.\n\nToday Pelita Air is a Pertamina subsidiary and a Category 1 Indonesian safety-rated scheduled airline. Its commercial passenger fleet is built around sixteen Airbus A320-200s, with a remaining ATR 72-500 used on thinner or charter work. From Soekarno-Hatta it serves about fifteen destinations, including Bali, Surabaya, Medan, Makassar, Lombok, Balikpapan, and Singapore. The airline is not a member of a global alliance.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 16, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pelita_Air_Airbus_A320_PK-PWC_at_WADD.jpg", imageAlt: "Pelita Air A320-200", description: "Core scheduled narrowbody for Jakarta trunk routes across the archipelago and the Singapore service. Some former Alaska Airlines airframes are fitted in a 150-seat two-class layout." },
+      { model: "ATR 72-500", manufacturer: "ATR", count: 1, passengers: "66 (1-class)", range: "825 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/ATR_72-500_Pelita_Air_Service_(PAS)_PK-PAW_-_MSN_746_(9322788582).jpg", imageAlt: "Pelita Air ATR 72-500", description: "Remaining turboprop used on thinner domestic sectors and charter flying inherited from the oil-and-gas era." },
+    ],
+    hubs: [a.CGK],
+    routes: [
+      route("CGK", "DPS"), route("CGK", "YIA"), route("CGK", "SUB"), route("CGK", "UPG"),
+      route("CGK", "KNO"), route("CGK", "PDG"), route("CGK", "PLM"), route("CGK", "PKU"),
+      route("CGK", "BPN"), route("CGK", "PNK"), route("CGK", "LOP"), route("CGK", "BDJ"),
+      route("CGK", "BTJ"), route("CGK", "KDI"), route("CGK", "SIN"),
+      route("BPN", "SUB"), route("BPN", "YIA"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
