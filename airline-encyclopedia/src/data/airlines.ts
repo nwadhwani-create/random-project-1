@@ -598,6 +598,32 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "cambodia-airways",
+    name: "Cambodia Airways",
+    iataCode: "KR",
+    icaoCode: "KME",
+    country: "Cambodia",
+    founded: 2017,
+    headquarters: "Phnom Penh, Cambodia",
+    alliance: "None",
+    logoColor: "#24449C",
+    accentColor: "#D32434",
+    history: `Cambodia Airways was founded on September 11, 2017, and received its air operator's certificate the following July. Scheduled flying began on July 10, 2018, with a Phnom Penh–Siem Reap service. The privately owned carrier is headquartered in Phnom Penh and markets itself as "The Wings of Cambodia," using the call sign Giant Ibis after the country's national bird.\n\nBy August 2019 the airline had grown from that first domestic sector into a small regional network. Domestic flights linked Phnom Penh with Siem Reap and Sihanoukville, while international services reached Macau, Bangkok, Fuzhou, and charter destinations in Taiwan. Airbus A319s and A320s formed the early fleet, and the carrier positioned itself as a full-service alternative in Cambodia's tourism-driven market.\n\nThrough the mid-2020s Cambodia Airways added China, Singapore, Malaysia, Hong Kong, and Laos to its map, and in 2025 it moved Phnom Penh operations from the closed Pochentong field to the new Techo International Airport. The airline also filed for a U.S. listing in 2024 and, under chairman and CEO Edison Duan, continued to expand leisure routes into southern and southwestern China.\n\nToday Cambodia Airways is one of Cambodia's largest scheduled airlines by traffic. Its passenger fleet comprises two Airbus A319-100s, three A320-200s, and a newly delivered ATR 72-600 (with a second turboprop due later in 2026) for shorter domestic hops. From Techo it serves Siem Reap, Sihanoukville, and cities across Southeast and East Asia. The airline is not a member of a global alliance.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 3, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/(SGP-Singapore)_Cambodia_Airways_Airbus_A320-214_XU-763_@_WSSS_2025-01-21_-_2.jpg", imageAlt: "Cambodia Airways A320-200", description: "Primary narrowbody for China, Singapore, Malaysia, and other medium-haul regional routes from Techo International." },
+      { model: "A319-100", manufacturer: "Airbus", count: 2, passengers: "150 (1-class)", range: "3,700 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cambodia_Airways_Airbus_A319_XU-878_Kuala_Lumpur_2025_(01).jpg", imageAlt: "Cambodia Airways A319-100", description: "Smaller Airbus jet used on thinner regional sectors, including long-standing Macau and Bangkok services." },
+      { model: "ATR 72-600", manufacturer: "ATR", count: 1, passengers: "70 (1-class)", range: "825 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/ATR_72-600.jpg", imageAlt: "Cambodia Airways ATR 72-600", description: "Factory-new turboprop XU-369, delivered in June 2026 for Phnom Penh–Siem Reap–Sihanoukville and other short-haul flying. A second aircraft is due later in 2026." },
+    ],
+    hubs: [a.KTI],
+    routes: [
+      route("KTI", "SAI"), route("KTI", "KOS"), route("KTI", "BKK"), route("KTI", "KUL"),
+      route("KTI", "PEN"), route("KTI", "SIN"), route("KTI", "HKG"), route("KTI", "MFM"),
+      route("KTI", "CAN"), route("KTI", "SZX"), route("KTI", "CKG"), route("KTI", "CSX"),
+      route("KTI", "SYX"), route("KTI", "TFU"), route("KTI", "HAK"), route("KTI", "VTE"),
+      route("SAI", "KOS"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
