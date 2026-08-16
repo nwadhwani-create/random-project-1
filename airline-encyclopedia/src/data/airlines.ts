@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "myanmar-national-airlines",
+    name: "Myanmar National Airlines",
+    iataCode: "UB",
+    icaoCode: "UBA",
+    country: "Myanmar",
+    founded: 1948,
+    headquarters: "Yangon, Myanmar",
+    alliance: "None",
+    logoColor: "#1A4D2E",
+    accentColor: "#C9A227",
+    history: `Myanmar National Airlines is the state-owned flag carrier of Myanmar and one of the oldest airlines in Southeast Asia. It was founded by the newly independent government on 15 September 1948 as Union of Burma Airways, beginning with domestic services that tied together a country of rivers, mountains, and limited road connections. Limited international flights to neighboring cities followed in 1950.\n\nThe carrier changed names with the country itself: Burma Airways in December 1972, then Myanma Airways on 1 April 1989 after the official renaming of Burma to Myanmar. International flying was withdrawn in 1993, and overseas services were later developed through the joint-venture carrier Myanmar Airways International, in which the state airline remained the majority shareholder. For two decades the home-market operation concentrated on a dense domestic network from Yangon.\n\nA modernization drive in the 2010s replaced aging Fokker twinjets with Embraer E190s and a new ATR 72-600 fleet. At the 2014 Singapore Airshow the airline signed its largest aircraft order to date, covering Boeing 737-800s and 737 MAX jets. In December 2014 it rebranded as Myanmar National Airlines, and the first 737-800 arrived in June 2015. International flying resumed after a 22-year pause with Singapore on 19 August 2015, followed by Hong Kong and Bangkok.\n\nToday Myanmar National Airlines remains the national flag carrier, wholly owned by the Ministry of Transport and Communications and headquartered on Kanna Road in Yangon. From hubs at Yangon International Airport and Mandalay International Airport it operates Myanmar's most extensive domestic network — linking the capital, Bagan, Inle Lake, the Tanintharyi coast, and cities in the north and east — plus regional services to Bangkok, Singapore, and Hong Kong. The passenger fleet is built around ATR 72-600 turboprops for short domestic sectors and Boeing 737-800s for higher-demand and regional routes, with the MNA Club frequent-flyer program and complimentary Mingalarbar assistance for business-class travelers.`,
+    fleet: [
+      { model: "ATR 72-600", manufacturer: "ATR", count: 8, passengers: "72 (1-class)", range: "825 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myanmar_National_Airlines_ATR_72-600_XY-AJZ.jpg", imageAlt: "Myanmar National Airlines ATR 72-600", description: "High-wing turboprop that forms the backbone of the domestic network, serving short runways from Bagan to Kawthaung." },
+      { model: "B737-800", manufacturer: "Boeing", count: 2, passengers: "164 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myanmar_National_Airlines_Boeing_737-800_XY-ALC.jpg", imageAlt: "Myanmar National Airlines B737-800", description: "Next-generation narrowbody used on trunk domestic sectors and regional international flights, with business class and streaming IFE." },
+    ],
+    hubs: [a.RGN, a.MDL],
+    routes: [
+      route("RGN", "MDL"), route("RGN", "NYT"), route("RGN", "NYU"), route("RGN", "HEH"), route("RGN", "SNW"),
+      route("RGN", "TVY"), route("RGN", "KAW"), route("RGN", "MYT"), route("RGN", "AKY"), route("RGN", "MGZ"),
+      route("RGN", "THL"),
+      route("MDL", "NYU"), route("MDL", "HEH"), route("MDL", "MYT"), route("MDL", "NYT"),
+      route("RGN", "BKK"), route("RGN", "SIN"), route("RGN", "HKG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
