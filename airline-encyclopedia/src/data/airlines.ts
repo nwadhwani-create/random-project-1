@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "nam-air",
+    name: "NAM Air",
+    iataCode: "IN",
+    icaoCode: "LKN",
+    country: "Indonesia",
+    founded: 2013,
+    headquarters: "Jakarta, Indonesia",
+    alliance: "None",
+    logoColor: "#EB1C24",
+    accentColor: "#140C5C",
+    history: `NAM Air is an Indonesian regional airline founded on 26 September 2013 as a subsidiary of the Sriwijaya Air Group, named for Lo Kui Nam, the father of Sriwijaya Air president Chandra Lie. Headquarters are in Jakarta, with the operating hub at Soekarno-Hatta International Airport in Tangerang. Originally announced as a full-service competitor to Garuda Indonesia and Batik Air, the carrier was repositioned before launch as a regional feeder for Sriwijaya Air—similar to the Wings Air–Lion Air pairing—so that NAM would serve secondary cities its parent did not target.\n\nThe airline received its Air Operator's Certificate on 29 November 2013, flew a proving flight from Jakarta to Pangkal Pinang on 11 December, and opened commercial service on 19 December 2013 from Jakarta to Pontianak and Yogyakarta with a 120-seat Boeing 737-500. At launch it was the first Indonesian airline to allow female cabin crew to wear a hijab as a standard uniform option. NAM later added ATR 72-600 turboprops from July 2017 for thinner eastern Indonesia routes, and along with every other Indonesian carrier was removed from the EU Air Safety List in June 2018.\n\nIn November 2018 NAM Air and Sriwijaya Air entered a cooperation agreement under which Garuda Indonesia's Citilink subsidiary took over operational and financial management of the group; that arrangement ended in November 2019 after disputes. The Sriwijaya group later weathered the COVID-19 downturn and the January 2021 loss of Sriwijaya Air Flight 182. NAM continued domestic flying as the group's regional arm, and in October 2025 retired and sold its ATR 72-600s to concentrate on Boeing 737-500 operations.\n\nToday NAM Air remains a Sriwijaya Air subsidiary and is not a member of a global alliance. Its fleet of eleven Boeing 737-500s, typically in an 8-seat Executive plus 112-seat Economy layout, supports an all-domestic network of about eighteen destinations from Jakarta across Java, Sumatra, Kalimantan, Sulawesi, Bali, and Nusa Tenggara—including Pontianak, Pangkal Pinang, Sampit, Pangkalan Bun, Denpasar, and Kupang.`,
+    fleet: [
+      { model: "B737-500", manufacturer: "Boeing", count: 11, passengers: "120 (2-class)", range: "2,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/NAM_Air_Boeing_737-524_PK-NAO_(29517851830).jpg", imageAlt: "NAM Air B737-500", description: "Sole remaining fleet type after the ATR 72-600s were retired in 2025; configured with eight Executive Class seats and 112 Economy seats on domestic Indonesian routes. Several airframes may be stored at any given time." },
+    ],
+    hubs: [a.CGK],
+    routes: [
+      route("CGK", "DPS"), route("CGK", "SUB"), route("CGK", "PNK"), route("CGK", "PLM"),
+      route("CGK", "YIA"), route("CGK", "TKG"), route("CGK", "SRG"), route("CGK", "KOE"),
+      route("CGK", "LOP"), route("CGK", "LBJ"), route("CGK", "PGK"), route("CGK", "TJQ"),
+      route("CGK", "PKN"), route("CGK", "SMQ"), route("CGK", "BPN"), route("CGK", "UPG"),
+      route("CGK", "BTH"),
+      route("PNK", "SRG"), route("SUB", "UPG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
