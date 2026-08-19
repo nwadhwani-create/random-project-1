@@ -598,6 +598,36 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "trigana-air",
+    name: "Trigana Air",
+    iataCode: "IL",
+    icaoCode: "TGN",
+    country: "Indonesia",
+    founded: 1991,
+    headquarters: "Jakarta, Indonesia",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#F5C400",
+    history: `Trigana Air, registered as Trigana Air Service, was founded on 15 March 1991 in Jakarta. It began operations that year with two Beechcraft Super King Air B200Cs used for forestry photomapping, then added licence-built Bell 412SP helicopters for offshore oil-support work. When mapping contracts ended, the company bought Fokker F27-600s for passenger and cargo charters and scheduled domestic flying, setting the pattern of mixing charter, cargo, and scheduled service that still defines the airline.\n\nThrough the 2000s and 2010s Trigana rebuilt around ATR 42/72 turboprops and Boeing 737 Classic jets, concentrating on pioneer routes that larger Indonesian carriers did not serve. Western New Guinea became the operational heart of the network: Sentani International Airport in Jayapura feeds highland and coastal towns such as Wamena, Oksibil, Dekai, Tanahmerah, Serui, Biak, Nabire, and Merauke, while Pattimura Airport in Ambon anchors Maluku island hops to Namrole, Sanana, Tiakur, and Ternate. Jakarta's Soekarno-Hatta remains the official operating base, with additional scheduled flying to Surabaya, Semarang, and Pangkalan Bun.\n\nLike every Indonesian airline, Trigana was barred from European Union airspace from 2007 until the EU Air Safety List restriction on Indonesian carriers was lifted in 2018. In March 2021 the company announced a partnership with parcel operator J&T Express, putting part of the Boeing 737 Classic fleet into cargo and preighter work. The airline's most serious accident remains Flight 267 on 16 August 2015, when ATR 42-300 PK-YRN crashed in the Bintang highlands on a Jayapura–Oksibil service, killing all 54 people on board.\n\nToday Trigana Air is not a member of a global alliance and is led by President Director Capt. Rubijanto Adisarwono from headquarters in Kalimalang, East Jakarta. Its fleet of about 16 aircraft—ATR 42-300/500, ATR 72-500, Boeing 737-300 passenger and SF cargo conversions, and a single Boeing 737-500—supports roughly 20 domestic destinations, with the densest flying still across Papua and the Maluku Islands.`,
+    fleet: [
+      { model: "ATR 42-300", manufacturer: "ATR", count: 4, passengers: "48 (1-class)", range: "720 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trigana_Air_Service_ATR_42-300_PK-YRN_at_Supadio_Airport.jpg", imageAlt: "Trigana Air ATR 42-300", description: "Short-field turboprop used on Papua highland and Maluku pioneer routes into short runways such as Oksibil, Serui, and Namrole." },
+      { model: "ATR 42-500", manufacturer: "ATR", count: 1, passengers: "48 (1-class)", range: "840 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trigana_Air_Service_ATR-42v_PK-YRN_at_Labuan_Bajo_Airport.jpg", imageAlt: "Trigana Air ATR 42-500", description: "Later ATR 42 variant with improved engines, used on the same thin eastern Indonesia routes as the -300s." },
+      { model: "ATR 72-500", manufacturer: "ATR", count: 2, passengers: "70 (1-class)", range: "890 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trigana_Air_Service_ATR_42-300_PK-YRN_at_Supadio_Airport.jpg", imageAlt: "Trigana Air ATR 72-500", description: "Stretched ATR used where demand is higher than an ATR 42 can cover, including busier Papua and Maluku sectors." },
+      { model: "B737-300", manufacturer: "Boeing", count: 3, passengers: "148 (1-class)", range: "2,255 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trigana_Air_Boeing_737-300_PK-YSH.jpg", imageAlt: "Trigana Air B737-300", description: "Passenger 737 Classic for longer domestic sectors from Jakarta and the Jayapura gateway." },
+      { model: "B737-300SF", manufacturer: "Boeing", count: 5, passengers: "Cargo", range: "2,255 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trigana_Air_Boeing_737-300_PK-YSH.jpg", imageAlt: "Trigana Air B737-300SF", description: "Freighter conversions supporting the J&T Express partnership and high-volume cargo into the Papuan highlands, especially Wamena." },
+      { model: "B737-500", manufacturer: "Boeing", count: 1, passengers: "132 (1-class)", range: "2,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trigana_Air_Boeing_737-300_PK-YSH.jpg", imageAlt: "Trigana Air B737-500", description: "Shorter 737 Classic used on domestic passenger services from Sentani and other jet-capable Indonesian airports." },
+    ],
+    hubs: [a.CGK, a.DJJ, a.AMQ],
+    routes: [
+      route("DJJ", "WMX"), route("DJJ", "OKL"), route("DJJ", "DEX"), route("DJJ", "TMH"),
+      route("DJJ", "ZRI"), route("DJJ", "BIK"), route("DJJ", "NBX"), route("DJJ", "MKQ"),
+      route("ZRI", "BIK"), route("MKQ", "TMH"),
+      route("AMQ", "NRE"), route("AMQ", "SQN"), route("AMQ", "JIO"), route("AMQ", "TTE"),
+      route("SQN", "TTE"),
+      route("CGK", "SUB"), route("CGK", "SRG"), route("CGK", "PKN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
