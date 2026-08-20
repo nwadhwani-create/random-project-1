@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "sriwijaya-air",
+    name: "Sriwijaya Air",
+    iataCode: "SJ",
+    icaoCode: "SJY",
+    country: "Indonesia",
+    founded: 2002,
+    headquarters: "Tangerang, Indonesia",
+    alliance: "None",
+    logoColor: "#004A99",
+    accentColor: "#F5C400",
+    history: `Sriwijaya Air is an Indonesian airline founded on 7 November 2002 by Chandra Lie, Hendry Lie, Andi Halim, and Fandy Lingga, and named for the historical Srivijaya empire of Sumatra. It obtained its business license on 28 April 2003 and an Air Operator's Certificate on 28 October, then commenced operations on 10 November 2003 with a maiden Boeing 737-200 flight from Jakarta to Pangkal Pinang. Headquarters are in Tangerang, beside Soekarno-Hatta International Airport, which together with Makassar's Sultan Hasanuddin International Airport is an operating base. The carrier's slogan is "Your Flying Partner."\n\nAfter its first year the airline added four more 737-200s, and by 2010 it was operating 27 aircraft, carrying 7.18 million passengers and holding an 11.8% share of Indonesia's domestic market. International service began in December 2008 on Jakarta–Singapore. Fleet renewal followed: used Boeing 737-500s from Continental Airlines replaced the 737-200s, 737-800s arrived from 2012, and two new 737-900ERs were delivered in 2015. A 2011 order for Embraer 190s was later suspended to keep Boeing commonality. In December 2013 the group launched NAM Air as a feeder, analogous to the Wings Air–Lion Air pairing.\n\nA planned shift to full-service status in the mid-2010s stalled, and the airline remained a medium-service carrier. From November 2018 to November 2019 Garuda Indonesia's Citilink subsidiary managed Sriwijaya and NAM under a cooperation agreement that collapsed over unpaid maintenance and leasing debts. The COVID-19 downturn and the 9 January 2021 crash of Flight 182, a 737-500 that went down shortly after takeoff from Jakarta, further strained the company; a temporary debt-restructuring (PKPU) process followed in 2022.\n\nToday Sriwijaya Air remains independent of a global alliance and operates an all-Boeing 737 fleet of about nine aircraft—737-500s in a two-class 120-seat layout and high-density 737-800s—on a domestic Indonesian network. Core links include Jakarta and Makassar to Bali, Surabaya, Yogyakarta, Pontianak, Pangkal Pinang, Batam, Balikpapan, Manado, Ternate, and Papua gateways such as Jayapura.`,
+    fleet: [
+      { model: "B737-500", manufacturer: "Boeing", count: 5, passengers: "120 (2-class)", range: "2,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sriwijaya_Air_Boeing_737-524(WL)%3B_%40CGK_2018_PK-CLK.jpg", imageAlt: "Sriwijaya Air B737-500", description: "Classic 'Baby Boeing' used on thinner domestic sectors, typically with eight Executive Class seats and 112 Economy seats. Several airframes may be stored at any given time." },
+      { model: "B737-800", manufacturer: "Boeing", count: 4, passengers: "189 (1-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sriwijaya_Air_Boeing_737_PK-CRH_Denpasar_2023_(01).jpg", imageAlt: "Sriwijaya Air B737-800", description: "High-density Next Generation 737 for busier trunk routes such as Jakarta–Makassar, Jakarta–Bali, and Makassar–Surabaya." },
+    ],
+    hubs: [a.CGK, a.UPG],
+    routes: [
+      route("CGK", "UPG"), route("CGK", "DPS"), route("CGK", "YIA"), route("CGK", "PNK"),
+      route("CGK", "PGK"), route("CGK", "BTH"), route("CGK", "TJQ"),
+      route("UPG", "SUB"), route("UPG", "YIA"), route("UPG", "DPS"), route("UPG", "BPN"),
+      route("UPG", "DJJ"), route("UPG", "MDC"), route("UPG", "TTE"), route("UPG", "TIM"),
+      route("UPG", "SOQ"), route("UPG", "NBX"), route("UPG", "WMX"), route("UPG", "BIK"),
+      route("BTH", "DJB"), route("DPS", "TMC"), route("BPN", "BEJ"), route("SUB", "BPN"),
+      route("MDC", "TTE"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
