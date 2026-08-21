@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "hokkaido-air-system",
+    name: "Hokkaido Air System",
+    iataCode: "JL",
+    icaoCode: "NTH",
+    country: "Japan",
+    founded: 1997,
+    headquarters: "Sapporo, Hokkaido",
+    alliance: "None",
+    logoColor: "#E60012",
+    accentColor: "#1A1A2E",
+    history: `Hokkaido Air System (HAC) was established on September 30, 1997 as a joint venture between Japan Air System, the Hokkaido prefectural government, and regional municipalities and businesses, and commenced operations on March 28, 1998. Its first routes linked New Chitose with Hakodate and Kushiro and connected Hakodate and Asahikawa with those same cities—thin intra-Hokkaido pairs that larger jets could not serve economically. After Japan Air System merged into Japan Airlines, HAC remained a JAL affiliate, later moving its headquarters onto the grounds of Sapporo's close-in Okadama Airport.\n\nOkadama service began in 2003 with flights to Hakodate and Kushiro, shifting HAC's center of gravity from New Chitose to a downtown-adjacent airfield whose short runway suits turboprops. When Air Hokkaido ceased operations on March 31, 2006, HAC took over its sole remaining route, Hakodate–Okushiri, the next day—preserving the only scheduled air link to Okushiri Island. The carrier also briefly served Monbetsu in 2005–06 before concentrating on a tighter Okadama-centered network.\n\nHAC left the Japan Airlines group at the end of fiscal 2010 as JAL restructured under bankruptcy protection, with JAL retaining a minority stake. Independent operations proved difficult: the airline posted a 296 million yen loss and 116 million yen of negative equity in the year ending March 2013. It restarted JAL codeshares, launched Sapporo–Misawa in July 2013 as its first Honshu destination, and in October 2014 returned to the JAL group as a majority-owned subsidiary. In October 2016 HAC consolidated onto JAL flight numbers and the JAL Mileage Bank, retiring its own 6L designator.\n\nToday HAC operates four 48-seat ATR 42-600 turboprops—the first fleet expansion since its founding came with a fourth aircraft in 2023—from its hub at Sapporo Okadama. The network covers seven routes within Hokkaido (Okadama to Hakodate, Kushiro, Memanbetsu, Rishiri, Okushiri, and Nemuro Nakashibetsu, plus Hakodate–Okushiri) and two Tōhoku links to Misawa and Akita. Nakashibetsu, added in 2023, was the first new destination on the JAL Group domestic map in twelve years. Branded as the wings of Hokkaido residents, HAC remains the essential turboprop operator connecting Sapporo's city airport with the prefecture's islands and eastern towns.`,
+    fleet: [
+      { model: "ATR 42-600", manufacturer: "ATR", count: 4, passengers: "48 (1-class)", range: "720 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/(JPN-Hokkaido)_Hokkaido_Air_System_ATR_42-600_JA13HC_@_RJCH_2026-06-09.jpg", imageAlt: "Hokkaido Air System ATR 42-600 at Hakodate Airport", description: "48-seat twin turboprop suited to Okadama's short runway and thin intra-Hokkaido and Tōhoku routes." },
+    ],
+    hubs: [a.OKD],
+    routes: [
+      route("OKD", "HKD"), route("OKD", "KUH"), route("OKD", "MMB"), route("OKD", "SHB"),
+      route("OKD", "RIS"), route("OKD", "OIR"), route("OKD", "MSJ"), route("OKD", "AXT"),
+      route("HKD", "OIR"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
