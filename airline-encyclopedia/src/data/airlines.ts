@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "japan-transocean-air",
+    name: "Japan Transocean Air",
+    iataCode: "NU",
+    icaoCode: "JTA",
+    country: "Japan",
+    founded: 1967,
+    headquarters: "Naha, Okinawa",
+    alliance: "Oneworld",
+    logoColor: "#E60012",
+    accentColor: "#00A3C7",
+    history: `Japan Transocean Air (JTA) was established on June 20, 1967 as Southwest Air Lines (南西航空, Nansei Kōkū) and commenced operations on July 1 of that year, becoming Okinawa's hometown carrier while the islands were still under U.S. administration. Early services used Convair 240s; Japan Airlines capital later allowed an upgrade to NAMC YS-11 turboprops and, eventually, Boeing 737 jets that could link Naha with the mainland and the outer Ryukyu islands. The airline adopted the Japan Transocean Air name on July 1, 1993, reflecting a network that spans the East China Sea rather than just the southwest islands.\n\nJTA is a Japan Airlines Group subsidiary—JAL holds a majority stake, with Naha Airport Terminal, Okinawa Prefecture, and other local investors also represented—and an Oneworld affiliate through that relationship. It owns 74.5% of Ryukyu Air Commuter, the Dash 8 operator that continues JTA's reach onto shorter island runways. The carrier also maintains 737s for the JAL Group and has historically lent aircraft to JAL when the parent needed extra capacity. Its only hull-loss accident occurred under the Southwest Air Lines brand: Flight 611 overran Ishigaki's runway on August 26, 1982, destroying the 737 but with no fatalities.\n\nThe modern fleet is an all-Boeing 737-800 operation of 14 aircraft in a 165-seat two-class layout (20 Class J and 145 economy), flown under JTA's NU code and often in parallel with JAL. From its hub at Naha Airport, with New Ishigaki as a focus city, JTA connects Okinawa to Tokyo Haneda, Nagoya Centrair, Osaka Kansai, Okayama, Komatsu, and Fukuoka, and knits the prefecture together with services to Miyako, Ishigaki, and Kumejima.\n\nOn February 3, 2026, JTA launched its first scheduled international flight, a daily Naha–Taipei/Taoyuan service that is being doubled to twice daily in the winter 2026 timetable. The same winter plan restores Osaka Itami–Naha after a 19-year absence. Marketed as the Wings of Okinawa, JTA remains the jet backbone of the JAL Group's southwest-island network and a new short-haul bridge between Taiwan and the Ryukyus.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 14, passengers: "165 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/(JPN-Tokyo)_Japan_Transocean_Air_Boeing_737-8Q3_JA02RK_@_RJTT_2026-06-10.jpg", imageAlt: "Japan Transocean Air Boeing 737-800 at Tokyo Haneda", description: "Sole type in JTA's fleet; 165-seat 737-800s shared with the JAL Group on Naha trunk and island routes plus Taipei." },
+    ],
+    hubs: [a.OKA],
+    routes: [
+      route("OKA", "HND"), route("OKA", "NGO"), route("OKA", "KIX"), route("OKA", "FUK"),
+      route("OKA", "OKJ"), route("OKA", "KMQ"), route("OKA", "ISG"), route("OKA", "MMY"),
+      route("OKA", "UEO"), route("OKA", "TPE"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
