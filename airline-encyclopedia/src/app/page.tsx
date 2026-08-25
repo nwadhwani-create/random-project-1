@@ -192,7 +192,13 @@ export default function HomePage() {
           <label className="search-box">
             <SearchIcon />
             <span className="sr-only">Search flights</span>
-            <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Flight, city, or airline" />
+            <input
+              id="flight-search"
+              name="flight-search"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Flight, city, or airline"
+            />
             <kbd>⌘ K</kbd>
           </label>
         </div>
