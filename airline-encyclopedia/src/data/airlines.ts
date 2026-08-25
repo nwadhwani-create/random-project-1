@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "ana-wings",
+    name: "ANA Wings",
+    iataCode: "EH",
+    icaoCode: "AKX",
+    country: "Japan",
+    founded: 2010,
+    headquarters: "Ōta, Tokyo",
+    alliance: "Star Alliance",
+    logoColor: "#003D7C",
+    accentColor: "#00A3E0",
+    history: `ANA Wings Co., Ltd. (ANAウイングス) is All Nippon Airways' regional subsidiary, formed on 1 October 2010 by merging three ANA Group commuter airlines: Air Nippon Network (the surviving company, established in April 2001), Fukuoka-based Air Next (2004), and Nagoya-based Air Central (the former Nakanihon Airlines). The amalgamation created a single operator for ANA's thinner domestic routes, flying under the parent's NH flight numbers while retaining its own IATA code EH, ICAO code AKX, and call sign Alfa Wing.\n\nHeadquartered at Haneda Airport in Ōta, Tokyo, ANA Wings is a Star Alliance affiliate through ANA and a member of ANA Mileage Club. It is the group workhorse on short runways and thinner city pairs that mainline widebodies and A321neos cannot serve economically. The Q400 fleet stitches Hokkaido's northern cities to New Chitose, links Haneda with regional airports such as Wakkanai, Akita, Komatsu, and Hiroshima, and feeds Itami, Centrair, and Fukuoka. Some Dash 8-400s have also been leased to Oriental Air Bridge. The 737-800s, configured with 8 premium and 158 economy seats, are operated for All Nippon Airways on busier domestic trunks including Haneda–Fukuoka, Haneda–Naha, and Itami–Sendai.\n\nThe carrier retired its last Dash 8-300s in 2014 and its last Boeing 737-500s in 2020, leaving a two-type fleet. As of August 2025 it operated 24 De Havilland Canada Dash 8-400s (with seven more on order through 2027) and 39 Boeing 737-800s — 63 aircraft in total — serving about 48 airports and around 100 domestic routes. ANA Wings remains the regional backbone of Japan's largest airline group, connecting Hokkaido, Tohoku, Hokuriku, Shikoku, Kyushu, and the Ryukyus into ANA's Haneda and Itami banks.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 39, passengers: "166 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/ANA_Boeing_737-800_JA04AN_(10017534665).jpg", imageAlt: "ANA Wings Boeing 737-800 in ANA colors at Nagoya Centrair", description: "737-800s operated for All Nippon Airways on high-frequency domestic trunks; 8 premium and 158 economy seats." },
+      { model: "Dash 8-400", manufacturer: "De Havilland Canada", count: 24, passengers: "74 (1-class)", range: "1,100 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/ANA_Wings,_DHC-8-400,_JA852A_(25746051016)_(cropped).jpg", imageAlt: "ANA Wings Dash 8-400", description: "High-wing Q400 turboprops for short-field Hokkaido, Tohoku, and island routes; seven more on order through 2027." },
+    ],
+    hubs: [a.HND, a.CTS, a.ITM, a.NGO, a.FUK, a.OKA],
+    routes: [
+      route("CTS", "WKJ"), route("CTS", "HKD"), route("CTS", "AXT"), route("CTS", "HND"),
+      route("CTS", "ITM"), route("CTS", "NGO"), route("CTS", "FUK"),
+      route("HND", "AXT"), route("HND", "KMQ"), route("HND", "HIJ"), route("HND", "FUK"),
+      route("HND", "KOJ"), route("HND", "OKA"), route("HND", "ITM"), route("HND", "NGO"),
+      route("ITM", "SDJ"), route("ITM", "FUK"), route("ITM", "NGS"),
+      route("NGO", "FUK"), route("NGO", "OKA"), route("NGO", "SDJ"),
+      route("FUK", "OKA"),
+      route("OKA", "ISG"), route("OKA", "MMY"), route("OKA", "KIX"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
