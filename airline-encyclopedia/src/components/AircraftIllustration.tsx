@@ -16,13 +16,14 @@ type AircraftCategory =
   | "regional"
   | "cargo";
 
-function getCategory(model: string): AircraftCategory {
-  if (/A380/i.test(model)) return "super-jumbo";
-  if (/B747|747/i.test(model)) return "jumbo";
-  if (/B777-F/i.test(model)) return "cargo";
-  if (/B777|777/i.test(model)) return "widebody-large";
-  if (/B787|787|A350|A330|A340|B767|767/i.test(model)) return "widebody";
-  if (/A220/i.test(model)) return "regional";
+function getCategory(model: string, manufacturer: string): AircraftCategory {
+  const text = `${manufacturer} ${model}`;
+  if (/A380/i.test(text)) return "super-jumbo";
+  if (/B747|747/i.test(text)) return "jumbo";
+  if (/B777-F|300SF|737F/i.test(text)) return "cargo";
+  if (/B777|777/i.test(text)) return "widebody-large";
+  if (/B787|787|A350|A330|A340|B767|767/i.test(text)) return "widebody";
+  if (/A220|E170|E175|E190|E195|ERJ|CRJ|ATR|DHC-8|Dash 8|Q400|Q300/i.test(text)) return "regional";
   return "narrowbody";
 }
 
@@ -512,7 +513,7 @@ export default function AircraftIllustration({
   manufacturer,
   airlineColor,
 }: Props) {
-  const category = getCategory(model);
+  const category = getCategory(model, manufacturer);
   const Silhouette = categoryMap[category];
   const rgb = hexToRgb(airlineColor);
 

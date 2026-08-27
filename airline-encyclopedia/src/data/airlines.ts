@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "japan-air-commuter",
+    name: "Japan Air Commuter",
+    iataCode: "JC",
+    icaoCode: "JAC",
+    country: "Japan",
+    founded: 1983,
+    headquarters: "Kirishima, Kagoshima Prefecture, Japan",
+    alliance: "Oneworld",
+    logoColor: "#E60012",
+    accentColor: "#1A1A1A",
+    history: `Japan Air Commuter Co., Ltd. (日本エアコミューター株式会社, JAC) is the JAL Group's Kagoshima-based turboprop affiliate, founded on 1 July 1983 as a public–private partnership with fourteen Kagoshima Prefecture municipalities and Toa Domestic Airlines — later Japan Air System, which merged into Japan Airlines. Scheduled flying began that December, knitting Kagoshima to the Ōsumi and Amami islands that jets could not serve economically. Headquarters sit beside Kagoshima Airport in Kirishima (Mizobe); Japan Airlines holds 60% and twelve Amami-island municipalities the remaining 40%.\n\nJAC's own IATA designator is JC and its ICAO code is JAC (call sign COMMUTER), but like sister carriers J-Air and Hokkaido Air System it operates most sectors under Japan Airlines JL flight numbers and JAL Mileage Bank. It joined Oneworld as a JAL Group affiliate. The fleet evolved from NAMC YS-11s through Saab 340s and Bombardier DHC-8-Q400s; in June 2015 JAC signed ATR's 1,500th aircraft sale — eight firm ATR 42-600s, Japan's first ATR order — with the type entering service in 2017. ATR 72-600s followed in 2018–19 for thicker Kagoshima–island banks.\n\nAs of 2026 JAC flies eleven ATR 600s — nine 48-seat ATR 42-600s and two 70-seat ATR 72-600s — on about 21 daily routes and 70 flights linking Kagoshima with Yakushima, Tanegashima, and the Amami chain (Amami, Kikai, Tokunoshima, Okinoerabu, Yoron), plus Fukuoka, Naha, Osaka–Itami, Tajima, Izumo, Oki, and Matsuyama. Two further ATR 72-600s are due in December 2026 and February 2027, taking the fleet to 13. Distinct from Japan Airlines' mainline jets, J-Air's Embraers, Japan Transocean Air's Okinawa 737s, and Hokkaido Air System's Okadama ATR 42s, JAC remains the essential island lifeline of southern Kyushu.`,
+    fleet: [
+      { model: "42-600", manufacturer: "ATR", count: 9, passengers: "48 (1-class)", range: "720 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Air_Commuter_ATR42-600_JA03JC.jpg", imageAlt: "Japan Air Commuter ATR 42-600", description: "48-seat twin turboprop for Kagoshima–Amami island hops and thinner Honshu and Shikoku feeders; current JAC/JAL Tsurumaru livery." },
+      { model: "72-600", manufacturer: "ATR", count: 2, passengers: "70 (1-class)", range: "825 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Air_Commuter_ATR42-600_JA03JC.jpg", imageAlt: "Japan Air Commuter ATR 72-600", description: "70-seat stretched ATR used on busier Kagoshima–Yakushima, Tanegashima, Okinoerabu, and Yoron sectors; two more due by February 2027." },
+    ],
+    hubs: [a.KOJ, a.ASJ, a.FUK, a.ITM],
+    routes: [
+      route("KOJ", "ASJ"), route("KOJ", "KKX"), route("KOJ", "TNE"), route("KOJ", "TKN"),
+      route("KOJ", "OKE"), route("KOJ", "KUM"), route("KOJ", "RNJ"), route("KOJ", "FUK"),
+      route("KOJ", "OKA"), route("KOJ", "MYJ"),
+      route("ASJ", "KKX"), route("ASJ", "TKN"), route("ASJ", "OKE"), route("ASJ", "RNJ"),
+      route("ASJ", "OKA"), route("ASJ", "FUK"),
+      route("ITM", "TJH"), route("ITM", "IZO"), route("IZO", "OKI"),
+      route("OKE", "OKA"), route("TKN", "OKE"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
