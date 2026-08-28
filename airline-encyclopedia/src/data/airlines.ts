@@ -598,6 +598,27 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "new-central-air-service",
+    name: "New Central Airservice",
+    iataCode: "—",
+    icaoCode: "CUK",
+    country: "Japan",
+    founded: 1978,
+    headquarters: "Ryūgasaki, Ibaraki",
+    alliance: "None",
+    logoColor: "#004B87",
+    accentColor: "#E30613",
+    history: `New Central Airservice (新中央航空, Shin Chūō Kōkū) was established on December 15, 1978 with backing from Tokyu Corporation and began operations on February 1, 1979 after taking over the aviation business of Chuo Aviation, a Funabashi-based operator founded in 1958. Its first scheduled service, launched in March 1979, linked Tokyo's close-in Chōfu Airport with Niijima in the Izu Islands—an overnight-ferry alternative that put a nine-seat Britten-Norman Islander on a 40-minute hop from western Tokyo to an inhabited island still inside the Tokyo Metropolis.\n\nThe airline added Chōfu–Ōshima in December 1984, flying the same island ANA already served from Haneda, and opened Kōzushima in 1992 when that island's 800-metre runway opened. For a time it also flew Islanders on Niigata–Sado, a service that ended in 1994. That same year the Kawada Group acquired the carrier; headquarters remain on the grounds of Ryūgasaki Airfield in Ibaraki, which New Central still operates for training, sightseeing, and aerial work alongside sister helicopter operator Toho Air Service.\n\nCapacity jumped when Dornier 228-212s arrived in 1999, 2002, and 2006, nearly doubling each flight from fewer than ten seats to 19. The Islanders were retired on March 31, 2011. New Central became the launch customer for the RUAG (later General Atomics) Dornier 228NG, taking its first example in late 2010 and further aircraft in 2014, 2017, and 2019. One NG airframe was withdrawn in 2023 and replaced by a converted 228, leaving a five-aircraft passenger fleet: four 228NGs and the last classic 228-212 still flying scheduled services in Japan.\n\nOn April 2, 2014—the day after ANA Wings ended Haneda–Miyakejima—New Central opened Chōfu–Miyakejima, completing today's four-island network. From Chōfu's 800-metre runway it now flies multiple daily 25- to 50-minute sectors to Ōshima, Niijima, Kōzushima, and Miyakejima, many of them Tokyo-subsidized essential air links for island residents and visitors. The airline has no IATA code; it operates as CUK with the call sign CHUOH AIR, and remains Japan's only scheduled Dornier 228 operator.`,
+    fleet: [
+      { model: "228NG", manufacturer: "Dornier", count: 4, passengers: "19 (1-class)", range: "1,037 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dornier_Do_228_landing_at_Chofu_Airport,_Tokyo.jpg", imageAlt: "New Central Airservice Dornier 228NG landing at Chōfu Airport", description: "STOL high-wing turboprop built for Chōfu's 800-metre runway and the short Izu Island hops; New Central was the 228NG launch customer." },
+      { model: "228-212", manufacturer: "Dornier", count: 1, passengers: "19 (1-class)", range: "1,037 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dornier_Do_228_of_New_Central_Airlines_-01.jpg", imageAlt: "New Central Airservice Dornier 228-212 at Chōfu Airport", description: "The last classic 228-212 on the scheduled network, still pairing with the NG fleet on 19-seat Chōfu–Izu Island sectors." },
+    ],
+    hubs: [a.RJTF],
+    routes: [
+      route("RJTF", "OIM"), route("RJTF", "RJAN"), route("RJTF", "RJAZ"), route("RJTF", "MYE"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
