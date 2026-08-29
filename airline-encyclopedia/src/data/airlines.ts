@@ -598,6 +598,26 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "amakusa-airlines",
+    name: "Amakusa Airlines",
+    iataCode: "MZ",
+    icaoCode: "AHX",
+    country: "Japan",
+    founded: 1998,
+    headquarters: "Amakusa, Kumamoto Prefecture",
+    alliance: "None",
+    logoColor: "#0077BE",
+    accentColor: "#4EC6E8",
+    history: `Amakusa Airlines (天草エアライン, Amakusa Earain), marketed as AMX, was established on October 12, 1998 by Kumamoto Prefecture and the municipalities of the Amakusa Islands to restore scheduled air service after larger carriers withdrew from the remote western-Kyushu airports. Operations began on March 23, 2000 with a single De Havilland Canada Dash 8-100 linking Amakusa Airfield to Fukuoka and Kumamoto—short hops that turn a multi-hour drive and ferry into a 20- to 40-minute flight for island residents and visitors.\n\nOwnership remains overwhelmingly public: Kumamoto Prefecture holds a majority stake, with the cities of Amakusa and Kamiamakusa and smaller island towns making up most of the rest. Japan Airlines codeshares on the network and handles ground work at every station except the Amakusa home base. The carrier briefly tried mainland trunk flying beyond Kyushu—Kumamoto–Matsuyama from 2004 to 2008 and Kumamoto–Kobe from 2008 to 2010—before settling on today's triangle of Amakusa–Fukuoka, Amakusa–Kumamoto, and Kumamoto–Osaka Itami.\n\nIn August 2015 Amakusa took delivery of ATR 42-600 JA01AM, the first of the type in Japan, and put it into service on February 20, 2016 after retiring the Dash 8 the day before. The 48-seat turboprop, nicknamed Mizoka-go after a local marine motif, wears the airline's distinctive whale-shark and dolphin livery and is the entire passenger fleet. The extra seats and range let the same airframe cover the 20-minute Amakusa–Kumamoto shuttle, the three-times-daily Amakusa–Fukuoka run, and the daily 90-minute Kumamoto–Itami sector.\n\nToday Amakusa Airlines still operates as a one-aircraft essential-air-service carrier under IATA MZ and ICAO AHX (call sign AMAKUSA AIR). It codeshares with both Japan Airlines and All Nippon Airways, remains the only scheduled operator at Amakusa Airfield, and continues to treat Kumamoto as its mainland focus city—connecting the Amakusa Islands to Kyushu's largest airport and to the Osaka metropolitan area without leaving the 48-seat ATR.`,
+    fleet: [
+      { model: "42-600", manufacturer: "ATR", count: 1, passengers: "48 (1-class)", range: "716 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amakusa_Airlines,_ATR42-600,_JA01AM.JPG", imageAlt: "Amakusa Airlines ATR 42-600 JA01AM at Kumamoto Airport", description: "Japan's first ATR 42-600, JA01AM Mizoka-go, in whale-shark livery; the airline's sole aircraft covers Amakusa, Fukuoka, Kumamoto, and Osaka Itami." },
+    ],
+    hubs: [a.AXJ, a.KMJ],
+    routes: [
+      route("AXJ", "FUK"), route("AXJ", "KMJ"), route("KMJ", "ITM"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
