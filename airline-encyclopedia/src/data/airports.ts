@@ -70,6 +70,10 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  KIJ: { code: "KIJ", name: "Niigata Airport", city: "Niigata", country: "Japan", lat: 37.9558, lng: 139.1117 },
+  OKD: { code: "OKD", name: "Sapporo Okadama Airport", city: "Sapporo", country: "Japan", lat: 43.1175, lng: 141.3814 },
+  NGO: { code: "NGO", name: "Chubu Centrair International", city: "Nagoya", country: "Japan", lat: 34.8583, lng: 136.8053 },
+  UKB: { code: "UKB", name: "Kobe Airport", city: "Kobe", country: "Japan", lat: 34.6328, lng: 135.2239 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
