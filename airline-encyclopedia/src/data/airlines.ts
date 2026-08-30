@@ -598,6 +598,27 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "toki-air",
+    name: "Toki Air",
+    iataCode: "BV",
+    icaoCode: "TOK",
+    country: "Japan",
+    founded: 2020,
+    headquarters: "Niigata, Niigata Prefecture",
+    alliance: "None",
+    logoColor: "#C45C6A",
+    accentColor: "#2F9B8F",
+    history: `Toki Air (トキエア, TOKI AIR Co., Ltd.) was founded on July 29, 2020 in Niigata to reconnect regional cities that had lost convenient air links. Backed by local business groups and later by Niigata Prefecture financing, the carrier took its name from the Japanese crested ibis (toki), the prefectural bird, and chose to fly fuel-efficient ATR turboprops from Niigata Airport rather than the Tokyo hubs used by Japan's majors.\n\nThe airline signed a lease with Nordic Aviation Capital for two ATR 72-600s and a ten-year Global Maintenance Agreement with ATR. The first 72-seat aircraft, JA01QQ, was delivered on October 10, 2022 and arrived at Niigata on November 5. After applying for an air operator's certificate in November 2022, Toki received approval from the East Japan Civil Aviation Bureau on March 31, 2023—the first new locally owned Japanese domestic airline in 14 years, after Fuji Dream Airlines.\n\nCommercial service began on January 31, 2024 with Niigata–Sapporo Okadama, a city-center Hokkaido hop that jet carriers cannot serve from New Chitose. Niigata–Sendai followed in April 2024, restoring scheduled service on that city pair after 26 years, then Niigata–Nagoya Chubu Centrair in late September 2024 and Niigata–Kobe as the Kansai gateway. In December 2024 Toki took delivery of JA03QQ, its first ATR 42-600, and the 2025 winter season added a through Nagoya–Sapporo Okadama sector. The 2026 winter timetable schedules up to 72 weekly flights across the Niigata–Okadama, Niigata–Chubu, and Niigata–Kobe triangles.\n\nToday Toki Air remains an independent regional carrier under IATA BV and ICAO TOK (call sign TOKI AIR), based in the Niigata Airport terminal. Its three-aircraft ATR fleet—two 72-600s and one 42-600—links Niigata with Sapporo Okadama, Nagoya Centrair, and Kobe, plus a Centrair–Okadama through route. The airline is among the operators advising Heart Aerospace on the proposed ES-30 electric airliner.`,
+    fleet: [
+      { model: "72-600", manufacturer: "ATR", count: 2, passengers: "72 (1-class)", range: "825 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Toki_Air_ATR_72-600(72-212A)_JA01QQ_RJSN.jpg", imageAlt: "Toki Air ATR 72-600 JA01QQ at Niigata Airport", description: "72-seat ATR 72-600s JA01QQ and JA02QQ, the launch fleet that opened Niigata–Okadama and still covers the busiest Toki Air sectors." },
+      { model: "42-600", manufacturer: "ATR", count: 1, passengers: "48 (1-class)", range: "716 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Toki_Air_ATR_72-600(72-212A)_JA01QQ_RJSN.jpg", imageAlt: "Toki Air ATR 42-600 JA03QQ in crested-ibis livery", description: "48-seat ATR 42-600 JA03QQ, delivered in December 2024, used on thinner Niigata sectors and as the type Toki plans to grow with STOL 42-600S variants." },
+    ],
+    hubs: [a.KIJ],
+    routes: [
+      route("KIJ", "OKD"), route("KIJ", "NGO"), route("KIJ", "UKB"), route("NGO", "OKD"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
