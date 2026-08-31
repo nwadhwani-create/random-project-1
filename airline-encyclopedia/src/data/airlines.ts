@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "gx-airlines",
+    name: "GX Airlines",
+    iataCode: "GX",
+    icaoCode: "CBG",
+    country: "China",
+    founded: 2015,
+    headquarters: "Nanning, Guangxi, China",
+    alliance: "None",
+    logoColor: "#E31C3D",
+    accentColor: "#0E6B5C",
+    history: `GX Airlines (Chinese: 北部湾航空; pinyin: Běibùwān Hángkōng), officially Guangxi Beibu Gulf Airlines Co., Ltd., is the first airline based in Guangxi. It was formed as a joint venture between Tianjin Airlines and the Guangxi Beibu Gulf Investment Group, later recapitalized with Hainan Airlines and Guangxi Beitou Civil Aviation Investment. The Civil Aviation Administration of China issued its air operator's certificate on February 1, 2015, the same day the carrier took delivery of its first aircraft—an Embraer 190 leased from Tianjin Airlines. The inaugural revenue flight, Nanning–Haikou, operated on February 13, 2015; scheduled operations began three days later on February 16 from Nanning Wuxu International Airport under IATA GX, ICAO CBG, and the radio call sign GREEN CITY.\n\nThe startup grew quickly off the E190. GX Airlines hired its first foreign pilots in November 2015 and, in August 2016, put its first Airbus A320 into service—the “big airplane” that let it thicken trunk flying out of Nanning. International service followed on May 29, 2018 with Nanning–Siem Reap, aimed at tourism between the Beibu Gulf and Angkor. Ownership later shifted with the HNA restructuring: Guangxi investors became the majority shareholder, and on December 8, 2021 the airline formally joined Liaoning Fangda Group while remaining part of the New HNA Aviation family.\n\nStrategy is written into the brand. The GX wordmark combines Chinese calligraphy with a cursive Latin G, meant to read like Beibu Gulf spray; the hibiscus red (朱瑾红) is a Guangxi color. The carrier’s brief is “based in Guangxi, serve the nation, face ASEAN”—using Nanning, China’s only coastal autonomous-region capital and the mainland’s southwest gateway, as a China–Southeast Asia connector rather than a Beijing- or Shanghai-style mega-hub. Beside the Nanning base it has built a second operational center at Haikou, stitching thin domestic city pairs that the majors leave aside.\n\nToday GX Airlines fields about 25 aircraft—roughly twenty Airbus A320-family jets and a handful of Embraer 190s—on some 79 routes to 59 cities. The domestic map covers first-tier trunks (Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Xi’an) plus secondary cities from Harbin and Hohhot to Lanzhou, Xining, and Lijiang. International flying is a short ASEAN set from Nanning: Bangkok, Hanoi, and Vientiane. The airline is not a member of a global alliance.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 14, passengers: "174–180 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/B-6817_(26_Apr_2023).jpg", imageAlt: "GX Airlines Airbus A320-200 B-6817", description: "Domestic trunk workhorse linking Nanning and Haikou with first- and second-tier Chinese cities." },
+      { model: "A320neo", manufacturer: "Airbus", count: 6, passengers: "186 (1-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/GX_Airlines_A320neo.jpg", imageAlt: "GX Airlines Airbus A320neo", description: "Newest narrowbody used on busier Nanning trunks and the short ASEAN hops to Bangkok, Hanoi, and Vientiane." },
+      { model: "E190", manufacturer: "Embraer", count: 5, passengers: "106 (1-class)", range: "2,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/GX_Airlines_Embraer_190_Sanya.jpg", imageAlt: "GX Airlines Embraer E190", description: "Launch type, still used on thinner Guangxi and Hainan spokes that do not fill an A320." },
+    ],
+    hubs: [a.NNG, a.HAK],
+    routes: [
+      route("NNG", "HAK"), route("NNG", "SYX"), route("NNG", "PEK"), route("NNG", "PVG"),
+      route("NNG", "CAN"), route("NNG", "SZX"), route("NNG", "TFU"), route("NNG", "CKG"),
+      route("NNG", "XIY"), route("NNG", "HGH"), route("NNG", "XMN"), route("NNG", "CSX"),
+      route("NNG", "KMG"), route("NNG", "WUH"), route("NNG", "TNA"), route("NNG", "HRB"),
+      route("NNG", "HET"), route("NNG", "DLC"), route("NNG", "LHW"), route("NNG", "XNN"),
+      route("NNG", "LJG"), route("NNG", "BKK"), route("NNG", "VTE"), route("NNG", "HAN"),
+      route("HAK", "SYX"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
