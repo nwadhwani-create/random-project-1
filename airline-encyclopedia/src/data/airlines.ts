@@ -598,6 +598,38 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "loong-air",
+    name: "Loong Air",
+    iataCode: "GJ",
+    icaoCode: "CDC",
+    country: "China",
+    founded: 2012,
+    headquarters: "Hangzhou, Zhejiang, China",
+    alliance: "None",
+    logoColor: "#C41E3A",
+    accentColor: "#3DB5D4",
+    history: `Loong Air (Chinese: 长龙航空; pinyin: Chánglóng Hángkōng), officially Zhejiang Loong Airlines Co., Ltd., is Zhejiang’s only locally based passenger-and-cargo airline. The company was registered on April 19, 2011, and began life as CDI Cargo Airlines (长龙国际货运航空), launching freight operations in 2012 with a single Boeing 737-300F. After the Civil Aviation Administration of China approved a passenger conversion, the carrier rebranded as Loong Air, signed a memorandum of understanding with Airbus for 20 A320-family jets on September 25, 2013, and flew its first passenger sectors on December 29, 2013—Hangzhou–Chongqing and Hangzhou–Shenzhen—under IATA GJ, ICAO CDC, and the radio call sign LOONG AIR.\n\nGrowth has been Hangzhou-first. Xiaoshan International Airport is the main base; Ningbo and Wenzhou are the official secondary bases, with a Jiaxing support station and Northwest, Southwest, and Central-South branches centered on Xi’an, Chengdu, and Guangzhou (approved 2018–2020). International passenger flying started in 2016. The brand mark is an abstract dragon head shaped like a C—standing for China, Captain, and Care—set in China red against a pale-blue livery that reads as sky and water around the Qiantang.\n\nThe freight 737s are gone. Loong Air now operates an all-Airbus A320-family fleet of roughly seventy-four aircraft (one A319-100, a large A320ceo/neo core, and a growing A321neo block), with further A320neo and A321neo leases due in 2027. A 2026 prospectus filing put year-end 2025 flying at 76 aircraft, 135 passenger routes, and more than 14 million passengers, making the airline one of China’s larger privately founded mid-size carriers and Zhejiang’s designated “lead” main-base airline.\n\nThe network still concentrates on Chinese trunks from Hangzhou—Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Chongqing, Xi’an, Kunming, and the northeast—plus thinner Zhejiang and western city pairs. International flying is a Belt-and-Road and leisure set: Hong Kong, Bangkok, Kuala Lumpur, Singapore, Osaka, Tokyo (from Wenzhou), Jeju, Busan, and Almaty, with additional Xi’an and Wenzhou spokes into Southeast and Central Asia. Loong Air is not a member of a global alliance.`,
+    fleet: [
+      { model: "A321neo", manufacturer: "Airbus", count: 12, passengers: "200–210 (2-class)", range: "4,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20240127%20Airbus%20A321-251NX%20of%20Loong%20Air%20(B-327C)%20landing%20at%20HGH%2001.jpg", imageAlt: "Loong Air Airbus A321neo B-327C", description: "Highest-capacity type, used on dense Hangzhou trunks and growing regional international sectors." },
+      { model: "A320neo", manufacturer: "Airbus", count: 34, passengers: "174 (1-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20240427%20Airbus%20A320-251N%20of%20Loong%20Air%20(B-1349)%20at%20CGO%2001.jpg", imageAlt: "Loong Air Airbus A320neo B-1349", description: "Largest fleet type; LEAP-powered neo used on domestic trunks and short international hops from Hangzhou, Ningbo, and Wenzhou." },
+      { model: "A320-200", manufacturer: "Airbus", count: 27, passengers: "174 (1-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20240127%20Airbus%20A320-214(WL)%20of%20Loong%20Air%20(B-8452)%20landing%20at%20HGH.jpg", imageAlt: "Loong Air Airbus A320-200 B-8452", description: "Original passenger workhorse that launched the 2013 Hangzhou network; still the backbone of Zhejiang domestic flying." },
+      { model: "A319-100", manufacturer: "Airbus", count: 1, passengers: "134 (2-class)", range: "3,700 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/B-303T%20(13%20Dec%202024).jpg", imageAlt: "Loong Air Airbus A319-100 B-303T", description: "Sole A319 (B-303T), kept for thinner western and secondary-city sectors that do not fill an A320." },
+    ],
+    hubs: [a.HGH, a.NGB, a.WNZ],
+    routes: [
+      route("HGH", "PEK"), route("HGH", "PVG"), route("HGH", "CAN"), route("HGH", "SZX"),
+      route("HGH", "CKG"), route("HGH", "TFU"), route("HGH", "XIY"), route("HGH", "KMG"),
+      route("HGH", "XMN"), route("HGH", "CSX"), route("HGH", "SYX"), route("HGH", "HAK"),
+      route("HGH", "HRB"), route("HGH", "DLC"), route("HGH", "CGO"), route("HGH", "INC"),
+      route("HGH", "LJG"), route("HGH", "NNG"),
+      route("HGH", "HKG"), route("HGH", "BKK"), route("HGH", "KUL"), route("HGH", "SIN"),
+      route("HGH", "KIX"), route("HGH", "ALA"), route("HGH", "CJU"), route("HGH", "PUS"),
+      route("NGB", "TFU"), route("NGB", "LJG"),
+      route("WNZ", "NNG"), route("WNZ", "SIN"), route("WNZ", "NRT"),
+      route("XIY", "KUL"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
