@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "okay-airways",
+    name: "Okay Airways",
+    iataCode: "BK",
+    icaoCode: "OKA",
+    country: "China",
+    founded: 2004,
+    headquarters: "Daxing, Beijing",
+    alliance: "None",
+    logoColor: "#E4002B",
+    accentColor: "#F5A800",
+    history: `Okay Airways, styled as OK AIR, holds a landmark place in Chinese aviation history as the country's first privately owned airline. It was founded in June 2004, at a time when China's skies were dominated by large state-owned carriers, and its arrival signaled the gradual liberalization of the mainland's airline industry. The company operated its inaugural revenue flight on 11 March 2005, linking Tianjin with Changsha and Kunming, and initially concentrated on both passenger service and dedicated cargo operations.\n\nThe airline's early years were turbulent. A bitter dispute between its management and majority shareholders escalated in 2006 and 2007, culminating in the temporary suspension of Okay Airways' flights by the Civil Aviation Administration of China. Operations resumed after the ownership conflict was resolved, and the carrier spent the following years rebuilding its network, restoring confidence among travelers, and stabilizing its finances around a simplified all-Boeing 737 fleet.\n\nOver the following decade Okay Airways matured into a focused domestic operator, weaving together an extensive network of trunk and regional routes across China. It established main hubs at Tianjin Binhai International Airport and Xi'an Xianyang International Airport, with a secondary hub developed at Changsha Huanghua International Airport, positioning the airline to serve fast-growing inland cities as well as coastal and southern leisure destinations such as Sanya and Haikou.\n\nToday Okay Airways operates a modern narrowbody fleet of Boeing 737-800 and Boeing 737-900ER aircraft, the latter being one of the relatively rare examples of the type in Chinese service. Headquartered in the Daxing district of Beijing, the airline has continued to modernize, placing orders for new-generation aircraft including the Boeing 737 MAX 10 and committing as a launch customer for the domestically built Xi'an MA700 turboprop, underscoring its long-term ambitions in regional connectivity.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 15, passengers: "177 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/B-5562%20-%20Okay%20Airways%20-%20Boeing%20737-8HO(WL)%20-%20TSN%20(14111595129).jpg", imageAlt: "Okay Airways Boeing 737-800", description: "Backbone of the Okay Airways fleet, serving trunk and regional routes across China from its Tianjin and Xi'an hubs." },
+      { model: "B737-900ER", manufacturer: "Boeing", count: 6, passengers: "200 (2-class)", range: "3,200 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/B-5110%20Boeing%20737%20OK%20Air%20(7368519478).jpg", imageAlt: "Okay Airways Boeing 737-900ER", description: "High-capacity stretched 737 used on the airline's densest domestic sectors, an uncommon type in Chinese airline service." },
+    ],
+    hubs: [a.TSN, a.XIY, a.CSX],
+    routes: [
+      route("TSN", "CSX"), route("TSN", "XIY"), route("TSN", "KMG"), route("TSN", "SZX"), route("TSN", "CKG"),
+      route("TSN", "HGH"), route("TSN", "NNG"), route("TSN", "HAK"), route("TSN", "SYX"), route("TSN", "URC"),
+      route("TSN", "CAN"), route("TSN", "TAO"), route("TSN", "DLC"), route("TSN", "YNT"),
+      route("XIY", "CSX"), route("XIY", "KMG"), route("XIY", "SZX"), route("XIY", "HGH"), route("XIY", "URC"),
+      route("XIY", "NNG"),
+      route("CSX", "SZX"), route("CSX", "KMG"), route("CSX", "CKG"), route("CSX", "NKG"), route("CSX", "TYN"),
+      route("CSX", "CGQ"),
+      route("SJW", "SZX"), route("SJW", "CGQ"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
