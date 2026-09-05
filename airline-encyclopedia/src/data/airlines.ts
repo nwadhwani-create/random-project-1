@@ -598,6 +598,35 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "qingdao-airlines",
+    name: "Qingdao Airlines",
+    iataCode: "QW",
+    icaoCode: "QDA",
+    country: "China",
+    founded: 2013,
+    headquarters: "Chengyang, Qingdao, Shandong",
+    alliance: "None",
+    logoColor: "#0A4D6E",
+    accentColor: "#1BB5C8",
+    history: `Qingdao Airlines (Chinese: 青岛航空; pinyin: Qīngdǎo Hángkōng) is a Shandong-based carrier flying under the call sign SKY LEGEND. The Yantai-based Nanshan Group filed an application with the Civil Aviation Administration of China in May 2013 to establish an airline in Shandong province; CAAC approval followed that summer, and Qingdao Airlines was formed in June 2013 with CNY 1 billion in start-up capital. The original shareholders were Nanshan Group (55%), the Qingdao Transport Development Group (25%), and Shandong Airlines (20%). The carrier positioned itself from the outset as a boutique full-service airline rather than a low-cost start-up.\n\nIts first Airbus A320 arrived in early April 2014, and scheduled operations began on 26 April 2014 with a Qingdao–Chengdu service from the old Liuting airport. Early capacity concentrated on trunk coastal routes — Qingdao–Shanghai, Qingdao–Beijing, Qingdao–Hangzhou, Qingdao–Shenyang, and Qingdao–Dalian. In September 2013 the airline had already ordered five A320s and 18 A320neos in a deal valued at about USD 2.5 billion at list prices, locking in an all-Airbus narrowbody plan. Shandong Airlines transferred its stake to a Nanshan subsidiary in July 2015, and by November 2015 Qingdao Airlines was fully owned by Nanshan Group. At the end of 2019 Nanshan sold its holding to Qingdao City Construction Investment Group, turning the carrier into a municipally controlled airline.\n\nFleet renewal arrived with the first A320neos in October 2018, the same month Qingdao Airlines made its international debut with service to Seoul Incheon. The airline later left Liuting when Qingdao Jiaodong International Airport opened in August 2021 and rebuilt its hub there. International flying has since stretched across East and Southeast Asia — Kuala Lumpur, Penang, Osaka Kansai, Bangkok Don Mueang, Vientiane, Sihanoukville, and seasonal leisure cities such as Shizuoka and Nha Trang — while a dense domestic web still radiates from Qingdao into northeast China, the Yangtze Delta, and tourism cities in Yunnan.\n\nToday Qingdao Airlines remains headquartered in Chengyang District, Qingdao, and operates an all-Airbus fleet of about 38 aircraft (A320-200s, A320neos, and a pair of A321neos). Qingdao Jiaodong is the primary hub, with significant flying also built around Changchun Longjia and Lijiang Sanyi. The airline is unaligned with the global alliances and continues to brand itself around Shandong coastal connectivity and a growing leisure network into Japan, Korea, and Southeast Asia.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 14, passengers: "152 (2-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Qingdao%20Airlines%20Airbus%20A320.jpg", imageAlt: "Qingdao Airlines Airbus A320-200", description: "Original A320 type that launched the airline in 2014, still linking Qingdao with trunk cities across China." },
+      { model: "A320neo", manufacturer: "Airbus", count: 22, passengers: "180 (2-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20231223%20Airbus%20A320-271N%20of%20Qingdao%20Airlines%20(B-302N)%20at%20CGO%2002.jpg", imageAlt: "Qingdao Airlines Airbus A320neo", description: "Most numerous type in the fleet, used on busier domestic sectors and short-haul international flights from Qingdao." },
+      { model: "A321neo", manufacturer: "Airbus", count: 2, passengers: "220 (2-class)", range: "4,000 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Qingdao%20Airlines%20Airbus%20A321neo.jpg", imageAlt: "Qingdao Airlines Airbus A321neo", description: "High-capacity neo used on the densest Qingdao trunk routes as the airline adds seats on peak sectors." },
+    ],
+    hubs: [a.TAO, a.CGQ, a.LJG],
+    routes: [
+      route("TAO", "PEK"), route("TAO", "PVG"), route("TAO", "HGH"), route("TAO", "CSX"), route("TAO", "KMG"),
+      route("TAO", "NKG"), route("TAO", "DLC"), route("TAO", "SHE"), route("TAO", "YNT"), route("TAO", "CGQ"),
+      route("TAO", "HRB"), route("TAO", "LHW"), route("TAO", "TFU"), route("TAO", "LJG"), route("TAO", "NNG"),
+      route("TAO", "TSN"), route("TAO", "URC"), route("TAO", "CGO"), route("TAO", "HFE"),
+      route("TAO", "ICN"), route("TAO", "KUL"), route("TAO", "KIX"), route("TAO", "DMK"),
+      route("CGQ", "LJG"), route("CGQ", "TFU"), route("CGQ", "CSX"), route("CGQ", "HRB"),
+      route("LJG", "TFU"), route("LJG", "JHG"),
+      route("TFU", "CSX"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
