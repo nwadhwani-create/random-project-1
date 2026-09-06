@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "colorful-guizhou-airlines",
+    name: "Colorful Guizhou Airlines",
+    iataCode: "GY",
+    icaoCode: "CGZ",
+    country: "China",
+    founded: 2015,
+    headquarters: "Guiyang, Guizhou",
+    alliance: "None",
+    logoColor: "#00897B",
+    accentColor: "#FFB300",
+    history: `Colorful Guizhou Airlines (多彩贵州航空) is the first locally owned airline in Guizhou Province, founded to improve air service across western China and to carry the province's tourism brand into the sky. On 18 May 2015 the Civil Aviation Administration of China granted Guizhou Industrial Investment Group and Weining County Construction Investment Group preliminary approval to establish the carrier; it was formally incorporated as Colorful Guizhou Airlines on 19 June 2015. The name comes from a long-running provincial marketing campaign that highlights Guizhou's ethnic diversity and karst landscapes.\n\nThe airline received its first Embraer E190 on 5 December 2015 and commenced operations on 31 December 2015 with a short hop from its hub at Guiyang Longdongbao International Airport to Bijie. Those first E190s — seven firm orders plus ten options placed with Embraer in June 2015 — were chosen specifically for thin western-China routes that larger narrowbodies could not serve economically. Early expansion stayed close to home, linking Guiyang and other Guizhou cities such as Tongren and Xingyi with Chengdu and the rest of the southwest.\n\nFleet modernization began on 24 October 2019 with the arrival of the first Airbus A320neo, opening high-density trunk routes from Guiyang to Beijing, Shanghai, Guangzhou, and Shenzhen. By mid-2026 Colorful Guizhou was operating about 23 aircraft — fourteen A320neos and nine remaining E190s — after a pair of new A320neos arrived at Longdongbao only ten days apart in June. The same year the airline tendered for five COMAC C909s and listed two E190s for sale, beginning a planned shift of its regional flying onto the Chinese-built jet.\n\nToday Colorful Guizhou remains independent of the global alliances and is still the only airline headquartered in Guizhou with its own air operator's certificate. From Guiyang, with overnight bases at Chengdu, Yibin, Ningbo, Xingyi, and Maotai, it flies a mixed trunk-and-regional network of roughly fifty Chinese cities plus international services to Hanoi, Ho Chi Minh City, and Seoul. The carrier's stated strategy — "Rooted in Guizhou, Embracing China, and Aspiring to the World" — now sits on a fleet large enough to serve both karst-country tourism hops and the Beijing–Shanghai–Pearl River Delta trunks.`,
+    fleet: [
+      { model: "A320neo", manufacturer: "Airbus", count: 14, passengers: "170–180 (1–2 class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Colorful_Guizhou_Airlines_Airbus_A320neo.jpg", imageAlt: "Colorful Guizhou Airlines A320neo", description: "New-generation narrowbody used on Guiyang trunk routes to Beijing, Shanghai, and the Pearl River Delta, configured with up to 180 all-economy seats." },
+      { model: "E190", manufacturer: "Embraer", count: 9, passengers: "104–111 (1–2 class)", range: "2,450 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Colorful_Guizhou_Airlines_Embraer_190.jpg", imageAlt: "Colorful Guizhou Airlines E190", description: "Original regional jet that launched the airline in 2015, still linking Guizhou cities and thinner domestic spokes while C909s are prepared to replace it." },
+    ],
+    hubs: [a.KWE, a.ACX, a.YBP],
+    routes: [
+      route("KWE", "PKX"), route("KWE", "PVG"), route("KWE", "SHA"), route("KWE", "SYX"), route("KWE", "TNA"),
+      route("KWE", "NGB"), route("KWE", "FOC"), route("KWE", "HIA"), route("KWE", "ACX"), route("KWE", "TFU"),
+      route("KWE", "SZX"), route("KWE", "CAN"), route("KWE", "XIY"), route("KWE", "CKG"), route("KWE", "WUH"),
+      route("KWE", "HAK"), route("KWE", "HAN"), route("KWE", "ICN"), route("KWE", "SGN"), route("KWE", "TEN"),
+      route("KWE", "CSX"), route("KWE", "KMG"), route("KWE", "YBP"),
+      route("YBP", "NGB"), route("YBP", "HAK"), route("YBP", "FOC"),
+      route("TFU", "SZX"), route("ACX", "XIY"), route("ACX", "WUH"), route("ACX", "NGB"),
+      route("TEN", "NGB"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
