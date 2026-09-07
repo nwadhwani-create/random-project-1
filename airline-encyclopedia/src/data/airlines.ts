@@ -598,6 +598,43 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "kunming-airlines",
+    name: "Kunming Airlines",
+    iataCode: "KY",
+    icaoCode: "KNA",
+    country: "China",
+    founded: 2005,
+    headquarters: "Kunming, Yunnan",
+    alliance: "None",
+    logoColor: "#C41E3A",
+    accentColor: "#E8B923",
+    history: `Kunming Airlines is a Chinese carrier based in Kunming, Yunnan Province. The Civil Aviation Administration of China signaled in December 2005 that it would approve the new private airline, then planned around Kunming Wujiaba International Airport with registered capital of RMB 80 million. After a multi-year setup, Shenzhen Airlines took an 80 percent stake — with the remaining 20 percent held by a local investor — and transferred Boeing 737s, pilots, and cabin crew to launch the subsidiary.
+
+The airline commenced operations on 15 February 2009 with inaugural services from Kunming to Changsha and Harbin. When Kunming Changshui International Airport opened in 2012, Kunming Airlines moved its hub there from Wujiaba. Distinct from fellow Kunming-based Lucky Air (an HNA Group carrier), Kunming Airlines sits in the Shenzhen Airlines / Air China family and participates in Air China's Phoenix Miles frequent-flyer program.
+
+In 2014 the airline committed to ten additional Boeing 737s, including 737 MAX aircraft, as it built a domestic trunk-and-feeder network across China and added Southeast Asian flying, notably to Bangkok. It is not a member of a global alliance in its own right, though its parent Shenzhen Airlines is in Star Alliance.
+
+Today Kunming Airlines operates an all-Boeing 737 fleet of 32 aircraft — 737-700s, 737-800s, and a pair of 737 MAX 8s, with more MAX 8s on order. From Kunming it serves roughly 37 destinations in China and Thailand, with additional flying from busy bases at Changsha, Chengdu Tianfu, and Taiyuan, including Yunnan leisure points such as Lijiang, Xishuangbanna, and Mangshi.`,
+    fleet: [
+      { model: "B737-700", manufacturer: "Boeing", count: 9, passengers: "140 (1-class)", range: "3,010 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Kunming_Airlines_Boeing_737-700.jpg/1280px-Kunming_Airlines_Boeing_737-700.jpg", imageAlt: "Kunming Airlines B737-700", description: "Shorter 737 used on thinner domestic and Yunnan provincial routes from Kunming." },
+      { model: "B737-800", manufacturer: "Boeing", count: 21, passengers: "167 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kunming_Airlines_Boeing_737-800.jpg/1280px-Kunming_Airlines_Boeing_737-800.jpg", imageAlt: "Kunming Airlines B737-800", description: "Core fleet member linking Kunming with China's provincial capitals and leisure markets." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 2, passengers: "168 (2-class)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kunming_Airlines_Boeing_737_MAX_8.jpg/1280px-Kunming_Airlines_Boeing_737_MAX_8.jpg", imageAlt: "Kunming Airlines B737 MAX 8", description: "Newest narrowbody in the fleet, with additional MAX 8s on order to replace older 737s." },
+    ],
+    hubs: [a.KMG, a.CSX, a.TYN],
+    routes: [
+      route("KMG", "PEK"), route("KMG", "PVG"), route("KMG", "BKK"),
+      route("KMG", "CSX"), route("KMG", "TYN"), route("KMG", "TFU"), route("KMG", "JHG"),
+      route("KMG", "CAN"), route("KMG", "SZX"), route("KMG", "XIY"), route("KMG", "CKG"),
+      route("KMG", "HGH"), route("KMG", "NKG"), route("KMG", "WUH"), route("KMG", "TNA"),
+      route("KMG", "TAO"), route("KMG", "HRB"), route("KMG", "SHE"), route("KMG", "NNG"),
+      route("KMG", "HAK"), route("KMG", "SYX"), route("KMG", "XMN"), route("KMG", "CGO"),
+      route("KMG", "LJG"), route("KMG", "LUM"),
+      route("CSX", "TYN"), route("CSX", "JHG"), route("CSX", "SHE"),
+      route("JHG", "PVG"), route("JHG", "WUH"),
+      route("TYN", "CKG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
