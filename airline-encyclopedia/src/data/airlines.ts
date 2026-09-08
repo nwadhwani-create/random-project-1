@@ -598,6 +598,43 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "ruili-airlines",
+    name: "Ruili Airlines",
+    iataCode: "DR",
+    icaoCode: "RLH",
+    country: "China",
+    founded: 2014,
+    headquarters: "Wuxi, Jiangsu",
+    alliance: "None",
+    logoColor: "#007A7A",
+    accentColor: "#C9A227",
+    history: `Ruili Airlines is a Chinese carrier that began as Yunnan's first private airline. The Civil Aviation Administration of China approved the start-up in May 2013 — the first new public air-transport company licensed after a years-long freeze — and Yunnan Jingcheng Group registered the airline that August. It received its air operator's certificate on 22 January 2014 and flew its first service on 18 May 2014, a short hop from Kunming Changshui International Airport to Dehong Mangshi, the border city that gave the airline its name.
+
+The carrier launched with Boeing 737-700s and 737-800s sourced from Boeing and lessors, including airframes previously operated by Air Berlin. From Kunming it quickly added trunk and leisure routes across China and positioned itself as a bridge from Yunnan into Southeast Asia. Distinct from fellow Kunming-based Lucky Air (HNA Group) and Kunming Airlines (a Shenzhen Airlines subsidiary), Ruili remained independent and unaligned with a global alliance.
+
+Ownership shifted in 2021 when Wuxi Traffic Industry Group (Wuxi Communications Industry Group) took a 57 percent controlling stake, reducing Jingcheng Group's holding. The airline completed the acquisition that March, moved its registered headquarters to Wuxi Shuofang Airport, and in October 2021 changed its legal name to Sunan Ruili Airlines Co., Ltd. while keeping the Ruili Airlines brand. The move created Jiangsu's first locally controlled airline and a dual-hub network split between Kunming and Wuxi, with additional flying from Mangshi, Shenyang, and Chengdu Tianfu.
+
+Today Ruili Airlines operates an all-Boeing 737 fleet of 28 aircraft — seven 737-700s and twenty-one 737-800s — with 737 MAX and Boeing 787-9 orders still outstanding. From Kunming and Wuxi it serves dozens of Chinese cities plus international points in Thailand, Myanmar, Vietnam, Cambodia, and South Korea, including Chiang Mai, Bangkok, Mandalay, Ho Chi Minh City, and Cheongju.`,
+    fleet: [
+      { model: "B737-700", manufacturer: "Boeing", count: 7, passengers: "144 (1-class)", range: "3,010 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ruili_Airlines_Boeing_737-700.jpg/1280px-Ruili_Airlines_Boeing_737-700.jpg", imageAlt: "Ruili Airlines B737-700", description: "Shorter 737 used on thinner Yunnan, Mangshi, and regional domestic routes." },
+      { model: "B737-800", manufacturer: "Boeing", count: 21, passengers: "164 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ruili_Airlines_Boeing_737-800.jpg/1280px-Ruili_Airlines_Boeing_737-800.jpg", imageAlt: "Ruili Airlines B737-800", description: "Core fleet member linking Kunming and Wuxi with China's provincial capitals and Southeast Asia." },
+    ],
+    hubs: [a.KMG, a.WUX, a.LUM],
+    routes: [
+      route("KMG", "LUM"), route("KMG", "WUX"), route("KMG", "PEK"), route("KMG", "PVG"),
+      route("KMG", "TFU"), route("KMG", "SHE"), route("KMG", "JHG"), route("KMG", "LJG"),
+      route("KMG", "CSX"), route("KMG", "CAN"), route("KMG", "SZX"), route("KMG", "XIY"),
+      route("KMG", "CKG"), route("KMG", "HGH"), route("KMG", "CGO"), route("KMG", "LHW"),
+      route("KMG", "NNG"), route("KMG", "HAK"), route("KMG", "SYX"), route("KMG", "CNX"),
+      route("KMG", "CJJ"),
+      route("LUM", "MDL"), route("LUM", "WUX"), route("LUM", "SHE"), route("LUM", "HFE"),
+      route("LUM", "NGB"),
+      route("WUX", "SZX"), route("WUX", "TFU"), route("WUX", "SHE"),
+      route("LJG", "BKK"), route("LJG", "SGN"),
+      route("JHG", "CNX"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
