@@ -598,6 +598,37 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "china-express-airlines",
+    name: "China Express Airlines",
+    iataCode: "G5",
+    icaoCode: "HXA",
+    country: "China",
+    founded: 2006,
+    headquarters: "Chongqing, China",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#F0B429",
+    history: `China Express Airlines (华夏航空) was founded on April 18, 2006, in Guiyang, Guizhou Province, as China's first airline dedicated exclusively to regional passenger and cargo service. Its maiden flight, on September 25, 2006, linked Guiyang with Liping using a 50-seat Bombardier CRJ200 — a deliberately small start aimed at cities that the country's trunk carriers had long bypassed. Chairman Hu Xiaojun positioned the new airline as a feeder-line specialist for Guizhou, with early routes also serving Xingyi and Tongren.\n\nThe carrier outgrew its provincial brief quickly. CRJ900 regional jets arrived in 2012, expanding capacity on thin western and northern Chinese routes. In 2014 the headquarters moved from Guiyang to Chongqing Jiangbei International Airport, placing China Express at the center of the upper Yangtze basin. Operational bases followed at Guiyang, Dalian, Hohhot, Xi'an, Korla, and Quzhou, creating a hub-and-spoke map that stitched third- and fourth-tier cities into the national network.\n\nOn March 2, 2018, China Express listed on the Shenzhen Stock Exchange (SZSE: 002928), becoming one of the few independently listed regional airlines in China. Fleet modernization accelerated: Airbus A320-family aircraft opened denser trunk sectors, and in November 2020 the airline took delivery of its first COMAC ARJ21 — later restyled as the C909 — becoming an early and committed operator of the indigenous regional jet. An order book of 50 C909s is gradually replacing older CRJs on short sectors.\n\nToday China Express operates about 77 aircraft — a mix of CRJ900s, A320s, A320neos, and C909s — and serves more than 130 destinations, overwhelmingly domestic, plus a handful of nearby international cities such as Vientiane. Unaligned with a global alliance, it remains China's leading independent regional carrier, connecting Chongqing, Guiyang, and Hohhot to destinations that would otherwise require a long surface journey or a double connection over a coastal megahub.`,
+    fleet: [
+      { model: "CRJ900", manufacturer: "Bombardier", count: 33, passengers: "84 (2-class)", range: "1,553 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/China_Express_Airlines_CRJ900.jpg", imageAlt: "China Express CRJ900", description: "Workhorse regional jet linking thinner western, northern, and Guizhou routes that cannot fill a narrowbody." },
+      { model: "A320neo", manufacturer: "Airbus", count: 20, passengers: "172 (2-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/China_Express_Airlines_A320neo.jpg", imageAlt: "China Express A320neo", description: "Fuel-efficient narrowbody used on denser trunk sectors from Chongqing and the coastal bases." },
+      { model: "A320-200", manufacturer: "Airbus", count: 11, passengers: "172 (2-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/China_Express_Airlines_A320.jpg", imageAlt: "China Express A320-200", description: "Classic A320 serving high-demand domestic trunk routes alongside the neo fleet." },
+      { model: "C909", manufacturer: "COMAC", count: 13, passengers: "95 (all-economy)", range: "1,200 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/China_Express_Airlines_C909.jpg", imageAlt: "China Express C909", description: "Indigenous COMAC regional jet — first delivered in 2020 as an ARJ21 — expanding on short sectors as CRJs retire." },
+    ],
+    hubs: [a.CKG, a.KWE, a.HET],
+    routes: [
+      route("CKG", "PEK"), route("CKG", "PVG"), route("CKG", "KWE"), route("CKG", "HET"), route("CKG", "XIY"),
+      route("CKG", "DLC"), route("CKG", "KRL"), route("CKG", "KMG"), route("CKG", "CAN"), route("CKG", "SZX"),
+      route("CKG", "URC"), route("CKG", "LHW"), route("CKG", "TFU"), route("CKG", "CSX"), route("CKG", "WUH"),
+      route("CKG", "HGH"), route("CKG", "SYX"), route("CKG", "HAK"), route("CKG", "SHE"), route("CKG", "NNG"),
+      route("CKG", "CGO"), route("CKG", "AKU"), route("CKG", "KHG"), route("CKG", "JUZ"), route("CKG", "VTE"),
+      route("KWE", "PEK"), route("KWE", "PVG"), route("KWE", "HET"), route("KWE", "XIY"), route("KWE", "CAN"),
+      route("KWE", "SZX"), route("KWE", "KMG"), route("KWE", "HGH"), route("KWE", "SYX"), route("KWE", "DLC"),
+      route("HET", "PEK"), route("HET", "DLC"), route("HET", "SHE"), route("HET", "XIY"), route("HET", "URC"),
+      route("HET", "CGO"), route("DLC", "SHE"), route("KRL", "URC"), route("KRL", "AKU"), route("JUZ", "PVG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
