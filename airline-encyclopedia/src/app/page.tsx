@@ -30,6 +30,7 @@ const regionMap: Record<string, string> = {
   "Hong Kong": "Asia-Pacific",
   Australia: "Oceania",
   Ethiopia: "Africa",
+  China: "Asia-Pacific",
 };
 
 export default function HomePage() {
