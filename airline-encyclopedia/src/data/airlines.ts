@@ -598,6 +598,35 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "hebei-airlines",
+    name: "Hebei Airlines",
+    iataCode: "NS",
+    icaoCode: "HBH",
+    country: "China",
+    founded: 2010,
+    headquarters: "Shijiazhuang, Hebei, China",
+    alliance: "None",
+    logoColor: "#003B73",
+    accentColor: "#D4A017",
+    history: `Hebei Airlines (河北航空) is the home carrier of Hebei Province and a wholly owned subsidiary of XiamenAir. It traces its roots to Northeast Airlines, a Shenyang Aircraft Corporation–Sichuan Airlines start-up founded in 2006. After a provincial-government restructuring it rebranded as Hebei Airlines and commenced operations on June 29, 2010, with its headquarters in the Shijiazhuang World Trade Plaza Hotel in Chang'an District. The IATA designator NS, ICAO code HBH, and call sign HEBEI AIR have identified the airline ever since.\n\nThe carrier built its first network from Shijiazhuang Zhengding International Airport, feeding the Beijing–Tianjin–Hebei corridor and linking the provincial capital with coastal and inland gateways. Its first international service, Shijiazhuang–Bangkok, launched on March 27, 2017, followed by Shijiazhuang–Singapore on October 29, 2017, plus seasonal and scheduled links to Hong Kong, Osaka, and other regional cities. In September 2019 Hebei Airlines opened a second operational base at Beijing Daxing International Airport, giving it dual hubs at Zhengding and Daxing and a larger role in the Jing-Jin-Ji coordinated-development strategy.\n\nThe current fleet is an all-Boeing 737-800 operation — 28 aircraft in a mix of two-class 170-seat and all-economy 184-seat layouts — with 20 COMAC C919s on order for a future shift toward Chinese-built narrowbodies. Passengers earn on the Hebei Eagle Club frequent-flyer program. The airline codeshares with parent XiamenAir and China Southern Airlines but is not itself an alliance member, even though XiamenAir belongs to SkyTeam.\n\nToday Hebei Airlines operates a domestic-heavy network of more than 70 nonstop routes and 40-plus destinations, with the 2026 summer–autumn season adding and thickening links such as Xiamen–Shijiazhuang–Hohhot, Shijiazhuang–Ürümqi, Shijiazhuang–Sanya, Shijiazhuang–Nanning, and Beijing Daxing–Yinchuan and Daxing–Changsha. Dual hubs at Shijiazhuang and Beijing Daxing remain the core of the map, connecting Hebei travelers to Guangzhou, Shenzhen, Hangzhou, Chengdu Tianfu, Kunming, and the rest of the Chinese trunk system.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 28, passengers: "170 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Hebei_Airlines_Boeing_737-85C%28WL%29_B-5753_%288722931640%29.jpg/1280px-Hebei_Airlines_Boeing_737-85C%28WL%29_B-5753_%288722931640%29.jpg", imageAlt: "Hebei Airlines B737-800", description: "Sole current type — a mix of 8J/162Y two-class and 184-seat all-economy layouts serving the Zhengding and Daxing networks." },
+    ],
+    hubs: [a.SJW, a.PKX],
+    routes: [
+      route("SJW", "XMN"), route("SJW", "HGH"), route("SJW", "HAK"), route("SJW", "TFU"), route("SJW", "KMG"),
+      route("SJW", "SZX"), route("SJW", "HET"), route("SJW", "KWE"), route("SJW", "SHE"), route("SJW", "CAN"),
+      route("SJW", "URC"), route("SJW", "SYX"), route("SJW", "NNG"), route("SJW", "CKG"), route("SJW", "SHA"),
+      route("SJW", "PVG"), route("SJW", "HKG"), route("SJW", "BKK"), route("SJW", "SIN"), route("SJW", "KIX"),
+      route("SJW", "NKG"), route("SJW", "CSX"), route("SJW", "XIY"), route("SJW", "WUH"), route("SJW", "TAO"),
+      route("SJW", "FOC"), route("SJW", "NGB"), route("SJW", "DLC"),
+      route("PKX", "INC"), route("PKX", "CSX"), route("PKX", "KWL"), route("PKX", "SYX"), route("PKX", "HGH"),
+      route("PKX", "CKG"), route("PKX", "KMG"), route("PKX", "SHE"), route("PKX", "TFU"), route("PKX", "HAK"),
+      route("PKX", "XMN"), route("PKX", "KWE"), route("PKX", "NGB"), route("PKX", "FOC"), route("PKX", "CAN"),
+      route("SHE", "CSX"), route("XMN", "HET"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
