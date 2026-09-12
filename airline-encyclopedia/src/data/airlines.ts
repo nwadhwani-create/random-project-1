@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "jiangxi-air",
+    name: "Jiangxi Air",
+    iataCode: "RY",
+    icaoCode: "CJX",
+    country: "China",
+    founded: 2016,
+    headquarters: "Nanchang, Jiangxi, China",
+    alliance: "None",
+    logoColor: "#0B4F8A",
+    accentColor: "#E31C23",
+    history: `Jiangxi Air (江西航空) is Jiangxi Province's first homegrown airline, a joint venture between XiamenAir (60%) and Jiangxi Railway Aviation Investment Group (40%). XiamenAir and the provincial government signed a memorandum of understanding on August 13, 2014; the company was registered on April 18, 2015, with ¥2.5 billion of capital. The Civil Aviation Administration of China granted preliminary approval in March 2015. The first Boeing 737-800 arrived from parent XiamenAir on December 14, 2015, when the airline unveiled a blue-and-white porcelain livery and a crane motif for Jiangxi's wetlands and Jingdezhen ceramics. After a Nanchang–Xiamen proving flight on December 30, 2015, the airline received its air operator's certificate on January 8, 2016. Commercial service began on January 29, 2016, with Nanchang–Xi'an–Ürümqi. The IATA code RY, ICAO code CJX, and call sign AIR CRANE have identified the carrier ever since.\n\nThe network is built around Nanchang Changbei International Airport, with overnight bases later opened at Zhengzhou, Shenyang, and Zhuhai. From Changbei the airline links Jiangxi to Beijing Daxing, Chengdu Tianfu, Guangzhou, Shenzhen, Shanghai, Xiamen, Kunming, and other provincial capitals, plus thinner cities such as Xuzhou, Huai'an, Beihai, and Liuzhou. International flying started later: Nanchang–Jeju in 2024 and Nanchang–Kuala Lumpur in 2025, the latter thickened to four weekly flights in the 2026 summer season. The airline is not an alliance member, though passengers earn on XiamenAir's Egret Miles program (which replaced the short-lived Ganpo Club in 2020) and benefit from codeshares with the SkyTeam parent.\n\nFleet policy has stayed simple. An all-737-800 start gave way to a mixed Boeing-COMAC operation after the first ARJ21 — later restyled as the C909 — arrived on January 19, 2020. The current fleet is 14 Boeing 737-800s in an 8J/162Y 170-seat layout and 5 C909s in a 90-seat all-economy cabin, with about 30 further C909s on order. The 737s cover trunk and international sectors; the C909s fly shorter domestic hops such as Nanchang–Liuzhou.\n\nToday Jiangxi Air remains a compact, on-time-focused provincial carrier of about 19 aircraft. The 2026 summer season lists 36 cities and 38 routes, with daily double frequencies to Beijing, Chengdu, Shenyang, and Xuzhou and daily service to Tianjin, Xi'an, Ürümqi, Harbin, Kunming, Jinan, Haikou, Guiyang, and Taiyuan. Unaligned itself, it is still the main aerial brand of Jiangxi and a feeder into the XiamenAir and China Southern family.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 14, passengers: "170 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jiangxi_Air_Boeing_737-800.jpg", imageAlt: "Jiangxi Air B737-800", description: "Core narrowbody for Changbei trunk routes and the Nanchang–Kuala Lumpur international service." },
+      { model: "C909", manufacturer: "COMAC", count: 5, passengers: "90 (all-economy)", range: "1,200 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jiangxi_Air_C909.jpg", imageAlt: "Jiangxi Air C909", description: "Indigenous regional jet — first delivered in 2020 as an ARJ21 — used on shorter domestic hops such as Nanchang–Liuzhou." },
+    ],
+    hubs: [a.KHN, a.CGO, a.SHE],
+    routes: [
+      route("KHN", "PKX"), route("KHN", "TFU"), route("KHN", "SHE"), route("KHN", "XUZ"), route("KHN", "TSN"),
+      route("KHN", "XIY"), route("KHN", "URC"), route("KHN", "HRB"), route("KHN", "KMG"), route("KHN", "TNA"),
+      route("KHN", "HAK"), route("KHN", "KWE"), route("KHN", "TYN"), route("KHN", "KUL"), route("KHN", "BHY"),
+      route("KHN", "HET"), route("KHN", "LZH"), route("KHN", "XMN"), route("KHN", "CAN"), route("KHN", "SZX"),
+      route("KHN", "SHA"), route("KHN", "PVG"), route("KHN", "CKG"), route("KHN", "HGH"), route("KHN", "HIA"),
+      route("KHN", "CGO"), route("KHN", "ZUH"), route("KHN", "JJN"),
+      route("CGO", "HRB"), route("CGO", "LZH"), route("HIA", "JJN"), route("SHE", "XMN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
