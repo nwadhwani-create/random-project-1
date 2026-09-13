@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "china-united-airlines",
+    name: "China United Airlines",
+    iataCode: "KN",
+    icaoCode: "CUA",
+    country: "China",
+    founded: 1986,
+    headquarters: "Beijing Daxing International Airport, Beijing, China",
+    alliance: "None",
+    logoColor: "#C41E3A",
+    accentColor: "#F0B429",
+    history: `China United Airlines (中国联合航空) was founded on December 25, 1986 as the civil transport arm of the People's Liberation Army Air Force, flying scheduled passengers from Beijing Nanyuan Airport — a military field on the city's south side that few other carriers were allowed to use. The IATA code KN, ICAO code CUA, and call sign LIANHANG still identify the airline. For its first sixteen years it mixed military logistics with a domestic passenger network, remaining outside the commercial airline groups that were then consolidating around Air China, China Eastern, and China Southern.\n\nScheduled flying stopped in November 2002, and operations were fully suspended in 2003 after a central-government rule barred the army from running commercial businesses. The Civil Aviation Administration of China approved a civilian relaunch on June 4, 2005, with Shanghai Airlines taking an 80 percent stake and China Aviation Supplies Holding Company as the minority partner. Even after it lost its military status, the relaunched carrier kept a rare privilege: it may still use certain military airfields as destinations, a distinction no other Chinese airline shares. China Eastern Airlines absorbed the carrier in 2010 when it merged with Shanghai Airlines, and on July 2, 2014 the parent announced that the Beijing unit would become a low-cost airline.\n\nThe modern identity is tied to Beijing Daxing. When the new airport opened on September 26, 2019, China United Airlines moved its entire Nanyuan operation there in a single day and made Daxing its headquarters and main hub. Secondary operating bases followed at Chengdu Tianfu, Foshan Shadi, Shijiazhuang Zhengding, and Wenzhou Longwan, with Ordos Ejin Horo emerging as another high-frequency spoke. The airline is not an alliance member; loyalty and codeshare sit with parent China Eastern rather than under a SkyTeam metal-plate of its own.\n\nThe fleet is an all-Boeing 737 shop: 5 737-700s in a 144-seat cabin and 55 737-800s in a 186-seat layout, 60 aircraft in total. Seven 737-800s wear city-themed special liveries named for Anshun, Baotou, Rizhao, Xingyi, Qingyang, Lianyungang, and Wuhu. The 2026 network covers about 87 destinations in China, Russia, and Laos, including daily Daxing–Vladivostok and Daxing–Vientiane plus Vientiane links from Shijiazhuang, Wenzhou, and Ordos. Trunk frequencies from Daxing run to Guangzhou, Shenzhen, Zhuhai, Shanghai Hongqiao and Pudong, Xiamen, Fuzhou, Quanzhou, Hangzhou, Ningbo, Wenzhou, Haikou, and Sanya.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 55, passengers: "186 (all-economy)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/China_United_Airlines_Boeing_737-800.jpg", imageAlt: "China United Airlines B737-800", description: "Primary narrowbody for Daxing trunk routes, secondary-base flying, and the Vladivostok and Vientiane international services." },
+      { model: "B737-700", manufacturer: "Boeing", count: 5, passengers: "144 (all-economy)", range: "3,010 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/China_United_Airlines_Boeing_737-700.jpg", imageAlt: "China United Airlines B737-700", description: "Smaller 737 used on thinner domestic sectors from Daxing and the secondary bases." },
+    ],
+    hubs: [a.PKX, a.TFU, a.SJW, a.WNZ],
+    routes: [
+      route("PKX", "CAN"), route("PKX", "SZX"), route("PKX", "ZUH"), route("PKX", "SHA"), route("PKX", "PVG"),
+      route("PKX", "HGH"), route("PKX", "NGB"), route("PKX", "FOC"), route("PKX", "XMN"), route("PKX", "JJN"),
+      route("PKX", "WNZ"), route("PKX", "HAK"), route("PKX", "SYX"), route("PKX", "TFU"), route("PKX", "LHW"),
+      route("PKX", "URC"), route("PKX", "KMG"), route("PKX", "SHE"), route("PKX", "VVO"), route("PKX", "VTE"),
+      route("SJW", "PVG"), route("SJW", "FUO"), route("SJW", "NGB"), route("SJW", "SYX"), route("SJW", "VTE"),
+      route("WNZ", "KMG"), route("WNZ", "SHE"), route("WNZ", "SYX"), route("WNZ", "HAK"), route("WNZ", "CSX"),
+      route("WNZ", "VTE"), route("TFU", "DSN"), route("DSN", "CSX"), route("DSN", "HAK"), route("DSN", "XMN"),
+      route("FUO", "TAO"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
