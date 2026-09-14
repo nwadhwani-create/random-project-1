@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "9-air",
+    name: "9 Air",
+    iataCode: "AQ",
+    icaoCode: "JYH",
+    country: "China",
+    founded: 2014,
+    headquarters: "Baiyun District, Guangzhou, Guangdong, China",
+    alliance: "None",
+    logoColor: "#F15A24",
+    accentColor: "#1B365D",
+    history: `9 Air (九元航空), legally Jiuyuan Airlines Co., Ltd, was founded on February 12, 2014 as the low-cost subsidiary of Shanghai-based Juneyao Air. It is based in Baiyun District, Guangzhou, and uses Guangzhou Baiyun International Airport as its main hub. The IATA code AQ, ICAO code JYH, and call sign TRANS JADE identify the carrier. It is the first and only low-cost airline built around Central and Southern China; Juneyao kept the full-service brand in Shanghai while 9 Air took the bargain-fare network out of Guangzhou.\n\nThe first aircraft, a Boeing 737-800 leased from CMIG Aviation Leasing with tail number B-1715 and an orange vertical stabilizer, arrived in Guangzhou on August 30, 2014. A charter from Baiyun to Zhanjiang on December 2 opened flying, and scheduled service started on January 15, 2015 on Guangzhou–Wenzhou–Harbin. Boeing delivered 9 Air's first owned 737-800 on July 15, 2016, Boeing's 100th anniversary, in a gold-tail commemorative scheme. Cabin Wi-Fi trials on the 737 succeeded on January 23, 2018, making 9 Air the first Chinese airline to offer inflight internet on a narrowbody. The first 737 MAX 8, B-206J with a red tail, arrived on October 30, 2018 as the 17th aircraft in the fleet.\n\nInternational flying has been opportunistic rather than a long-haul program. Guangzhou–Sihanoukville launched on July 8, 2019 as the first Chinese service on that city pair, then dropped by June 2020. During the early pandemic the airline flew a Guangzhou–Yangon cargo charter on March 17, 2020 and four rescue flights from Shenzhen and Guangzhou on March 19 that brought 573 Hubei residents home from Thailand. CAAC granted cabin-cargo authority on March 31, 2020. In March and April 2026 it added Guiyang–Kuching and Guiyang–Kota Kinabalu, and Guangzhou–Jakarta was scheduled to start on September 22, 2026 with three weekly 737-800s.\n\nThe 2026 fleet is an all-Boeing 737 shop: 22 737-800s and 5 737 MAX 8s, 27 aircraft in a 189-seat all-economy cabin with extra-legroom rows and buy-on-board meals. The airline is not an alliance member; codeshare and frequent-flyer sit with parent Juneyao. Guangzhou remains the main operating base, with heavy secondary flying from Guiyang Longdongbao, Haikou Meilan, Nanjing Lukou, and Wuxi Shuofang. The network covers about 60 destinations in China plus Bangkok, Kuala Lumpur, Vientiane, and seasonal Malaysian points, with trunk frequencies from Guangzhou to Beijing Daxing, Shanghai Pudong, Chengdu Tianfu, Haikou, Sanya, Nanjing, Qingdao, Shenyang, Ürümqi, Xi'an, Zhengzhou, Jinghong, and Jiayuguan.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 22, passengers: "189 (all-economy)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/9_Air_Boeing_737-800.jpg", imageAlt: "9 Air B737-800", description: "Primary narrowbody for Guangzhou and Guiyang trunk routes, including Kuala Lumpur, Bangkok, Vientiane, and the planned Jakarta service." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 5, passengers: "189 (all-economy)", range: "3,550 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/9_Air_Boeing_737_MAX_8.jpg", imageAlt: "9 Air B737 MAX 8", description: "Newer 737 variant used on longer domestic sectors from Guangzhou, with the first example arriving in October 2018 wearing a red tail." },
+    ],
+    hubs: [a.CAN, a.KWE, a.HAK, a.NKG],
+    routes: [
+      route("CAN", "PKX"), route("CAN", "PVG"), route("CAN", "TFU"), route("CAN", "HAK"), route("CAN", "SYX"),
+      route("CAN", "NKG"), route("CAN", "TAO"), route("CAN", "SHE"), route("CAN", "URC"), route("CAN", "XIY"),
+      route("CAN", "CGO"), route("CAN", "JHG"), route("CAN", "JGN"), route("CAN", "HGH"), route("CAN", "WNZ"),
+      route("CAN", "HRB"), route("CAN", "KMG"), route("CAN", "WUX"), route("CAN", "KHG"), route("CAN", "YNJ"),
+      route("CAN", "HFE"), route("CAN", "CGQ"), route("CAN", "KUL"), route("CAN", "BKK"), route("CAN", "VTE"),
+      route("KWE", "NKG"), route("KWE", "WUX"), route("KWE", "HAK"), route("KWE", "YNJ"), route("KWE", "HRB"),
+      route("KWE", "JHG"), route("KWE", "HFE"), route("KWE", "BKK"), route("KWE", "KUL"),
+      route("HAK", "CGQ"), route("HAK", "JGN"), route("HAK", "CSX"), route("WUX", "VTE"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
