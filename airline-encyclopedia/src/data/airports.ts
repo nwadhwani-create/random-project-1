@@ -70,6 +70,12 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  CTS: { code: "CTS", name: "New Chitose Airport", city: "Sapporo", country: "Japan", lat: 42.7753, lng: 141.6925 },
+  HIJ: { code: "HIJ", name: "Hiroshima Airport", city: "Hiroshima", country: "Japan", lat: 34.4361, lng: 132.9194 },
+  HRB: { code: "HRB", name: "Harbin Taiping International", city: "Harbin", country: "China", lat: 45.6234, lng: 126.2503 },
+  TSN: { code: "TSN", name: "Tianjin Binhai International", city: "Tianjin", country: "China", lat: 39.1244, lng: 117.3462 },
+  NGB: { code: "NGB", name: "Ningbo Lishe International", city: "Ningbo", country: "China", lat: 29.8267, lng: 121.4619 },
+  DLC: { code: "DLC", name: "Dalian Zhoushuizi International", city: "Dalian", country: "China", lat: 38.9657, lng: 121.5386 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },

@@ -19,7 +19,7 @@ type AircraftCategory =
 function getCategory(model: string): AircraftCategory {
   if (/A380/i.test(model)) return "super-jumbo";
   if (/B747|747/i.test(model)) return "jumbo";
-  if (/B777-F/i.test(model)) return "cargo";
+  if (/B777-F|P2F|737F|300SF/i.test(model)) return "cargo";
   if (/B777|777/i.test(model)) return "widebody-large";
   if (/B787|787|A350|A330|A340|B767|767/i.test(model)) return "widebody";
   if (/A220/i.test(model)) return "regional";
