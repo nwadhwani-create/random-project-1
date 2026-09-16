@@ -598,6 +598,29 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "spring-japan",
+    name: "Spring Japan",
+    iataCode: "IJ",
+    icaoCode: "SJO",
+    country: "Japan",
+    founded: 2012,
+    headquarters: "Kozunomori, Narita, Chiba Prefecture, Japan",
+    alliance: "None",
+    logoColor: "#6BBF45",
+    accentColor: "#1B5E20",
+    history: `Spring Japan began as Spring Airlines Japan, the first Japanese airline founded by a Chinese carrier. Shanghai-based Spring Airlines announced the plan in 2011; Japanese ownership rules capped its stake, so it partnered with local investors. The company was incorporated in October 2012 in Kozunomori, Narita, Chiba Prefecture. It filed for an air operator's certificate in September 2013 with ¥1.5 billion of equity — Spring Airlines holding 33 percent — and received the AOC on December 17, 2013. The first Boeing 737-800 arrived on July 17, 2013. After a delayed autumn 2013 target, scheduled flying started on August 1, 2014 from Narita International Airport. Travel agency JTB invested in March 2014 to package Japan tours for Chinese visitors. The IATA code IJ, ICAO code SJO, and call sign JEY SPRING have identified the carrier through both names.\n\nAlthough the Chinese parent flies Airbus A320s, the Japanese unit chose the Boeing 737-800 because Boeing types were more common among Japanese airlines and 737-qualified pilots were easier to recruit. Early crews included former Japan Airlines pilots; Minoru Uchida, a former JAL captain, led operations. Domestic flying from Narita was followed by international service on February 13, 2016. New Chitose (Sapporo) began in August 2016 and Harbin in January 2017, knitting a Japan–China leisure network around the Narita hub.\n\nOwnership shifted as Japan Airlines deepened its involvement. In July 2021 the JAL Group raised its holding to about two-thirds, Spring Airlines' share fell to 30 percent, and the carrier became a JAL subsidiary. In October 2021 the legal name changed from Spring Airlines Japan Co., Ltd. to Spring Japan Co., Ltd., with the Spring Japan brand taking effect on November 1, 2021. A codeshare with Japan Airlines followed in August 2024, putting IJ flights into JAL's domestic and China distribution while the airline remained outside the oneworld alliance.\n\nToday Spring Japan is headquartered in Kozunomori, Narita, and operates from a single Narita base. The passenger fleet is six Boeing 737-800s in a 189-seat layout — 18 curtain-off premium seats in the first three rows and 171 economy. Since April 2024 it has also flown three Airbus A321-200P2F freighters for Yamato Transport (the first, JA81YA, arrived on November 6, 2023) to offset Japan's 2024 trucking overtime cap; JAL, Spring Japan, and Yamato later said those dedicated freighter flights would wind down by June 2027. The JAL Group holds about 70 percent and Spring Airlines 30 percent. Representative passenger routes link Narita with Sapporo and Hiroshima at home and with Shanghai Pudong, Beijing Capital, Tianjin, Harbin, Ningbo, and Dalian in China.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 6, passengers: "189 (18W/171Y)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Spring_Japan_Boeing_737-800.jpg", imageAlt: "Spring Japan B737-800", description: "Sole passenger type, in a 189-seat two-cabin layout with 18 curtain-off premium seats. Serves Narita–Sapporo, Hiroshima, and China routes." },
+      { model: "A321-200P2F", manufacturer: "Airbus", count: 3, passengers: "Cargo", range: "2,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Spring_Japan_Airbus_A321P2F_Yamato.jpg", imageAlt: "Spring Japan A321-200P2F", description: "Passenger-to-freighter conversions flown for Yamato Transport in Kuroneko livery since 2024; dedicated services are planned to end by June 2027." },
+    ],
+    hubs: [a.NRT],
+    routes: [
+      route("NRT", "CTS"), route("NRT", "HIJ"),
+      route("NRT", "PVG"), route("NRT", "PEK"), route("NRT", "TSN"),
+      route("NRT", "HRB"), route("NRT", "NGB"), route("NRT", "DLC"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
