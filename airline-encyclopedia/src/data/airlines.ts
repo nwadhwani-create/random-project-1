@@ -598,6 +598,35 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "donghai-airlines",
+    name: "Donghai Airlines",
+    iataCode: "DZ",
+    icaoCode: "EPA",
+    country: "China",
+    founded: 2002,
+    headquarters: "Shenzhen, Guangdong",
+    alliance: "None",
+    logoColor: "#00796B",
+    accentColor: "#FFB300",
+    history: `Donghai Airlines (东海航空) was founded in November 2002 as Jetwin Cargo Airline, with Boeing 737 freighters intended to launch around 2005. Early ownership sat with Orient Holdings Group and Hong Kong's East Pacific Holdings. Operations were delayed, and by 2006 the company had been renamed East Pacific Airlines — later Donghai Airlines — with Shenzhen Donggang Trade, Donghai United Group, and Yonggang as shareholders.\n\nThe airline finally took to the air in September 2006 with three Boeing 737-300 converted freighters from Shenzhen Bao'an International Airport. In 2010, subsidiary Donghai Jet ordered Bombardier Challenger business jets for corporate aviation. After receiving CAAC approval for scheduled passenger service in December 2013, Donghai launched domestic passenger flights in March 2014 from Shenzhen to Ningbo and Dalian.\n\nIn 2015 the airline outlined an ambitious expansion, including international and long-haul flying and a planned fleet of 120 aircraft by 2025, among them Boeing 737 MAX jets and Boeing 787 Dreamliners. It later opened international routes across Southeast Asia and briefly served Darwin, Australia, and it interlines with Hahn Air. Hong Kong carrier Greater Bay Airlines is a Donghai subsidiary.\n\nToday Donghai remains a Shenzhen-based full-service carrier with its hub at Shenzhen Bao'an. It operates an all-Boeing 737 passenger fleet on a largely domestic Chinese network of about 40 destinations, plus international flights to Vientiane, Jeju, and Nha Trang. Members of its Seagull Club frequent-flyer program earn miles on the airline's network. The carrier is part-owned by Sichuan Airlines together with Shenzhen Donggang Trade, Donghai United Group, and Yonggang.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 19, passengers: "167 (2-class)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20231209%20Boeing%20737-8Q8(WL)%20of%20Donghai%20Airlines%20(B-1770)%20at%20SZX.jpg", imageAlt: "Donghai Airlines B737-800", description: "Core passenger fleet member, configured with 8 business and 159 economy seats on domestic and short-haul international routes." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 2, passengers: "167 (2-class)", range: "3,550 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20241013%20Boeing%20737-8Q8(WL)%20of%20Donghai%20Airlines%20(B-1770)%20at%20CGO.jpg", imageAlt: "Donghai Airlines B737 MAX 8", description: "Newest narrowbody in the fleet, with additional MAX 8s on order as Donghai modernizes its 737 family." },
+    ],
+    hubs: [a.SZX],
+    routes: [
+      route("SZX", "PKX"), route("SZX", "PVG"), route("SZX", "CGQ"), route("SZX", "CSX"),
+      route("SZX", "TFU"), route("SZX", "CKG"), route("SZX", "DLC"), route("SZX", "DAT"),
+      route("SZX", "KWL"), route("SZX", "HAK"), route("SZX", "HGH"), route("SZX", "HRB"),
+      route("SZX", "KMG"), route("SZX", "LHW"), route("SZX", "LYG"), route("SZX", "KHN"),
+      route("SZX", "NKG"), route("SZX", "NTG"), route("SZX", "JJN"), route("SZX", "SHE"),
+      route("SZX", "TSN"), route("SZX", "WNZ"), route("SZX", "WUX"), route("SZX", "XIY"),
+      route("SZX", "YIH"), route("SZX", "INC"), route("SZX", "YIW"), route("SZX", "CGO"),
+      route("SZX", "HSN"), route("SZX", "ZUH"), route("SZX", "VTE"), route("SZX", "CXR"),
+      route("NTG", "CJU"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
