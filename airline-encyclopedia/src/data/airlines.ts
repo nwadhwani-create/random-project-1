@@ -598,6 +598,38 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-travel",
+    name: "Air Travel",
+    iataCode: "A6",
+    icaoCode: "OTC",
+    country: "China",
+    founded: 2014,
+    headquarters: "Changsha, Hunan, China",
+    alliance: "None",
+    logoColor: "#BE1E2D",
+    accentColor: "#F0B429",
+    history: `Air Travel (湖南航空, Hunan Airlines) is Hunan Province's first hometown carrier, flying under IATA code A6 and ICAO code OTC with the English call sign AIR TRAVEL. The airline was registered on April 16, 2014 in Yunnan as Hongtu Airlines (红土航空, "red soil airline"), a name taken from the red earth of Dongchuan. The Civil Aviation Administration of China granted preparatory approval in 2015, and scheduled flying began on May 21, 2016 with a Kunming–Nanchang inaugural. The first aircraft, an Airbus A321 named after the Dai people of Yunnan, arrived in December 2015.\n\nAn English rebrand to Air Travel followed in 2018 while the Chinese Hongtu name remained. In 2017 Tongcheng Travel became a strategic shareholder, positioning the carrier as an "Internet + boutique" airline that later bundled membership and tourism with Tongcheng's travel businesses. After Hunan government investment, the company moved its main operating base from Kunming Changshui to Changsha Huanghua in 2020 and completed a legal rename to Air Travel Co., Ltd. on September 21, 2020. The first "Hunan Airlines" livery arrived at Changsha with a water salute on December 8, 2020.\n\nFrom Changsha the airline grew into a four-base network that also overnighted aircraft in Kunming, Wuxi, Nanjing, and later Shenzhen. It launched Changsha–Beijing Daxing in 2023, a pet-cabin product in 2025, and dialect in-flight announcements in 2026. By December 2025 the Airbus A320-family fleet had reached 17 aircraft. Summer 2026 schedules listed about 48 domestic routes across 41 Chinese cities, with Changsha–Haikou, Changsha–Quanzhou, and Changsha–Mangshi among the seasonal additions.\n\nAir Travel remains an independent, unaligned full-service carrier rather than a Big Three subsidiary. Its first regular international flight, Changsha–Bangkok Suvarnabhumi, is scheduled from September 23, 2026 on the A320. Headquarters sit at Changsha Huanghua Comprehensive Bonded Zone. Do not catalog this airline separately as Hongtu Airlines or Hunan Airlines — those are former or local names of the same A6/OTC operator.`,
+    fleet: [
+      { model: "A320neo", manufacturer: "Airbus", count: 7, passengers: "174 (2-class)", range: "3,400 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Air%20Travel%20Airbus%20A320neo.jpg", imageAlt: "Air Travel A320neo", description: "Newest A320-family type in the Changsha-based fleet, used on busier domestic trunks and the inaugural Changsha–Bangkok service." },
+      { model: "A320-200", manufacturer: "Airbus", count: 5, passengers: "170 (2-class)", range: "3,300 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Air%20Travel%20Airbus%20A320-200.jpg", imageAlt: "Air Travel A320-200", description: "Core narrowbody in an 8J / 6Y+ / 156Y layout, the workhorse of the Changsha, Kunming, and Wuxi networks." },
+      { model: "A321-200", manufacturer: "Airbus", count: 2, passengers: "195 (2-class)", range: "3,200 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Air%20Travel%20Airbus%20A321-211%20departing%20from%20Zhengzhou.jpg", imageAlt: "Air Travel A321-200", description: "High-capacity stretch that launched the airline in 2015; first airframe was named Dai after a Yunnan ethnic group." },
+      { model: "A319-100", manufacturer: "Airbus", count: 2, passengers: "144 (2-class)", range: "3,750 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Air%20Travel%20Airbus%20A319-100.jpg", imageAlt: "Air Travel A319-100", description: "Shorter A320-family jet for thinner Yunnan and western China sectors, including high-elevation tourist airports." },
+    ],
+    hubs: [a.CSX, a.KMG, a.NKG, a.WUX],
+    routes: [
+      route("CSX", "PKX"), route("CSX", "TFU"), route("CSX", "KMG"), route("CSX", "TNA"),
+      route("CSX", "HAK"), route("CSX", "LJG"), route("CSX", "WNZ"), route("CSX", "HGH"),
+      route("CSX", "JJN"), route("CSX", "BKK"), route("CSX", "URC"), route("CSX", "WUX"),
+      route("CSX", "NKG"), route("CSX", "CGO"), route("CSX", "TAO"), route("CSX", "ZUH"),
+      route("CSX", "NNG"), route("CSX", "LHW"), route("CSX", "KWL"), route("CSX", "HRB"),
+      route("KMG", "KHN"), route("KMG", "HAK"), route("KMG", "NKG"), route("KMG", "LJG"),
+      route("KMG", "TAO"), route("KMG", "WNZ"),
+      route("WUX", "XMN"), route("WUX", "HRB"), route("WUX", "URC"), route("WUX", "SZX"),
+      route("WUX", "SHE"), route("WUX", "HET"), route("WUX", "CGQ"),
+      route("NKG", "SZX"), route("NKG", "HET"), route("NKG", "XMN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
