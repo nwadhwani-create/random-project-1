@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "fuzhou-airlines",
+    name: "Fuzhou Airlines",
+    iataCode: "FU",
+    icaoCode: "FZA",
+    country: "China",
+    founded: 2014,
+    headquarters: "Fuzhou, Fujian",
+    alliance: "None",
+    logoColor: "#C41E3A",
+    accentColor: "#E0A100",
+    history: `Fuzhou Airlines (福州航空) was formed in 2014 as a joint venture led by HNA Group, with the Fuzhou municipal government among the founding shareholders. At launch the company was capitalized at CNY 2 billion. HNA Group held 60 percent, Fuzhou State-owned Investment Holdings held 20 percent, and Century Golden Resources Group and Ningbo Ruitong Network Technology held 10 percent each. Pilots, maintenance staff, and cabin crew for the start-up came from parent Hainan Airlines, which also supplied the first aircraft.\n\nThe Civil Aviation Administration of China issued the carrier's air operator certificate on 17 October 2014. Scheduled service began on 30 October 2014, when the maiden flight left Fuzhou Changle International Airport for Beijing. The same day Fuzhou Airlines opened the domestic routes it had been cleared to start — Chongqing, Kunming, Haikou, Hefei, Taiyuan, Tianjin, and Xi'an — together with Shanghai Pudong. The first Boeing 737-800, transferred from Hainan Airlines and painted in a red-and-white livery, had arrived earlier that month. The initial cabin seated 8 passengers in business class and 156 in economy.\n\nThe airline is headquartered at Fuzhou Changle, its primary base in Fujian, and also lists Harbin Taiping as an operating base in northeast China. It flies under IATA designator FU and ICAO code FZA, with the radio call sign Strait Air. Published fleet figures for August 2025 list 14 Boeing 737-800s in the 164-seat layout and 2 Boeing 737 MAX 8s, for 16 aircraft in service. Fuzhou Airlines is a Hainan Airlines subsidiary within HNA Aviation, is not a member of a global alliance, and concentrates on domestic routes linking Fuzhou with cities across China.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 14, passengers: "164 (8J/156Y)", range: "2,935 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20240420%20Boeing%20737-8AL(WL)%20of%20Fuzhou%20Airlines%20(B-1348)%20at%20CGO%2001.jpg", imageAlt: "Fuzhou Airlines Boeing 737-800", description: "Core narrowbody, transferred from the Hainan Airlines family and flown in an 8-seat business and 156-seat economy cabin." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 2, passengers: "2-class", range: "3,550 nmi", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20250731%20Boeing%20737-8%20MAX%20of%20Fuzhou%20Airlines%20(B-207C)%20taxiing%20at%20CGO.jpg", imageAlt: "Fuzhou Airlines Boeing 737 MAX 8", description: "Newest narrowbody in a two-aircraft MAX fleet. The 2025 fleet guide does not publish a standard cabin layout for the type." },
+    ],
+    hubs: [a.FOC, a.HRB],
+    routes: [
+      route("FOC", "PEK"), route("FOC", "PVG"), route("FOC", "CAN"), route("FOC", "SZX"), route("FOC", "CKG"),
+      route("FOC", "CTU"), route("FOC", "KMG"), route("FOC", "HAK"), route("FOC", "HFE"), route("FOC", "TYN"),
+      route("FOC", "TSN"), route("FOC", "XIY"), route("FOC", "CSX"), route("FOC", "HRB"), route("FOC", "NKG"),
+      route("FOC", "NNG"), route("FOC", "NGB"), route("FOC", "TAO"), route("FOC", "SHE"), route("FOC", "URC"),
+      route("FOC", "WUH"), route("FOC", "XMN"), route("FOC", "CGO"), route("FOC", "KWL"), route("FOC", "SYX"),
+      route("FOC", "WNZ"), route("FOC", "ZUH"), route("FOC", "DLC"), route("FOC", "TNA"), route("FOC", "CGQ"),
+      route("FOC", "HET"), route("FOC", "LHW"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
