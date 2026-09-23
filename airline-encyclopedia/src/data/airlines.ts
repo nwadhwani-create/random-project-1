@@ -598,6 +598,32 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "urumqi-air",
+    name: "Urumqi Air",
+    iataCode: "UQ",
+    icaoCode: "CUH",
+    country: "China",
+    founded: 2014,
+    headquarters: "Ürümqi, Xinjiang, China",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#C6A15B",
+    history: `Urumqi Air (乌鲁木齐航空) is the home carrier of Ürümqi and the only airline based in China's Xinjiang Uygur Autonomous Region. The Civil Aviation Administration of China approved the company for establishment on November 18, 2013, as a joint venture between Hainan Airlines, which took 70 percent, and Urumqi Urban Construction Investment, which took 30 percent. Registered capital was 3 billion yuan. Hainan Airlines supplied the startup's first Boeing 737-800s and the pilots, mechanics, dispatchers, and cabin crew needed to launch.\n\nThe airline received its air operator certificate on August 28, 2014. The next day it flew its first revenue service, from Ürümqi to Yining, using the radio call sign LOULAN (楼兰), named for the ancient Loulan kingdom on the Silk Road. IATA assigned the designator UQ and ICAO assigned CUH. The early network paired trunk flights from Ürümqi toward Beijing, Shanghai, and Guangzhou with a thicker set of routes inside Xinjiang.\n\nFor its first decade the fleet was entirely Boeing 737-800s, flown in a mix of all-economy and two-class cabins. On December 8, 2025, Urumqi Air took delivery of its first COMAC C909, registration B-659C, and on December 30 put it into service as flight UQ3615 from Ürümqi to Karamay and Hotan. A second C909, B-659D, arrived on January 28, 2026, and a third, B-659E, on June 23, 2026. Each C909 is laid out with 8 business seats and 70 economy seats and is used on shorter sectors within Xinjiang, while the 737-800s keep the longer domestic trunks.\n\nAs of August 2026 the airline operated 17 Boeing 737-800s and 3 C909s, 20 aircraft in all, and held a follow-on order for 40 more C909s through parent Hainan Airlines. From its base at Ürümqi Tianshan International Airport the network reaches major cities across China and, via Luoyang, Bangkok.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 17, passengers: "170–189 (1- or 2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9c/20241013_Boeing_737-84P%28WL%29_of_Urumqi_Air_%28B-205U%29_at_CGO.jpg", imageAlt: "Urumqi Air Boeing 737-800", description: "Trunk narrowbody for domestic routes out of Ürümqi, flown in all-economy and 8-seat business layouts." },
+      { model: "C909", manufacturer: "COMAC", count: 3, passengers: "78 (8J/70Y)", range: "2,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Comac_ARJ21-700.jpg", imageAlt: "COMAC C909 regional jet", description: "Regional jet for Xinjiang sectors such as Yining, Kashgar, Hotan, Karamay, and Kanas. The first airframe, B-659C, entered service in December 2025." },
+    ],
+    hubs: [a.URC],
+    routes: [
+      route("URC", "YIN"), route("URC", "KHG"), route("URC", "HTN"), route("URC", "KRY"), route("URC", "BPL"),
+      route("URC", "FYN"), route("URC", "KJI"), route("URC", "TLQ"), route("URC", "ZFL"),
+      route("FYN", "YIN"), route("FYN", "KJI"), route("BPL", "KHG"), route("BPL", "HTN"), route("BPL", "TLQ"),
+      route("KJI", "BPL"), route("ZFL", "KHG"),
+      route("URC", "PEK"), route("URC", "PVG"), route("URC", "CAN"), route("URC", "TFU"), route("URC", "CGO"),
+      route("URC", "LHW"), route("LHW", "NTG"), route("URC", "LYA"), route("LYA", "BKK"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
