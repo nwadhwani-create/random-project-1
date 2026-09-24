@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "dalian-airlines",
+    name: "Dalian Airlines",
+    iataCode: "CA",
+    icaoCode: "CCD",
+    country: "China",
+    founded: 2011,
+    headquarters: "Dalian, Liaoning",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#C4A35A",
+    history: `Dalian Airlines (大连航空) is an Air China subsidiary based at Dalian Zhoushuizi International Airport in Liaoning province. The city of Dalian had earlier pursued a local carrier with the HNA Group, but that plan was abandoned after the two sides disagreed. In 2010 the municipal government reached an agreement with Air China instead. On 5 July 2011 the Civil Aviation Administration of China approved the new company. Air China invested RMB 800 million for an 80 percent stake, and Dalian Baoshui Zhengtong Co. invested RMB 200 million for the remaining 20 percent. The airline was established on 8 August 2011.\n\nCommercial service began on 31 December 2011 with a flight from Dalian to Shenzhen, making Dalian Airlines the first carrier based in Northeast China. Flights use the IATA code CA, shared with parent Air China, along with Air China's aircraft identity and the PhoenixMiles frequent-flyer program. The ICAO designator is CCD and the radio call sign is Xiangjian (响箭, "whistling arrow"). On board, the operation is close to a standard Air China domestic flight; Dalian Airlines is identified by the aircraft titles, safety cards, and meal packaging.\n\nThe published network is domestic. From Dalian the airline links Beijing Capital, Shanghai Pudong, Chengdu Tianfu, Hangzhou, Wuhan, Jinan, Changsha, Kunming, Shiyan, and Suifenhe Dongning, including one-stop sectors such as Dalian–Jinan–Changsha and Dalian–Shiyan–Kunming. Crews also operate a set of Beijing Capital departures to cities including Guilin, Guiyang, Liuzhou, Zhuhai, Ganzhou, Xiamen, Nanchang, Nanning, and Ningbo. The schedule published for 29 March 2026 still lists Dalian Airlines as the operating carrier on those flights. As of 2025 the fleet numbered 13 Boeing 737-800s in three layouts: 12 business and 147 economy, 8 business and 159 economy, or 168 all-economy seats.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 13, passengers: "159–176 (1/2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Boeing_737-800_%E2%80%98B-7891%E2%80%99_Dalian_Airlines_%2833647696868%29.jpg/1280px-Boeing_737-800_%E2%80%98B-7891%E2%80%99_Dalian_Airlines_%2833647696868%29.jpg", imageAlt: "Dalian Airlines Boeing 737-800 B-7891", description: "The entire fleet is Boeing 737-800s. Two aircraft seat 12 business and 147 economy, seven seat 8 business and 159 economy, and four are 168-seat all-economy." },
+    ],
+    hubs: [a.DLC],
+    routes: [
+      route("DLC", "PEK"), route("DLC", "PVG"), route("DLC", "TFU"), route("DLC", "HGH"), route("DLC", "WUH"),
+      route("DLC", "TNA"), route("TNA", "CSX"), route("DLC", "CSX"), route("DLC", "WDS"), route("WDS", "KMG"),
+      route("DLC", "KMG"), route("DLC", "HSF"),
+      route("PEK", "KWL"), route("PEK", "KWE"), route("PEK", "LZH"), route("PEK", "ZUH"), route("PEK", "KOW"),
+      route("PEK", "WDS"), route("PEK", "KMG"), route("PEK", "XMN"), route("PEK", "KHN"), route("PEK", "NNG"),
+      route("PEK", "NGB"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
