@@ -598,6 +598,37 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "chongqing-airlines",
+    name: "Chongqing Airlines",
+    iataCode: "OQ",
+    icaoCode: "CQN",
+    country: "China",
+    founded: 2007,
+    headquarters: "Chongqing, China",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#C4A35A",
+    history: `Chongqing Airlines (重庆航空) was established on 16 June 2007 as a joint venture between China Southern Airlines, which holds 60 percent, and Chongqing Municipal Development & Investment Company, which holds 40 percent. The Civil Aviation Administration of China granted its operating licence on 4 July 2007. The first flight, on 8 July 2007, linked the airline's home base at Chongqing Jiangbei International Airport with Shanghai Pudong.\n\nThe carrier was formed to give Chongqing, the principal city of southwestern China, a scheduled airline of its own. Flying stayed inside the Airbus A320 family from the start. By July 2013 the fleet stood at eleven aircraft — seven A320s and four A319s — with many airframes transferred from the China Southern parent. Chongqing Airlines codeshares with China Southern, and a large share of its flights are also sold under China Southern flight numbers. It is not itself a SkyTeam member.\n\nFrom the single hub at Jiangbei, the network grew across southern, eastern, and southwestern China: trunk routes to Guangzhou, Shenzhen, Shanghai, Hangzhou, and Kunming, plus thinner links into Yunnan and onto the Tibetan Plateau, including Lijiang, Dali, Shangri-La, and Lhasa. International service followed. Hanoi opened in January 2018, Ho Chi Minh City in April 2018, and Colombo in late 2018. Singapore was resumed in 2023, alongside flights to Malé and Phuket. In 2026 the airline added Hong Kong and a Malaysia network to Kota Kinabalu, Kuala Lumpur, and Penang, and resumed Bangkok.\n\nAs of September 2025, Airliner World listed 31 aircraft: six A319-100s, thirteen A320-200s, nine A320neos, and three A321neos, including the longer-range A321neo used on denser domestic trunks and the longer international sectors. The airline has been shifting toward a lower-cost model aimed at demand in western China, while remaining a China Southern subsidiary. Liu Dejun is chief executive. The ICAO call sign is CHONG QING.`,
+    fleet: [
+      { model: "A319-100", manufacturer: "Airbus", count: 6, passengers: "128 (2-class)", range: "3,750 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/B-6187_Airbus_A319_Chongqing_Airlines_%2812196530134%29.jpg/1280px-B-6187_Airbus_A319_Chongqing_Airlines_%2812196530134%29.jpg", imageAlt: "Chongqing Airlines Airbus A319-100", description: "Smallest type in the fleet, laid out 8 business and 120 economy, and used on thinner domestic sectors including high-elevation airports in the southwest." },
+      { model: "A320-200", manufacturer: "Airbus", count: 13, passengers: "152 (3-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/B-2345_-_Chongqing_Airlines_-_Airbus_A320-233_-_CAN_%2815267877635%29.jpg/1280px-B-2345_-_Chongqing_Airlines_-_Airbus_A320-233_-_CAN_%2815267877635%29.jpg", imageAlt: "Chongqing Airlines Airbus A320-200", description: "Core narrowbody, many transferred from China Southern, in an 8 business, 24 premium economy, and 120 economy cabin." },
+      { model: "A320neo", manufacturer: "Airbus", count: 9, passengers: "166 (3-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Chongqing_Airlines_Airbus_A320neo_B-307S_Singapore_2025_%2801%29.jpg/1280px-Chongqing_Airlines_Airbus_A320neo_B-307S_Singapore_2025_%2801%29.jpg", imageAlt: "Chongqing Airlines Airbus A320neo", description: "Newer fuel-efficient A320neo in a 4/24/138 cabin, used on domestic trunks and the 2026 Malaysia routes." },
+      { model: "A321neo", manufacturer: "Airbus", count: 3, passengers: "208 (3-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/B-30E3%40PEK_%2820200108100410%29.jpg/1280px-B-30E3%40PEK_%2820200108100410%29.jpg", imageAlt: "Chongqing Airlines Airbus A321neo", description: "Highest-capacity type, including the longer-range A321neo, with 8 business, 24 premium economy, and 176 economy seats on busy domestic corridors and longer international flights." },
+    ],
+    hubs: [a.CKG],
+    routes: [
+      route("CKG", "CAN"), route("CKG", "SZX"), route("CKG", "PVG"), route("CKG", "HGH"), route("CKG", "NKG"),
+      route("CKG", "FOC"), route("CKG", "XMN"), route("CKG", "WNZ"), route("CKG", "WUH"), route("CKG", "HFE"),
+      route("CKG", "TNA"), route("CKG", "HRB"), route("CKG", "KHN"), route("CKG", "KWL"), route("CKG", "HUZ"),
+      route("CKG", "SYX"), route("CKG", "KMG"), route("CKG", "DLU"), route("CKG", "LJG"), route("CKG", "DIG"),
+      route("CKG", "LUM"), route("CKG", "TCZ"), route("CKG", "JHG"), route("CKG", "JZH"), route("CKG", "JIQ"),
+      route("CKG", "LXA"),
+      route("CKG", "HKG"), route("CKG", "BKK"), route("CKG", "HKT"), route("CKG", "SIN"), route("CKG", "KUL"),
+      route("CKG", "PEN"), route("CKG", "BKI"), route("CKG", "SGN"), route("CKG", "HAN"), route("CKG", "MLE"),
+      route("CKG", "CMB"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
