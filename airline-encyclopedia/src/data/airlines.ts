@@ -598,6 +598,32 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-guilin",
+    name: "Air Guilin",
+    iataCode: "GT",
+    icaoCode: "CGH",
+    country: "China",
+    founded: 2013,
+    headquarters: "Guilin, Guangxi",
+    alliance: "None",
+    logoColor: "#009B4C",
+    accentColor: "#F5B335",
+    history: `Air Guilin (Chinese: 桂林航空) is a Chinese domestic airline headquartered in Xiufeng District, Guilin, in the Guangxi Zhuang Autonomous Region. Its operating base is Guilin Liangjiang International Airport. The company was formed in 2013 as Guangxi Airlines, a joint venture of HNA Group and the Guilin municipal government, and was renamed Guilin Airlines in 2014. A start planned for May 2014 did not take place. On 8 September 2015 the Civil Aviation Administration of China granted preliminary approval, and that October the airline chose the Airbus A319 as its first aircraft type.\n\nLate in 2015 the carrier took the name Air Guilin. On 9 December 2015 it unveiled a logo built around Elephant Trunk Hill, a landmark on the Li River, together with the city's tourism slogan. Scheduled flying began on 25 June 2016 with a Guilin–Zhengzhou service. Guilin Tourism Development held 60 percent and Guilin Aviation Tourism Group, then an HNA affiliate, held 40 percent. The two sides invested about ¥600 million. The airline was created to bring more visitors to Guilin. On 1 January 2019 it moved to a low-cost model and has remained a domestic carrier outside the global alliances. Its IATA code is GT, its ICAO code is CGH, and its call sign is WELKIN.\n\nOn 4 January 2019 a passenger entered the flight deck of GT1011, operating from Guilin to Yangzhou, while the aircraft was airborne. The episode became public that November after a photograph circulated online. Air Guilin confirmed the flight, permanently grounded the captain, and suspended the rest of the crew pending investigation.\n\nIn November 2023 a shareholder dispute stopped most of the schedule. HNA Aviation, which said it controlled the airline, withdrew maintenance, materials, and systems support from 2 November after Guilin Transportation Investment, the municipal state-owned shareholder, contested that control. Large parts of the flying program after 3 November were cancelled. Service resumed on 1 February 2024 with a Guilin–Tianjin flight. Guilin Transportation Investment said Air Guilin had rebuilt its maintenance and operations systems and was no longer part of the reorganized HNA Aviation group. HNA said it had no role in the restart. The HNA emblem that had sat behind the cockpit windows was removed from the fleet.\n\nAs of August 2025, Air Guilin operated two Airbus A319-100s in a 138-seat all-economy cabin and eight Airbus A320-200s in a 180-seat all-economy cabin. A destination list current as of May 2026 covers 26 cities in mainland China beyond Guilin, ranging from Beihai, Nanning, Haikou, and Chongqing to Zhengzhou, Shenyang, Changchun, Taiyuan, and the Xinjiang airports at Korla and Qitai. The head office is at 32 Sanduo Road, Xiufeng District.`,
+    fleet: [
+      { model: "A319-100", manufacturer: "Airbus", count: 2, passengers: "138 (1-class)", range: "3,750 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%28CHN-Fujian%29_Air_Guilin_Airbus_A319-132_B-6192_%40_ZSAM_2025-03-21.jpg/1280px-%28CHN-Fujian%29_Air_Guilin_Airbus_A319-132_B-6192_%40_ZSAM_2025-03-21.jpg", imageAlt: "Air Guilin A319-100", description: "Launch type for the June 2016 Guilin–Zhengzhou service. Two A319-100s fly thinner domestic sectors in a single-class 138-seat cabin." },
+      { model: "A320-200", manufacturer: "Airbus", count: 8, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/20240420_Airbus_A320-232%28WL%29_of_Air_Guilin_%28B-1032%29_at_CGO_01.jpg/1280px-20240420_Airbus_A320-232%28WL%29_of_Air_Guilin_%28B-1032%29_at_CGO_01.jpg", imageAlt: "Air Guilin A320-200", description: "Mainline narrowbody since the low-cost transition. Eight A320-200s seat 180 passengers in a single class and cover most of the Guilin network." },
+    ],
+    hubs: [a.KWL],
+    routes: [
+      route("KWL", "HFE"), route("KWL", "TXN"), route("KWL", "CKG"), route("KWL", "BHY"), route("KWL", "NNG"),
+      route("KWL", "KWE"), route("KWL", "HAK"), route("KWL", "SJW"), route("KWL", "TVS"), route("KWL", "CGO"),
+      route("KWL", "ENH"), route("KWL", "YIH"), route("KWL", "HET"), route("KWL", "XUZ"), route("KWL", "YTY"),
+      route("KWL", "KHN"), route("KWL", "CGQ"), route("KWL", "DLC"), route("KWL", "SHE"), route("KWL", "TNA"),
+      route("KWL", "YNT"), route("KWL", "DAT"), route("KWL", "TYN"), route("KWL", "JBK"), route("KWL", "KRL"),
+      route("KWL", "NGB"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
