@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-changan",
+    name: "Air Changan",
+    iataCode: "9H",
+    icaoCode: "CGN",
+    country: "China",
+    founded: 1992,
+    headquarters: "Xi'an, Shaanxi, China",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#C6A15B",
+    history: `Air Changan (长安航空) is a Chinese domestic airline based in Xi'an. In September 1990 the Shaanxi provincial government and local aircraft manufacturers began planning a provincial carrier around three Xian Y-7 turboprops. The government named the airline on 2 March 1992, and it was formally founded on 11 April 1992, absorbing Dapeng Airlines. The first flight, from Xi'an to Yulin, operated on 5 January 1993. The manufacturers later left the venture after new regulations took effect, and the airline continued under the provincial government.\n\nOn 30 August 2000, Hainan Airlines purchased Air Changan and renamed it Chang An Airlines. Its first Boeing 737-400 entered service on 1 July 2002. In October 2002, Chang An Airlines was merged with Xinhua Airlines and Shanxi Airlines into Hainan Airlines, and the separate brand left the timetable.\n\nIn December 2015, HNA Group opened talks with the Shaanxi provincial government to restore the carrier as an independent airline focused on flights within and beyond the province. It returned to the Air Changan name, unveiled its own livery, and received an air operator certificate in April 2016. Independent flying resumed on 9 May 2016 with an inaugural Xi'an–Zhuhai service on a Boeing 737-800. The arrival salute in Zhuhai went wrong when the fire engines sprayed foam instead of water, so the aircraft needed a safety check and the return flight was cancelled.\n\nAir Changan is a subsidiary of HNA Aviation and is not a member of a global alliance. Its operating base is Xi'an Xianyang International Airport. As of August 2025 the fleet was 13 Boeing 737-800s in 186- and 189-seat all-economy layouts. From Xi'an it links provincial cities and destinations across China.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 13, passengers: "186-189 (all-economy)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20250204_Boeing_737-8FH%28WL%29_of_Air_Changan_%28B-5180%29_taking-off_from_CGO_01.jpg/1280px-20250204_Boeing_737-8FH%28WL%29_of_Air_Changan_%28B-5180%29_taking-off_from_CGO_01.jpg", imageAlt: "Air Changan Boeing 737-800", description: "All-economy narrowbody used across Air Changan's domestic network from Xi'an." },
+    ],
+    hubs: [a.XIY],
+    routes: [
+      route("XIY", "BHY"), route("XIY", "CGQ"), route("XIY", "JUH"), route("XIY", "DLC"), route("XIY", "DNH"),
+      route("XIY", "FOC"), route("XIY", "KWL"), route("XIY", "KWE"), route("XIY", "HAK"), route("XIY", "HLD"),
+      route("XIY", "HZG"), route("XIY", "HFE"), route("XIY", "HIA"), route("XIY", "HJJ"), route("XIY", "HUZ"),
+      route("XIY", "SWA"), route("XIY", "JDZ"), route("XIY", "LHW"), route("XIY", "LYG"), route("XIY", "LYA"),
+      route("XIY", "MDG"), route("XIY", "KHN"), route("XIY", "NTG"), route("XIY", "NGB"), route("XIY", "BPE"),
+      route("XIY", "SYX"), route("XIY", "SHE"), route("XIY", "SJW"), route("XIY", "HYN"), route("XIY", "TGO"),
+      route("XIY", "TEN"), route("XIY", "WEF"), route("XIY", "WNZ"), route("XIY", "XMN"), route("XIY", "XNN"),
+      route("XIY", "YNZ"), route("XIY", "YNT"), route("XIY", "YIH"), route("XIY", "INC"), route("XIY", "YKH"),
+      route("XIY", "ZUH"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
