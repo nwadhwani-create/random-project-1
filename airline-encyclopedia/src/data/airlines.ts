@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "aero-k",
+    name: "Aero K",
+    iataCode: "RF",
+    icaoCode: "EOK",
+    country: "South Korea",
+    founded: 2016,
+    headquarters: "Cheongju, South Korea",
+    alliance: "None",
+    logoColor: "#0E4D92",
+    accentColor: "#E4572E",
+    history: `Aero K Airlines Co., Ltd. (에어로케이) is a South Korean low-cost carrier based at Cheongju International Airport in North Chungcheong Province. The airline was founded on 18 May 2016, originally as K-AIR Aviation, and takes its name from spelling "Korea" backwards. Its headquarters are in Osong-eup, Heungdeok-gu, Cheongju. Early applications for an air transport license were turned down in 2017, but the carrier later secured its license, took delivery of its first Airbus A320 (HL8384) on 14 February 2020, and received its air operator certificate on 28 December 2020.\n\nScheduled flying began on 15 April 2021 with a domestic service from Cheongju to Jeju, after irregular flights earlier that spring. In August 2022 the airline was acquired by Daemyung Chemical, and it now operates under parent Aero K Holdings with Kang Byeong-ho as chief executive. The radio call sign is AEROHANGUK. Aero K is not a member of a global airline alliance.\n\nFrom 2023 the carrier built a short-haul international network out of Cheongju, adding Osaka Kansai, Tokyo Narita, and Taipei Taoyuan that year, then secondary cities in Japan, Taiwan, China, Vietnam, the Philippines, and Mongolia. As of September 2026 the published network from Cheongju includes Jeju plus Japan (Tokyo Narita, Osaka, Sapporo, Nagoya, Fukuoka, Hiroshima, Kitakyushu, Okinawa, Ibaraki, and seasonal Obihiro and Kobe), Taipei and Kaohsiung, Qingdao, Jinan, and Datong, Da Nang, Hanoi, and Nha Trang, seasonal Clark, and Ulaanbaatar. Earlier flying to Incheon, Manila, Cebu, Hualien, Yangyang, Pakse, and Qionghai is no longer on the current list.\n\nAs of August 2025, Aero K operated nine Airbus A320-200s in a single 180-seat all-economy cabin. One earlier A320 was retired in 2024. The type covers the airline's domestic Jeju flights and the regional routes that define its Cheongju hub.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 9, passengers: "180 (all-economy)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Aero-K_A320-214_HL8562_TPE_08-DEC-2024.jpg/1280px-Aero-K_A320-214_HL8562_TPE_08-DEC-2024.jpg", imageAlt: "Aero K A320-200", description: "Single-type narrowbody in a 180-seat all-economy layout, flying Cheongju–Jeju and short-haul routes across East and Southeast Asia." },
+    ],
+    hubs: [a.CJJ],
+    routes: [
+      route("CJJ", "CJU"),
+      route("CJJ", "NRT"), route("CJJ", "KIX"), route("CJJ", "CTS"), route("CJJ", "NGO"),
+      route("CJJ", "FUK"), route("CJJ", "HIJ"), route("CJJ", "KKJ"), route("CJJ", "OKA"),
+      route("CJJ", "IBR"), route("CJJ", "OBO"), route("CJJ", "UKB"),
+      route("CJJ", "TPE"), route("CJJ", "KHH"),
+      route("CJJ", "TAO"), route("CJJ", "TNA"), route("CJJ", "DAT"),
+      route("CJJ", "DAD"), route("CJJ", "HAN"), route("CJJ", "CXR"),
+      route("CJJ", "CRK"),
+      route("CJJ", "UBN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
