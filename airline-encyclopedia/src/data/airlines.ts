@@ -598,6 +598,36 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "alliance-air",
+    name: "Alliance Air",
+    iataCode: "9I",
+    icaoCode: "LLR",
+    country: "India",
+    founded: 1996,
+    headquarters: "Delhi, India",
+    alliance: "None",
+    logoColor: "#E85D04",
+    accentColor: "#1E3A5F",
+    history: `Alliance Air is the Government of India's regional airline, headquartered in Delhi. It was formed in April 1996 as a wholly owned subsidiary of Indian Airlines and began flying on 15 April 1996, at first as a low-fare feeder that used Boeing 737s wet-leased from its parent to connect smaller cities with Indian Airlines hubs. On 1 April 1997 it also absorbed the remaining flight operations of Vayudoot. By 2002 the airline reached 44 domestic points with a fleet of 737-200s.\n\nAfter Indian Airlines merged into Air India, Alliance Air became an Air India subsidiary and was renamed Air India Regional in 2011. The jet fleet was replaced by turboprops: the first ATR 72-600 arrived in December 2014, and the last CRJ700 left in 2017. From 2016 the carrier was given a leading role in UDAN, the national scheme for unserved and underserved airports, and that October it ordered ten more ATR 72s. Its only scheduled international route, Chennai–Jaffna, opened on 11 November 2019, paused in 2020, resumed in July 2023, and ended in November 2024.\n\nTata Sons bought Air India on 8 October 2021, but Alliance Air was not included. Ownership stayed with the state through AI Assets Holding Limited. The airline separated from Air India on 15 April 2022 and returned to the Alliance Air name, under chief executive Rajarshi Sen. In September 2021 it agreed to lease Hindustan Aeronautics Dornier 228s; the first aircraft was delivered on 7 April 2022 and entered service on Dibrugarh–Pasighat on 12 April 2022, the first Indian-built aircraft used in civil airline operations. Two ATR 42-600s were added for short Himalayan airfields. As of July 2026 the fleet is two ATR 42-600s, 18 ATR 72-600s, and one Dornier 228, with another Dornier on order. As of May 2024 it served 57 domestic destinations from hubs at Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai.`,
+    fleet: [
+      { model: "72-600", manufacturer: "ATR", count: 18, passengers: "72 (1-class)", range: "825 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Alliance_Air_ATR_72-600_%28VT-AIV%29.jpg/1280px-Alliance_Air_ATR_72-600_%28VT-AIV%29.jpg", imageAlt: "Alliance Air ATR 72-600", description: "Core turboprop for UDAN regional routes, seating 72 passengers in a single cabin." },
+      { model: "42-600", manufacturer: "ATR", count: 2, passengers: "48 (1-class)", range: "726 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Lilabari_airplane.JPG/1280px-Lilabari_airplane.JPG", imageAlt: "Alliance Air ATR 42", description: "48-seat ATR 42-600 for short Himalayan airfields. The reference photo shows an earlier Alliance Air ATR 42." },
+      { model: "Do 228", manufacturer: "Hindustan Aeronautics", count: 1, passengers: "17 (1-class)", range: "560 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sevenair_Dornier_Do-228_CS-AYT_at_Portim%C3%A3o_Airport_12-06-2023_%281%29.jpg/1280px-Sevenair_Dornier_Do-228_CS-AYT_at_Portim%C3%A3o_Airport_12-06-2023_%281%29.jpg", imageAlt: "Dornier 228", description: "HAL-built 17-seat Dornier 228 used on short Northeast sectors such as Dibrugarh–Pasighat. One further aircraft is on order. The reference photo is a representative Dornier 228." },
+    ],
+    hubs: [a.DEL, a.BOM, a.MAA, a.BLR, a.CCU, a.HYD],
+    routes: [
+      route("HYD", "TIR"), route("BLR", "TIR"),
+      route("HYD", "VDY"), route("BLR", "VDY"),
+      route("DEL", "ATQ"), route("DEL", "BUP"), route("DEL", "BKB"), route("DEL", "JSA"), route("DEL", "BEK"),
+      route("DED", "IXJ"), route("DED", "ATQ"), route("DED", "AYJ"), route("DED", "VNS"),
+      route("LKO", "BHO"), route("LKO", "JAI"), route("LKO", "DED"),
+      route("CCU", "VNS"), route("CCU", "GAU"), route("GAU", "AJL"), route("AJL", "SHL"),
+      route("GAU", "DMU"), route("DMU", "IMF"), route("IXS", "IMF"),
+      route("DIB", "IXT"), route("DIB", "TEI"),
+      route("BBI", "JRG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
