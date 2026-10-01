@@ -598,6 +598,36 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "flyarystan",
+    name: "FlyArystan",
+    iataCode: "FS",
+    icaoCode: "AYN",
+    country: "Kazakhstan",
+    founded: 2018,
+    headquarters: "Almaty, Kazakhstan",
+    alliance: "None",
+    logoColor: "#5C2E91",
+    accentColor: "#F5C518",
+    history: `FlyArystan is Kazakhstan's first low-cost airline and a wholly owned subsidiary of Air Astana, headquartered in Almaty. Air Astana announced the carrier on 6 November 2018, and the company dates its founding to 1 November 2018. Ticket sales opened on 29 March 2019, and the first flight left Almaty for Nur-Sultan — the city now again called Astana — on 1 May 2019. Its slogan is "Say YES! to Travel."\n\nPeter Foster, then president and CEO of Air Astana, described FlyArystan as a response to demand for lower fares in a more competitive domestic market and as a way to grow low-cost travel across Central Asia and the Caucasus. The airline standardized on the Airbus A320 family. Its A320neo aircraft are fitted with 188 seats, and the A320-200s with 180. A 2019 letter of intent for 30 Boeing 737 MAX 8s was never turned into an order.\n\nIn November 2022 Skytrax rated FlyArystan a 4-star low-cost airline. Skytrax later named it Best Low-Cost Airline in Central Asia and the CIS at the 2023 and 2024 World Airline Awards. In 2024 the Aviation Administration of Kazakhstan issued FlyArystan its own air operator certificate, so the airline could use the IATA code FS instead of flying only under Air Astana's certificate. The ICAO code is AYN and the call sign is ARYSTAN. FlyArystan codeshares with Air Astana.\n\nThe carrier keeps aircraft bases at Almaty, Astana, and Aktau, and treats Karaganda's Sary-Arka Airport as a focus city. As of August 2025 it flew 15 A320-200s and 13 A320neos, 28 aircraft in all, with one further A320neo still on order. The published network mixes domestic Kazakhstan with international flights to the Caucasus, China, Central Asia, Turkey, and the Gulf.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 15, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fd/FlyArystan%2C_EI-KBN%2C_Airbus_A320-232.jpg", imageAlt: "FlyArystan A320-200", description: "A320-200 used on domestic and international routes. Eight of the aircraft were transferred from Air Astana." },
+      { model: "A320neo", manufacturer: "Airbus", count: 13, passengers: "188 (1-class)", range: "3,400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/68/Fly_Arystan_Airbus_A320_NEO_%28EI-KBR%29_%2853798349809%29.jpg", imageAlt: "FlyArystan A320neo", description: "Higher-capacity neo used to maximize seats on FlyArystan's low-fare network. One additional aircraft is on order." },
+    ],
+    hubs: [a.ALA, a.NQZ, a.SCO],
+    routes: [
+      route("ALA", "NQZ"), route("ALA", "SCO"), route("ALA", "AKX"), route("ALA", "GUW"), route("ALA", "CKG"),
+      route("ALA", "KUT"), route("ALA", "URA"), route("ALA", "UKK"), route("ALA", "SKD"), route("ALA", "CIT"),
+      route("ALA", "PLX"), route("ALA", "PWQ"), route("ALA", "HSA"), route("ALA", "KGF"), route("ALA", "KSN"),
+      route("ALA", "UGC"), route("ALA", "XIY"), route("ALA", "YIN"),
+      route("NQZ", "SCO"), route("NQZ", "AKX"), route("NQZ", "GUW"), route("NQZ", "KUT"), route("NQZ", "URA"),
+      route("NQZ", "UKK"), route("NQZ", "KSN"), route("NQZ", "KZO"), route("NQZ", "PLX"), route("NQZ", "CIT"),
+      route("NQZ", "TAS"), route("NQZ", "HSA"), route("NQZ", "URC"), route("NQZ", "DXB"),
+      route("SCO", "AKX"), route("SCO", "GUW"), route("SCO", "GYD"), route("SCO", "DXB"), route("SCO", "KUT"),
+      route("SCO", "URA"), route("SCO", "CIT"), route("SCO", "URC"),
+      route("CIT", "GUW"), route("CIT", "DXB"), route("GUW", "KUT"), route("AKX", "DXB"), route("KGF", "IST"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
