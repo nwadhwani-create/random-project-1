@@ -598,6 +598,36 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "transnusa",
+    name: "TransNusa",
+    iataCode: "8B",
+    icaoCode: "TNU",
+    country: "Indonesia",
+    founded: 2005,
+    headquarters: "Jakarta, Indonesia",
+    alliance: "None",
+    logoColor: "#0B4F6C",
+    accentColor: "#1AA6B7",
+    history: `TransNusa, operated by PT TransNusa Aviation Mandiri, made its first commercial flight on 4 August 2005 from Kupang in East Nusa Tenggara. Early services used aircraft chartered from Trigana Air Service and Pelita Air, linking towns across Nusa Tenggara, with later cooperative flying alongside Riau Airlines and Mandala Airlines. In August 2011 the carrier received its own air operator's certificate and a scheduled-airline permit. By 2019 it was a regional turboprop operator with ATR 72-600s, an ATR 42-500, and a BAe 146. The COVID-19 downturn led TransNusa to suspend flying in September 2020, and those aircraft returned to their lessors.\n\nThe airline came back under new owners: PT Panca Global International Indonesia holds 51 percent, and Linkasia Airlines Group Ltd, part of China Everbright Limited, holds 49 percent. A new AOC was issued on 9 September 2022, and scheduled flying resumed on 6 October 2022 with Jakarta–Denpasar. With aircraft from China Aircraft Leasing Group, TransNusa introduced Airbus A320-family jets and the COMAC ARJ21, later marketed as the C909. It was the first airline outside China to operate the type, placing it on Jakarta–Kuala Lumpur from 24 July 2023.\n\nIn February 2024 the company said it would shift from a low-cost model toward a premium-service carrier. In April 2025 it adopted Indonesia's medium-service category, adding complimentary light snacks and a checked-baggage allowance on domestic flights. The head office is in Jakarta. Soekarno-Hatta is the hub and Ngurah Rai in Bali is the secondary hub; in July 2026 the airline also described Manado as a hub. Datuk Bernard Francis is group chief executive.\n\nAs of July 2026, Airliner World listed 15 aircraft: seven Airbus A320s seating 174, three A321s seating 195, and five C909s seating 90, with 25 further C909s on order. The relaunched network uses larger airports rather than the old inter-island turboprop map. Jakarta and Bali anchor flights to Singapore, Malaysia, Guangzhou, Perth, Bangkok, and Phuket, while Manado links Sulawesi with Papua, Ternate, and cities in eastern China. A Denpasar–Melbourne service was scheduled to begin on 19 October 2026.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 7, passengers: "174 (single class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cd/TransNusa_Airbus_A320_PK-TLF_Perth_2025_%2803%29.jpg", imageAlt: "TransNusa Airbus A320-200", description: "Single-aisle Airbus used on trunk domestic and international routes, including Jakarta–Singapore and Jakarta–Guangzhou." },
+      { model: "A321-200", manufacturer: "Airbus", count: 3, passengers: "195 (single class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Airbus_A321-200_Air2000_BRS.jpg", imageAlt: "Airbus A321-200", description: "Higher-capacity A321 in an all-economy cabin for TransNusa's busiest narrowbody sectors." },
+      { model: "C909", manufacturer: "COMAC", count: 5, passengers: "90 (single class)", range: "2,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/52/A_Transnusa_Comac_ARJ21-700_PK-TJA_In_Lombok_international_Airport_indonesia.jpg", imageAlt: "TransNusa COMAC C909", description: "COMAC regional jet, formerly the ARJ21. TransNusa was the first operator outside China. It flies thinner eastern routes such as Denpasar–Surabaya and Manado–Makassar, with 25 more on order as of July 2026." },
+    ],
+    hubs: [a.CGK, a.DPS, a.MDC],
+    routes: [
+      route("CGK", "DPS"), route("CGK", "YIA"), route("CGK", "SKJ"), route("CGK", "KUL"),
+      route("CGK", "SZB"), route("CGK", "SIN"), route("CGK", "CAN"), route("CGK", "BKK"),
+      route("CGK", "PEN"),
+      route("DPS", "PER"), route("DPS", "CAN"), route("DPS", "MDC"), route("DPS", "SIN"),
+      route("DPS", "LOP"), route("DPS", "BMU"), route("DPS", "WGP"), route("DPS", "WNI"),
+      route("DPS", "HKT"), route("DPS", "SUB"),
+      route("MDC", "SOQ"), route("MDC", "CAN"), route("MDC", "PVG"), route("MDC", "SZX"),
+      route("MDC", "UPG"), route("MDC", "TTE"),
+      route("SOQ", "TIM"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
