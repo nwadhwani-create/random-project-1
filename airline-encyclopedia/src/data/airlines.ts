@@ -598,6 +598,34 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "indonesia-airasia",
+    name: "Indonesia AirAsia",
+    iataCode: "QZ",
+    icaoCode: "AWQ",
+    country: "Indonesia",
+    founded: 1999,
+    headquarters: "Tangerang, Indonesia",
+    alliance: "None",
+    logoColor: "#ED1C24",
+    accentColor: "#2B2B2B",
+    history: `Indonesia AirAsia is the Indonesian low-cost airline of the AirAsia group, operated by PT Indonesia AirAsia under listed parent PT AirAsia Indonesia Tbk. It was founded in 1999 as Awair (Air Wagon International) by Abdurrahman Wahid, then chairman of Nahdlatul Ulama, who gave up his 40 percent stake after he was elected president of Indonesia in October 1999. Awair began flying on 22 June 2000 with Airbus A300, A310, and A320 aircraft, suspended all flights in March 2002, and restarted domestic service in January 2005 as an associate of AirAsia.\n\nOn 1 December 2005 the airline adopted the Indonesia AirAsia name. AirAsia Berhad took 49 percent and Indonesian shareholder Fersindo Nusaperkasa kept 51 percent, in line with the rule against majority foreign ownership of domestic airlines. The ICAO call sign Wagon Air preserves the Awair name. A plan announced in July 2012 to buy Batavia Air was dropped that October and was not revived after Batavia's bankruptcy in January 2013. In January 2015 the group opened long-haul sister carrier Indonesia AirAsia X at Denpasar; that airline stopped during the pandemic and closed for good in October 2022.\n\nOn 28 December 2014, Flight 8501, an Airbus A320-200 registered PK-AXC, crashed in the Java Sea on a flight from Surabaya to Singapore. All 162 people on board were killed. Indonesia AirAsia later paused its entire schedule from 6 July 2021 during a COVID-19 surge and resumed on 2 October 2021. The head office is in Tangerang, Banten, beside Soekarno-Hatta. Captain Achmad Sadikin Abdurachman has been chief executive since June 2025.\n\nAs of July 2026, Airliner World listed 27 Airbus A320-200s in a 180-seat all-economy cabin. A 2023 plan to bring in Airbus A330-900s for Japan, South Korea, China, and India had not been carried out. Flying is based at Jakarta, Denpasar, Medan, and Surabaya. Jakarta links Bali, Kuala Lumpur, Penang, Kota Kinabalu, Bandar Seri Begawan, Phnom Penh's Techo airport, Bandar Lampung, Labuan Bajo, and Silangit. Denpasar links Kuala Lumpur, Perth, Bangkok's Don Mueang, Phuket, Da Nang, and Labuan Bajo. Medan links Kuala Lumpur, Penang, and Don Mueang. Surabaya links Kuala Lumpur, Don Mueang, Balikpapan, Berau, Tarakan, and Makassar, and Makassar continues to Kendari, Palu, and Luwuk. In May 2026 the airline ended Denpasar–Melbourne and Denpasar–Adelaide, leaving Perth as its Australian city. In June 2026 it cancelled Jakarta–Singapore and Jakarta–Bangkok.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 27, passengers: "180 (single class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/01/Indonesia_AirAsia_Airbus_A320_PK-AZV_Perth_2025_%2802%29.jpg", imageAlt: "Indonesia AirAsia Airbus A320-200", description: "All-economy Airbus used on domestic trunk routes and on regional flights to Malaysia, Thailand, Australia, Brunei, Cambodia, and Vietnam." },
+    ],
+    hubs: [a.CGK, a.DPS, a.KNO, a.SUB],
+    routes: [
+      route("CGK", "DPS"), route("CGK", "KUL"), route("CGK", "PEN"), route("CGK", "BKI"),
+      route("CGK", "BWN"), route("CGK", "KTI"), route("CGK", "TKG"), route("CGK", "LBJ"),
+      route("CGK", "DTB"),
+      route("DPS", "KUL"), route("DPS", "PER"), route("DPS", "DMK"), route("DPS", "HKT"),
+      route("DPS", "DAD"), route("DPS", "LBJ"),
+      route("KNO", "KUL"), route("KNO", "PEN"), route("KNO", "DMK"),
+      route("SUB", "KUL"), route("SUB", "DMK"), route("SUB", "BPN"), route("SUB", "BEJ"),
+      route("SUB", "TRK"), route("SUB", "UPG"),
+      route("UPG", "KDI"), route("UPG", "PLW"), route("UPG", "LUW"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
