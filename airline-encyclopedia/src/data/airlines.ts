@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "uni-air",
+    name: "UNI Air",
+    iataCode: "B7",
+    icaoCode: "UIA",
+    country: "Taiwan",
+    founded: 1988,
+    headquarters: "Taipei, Taiwan",
+    alliance: "None",
+    logoColor: "#00843D",
+    accentColor: "#F15A22",
+    history: `UNI Air is the regional airline of Taiwan's Evergreen Group and a sister company of EVA Air. The business began in 1988 as Makung International Airlines, set up to link Taiwan with the Penghu islands. EVA Air took a majority stake in 1996, and the carrier was renamed UNI Air, starting flights under that name on 12 March 1996. The short name, and the radio call sign Glory, refer to Evergreen's Uniglory shipping line.\n\nMakung had flown British Aerospace 146 jets and a single Boeing 757. In 1998 UNI Air merged with Great China Airlines and Taiwan Airways, two other carriers in which EVA Air held stakes, and became the main operator on Taiwan's regional network. Through the 2000s the fleet centered on McDonnell Douglas MD-90s, which also flew short routes across the Taiwan Strait. One of those jets, Flight 873, caught fire after landing at Hualien on 24 August 1999, and one passenger died. The MD-90s were retired by 2016. Two Airbus A321-200s joined in 2015 and left in 2022, and UNI Air has flown only turboprops since then.\n\nThe fleet in service is 14 ATR 72-600s, each fitted with 70 economy seats. In June 2025 the airline ordered 19 more ATR 72-600s, with deliveries planned from 2027 and three further purchase rights. With a full passenger load the type's published range is about 758 nautical miles, enough for the domestic islands and the short hop to Xiamen. The green-and-orange livery introduced in 2012 is still the one passengers see.\n\nThe hub is Taipei Songshan Airport, in the city rather than at Taoyuan. From Songshan, UNI Air flies Hualien and Taitung on the east coast, Penghu (Magong), Kinmen, and the Matsu islands of Nangan and Beigan, and it also links Songshan with Xiamen. Penghu and Kinmen are connected with each other as well. Headquarters are in Zhongshan District, Taipei. Chang Kuo-wei, who also chairs Starlux Airlines, has been chairman since April 2022, and Peter Chen is president. UNI Air is not a member of a global alliance. Its passengers can earn miles in EVA Air's Infinity MileageLands program, and the two airlines codeshare.`,
+    fleet: [
+      { model: "72-600", manufacturer: "ATR", count: 14, passengers: "70 (1-class)", range: "758 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/UNI_Air_ATR_72-600_B-17007_Departing_from_Taipei_Songshan_Airport_20150221c.jpg/1280px-UNI_Air_ATR_72-600_B-17007_Departing_from_Taipei_Songshan_Airport_20150221c.jpg", imageAlt: "UNI Air ATR 72-600 departing Taipei Songshan", description: "All-economy turboprop for domestic island and east-coast flights and the Songshan–Xiamen route. Nineteen more are on order for delivery from 2027." },
+    ],
+    hubs: [a.TSA],
+    routes: [
+      route("TSA", "HUN"), route("TSA", "TTT"), route("TSA", "MZG"), route("TSA", "KNH"),
+      route("TSA", "LZN"), route("TSA", "MFK"), route("TSA", "XMN"),
+      route("MZG", "KNH"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
