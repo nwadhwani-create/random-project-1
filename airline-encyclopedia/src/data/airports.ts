@@ -94,4 +94,15 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  TSA: { code: "TSA", name: "Taipei Songshan Airport", city: "Taipei", country: "Taiwan", lat: 25.0694, lng: 121.5517 },
+  KHH: { code: "KHH", name: "Kaohsiung International", city: "Kaohsiung", country: "Taiwan", lat: 22.5769, lng: 120.3500 },
+  HUN: { code: "HUN", name: "Hualien Airport", city: "Hualien", country: "Taiwan", lat: 24.0231, lng: 121.6178 },
+  TTT: { code: "TTT", name: "Taitung Airport", city: "Taitung", country: "Taiwan", lat: 22.7547, lng: 121.1017 },
+  MZG: { code: "MZG", name: "Penghu Airport", city: "Magong", country: "Taiwan", lat: 23.5667, lng: 119.6300 },
+  KNH: { code: "KNH", name: "Kinmen Airport", city: "Kinmen", country: "Taiwan", lat: 24.4278, lng: 118.3592 },
+  LZN: { code: "LZN", name: "Nangan Airport", city: "Nangan", country: "Taiwan", lat: 26.1574, lng: 119.9564 },
+  FOC: { code: "FOC", name: "Fuzhou Changle International", city: "Fuzhou", country: "China", lat: 25.9350, lng: 119.6633 },
+  WUH: { code: "WUH", name: "Wuhan Tianhe International", city: "Wuhan", country: "China", lat: 30.7850, lng: 114.2067 },
+  XMN: { code: "XMN", name: "Xiamen Gaoqi International", city: "Xiamen", country: "China", lat: 24.5442, lng: 118.1278 },
 };

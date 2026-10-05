@@ -598,6 +598,29 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "mandarin-airlines",
+    name: "Mandarin Airlines",
+    iataCode: "AE",
+    icaoCode: "MDA",
+    country: "Taiwan",
+    founded: 1991,
+    headquarters: "Taipei, Taiwan",
+    alliance: "SkyTeam",
+    logoColor: "#0057B8",
+    accentColor: "#5BC2E7",
+    history: `Mandarin Airlines was established on 1 June 1991 as a joint venture between China Airlines, which held 67 percent, and the Koos Group, which held 33 percent. The Chinese name joins characters from both parents. China Airlines was still flying the Republic of China flag, and some governments would not grant routes to that livery, so Mandarin was set up as a separate Taiwanese carrier that could. Passenger service began on 16 October 1991 with Taipei–Sydney. Taipei–Vancouver opened on 7 December 1991, and Mandarin became the first Taiwanese airline to fly direct to Australia and to Canada.\n\nThe Koos Group withdrew on 31 October 1992. By December 1992 China Airlines owned about 90 percent of the company, and Mandarin's job shifted from long-haul flying to domestic and short-haul regional work. China Airlines took the international network back after it adopted a livery without the national flag. On 8 August 1999 China Airlines merged Mandarin with Formosa Airlines and kept the Mandarin name. Mandarin absorbed Formosa's domestic operation, and most of Mandarin's international jets moved to China Airlines. In early 2000 the airline bought five Dornier 228s from UNI Air for outlying-island routes and sold them to Daily Air in 2005.\n\nMandarin is a China Airlines Group subsidiary and a SkyTeam affiliate, with Dynasty Flyer as its frequent-flyer program. The company mark is Hai Tung Ching, a gyrfalcon from a Chinese legend. Headquarters are in Taipei's Songshan District, in the China Airlines Minquan Building, and Kao Shing Hwang is chairman. The fleet table in the September 2025 Airliner World guide, current as of November 2025, lists 10 ATR 72-600s seating 70 and one Boeing 737-800 seating 158 in two classes, plus three further ATR 72-600s on order.\n\nTaipei Songshan is the hub, with flights to Kinmen, Matsu Nangan, Penghu, Taitung, Fuzhou, and Wuhan. Kaohsiung is a focus city, with flights to Hong Kong, Hualien, and Matsu Nangan. Mandarin also links Taipei Taoyuan with Xiamen.`,
+    fleet: [
+      { model: "72-600", manufacturer: "ATR", count: 10, passengers: "70 (1-class)", range: "758 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/B-16852.jpg/1280px-B-16852.jpg", imageAlt: "Mandarin Airlines ATR 72-600", description: "Turboprop used on domestic routes to Kinmen, Penghu, Taitung, Hualien, and Matsu, and on the shorter cross-strait sectors." },
+      { model: "B737-800", manufacturer: "Boeing", count: 1, passengers: "158 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/China_Airlines_Boeing_737-800_B-18661_at_Taipei_Songshan_February_2026_2.jpg/1280px-China_Airlines_Boeing_737-800_B-18661_at_Taipei_Songshan_February_2026_2.jpg", imageAlt: "Boeing 737-800 operating a Mandarin Airlines flight", description: "Single narrowbody, with eight business seats and 150 in economy, used on longer sectors such as Songshan–Wuhan and Taoyuan–Xiamen." },
+    ],
+    hubs: [a.TSA],
+    routes: [
+      route("TSA", "FOC"), route("TSA", "KNH"), route("TSA", "LZN"), route("TSA", "MZG"), route("TSA", "TTT"), route("TSA", "WUH"),
+      route("KHH", "HKG"), route("KHH", "HUN"), route("KHH", "LZN"),
+      route("TPE", "XMN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
