@@ -598,6 +598,29 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "vietravel-airlines",
+    name: "Vietravel Airlines",
+    iataCode: "VU",
+    icaoCode: "VAG",
+    country: "Vietnam",
+    founded: 2019,
+    headquarters: "Huế, Vietnam",
+    alliance: "None",
+    logoColor: "#0B3D6E",
+    accentColor: "#F0B429",
+    history: `Vietravel Airlines is the operating name of Viet Nam Travel Airlines JSC, a Vietnamese leisure carrier registered in Huế. Vietravel Holdings proposed the airline in early 2018. Prime Minister Nguyễn Xuân Phúc approved the venture on 3 April 2020, the Ministry of Transport issued an operating licence on 29 October 2020, and the Civil Aviation Authority of Vietnam granted an aircraft operator certificate on 24 December 2020. It became the country's sixth airline, following Vietnam Airlines, VietJet Air, Jetstar Pacific (later Pacific Airlines), VASCO, and Bamboo Airways.\n\nThe first Airbus A321 was delivered on 5 December 2020. A launch flight on 26 December 2020 linked Hanoi, Huế, and Ho Chi Minh City, and tickets for scheduled Hanoi–Ho Chi Minh City service went on sale on 19 January 2021. Regular commercial flying began on 25 November 2021. The carrier uses IATA code VU, ICAO code VAG, and the call sign VIETRAVEL AIR.\n\nT&T Group became the strategic shareholder in late 2024 and was reported to hold as much as 75 percent of the company. In late 2025 the founding Vietravel group said it would sell its remaining stake. Talk of an AirAsia investment has not produced a transaction: Vietnamese rules generally limit a foreign investor to 34 percent, or 49 percent in some cases, while AirAsia has sought a majority share. Nguyen Quoc Ky is chairman and Dao Duc Vu is chief executive. The head office is in Huế, and the airline bases aircraft at Noi Bai in Hanoi and Tan Son Nhat in Ho Chi Minh City.\n\nAs of September 2026 the in-service fleet is five Airbus narrowbodies: one A320-200, seating 182, and four A321-200s seated at 220, 228, or 230. The A320-200 and one A321-200 are former Spirit Airlines aircraft. A September 2026 report of an intention to buy A220 and A321neo-family jets was taken off the published fleet list on 2 October 2026; those aircraft are not in service and are not counted here. The scheduled network still listed at Hanoi, Ho Chi Minh City, and Bangkok is the trunk between the two Vietnamese bases and flights from both cities to Suvarnabhumi. Charter and seasonal flying, and routes marked terminated by September 2026, are left off the map.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 1, passengers: "182 (1-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%28VNM-Ho_Chi_Minh_City%29_Vietravel_Airlines_Airbus_A321-211_VN-A289_%40_VVTS_2025-10-08.jpg/1280px-%28VNM-Ho_Chi_Minh_City%29_Vietravel_Airlines_Airbus_A321-211_VN-A289_%40_VVTS_2025-10-08.jpg", imageAlt: "Vietravel Airlines Airbus A321-211 VN-A289", description: "The airline's single A320-200, a former Spirit Airlines airframe flown in an all-economy cabin on short-haul sectors." },
+      { model: "A321-200", manufacturer: "Airbus", count: 4, passengers: "220-230 (1-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%28VNM-Ho_Chi_Minh_City%29_Vietravel_Airlines_Airbus_A321-211_VN-A289_%40_VVTS_2025-10-08.jpg/1280px-%28VNM-Ho_Chi_Minh_City%29_Vietravel_Airlines_Airbus_A321-211_VN-A289_%40_VVTS_2025-10-08.jpg", imageAlt: "Vietravel Airlines Airbus A321-211 VN-A289", description: "Four A321-200s in three seating layouts. One is a former Spirit Airlines airframe. This is the type photographed as VN-A289." },
+    ],
+    hubs: [a.HAN, a.SGN],
+    routes: [
+      route("HAN", "SGN"),
+      route("HAN", "BKK"),
+      route("SGN", "BKK"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
