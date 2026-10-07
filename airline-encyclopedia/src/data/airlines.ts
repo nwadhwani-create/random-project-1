@@ -598,6 +598,27 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "thai-airasia-x",
+    name: "Thai AirAsia X",
+    iataCode: "XJ",
+    icaoCode: "TAX",
+    country: "Thailand",
+    founded: 2013,
+    headquarters: "Don Mueang, Bangkok, Thailand",
+    alliance: "None",
+    logoColor: "#E10600",
+    accentColor: "#1A1A1A",
+    history: `Thai AirAsia X is the long-haul low-cost airline of the Thai AirAsia brand, based at Don Mueang International Airport in Bangkok. On September 18, 2013, AirAsia X signed a shareholders' agreement with Tassapon Bijleveld and Julpas Krueospon to form Thai AirAsia X Company Limited. AirAsia took a 49 percent share, with Thai investors holding the rest. The carrier keeps costs down by sharing the group's ticketing system, aircraft livery, and management style.\n\nThailand's Department of Civil Aviation issued an air operator certificate on February 3, 2014. The first flight left Bangkok for Seoul on June 17, 2014, operated by an Airbus A330-300. Osaka and Tokyo followed on September 1, 2014. In December 2016 the airline ended its Middle East services to Tehran and Muscat. An Airbus A330neo joined the fleet in August 2019; the fleet table current as of August 2025 lists only the A330-300.\n\nLockdowns grounded the schedule, including the cancellation of the group's domestic flying in July 2021. On April 26, 2022, Thai AirAsia X said it would move Bangkok operations from Don Mueang to Suvarnabhumi, and on May 19, 2022 it filed for bankruptcy protection in Bangkok while saying passenger operations would continue. Flying later returned to Don Mueang, effective October 1, 2024.\n\nAs of October 2026 the published network from Don Mueang reaches Shanghai Pudong, Delhi, Nagoya, Osaka, Sapporo, Tokyo Narita, Almaty, and Riyadh. The Seoul route was transferred to Thai AirAsia in February 2026. The airline is not a member of a global alliance.`,
+    fleet: [
+      { model: "A330-300", manufacturer: "Airbus", count: 11, passengers: "367-377 (1- or 2-class)", range: "6,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20230811_Airbus_A330-343_of_Thai_AirAsia_X_%28HS-XTG%29_at_SYD_01.jpg/1280px-20230811_Airbus_A330-343_of_Thai_AirAsia_X_%28HS-XTG%29_at_SYD_01.jpg", imageAlt: "Thai AirAsia X Airbus A330-300", description: "Long-haul widebody flown in a 12-seat premium and 365-seat economy layout (377 seats) and an all-economy 367-seat layout. The August 2025 fleet table lists 11 aircraft across both cabins." },
+    ],
+    hubs: [a.DMK],
+    routes: [
+      route("DMK", "PVG"), route("DMK", "DEL"), route("DMK", "NGO"), route("DMK", "KIX"),
+      route("DMK", "CTS"), route("DMK", "NRT"), route("DMK", "ALA"), route("DMK", "RUH"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
