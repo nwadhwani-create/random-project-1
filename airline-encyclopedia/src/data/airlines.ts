@@ -598,6 +598,33 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "cebgo",
+    name: "Cebgo",
+    iataCode: "DG",
+    icaoCode: "SRQ",
+    country: "Philippines",
+    founded: 1995,
+    headquarters: "Pasay, Philippines",
+    alliance: "None",
+    logoColor: "#0E2A47",
+    accentColor: "#F5C400",
+    history: `Cebgo is the regional airline of Cebu Pacific, flying ATR turboprops between cities in the Philippines. The company began in 1995 as South East Asian Airlines, known as SEAir. The Securities and Exchange Commission registered it on March 25, 1995, to lease and charter aircraft and to operate a small schedule. In May 1995 it joined the Clark Special Economic Zone and began service in the Clark–Manila–Subic area and to tourist cities in Luzon and the Visayas. A hub in Zamboanga City followed in 2002. Congress granted the franchise on May 13, 2009, through Republic Act No. 9517.\n\nSingapore-based Tigerair announced a commercial tie-up with SEAir on September 29, 2006. After a pause, the partnership launched on December 16, 2010, with Tigerair selling seats on SEAir flights and later adding international services from Clark. Tiger Airways Holdings bought 32.5 percent of SEAir in February 2011 and raised that holding to 40 percent in August 2012. In December 2012 the Civil Aeronautics Board approved a separate carrier, SEAir International. The turboprop fleet moved to that company because the Tigerair share agreement left props out. SEAir Inc. was renamed Tigerair Philippines in June 2013 and started flying under the new name on July 10, 2013.\n\nCebu Pacific bought the whole of Tigerair Philippines on January 8, 2014, for ₱672 million (about US$15 million). The airline became Cebgo on May 11, 2015, placing the brand next to its parent. That July, Cebu Pacific shifted its ATR 72-500s to Cebgo and took back the last Airbus A320, so Cebgo flew only turboprops. At the 2015 Paris Air Show, Cebu Pacific ordered 16 ATR 72-600s for the subsidiary, which was the first operator of the 78-seat Armonia cabin. A Batanes route chosen in a 2017 crowdsourcing campaign flew from March 25 to October 27, 2018. Cebgo, like Cebu Pacific, suspended flights during the 2020 enhanced community quarantine in Luzon.\n\nThe airline is headquartered in Pasay and is wholly owned by Cebu Pacific, part of JG Summit. Alexander G. Lao is president and chief executive. Cebgo uses the IATA code DG and the ICAO code SRQ, with the call sign Blue Jay, and its frequent-flyer program is GoRewards. Operating bases are Cebu, Clark, Davao, El Nido, and Iloilo. In 2026 it took over AirSWIFT's flying and added two 48-seat ATR 42-600s that had belonged to AirSWIFT. As of July 2026 the in-service fleet is those two ATR 42-600s and 18 ATR 72-600s — three seating 72 passengers and fifteen seating 78 — with one more 78-seat ATR 72-600 still on order.`,
+    fleet: [
+      { model: "42-600", manufacturer: "ATR", count: 2, passengers: "48 (1-class)", range: "726 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/ATR_42-600.jpg/1280px-ATR_42-600.jpg", imageAlt: "ATR 42-600", description: "Former AirSWIFT turboprops seating 48, used on shorter island sectors after Cebgo took over AirSWIFT flying in 2026." },
+      { model: "72-600", manufacturer: "ATR", count: 18, passengers: "72–78 (1-class)", range: "758 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cebgo_%28Cebu_Pacific%29_ATR_72-600.jpg/1280px-Cebgo_%28Cebu_Pacific%29_ATR_72-600.jpg", imageAlt: "Cebgo ATR 72-600", description: "Core domestic turboprop. Three aircraft seat 72 passengers and fifteen seat 78 in the high-density Armonia cabin. One further 78-seat aircraft is on order and is not included in the count." },
+    ],
+    hubs: [a.CEB, a.CRK, a.DVO, a.ENI, a.ILO],
+    routes: [
+      route("CEB", "BCD"), route("CEB", "USU"), route("CEB", "BXU"), route("CEB", "CYP"), route("CEB", "CGM"),
+      route("CEB", "DPL"), route("CEB", "DGT"), route("CEB", "ENI"), route("CEB", "DRP"), route("CEB", "MBT"),
+      route("CEB", "OZC"), route("CEB", "PAG"), route("CEB", "SUG"), route("CEB", "TAC"),
+      route("CRK", "USU"), route("CRK", "ENI"), route("CRK", "MBT"), route("CRK", "WNP"), route("CRK", "IAO"),
+      route("DVO", "CGY"), route("DVO", "ILO"), route("DVO", "TAG"), route("DVO", "ZAM"),
+      route("ILO", "CGY"), route("ILO", "DRP"), route("ILO", "TAC"), route("ILO", "TAG"),
+      route("ENI", "USU"), route("ENI", "MPH"), route("ENI", "TAG"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
