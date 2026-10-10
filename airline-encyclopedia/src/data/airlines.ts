@@ -598,6 +598,35 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "sun-phuquoc-airways",
+    name: "Sun PhuQuoc Airways",
+    iataCode: "9G",
+    icaoCode: "SPQ",
+    country: "Vietnam",
+    founded: 2025,
+    headquarters: "Hanoi, Vietnam",
+    alliance: "None",
+    logoColor: "#501116",
+    accentColor: "#D72027",
+    history: `Sun PhuQuoc Airways (SPA) is a Vietnamese leisure-focused full-service airline founded by the Sun Group conglomerate. Sun Group established the carrier on 21 January 2025. Vietnam's Civil Aviation Authority issued air operator certificate 2025-669/CAAV on 25 September 2025, ticket sales opened on 15 October 2025, and commercial flying began on 1 November 2025. The first schedule linked Phu Quoc with Ho Chi Minh City, Hanoi, and Da Nang, and also flew Hanoi–Ho Chi Minh City and Ho Chi Minh City–Da Nang. Headquarters are in Hanoi. Lê Viết Lam is chairman and Nguyễn Mạnh Quân is chief executive. The call sign is SUN LUX, and the loyalty program is Sun Signature. Van Don, the Sun Group airport in Quang Ninh, is the airline's nominal operating base.\n\nOn 15 January 2026 Sun Group said international service would start on 29 March, beginning with Phu Quoc–Taipei and adding Seoul. On 16 February 2026 the airline received two Airbus A320neo aircraft from the defunct Icelandic carrier Play. Charter flights to Mumbai and Vijayawada were announced the next day; the Mumbai charter later ended. On 18 February 2026 Sun PhuQuoc Airways signed for 20 Boeing 787-9s, with options that can take the commitment to 40 aircraft. It also began acquiring former American Airlines Airbus A330-200s, with deliveries running through 2027. The first of those widebodies, VN-A969, was received at Phu Quoc on 22 September 2026.\n\nAs of September 2026 the in-service fleet is 21 aircraft: four A320neos in 174- and 186-seat all-economy layouts, two A321-200s, twelve A321neos (six of them leased from Qatar Airways), two A321LRs, and one 247-seat A330-200. Scheduled flying from Phu Quoc, Ho Chi Minh City, and Hanoi reaches Da Nang, Nha Trang, Hong Kong, Seoul, Taipei, Singapore, Kuala Lumpur, and Chengdu, and the airline also flies Dong Hoi–Nha Trang. A daily Ho Chi Minh City–Shanghai service is planned from 15 October 2026, and Moscow from 14 November 2026.`,
+    fleet: [
+      { model: "A320neo", manufacturer: "Airbus", count: 4, passengers: "174–186 (1-class)", range: "3,500 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/VN-A286_%2810_Sept_2026%29.jpg/1280px-VN-A286_%2810_Sept_2026%29.jpg", imageAlt: "Sun PhuQuoc Airways aircraft departing Hong Kong", description: "Four A320neos fly in two all-economy layouts, 174 and 186 seats. Two of the type arrived in February 2026 from the former Icelandic carrier Play." },
+      { model: "A321-200", manufacturer: "Airbus", count: 2, passengers: "220 (2-class)", range: "3,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/VN-A281_%286_Aug_2026%29.jpg/1280px-VN-A281_%286_Aug_2026%29.jpg", imageAlt: "Sun PhuQuoc Airways aircraft departing Hong Kong", description: "Earlier-generation A321 with eight business seats and 212 economy seats." },
+      { model: "A321neo", manufacturer: "Airbus", count: 12, passengers: "208–236 (1- or 2-class)", range: "3,650 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VN-A921_%2827_Sep_2026%29.jpg/1280px-VN-A921_%2827_Sep_2026%29.jpg", imageAlt: "Sun PhuQuoc Airways A321neo", description: "Largest fleet type, flown in 236-seat all-economy and 208- or 212-seat two-class cabins. Six are leased from Qatar Airways." },
+      { model: "A321LR", manufacturer: "Airbus", count: 2, passengers: "236 (1-class)", range: "4,000 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/VN-A285_%2811_Aug_2026%29.jpg/1280px-VN-A285_%2811_Aug_2026%29.jpg", imageAlt: "Sun PhuQuoc Airways aircraft departing Hong Kong", description: "Long-range A321 in a 236-seat all-economy cabin." },
+      { model: "A330-200", manufacturer: "Airbus", count: 1, passengers: "247 (3-class)", range: "7,250 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sun_PhuQuoc_Airways_ch%C3%ADnh_th%E1%BB%A9c_ti%E1%BA%BFp_nh%E1%BA%ADn_m%C3%A1y_bay_th%C3%A2n_r%E1%BB%99ng_Airbus_A330-200_%C4%91%E1%BA%A7u_ti%C3%AAn_mang_s%E1%BB%91_hi%E1%BB%87u_VN-A969_t%E1%BA%A1i_C%E1%BA%A3ng_H%C3%A0ng_kh%C3%B4ng_qu%E1%BB%91c_t%E1%BA%BF_Ph%C3%BA_Qu%E1%BB%91c_v%C3%A0o_chi%E1%BB%81u_ng%C3%A0y_22_th%C3%A1ng_09_n%C4%83m_2026.jpg/1280px-thumbnail.jpg", imageAlt: "Sun PhuQuoc Airways A330-200 VN-A969", description: "First widebody, a former American Airlines A330-200 with 20 business, 21 premium-economy, and 206 economy seats. Seven more are due through 2027." },
+    ],
+    hubs: [a.PQC, a.SGN, a.HAN],
+    routes: [
+      route("PQC", "HAN"), route("PQC", "SGN"), route("PQC", "DAD"), route("PQC", "CXR"),
+      route("PQC", "HKG"), route("PQC", "ICN"), route("PQC", "TPE"), route("PQC", "SIN"),
+      route("PQC", "KUL"), route("PQC", "TFU"),
+      route("HAN", "SGN"), route("HAN", "DAD"), route("HAN", "HKG"), route("HAN", "ICN"),
+      route("SGN", "DAD"), route("SGN", "ICN"), route("SGN", "TFU"),
+      route("VDH", "CXR"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {

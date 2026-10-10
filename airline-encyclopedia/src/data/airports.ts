@@ -70,6 +70,13 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  PQC: { code: "PQC", name: "Phu Quoc International", city: "Phu Quoc", country: "Vietnam", lat: 10.1717, lng: 103.9911 },
+  SGN: { code: "SGN", name: "Tan Son Nhat International", city: "Ho Chi Minh City", country: "Vietnam", lat: 10.8189, lng: 106.6519 },
+  HAN: { code: "HAN", name: "Noi Bai International", city: "Hanoi", country: "Vietnam", lat: 21.2139, lng: 105.8031 },
+  DAD: { code: "DAD", name: "Da Nang International", city: "Da Nang", country: "Vietnam", lat: 16.0439, lng: 108.1994 },
+  CXR: { code: "CXR", name: "Cam Ranh International", city: "Nha Trang", country: "Vietnam", lat: 11.9981, lng: 109.2194 },
+  VDH: { code: "VDH", name: "Dong Hoi Airport", city: "Dong Hoi", country: "Vietnam", lat: 17.5150, lng: 106.5906 },
+  TFU: { code: "TFU", name: "Chengdu Tianfu International", city: "Chengdu", country: "China", lat: 30.3190, lng: 104.4450 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
