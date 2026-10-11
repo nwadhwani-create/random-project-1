@@ -598,6 +598,37 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "airborneo",
+    name: "AirBorneo",
+    iataCode: "MY",
+    icaoCode: "MWG",
+    country: "Malaysia",
+    founded: 2007,
+    headquarters: "Kuching, Sarawak",
+    alliance: "None",
+    logoColor: "#1A1A1A",
+    accentColor: "#CE1126",
+    history: `AirBorneo is the state-owned airline of Sarawak. The company was founded on 17 May 2007 as MASwings, a regional subsidiary of Malaysia Airlines, and began flying on 1 October 2007. It took over Rural Air Services in Sabah and Sarawak after FlyAsianXpress, which had been given those routes in 2006, struggled to operate them reliably. The early fleet mixed Fokker 50s with de Havilland Canada DHC-6 Twin Otters. The Fokker 50s left in 2010, and Viking Air DHC-6-400s replaced the older Twin Otters by 2013.\n\nThe Sarawak government completed its purchase of MASwings from Malaysia Aviation Group on 13 January 2025 and launched the AirBorneo name at a signing in Kuching on 12 February 2025. Headquarters moved from Kota Kinabalu to Kuching, and the MASwings workforce and aircraft transferred with the airline. The federal government continues to subsidise rural flying in both Sarawak and Sabah. The public website opened on 10 December 2025. Flying under the AirBorneo name began on 2 January 2026, with the first departures from Kuching to Mukah and Tanjung Manis.\n\nJet flying started in July 2026. A Boeing 737-800 wet-leased from Batik Air Malaysia, registered 9M-LCV, was delivered on 16 July 2026. Kuching–Kuala Lumpur ticket sales opened on 7 July, an inaugural flight operated on 20 July, and twice-daily service began on 21 July. Daily Kuching–Singapore flights began on 22 July 2026. Kuching is the main hub and Miri is the Twin Otter hub. Chairman Datuk Amar Mohamad Abu Bakar Marzuki and chief executive Megat Ardian Wira Mohd Aminuddin lead the airline. The Wings of Unity mark, unveiled on 21 August 2025, uses Sarawak's red, yellow, and black. Five ATR 72-600s and three ATR 42-600s are on order for 2027 and are not yet in the fleet.`,
+    fleet: [
+      { model: "72-500", manufacturer: "ATR", count: 8, passengers: "68 (1-class)", range: "772 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Airborneo_ATR72-500.jpg/1280px-Airborneo_ATR72-500.jpg", imageAlt: "AirBorneo ATR 72-500", description: "Eight aircraft inherited from MASwings, seating 68. ATR's published maximum-passenger range for the 72-500 is 772 nmi. Due for replacement by ATR 72-600s and ATR 42-600s from 2027." },
+      { model: "B737-800", manufacturer: "Boeing", count: 1, passengers: "162 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/AirBorneo_737-800.jpg/1280px-AirBorneo_737-800.jpg", imageAlt: "AirBorneo Boeing 737-800 at Kuching", description: "One 737-800 wet-leased from Batik Air Malaysia. 9M-LCV was delivered on 16 July 2026. The filed cabin is 12 business and 150 economy seats, and the aircraft flies Kuching–Kuala Lumpur and Kuching–Singapore." },
+      { model: "DHC-6-400", manufacturer: "Viking Air", count: 6, passengers: "19 (1-class)", range: "400 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ed/MasWings%27_Viking_Airplane_at_Mukah_New_Airport.jpg", imageAlt: "Viking Air DHC-6-400 Twin Otter at Mukah", description: "Six Series 400 Twin Otters inherited from MASwings for rural strips, seating 19. The published Series 400 figure used here is 400 nmi with a 3,031 lb payload. Ferry range is 799 nmi." },
+    ],
+    hubs: [a.KCH, a.MYY],
+    routes: [
+      route("KCH", "KUL"), route("KCH", "SIN"), route("KCH", "LMN"), route("KCH", "MKM"), route("KCH", "MZV"), route("KCH", "TGC"),
+      route("MYY", "BKM"), route("MYY", "BBN"), route("MYY", "BTU"), route("MYY", "LBU"), route("MYY", "LWY"),
+      route("MYY", "LMN"), route("MYY", "LKH"), route("MYY", "LBP"), route("MYY", "LGL"), route("MYY", "ODN"),
+      route("MYY", "MUR"), route("MYY", "MKM"), route("MYY", "MZV"), route("MYY", "SBW"),
+      route("BKI", "LBU"), route("BKI", "LDU"), route("BKI", "LWY"), route("BKI", "LMN"), route("BKI", "MZV"),
+      route("BTU", "MKM"), route("BTU", "SBW"), route("SBW", "MKM"), route("MKM", "TGC"),
+      route("LDU", "SDK"), route("SDK", "TWU"),
+      route("LWY", "BKM"), route("LWY", "LMN"),
+      route("MUR", "BBN"), route("MUR", "LKH"), route("MUR", "LBP"), route("MUR", "LGL"), route("MUR", "ODN"),
+      route("BBN", "BKM"), route("BBN", "LBP"), route("BBN", "LGL"), route("BBN", "ODN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
