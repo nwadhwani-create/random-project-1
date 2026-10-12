@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "berjaya-air",
+    name: "Berjaya Air",
+    iataCode: "J8",
+    icaoCode: "BVT",
+    country: "Malaysia",
+    founded: 1989,
+    headquarters: "Subang, Selangor",
+    alliance: "None",
+    logoColor: "#8C1515",
+    accentColor: "#C9A227",
+    history: `Berjaya Air was established on 15 August 1989 as Pacific Air Charter and is the aviation arm of Malaysia's Berjaya group. Its head office is the Berjaya Hangar in the SkyPark Terminal at Sultan Abdul Aziz Shah Airport in Subang, Selangor, the airport that served Kuala Lumpur before Kuala Lumpur International Airport opened in Sepang. The airline built its reputation on short propeller flights between Subang and Berjaya resorts, for years flying de Havilland Canada Dash 7s alongside ATR 72s.\n\nIn 2013 the carrier shifted its business toward executive charter flights from Subang Skypark, while resort flying continued around the group's island hotels. A direct Subang–Redang service, marketed as the Jojo Flight after the resident turtle at The Taaras Beach & Spa Resort, connects the mainland with Redang, and the airline also flies Singapore Seletar–Redang. At the 2018 Singapore Airshow it announced two second-hand ATR 42-500s to resume Redang flights from Kuala Lumpur and Singapore.\n\nThe fleet now mixes those turboprops with long-range business jets. In May 2025 Berjaya Air acquired a Bombardier Global 6500, the first of the type on the Malaysian register. At the 2023 Paris Air Show it ordered two ATR 72-600s with all-business cabins, and on 20 May 2026 it took delivery of the first ATR 72-600 HighLine, a 26-seat aircraft and the first built in that executive layout. On 11 March 2026 the airline announced charter routes from Subang to Koh Samui and Medan Kualanamu, both scheduled to begin on 22 April 2026 at three flights a week on the 26-seat ATR 72-600. Berjaya Air is not a member of a global alliance.`,
+    fleet: [
+      { model: "42-500", manufacturer: "ATR", count: 1, passengers: "36 (1-class)", range: "726 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/9M-JOG_ATR.42-500_at_Kuala_Lumpur-Subang_Airport_SZB_WMSA.jpg/1280px-9M-JOG_ATR.42-500_at_Kuala_Lumpur-Subang_Airport_SZB_WMSA.jpg", imageAlt: "Berjaya Air ATR 42-500", description: "36-seat turboprop based at Subang and used on short resort sectors, including Redang." },
+      { model: "72-500", manufacturer: "ATR", count: 1, passengers: "68 (1-class)", range: "772 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2b/ATR-72-500_Berjaya_Air_%28BVT%29_F-WWEC_-_MSN_858_-_Will_be_9M-TAG_%283410930959%29.jpg", imageAlt: "Berjaya Air ATR 72-500", description: "Higher-capacity turboprop in the current fleet for resort flying." },
+      { model: "72-600", manufacturer: "ATR", count: 1, passengers: "26 (business)", range: "758 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Atr_72-600_Berjaya_Air_MSN_1733_ATR_Highline_%282%29_%28cropped%29.jpg/1280px-Atr_72-600_Berjaya_Air_MSN_1733_ATR_Highline_%282%29_%28cropped%29.jpg", imageAlt: "Berjaya Air ATR 72-600", description: "All-business ATR 72-600 HighLine, delivered in May 2026, used on the Subang–Koh Samui and Subang–Medan charters." },
+      { model: "Global 5000", manufacturer: "Bombardier", count: 1, passengers: "16 (executive)", range: "5,200 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/9M-TAN_%2830541622093%29.jpg/1280px-9M-TAN_%2830541622093%29.jpg", imageAlt: "Berjaya Air Global 5000", description: "Long-range business jet used for executive charter from Subang." },
+      { model: "Global 6500", manufacturer: "Bombardier", count: 1, passengers: "17 (executive)", range: "6,600 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bombardier_Global_6500_N650SS_FDK_MD2.jpg/1280px-Bombardier_Global_6500_N650SS_FDK_MD2.jpg", imageAlt: "Bombardier Global 6500", description: "Longer-range Global acquired in May 2025, the first of the type on the Malaysian register." },
+    ],
+    hubs: [a.SZB],
+    routes: [
+      route("SZB", "RDN"), route("XSP", "RDN"), route("PEN", "RDN"),
+      route("SZB", "USM"), route("SZB", "KNO"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
