@@ -70,6 +70,12 @@ export const airports: Record<string, Airport> = {
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
+  SZB: { code: "SZB", name: "Sultan Abdul Aziz Shah", city: "Subang", country: "Malaysia", lat: 3.1311, lng: 101.5481 },
+  RDN: { code: "RDN", name: "Redang Airport", city: "Redang", country: "Malaysia", lat: 5.7653, lng: 103.0069 },
+  PEN: { code: "PEN", name: "Penang International", city: "Penang", country: "Malaysia", lat: 5.2971, lng: 100.2769 },
+  XSP: { code: "XSP", name: "Seletar Airport", city: "Singapore", country: "Singapore", lat: 1.4190, lng: 103.8658 },
+  USM: { code: "USM", name: "Samui Airport", city: "Ko Samui", country: "Thailand", lat: 9.5478, lng: 100.0622 },
+  KNO: { code: "KNO", name: "Kualanamu International", city: "Medan", country: "Indonesia", lat: 3.6422, lng: 98.8853 },
 
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
