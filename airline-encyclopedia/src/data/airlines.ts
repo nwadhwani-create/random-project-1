@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "buddha-air",
+    name: "Buddha Air",
+    iataCode: "U4",
+    icaoCode: "BHA",
+    country: "Nepal",
+    founded: 1996,
+    headquarters: "Jawalakhel, Lalitpur",
+    alliance: "None",
+    logoColor: "#0C3C6E",
+    accentColor: "#C69214",
+    history: `Buddha Air was established on 23 April 1996 as a private company by Surendra Bahadur Basnet, a retired Supreme Court judge and former government minister, and his son Birendra Bahadur Basnet. The name comes from the Sanskrit title Buddha, used for Siddhartha Gautama. Flying began on 11 October 1997 with a Mount Everest sightseeing flight from Kathmandu on a new Beechcraft 1900D. The airline is headquartered at Jawalakhel in Lalitpur and keeps its main base at Tribhuvan International Airport.\n\nThe 1900D fleet grew to seven aircraft within a decade. A 2008 loan from the International Finance Corporation paid for the first ATR 42s, and the first 72-seat ATR 72 arrived in June 2010. Buddha Air was Nepal's largest domestic carrier by passengers carried in 2023. In July 2026 it introduced the country's first ATR 72-600, configured for 70 seats, and still has two more of that type on order.\n\nScheduled flying is built around Kathmandu, with Pokhara International as a secondary hub. Domestic routes reach cities from the Terai to the hills, and the only current international cities are Varanasi and Kolkata. Kathmandu–Kolkata, first flown in May 2019 and suspended in December 2019, resumed on 19 October 2025 with three weekly ATR 72 services. Seasonal charters with Drukair in 2001 and later flying to Paro have ended, as has the short-lived Lucknow service. Separate mountain flights still leave Kathmandu for the Everest range and Pokhara for the Annapurna massif, returning to the same airport.`,
+    fleet: [
+      { model: "42-300", manufacturer: "ATR", count: 1, passengers: "47 (1-class)", range: "459 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Buddha_Air_ATR_42-300.jpg/1280px-Buddha_Air_ATR_42-300.jpg", imageAlt: "Buddha Air ATR 42-300", description: "Short-body turboprop kept for thinner domestic sectors, seating 47." },
+      { model: "72-500", manufacturer: "ATR", count: 15, passengers: "72 (1-class)", range: "772 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Buddha_Air_ATR_72-500_on_finals_into_Tribhuvan_International.jpg/1280px-Buddha_Air_ATR_72-500_on_finals_into_Tribhuvan_International.jpg", imageAlt: "Buddha Air ATR 72-500", description: "Mainline turboprop for domestic Nepal and the Kathmandu–India routes, seating 72." },
+      { model: "72-600", manufacturer: "ATR", count: 1, passengers: "70 (1-class)", range: "758 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Buddha_Air_ATR-72.JPG/1280px-Buddha_Air_ATR-72.JPG", imageAlt: "Buddha Air ATR 72", description: "Nepal's first ATR 72-600, delivered in July 2026 and configured for 70 passengers." },
+    ],
+    hubs: [a.KTM, a.PHH],
+    routes: [
+      route("KTM", "PHH"), route("KTM", "BDP"), route("KTM", "BWA"), route("KTM", "BHR"),
+      route("KTM", "BIR"), route("KTM", "SKH"), route("KTM", "DHI"), route("KTM", "JKR"),
+      route("KTM", "SIF"), route("KTM", "KEP"), route("KTM", "RJB"), route("KTM", "TMI"),
+      route("KTM", "CCU"), route("KTM", "VNS"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
