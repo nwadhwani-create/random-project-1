@@ -598,6 +598,27 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "yeti-airlines",
+    name: "Yeti Airlines",
+    iataCode: "YT",
+    icaoCode: "NYT",
+    country: "Nepal",
+    founded: 1998,
+    headquarters: "Kathmandu, Nepal",
+    alliance: "None",
+    logoColor: "#0A3268",
+    accentColor: "#E10600",
+    history: `Yeti Airlines was established in May 1998 by Ang Tshering Sherpa and received its air operator's certificate on 17 August 1998. Based in Kathmandu, the carrier began flying with two de Havilland Canada DHC-6 Twin Otters and grew into one of Nepal's main domestic airlines, with its hub at Tribhuvan International Airport.\n\nIn 2009 Yeti created the subsidiary Tara Air and moved its short-takeoff mountain flying, including the Twin Otters and Dornier 228s, to that company. Yeti itself concentrated on trunk routes with larger turboprops. A 2007 international joint venture with Air Arabia, marketed as Fly Yeti, stopped operating in 2008 amid political uncertainty. In 2014 the group launched Himalaya Airlines as a separate international carrier. Since 2013 the European Commission has kept Nepalese airlines off the list of carriers allowed into EU airspace; that restriction was still in place as of June 2025.\n\nIn 2019 the United Nations Development Programme recognized Yeti as the first carbon-neutral airline in Nepal and South Asia. Late in 2023 Asian Life Insurance acquired a 49 percent stake, and the airline has since prepared for a public share offering. As of 2024 Yeti was Nepal's second-largest domestic carrier by passengers carried and third-largest by fleet size. Its fleet as of August 2025 is seven ATR 72-500s, each seating 70 passengers, linking Kathmandu with Pokhara, Bhairahawa, Biratnagar, Bhadrapur, Nepalgunj, and Janakpur. One ATR 72-500 was lost on 15 January 2023, when Flight 691 crashed on approach to Pokhara International Airport.`,
+    fleet: [
+      { model: "72-500", manufacturer: "ATR", count: 7, passengers: "70 (1-class)", range: "772 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Yeti_Air_ATR_72-500_9N-ALN.jpg/1280px-Yeti_Air_ATR_72-500_9N-ALN.jpg", imageAlt: "Yeti Airlines ATR 72-500", description: "ATR 72-500 turboprop seating 70 passengers on Yeti's trunk domestic routes from Kathmandu." },
+    ],
+    hubs: [a.KTM],
+    routes: [
+      route("KTM", "PHH"), route("KTM", "BWA"), route("KTM", "BIR"),
+      route("KTM", "BDP"), route("KTM", "JKR"), route("KTM", "KEP"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {

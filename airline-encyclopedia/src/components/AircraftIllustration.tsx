@@ -23,6 +23,7 @@ function getCategory(model: string): AircraftCategory {
   if (/B777|777/i.test(model)) return "widebody-large";
   if (/B787|787|A350|A330|A340|B767|767/i.test(model)) return "widebody";
   if (/A220/i.test(model)) return "regional";
+  if (/72-500/i.test(model)) return "regional";
   return "narrowbody";
 }
 
