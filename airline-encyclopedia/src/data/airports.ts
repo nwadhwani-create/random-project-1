@@ -94,4 +94,12 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  KTM: { code: "KTM", name: "Tribhuvan International", city: "Kathmandu", country: "Nepal", lat: 27.6964, lng: 85.3589 },
+  PHH: { code: "PHH", name: "Pokhara International", city: "Pokhara", country: "Nepal", lat: 28.1897, lng: 84.0149 },
+  BWA: { code: "BWA", name: "Gautam Buddha International", city: "Bhairahawa", country: "Nepal", lat: 27.5056, lng: 83.4161 },
+  BIR: { code: "BIR", name: "Biratnagar Airport", city: "Biratnagar", country: "Nepal", lat: 26.4814, lng: 87.2639 },
+  BDP: { code: "BDP", name: "Bhadrapur Airport", city: "Bhadrapur", country: "Nepal", lat: 26.5706, lng: 88.0794 },
+  JKR: { code: "JKR", name: "Janakpur Airport", city: "Janakpur", country: "Nepal", lat: 26.7086, lng: 85.9222 },
+  KEP: { code: "KEP", name: "Nepalgunj Airport", city: "Nepalgunj", country: "Nepal", lat: 28.1036, lng: 81.6669 },
 };
