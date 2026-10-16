@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "shree-airlines",
+    name: "Shree Airlines",
+    iataCode: "N9",
+    icaoCode: "SHA",
+    country: "Nepal",
+    founded: 1999,
+    headquarters: "Sinamangal, Kathmandu",
+    alliance: "None",
+    logoColor: "#9B1C2C",
+    accentColor: "#E23B3B",
+    history: `Shree Airlines is a privately owned Nepalese carrier based in Sinamangal, Kathmandu. Banwari Lal Mittal founded the company in the 1990s; it was first incorporated as Air Ananya, named for his granddaughter, and later flew as Shree Air. The helicopter side grew into Nepal's largest, built around Mil Mi-17s that flew relief and charter work, including World Food Programme and Nepal Food Corporation deliveries that moved more than 8 million kilograms of food into remote districts. From 2008 to 2014 the airline also flew long-term United Nations peacekeeping charters in Uganda. That contract ended after ICAO recorded a significant safety concern against Nepalese airlines, and several Mi-17s remained in Africa. On 23 September 2006 a chartered Shree Air Mi-8 crashed shortly after leaving Ghunsa, killing all 24 people on board, including conservationists Chandra Gurung and Harka Gurung.\n\nIn 2016 the company committed about NPR 2 billion to fixed-wing flying and brought in its first jets for scheduled domestic service from Tribhuvan International Airport, marketed as Shree Airlines. Chairman Sudhir Mittal's airline sells seats through the High Flyer Club. Its IATA code is N9 and its ICAO designator is SHA, with the radio call sign SHREEAIR. During the COVID-19 pandemic it flew charter services to Singapore, its first international flying, and it still offers international charter and air-ambulance work alongside the domestic schedule. Like every other carrier under Nepalese oversight, Shree Airlines remains on the European Union air-safety list and cannot operate to the EU.\n\nAs of August 2025 the scheduled fixed-wing fleet reported by Airliner World was nine aircraft: two 50-seat Bombardier CRJ200ERs and seven De Havilland Canada Dash 8-400s with 12 business seats and 68 economy seats. That total matches the airline's listed fleet size of nine. Helicopters, including Mi-17s and Eurocopter AS350 B3es, stay outside the scheduled city-pair network. As of June 2024 the published schedule linked Kathmandu with Bhairahawa, Biratnagar, Dhangadhi, Nepalgunj, Pokhara, Birendranagar, and Bharatpur. Tribhuvan is the only hub. In 2024 Shree ranked as Nepal's third-largest domestic airline by passengers carried and the second-largest by fleet size.`,
+    fleet: [
+      { model: "CRJ200ER", manufacturer: "Bombardier", count: 2, passengers: "50 (1-class)", range: "1,700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Shree_Airlines.jpg", imageAlt: "Shree Airlines CRJ at Tribhuvan", description: "50-seat regional jet on trunk domestic sectors from Kathmandu. The CRJ200 column of the family range table tops out at 1,700 nautical miles." },
+      { model: "Dash 8-400", manufacturer: "De Havilland Canada", count: 7, passengers: "80 (2-class)", range: "1,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Shree_Airlines_De_Havilland_Canada_Dash_8-400_aircraft_-_(9N-ANE)_Taking_off_from_Tribhuvan_International_Airport_(TIA)-070A2297.jpg", imageAlt: "Shree Airlines Dash 8-400", description: "High-speed turboprop that makes up most of the scheduled fleet, laid out with 12 business seats and 68 in economy." },
+    ],
+    hubs: [a.KTM],
+    routes: [
+      route("KTM", "BWA"), route("KTM", "BIR"), route("KTM", "DHI"), route("KTM", "KEP"),
+      route("KTM", "PHH"), route("KTM", "SKH"), route("KTM", "BHR"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
