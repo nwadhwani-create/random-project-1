@@ -71,6 +71,15 @@ export const airports: Record<string, Airport> = {
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
 
+  KTM: { code: "KTM", name: "Tribhuvan International", city: "Kathmandu", country: "Nepal", lat: 27.6964, lng: 85.3589 },
+  PHH: { code: "PHH", name: "Pokhara International", city: "Pokhara", country: "Nepal", lat: 28.1897, lng: 84.0149 },
+  BWA: { code: "BWA", name: "Gautam Buddha International", city: "Bhairahawa", country: "Nepal", lat: 27.5056, lng: 83.4161 },
+  BIR: { code: "BIR", name: "Biratnagar Airport", city: "Biratnagar", country: "Nepal", lat: 26.4814, lng: 87.2639 },
+  DHI: { code: "DHI", name: "Dhangadhi Airport", city: "Dhangadhi", country: "Nepal", lat: 28.7533, lng: 80.5819 },
+  KEP: { code: "KEP", name: "Nepalgunj Airport", city: "Nepalgunj", country: "Nepal", lat: 28.1036, lng: 81.6669 },
+  SKH: { code: "SKH", name: "Surkhet Airport", city: "Birendranagar", country: "Nepal", lat: 28.5858, lng: 81.6358 },
+  BHR: { code: "BHR", name: "Bharatpur Airport", city: "Bharatpur", country: "Nepal", lat: 27.6781, lng: 84.4294 },
+
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
   AKL: { code: "AKL", name: "Auckland Airport", city: "Auckland", country: "New Zealand", lat: -37.0082, lng: 174.7850 },
