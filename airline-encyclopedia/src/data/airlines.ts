@@ -598,6 +598,29 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "himalaya-airlines",
+    name: "Himalaya Airlines",
+    iataCode: "H9",
+    icaoCode: "HIM",
+    country: "Nepal",
+    founded: 2014,
+    headquarters: "Gairidhara, Kathmandu",
+    alliance: "None",
+    logoColor: "#0A3D6E",
+    accentColor: "#F15A24",
+    history: `Himalaya Airlines was founded on August 19, 2014, as a joint venture between Yeti World Investment, an affiliate of the Yeti Airlines Group, and Tibet Airlines. It was the group's second attempt at a Nepali international carrier after Fly Yeti closed in 2008, and the second Sino-Nepali airline after Flying Dragon Airlines. Tibet Airlines held 49 percent and Yeti World Investment the rest. Proving flights used a Jetstream 41 leased from Yeti in February 2015, and the April 2015 earthquake pushed the launch back.\n\nThe first Airbus A320 arrived on March 9, 2016, and scheduled flying began on May 31, 2016, between Kathmandu and Doha. Early services to Colombo and Yangon were soon dropped. The network then concentrated on the Gulf and, ahead of Visit Nepal 2020, on mainland China. In October 2019 Himalaya became the only Nepali airline linking Kathmandu with Beijing Daxing. China flights stopped in February 2020, and from March 2020 the scheduled network was grounded while the airline flew evacuation charters.\n\nIn September 2019 Tibet Airlines transferred its stake to Tibet Civil Aviation Development and Investment, and the dark-blue livery gave way to an orange-and-blue scheme. Zhou Enyong is president, with Vijay Shrestha as vice president. The airline is headquartered in Gairidhara, Kathmandu, and remains on the European Union air-safety list. The August 2025 Airliner World census lists one Airbus A319-100 and three A320-200s in service; two further A319s were still on order and are not counted here.\n\nWikipedia's November 2023 destination table still lists Dhaka, Lhasa, Kuwait City, Kuala Lumpur, Doha, Dammam, Riyadh, and Dubai from Kathmandu without a terminated mark. On June 4, 2026, Himalaya restarted scheduled Kathmandu–Shenzhen flights, twice weekly, with an 180-seat A320. Pokhara and Bhairahawa remain marked terminated on that table, so the planned Pokhara–Lhasa link is not included.`,
+    fleet: [
+      { model: "A319-100", manufacturer: "Airbus", count: 1, passengers: "144 (1-class)", range: "3,750 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/9N-AJK_at_Tribhuvan_International_Airport.jpg/1280px-9N-AJK_at_Tribhuvan_International_Airport.jpg", imageAlt: "Himalaya Airlines A319-100", description: "Single A319-100 used on thinner international sectors from Kathmandu. Range is the A319 sharklet figure for a typical passenger load." },
+      { model: "A320-200", manufacturer: "Airbus", count: 3, passengers: "180 (1-class)", range: "3,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Himalaya_Airlines_A320_%2C_VGHS_2023.jpg/1280px-Himalaya_Airlines_A320_%2C_VGHS_2023.jpg", imageAlt: "Himalaya Airlines A320-200", description: "Core narrowbody for Gulf, South Asian, and Chinese routes, including the June 2026 Shenzhen service. Range is the A320 sharklet figure for a typical passenger load." },
+    ],
+    hubs: [a.KTM],
+    routes: [
+      route("KTM", "DAC"), route("KTM", "LXA"), route("KTM", "SZX"), route("KTM", "KUL"),
+      route("KTM", "KWI"), route("KTM", "DOH"), route("KTM", "DMM"), route("KTM", "RUH"),
+      route("KTM", "DXB"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
