@@ -94,4 +94,14 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  SKT: { code: "SKT", name: "Sialkot International", city: "Sialkot", country: "Pakistan", lat: 32.5356, lng: 74.3639 },
+  ISB: { code: "ISB", name: "Islamabad International", city: "Islamabad", country: "Pakistan", lat: 33.5491, lng: 72.8257 },
+  KHI: { code: "KHI", name: "Jinnah International", city: "Karachi", country: "Pakistan", lat: 24.9067, lng: 67.1608 },
+  LHE: { code: "LHE", name: "Allama Iqbal International", city: "Lahore", country: "Pakistan", lat: 31.5214, lng: 74.4033 },
+  PEW: { code: "PEW", name: "Bacha Khan International", city: "Peshawar", country: "Pakistan", lat: 33.9939, lng: 71.5144 },
+  KDU: { code: "KDU", name: "Skardu International", city: "Skardu", country: "Pakistan", lat: 35.3394, lng: 75.5414 },
+  MUX: { code: "MUX", name: "Multan International", city: "Multan", country: "Pakistan", lat: 30.2033, lng: 71.4192 },
+  MCT: { code: "MCT", name: "Muscat International", city: "Muscat", country: "Oman", lat: 23.5933, lng: 58.2844 },
+  DMM: { code: "DMM", name: "King Fahd International", city: "Dammam", country: "Saudi Arabia", lat: 26.4712, lng: 49.7986 },
 };
