@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "airsial",
+    name: "AirSial",
+    iataCode: "PF",
+    icaoCode: "SIF",
+    country: "Pakistan",
+    founded: 2017,
+    headquarters: "Sialkot, Pakistan",
+    alliance: "None",
+    logoColor: "#0A4F38",
+    accentColor: "#2E9E4F",
+    history: `AirSial is a private airline based in Sialkot, Punjab, created so the city's exporters would not have to connect through Karachi or Lahore for every flight. The Sialkot Chamber of Commerce and Industry promoted the project, and the company was registered as Air Sial Limited. Pakistan granted it a regular public-transport licence in October 2017. Early talk of a 2018 launch slipped; the board did not approve the first leases until August 2019, when chairman Fazal Jilani and chief executive Ameen Ahsan signed with AerCap for three Airbus A320-200s.\n\nThose aircraft arrived in November and December 2020. AP-BOA landed at Karachi on 29 November, AP-BOB at Sialkot on 5 December, and AP-BOC at Karachi on 11 December. Prime Minister Imran Khan inaugurated the airline at Sialkot International Airport on 9 December 2020, before any scheduled flight had operated. Service began on 25 December 2020, when PF121 left Karachi for Islamabad in the morning. A daily Karachi–Lahore flight opened the same day. Both routes still appear on the Karachi and Islamabad airport schedules.\n\nInternational flying started on 29 March 2023 with Jeddah, then Muscat from June 2023. Islamabad–Riyadh was added from late October 2024. On 2 June 2025 AirSial opened Dubai, seven flights a week from Islamabad and two from Lahore. Abu Dhabi flights from Islamabad and Lahore followed in December 2025. The airline has since listed Sialkot flights to Dammam, Dubai, Jeddah, Karachi, and Muscat, Karachi flights to Peshawar, a Multan–Jeddah service, and Islamabad–Skardu after a May 2026 announcement. Sukkur and seasonal Medina appear on the airline's destination list without a confirmed city pair, and a Peshawar–Jeddah flight announced for 17 November 2026 had not started by mid-October. A Quetta listing rests on a November 2020 preview and is not on the current destination table.\n\nThe fleet grew with more A320-200 leases, including two from BOC Aviation in 2022 and two from Dubai Aerospace Enterprise in September 2025. A Boeing 737-800 wet-leased from Tailwind Airlines in 2024 went back in 2025, and an Airbus A330-200 wet-leased from Hi Fly Malta in November 2025 was returned. As of September 2026, AirSial has 12 A320-200s in service, each with 180 all-economy seats and no seat-back screens. Two A320neos are on order for 2028 and are not in the flying fleet. Sialkot is the only hub.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 12, passengers: "180 (1-class)", range: "3,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/07/AirSial_Airbus_A320_interior.jpg", imageAlt: "AirSial Airbus A320 all-economy cabin", description: "AirSial's only in-service type. Each A320-200 seats 180 in a single-class 3-3 cabin without in-flight entertainment, and flies domestic trunk routes plus services to the Gulf." },
+    ],
+    hubs: [a.SKT],
+    routes: [
+      route("SKT", "KHI"), route("SKT", "JED"), route("SKT", "DXB"), route("SKT", "DMM"), route("SKT", "MCT"),
+      route("ISB", "KHI"), route("ISB", "DXB"), route("ISB", "AUH"), route("ISB", "JED"), route("ISB", "RUH"),
+      route("ISB", "DMM"), route("ISB", "MCT"), route("ISB", "KDU"),
+      route("KHI", "LHE"), route("KHI", "PEW"), route("KHI", "JED"),
+      route("LHE", "DXB"), route("LHE", "AUH"),
+      route("MUX", "JED"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
