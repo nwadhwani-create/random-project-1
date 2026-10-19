@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "fly-jinnah",
+    name: "Fly Jinnah",
+    iataCode: "9P",
+    icaoCode: "FJL",
+    country: "Pakistan",
+    founded: 2021,
+    headquarters: "Karachi, Pakistan",
+    alliance: "None",
+    logoColor: "#9A3412",
+    accentColor: "#EA580C",
+    history: `Fly Jinnah is a Karachi-based low-cost carrier owned jointly by Pakistan's Lakson Group and the Air Arabia Group of the United Arab Emirates. The joint venture was announced on 3 September 2021. Iqbal Ali Lakhani, chairman of the Lakson Group, chairs the airline. Fly Jinnah uses the IATA code 9P, the ICAO code FJL, and the call sign OKAAB. Its frequent-flyer program is AirRewards.\n\nScheduled domestic flying began on 31 October 2022 with a flight from Karachi to Islamabad. In October 2023, Pakistan's Federal Cabinet approved international flying on the recommendation of the Ministry of Aviation. In 2024 Fly Jinnah was among the parties that filed a statement of qualifications in the privatisation process for Pakistan International Airlines.\n\nAs of the September 2026 fleet table, Fly Jinnah operates nine Airbus A320-200s in a 174-seat all-economy cabin, two of them wet-leased from Air Arabia. Two Airbus A320neo aircraft remain on order through Air Arabia and are not yet in service. Karachi is the hub, with Islamabad and Lahore as operating bases. The published network links those cities with Sialkot, Faisalabad, Multan, Peshawar, and Quetta, and with Manama, Dammam, Jeddah, Riyadh, Dubai, and Sharjah.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 9, passengers: "174 (1-class)", range: "3,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Fly_Jinnah_logo2.png", imageAlt: "Fly Jinnah logo", description: "All-economy narrowbody used on domestic Pakistani routes and on flights to the Gulf. Two of the nine aircraft are wet-leased from Air Arabia." },
+    ],
+    hubs: [a.KHI, a.ISB, a.LHE],
+    routes: [
+      route("KHI", "ISB"), route("KHI", "LHE"), route("KHI", "LYP"), route("KHI", "MUX"),
+      route("KHI", "PEW"), route("KHI", "UET"), route("KHI", "SKT"), route("KHI", "JED"),
+      route("ISB", "LHE"), route("ISB", "UET"), route("ISB", "BAH"), route("ISB", "DMM"),
+      route("ISB", "JED"), route("ISB", "RUH"), route("ISB", "SHJ"),
+      route("LHE", "UET"), route("LHE", "DMM"), route("LHE", "DXB"), route("LHE", "RUH"),
+      route("LHE", "SHJ"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
