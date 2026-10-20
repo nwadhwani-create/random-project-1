@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "turkmenistan-airlines",
+    name: "Turkmenistan Airlines",
+    iataCode: "T5",
+    icaoCode: "TUA",
+    country: "Turkmenistan",
+    founded: 1992,
+    headquarters: "Ashgabat, Turkmenistan",
+    alliance: "None",
+    logoColor: "#0D5C38",
+    accentColor: "#2FA36A",
+    history: `Turkmenistan Airlines is the flag carrier of Turkmenistan, headquartered on Hero of Turkmenistan Atamyrat Nyýazow Avenue in Ashgabat. The state-owned airline was founded on 4 May 1992. That year it became the first carrier in the former Soviet Union to buy a Boeing 737-300. Turkmenistan joined ICAO in April 1993, and the first Ilyushin Il-76 cargo flight left Ashgabat for Brest on 19 April 1993. Its call sign is TURKMENISTAN.\n\nFrom 2001 the airline replaced Soviet-era types with Boeing 717s on domestic routes. A Boeing 737-700 was shown in Ashgabat in April 2009, and that September Boeing announced an order for three more. In the 2000s the tail changed from blue to green while keeping the encircled falcon mark. In 2017 the air-transport arm of the Türkmenhowaýollary state service became the open joint-stock company Turkmenistan Airlines.\n\nEASA suspended the airline's permission to fly in the European Union on 4 February 2019. Flights to the United Kingdom, France, and Germany stopped, then resumed that December. International passenger flying was suspended in March 2020 during the COVID-19 pandemic, with foreign arrivals diverted to Turkmenabat or Türkmenbaşy, and a wider restart followed in 2022. The first Airbus A330-200P2F freighters arrived in spring 2023, the first of the type in Central Asia. The first 368-seat Boeing 777-300ER entered service in December 2023 on Ashgabat–Bangkok and replaced the Boeing 757-200. Milan, Ho Chi Minh City, Jeddah, and Kuala Lumpur were added in 2024. Flights to the new Balkanabat International Airport began in May 2025, and Ashgabat–Seoul began in July 2025. In 2025 the airline carried 2.2 million passengers.\n\nThe passenger fleet counted here is the February 2025 in-service Boeing list: four 737-700s, eight 737-800s, two 777-200LRs, and two 777-300ERs. Four 737 MAX 8s on order are excluded. The published fleet total of 25 also includes VIP aircraft and freighters that are not part of this passenger gallery. Routes are the current passenger cities on the May 2025 destination list, plus Seoul. Ashgabat is the only hub. Turkmenabat and Türkmenbaşy are focus cities.`,
+    fleet: [
+      { model: "B737-700", manufacturer: "Boeing", count: 4, passengers: "126–149", range: "3,010 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Turkmenistan_Boeing_737-700_KvW-1.jpg", imageAlt: "Turkmenistan Airlines Boeing 737-700", description: "Narrowbody for domestic and shorter international routes, flown in a 126-seat two-class layout and a 149-seat all-economy layout. Range is the 126-passenger Boeing figure." },
+      { model: "B737-800", manufacturer: "Boeing", count: 8, passengers: "160 (2-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/50/Turkmenistan_Boeing_737-800_KvW-3.jpg", imageAlt: "Turkmenistan Airlines Boeing 737-800", description: "Largest passenger type in the fleet, with 16 business and 144 economy seats, used on domestic and medium-haul routes." },
+      { model: "B777-200LR", manufacturer: "Boeing", count: 2, passengers: "291 (2-class)", range: "8,555 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bb/EZ-A778_%2824210878627%29.jpg", imageAlt: "Turkmenistan Airlines Boeing 777-200LR", description: "Long-range widebody with 28 business and 263 economy seats. Range is Boeing's 317-passenger figure for the 777-200LR." },
+      { model: "B777-300ER", manufacturer: "Boeing", count: 2, passengers: "368 (3-class)", range: "7,370 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a4/EZ-A782%40PEK_%2820241215151523%29.jpg", imageAlt: "Turkmenistan Airlines Boeing 777-300ER", description: "Former Cathay Pacific aircraft used on the longest passenger routes, including Bangkok and London, with 40 business, 32 premium economy, and 296 economy seats." },
+    ],
+    hubs: [a.ASB],
+    routes: [
+      route("ASB", "BKN"), route("ASB", "TAZ"), route("ASB", "KEA"), route("ASB", "MYP"), route("ASB", "CRZ"), route("ASB", "KRW"),
+      route("ASB", "PEK"), route("ASB", "DEL"), route("ASB", "BKK"), route("ASB", "KUL"), route("ASB", "ICN"), route("ASB", "SGN"),
+      route("ASB", "IST"), route("ASB", "MXP"), route("ASB", "FRA"), route("ASB", "LGW"), route("ASB", "KZN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
