@@ -94,4 +94,15 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  ASB: { code: "ASB", name: "Ashgabat International", city: "Ashgabat", country: "Turkmenistan", lat: 37.9869, lng: 58.3608 },
+  BKN: { code: "BKN", name: "Balkanabat International", city: "Balkanabat", country: "Turkmenistan", lat: 39.6783, lng: 54.2078 },
+  TAZ: { code: "TAZ", name: "Dashoguz International", city: "Dashoguz", country: "Turkmenistan", lat: 41.7647, lng: 59.8331 },
+  KEA: { code: "KEA", name: "Kerki International", city: "Kerki", country: "Turkmenistan", lat: 37.8233, lng: 65.1400 },
+  MYP: { code: "MYP", name: "Mary International", city: "Mary", country: "Turkmenistan", lat: 37.6067, lng: 61.9014 },
+  CRZ: { code: "CRZ", name: "Türkmenabat International", city: "Türkmenabat", country: "Turkmenistan", lat: 38.9308, lng: 63.5639 },
+  KRW: { code: "KRW", name: "Türkmenbaşy International", city: "Türkmenbaşy", country: "Turkmenistan", lat: 40.0500, lng: 53.0000 },
+  MXP: { code: "MXP", name: "Milan Malpensa", city: "Milan", country: "Italy", lat: 45.6300, lng: 8.7231 },
+  KZN: { code: "KZN", name: "Kazan International", city: "Kazan", country: "Russia", lat: 55.6067, lng: 49.2817 },
+  SGN: { code: "SGN", name: "Tan Son Nhat International", city: "Ho Chi Minh City", country: "Vietnam", lat: 10.8189, lng: 106.6519 },
 };
