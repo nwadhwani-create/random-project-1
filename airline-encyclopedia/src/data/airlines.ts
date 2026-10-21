@@ -598,6 +598,31 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "somon-air",
+    name: "Somon Air",
+    iataCode: "SZ",
+    icaoCode: "SMR",
+    country: "Tajikistan",
+    founded: 2007,
+    headquarters: "Dushanbe, Tajikistan",
+    alliance: "None",
+    logoColor: "#0A3A66",
+    accentColor: "#E87722",
+    history: `Somon Air, legally Air Company Somon Air LLC, is a private airline of Tajikistan headquartered in Dushanbe and based at Dushanbe International Airport. It was founded in 2007 and began scheduled service on 5 February 2008 with flights to Moscow. Its call sign is SOMON AIR. The airline also carries the President of Tajikistan and other senior officials. Abdulkosim Valiev is chief executive.\n\nIn August 2009 Somon Air joined IATA's Billing and Settlement Plan. It joined the Multilateral Interline Traffic Agreement in April 2013 and the IATA Clearing House in June 2013, and became an IATA member in September 2017. A training center opened at the Dushanbe headquarters in July 2019. On 18 December 2019 the airline received Tajikistan's Brand of the Year award. The first Boeing 737-800 arrived on 30 August 2022 and the second on 8 September 2022.\n\nIn 2025 Boeing and Somon Air announced the carrier's largest order, covering 737-8s and 787-9s. The first 737 MAX 8, named Abu Ali ibn Sino, arrived on 27 July 2026, and the second, named Rudaki, on 12 September 2026. Both are leased from DAE Capital. Further 737 MAX 8s and four 787-9s remain on order and are not in this gallery.\n\nThe passenger fleet counted here is the October 2026 in-service list: four 737-800s with 189 economy seats, two 737-900ERs with 16 business and 168 economy seats, and two 737 MAX 8s whose cabin the fleet table still lists as TBA. Those cells sum to 8. The infobox and the fleet table's total row still say 6, the count before the two MAX deliveries. Dushanbe is the only hub. Khujand is a focus city. Routes are cited city pairs from the Dushanbe and Khujand airport pages and from 2023–2026 launch and resume reports. Cities marked citation-needed or terminated, including Almaty, Astana, Doha, Islamabad, Istanbul, Tashkent, Trabzon, and Vnukovo, are omitted.`,
+    fleet: [
+      { model: "B737-800", manufacturer: "Boeing", count: 4, passengers: "189 (1-class)", range: "2,935 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/69/Somon_Air_29.11.0830.jpg", imageAlt: "Somon Air Boeing 737", description: "All-economy narrowbody for domestic and medium-haul routes. Range is Boeing's 162-passenger figure for the 737-800." },
+      { model: "B737-900ER", manufacturer: "Boeing", count: 2, passengers: "184 (2-class)", range: "2,950 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Boeing_737-93YER%2C_Somon_Air_JP7353317.jpg", imageAlt: "Somon Air Boeing 737-900ER", description: "Largest passenger type in the fleet, with 16 business and 168 economy seats. Range is Boeing's 178-passenger figure for the 737-900ER." },
+      { model: "B737 MAX 8", manufacturer: "Boeing", count: 2, passengers: "178 (Boeing typical)", range: "3,550 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/69/Somon_Air_29.11.0830.jpg", imageAlt: "Somon Air Boeing 737", description: "Delivered in 2026 and leased from DAE Capital. Abu Ali ibn Sino arrived on 27 July and Rudaki on 12 September. The October 2026 fleet table leaves seating as TBA, so the passenger figure is Boeing's standard two-class layout for the 737-8, not an airline seat map. Range is Boeing's published 737 MAX 8 figure." },
+    ],
+    hubs: [a.DYU],
+    routes: [
+      route("DYU", "LBD"), route("DYU", "BSZ"), route("DYU", "DEL"), route("DYU", "DXB"), route("DYU", "JED"),
+      route("DYU", "KJA"), route("DYU", "MRV"), route("DYU", "MSQ"), route("DYU", "DME"), route("DYU", "MUC"),
+      route("DYU", "OVB"), route("DYU", "TBS"), route("DYU", "IKA"), route("DYU", "URC"),
+      route("LBD", "URC"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {

@@ -94,4 +94,16 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  DYU: { code: "DYU", name: "Dushanbe International Airport", city: "Dushanbe", country: "Tajikistan", lat: 38.5350, lng: 68.8181 },
+  LBD: { code: "LBD", name: "Khujand International Airport", city: "Khujand", country: "Tajikistan", lat: 40.2153, lng: 69.6947 },
+  BSZ: { code: "BSZ", name: "Manas International Airport", city: "Bishkek", country: "Kyrgyzstan", lat: 43.0611, lng: 74.4764 },
+  KJA: { code: "KJA", name: "Krasnoyarsk International Airport", city: "Krasnoyarsk", country: "Russia", lat: 56.1717, lng: 92.4933 },
+  MRV: { code: "MRV", name: "Mineralnye Vody Airport", city: "Mineralnye Vody", country: "Russia", lat: 44.2250, lng: 43.0819 },
+  MSQ: { code: "MSQ", name: "Minsk National Airport", city: "Minsk", country: "Belarus", lat: 53.8825, lng: 28.0325 },
+  DME: { code: "DME", name: "Moscow Domodedovo Airport", city: "Moscow", country: "Russia", lat: 55.4086, lng: 37.9061 },
+  OVB: { code: "OVB", name: "Tolmachevo Airport", city: "Novosibirsk", country: "Russia", lat: 55.0125, lng: 82.6506 },
+  TBS: { code: "TBS", name: "Tbilisi International Airport", city: "Tbilisi", country: "Georgia", lat: 41.6692, lng: 44.9547 },
+  IKA: { code: "IKA", name: "Imam Khomeini International Airport", city: "Tehran", country: "Iran", lat: 35.4161, lng: 51.1522 },
+  URC: { code: "URC", name: "Ürümqi Tianshan International Airport", city: "Ürümqi", country: "China", lat: 43.9072, lng: 87.4742 },
 };
