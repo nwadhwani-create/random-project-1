@@ -598,6 +598,30 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "vietjet-qazaqstan",
+    name: "VietJet Qazaqstan",
+    iataCode: "IQ",
+    icaoCode: "QAZ",
+    country: "Kazakhstan",
+    founded: 2015,
+    headquarters: "Astana, Kazakhstan",
+    alliance: "None",
+    logoColor: "#C8102E",
+    accentColor: "#F5C400",
+    history: `VietJet Qazaqstan is the name Qazaq Air has flown under since 2025. Samruk-Kazyna, Kazakhstan's sovereign wealth fund, established the airline on 1 April 2015 to serve thinner domestic routes. The carrier was presented in Astana on 6 July 2015, and its first scheduled flight, Almaty to Astana, departed on 27 August 2015.\n\nThe operation has stayed with the De Havilland Canada Dash 8-400. The first three aircraft arrived in 2015 on lease from Falcon Aviation Services of Abu Dhabi, and two more, delivered in the first half of 2019, brought the fleet to five. In July 2017 the airline flew its first international service, a charter from Almaty to Tamchy on Lake Issyk-Kul. In November 2018 it became the third Kazakh carrier to pass the IATA Operational Safety Audit. That year it carried about 307,000 passengers on 14 routes linking 12 cities in Kazakhstan.\n\nOn 6 May 2025 Samruk-Kazyna completed the sale of a controlling stake. Shareholders are now Samruk-Kazyna with 49 percent, Central Asia Aviation Holdings Limited with 49 percent, and Kazasia Holdings Limited with 2 percent. Central Asia Aviation Holdings is part of Vietnam's Sovico Group, the main shareholder of VietJet Air, which makes VietJet Qazaqstan VietJet's second airline outside Vietnam after Thai VietJet. Adilbek Umraliyev became chairman of the management board in October 2025. The call sign remains SAMRUK, and the frequent-flyer programme is IQ Bonus. Across its first ten years the airline reported more than 4 million passengers and more than 66,000 flights, including about 601,000 passengers in 2024.\n\nScheduled flying is based at Nursultan Nazarbayev International Airport in Astana. The 2026 network links Astana with other Kazakh cities and with Bishkek, Samarkand, Novosibirsk, and Omsk, alongside a few point-to-point sectors and subsidised domestic routes. Astana–Omsk resumed on 16 October 2026. VietJet has assigned Boeing 737 MAX 8s from its order book to the Kazakh affiliate; those jets are not in the July 2026 in-service fleet, which is still five Dash 8-400s.`,
+    fleet: [
+      { model: "Dash 8-400", manufacturer: "De Havilland Canada", count: 5, passengers: "76–86 (1-class)", range: "1,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/UP-DH004_%D0%A4%D0%BB%D0%BE%D1%82_QAZAQ_AIR.jpg/960px-UP-DH004_%D0%A4%D0%BB%D0%BE%D1%82_QAZAQ_AIR.jpg", imageAlt: "VietJet Qazaqstan Dash 8-400", description: "Regional turboprop for domestic Kazakh routes and short international sectors. The five aircraft, UP-DH001 through UP-DH005, seat 76, 78, or 86 passengers." },
+    ],
+    hubs: [a.NQZ],
+    routes: [
+      route("NQZ", "ALA"), route("NQZ", "AKX"), route("NQZ", "BSZ"), route("NQZ", "DZN"),
+      route("NQZ", "OVB"), route("NQZ", "OMS"), route("NQZ", "UKK"), route("NQZ", "PPK"),
+      route("NQZ", "KSN"), route("NQZ", "KZO"), route("NQZ", "SKD"), route("NQZ", "CIT"),
+      route("NQZ", "TDK"), route("NQZ", "HSA"),
+      route("HSA", "KSN"), route("CIT", "DZN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
