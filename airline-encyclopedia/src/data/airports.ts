@@ -94,4 +94,9 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  CMB: { code: "CMB", name: "Bandaranaike International", city: "Colombo", country: "Sri Lanka", lat: 7.1811, lng: 79.8836 },
+  DAC: { code: "DAC", name: "Hazrat Shahjalal International", city: "Dhaka", country: "Bangladesh", lat: 23.8428, lng: 90.4006 },
+  MLE: { code: "MLE", name: "Velana International", city: "Malé", country: "Maldives", lat: 4.1917, lng: 73.5289 },
+  AMD: { code: "AMD", name: "Sardar Vallabhbhai Patel International", city: "Ahmedabad", country: "India", lat: 23.0772, lng: 72.6347 },
 };
