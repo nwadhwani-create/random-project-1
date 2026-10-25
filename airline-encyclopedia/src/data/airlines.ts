@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "fitsair",
+    name: "FitsAir",
+    iataCode: "8D",
+    icaoCode: "EXV",
+    country: "Sri Lanka",
+    founded: 1997,
+    headquarters: "Colombo, Sri Lanka",
+    alliance: "None",
+    logoColor: "#0C2340",
+    accentColor: "#E31C3D",
+    history: `FitsAir, legally FITS Aviation (Pvt) Limited, is a Sri Lankan airline based in Colombo and owned by Aberdeen Holdings. It began in 1997 as Expo Aviation, concentrating on air cargo, including flying under contract for logistics companies and cargo services that reached the Maldives, Bangladesh, and Thailand. In 2013 the company took the FITS Aviation name and the FitsAir brand. Its radio call sign is still EXPOAVIA. In 2019 it opened a flight-training academy at Ratmalana Airport with the approval of the Civil Aviation Authority of Sri Lanka.\n\nAirbus A320 aircraft joined the fleet in 2021. Scheduled international passenger service started in 2022 on Colombo–Dubai; the inaugural flight was reported on 26 September 2022. Colombo–Chennai followed in February 2023, and Colombo–Dhaka opened in March 2024. In May 2023 the airline said it had carried more than 50,000 passengers in the first six months of those international passenger flights.\n\nIn April 2025 FitsAir started Colombo–Kuala Lumpur and, on 25 April 2025, introduced business class on its regional network. Dhaka became a daily flight from 18 August 2025. In January 2026 the Civil Aviation Authority of Sri Lanka certified FitsAir as an Approved Training Organisation for in-house Airbus A320 pilot training. Direct Colombo–Ahmedabad flights began on 19 June 2026. In July 2026 the A320 registered 4R-EXQ was returned to its lessor.\n\nThe September 2026 published schedule lists passenger flights from Bandaranaike International Airport to Dhaka, Malé, and Ahmedabad. Dubai is marked suspended until 19 November 2026, and Chennai is marked to resume on 24 November 2026, so neither city is in the current network. Kuala Lumpur and Lahore are terminated. FitsAir is not a member of a global alliance. It interlines with Air Astana, APG Airlines, and Hahn Air.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 2, passengers: "164 (2-class)", range: "3,350 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/4R-EXR_A320_2026-02-18_KUL_FitsAir_9N1A3854psnb3.jpg/1280px-4R-EXR_A320_2026-02-18_KUL_FitsAir_9N1A3854psnb3.jpg", imageAlt: "FitsAir A320-200", description: "Sole in-service type as of September 2026. Two A320-200s, 4R-EXR and 4R-EXS, seat 164. A third A320, 4R-EXQ, left the fleet in July 2026. Range is the sharklet typical-passenger figure from the A320 specifications column." },
+    ],
+    hubs: [a.CMB],
+    routes: [
+      route("CMB", "DAC"),
+      route("CMB", "MLE"),
+      route("CMB", "AMD"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
