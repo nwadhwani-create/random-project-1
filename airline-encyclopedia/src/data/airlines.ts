@@ -598,6 +598,28 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "ryukyu-air-commuter",
+    name: "Ryukyu Air Commuter",
+    iataCode: "RC",
+    icaoCode: "RAC",
+    country: "Japan",
+    founded: 1985,
+    headquarters: "Naha, Okinawa",
+    alliance: "None",
+    logoColor: "#9B1C2C",
+    accentColor: "#E23B3B",
+    history: `Ryukyu Air Commuter was established on December 24, 1985, with investment from the Okinawa prefectural government and local businesses. It received its air transport license the next year and began scheduled flying on February 17, 1987, with a nine-seat Britten-Norman BN-2B Islander between Naha and the Kerama Islands. A Naha–Aguni service followed on December 20, 1989.\n\nIn November 1992 the airline took over two 19-seat De Havilland Canada DHC-6 Twin Otters from Japan Transocean Air, then still flying as Southwest Air Lines, and started reaching islands beyond Naha. The 39-seat Dash 8-100 arrived in 1997 and opened Naha–Yoron and Naha–Kumejima the same year. Larger Dash 8 variants followed. In 2015 the airline ordered five Dash 8 Q400 passenger-cargo combis and became the launch operator of that variant when the aircraft were delivered in 2016. The last Dash 8 Q300 flight was on January 31, 2018.\n\nJapan Transocean Air owns 74.5 percent of the carrier, with smaller stakes held by Okinawa Prefecture and the island municipalities of Minamidaitō, Kumejima, and Kitadaitō. Susumu Namihira is president and chief executive. Ryukyu Air Commuter is not a member of a global alliance. From Naha it links the Daito Islands, Kumejima, Miyako, Yonaguni, and Yoron in the Amami Islands, and it also flies Miyako–Ishigaki, Miyako–Tarama, and Ishigaki–Yonaguni. Kerama, Hateruma, and Amami are no longer on the network.`,
+    fleet: [
+      { model: "Dash 8-400 Combi", manufacturer: "De Havilland Canada", count: 5, passengers: "50 + cargo", range: "1,100 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/63/Ryukyu_Air_Commuter_Bombardier_DHC8-Q400CC_%28JA82RC%29_%28cropped%29.jpg", imageAlt: "Ryukyu Air Commuter Dash 8 Q400 Combi", description: "Passenger-cargo combi used on Okinawa's island routes, with a 50-seat cabin and a freight hold. Ryukyu Air Commuter was the launch operator of this Q400 combi variant." },
+    ],
+    hubs: [a.OKA],
+    routes: [
+      route("OKA", "KTD"), route("OKA", "UEO"), route("OKA", "MMD"), route("OKA", "MMY"),
+      route("OKA", "OGN"), route("OKA", "RNJ"),
+      route("MMY", "ISG"), route("MMY", "TRA"), route("ISG", "OGN"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {

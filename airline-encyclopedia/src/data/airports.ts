@@ -94,4 +94,14 @@ export const airports: Record<string, Airport> = {
   CMN: { code: "CMN", name: "Mohammed V International", city: "Casablanca", country: "Morocco", lat: 33.3675, lng: -7.5898 },
   LOS: { code: "LOS", name: "Murtala Muhammed International", city: "Lagos", country: "Nigeria", lat: 6.5774, lng: 3.3212 },
   ACC: { code: "ACC", name: "Kotoka International", city: "Accra", country: "Ghana", lat: 5.6052, lng: -0.1668 },
+
+  OKA: { code: "OKA", name: "Naha Airport", city: "Naha", country: "Japan", lat: 26.1958, lng: 127.6458 },
+  ISG: { code: "ISG", name: "Ishigaki Airport", city: "Ishigaki", country: "Japan", lat: 24.3964, lng: 124.2450 },
+  KTD: { code: "KTD", name: "Kitadaito Airport", city: "Kitadaito", country: "Japan", lat: 25.9447, lng: 131.3269 },
+  UEO: { code: "UEO", name: "Kumejima Airport", city: "Kumejima", country: "Japan", lat: 26.3636, lng: 126.7139 },
+  MMD: { code: "MMD", name: "Minami-Daito Airport", city: "Minami-Daito", country: "Japan", lat: 25.8467, lng: 131.2636 },
+  MMY: { code: "MMY", name: "Miyako Airport", city: "Miyakojima", country: "Japan", lat: 24.7828, lng: 125.2950 },
+  TRA: { code: "TRA", name: "Tarama Airport", city: "Tarama", country: "Japan", lat: 24.6539, lng: 124.6753 },
+  OGN: { code: "OGN", name: "Yonaguni Airport", city: "Yonaguni", country: "Japan", lat: 24.4675, lng: 122.9797 },
+  RNJ: { code: "RNJ", name: "Yoron Airport", city: "Yoron", country: "Japan", lat: 27.0439, lng: 128.4017 },
 };
