@@ -28,6 +28,7 @@ const regionMap: Record<string, string> = {
   Japan: "Asia-Pacific",
   "South Korea": "Asia-Pacific",
   "Hong Kong": "Asia-Pacific",
+  Kyrgyzstan: "Asia-Pacific",
   Australia: "Oceania",
   Ethiopia: "Africa",
 };
