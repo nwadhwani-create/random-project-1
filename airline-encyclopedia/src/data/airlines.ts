@@ -598,6 +598,36 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "avia-traffic-company",
+    name: "Avia Traffic Company",
+    iataCode: "YK",
+    icaoCode: "AVJ",
+    country: "Kyrgyzstan",
+    founded: 2003,
+    headquarters: "Bishkek, Kyrgyzstan",
+    alliance: "None",
+    logoColor: "#0B3D73",
+    accentColor: "#D71920",
+    history: `Avia Traffic Company is a Kyrgyz scheduled airline based in Bishkek. It was founded in 2003 as Avia Traffic Company, LLC, and flies under the IATA code YK, the ICAO code AVJ, and the call sign ATOMIC. The head office is in Bishkek, and scheduled flying is built around Manas International Airport. Karim Fiatovich Damin is the airline's general director.\n\nFor more than two decades the carrier operated under the European Union restriction that applied to every airline certified in Kyrgyzstan. In June 2026 the European Commission removed all Kyrgyz airlines from the EU Air Safety List, ending a ban that had lasted about twenty years.\n\nThe passenger fleet published in the September 2025 Airliner World guide is six aircraft: two Airbus A320s with 180 seats and four Boeing 737-300s with 149 seats. Both types fly the Bishkek–Osh trunk and routes into Russia. On 22 November 2015, Flight 768, a Boeing 737-300 registered EX-37005, landed hard at Osh. The landing gear collapsed, the aircraft left the runway, and eight people were injured. That airframe was destroyed and is not part of the current fleet.\n\nFrom Manas, the airline links Bishkek with Osh, Moscow Domodedovo, Kazan, Krasnoyarsk, Novosibirsk, and Saint Petersburg. From Osh it also flies to Krasnoyarsk, Novosibirsk, Saint Petersburg, and Yekaterinburg. A Bishkek–Moscow Domodedovo flight was still being reported in April 2026. Avia Traffic Company also holds an interline agreement with Hahn Air.`,
+    fleet: [
+      { model: "A320-200", manufacturer: "Airbus", count: 2, passengers: "180 (1-class)", range: "3,300 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Avia_Traffic_Company%2C_EX-32005%2C_Airbus_A320-231_%2830595963384%29_%282%29.jpg", imageAlt: "Avia Traffic Company A320-200", description: "High-density Airbus narrowbody used on Bishkek–Osh and longer flights into Russia. The published typical range is 3,300 nmi with 150 passengers." },
+      { model: "B737-300", manufacturer: "Boeing", count: 4, passengers: "149 (1-class)", range: "2,255 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Osh_03-2016_img01_airport.jpg", imageAlt: "Avia Traffic Company Boeing 737-300 at Osh", description: "Classic Boeing narrowbody that makes up most of the in-service fleet. Range is Boeing's 737-300 figure at 126 passengers." },
+    ],
+    hubs: [a.BSZ],
+    routes: [
+      route("BSZ", "OSS"),
+      route("BSZ", "DME"),
+      route("BSZ", "KZN"),
+      route("BSZ", "KJA"),
+      route("BSZ", "OVB"),
+      route("BSZ", "LED"),
+      route("OSS", "KJA"),
+      route("OSS", "OVB"),
+      route("OSS", "LED"),
+      route("OSS", "SVX"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
