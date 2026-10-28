@@ -68,6 +68,13 @@ export const airports: Record<string, Airport> = {
   DEL: { code: "DEL", name: "Indira Gandhi International", city: "Delhi", country: "India", lat: 28.5562, lng: 77.1000 },
   BOM: { code: "BOM", name: "Chhatrapati Shivaji Maharaj International", city: "Mumbai", country: "India", lat: 19.0896, lng: 72.8656 },
   TPE: { code: "TPE", name: "Taiwan Taoyuan International", city: "Taipei", country: "Taiwan", lat: 25.0797, lng: 121.2342 },
+  KHH: { code: "KHH", name: "Kaohsiung International Airport", city: "Kaohsiung", country: "Taiwan", lat: 22.5769, lng: 120.3500 },
+  TTT: { code: "TTT", name: "Taitung Airport", city: "Taitung", country: "Taiwan", lat: 22.7547, lng: 121.1017 },
+  MZG: { code: "MZG", name: "Penghu Airport", city: "Magong", country: "Taiwan", lat: 23.5667, lng: 119.6300 },
+  GNI: { code: "GNI", name: "Green Island Airport", city: "Green Island", country: "Taiwan", lat: 22.6736, lng: 121.4664 },
+  KYD: { code: "KYD", name: "Lanyu Airport", city: "Lanyu", country: "Taiwan", lat: 22.0294, lng: 121.5272 },
+  CMJ: { code: "CMJ", name: "Qimei Airport", city: "Qimei", country: "Taiwan", lat: 23.2131, lng: 119.4175 },
+  WOT: { code: "WOT", name: "Wang-an Airport", city: "Wang-an", country: "Taiwan", lat: 23.3674, lng: 119.5023 },
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
 

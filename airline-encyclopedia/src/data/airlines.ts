@@ -598,6 +598,30 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "daily-air",
+    name: "Daily Air",
+    iataCode: "DA",
+    icaoCode: "DAC",
+    country: "Taiwan",
+    founded: 1992,
+    headquarters: "Songshan, Taipei",
+    alliance: "None",
+    logoColor: "#0B3A6E",
+    accentColor: "#E87722",
+    history: `Daily Air Corporation (德安航空) is a Taiwanese regional airline headquartered in Songshan District, Taipei. It was established in 1992 as a helicopter operator. Fixed-wing passenger flights began on 8 June 2005. The airline's scheduled work is the short hops to Taiwan's offshore islands, alongside separate helicopter contract and charter flying.\n\nKaohsiung is the hub and Taitung is the focus city. The current scheduled network is five city pairs: Taitung to Green Island and to Lanyu, Kaohsiung to Qimei and to Wang-an, and Magong to Qimei. Passenger flights use four DHC-6 Twin Otters. Two BK 117 helicopters are part of the airline's overall fleet of six and stay on contract work, outside this scheduled network.`,
+    fleet: [
+      { model: "DHC-6", manufacturer: "De Havilland Canada", count: 4, passengers: "19 (1-class)", range: "700 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Daily_Air_logo.png", imageAlt: "Daily Air logo", description: "Twin Otter used on Daily Air's offshore-island flights. The August 2025 fleet table lists four DHC-6s seating 19 and does not split the series; 700 nmi is the Series 300 figure with a 2,500 lb payload." },
+    ],
+    hubs: [a.KHH],
+    routes: [
+      route("TTT", "GNI"),
+      route("TTT", "KYD"),
+      route("KHH", "CMJ"),
+      route("KHH", "WOT"),
+      route("MZG", "CMJ"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
