@@ -71,6 +71,11 @@ export const airports: Record<string, Airport> = {
   MNL: { code: "MNL", name: "Ninoy Aquino International", city: "Manila", country: "Philippines", lat: 14.5086, lng: 121.0197 },
   CGK: { code: "CGK", name: "Soekarno-Hatta International", city: "Jakarta", country: "Indonesia", lat: -6.1256, lng: 106.6558 },
 
+  DAC: { code: "DAC", name: "Hazrat Shahjalal International", city: "Dhaka", country: "Bangladesh", lat: 23.8428, lng: 90.4006 },
+  CGP: { code: "CGP", name: "Shah Amanat International", city: "Chattogram", country: "Bangladesh", lat: 22.2497, lng: 91.8133 },
+  CXB: { code: "CXB", name: "Cox's Bazar Airport", city: "Cox's Bazar", country: "Bangladesh", lat: 21.4519, lng: 91.9639 },
+  ZYL: { code: "ZYL", name: "Osmani International", city: "Sylhet", country: "Bangladesh", lat: 24.9633, lng: 91.8669 },
+
   SYD: { code: "SYD", name: "Sydney Kingsford Smith", city: "Sydney", country: "Australia", lat: -33.9399, lng: 151.1753 },
   MEL: { code: "MEL", name: "Melbourne Tullamarine", city: "Melbourne", country: "Australia", lat: -37.6690, lng: 144.8410 },
   AKL: { code: "AKL", name: "Auckland Airport", city: "Auckland", country: "New Zealand", lat: -37.0082, lng: 174.7850 },

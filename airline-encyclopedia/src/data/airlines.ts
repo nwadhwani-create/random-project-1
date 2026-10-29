@@ -598,6 +598,26 @@ export const airlines: Airline[] = [
       route("ADD", "LOS"), route("ADD", "ACC"), route("ADD", "GRU"), route("ADD", "BOG"),
     ],
   },
+  {
+    slug: "air-astra",
+    name: "Air Astra",
+    iataCode: "2A",
+    icaoCode: "AWA",
+    country: "Bangladesh",
+    founded: 2021,
+    headquarters: "Uttara, Dhaka",
+    alliance: "None",
+    logoColor: "#0B3A6E",
+    accentColor: "#E2A31A",
+    history: `Air Astra is a privately owned airline of Bangladesh, based at Hazrat Shahjalal International Airport in Dhaka. Corporate offices are at Siaam Tower in Uttara, and the company is part of Astra Airways Limited. Imran Asif is chief executive.\n\nThe airline was formed in 2021 and was first expected to start flying in January 2022. It received an air operator certificate and, in November 2022, approval to begin commercial flights. On 24 November 2022 Air Astra became the first new private airline in Bangladesh since 2013, opening with three daily flights on Dhaka–Cox's Bazar and three daily flights on Dhaka–Chattogram.\n\nDhaka–Sylhet started on 23 February 2023. The published network is domestic, and Dhaka is the only hub. As of August 2025 the in-service fleet is six ATR 72-600 turboprops in a 70-seat all-economy cabin. Further ATR 72-600s, and jet types listed only as orders, are not in service.`,
+    fleet: [
+      { model: "72-600", manufacturer: "ATR", count: 6, passengers: "70 (1-class)", range: "758 nmi", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/S2-STA_-_ATR_72-600_%2872-212A%29_-_Air_Astra_-_1311_-_VGHS.jpg/1280px-S2-STA_-_ATR_72-600_%2872-212A%29_-_Air_Astra_-_1311_-_VGHS.jpg", imageAlt: "Air Astra ATR 72-600", description: "Turboprop used on Air Astra's domestic routes from Dhaka. Seventy seats is the airline's single-class layout; range is the ATR 72-600 maximum-passenger figure." },
+    ],
+    hubs: [a.DAC],
+    routes: [
+      route("DAC", "CGP"), route("DAC", "CXB"), route("DAC", "ZYL"),
+    ],
+  },
 ];
 
 export function getAirlineBySlug(slug: string): Airline | undefined {
